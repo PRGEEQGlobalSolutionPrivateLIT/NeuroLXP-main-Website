@@ -1,0 +1,3551 @@
+/* Compliance & Security: original visual styles; responsive layout below. */
+
+.complianceSecurity {
+  background-color: #dfe6e9;
+  text-align: left;
+  font-size: 36px;
+  color: #31344b;
+  font-family: "Inter", "Segoe UI";
+  box-sizing: border-box;
+}
+
+.frameParent {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 720px);
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 80px;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: "Inter", "Segoe UI";
+}
+
+.frameChild {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: 1096px;
+  width: 132px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frameGroup {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  width: 1376px;
+  height: 45px;
+  flex-shrink: 0;
+}
+
+.logo01SynapseSpark1Parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.logo01SynapseSpark1Icon {
+  height: 45px;
+  width: 120px;
+  position: relative;
+  object-fit: cover;
+}
+
+.frameContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.home {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.arrowDown01Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+
+.featuresParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2d4cc8;
+}
+
+.features {
+  position: relative;
+  line-height: 24px;
+}
+
+.signInHelpWrapper {
+  position: absolute;
+  top: calc(50% - 22.5px);
+  left: 1244px;
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  width: 132px;
+  height: 44px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #2d4cc8;
+  font-family: "Inter", "Segoe UI";
+}
+
+.signInHelp {
+  width: 97px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.frameItem {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  width: 1429px;
+  height: 592.4px;
+  flex-shrink: 0;
+}
+
+.frameInner {
+  position: absolute;
+  top: 76px;
+  left: 4px;
+  width: 1436px;
+  height: 839px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frameDiv {
+  font-size: 16px;
+  color: #2f3547;
+  font-family: "Inter", "Segoe UI";
+}
+
+.learningEcoSystem {
+  letter-spacing: 0.02em;
+  line-height: 24px;
+}
+
+.arrowRightDoubleGroup {
+  color: #243fa8;
+}
+
+.complianceSecurityInner {
+  text-align: center;
+  font-size: 48px;
+}
+
+.frameIcon {
+  width: 309.1px;
+  height: 50.2px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.secureLearningSmarterContainer {
+  letter-spacing: 0.03em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.greaterConfidence {
+  color: #2d4cc8;
+}
+
+.neurolxpCombinesCompliance {
+  letter-spacing: 0.03em;
+  color: #2f3547;
+}
+
+.frameParent5 {
+  text-align: left;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+.frameChild2 {
+  height: 60.2px;
+  width: 200px;
+  position: relative;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.frameWrapper3 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  border-radius: 8px;
+  background-color: #dfe6e9;
+  box-sizing: border-box;
+}
+
+.startLearning {
+  font-weight: 600;
+}
+
+.frameParent6 {
+  box-sizing: border-box;
+}
+
+.complianceTrainingBadge {
+  background: #dfe6e9;
+  box-sizing: border-box;
+  color: #2d4cc8;
+  letter-spacing: 0.02em;
+}
+
+.structuredTrainingFor {
+  color: #31344b;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.neurolxpDeliversStructured {
+  color: #2f3547;
+  letter-spacing: 0.02em;
+}
+
+.complianceStatus {
+  height: 60px;
+  border-radius: 32px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px;
+  box-sizing: border-box;
+  font-size: 21px;
+  line-height: 1;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.complianceStatusBlue {
+  color: #2d4cc8;
+}
+
+.complianceStatusPurple {
+  color: #67096e;
+}
+
+.complianceStatusPink {
+  color: #bf1869;
+}
+
+.complianceStatusGold {
+  color: #907507;
+}
+
+.frameWrapper4 {
+  border-radius: 32px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4;
+}
+
+.frameWrapper4::before {
+  content: "";
+  position: absolute;
+  inset: 16px;
+  border-radius: 24px;
+  box-shadow: inset -4px -4px 4px rgba(255,255,255,.9), inset 8px 8px 16px rgba(196,196,196,.9);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.frameChild8 {
+  border-radius: 24px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.frameParent13 {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.smartComplianceBadge {
+  background: #dfe6e9;
+  box-sizing: border-box;
+  color: #2d4cc8;
+  letter-spacing: 0.02em;
+}
+
+.centralizeMonitorStayContainer {
+  color: #31344b;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.centralizeMonitor {
+  color: #31344b;
+}
+
+.stayReady {
+  color: #2d4cc8;
+}
+
+.simplifyComplianceTraining {
+  color: #2f3547;
+  letter-spacing: 0.02em;
+}
+
+.smartComplianceCard {
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 10px 10px 20px #c4c4c4;
+}
+
+.smartComplianceCardInner {
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 8px 8px 16px #c4c4c4;
+  box-sizing: border-box;
+}
+
+.smartComplianceIconShadow {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.95), inset 6px 6px 10px rgba(196, 196, 196, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.smartComplianceIconCircle {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.smartCompliancePink {
+  background-color: #bf1869;
+}
+
+.smartCompliancePurple {
+  background-color: #67096e;
+}
+
+.smartComplianceGold {
+  background-color: #907507;
+}
+
+.smartComplianceTeal {
+  background-color: #046f73;
+}
+
+.smartComplianceOrange {
+  background-color: #c05512;
+}
+
+.smartComplianceIcon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.smartComplianceCardTitle {
+  margin: 0;
+  color: #111111;
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.frameParent24 {
+  text-align: center;
+}
+
+.industrySpecificCompliance {
+  letter-spacing: 0.03em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frameParent26 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.frameChild15 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 100px;
+  background-color: #dfe6e9;
+}
+
+.frameWrapper23 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 100px;
+  background-color: #dfe6e9;
+  border: 1px solid #bf1869;
+  box-sizing: border-box;
+}
+
+.workplaceSafetyWrapper {
+  background-color: #bf1869;
+}
+
+.workplaceSafety {
+  letter-spacing: 0.02em;
+  line-height: 36px;
+}
+
+.healthSafetyAnd {
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #2f3547;
+  white-space: pre-wrap;
+}
+
+.frameWrapper24 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 100px;
+  background-color: #dfe6e9;
+}
+
+.dataPrivacyWrapper {
+  background-color: #046f73;
+}
+
+.dataProtectionAnd {
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #2f3547;
+  white-space: pre-wrap;
+}
+
+.corporateEthicsWrapper {
+  background-color: #2d4cc8;
+}
+
+.corporateEthics {
+  letter-spacing: 0.02em;
+  line-height: 36px;
+}
+
+.codeOfConduct {
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #2f3547;
+}
+
+.workplaceConductWrapper {
+  background-color: #67096e;
+}
+
+.workplaceConduct {
+  letter-spacing: 0.02em;
+  line-height: 36px;
+}
+
+.antiHarassmentAndWorkplace {
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #2f3547;
+}
+
+.financialComplianceWrapper {
+  background-color: #c05512;
+}
+
+.financialCompliance {
+  letter-spacing: 0.02em;
+  line-height: 36px;
+}
+
+.sustainabilityWrapper {
+  background-color: #907507;
+}
+
+.frameChild21 {
+  width: 408.7px;
+  height: 50.3px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+}
+
+.engagingComplianceBadge {
+  background: #dfe6e9;
+  box-sizing: border-box;
+  color: #2d4cc8;
+  letter-spacing: 0.02em;
+}
+
+.makeMandatoryTrainingContainer {
+  letter-spacing: 0.03em;
+}
+
+.makeMandatoryTrainingContainer2 {
+  width: 100%;
+}
+
+.makeComplianceLearning {
+  letter-spacing: 0.03em;
+  color: #2f3547;
+}
+
+.frameParent45 {
+  font-size: 20px;
+  color: #2f3547;
+}
+
+.frameWrapper30 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: 2px dashed #bf1869;
+  box-sizing: border-box;
+}
+
+.mandatoryIconBox {
+  width: 88px;
+  height: 88px;
+  flex: 0 0 88px;
+  border-radius: 18px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 8px 8px 16px #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mandatoryIcon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.frameChild22 {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.scenarioBasedLearning {
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.frameWrapper31 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: 2px dashed #2d4cc8;
+  box-sizing: border-box;
+}
+
+.frameWrapper32 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: 2px dashed #67096e;
+  box-sizing: border-box;
+}
+
+.frameWrapper33 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: 2px dashed #046f73;
+  box-sizing: border-box;
+}
+
+.frameWrapper34 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: 2px dashed #907507;
+  box-sizing: border-box;
+}
+
+.frameParent54 {
+  text-align: center;
+}
+
+.frameChild27 {
+  width: 465.2px;
+  height: 50.4px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.frameParent57 {
+  text-align: left;
+  font-size: 24px;
+}
+
+.frameChild28 {
+  height: 70.1px;
+  width: 70.1px;
+  position: relative;
+}
+
+.courseCompletionRates {
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.frameParent60 {
+  text-align: center;
+}
+
+.certificationStatus {
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.assessmentPerformance {
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.trainingParticipation {
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.frameChild32 {
+  height: 70.1px;
+  width: 70.1px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.departmentComplianceMetrics {
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.frameWrapper39 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 50px;
+  background-color: #dfe6e9;
+}
+
+.frameParent65 {
+  box-shadow: -8px -8px 16px #fff inset, 8px 8px 16px #c4c4c4 inset;
+  border-radius: 8px;
+  background-color: #dfe6e9;
+}
+
+.frameChild33 {
+  width: 444.1px;
+  height: 50.3px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+}
+
+.maintainVerifiableTraining {
+  letter-spacing: 0.03em;
+}
+
+.issueDigitalCertificates {
+  letter-spacing: 0.03em;
+  color: #2f3547;
+}
+
+.rectangleIcon {
+  object-fit: cover;
+}
+
+.complianceSecurityItem {
+  position: absolute;
+  top: 5100.02px;
+  left: 257.6px;
+  width: 1105.2px;
+  height: 100px;
+  transform: rotate(90.6deg);
+  transform-origin: 0 0;
+}
+
+.frameParent68 {
+  text-align: center;
+}
+
+.frameChild34 {
+  width: 257.1px;
+  height: 50.2px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.frameParent71 {
+  text-align: left;
+  font-size: 24px;
+}
+
+.frameChild35 {
+  height: 2362px;
+  width: 108.1px;
+  position: relative;
+}
+
+.frameWrapper45 {
+  box-shadow: -4px -4px 8px #fff inset, 4px 4px 8px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  box-sizing: border-box;
+}
+
+.frameChild36 {
+  position: absolute;
+  top: -11.75px;
+  left: -1.29px;
+  width: 720.1px;
+  height: 85.6px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.frameWrapper46 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  border-right: 3px solid #bf1869;
+  border-left: 3px solid #bf1869;
+  box-sizing: border-box;
+}
+
+.encryptedDataStorage {
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.protectionOfLearner {
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.secureManagementOf {
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.frameWrapper48 {
+  box-shadow: -4px -4px 8px #fff inset, 4px 4px 8px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  box-sizing: border-box;
+}
+
+.frameWrapper50 {
+  box-sizing: border-box;
+}
+
+.frameChild40 {
+  align-self: stretch;
+  height: 85.6px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.frameChild41 {
+  width: 644.1px;
+  height: 43px;
+  object-fit: contain;
+}
+
+.frameWrapper51 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  border-right: 3px solid #2d4cc8;
+  border-left: 3px solid #2d4cc8;
+  box-sizing: border-box;
+}
+
+.controlViewingEditing {
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.frameChild45 {
+  position: absolute;
+  top: -11.75px;
+  left: -1.29px;
+  width: 933.1px;
+  height: 86px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.frameWrapper54 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  border-right: 3px solid #67096e;
+  border-left: 3px solid #67096e;
+  box-sizing: border-box;
+}
+
+.frameWrapper57 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  border-right: 3px solid #c05512;
+  border-left: 3px solid #c05512;
+  box-sizing: border-box;
+}
+
+.frameWrapper60 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  border-right: 3px solid #2a7308;
+  border-left: 3px solid #2a7308;
+  box-sizing: border-box;
+}
+
+.frameParent99 {
+  text-align: center;
+}
+
+.neurolxpEnablesSecure {
+  letter-spacing: 0.03em;
+  color: #2f3547;
+}
+
+.frameParent101 {
+  font-size: 24px;
+}
+
+.frameChild57 {
+  position: absolute;
+  top: 0px;
+  left: -1.5px;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #fff;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  width: 286px;
+  height: 161px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.universities {
+  line-height: 36px;
+}
+
+.corporateTraining {
+  line-height: 36px;
+}
+
+.financialServices {
+  line-height: 36px;
+}
+
+.complianceSecurityInner3 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.frameChild73 {
+  width: 188.7px;
+  height: 50.1px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+}
+
+.secureLearningSmarterContainer2 {
+  letter-spacing: 0.03em;
+}
+
+.smarterCompliance {
+  color: #2d4cc8;
+}
+
+.neurolxpHelpsOrganizations {
+  letter-spacing: 0.03em;
+  color: #2f3547;
+}
+
+.frameParent121 {
+  position: absolute;
+  top: 8655.11px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 501px;
+  font-size: 26px;
+  color: #2f3547;
+}
+
+.frameParent122 {
+  position: absolute;
+  bottom: -0.01px;
+  left: calc(50% - 720px);
+  box-shadow: -10px -10px 20px #fff inset, 8px 8px 16px #c4c4c4 inset;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 459px;
+  overflow: hidden;
+}
+
+.frameParent123 {
+  position: absolute;
+  top: 49.81px;
+  left: 53.96px;
+  width: 1339.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.frameParent124 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+.frameParent125 {
+  width: 676px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.logo01SynapseSpark1Group {
+  width: 577px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.logo01SynapseSpark1Icon2 {
+  width: 299px;
+  height: 112px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.frameParent126 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.onePlatformParent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.onePlatform {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 34px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sparklesIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+
+.prgeeqGlobalSolutionsPrivatParent {
+  width: 459px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 16px;
+}
+
+.prgeeqGlobalSolutions {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+}
+
+.prestigeAtlanta1012Container {
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.blankLine {
+  line-height: 24px;
+}
+
+.frameParent127 {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+  flex-shrink: 0;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+.frameParent128 {
+  width: 619px;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.aboutUsParent {
+  width: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.aboutUs {
+  width: 93px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.ourMissionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 20px;
+  color: #2f3547;
+}
+
+.ourMission {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.quickLinksParent {
+  width: 207px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.quickLinks {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.neurolxpParent {
+  height: 181px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.neurolxp {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ourCustomersGroup {
+  width: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+  font-size: 20px;
+  color: #2f3547;
+}
+
+.smartContentCreation {
+  width: 229px;
+  height: 26px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frameParent129 {
+  width: 392.4px;
+  height: 80.1px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.frameChild74 {
+  height: 80.1px;
+  width: 80.1px;
+  position: relative;
+}
+
+.copyright2026 {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.03em;
+  line-height: 56px;
+  font-weight: 600;
+  color: #2d4cc8;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameWrapper66 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 720px);
+  box-shadow: -8px -8px 16px #fff inset, 10px 10px 10px #c4c4c4 inset;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 459px;
+  overflow: hidden;
+}
+
+.frameParent134 {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  isolation: isolate;
+  gap: 24px;
+  flex-shrink: 0;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+.frameParent135 {
+  width: 619px;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  z-index: 0;
+  flex-shrink: 0;
+}
+
+.ourMissionGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 18px;
+  color: #2f3547;
+}
+
+.neurolxpGroup {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.neurolxp2 {
+  height: 26px;
+  width: 103px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.neurolxpTxt {
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+.neurolxp3 {
+  line-height: 30px;
+}
+
+.span {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.tm {
+  height: 17px;
+  width: 23px;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ourCustomersContainer {
+  width: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+  font-size: 18px;
+  color: #2f3547;
+}
+
+.frameParent137 {
+  width: 392.4px;
+  height: 80.1px;
+  margin: 0 !important;
+  position: absolute;
+  top: 217.19px;
+  left: 135.04px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.frameChild78 {
+  height: 80.1px;
+  width: 80.1px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.frameChild83 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 30.07px);
+  border-radius: 32px;
+  width: 59.1px;
+  height: 92px;
+  object-fit: contain;
+}
+
+.complianceSecurityChild2 {
+  position: absolute;
+  top: 2112px;
+  left: calc(50% - 720px);
+  background: linear-gradient(90deg, #bf1869, #2d4cc8);
+  width: 1440px;
+  height: 5px;
+  overflow: hidden;
+}
+
+.frameParent {
+  z-index: 20;
+}
+
+.frameDiv {
+  z-index: 3;
+}
+
+.complianceSecurityInner {
+  z-index: 2;
+}
+
+.heroBadge {
+  box-sizing: border-box;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  letter-spacing: .02em;
+}
+
+.frameParent5 {
+  z-index: 3;
+}
+
+.heroButton {
+  border: 0;
+  border-radius: 8px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  font-family: "Inter", "Segoe UI";
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.heroButtonSecondary {
+  color: #2d4cc8;
+}
+
+.heroButtonPrimary {
+  color: #2d4cc8;
+}
+
+.heroButton:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 4px;
+}
+
+.heroButton:active {
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px #c6c6c9;
+}
+
+.complianceSecurity > .complianceSecurityChild {
+  object-fit: fill !important;
+}
+
+.frameParent42 {
+  box-sizing: border-box;
+}
+
+.frameWrapper30,
+.frameWrapper31,
+.frameWrapper32,
+.frameWrapper33,
+.frameWrapper34 {
+  box-sizing: border-box;
+  background: #dfe6e9;
+}
+
+.frameParent48,
+.frameParent49 {
+  box-sizing: border-box;
+}
+
+.mandatoryIconBox {
+  width: 88px;
+  height: 88px;
+  flex: 0 0 88px;
+}
+
+.mandatoryIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.scenarioBasedLearning {
+  font-size: 20px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.frameParent54 {
+  box-sizing: border-box;
+}
+
+.realTimeHeader {
+  text-align: center;
+}
+
+.automatedTrackingBadge {
+  background: #dfe6e9;
+  box-sizing: border-box;
+  color: #2d4cc8;
+  letter-spacing: 0.02em;
+}
+
+.realTimeVisibilityTitle {
+  color: #31344b;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.realTimeVisibilityText {
+  color: #2f3547;
+  letter-spacing: 0.02em;
+}
+
+.realTimeMetrics {
+  box-sizing: border-box;
+}
+
+.realTimeMetric {
+  box-sizing: border-box;
+}
+
+.realTimeIconShadow {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.95), inset 4px 4px 4px rgba(196, 196, 196, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 82px;
+}
+
+.realTimeIconCircle {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.realTimePink {
+  background: #bf1869;
+}
+
+.realTimeBlue {
+  background: #2d4cc8;
+}
+
+.realTimePurple {
+  background: #67096e;
+}
+
+.realTimeGreen {
+  background: #2d7f16;
+}
+
+.realTimeOrange {
+  background: #c05512;
+}
+
+.realTimeIcon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.realTimeMetricTitle {
+  margin: 0;
+  color: #31344b;
+  font-size: 23px;
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.complianceSecurityInner2 {
+  box-sizing: border-box;
+}
+
+.trainingRecordsOuter {
+  border-radius: 50px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4;
+  box-sizing: border-box;
+}
+
+.trainingRecordsInner {
+  border-radius: 8px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px #c4c4c4;
+}
+
+.trainingRecordsContent {
+  box-sizing: border-box;
+}
+
+.trainingRecordsBadge {
+  background: #dfe6e9;
+  box-sizing: border-box;
+  color: #2d4cc8;
+  letter-spacing: 0.02em;
+}
+
+.maintainVerifiableTraining {
+  color: #31344b;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.issueDigitalCertificates {
+  color: #2f3547;
+  letter-spacing: 0.02em;
+}
+
+.rectangleIcon {
+  object-fit: cover;
+  object-position: center;
+}
+
+.frameParent68.learningSecuritySection {
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.learningSecurityHeader {
+  text-align: center;
+}
+
+.learningSecurityBadge {
+  background: #dfe6e9;
+  color: #2d4cc8;
+  box-sizing: border-box;
+}
+
+.learningSecurityTitle {
+  color: #31344b;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+.learningSecurityIntro {
+  color: #2f3547;
+  letter-spacing: 0.02em;
+}
+
+.securityTimeline {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding-left: 120px;
+  box-sizing: border-box;
+}
+
+.securityTimelineRail {
+  position: absolute;
+  top: 48px;
+  bottom: 48px;
+  left: 40px;
+  width: 34px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.9);
+}
+
+.securityFeature {
+  --security-color: #bf1869;
+  position: relative;
+  width: 100%;
+}
+
+.securityFeature.securityPink {
+  --security-color: #bf1869;
+}
+
+.securityFeature.securityBlue {
+  --security-color: #2d4cc8;
+}
+
+.securityFeature.securityPurple {
+  --security-color: #67096e;
+}
+
+.securityFeature.securityOrange {
+  --security-color: #c05512;
+}
+
+.securityFeature.securityGreen {
+  --security-color: #2a7308;
+}
+
+.securityTimelineIcon {
+  position: absolute;
+  top: 6px;
+  left: -120px;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4, inset 0 0 0 2px var(--security-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.securityTimelineIcon img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.securityFeatureCard {
+  width: 100%;
+  padding: 30px 32px 28px;
+  border-radius: 16px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4;
+  box-sizing: border-box;
+}
+
+.securityFeatureTitle {
+  margin: 0;
+  color: var(--security-color);
+  font-size: 26px;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.securityFeatureText {
+  margin: 14px 0 0;
+  color: #2f3547;
+  font-size: 19px;
+  line-height: 1.45;
+  letter-spacing: 0.015em;
+}
+
+.securityRoles {
+  margin: 22px 0 0;
+  color: var(--security-color);
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.securityFeatureList {
+  margin-top: 26px;
+  padding: 24px 28px;
+  border-left: 2px solid var(--security-color);
+  border-right: 2px solid var(--security-color);
+  border-radius: 14px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.85);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  box-sizing: border-box;
+}
+
+.securityFeatureItem {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  color: #31344b;
+  font-size: 21px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.securityCheck {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.securityCheck img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.securityTimelineRail {
+  top: 37px;
+  bottom: 37px;
+  left: 35px;
+  width: 48px;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  z-index: 0;
+}
+
+.securityTimelineRail::before,
+.securityTimelineRail::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 13px;
+  border-radius: 14px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.9);
+}
+
+.securityTimelineRail::before {
+  left: 4px;
+}
+
+.securityTimelineRail::after {
+  right: 4px;
+}
+
+.securityTimelineIcon {
+  top: 4px;
+  left: -126px;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.securityTimelineIcon::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.9), inset 0 0 0 2px var(--security-color);
+  z-index: 0;
+}
+
+.securityTimelineIcon img {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.securityFeature {
+  position: relative;
+  z-index: 1;
+}
+
+.securityTimeline {
+  padding-left: 126px;
+}
+
+.securityTimelineRail {
+  left: 35px;
+  width: 48px;
+}
+
+.securityTimelineRail::before {
+  left: 0;
+}
+
+.securityTimelineRail::after {
+  right: 0;
+}
+
+.securityTimelineIcon {
+  left: -108px;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.securityTimelineIcon::before {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4, inset 0 0 0 2px var(--security-color);
+}
+
+.securityTimelineIcon img {
+  position: relative;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  display: block;
+}
+
+.frameParent99.diverseOrganizationsSection {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.diverseOrganizationsTitle {
+  color: #31344b;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.22);
+}
+
+.diverseOrganizationsText {
+  color: #2f3547;
+  letter-spacing: 0.02em;
+}
+
+.diverseOrganizationCard {
+  border-radius: 38px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4;
+  box-sizing: border-box;
+}
+
+.diverseOrganizationIconOuter {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diverseOrganizationIconInner {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.85), 4px 4px 4px rgba(120, 120, 120, 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diverseOrganizationIconInner--pink {
+  background: #bf1869;
+}
+
+.diverseOrganizationIconInner--orange {
+  background: #c05512;
+}
+
+.diverseOrganizationIconInner--maroon {
+  background: #72083f;
+}
+
+.diverseOrganizationIconInner--brown {
+  background: #5a372f;
+}
+
+.diverseOrganizationIconInner--green {
+  background: #2a7d0d;
+}
+
+.diverseOrganizationIconInner--teal {
+  background: #047b80;
+}
+
+.diverseOrganizationIconInner--navy {
+  background: #26266c;
+}
+
+.diverseOrganizationIconInner--purple {
+  background: #73037c;
+}
+
+.diverseOrganizationIcon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.diverseOrganizationCardTitle {
+  margin: 0;
+  color: #31344b;
+  font-size: 27px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-align: center;
+}
+
+.complianceSecurityInner3.neurolxpClosingSection {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.neurolxpClosingBadge {
+  background: #dfe6e9;
+  box-sizing: border-box;
+  color: #2d4cc8;
+  letter-spacing: 0.03em;
+}
+
+.neurolxpClosingTitle {
+  color: #31344b;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+.neurolxpClosingText {
+  color: #2f3547;
+  letter-spacing: 0.025em;
+}
+
+.frameParent121 {
+  top: 8338px;
+}
+
+.frameParent,
+.frameParent121,
+.complianceSecurityChild2,
+.frameChild83 {
+  display: none !important;
+}
+
+.frameDiv {
+  font-family: "Inter", "Segoe UI";
+  font-size: 16px;
+  color: #2f3547;
+  z-index: 3;
+}
+
+.breadcrumbArrow {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  flex: 0 0 16px;
+}
+
+.breadcrumbCurrent {
+  color: #243fa8;
+  font-weight: 700;
+}
+
+.complianceSecurityItem {
+  display: none !important;
+}
+
+@property --compliance-ant-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.frameWrapper30,
+.frameWrapper31,
+.frameWrapper32,
+.frameWrapper33,
+.frameWrapper34 {
+  --compliance-ant-color: #bf1869;
+  border-color: transparent !important;
+  isolation: isolate;
+}
+
+.frameWrapper30::before,
+.frameWrapper31::before,
+.frameWrapper32::before,
+.frameWrapper33::before,
+.frameWrapper34::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  padding: 2px;
+  border-radius: inherit;
+  pointer-events: none;
+  background: repeating-conic-gradient(
+    from var(--compliance-ant-angle),
+    var(--compliance-ant-color) 0deg 3deg,
+    transparent 3deg 7deg
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  animation: complianceMarchingAnts 18s linear infinite;
+}
+
+@keyframes complianceMarchingAnts {
+  to {
+    --compliance-ant-angle: 360deg;
+  }
+}
+
+.mandatoryIconBox,
+.smartComplianceIconShadow,
+.realTimeIconShadow,
+.securityTimelineIcon,
+.securityCheck,
+.diverseOrganizationIconOuter,
+.diverseOrganizationIconInner {
+  position: relative;
+  overflow: hidden;
+}
+
+.mandatoryIconBox::after,
+.smartComplianceIconShadow::after,
+.realTimeIconShadow::after,
+.securityTimelineIcon::after,
+.securityCheck::after,
+.diverseOrganizationIconOuter::after,
+.diverseOrganizationIconInner::after {
+  content: "";
+  position: absolute;
+  top: -35%;
+  left: -70%;
+  width: 28%;
+  height: 170%;
+  z-index: 4;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.85),
+    transparent
+  );
+  transform: rotate(18deg);
+  animation: complianceIconShine 3s ease-in-out infinite;
+}
+
+@keyframes complianceIconShine {
+  0%,
+  18% {
+    left: -70%;
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  62% {
+    left: 135%;
+    opacity: 1;
+  }
+
+  78%,
+  100% {
+    left: 135%;
+    opacity: 0;
+  }
+}
+
+.smartComplianceCard,
+.frameParent28,
+.frameWrapper30,
+.frameWrapper31,
+.frameWrapper32,
+.frameWrapper33,
+.frameWrapper34,
+.diverseOrganizationCard,
+.frameParent103,
+.complianceStatus {
+  transition: transform 0.3s ease;
+  will-change: transform;
+}
+
+.smartComplianceCard:hover,
+.frameParent28:hover,
+.frameWrapper30:hover,
+.frameWrapper31:hover,
+.frameWrapper32:hover,
+.frameWrapper33:hover,
+.frameWrapper34:hover,
+.diverseOrganizationCard:hover,
+.frameParent103:hover,
+.complianceStatus:hover {
+  transform: translateY(-5px);
+}
+
+.mandatoryIcon,
+.smartComplianceIcon,
+.realTimeIcon,
+.securityTimelineIcon img,
+.securityCheck img,
+.diverseOrganizationIcon {
+  position: relative;
+  z-index: 2;
+}
+
+.sectionGradientDivider {
+  z-index: 2;
+}
+
+.sectionGradientDivider svg {
+  display: block;
+  width: 100%;
+  max-width: 1440px;
+  height: 5px;
+  flex-shrink: 0;
+}
+
+.frameWrapper23 {
+  border: none !important;
+}
+
+.frameParent28::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 106px;
+  border: 2px solid var(--industry-ring-color, transparent);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 5;
+}
+
+.frameParent28:hover::after {
+  opacity: 1;
+}
+
+.frameParent26 > .frameParent27:nth-of-type(1) > .frameParent28:nth-child(1) {
+  --industry-ring-color: #bf1869;
+}
+
+.frameParent26 > .frameParent27:nth-of-type(1) > .frameParent28:nth-child(2) {
+  --industry-ring-color: #046f73;
+}
+
+.frameParent26 > .frameParent27:nth-of-type(1) > .frameParent28:nth-child(3) {
+  --industry-ring-color: #2d4cc8;
+}
+
+.frameParent26 > .frameParent27:nth-of-type(2) > .frameParent28:nth-child(1) {
+  --industry-ring-color: #67096e;
+}
+
+.frameParent26 > .frameParent27:nth-of-type(2) > .frameParent28:nth-child(2) {
+  --industry-ring-color: #c05512;
+}
+
+.frameParent26 > .frameParent27:nth-of-type(2) > .frameParent28:nth-child(3) {
+  --industry-ring-color: #907507;
+}
+
+.frameParent28::after {
+  transition: none;
+}
+
+.complianceSecurityChild {
+  object-fit: fill;
+  object-position: top center;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.frameDiv {
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.complianceSecurityInner {
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.frameParent6,
+.frameParent13,
+.frameParent24,
+.frameParent41,
+.complianceSecurityInner2,
+.frameParent68,
+.frameParent99,
+.complianceSecurityInner3 {
+  box-sizing: border-box;
+}
+
+.finalSectionsFlow {
+  box-sizing: border-box;
+}
+
+.complianceSecurity {
+  box-sizing: border-box;
+}
+
+.complianceSecurity img {
+  max-width: 100%;
+}
+
+.frameParent,
+.signInHelpWrapper,
+.frameWrapper3 {
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.78), 4px 4px 4px #c6c6c9;
+}
+
+.complianceStatus,
+.frameWrapper4,
+.frameChild15,
+.frameWrapper23,
+.frameWrapper24,
+.mandatoryIconBox,
+.frameWrapper39 {
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.78), 4px 4px 4px #c4c4c4;
+}
+
+.frameWrapper4::before {
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.78), inset 4px 4px 4px rgba(196, 196, 196, 0.9);
+}
+
+.smartComplianceCard {
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.78), 4px 4px 4px #c4c4c4;
+}
+
+.smartComplianceCardInner {
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.78), inset 4px 4px 4px #c4c4c4;
+}
+
+.smartComplianceIconShadow {
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.78), inset 4px 4px 4px rgba(196, 196, 196, 0.9);
+}
+
+.frameParent65 {
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.78), inset 4px 4px 4px #c4c4c4;
+}
+
+.frameWrapper45,
+.frameWrapper48 {
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.78), inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+}
+
+.frameWrapper46,
+.frameWrapper51,
+.frameWrapper54,
+.frameWrapper57,
+.frameWrapper60 {
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.78), 4px 4px 4px #c4c4c4;
+}
+
+.frameChild57 {
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px rgba(255, 255, 255, 0.78);
+}
+
+.scenarioBasedLearning {
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  font-weight: 600;
+  white-space: normal;
+}
+
+.frameWrapper30,
+.frameWrapper31,
+.frameWrapper32,
+.frameWrapper33,
+.frameWrapper34 {
+  border-color: transparent !important;
+  isolation: isolate;
+}
+
+.frameWrapper30 {
+  --compliance-ant-color: #bf1869;
+}
+
+.frameWrapper31 {
+  --compliance-ant-color: #2d4cc8;
+}
+
+.frameWrapper32 {
+  --compliance-ant-color: #67096e;
+}
+
+.frameWrapper33 {
+  --compliance-ant-color: #046f73;
+}
+
+.frameWrapper34 {
+  --compliance-ant-color: #907507;
+}
+
+.frameWrapper30::before,
+.frameWrapper31::before,
+.frameWrapper32::before,
+.frameWrapper33::before,
+.frameWrapper34::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  border-radius: inherit;
+  padding: 0;
+  -webkit-mask: none !important;
+  -webkit-mask-composite: initial !important;
+  mask: none !important;
+  mask-composite: initial !important;
+  background: repeating-linear-gradient(
+      90deg,
+      var(--compliance-ant-color) 0 10px,
+      transparent 10px 18px
+    ) top left / 100% 2px repeat-x,
+
+    
+    repeating-linear-gradient(
+      180deg,
+      var(--compliance-ant-color) 0 10px,
+      transparent 10px 18px
+    ) top right / 2px 100% repeat-y,
+
+    
+    repeating-linear-gradient(
+      270deg,
+      var(--compliance-ant-color) 0 10px,
+      transparent 10px 18px
+    ) bottom right / 100% 2px repeat-x,
+
+    
+    repeating-linear-gradient(
+      0deg,
+      var(--compliance-ant-color) 0 10px,
+      transparent 10px 18px
+    ) bottom left / 2px 100% repeat-y;
+  background-repeat: repeat-x,
+    repeat-y,
+    repeat-x,
+    repeat-y;
+  background-position: 0 0,
+    100% 0,
+    100% 100%,
+    0 100%;
+  animation: complianceUniformMarch 2.4s linear infinite !important;
+  will-change: background-position;
+}
+
+@keyframes complianceUniformMarch {
+  from {
+    background-position:
+      0 0,
+      100% 0,
+      100% 100%,
+      0 100%;
+  }
+
+  to {
+    background-position:
+      36px 0,
+      100% 36px,
+      calc(100% - 36px) 100%,
+      0 calc(100% - 36px);
+  }
+}
+
+.frameWrapper30,
+.frameWrapper31,
+.frameWrapper32,
+.frameWrapper33,
+.frameWrapper34 {
+  transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+.frameWrapper30:hover,
+.frameWrapper31:hover,
+.frameWrapper32:hover,
+.frameWrapper33:hover,
+.frameWrapper34:hover {
+  transform: translateY(-4px);
+}
+
+.securityFeature.securityPurple .securityCheck {
+  position: relative;
+}
+
+.securityFeature.securityPurple .securityCheck img {
+  filter: brightness(0)
+    saturate(100%)
+    invert(14%)
+    sepia(79%)
+    saturate(3431%)
+    hue-rotate(288deg)
+    brightness(69%)
+    contrast(112%) !important;
+}
+
+.securityFeature.securityPurple .securityCheck::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 4px;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  transform: translate(-50%, -58%) rotate(-45deg);
+  transform-origin: center;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.complianceSecurity * {
+  box-sizing: border-box;
+}
+
+.complianceSecurity img,
+.complianceSecurity svg {
+  max-width: 100%;
+}
+
+.complianceSecurity img {
+  max-width: 100% !important;
+}
+
+/* Shared scale matches the Gamification page. */
+.complianceSecurity {
+  --section-space: 64px;
+  --section-gap: 32px;
+  --content-gap: 24px;
+  --page-gutter: clamp(16px, 3.75vw, 48px);
+  --heading-size: 36px;
+  --body-size: 24px;
+  --card-size: 22px;
+  --badge-size: 24px;
+  --badge-height: 56px;
+  --badge-padding: 12px 36px;
+  --button-size: 24px;
+  --button-height: 60px;
+  --button-padding: 16px 28px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  padding: 0 0 var(--section-space);
+  overflow-x: clip;
+  overflow-y: visible;
+  font-family: "Inter", "Segoe UI";
+  font-size: var(--body-size);
+  line-height: 1.5;
+}
+.complianceSecurity,
+.complianceSecurity * {
+  box-sizing: border-box;
+  min-width: 0;
+  font-family: "Inter", "Segoe UI" !important;
+  -webkit-user-select: text !important;
+  user-select: text !important;
+}
+.complianceSecurity :where(h1, h2, h3, p, a, button, span) {
+  overflow-wrap: anywhere;
+}
+.complianceSecurity :where(img, svg) { max-width: 100%; }
+.complianceSecurity :where(h1, h2, h3) { text-wrap: balance; }
+.complianceSecurity :where(button, a):focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 4px;
+}
+/* Decorative artwork stays outside the content flow and cannot widen the page. */
+.complianceSecurity > .complianceSecurityChild {
+  position: absolute;
+  inset: 0 0 auto;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  height: 587px;
+  transform: none;
+  object-fit: fill;
+  pointer-events: none;
+}
+/* Breadcrumb placement and wrapping. */
+.frameDiv {
+  position: relative;
+  inset: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  width: min(100%, 1280px);
+  height: auto;
+  margin: 0 auto 24px;
+  padding: 32px 20px 0;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: normal;
+}
+.frameDiv .homeParent,
+.frameDiv .featuresWrapper,
+.frameDiv .arrowRightDoubleGroup {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+}
+.frameDiv .home,
+.frameDiv .features,
+.frameDiv .learningEcoSystem {
+  font-size: inherit;
+  line-height: inherit;
+  white-space: normal;
+}
+.breadcrumbCurrent {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.breadcrumbArrow { width: 16px; height: 16px; flex: 0 0 16px; }
+/* Sections grow with their content. */
+.complianceSecurityInner,
+.frameParent6,
+.frameParent13,
+.frameParent24,
+.frameParent41,
+.complianceSecurityInner2,
+.frameParent68,
+.frameParent99,
+.complianceSecurityInner3 {
+  position: relative;
+  inset: auto;
+  transform: none;
+  width: min(1280px, calc(100% - 2 * var(--page-gutter)));
+  max-width: 1280px;
+  height: auto;
+  min-height: 0;
+  margin: var(--section-space) auto 0;
+  flex: 0 0 auto;
+}
+.complianceSecurityInner {
+  width: min(1020px, calc(100% - 2 * var(--page-gutter)));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  font-size: var(--heading-size);
+}
+.frameParent13,
+.frameParent24,
+.frameParent54,
+.frameParent68,
+.frameParent99,
+.complianceSecurityInner3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--section-gap);
+}
+.frameParent41,
+.finalSectionsFlow {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--section-space);
+}
+.finalSectionsFlow {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: auto;
+  margin: var(--section-space) 0 0;
+  flex: 0 0 auto;
+}
+.finalSectionsFlow > .frameParent68,
+.finalSectionsFlow > .frameParent99,
+.finalSectionsFlow > .complianceSecurityInner3 {
+  margin: 0 auto;
+}
+.sectionGradientDivider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5px;
+  margin: calc(var(--section-space) / 2) 0 0;
+}
+.sectionGradientDivider + :is(.frameParent6, .frameParent13, .frameParent24,
+.frameParent41, .complianceSecurityInner2, .finalSectionsFlow) {
+  margin-top: calc(var(--section-space) / 2);
+}
+/* Text wrappers have no reserved height or absolute offsets. */
+.frameWrapper,
+.frameWrapper2,
+.frameParent2,
+.frameParent3,
+.frameParent4,
+.frameParent7,
+.frameParent8,
+.frameParent9,
+.frameParent10,
+.frameWrapper19,
+.frameWrapper20,
+.frameWrapper21,
+.frameWrapper22,
+.frameParent25,
+.industrySpecificComplianceWrapper,
+.frameWrapper29,
+.frameParent67,
+.frameWrapper40,
+.frameWrapper41,
+.frameWrapper42,
+.frameWrapper61,
+.frameWrapper63,
+.frameWrapper64,
+.frameParent120,
+.secureLearningSmarterComplParent {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--content-gap);
+}
+.frameWrapper,
+.frameWrapper2,
+.frameParent2,
+.frameParent3,
+.frameParent4,
+.frameWrapper19,
+.frameWrapper20,
+.frameWrapper21,
+.frameWrapper22,
+.frameParent25,
+.industrySpecificComplianceWrapper,
+.frameWrapper40,
+.frameWrapper41,
+.frameWrapper42,
+.frameWrapper61,
+.frameWrapper63,
+.frameWrapper64,
+.frameParent120,
+.secureLearningSmarterComplParent { align-items: center; }
+.frameParent7,
+.frameParent8,
+.frameParent9,
+.frameParent10,
+.frameWrapper29,
+.frameParent67 { align-items: flex-start; }
+.smartComplianceHeader,
+.realTimeHeader,
+.learningSecurityHeader,
+.diverseOrganizationsHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(1020px, 100%);
+  height: auto;
+  gap: var(--content-gap);
+}
+.heroBadge,
+.complianceTrainingBadge,
+.smartComplianceBadge,
+.engagingComplianceBadge,
+.automatedTrackingBadge,
+.trainingRecordsBadge,
+.learningSecurityBadge,
+.neurolxpClosingBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+  min-height: var(--badge-height);
+  margin: 0;
+  padding: var(--badge-padding);
+  border-radius: 999px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, .8);
+  font-size: var(--badge-size);
+  line-height: 1.3;
+  font-weight: 600;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+  flex-shrink: 0;
+}
+.secureLearningSmarterContainer,
+.structuredTrainingFor,
+.centralizeMonitorStayContainer,
+.industrySpecificCompliance,
+.makeMandatoryTrainingContainer,
+.realTimeVisibilityTitle,
+.maintainVerifiableTraining,
+.learningSecurityTitle,
+.diverseOrganizationsTitle,
+.neurolxpClosingTitle,
+.secureLearningSmarterContainer2 {
+  position: relative;
+  inset: auto;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  font-size: var(--heading-size);
+  line-height: 1.35;
+  font-weight: 700;
+  white-space: normal;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+.secureLearningSmarter,
+.greaterConfidence,
+.secureLearning,
+.smarterCompliance { line-height: inherit; }
+.neurolxpCombinesCompliance,
+.neurolxpDeliversStructured,
+.simplifyComplianceTraining,
+.makeComplianceLearning,
+.realTimeVisibilityText,
+.issueDigitalCertificates,
+.learningSecurityIntro,
+.diverseOrganizationsText,
+.neurolxpClosingText,
+.neurolxpEnablesSecure,
+.neurolxpHelpsOrganizations {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  font-size: var(--body-size);
+  line-height: 1.5;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.neurolxpCombinesCompliance { max-width: 900px; }
+.neurolxpClosingText { max-width: 1000px; }
+.heroButton,
+.frameWrapper3 {
+  position: relative;
+  inset: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  min-height: var(--button-height);
+  margin: 0;
+  padding: var(--button-padding);
+  border-radius: 8px;
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  font-size: var(--button-size);
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+  white-space: normal;
+}
+/* Keep both CTA labels blue in normal, visited, hover and pressed states. */
+.complianceSecurity :is(.heroButton, .heroButtonPrimary, .heroButtonSecondary, .frameWrapper3),
+.complianceSecurity :is(.heroButton, .heroButtonPrimary, .heroButtonSecondary, .frameWrapper3):is(:link, :visited, :hover, :focus, :active) {
+  color: #2d4cc8 !important;
+}
+.complianceSecurity :is(.heroButton, .frameWrapper3) * {
+  color: inherit !important;
+}
+/* CTA interaction only: selectable labels and the reference inset hover effect. */
+.complianceSecurity :is(.heroButton, .frameWrapper3) {
+  cursor: pointer;
+  transition: box-shadow 180ms ease;
+}
+.complianceSecurity :is(.heroButton, .frameWrapper3),
+.complianceSecurity :is(.heroButton, .frameWrapper3) * {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  user-select: text !important;
+  -webkit-touch-callout: default;
+}
+.complianceSecurity :is(.heroButton, .frameWrapper3) * {
+  cursor: text;
+}
+.complianceSecurity :is(.heroButton, .frameWrapper3)::before,
+.complianceSecurity :is(.heroButton, .frameWrapper3)::after {
+  pointer-events: none;
+}
+.complianceSecurity :is(.heroButton, .frameWrapper3):active {
+  box-shadow: inset -4px -4px 4px #fff,
+              inset 4px 4px 4px rgba(196, 196, 196, .8) !important;
+}
+@media (hover: hover) and (pointer: fine) {
+  .complianceSecurity :is(.heroButton, .frameWrapper3):hover {
+    box-shadow: inset -4px -4px 4px #fff,
+                inset 4px 4px 4px rgba(196, 196, 196, .8) !important;
+  }
+}
+.frameParent5 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 24px;
+}
+.startLearningWrapper,
+.startLearning {
+  position: static;
+  display: inline;
+  width: auto;
+  height: auto;
+  font-size: inherit;
+  line-height: inherit;
+  white-space: normal;
+}
+/* Training: flexible columns preserve the existing photo proportions. */
+.frameParent6,
+.frameParent42 {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(32px, 4vw, 56px);
+}
+.frameParent42 { width: 100%; height: auto; min-height: 0; }
+.frameParent11 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.complianceStatus {
+  height: auto;
+  min-height: 60px;
+  padding: 12px 18px;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.frameWrapper4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 16px;
+  overflow: hidden;
+}
+.frameChild8 {
+  position: relative;
+  inset: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 711 / 555;
+  object-fit: cover;
+}
+/* Smart Compliance retains its three-plus-two card arrangement. */
+.smartComplianceCards {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
+}
+.smartComplianceCard {
+  position: relative;
+  display: flex;
+  grid-column: span 2;
+  width: 100%;
+  height: auto;
+  min-height: 206px;
+  padding: 16px;
+  overflow: hidden;
+}
+.smartComplianceCard:nth-child(4) { grid-column: 2 / span 2; }
+.smartComplianceCard:nth-child(5) { grid-column: 4 / span 2; }
+.smartComplianceCardInner {
+  position: relative;
+  inset: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  min-height: 174px;
+  padding: 20px 24px;
+  gap: 20px;
+}
+.smartComplianceCardTitle,
+.diverseOrganizationCardTitle {
+  font-size: var(--card-size);
+  line-height: 1.35;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+/* Industry card shells remain rounded; the text determines their height. */
+.frameParent26 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  width: 100%;
+  gap: 30px;
+}
+.frameParent27 { display: contents; }
+.frameParent28 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 306px;
+  padding: 16px;
+}
+.frameChild15 { position: absolute; inset: 0; width: 100%; height: 100%; }
+.frameWrapper23,
+.frameWrapper24 {
+  position: relative;
+  inset: auto;
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 274px;
+  overflow: hidden;
+}
+.frameParent29 {
+  position: relative;
+  inset: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 0;
+}
+.workplaceSafetyWrapper,
+.dataPrivacyWrapper,
+.corporateEthicsWrapper,
+.workplaceConductWrapper,
+.financialComplianceWrapper,
+.sustainabilityWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  min-height: 120px;
+  padding: 24px 20px;
+  flex-shrink: 0;
+}
+.workplaceSafety,
+.corporateEthics,
+.workplaceConduct,
+.financialCompliance {
+  position: static;
+  inset: auto;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.35;
+  text-align: center;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+.healthSafetyAnd,
+.dataProtectionAnd,
+.codeOfConduct,
+.antiHarassmentAndWorkplace {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto 0;
+  padding: 24px 28px 28px;
+  font-size: var(--card-size);
+  line-height: 1.4;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+/* Mandatory training cards: automatic rows prevent the following section overlapping. */
+.frameParent45 {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: none;
+  align-items: stretch;
+  gap: 24px;
+}
+.frameParent46,
+.frameParent47 { display: contents; }
+.frameWrapper30,
+.frameWrapper31,
+.frameWrapper32,
+.frameWrapper33,
+.frameWrapper34 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 132px;
+  margin: 0;
+  overflow: hidden;
+}
+.frameWrapper32 {
+  grid-column: 1 / -1;
+  width: calc((100% - 24px) / 2);
+  justify-self: center;
+}
+.frameParent48,
+.frameParent49 {
+  position: static;
+  inset: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 16px;
+  gap: 16px;
+}
+.mandatoryIconBox { flex-shrink: 0; }
+.scenarioBasedLearning {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  flex: 1 1 0;
+  font-size: 20px;
+  line-height: 1.35;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.frameParent54 { position: relative; width: 100%; height: auto; margin: 0; }
+.realTimeMetrics {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  align-items: stretch;
+  width: 100%;
+  gap: 32px 24px;
+}
+.realTimeMetric {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  grid-column: span 2;
+  width: 100%;
+  min-height: 96px;
+}
+.realTimeMetric:nth-child(4) { grid-column: 2 / span 2; }
+.realTimeMetric:nth-child(5) { grid-column: 4 / span 2; }
+.realTimeMetricTitle { font-size: var(--card-size); line-height: 1.35; overflow-wrap: anywhere; }
+/* Certification and audit records. */
+.trainingRecordsOuter,
+.frameWrapper39 {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: auto;
+  padding: 32px;
+}
+.trainingRecordsInner,
+.frameParent65 {
+  position: relative;
+  inset: auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.trainingRecordsContent,
+.frameParent66 {
+  position: relative;
+  inset: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 40px 32px;
+  gap: var(--content-gap);
+}
+.trainingRecordsImageWrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 360px;
+  overflow: hidden;
+}
+.rectangleIcon {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* The legacy image can also be a direct grid child. */
+.frameParent65 > .rectangleIcon {
+  position: relative;
+  inset: auto;
+  min-height: 360px;
+  align-self: stretch;
+}
+/* Security timeline decoration follows content height. */
+.securityTimeline { gap: 32px; }
+.securityTimelineIcon { position: absolute; top: 4px; left: -108px; }
+.securityFeatureCard { padding: 28px 32px; }
+.securityFeatureTitle { font-size: 26px; line-height: 1.35; }
+.securityFeatureText { font-size: 20px; line-height: 1.5; }
+.securityRoles { font-size: 22px; line-height: 1.4; }
+.securityFeatureItem { align-items: flex-start; font-size: 20px; line-height: 1.5; gap: 18px; }
+.securityFeatureList { margin-bottom: 0; padding: 24px; gap: 20px; }
+.diverseOrganizationsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
+  gap: 28px 24px;
+}
+.diverseOrganizationCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  min-height: 224px;
+  padding: 28px 20px;
+  gap: 24px;
+}
+.complianceSecurityInner3 { font-size: var(--heading-size); }
+/* Compatibility for the original text wrappers. */
+.frameParent30,
+.frameParent31,
+.frameParent32,
+.frameParent33 {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--content-gap);
+}
+.frameParent57,
+.frameParent72,
+.frameWrapper44,
+.frameWrapper45,
+.frameParent73,
+.frameWrapper46,
+.frameParent74,
+.frameWrapper48,
+.frameWrapper49,
+.frameWrapper50,
+.frameParent78,
+.frameParent79,
+.frameWrapper51,
+.frameWrapper54,
+.frameWrapper57,
+.frameWrapper60,
+.frameParent101,
+.frameParent104 {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.frameWrapper45,
+.frameWrapper48,
+.frameWrapper46,
+.frameWrapper51,
+.frameWrapper54,
+.frameWrapper57,
+.frameWrapper60 { padding: 24px; }
+.frameParent59,
+.frameParent60,
+.frameParent62,
+.frameParent71,
+.frameParent75,
+.frameParent102 {
+  position: relative;
+  inset: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+}
+.courseCompletionRates,
+.certificationStatus,
+.assessmentPerformance,
+.trainingParticipation,
+.departmentComplianceMetrics,
+.encryptedDataStorage,
+.protectionOfLearner,
+.secureManagementOf,
+.controlViewingEditing,
+.universities,
+.corporateTraining,
+.financialServices {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  font-size: var(--card-size);
+  line-height: 1.4;
+}
+.frameParent103 { position: relative; width: 100%; height: auto; padding: 24px; }
+.frameParent103 > .frameChild57 { inset: 0; width: 100%; height: 100%; }
+/* One responsive rule set, ordered from larger screens to smaller screens. */
+@media (min-width: 1200px) {
+  /* The artwork spans only the breadcrumb and hero rows, regardless of text wrapping. */
+  .complianceSecurity {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto;
+  }
+  .frameDiv { grid-area: 1 / 1 / 2 / 2; }
+  .complianceSecurityInner {
+    grid-area: 2 / 1 / 3 / 2;
+    /* Reserve room for the curved lower edge beneath the CTA row. */
+    padding-bottom: clamp(96px, 8vw, 128px);
+  }
+  .complianceSecurity > .complianceSecurityChild {
+    grid-area: 1 / 1 / 3 / 2;
+    inset: 0;
+    height: 100%;
+  }
+}
+@media (min-width: 1280px) {
+  .frameDiv { padding-inline: 80px; }
+}
+@media (min-width: 1440px) {
+  .frameDiv { width: min(100%, 1440px); }
+}
+@media (max-width: 1199.98px) {
+  .complianceSecurity > .complianceSecurityChild { display: none; }
+  .frameParent6,
+  .frameParent42 { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .frameParent7,
+  .frameWrapper29 { max-width: 760px; margin: 0 auto; }
+  .frameWrapper4 { max-width: 743px; margin: 0 auto; }
+  .frameParent45 { max-width: 622px; margin: 0 auto; }
+  .smartComplianceCards,
+  .realTimeMetrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .smartComplianceCard,
+  .smartComplianceCard:nth-child(4),
+  .smartComplianceCard:nth-child(5),
+  .realTimeMetric,
+  .realTimeMetric:nth-child(4),
+  .realTimeMetric:nth-child(5) { grid-column: auto; }
+  .smartComplianceCard:last-child,
+  .realTimeMetric:last-child {
+    grid-column: 1 / -1;
+    width: calc((100% - 24px) / 2);
+    justify-self: center;
+  }
+  .frameParent26,
+  .diverseOrganizationsGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .trainingRecordsOuter,
+  .frameWrapper39 { padding: 24px; }
+  .trainingRecordsContent,
+  .frameParent66 { padding: 32px 24px; }
+}
+@media (max-width: 1099px) {
+  .complianceSecurity {
+    --heading-size: 30px;
+    --body-size: 20px;
+    --card-size: 20px;
+    --button-size: 20px;
+    --button-height: 52px;
+    --button-padding: 14px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .complianceSecurity {
+    --section-space: 48px;
+    --section-gap: 28px;
+    --content-gap: 20px;
+    --page-gutter: 20px;
+    --heading-size: 28px;
+    --body-size: 18px;
+    --card-size: 18px;
+    --badge-size: 20px;
+    --badge-height: 48px;
+    --badge-padding: 10px 26px;
+    --button-size: 18px;
+    --button-height: 48px;
+    --button-padding: 12px 20px;
+  }
+  .frameDiv { padding: 12px 20px 0; gap: 6px; }
+  .frameDiv .homeParent,
+  .frameDiv .featuresWrapper,
+  .frameDiv .arrowRightDoubleGroup { gap: 6px; }
+  .frameParent5 { flex-direction: column; gap: 16px; }
+  .frameParent5 .heroButton,
+  .frameParent5 .frameWrapper3 { width: min(210px, 100%); line-height: 24px; }
+  .frameParent7,
+  .frameParent8,
+  .frameParent9,
+  .frameParent10,
+  .frameWrapper29 { align-items: center; text-align: center; }
+  .structuredTrainingFor,
+  .neurolxpDeliversStructured,
+  .makeMandatoryTrainingContainer,
+  .makeComplianceLearning { text-align: center; }
+  .frameParent11 { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .complianceStatus { min-height: 48px; font-size: 18px; }
+  .smartComplianceCards,
+  .frameParent26,
+  .frameParent45,
+  .realTimeMetrics,
+  .diverseOrganizationsGrid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .smartComplianceCard,
+  .smartComplianceCard:nth-child(4),
+  .smartComplianceCard:nth-child(5),
+  .smartComplianceCard:last-child {
+    grid-column: auto;
+    width: min(400px, 100%);
+    justify-self: center;
+    padding: 14px;
+    min-height: 196px;
+  }
+  .smartComplianceCardInner { min-height: 168px; padding: 18px; gap: 16px; }
+  .smartComplianceIconShadow { width: 64px; height: 64px; }
+  .smartComplianceIconCircle { width: 48px; height: 48px; }
+  .frameParent28 { width: min(400px, 100%); justify-self: center; }
+  .workplaceSafety,
+  .corporateEthics,
+  .workplaceConduct,
+  .financialCompliance { font-size: 20px; }
+  .healthSafetyAnd,
+  .dataProtectionAnd,
+  .codeOfConduct,
+  .antiHarassmentAndWorkplace { padding: 24px; }
+  .frameWrapper30,
+  .frameWrapper31,
+  .frameWrapper32,
+  .frameWrapper33,
+  .frameWrapper34 { grid-column: auto; width: min(320px, 100%); justify-self: center; }
+  .mandatoryIconBox { width: 70px; height: 70px; flex-basis: 70px; }
+  .mandatoryIcon { width: 32px; height: 32px; }
+  .scenarioBasedLearning { font-size: 18px; }
+  .realTimeMetric,
+  .realTimeMetric:nth-child(4),
+  .realTimeMetric:nth-child(5),
+  .realTimeMetric:last-child {
+    grid-column: auto;
+    width: min(360px, 100%);
+    justify-self: center;
+    min-height: 72px;
+    gap: 18px;
+  }
+  .realTimeIconShadow { width: 72px; height: 72px; flex-basis: 72px; }
+  .realTimeIconCircle { width: 52px; height: 52px; }
+  .trainingRecordsOuter,
+  .frameWrapper39 { padding: 16px; }
+  .trainingRecordsInner,
+  .frameParent65 { grid-template-columns: minmax(0, 1fr); }
+  .trainingRecordsContent,
+  .frameParent66 { padding: 28px 16px; align-items: center; text-align: center; }
+  .maintainVerifiableTraining,
+  .issueDigitalCertificates { text-align: center; }
+  .trainingRecordsImageWrap,
+  .frameParent65 > .rectangleIcon { min-height: 0; aspect-ratio: 706 / 563; }
+  .securityTimeline { padding-left: 0; gap: 28px; }
+  .securityTimelineRail { display: none; }
+  .securityTimelineIcon { position: relative; inset: auto; margin: 0 auto 16px; }
+  .securityFeatureCard { padding: 24px 18px; }
+  .securityFeatureTitle { font-size: 22px; }
+  .securityFeatureText,
+  .securityFeatureItem { font-size: 18px; }
+  .securityRoles { font-size: 20px; }
+  .securityFeatureList { padding: 20px 14px; gap: 18px; }
+  .securityFeatureItem { gap: 12px; }
+  .securityCheck { width: 36px; height: 36px; flex-basis: 36px; }
+  .diverseOrganizationCard { min-height: 200px; width: min(400px, 100%); justify-self: center; }
+}
+@media (max-width: 480px) {
+  .complianceSecurity { --page-gutter: 16px; }
+  .frameDiv { font-size: 12px; line-height: 18px; }
+  .breadcrumbCurrent { font-size: 12px; line-height: 18px; font-weight: 400; }
+  .secureLearningSmarterContainer { font-size: 26px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .complianceSecurity *,
+  .complianceSecurity *::before,
+  .complianceSecurity *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .smartComplianceCard:hover,
+  .frameParent28:hover,
+  .frameWrapper30:hover,
+  .frameWrapper31:hover,
+  .frameWrapper32:hover,
+  .frameWrapper33:hover,
+  .frameWrapper34:hover,
+  .diverseOrganizationCard:hover,
+  .frameParent103:hover,
+  .complianceStatus:hover { transform: none; }
+}
+
+/* =========================================================
+   REAL-TIME METRICS + INDUSTRY CARD TEXT ALIGNMENT
+   ========================================================= */
+
+/* Keep the long Department Compliance Metrics label on one line. */
+.realTimeMetric:last-child .realTimeMetricTitle {
+  white-space: nowrap;
+  font-size: 20px;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* Industry-card subtexts: exactly two centered lines,
+   with one word only on the second line. */
+.industrySubtextFirst,
+.industrySubtextLast {
+  display: block;
+  white-space: nowrap;
+}
+
+.industrySubtextLast {
+  margin-top: 2px;
+}
+
+/* Preserve the existing card typography/alignment. */
+.healthSafetyAnd,
+.dataProtectionAnd,
+.codeOfConduct,
+.antiHarassmentAndWorkplace {
+  text-align: center;
+}
+
+/* Slightly reduce only when needed so the first line remains unbroken. */
+@media (max-width: 1279px) {
+  .industrySubtextFirst,
+  .industrySubtextLast {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}
+
+/* FINAL industry-card copy fix — shorter, uniform, no overlap. */
+.industrySubtextFirst,
+.industrySubtextLast {
+  display: block !important;
+  max-width: 100% !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-align: center !important;
+}
+
+.healthSafetyAnd,
+.dataProtectionAnd,
+.codeOfConduct,
+.antiHarassmentAndWorkplace {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-inline: 14px !important;
+  box-sizing: border-box !important;
+  text-align: center !important;
+}
+
+/* FINAL mobile overflow fix for the last real-time metric. */
+@media screen and (max-width: 767px) {
+  .realTimeMetric:last-child .realTimeMetricTitle {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    font-size: 18px !important;
+    line-height: 1.35 !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+}
+
+
+/* Expert launcher slot: NeuroLXP closing section only; no layout flow changes. */
+.complianceSecurityInner3.neurolxpClosingSection {
+  position: relative;
+}
+
+.neurolxpExpertButtonSlot {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  width: 64px;
+  height: 64px;
+  transform: translateY(-50%);
+  z-index: 30;
+}
+
+@media (max-width: 767px) {
+  .neurolxpExpertButtonSlot {
+    top:20px;
+    right: 8px;
+    width: 56px;
+    height: 56px;
+  }
+}
+.trademark {
+  font-size: 12px !important;
+  line-height: 4px !important;
+  transform: translateY(-11px) scale(0.75) !important;
+}

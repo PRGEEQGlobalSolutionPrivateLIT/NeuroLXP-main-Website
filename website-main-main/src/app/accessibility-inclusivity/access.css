@@ -1,0 +1,3612 @@
+/* Complete replacement stylesheet. Existing class names and visual styling retained. */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.accessibilityInclusivity {
+  background-color: #dfe6e9;
+  text-align: left;
+  font-size: 48px;
+  color: #31344b;
+  font-family: "Segoe UI", "Inter";
+}
+
+:where(.accessibilityInclusivity) .frameParent {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  background-color: #dfe6e9;
+  font-size: 16px;
+  font-family: "Segoe UI", "Inter";
+}
+
+:where(.accessibilityInclusivity) .frameChild {
+  display: flex;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .logo01SynapseSpark1Parent {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+:where(.accessibilityInclusivity) .logo01SynapseSpark1Icon {
+  height: 45px;
+  width: 120px;
+  position: relative;
+  object-fit: cover;
+}
+
+:where(.accessibilityInclusivity) .frameContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+:where(.accessibilityInclusivity) .homeParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+:where(.accessibilityInclusivity) .home {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+:where(.accessibilityInclusivity) .arrowDown01Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+
+:where(.accessibilityInclusivity) .featuresParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2d4cc8;
+}
+
+:where(.accessibilityInclusivity) .features {
+  position: relative;
+  line-height: 24px;
+}
+
+:where(.accessibilityInclusivity) .signInHelpWrapper {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter";
+}
+
+:where(.accessibilityInclusivity) .signInHelp {
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+:where(.accessibilityInclusivity) .frameItem {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  width: 1429px;
+  height: 592.4px;
+  flex-shrink: 0;
+}
+
+:where(.accessibilityInclusivity) .frameDiv {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #2f3547;
+  font-family: "Segoe UI", "Inter";
+}
+
+:where(.accessibilityInclusivity) .featuresWrapper {
+  display: flex;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .addOnModules {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+}
+
+:where(.accessibilityInclusivity) .arrowRightDoubleGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #243fa8;
+}
+
+:where(.accessibilityInclusivity) .image20Parent {
+  box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 32px 32px 200px 32px;
+  background-color: #dfe6e9;
+}
+
+:where(.accessibilityInclusivity) .image20 {
+  position: absolute;
+  top: -0.56px;
+  left: calc(50% - 625px);
+  width: 1280px;
+  height: 800px;
+  flex-shrink: 0;
+}
+
+:where(.accessibilityInclusivity) .frameParent2 {
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  gap: 0;
+}
+
+:where(.accessibilityInclusivity) .peopleTakingPartBusinessEvParent {
+  align-self: stretch;
+  box-shadow: 4px 4px 4px rgba(196, 196, 196, 0.9),
+		-4px -4px 4px rgba(255, 255, 255, 0.72);
+  border-radius: 16px 16px 176px 16px;
+  background-color: #dfe6e9;
+  z-index: 0;
+}
+
+:where(.accessibilityInclusivity) .peopleTakingPartBusinessEv {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
+}
+
+:where(.accessibilityInclusivity) .image21 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
+}
+
+:where(.accessibilityInclusivity) .groupYoungBusinesspeopleUsi {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+:where(.accessibilityInclusivity) .frameInner {
+  position: absolute;
+  top: -30px;
+  left: -32px;
+  right: -34px;
+  bottom: -26px;
+  width: calc(100% + 66px);
+  height: calc(100% + 56px);
+  object-fit: cover;
+  object-position: left center;
+  display: block;
+  border-radius: 16px 16px 176px 16px;
+  flex-shrink: 0;
+  z-index: 0;
+  transform: scaleX(1.08);
+  transform-origin: left center;
+}
+
+:where(.accessibilityInclusivity) .youngAdultWatchingTvShowWIcon {
+  position: absolute;
+  right: 18px;
+  bottom: 0;
+  left: auto;
+  top: auto;
+  width: 572px;
+  height: 620px;
+  object-fit: contain;
+  object-position: right bottom;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  z-index: 2;
+}
+
+:where(.accessibilityInclusivity) .frameParent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+:where(.accessibilityInclusivity) .frameParent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+:where(.accessibilityInclusivity) .frameIcon {
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #2d4cc8;
+  white-space: nowrap;
+}
+
+:where(.accessibilityInclusivity) .learningDesignedFor {
+  align-self: stretch;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+}
+
+:where(.accessibilityInclusivity) .neurolxpEnsuresEvery {
+  align-self: stretch;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  color: #2f3547;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: #2D4CC8;
+}
+
+:where(.accessibilityInclusivity) .bookADemoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .bookADemo {
+  line-height: 30px;
+  font-weight: 600;
+}
+
+:where(.accessibilityInclusivity) .frameParent6 {
+  display: flex;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+:where(.accessibilityInclusivity) .accessibleLearningForDiversWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+:where(.accessibilityInclusivity) .designedToMake {
+  align-self: stretch;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .frameParent8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  text-align: center;
+  font-size: 24px;
+}
+
+:where(.accessibilityInclusivity) .frameParent9 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper3 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 16px;
+  background-color: #dfe6e9;
+}
+
+:where(.accessibilityInclusivity) .compassParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+:where(.accessibilityInclusivity) .compassIcon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transform: rotate(0.1deg);
+}
+
+:where(.accessibilityInclusivity) .easyNavigationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .easyNavigation {
+  align-self: stretch;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .multiFormatLearning {
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .unlimitedAssessments {
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .frameParent11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+:where(.accessibilityInclusivity) .frameChild2 {
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  white-space: nowrap;
+}
+
+:where(.accessibilityInclusivity) .multipleContentFormatsForFParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+:where(.accessibilityInclusivity) .multipleContentFormats {
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .deliverEngagingLearning {
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .frameParent13 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  font-size: 24px;
+  color: #2a7308;
+}
+
+:where(.accessibilityInclusivity) .frameParent14 {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper9 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+}
+
+:where(.accessibilityInclusivity) .frameParent15 {
+  box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  border-radius: 100px;
+  background-color: #dfe6e9;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper10 {
+  position: absolute;
+  top: 309px;
+  left: 103px;
+  width: 50.1px;
+  height: 50.1px;
+  flex-shrink: 0;
+}
+
+:where(.accessibilityInclusivity) .frameChild3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50.1px;
+  height: 50.1px;
+}
+
+:where(.accessibilityInclusivity) .frameParent16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+:where(.accessibilityInclusivity) .formatIconOuter {
+  width: 73.01px;
+  height: 73.01px;
+  position: relative;
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transform: rotate(0.05deg);
+}
+
+:where(.accessibilityInclusivity) .formatIconInner {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+:where(.accessibilityInclusivity) .formatIconGreen {
+  background: #2a7308;
+}
+
+:where(.accessibilityInclusivity) .formatIconPurple {
+  background: #67096e;
+}
+
+:where(.accessibilityInclusivity) .formatIconOrange {
+  background: #c05512;
+}
+
+:where(.accessibilityInclusivity) .formatIconPink {
+  background: #bf1869;
+}
+
+:where(.accessibilityInclusivity) .formatIconImage {
+  width: 33.97px;
+  height: 33.97px;
+  position: relative;
+  object-fit: contain;
+  flex-shrink: 0;
+  transform: rotate(0.05deg);
+}
+
+:where(.accessibilityInclusivity) .textStructured {
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper11 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  color: #67096e;
+}
+
+:where(.accessibilityInclusivity) .interactiveVideoLearning {
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .frameParent19 {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  color: #c05512;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper15 {
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  color: #bf1869;
+}
+
+:where(.accessibilityInclusivity) .accessibilityInclusivityInner {
+  box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+}
+
+:where(.accessibilityInclusivity) .frameParent24 {
+  align-items: center;
+  justify-content: space-between;
+}
+
+:where(.accessibilityInclusivity) .frameParent25 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+:where(.accessibilityInclusivity) .frameParent26 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+:where(.accessibilityInclusivity) .frameParent27 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+:where(.accessibilityInclusivity) .inclusiveItem {
+  border-radius: 8px;
+  background-color: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  box-sizing: border-box;
+}
+
+:where(.accessibilityInclusivity) .inclusiveArrow {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  flex-shrink: 0;
+  object-fit: contain;
+  transform: translatex(-15);
+}
+
+:where(.accessibilityInclusivity) .inclusiveItem span {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+:where(.accessibilityInclusivity) .inclusiveItemPink {
+  color: #c21868;
+}
+
+:where(.accessibilityInclusivity) .inclusiveItemBlue {
+  color: #2d4cc8;
+}
+
+:where(.accessibilityInclusivity) .inclusiveItemPurple {
+  color: #6a148f;
+}
+
+:where(.accessibilityInclusivity) .learningAnalytics {
+  border-radius: 24px;
+  background: #DFE6E9;
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+}
+
+:where(.accessibilityInclusivity) .teamSupportingInvalidWoman {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.08);
+  transform-origin: center;
+  border-radius: 24px;
+}
+
+:where(.accessibilityInclusivity) .frameParent28 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper17 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper18 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent29 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+:where(.accessibilityInclusivity) .supportingInstitutionsInIncWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .supportingInstitutionsInContainer {
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+:where(.accessibilityInclusivity) .supportingInstitutionsIn {
+  line-height: 60px;
+}
+
+:where(.accessibilityInclusivity) .inclusiveEducation {
+  color: #2d4cc8;
+  line-height: 60px;
+}
+
+:where(.accessibilityInclusivity) .enableAccessibleFlexible {
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .frameParent30 {
+  align-self: stretch;
+}
+
+:where(.accessibilityInclusivity) .institutionCard {
+  border-radius: 16px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  box-sizing: border-box;
+}
+
+:where(.accessibilityInclusivity) .institutionCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+:where(.accessibilityInclusivity) .institutionIconOuter {
+  width: 73.01px;
+  height: 73.01px;
+  position: relative;
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transform: rotate(0.05deg);
+}
+
+:where(.accessibilityInclusivity) .institutionIconInner {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+:where(.accessibilityInclusivity) .institutionIconPink {
+  background: #bf1869;
+}
+
+:where(.accessibilityInclusivity) .institutionIconPurple {
+  background: #67096e;
+}
+
+:where(.accessibilityInclusivity) .institutionIconTeal {
+  background: #007c80;
+}
+
+:where(.accessibilityInclusivity) .institutionIconBlue {
+  background: #2d4cc8;
+}
+
+:where(.accessibilityInclusivity) .institutionIconImage {
+  width: 33.97px;
+  height: 33.97px;
+  position: relative;
+  object-fit: contain;
+  flex-shrink: 0;
+  transform: rotate(0.05deg);
+}
+
+:where(.accessibilityInclusivity) .institutionCardText {
+  font-family: "Segoe UI", "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+:where(.accessibilityInclusivity) .institutionTextPink {
+  color: #bf1869;
+}
+
+:where(.accessibilityInclusivity) .institutionTextPurple {
+  color: #67096e;
+}
+
+:where(.accessibilityInclusivity) .institutionTextTeal {
+  color: #007c80;
+}
+
+:where(.accessibilityInclusivity) .institutionTextBlue {
+  color: #2d4cc8;
+}
+
+:where(.accessibilityInclusivity) .frameParent31 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .neurolxpBadge {
+  border-radius: 32px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, .9), inset 4px 4px 4px rgba(196, 196, 196, .8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+:where(.accessibilityInclusivity) .neurolxpBadgeText {
+  color: #2D4CC8;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: .02em;
+  font-family: "Segoe UI", "Inter";
+  display: flex;
+  align-items: flex-start;
+}
+
+:where(.accessibilityInclusivity) .neurolxpTm {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 2px;
+  position: relative;
+  top: -8px;
+}
+
+:where(.accessibilityInclusivity) .empoweringInclusiveLearningParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+:where(.accessibilityInclusivity) .empoweringInclusiveLearning {
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .neurolxpHelpsInstitutions {
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .frameParent32 {
+  font-size: 26px;
+  color: #2f3547;
+}
+
+:where(.accessibilityInclusivity) .frameParent33 {
+  box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  background-color: #dfe6e9;
+}
+
+:where(.accessibilityInclusivity) .frameParent34 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+:where(.accessibilityInclusivity) .frameParent35 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+:where(.accessibilityInclusivity) .frameParent36 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+:where(.accessibilityInclusivity) .logo01SynapseSpark1Group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+:where(.accessibilityInclusivity) .logo01SynapseSpark1Icon2 {
+  width: 299px;
+  height: 112px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+:where(.accessibilityInclusivity) .frameParent37 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+:where(.accessibilityInclusivity) .onePlatformParent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+:where(.accessibilityInclusivity) .onePlatform {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 34px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+:where(.accessibilityInclusivity) .sparklesIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+
+:where(.accessibilityInclusivity) .prgeeqGlobalSolutionsPrivatParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 16px;
+}
+
+:where(.accessibilityInclusivity) .prgeeqGlobalSolutions {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+}
+
+:where(.accessibilityInclusivity) .prestigeAtlanta1012Container {
+  align-self: stretch;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+}
+
+:where(.accessibilityInclusivity) .blankLine2 {
+  line-height: 24px;
+}
+
+:where(.accessibilityInclusivity) .frameParent38 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+:where(.accessibilityInclusivity) .frameParent39 {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+:where(.accessibilityInclusivity) .aboutUsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+:where(.accessibilityInclusivity) .aboutUs {
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .ourMissionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 20px;
+  color: #2f3547;
+}
+
+:where(.accessibilityInclusivity) .ourMission {
+  align-self: stretch;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .quickLinksParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+:where(.accessibilityInclusivity) .quickLinks {
+  align-self: stretch;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .neurolxpParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+:where(.accessibilityInclusivity) .neurolxp {
+  align-self: stretch;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .ourCustomersGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 20px;
+  color: #2f3547;
+}
+
+:where(.accessibilityInclusivity) .smartContentCreation {
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent40 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+:where(.accessibilityInclusivity) .frameChild19 {
+  height: 80.1px;
+  width: 80.1px;
+  position: relative;
+}
+
+:where(.accessibilityInclusivity) .copyright2026 {
+  align-self: stretch;
+  font-size: 16px;
+  letter-spacing: -0.03em;
+  line-height: 56px;
+  font-weight: 600;
+  color: #2d4cc8;
+  text-align: center;
+  display: inline-block;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper19 {
+  box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  background-color: #dfe6e9;
+}
+
+:where(.accessibilityInclusivity) .frameParent45 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  isolation: isolate;
+  gap: 24px;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+:where(.accessibilityInclusivity) .frameParent46 {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  z-index: 0;
+}
+
+:where(.accessibilityInclusivity) .ourMissionGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 18px;
+  color: #2f3547;
+}
+
+:where(.accessibilityInclusivity) .neurolxpGroup {
+  display: flex;
+  align-items: flex-start;
+}
+
+:where(.accessibilityInclusivity) .neurolxp2 {
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .neurolxpTxt {
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+:where(.accessibilityInclusivity) .neurolxp3 {
+  line-height: 30px;
+}
+
+:where(.accessibilityInclusivity) .span {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+:where(.accessibilityInclusivity) .tm {
+  height: 17px;
+  width: 23px;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+:where(.accessibilityInclusivity) .ourCustomersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 18px;
+  color: #2f3547;
+}
+
+:where(.accessibilityInclusivity) .frameParent48 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  z-index: 1;
+}
+
+:where(.accessibilityInclusivity) .frameChild23 {
+  height: 80.1px;
+  width: 80.1px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+:where(.accessibilityInclusivity) .frameChild28 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 30.07px);
+  border-radius: 32px;
+  width: 59.1px;
+  height: 92px;
+  object-fit: contain;
+}
+
+.accessibilityInclusivity {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameDiv {
+  white-space: nowrap;
+}
+
+@media (max-width: 1439px) {
+:where(.accessibilityInclusivity) .frameDiv {
+  flex-wrap: wrap;
+  white-space: normal;
+}
+
+:where(.accessibilityInclusivity) .frameInner {
+  width: calc(100% + 66px);
+  height: calc(100% + 56px);
+}
+
+:where(.accessibilityInclusivity) .youngAdultWatchingTvShowWIcon {
+  width: min(46vw, 572px);
+  height: 100%;
+}
+
+:where(.accessibilityInclusivity) .frameParent6 {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent9 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+:where(.accessibilityInclusivity) .frameParent14,
+:where(.accessibilityInclusivity) .frameParent19 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 444px));
+  justify-content: center;
+  gap: 40px;
+}
+
+:where(.accessibilityInclusivity) .accessibilityInclusivityInner {
+  box-sizing: border-box;
+}
+
+:where(.accessibilityInclusivity) .frameParent24 {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent30 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 27px;
+}
+}
+
+@media (max-width: 1023px) {
+:where(.accessibilityInclusivity) .frameParent3 {
+  gap: 36px;
+}
+
+:where(.accessibilityInclusivity) .frameIcon {
+  font-size: 19px;
+}
+
+:where(.accessibilityInclusivity) .learningDesignedFor {
+  font-size: 40px;
+  line-height: 1.25;
+}
+
+:where(.accessibilityInclusivity) .neurolxpEnsuresEvery,
+:where(.accessibilityInclusivity) .designedToMake,
+:where(.accessibilityInclusivity) .deliverEngagingLearning,
+:where(.accessibilityInclusivity) .enableAccessibleFlexible,
+:where(.accessibilityInclusivity) .neurolxpHelpsInstitutions {
+  font-size: 23px;
+  line-height: 1.45;
+}
+
+:where(.accessibilityInclusivity) .frameParent6 {
+  grid-template-columns: 1fr;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper2,
+:where(.accessibilityInclusivity) .frameWrapper2 .frameParent4 {
+  align-items: center;
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent14,
+:where(.accessibilityInclusivity) .frameParent19 {
+  gap: 28px;
+}
+
+:where(.accessibilityInclusivity) .frameParent24 {
+  grid-template-columns: 1fr;
+}
+
+:where(.accessibilityInclusivity) .frameParent25,
+:where(.accessibilityInclusivity) .frameParent26 {
+  align-items: center;
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent30 {
+  grid-template-columns: repeat(2, minmax(0, 300px));
+  justify-content: center;
+}
+}
+
+@media (max-width: 767px) {
+.accessibilityInclusivity {
+  font-size: 36px;
+}
+
+:where(.accessibilityInclusivity) .frameDiv {
+  font-size: 14px;
+  gap: 6px;
+}
+
+:where(.accessibilityInclusivity) .image20Parent {
+  border-radius: 24px 24px 96px 24px;
+}
+
+:where(.accessibilityInclusivity) .peopleTakingPartBusinessEvParent {
+  border-radius: 16px 16px 82px 16px;
+}
+
+:where(.accessibilityInclusivity) .frameInner {
+  object-position: left center;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 {
+  align-items: center;
+  text-align: center;
+  gap: 26px;
+}
+
+:where(.accessibilityInclusivity) .frameParent13 {
+  gap: 26px !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent4,
+:where(.accessibilityInclusivity) .frameParent5 {
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameIcon {
+  font-size: 17px;
+}
+
+:where(.accessibilityInclusivity) .learningDesignedFor {
+  font-size: 34px;
+  line-height: 1.18;
+}
+
+:where(.accessibilityInclusivity) .neurolxpEnsuresEvery {
+  font-size: 19px;
+}
+
+:where(.accessibilityInclusivity) .frameParent9,
+:where(.accessibilityInclusivity) .frameParent14,
+:where(.accessibilityInclusivity) .frameParent19,
+:where(.accessibilityInclusivity) .frameParent30 {
+  grid-template-columns: 1fr;
+}
+
+:where(.accessibilityInclusivity) .frameChild2 {
+  font-size: 18px;
+}
+
+:where(.accessibilityInclusivity) .multipleContentFormats,
+:where(.accessibilityInclusivity) .supportingInstitutionsInContainer,
+:where(.accessibilityInclusivity) .empoweringInclusiveLearning {
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+:where(.accessibilityInclusivity) .deliverEngagingLearning,
+:where(.accessibilityInclusivity) .designedToMake,
+:where(.accessibilityInclusivity) .enableAccessibleFlexible,
+:where(.accessibilityInclusivity) .neurolxpHelpsInstitutions {
+  font-size: 19px;
+}
+
+:where(.accessibilityInclusivity) .inclusiveItem {
+  text-align: left;
+  gap: 10px;
+}
+
+:where(.accessibilityInclusivity) .inclusiveArrow {
+  transform: none;
+}
+
+:where(.accessibilityInclusivity) .inclusiveItem span {
+  white-space: normal;
+  font-size: 17px;
+  line-height: 1.4;
+}
+}
+
+@media (max-width: 480px) {
+:where(.accessibilityInclusivity) .frameDiv {
+  font-size: 12px;
+}
+
+:where(.accessibilityInclusivity) .image20Parent {
+  border-radius: 20px 20px 72px 20px;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 {
+  gap: 22px;
+}
+
+:where(.accessibilityInclusivity) .frameIcon {
+  font-size: 14px;
+}
+
+:where(.accessibilityInclusivity) .learningDesignedFor {
+  font-size: 28px;
+}
+
+:where(.accessibilityInclusivity) .neurolxpEnsuresEvery {
+  font-size: 16px;
+}
+
+:where(.accessibilityInclusivity) .multipleContentFormats,
+:where(.accessibilityInclusivity) .supportingInstitutionsInContainer,
+:where(.accessibilityInclusivity) .empoweringInclusiveLearning {
+  font-size: 28px;
+}
+
+:where(.accessibilityInclusivity) .institutionCardText {
+  font-size: 18px;
+}
+
+:where(.accessibilityInclusivity) .institutionTextTeal {
+  color: #006f73;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper2 .learningDesignedFor {
+  font-size: 28px;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper2 .designedToMake {
+  font-size: 17px;
+}
+
+:where(.accessibilityInclusivity) .easyNavigation,
+:where(.accessibilityInclusivity) .multiFormatLearning,
+:where(.accessibilityInclusivity) .unlimitedAssessments {
+  font-size: 20px;
+}
+
+:where(.accessibilityInclusivity) .image20Parent {
+  border-radius: 20px 20px 72px 20px;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 {
+  gap: 18px;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .frameParent4,
+:where(.accessibilityInclusivity) .frameParent3 .frameParent5 {
+  gap: 15px;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .frameIcon {
+  font-size: 14px;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .learningDesignedFor {
+  font-size: clamp(27px, 8vw, 32px);
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .neurolxpEnsuresEvery {
+  font-size: 16px;
+}
+
+:where(.accessibilityInclusivity) .youngAdultWatchingTvShowWIcon {
+  height: 250px !important;
+}
+}
+
+@media (max-width: 767px) {
+:where(.accessibilityInclusivity) .frameParent3 .frameParent4,
+:where(.accessibilityInclusivity) .frameParent3 .frameParent5 {
+  gap: 18px;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .learningDesignedFor br,
+:where(.accessibilityInclusivity) .frameParent6 .learningDesignedFor br,
+:where(.accessibilityInclusivity) .frameParent6 .designedToMake br {
+  display: none;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper2 .frameParent4 {
+  gap: 20px;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper2 .learningDesignedFor {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper2 .designedToMake {
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+:where(.accessibilityInclusivity) .frameParent8 {
+  gap: 24px;
+}
+
+:where(.accessibilityInclusivity) .frameParent9 {
+  gap: 24px;
+}
+
+:where(.accessibilityInclusivity) .compassParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  box-sizing: border-box;
+}
+
+:where(.accessibilityInclusivity) .compassIcon {
+  transform: none;
+}
+
+:where(.accessibilityInclusivity) .easyNavigationWrapper,
+:where(.accessibilityInclusivity) .easyNavigation,
+:where(.accessibilityInclusivity) .multiFormatLearning,
+:where(.accessibilityInclusivity) .unlimitedAssessments {
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .easyNavigation,
+:where(.accessibilityInclusivity) .multiFormatLearning,
+:where(.accessibilityInclusivity) .unlimitedAssessments {
+  font-size: 21px;
+  line-height: 1.3;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+:where(.accessibilityInclusivity) .frameWrapper2 .frameParent4 {
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent6 .learningDesignedFor br,
+:where(.accessibilityInclusivity) .frameParent6 .designedToMake br {
+  display: none;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper2 .learningDesignedFor {
+  font-size: 38px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper2 .designedToMake {
+  font-size: 22px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent8 {
+  gap: 28px;
+}
+
+:where(.accessibilityInclusivity) .frameParent9 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+:where(.accessibilityInclusivity) .compassParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  box-sizing: border-box;
+}
+
+:where(.accessibilityInclusivity) .compassIcon {
+  transform: none;
+}
+
+:where(.accessibilityInclusivity) .easyNavigationWrapper,
+:where(.accessibilityInclusivity) .easyNavigation,
+:where(.accessibilityInclusivity) .multiFormatLearning,
+:where(.accessibilityInclusivity) .unlimitedAssessments {
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .easyNavigation,
+:where(.accessibilityInclusivity) .multiFormatLearning,
+:where(.accessibilityInclusivity) .unlimitedAssessments {
+  font-size: 21px;
+  line-height: 1.3;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+:where(.accessibilityInclusivity) .frameParent3 {
+  gap: 38px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .frameParent4,
+:where(.accessibilityInclusivity) .frameParent3 .frameParent5 {
+  gap: 26px;
+  align-items: flex-start;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .learningDesignedFor br {
+  display: none;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .learningDesignedFor {
+  font-size: clamp(38px, 4vw, 48px);
+  line-height: 1.22;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .neurolxpEnsuresEvery {
+  font-size: clamp(21px, 2.1vw, 28px);
+  line-height: 1.42;
+}
+
+:where(.accessibilityInclusivity) .youngAdultWatchingTvShowWIcon {
+  right: 10px;
+  bottom: 0;
+  width: min(47%, 572px);
+  height: 100%;
+  object-fit: contain;
+  object-position: right bottom;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+:where(.accessibilityInclusivity) .image20Parent {
+  border-radius: 28px 28px 140px 28px;
+}
+
+:where(.accessibilityInclusivity) .peopleTakingPartBusinessEvParent {
+  border-radius: 16px 16px 120px 16px;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 {
+  gap: 28px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .frameParent4,
+:where(.accessibilityInclusivity) .frameParent3 .frameParent5 {
+  gap: 22px;
+  align-items: flex-start;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .learningDesignedFor br {
+  display: none;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .learningDesignedFor {
+  font-size: clamp(32px, 4.6vw, 40px);
+  line-height: 1.22;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .neurolxpEnsuresEvery {
+  font-size: clamp(18px, 2.5vw, 22px);
+  line-height: 1.42;
+}
+
+:where(.accessibilityInclusivity) .youngAdultWatchingTvShowWIcon {
+  right: 0;
+  bottom: 0;
+  width: 52%;
+  height: 88%;
+  object-fit: contain;
+  object-position: right bottom;
+}
+}
+
+@media (max-width: 767px) {
+:where(.accessibilityInclusivity) .image20Parent {
+  border-radius: 24px 24px 92px 24px;
+}
+
+:where(.accessibilityInclusivity) .peopleTakingPartBusinessEvParent {
+  border-radius: 16px 16px 78px 16px;
+}
+
+:where(.accessibilityInclusivity) .frameInner {
+  object-position: left center;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 {
+  gap: 22px;
+  align-items: center;
+  text-align: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .frameParent4,
+:where(.accessibilityInclusivity) .frameParent3 .frameParent5 {
+  gap: 18px;
+  align-items: center;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .learningDesignedFor br {
+  display: none;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .learningDesignedFor {
+  font-size: clamp(29px, 8.5vw, 36px);
+  line-height: 1.18;
+}
+
+:where(.accessibilityInclusivity) .frameParent3 .neurolxpEnsuresEvery {
+  font-size: clamp(16px, 4.8vw, 19px);
+  line-height: 1.42;
+}
+
+:where(.accessibilityInclusivity) .youngAdultWatchingTvShowWIcon {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+  object-position: center bottom;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1151px) {
+:where(.accessibilityInclusivity) .inclusiveItem span {
+  font-size: 18px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+:where(.accessibilityInclusivity) .frameParent8 {
+  font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1136px) {
+.accessibilityInclusivity {
+  font-size: 44px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1240px) {
+:where(.accessibilityInclusivity) .designedToMake {
+  font-size: 26px;
+}
+}
+
+@media screen and (min-width: 1149px) and (max-width: 1240px) {
+:where(.accessibilityInclusivity) .institutionCardText {
+  font-size: 19px !important;
+}
+}
+
+@media (max-width: 1024px) {
+:where(.accessibilityInclusivity) .multipleContentFormatsForFParent {
+  gap: 0px !important;
+}
+}
+
+:where(.accessibilityInclusivity) button.bookADemoWrapper,
+:where(.accessibilityInclusivity) .bookADemoWrapper {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font: inherit;
+  color: inherit;
+}
+
+:where(.accessibilityInclusivity) button.bookADemoWrapper:focus,
+:where(.accessibilityInclusivity) button.bookADemoWrapper:focus-visible,
+:where(.accessibilityInclusivity) button.bookADemoWrapper:active,
+:where(.accessibilityInclusivity) .bookADemoWrapper:focus,
+:where(.accessibilityInclusivity) .bookADemoWrapper:focus-visible,
+:where(.accessibilityInclusivity) .bookADemoWrapper:active {
+  border: 0 !important;
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}
+
+:where(.accessibilityInclusivity) button.frameWrapper,
+:where(.accessibilityInclusivity) button.frameWrapper:focus,
+:where(.accessibilityInclusivity) button.frameWrapper:focus-visible,
+:where(.accessibilityInclusivity) button.frameWrapper:active {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.accessibilityInclusivity,
+.accessibilityInclusivity *,
+.accessibilityInclusivity *::before,
+.accessibilityInclusivity *::after {
+  font-family: "Segoe UI", "Inter" !important;
+}
+
+@media screen and (min-width: 1024px) {
+.accessibilityInclusivity .frameParent6 .learningDesignedFor,
+.accessibilityInclusivity .frameParent11 .multipleContentFormats,
+.accessibilityInclusivity .accessibilityInclusivityInner .learningDesignedFor,
+.accessibilityInclusivity .frameParent28 .supportingInstitutionsInContainer,
+.accessibilityInclusivity .frameParent31 .empoweringInclusiveLearning {
+  font-size: 36px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .designedToMake,
+.accessibilityInclusivity .frameParent11 .deliverEngagingLearning,
+.accessibilityInclusivity .accessibilityInclusivityInner .designedToMake,
+.accessibilityInclusivity .frameParent28 .enableAccessibleFlexible,
+.accessibilityInclusivity .frameParent31 .neurolxpHelpsInstitutions {
+  font-size: 24px !important;
+}
+}
+
+.accessibilityInclusivity .image20Parent .frameWrapper {
+  cursor: pointer !important;
+  color: #2d4cc8 !important;
+  transition: box-shadow 0.2s ease,
+    transform 0.2s ease !important;
+}
+
+.accessibilityInclusivity .image20Parent .bookADemoWrapper,
+.accessibilityInclusivity .image20Parent .bookADemo {
+  color: #2d4cc8 !important;
+}
+
+.accessibilityInclusivity .image20Parent button.bookADemoWrapper,
+.accessibilityInclusivity .image20Parent .bookADemoWrapper {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameWrapper:hover,
+.accessibilityInclusivity .image20Parent .frameWrapper:focus-within {
+  box-shadow: inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameWrapper:active {
+  box-shadow: inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameWrapper:hover .bookADemo,
+.accessibilityInclusivity .image20Parent .frameWrapper:focus-within .bookADemo,
+.accessibilityInclusivity .image20Parent .frameWrapper:active .bookADemo,
+.accessibilityInclusivity .image20Parent .bookADemoWrapper:hover,
+.accessibilityInclusivity .image20Parent .bookADemoWrapper:focus,
+.accessibilityInclusivity .image20Parent .bookADemoWrapper:focus-visible,
+.accessibilityInclusivity .image20Parent .bookADemoWrapper:active {
+  color: #2d4cc8 !important;
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .image20Parent .frameParent3 {
+  z-index: 3 !important;
+}
+
+.accessibilityInclusivity .image20Parent .youngAdultWatchingTvShowWIcon {
+  top: auto !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 210px !important;
+  max-height: 210px !important;
+  object-fit: contain !important;
+  object-position: center bottom !important;
+  z-index: 1 !important;
+}
+}
+
+@media screen and (max-width: 480px) {
+.accessibilityInclusivity .image20Parent .youngAdultWatchingTvShowWIcon {
+  height: 190px !important;
+  max-height: 190px !important;
+}
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .image20Parent .youngAdultWatchingTvShowWIcon {
+  top: auto !important;
+  right: 0 !important;
+  bottom: 8px !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 165px !important;
+  max-height: 165px !important;
+  object-fit: contain !important;
+  object-position: center bottom !important;
+  z-index: 1 !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameParent3 {
+  z-index: 3 !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .teamSupportingInvalidWoman {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+}
+
+@media screen and (max-width: 480px) {
+.accessibilityInclusivity .image20Parent .youngAdultWatchingTvShowWIcon {
+  height: 155px !important;
+  max-height: 155px !important;
+}
+}
+
+.accessibilityInclusivity .image20Parent .bookADemoWrapper {
+  justify-content: center !important;
+}
+
+.accessibilityInclusivity .image20Parent .bookADemo {
+  white-space: nowrap !important;
+  text-align: center !important;
+}
+
+@media screen and (min-width: 1024px) {
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassParent {
+  justify-content: center !important;
+  gap: 12px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassIcon {
+  transform: none !important;
+  flex: 0 0 50px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassParent > :last-child,
+.accessibilityInclusivity .frameParent6 .easyNavigationWrapper,
+.accessibilityInclusivity .frameParent6 .easyNavigation,
+.accessibilityInclusivity .frameParent6 .multiFormatLearning,
+.accessibilityInclusivity .frameParent6 .unlimitedAssessments {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent16 {
+  gap: 12px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent16 > :last-child,
+.accessibilityInclusivity .frameParent11 .textStructured,
+.accessibilityInclusivity .frameParent11 .interactiveVideoLearning {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .frameParent24 {
+  align-items: center !important;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassParent {
+  justify-content: center !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassParent > :last-child,
+.accessibilityInclusivity .frameParent6 .easyNavigationWrapper,
+.accessibilityInclusivity .frameParent6 .easyNavigation,
+.accessibilityInclusivity .frameParent6 .multiFormatLearning,
+.accessibilityInclusivity .frameParent6 .unlimitedAssessments {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent16 > :last-child,
+.accessibilityInclusivity .frameParent11 .textStructured,
+.accessibilityInclusivity .frameParent11 .interactiveVideoLearning {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .frameParent6 .learningDesignedFor,
+.accessibilityInclusivity .frameParent11 .multipleContentFormats,
+.accessibilityInclusivity .accessibilityInclusivityInner .learningDesignedFor,
+.accessibilityInclusivity .frameParent28 .supportingInstitutionsInContainer,
+.accessibilityInclusivity .frameParent31 .empoweringInclusiveLearning {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .designedToMake,
+.accessibilityInclusivity .frameParent11 .deliverEngagingLearning,
+.accessibilityInclusivity .accessibilityInclusivityInner .designedToMake,
+.accessibilityInclusivity .frameParent28 .enableAccessibleFlexible,
+.accessibilityInclusivity .frameParent31 .neurolxpHelpsInstitutions {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameIcon,
+.accessibilityInclusivity .frameParent11 .frameChild2,
+.accessibilityInclusivity .frameParent31 .neurolxpBadge,
+.accessibilityInclusivity .frameParent31 .neurolxpBadgeText {
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassParent {
+  box-sizing: border-box !important;
+  justify-content: center !important;
+  gap: 10px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassIcon {
+  width: 42px !important;
+  height: 42px !important;
+  flex: 0 0 42px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassParent > :last-child,
+.accessibilityInclusivity .frameParent6 .easyNavigationWrapper,
+.accessibilityInclusivity .frameParent6 .easyNavigation,
+.accessibilityInclusivity .frameParent6 .multiFormatLearning,
+.accessibilityInclusivity .frameParent6 .unlimitedAssessments {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent16 {
+  gap: 10px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent16 > :last-child,
+.accessibilityInclusivity .frameParent11 .textStructured,
+.accessibilityInclusivity .frameParent11 .interactiveVideoLearning {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .inclusiveItem {
+  gap: 10px !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .inclusiveItem span {
+  font-size: 16px !important;
+  line-height: 22px !important;
+  white-space: normal !important;
+}
+
+.accessibilityInclusivity .image20Parent .bookADemoWrapper,
+.accessibilityInclusivity .image20Parent .bookADemo {
+  white-space: nowrap !important;
+}
+}
+
+@media screen and (max-width: 480px) {
+.accessibilityInclusivity .frameParent6 .learningDesignedFor,
+.accessibilityInclusivity .frameParent11 .multipleContentFormats,
+.accessibilityInclusivity .accessibilityInclusivityInner .learningDesignedFor,
+.accessibilityInclusivity .frameParent28 .supportingInstitutionsInContainer,
+.accessibilityInclusivity .frameParent31 .empoweringInclusiveLearning {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .designedToMake,
+.accessibilityInclusivity .frameParent11 .deliverEngagingLearning,
+.accessibilityInclusivity .accessibilityInclusivityInner .designedToMake,
+.accessibilityInclusivity .frameParent28 .enableAccessibleFlexible,
+.accessibilityInclusivity .frameParent31 .neurolxpHelpsInstitutions {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.accessibilityInclusivity .frameParent6
+    .frameWrapper3 .compassParent > :last-child,
+.accessibilityInclusivity .frameParent6
+    .easyNavigationWrapper,
+.accessibilityInclusivity .frameParent6
+    .easyNavigation,
+.accessibilityInclusivity .frameParent6
+    .multiFormatLearning,
+.accessibilityInclusivity .frameParent6
+    .unlimitedAssessments {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+  line-height: 30px !important;
+}
+}
+
+@media screen and (max-width: 1023.98px) {
+.accessibilityInclusivity .frameParent6
+    .frameWrapper3 .compassParent > :last-child,
+.accessibilityInclusivity .frameParent6
+    .easyNavigationWrapper,
+.accessibilityInclusivity .frameParent6
+    .easyNavigation,
+.accessibilityInclusivity .frameParent6
+    .multiFormatLearning,
+.accessibilityInclusivity .frameParent6
+    .unlimitedAssessments {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.accessibilityInclusivity .accessibilityInclusivityInner .frameParent25 {
+  justify-content: flex-start !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent16 {
+  gap: 12px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent16 > :last-child,
+.accessibilityInclusivity .frameParent11 .textStructured,
+.accessibilityInclusivity .frameParent11 .interactiveVideoLearning {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+  text-wrap: balance !important;
+  line-height: 30px !important;
+}
+}
+
+@media screen and (max-width: 1023.98px) {
+.accessibilityInclusivity .frameParent11 .frameParent16 > :last-child,
+.accessibilityInclusivity .frameParent11 .textStructured,
+.accessibilityInclusivity .frameParent11 .interactiveVideoLearning {
+  white-space: normal !important;
+  text-wrap: balance !important;
+  text-align: center !important;
+}
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .image20Parent .frameParent3 {
+  gap: 16px !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameParent4,
+.accessibilityInclusivity .image20Parent .frameParent5 {
+  gap: 14px !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameIcon {
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+.accessibilityInclusivity .image20Parent .learningDesignedFor {
+  font-size: 28px !important;
+  line-height: 34px !important;
+  text-align: center !important;
+}
+
+.accessibilityInclusivity .image20Parent .neurolxpEnsuresEvery {
+  font-size: 16px !important;
+  line-height: 23px !important;
+  text-align: center !important;
+}
+
+.accessibilityInclusivity .image20Parent .bookADemoWrapper,
+.accessibilityInclusivity .image20Parent .bookADemo {
+  white-space: nowrap !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+}
+
+.accessibilityInclusivity .image20Parent .youngAdultWatchingTvShowWIcon {
+  right: 0 !important;
+  bottom: 4px !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 150px !important;
+  max-height: 150px !important;
+  object-fit: contain !important;
+  object-position: center bottom !important;
+}
+
+.accessibilityInclusivity .frameParent6 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameParent4 {
+  gap: 14px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .learningDesignedFor {
+  font-size: 24px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+}
+
+.accessibilityInclusivity .frameParent6 .designedToMake {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameParent8,
+.accessibilityInclusivity .frameParent6 .frameParent9 {
+  gap: 14px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameParent9 {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  justify-items: center !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassParent {
+  box-sizing: border-box !important;
+  justify-content: center !important;
+  gap: 8px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .compassIcon {
+  width: 38px !important;
+  height: 38px !important;
+  flex: 0 0 38px !important;
+}
+
+.accessibilityInclusivity .frameParent6 .frameWrapper3 .compassParent > :last-child,
+.accessibilityInclusivity .frameParent6 .easyNavigationWrapper,
+.accessibilityInclusivity .frameParent6 .easyNavigation,
+.accessibilityInclusivity .frameParent6 .multiFormatLearning,
+.accessibilityInclusivity .frameParent6 .unlimitedAssessments {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  text-align: center !important;
+  white-space: normal !important;
+  text-wrap: balance !important;
+}
+
+.accessibilityInclusivity .frameParent11 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 22px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent12,
+.accessibilityInclusivity .frameParent11 .multipleContentFormatsForFParent {
+  gap: 14px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameChild2 {
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .multipleContentFormats {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .deliverEngagingLearning {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent13 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 14px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent14,
+.accessibilityInclusivity .frameParent11 .frameParent19 {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  justify-items: center !important;
+  gap: 14px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent16 {
+  gap: 8px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .formatIconOuter {
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .formatIconInner {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .formatIconImage {
+  width: 26px !important;
+  height: 26px !important;
+}
+
+.accessibilityInclusivity .frameParent11 .frameParent16 > :last-child,
+.accessibilityInclusivity .frameParent11 .textStructured,
+.accessibilityInclusivity .frameParent11 .interactiveVideoLearning {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  text-align: center !important;
+  white-space: normal !important;
+  text-wrap: balance !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .frameParent24 {
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .frameParent25 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .learningDesignedFor {
+  font-size: 24px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .designedToMake {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .frameParent27 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .inclusiveItem {
+  gap: 8px !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .inclusiveArrow {
+  width: 28px !important;
+  height: 28px !important;
+  flex: 0 0 28px !important;
+  transform: none !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .inclusiveItem span {
+  font-size: 16px !important;
+  line-height: 22px !important;
+  white-space: normal !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner
+    .teamSupportingInvalidWoman {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+.accessibilityInclusivity .frameParent28 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 22px !important;
+}
+
+.accessibilityInclusivity .frameParent28 .frameParent29 {
+  gap: 14px !important;
+}
+
+.accessibilityInclusivity .frameParent28
+    .supportingInstitutionsInContainer {
+  font-size: 24px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+  display: block !important;
+}
+
+.accessibilityInclusivity .frameParent28
+    .supportingInstitutionsIn,
+.accessibilityInclusivity .frameParent28
+    .inclusiveEducation {
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .frameParent28 .enableAccessibleFlexible {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center !important;
+}
+
+.accessibilityInclusivity .frameParent28 .frameParent30 {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  justify-items: center !important;
+  gap: 14px !important;
+}
+
+.accessibilityInclusivity .frameParent28 .institutionCardContent {
+  gap: 8px !important;
+}
+
+.accessibilityInclusivity .frameParent28 .institutionIconOuter {
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.accessibilityInclusivity .frameParent28 .institutionIconInner {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.accessibilityInclusivity .frameParent28 .institutionIconImage {
+  width: 26px !important;
+  height: 26px !important;
+}
+
+.accessibilityInclusivity .frameParent28 .institutionCardText {
+  font-size: 16px !important;
+  line-height: 22px !important;
+  text-align: center !important;
+}
+
+.accessibilityInclusivity .frameParent31 {
+  gap: 18px !important;
+}
+
+.accessibilityInclusivity .frameParent31 .neurolxpBadge {
+  font-size: 16px !important;
+}
+
+.accessibilityInclusivity .frameParent31 .neurolxpBadgeText {
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+.accessibilityInclusivity .frameParent31 .neurolxpTm {
+  font-size: 10px !important;
+  top: -5px !important;
+}
+
+.accessibilityInclusivity .frameParent31
+    .empoweringInclusiveLearningParent {
+  gap: 14px !important;
+}
+
+.accessibilityInclusivity .frameParent31
+    .empoweringInclusiveLearning {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .frameParent31
+    .neurolxpHelpsInstitutions {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+}
+
+@media screen and (max-width: 339.98px) {
+.accessibilityInclusivity .image20Parent .youngAdultWatchingTvShowWIcon {
+  height: 140px !important;
+  max-height: 140px !important;
+}
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .image20Parent .frameParent3 {
+  gap: 12px !important;
+}
+
+.accessibilityInclusivity .image20Parent .youngAdultWatchingTvShowWIcon {
+  position: absolute !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: 10px !important;
+  width: 170px !important;
+  height: 120px !important;
+  max-width: 170px !important;
+  max-height: 120px !important;
+  object-fit: contain !important;
+  object-position: center bottom !important;
+  transform: translateX(-50%) !important;
+  z-index: 1 !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameParent3 {
+  z-index: 3 !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .frameParent24 {
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .frameParent25 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .frameParent26 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner .frameParent27 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner
+    .teamSupportingInvalidWoman {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center 38% !important;
+  transform: none !important;
+}
+}
+
+@media screen and (max-width: 339.98px) {
+.accessibilityInclusivity .image20Parent .youngAdultWatchingTvShowWIcon {
+  width: 158px !important;
+  max-width: 158px !important;
+  height: 112px !important;
+  max-height: 112px !important;
+}
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .accessibilityInclusivityInner .learningAnalytics {
+  display: none !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner
+    .teamSupportingInvalidWoman {
+  display: none !important;
+}
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .accessibilityInclusivityInner
+    .frameParent24 > .learningAnalytics,
+.accessibilityInclusivity .accessibilityInclusivityInner
+    .frameParent24 > div:last-child.learningAnalytics {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.accessibilityInclusivity .accessibilityInclusivityInner
+    img.teamSupportingInvalidWoman {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .image20Parent
+    .youngAdultWatchingTvShowWIcon {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  pointer-events: none !important;
+}
+
+.accessibilityInclusivity .image20Parent .learningDesignedFor,
+.accessibilityInclusivity .frameParent6 .learningDesignedFor,
+.accessibilityInclusivity .frameParent11 .multipleContentFormats,
+.accessibilityInclusivity .accessibilityInclusivityInner .learningDesignedFor,
+.accessibilityInclusivity .frameParent28 .supportingInstitutionsInContainer,
+.accessibilityInclusivity .frameParent31 .empoweringInclusiveLearning {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .image20Parent .neurolxpEnsuresEvery,
+.accessibilityInclusivity .frameParent6 .designedToMake,
+.accessibilityInclusivity .frameParent11 .deliverEngagingLearning,
+.accessibilityInclusivity .accessibilityInclusivityInner .designedToMake,
+.accessibilityInclusivity .frameParent28 .enableAccessibleFlexible,
+.accessibilityInclusivity .frameParent31 .neurolxpHelpsInstitutions,
+.accessibilityInclusivity .accessibilityInclusivityInner .inclusiveItem span,
+.accessibilityInclusivity .frameParent6 .easyNavigation,
+.accessibilityInclusivity .frameParent6 .multiFormatLearning,
+.accessibilityInclusivity .frameParent6 .unlimitedAssessments,
+.accessibilityInclusivity .frameParent11 .textStructured,
+.accessibilityInclusivity .frameParent11 .interactiveVideoLearning,
+.accessibilityInclusivity .frameParent28 .institutionCardText {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameIcon,
+.accessibilityInclusivity .frameParent11 .frameChild2,
+.accessibilityInclusivity .frameParent31 .neurolxpBadgeText {
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+.accessibilityInclusivity .image20Parent .learningDesignedFor,
+.accessibilityInclusivity .frameParent6 .learningDesignedFor,
+.accessibilityInclusivity .frameParent11 .multipleContentFormats,
+.accessibilityInclusivity .accessibilityInclusivityInner .learningDesignedFor,
+.accessibilityInclusivity .frameParent28 .supportingInstitutionsInContainer,
+.accessibilityInclusivity .frameParent31 .empoweringInclusiveLearning {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .image20Parent .neurolxpEnsuresEvery,
+.accessibilityInclusivity .frameParent6 .designedToMake,
+.accessibilityInclusivity .frameParent11 .deliverEngagingLearning,
+.accessibilityInclusivity .accessibilityInclusivityInner .designedToMake,
+.accessibilityInclusivity .frameParent28 .enableAccessibleFlexible,
+.accessibilityInclusivity .frameParent31 .neurolxpHelpsInstitutions,
+.accessibilityInclusivity .accessibilityInclusivityInner .inclusiveItem span,
+.accessibilityInclusivity .frameParent6 .easyNavigation,
+.accessibilityInclusivity .frameParent6 .multiFormatLearning,
+.accessibilityInclusivity .frameParent6 .unlimitedAssessments,
+.accessibilityInclusivity .frameParent11 .textStructured,
+.accessibilityInclusivity .frameParent11 .interactiveVideoLearning,
+.accessibilityInclusivity .frameParent28 .institutionCardText {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameIcon,
+.accessibilityInclusivity .frameParent11 .frameChild2,
+.accessibilityInclusivity .frameParent31 .neurolxpBadgeText {
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .image20Parent {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameParent2 {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.accessibilityInclusivity .image20Parent
+    .peopleTakingPartBusinessEvParent {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.accessibilityInclusivity .image20Parent .frameParent3 {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 14px !important;
+  z-index: 5 !important;
+}
+
+.accessibilityInclusivity .image20Parent
+    .youngAdultWatchingTvShowWIcon {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  pointer-events: none !important;
+}
+
+.accessibilityInclusivity .image20Parent .learningDesignedFor {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}
+
+.accessibilityInclusivity .image20Parent .neurolxpEnsuresEvery {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+}
+
+.accessibilityInclusivity {
+  --control-surface: #dfe6e9;
+  --control-blue: #2d4cc8;
+  --control-raised: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  --control-inset: inset -4px -4px 4px #fff,
+                   inset 4px 4px 4px rgba(196, 196, 196, .8);
+}
+
+.accessibilityInclusivity .frameWrapper {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  background: var(--control-surface) !important;
+  color: var(--control-blue) !important;
+  box-shadow: var(--control-raised) !important;
+  font-family: "Segoe UI", "Inter" !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+  letter-spacing: .02em !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  white-space: normal !important;
+  cursor: pointer !important;
+  transition: box-shadow .2s ease !important;
+  box-sizing: border-box !important;
+}
+
+.accessibilityInclusivity .frameWrapper .bookADemoWrapper,
+.accessibilityInclusivity .frameWrapper .bookADemo {
+  color: var(--control-blue) !important;
+  font: inherit !important;
+  letter-spacing: inherit !important;
+  text-decoration: none !important;
+}
+
+.accessibilityInclusivity .frameWrapper .bookADemoWrapper {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 0 !important;
+  outline: 0 !important;
+  background: transparent !important;
+}
+
+.accessibilityInclusivity .frameWrapper:hover,
+.accessibilityInclusivity .frameWrapper:focus-within {
+  background: var(--control-surface) !important;
+  color: var(--control-blue) !important;
+  box-shadow: var(--control-raised) !important;
+}
+
+.accessibilityInclusivity .frameWrapper:active {
+  box-shadow: var(--control-inset) !important;
+}
+
+.accessibilityInclusivity .frameIcon,
+.accessibilityInclusivity .frameChild2,
+.accessibilityInclusivity .neurolxpBadge {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: var(--control-surface) !important;
+  box-shadow: var(--control-inset) !important;
+  color: var(--control-blue) !important;
+  font-family: "Segoe UI", "Inter" !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: .03em !important;
+  text-align: center !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+}
+
+.accessibilityInclusivity .neurolxpBadgeText {
+  color: var(--control-blue) !important;
+  font: inherit !important;
+  letter-spacing: inherit !important;
+}
+
+@media screen and (max-width: 767.98px) {
+.accessibilityInclusivity .frameWrapper {
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+
+.accessibilityInclusivity .frameIcon,
+.accessibilityInclusivity .frameChild2,
+.accessibilityInclusivity .neurolxpBadge {
+  font-size: 20px !important;
+}
+}
+
+:where(.accessibilityInclusivity) .textStructured,
+:where(.accessibilityInclusivity) .interactiveVideoLearning {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  box-sizing: border-box !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent11 .frameParent16 {
+  box-sizing: border-box !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent11 .formatCardTitle {
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: "Segoe UI", "Inter" !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: 32px !important;
+  letter-spacing: 0.03em !important;
+  text-align: center !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent11 .formatCardTitle > span {
+  display: block !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent11 .formatCardTitleGreen {
+  color: #2a7308 !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent11 .formatCardTitlePurple {
+  color: #67096e !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent11 .formatCardTitleOrange {
+  color: #c05512 !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent11 .formatCardTitlePink {
+  color: #bf1869 !important;
+}
+
+@media (max-width: 520px) {
+:where(.accessibilityInclusivity) .frameParent11 .formatCardTitle {
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+}
+
+:where(.accessibilityInclusivity) .frameParent6 .easyNavigation,
+:where(.accessibilityInclusivity) .frameParent6 .multiFormatLearning,
+:where(.accessibilityInclusivity) .frameParent6 .unlimitedAssessments {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  line-height: 32px !important;
+  box-sizing: border-box !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent6 .easyNavigation > span,
+:where(.accessibilityInclusivity) .frameParent6 .multiFormatLearning > span,
+:where(.accessibilityInclusivity) .frameParent6 .unlimitedAssessments > span {
+  display: block !important;
+}
+
+@media screen and (min-width: 1024px) {
+.accessibilityInclusivity .image20Parent .learningDesignedFor,
+.accessibilityInclusivity .frameParent6 .learningDesignedFor,
+.accessibilityInclusivity .frameParent11 .multipleContentFormats,
+.accessibilityInclusivity .accessibilityInclusivityInner .learningDesignedFor,
+.accessibilityInclusivity .frameParent28 .supportingInstitutionsInContainer,
+.accessibilityInclusivity .frameParent31 .empoweringInclusiveLearning {
+  font-size: 36px !important;
+  line-height: 44px !important;
+}
+}
+
+/* Normal-flow layout. Content determines section and card heights.
+   Absolute positioning is reserved for decorative image layers. */
+
+.accessibilityInclusivity,
+.accessibilityInclusivity *,
+.accessibilityInclusivity *::before,
+.accessibilityInclusivity *::after { box-sizing: border-box; }
+
+.accessibilityInclusivity {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px max(40px, calc((100% - 1280px) / 2)) 48px;
+  overflow: visible;
+}
+
+.accessibilityInclusivity :where(div, section, article, header, footer, nav, h1, h2, h3, p, span, button, a) {
+  min-width: 0;
+}
+
+.accessibilityInclusivity :where(h1, h2, h3, p) { margin: 0; }
+
+.accessibilityInclusivity img { max-width: 100%; }
+
+:where(.accessibilityInclusivity) .frameDiv,
+:where(.accessibilityInclusivity) .image20Parent,
+:where(.accessibilityInclusivity) .frameParent6,
+:where(.accessibilityInclusivity) .frameParent11,
+:where(.accessibilityInclusivity) .accessibilityInclusivityInner,
+:where(.accessibilityInclusivity) .frameParent28,
+:where(.accessibilityInclusivity) .frameParent31 {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  min-height: 0;
+  flex: 0 0 auto;
+  margin: 48px auto 0;
+}
+
+:where(.accessibilityInclusivity) .frameDiv {
+  margin-top: 0;
+  flex-wrap: wrap;
+  white-space: normal;
+}
+
+:where(.accessibilityInclusivity) .image20Parent { margin-top: 32px; padding: 32px; overflow: hidden; }
+
+:where(.accessibilityInclusivity) .image20Parent .frameParent2 {
+  position: relative;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+:where(.accessibilityInclusivity) .image20Parent .peopleTakingPartBusinessEvParent {
+  position: relative;
+  grid-area: 1 / 1;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
+  aspect-ratio: 1216 / 620;
+  height: auto;
+  overflow: hidden;
+}
+
+:where(.accessibilityInclusivity) .image20Parent .frameParent3 {
+  position: relative;
+  grid-area: 1 / 1;
+  align-self: center;
+  width: 55%;
+  max-width: 667px;
+  height: auto;
+  margin: 0;
+  padding: 42px;
+  z-index: 2;
+}
+
+:where(.accessibilityInclusivity) .image20Parent .youngAdultWatchingTvShowWIcon {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 47%;
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+  object-position: right bottom;
+}
+
+:where(.accessibilityInclusivity) .image20Parent .image20 { inset: 0; width: 100%; height: 100%; }
+
+:where(.accessibilityInclusivity) .frameParent4,
+:where(.accessibilityInclusivity) .frameParent5,
+:where(.accessibilityInclusivity) .accessibleLearningForDiversWrapper,
+:where(.accessibilityInclusivity) .learningDesignedFor,
+:where(.accessibilityInclusivity) .neurolxpEnsuresEvery,
+:where(.accessibilityInclusivity) .designedToMake,
+:where(.accessibilityInclusivity) .frameWrapper2,
+:where(.accessibilityInclusivity) .frameParent8,
+:where(.accessibilityInclusivity) .frameParent12,
+:where(.accessibilityInclusivity) .multipleContentFormatsForFParent,
+:where(.accessibilityInclusivity) .frameParent13,
+:where(.accessibilityInclusivity) .frameParent25,
+:where(.accessibilityInclusivity) .frameParent26,
+:where(.accessibilityInclusivity) .frameParent27,
+:where(.accessibilityInclusivity) .frameWrapper18,
+:where(.accessibilityInclusivity) .frameParent29,
+:where(.accessibilityInclusivity) .supportingInstitutionsInIncWrapper,
+:where(.accessibilityInclusivity) .empoweringInclusiveLearningParent {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  max-height: none;
+}
+
+:where(.accessibilityInclusivity) .learningDesignedFor,
+:where(.accessibilityInclusivity) .neurolxpEnsuresEvery,
+:where(.accessibilityInclusivity) .designedToMake,
+:where(.accessibilityInclusivity) .multipleContentFormats,
+:where(.accessibilityInclusivity) .deliverEngagingLearning,
+:where(.accessibilityInclusivity) .supportingInstitutionsInContainer,
+:where(.accessibilityInclusivity) .enableAccessibleFlexible,
+:where(.accessibilityInclusivity) .empoweringInclusiveLearning,
+:where(.accessibilityInclusivity) .neurolxpHelpsInstitutions {
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper7,
+:where(.accessibilityInclusivity) .frameWrapper8,
+:where(.accessibilityInclusivity) .frameWrapper17 { width: 100%; height: auto; }
+
+:where(.accessibilityInclusivity) .multipleContentFormats { width: 100%; }
+
+:where(.accessibilityInclusivity) .deliverEngagingLearning { width: 100%; max-width: 886px; }
+
+:where(.accessibilityInclusivity) .supportingInstitutionsInContainer { width: 100%; }
+
+:where(.accessibilityInclusivity) .enableAccessibleFlexible { width: 100%; max-width: 1020px; }
+
+:where(.accessibilityInclusivity) .empoweringInclusiveLearning { width: 100%; }
+
+:where(.accessibilityInclusivity) .neurolxpHelpsInstitutions { width: 100%; max-width: 1187px; }
+
+:where(.accessibilityInclusivity) .frameParent31 { max-width: 1187px; }
+
+:where(.accessibilityInclusivity) .supportingInstitutionsIn,
+:where(.accessibilityInclusivity) .inclusiveEducation { line-height: inherit; }
+
+/* The existing badge and button styling is retained; padding sizes them. */
+
+.accessibilityInclusivity .frameIcon,
+.accessibilityInclusivity .frameChild2,
+.accessibilityInclusivity .neurolxpBadge {
+  width: fit-content;
+  max-width: 100%;
+  height: auto;
+  padding: 12px 36px;
+  flex: 0 0 auto;
+  overflow-wrap: break-word !important;
+}
+
+.accessibilityInclusivity .frameWrapper {
+  width: fit-content;
+  max-width: 100%;
+  height: auto;
+  padding: 16px 32px;
+  flex: 0 0 auto;
+}
+
+.accessibilityInclusivity .bookADemoWrapper,
+.accessibilityInclusivity .bookADemo {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+
+/* Accessible-learning section: text and a two-column card grid. */
+
+:where(.accessibilityInclusivity) .frameParent6 {
+  display: grid !important;
+  grid-template-columns: minmax(0, 583fr) minmax(0, 637fr);
+  align-items: center;
+  gap: clamp(28px, 4vw, 57px) !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent9 {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  width: 100%;
+  gap: clamp(20px, 3.5vw, 50px);
+}
+
+:where(.accessibilityInclusivity) .frameWrapper3 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 12px 18px;
+}
+
+:where(.accessibilityInclusivity) .compassParent {
+  position: relative;
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+  justify-content: center;
+  padding: 0;
+  transform: none;
+}
+
+:where(.accessibilityInclusivity) .easyNavigationWrapper,
+:where(.accessibilityInclusivity) .easyNavigation,
+:where(.accessibilityInclusivity) .multiFormatLearning,
+:where(.accessibilityInclusivity) .unlimitedAssessments {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin-inline: auto;
+  overflow-wrap: break-word;
+}
+
+:where(.accessibilityInclusivity) .frameParent6 .compassParent > :last-child { width: 100%; max-width: 150px; height: auto; }
+
+:where(.accessibilityInclusivity) .frameParent6 .easyNavigation > span,
+:where(.accessibilityInclusivity) .frameParent6 .multiFormatLearning > span,
+:where(.accessibilityInclusivity) .frameParent6 .unlimitedAssessments > span { white-space: normal; overflow-wrap: break-word; }
+
+/* Keep the hyphenated label together; Learning remains on the second line. */
+.accessibilityInclusivity .frameParent6 .multiFormatLearning > span:first-child {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* Format cards retain the raised outer card and inset rounded inner card. */
+
+:where(.accessibilityInclusivity) .frameParent14,
+:where(.accessibilityInclusivity) .frameParent19 {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 444px));
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  gap: 52px;
+}
+
+:where(.accessibilityInclusivity) .frameWrapper9,
+:where(.accessibilityInclusivity) .frameWrapper11,
+:where(.accessibilityInclusivity) .frameWrapper15 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 16px;
+}
+
+:where(.accessibilityInclusivity) .frameParent15 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 26px 16px;
+}
+
+:where(.accessibilityInclusivity) .frameParent16 {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  margin-inline: auto;
+}
+
+:where(.accessibilityInclusivity) .textStructured,
+:where(.accessibilityInclusivity) .interactiveVideoLearning,
+:where(.accessibilityInclusivity) .frameParent11 .frameParent16 > :last-child,
+:where(.accessibilityInclusivity) .frameParent11 .formatCardTitle {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow-wrap: break-word !important;
+}
+
+:where(.accessibilityInclusivity) .frameParent11 .formatCardTitle > span {
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+/* Inclusive-learning section: no negative margins or translated content. */
+
+:where(.accessibilityInclusivity) .accessibilityInclusivityInner { padding: 40px; }
+
+:where(.accessibilityInclusivity) .frameParent24 {
+  position: relative;
+  display: grid !important;
+  grid-template-columns: minmax(0, 590fr) minmax(0, 550fr);
+  align-items: center;
+  gap: 24px !important;
+  width: 100%;
+}
+
+:where(.accessibilityInclusivity) .frameParent25 { gap: 18px !important; }
+
+:where(.accessibilityInclusivity) .frameParent26 { gap: 12px !important; }
+
+:where(.accessibilityInclusivity) .frameParent27 { max-width: 520px; margin: 0; gap: 12px !important; }
+
+:where(.accessibilityInclusivity) .inclusiveItem {
+  width: 100%;
+  height: auto;
+  padding: 12px 24px;
+  flex: 0 0 auto;
+  overflow: visible;
+}
+
+:where(.accessibilityInclusivity) .inclusiveItem span { white-space: normal; overflow-wrap: break-word; }
+
+:where(.accessibilityInclusivity) .learningAnalytics {
+  position: relative;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 550 / 540;
+  overflow: hidden;
+}
+
+/* Institutions use equal grid tracks; each card grows with its own text. */
+
+:where(.accessibilityInclusivity) .frameParent30 {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  gap: 27px;
+}
+
+:where(.accessibilityInclusivity) .institutionCard {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 28px 14px;
+}
+
+:where(.accessibilityInclusivity) .institutionCardContent {
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+:where(.accessibilityInclusivity) .institutionCardText { width: 100%; height: auto; overflow-wrap: break-word; }
+
+/* In-file navigation/footer, if used, also participate in document flow. */
+
+:where(.accessibilityInclusivity) .frameParent,
+:where(.accessibilityInclusivity) .frameGroup,
+:where(.accessibilityInclusivity) .frameParent32,
+:where(.accessibilityInclusivity) .frameParent33,
+:where(.accessibilityInclusivity) .frameWrapper19,
+:where(.accessibilityInclusivity) .frameParent34 { position: relative; width: 100%; height: auto; }
+
+:where(.accessibilityInclusivity) .frameParent { padding: 18px 32px; }
+
+:where(.accessibilityInclusivity) .frameGroup,
+:where(.accessibilityInclusivity) .logo01SynapseSpark1Parent { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 24px; }
+
+:where(.accessibilityInclusivity) .frameContainer { flex-wrap: wrap; }
+
+:where(.accessibilityInclusivity) .frameChild,
+:where(.accessibilityInclusivity) .signInHelpWrapper { position: relative; width: auto; height: auto; padding: 8px 16px; }
+
+:where(.accessibilityInclusivity) .signInHelp { width: auto; }
+
+:where(.accessibilityInclusivity) .frameParent32 { margin-top: 48px; }
+
+:where(.accessibilityInclusivity) .frameParent33,
+:where(.accessibilityInclusivity) .frameWrapper19 { padding: 48px 32px 24px; }
+
+:where(.accessibilityInclusivity) .frameParent34 { max-width: 1339px; margin-inline: auto; }
+
+:where(.accessibilityInclusivity) .frameParent35 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+:where(.accessibilityInclusivity) .frameParent36,
+:where(.accessibilityInclusivity) .frameParent38,
+:where(.accessibilityInclusivity) .frameParent45,
+:where(.accessibilityInclusivity) .logo01SynapseSpark1Group,
+:where(.accessibilityInclusivity) .prgeeqGlobalSolutionsPrivatParent { width: 100%; }
+
+:where(.accessibilityInclusivity) .frameParent39,
+:where(.accessibilityInclusivity) .frameParent46 { width: 100%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+
+:where(.accessibilityInclusivity) .aboutUsParent,
+:where(.accessibilityInclusivity) .quickLinksParent,
+:where(.accessibilityInclusivity) .neurolxpParent,
+:where(.accessibilityInclusivity) .ourCustomersGroup,
+:where(.accessibilityInclusivity) .ourCustomersContainer,
+:where(.accessibilityInclusivity) .smartContentCreation { width: 100%; height: auto; }
+
+:where(.accessibilityInclusivity) .frameParent37,
+:where(.accessibilityInclusivity) .frameParent40,
+:where(.accessibilityInclusivity) .frameParent48 { position: relative; width: 100%; height: auto; flex-wrap: wrap; }
+
+:where(.accessibilityInclusivity) .copyright2026,
+:where(.accessibilityInclusivity) .prestigeAtlanta1012Container { width: 100%; height: auto; }
+
+@media (max-width: 1439px) {
+:where(.accessibilityInclusivity) .image20Parent { padding: 24px; }
+
+:where(.accessibilityInclusivity) .image20Parent .frameParent3 { padding: 38px; }
+
+:where(.accessibilityInclusivity) .frameParent14,
+:where(.accessibilityInclusivity) .frameParent19 { gap: 40px; }
+}
+
+@media (max-width: 1023.98px) {
+.accessibilityInclusivity { padding: 32px 28px 48px; }
+
+:where(.accessibilityInclusivity) .image20Parent { padding: 22px; }
+
+:where(.accessibilityInclusivity) .image20Parent .frameParent3 { padding: 34px 24px; }
+
+:where(.accessibilityInclusivity) .frameParent6 { grid-template-columns: minmax(0, 1fr); gap: 36px !important; }
+
+:where(.accessibilityInclusivity) .frameParent8 { max-width: 680px; margin-inline: auto; }
+
+:where(.accessibilityInclusivity) .frameParent9 { gap: 24px; }
+
+:where(.accessibilityInclusivity) .frameParent14,
+:where(.accessibilityInclusivity) .frameParent19 { gap: 28px; }
+
+:where(.accessibilityInclusivity) .frameWrapper3 { padding: 18px; }
+
+:where(.accessibilityInclusivity) .accessibilityInclusivityInner { padding: 36px; }
+
+:where(.accessibilityInclusivity) .frameParent24 { grid-template-columns: minmax(0, 1fr); gap: 24px !important; }
+
+:where(.accessibilityInclusivity) .frameParent27 { max-width: 560px; margin-inline: auto; }
+
+:where(.accessibilityInclusivity) .learningAnalytics { max-width: 570px; margin-inline: auto; }
+
+:where(.accessibilityInclusivity) .frameParent30 { grid-template-columns: repeat(2, minmax(0, 300px)); justify-content: center; }
+
+:where(.accessibilityInclusivity) .frameParent35 { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 767.98px) {
+.accessibilityInclusivity { padding: 20px 12px 48px; }
+
+:where(.accessibilityInclusivity) .image20Parent { margin-top: 24px; padding: 12px; }
+
+:where(.accessibilityInclusivity) .image20Parent .peopleTakingPartBusinessEvParent { aspect-ratio: auto; }
+
+:where(.accessibilityInclusivity) .image20Parent .frameParent3 {
+    width: 100%;
+    max-width: 100%;
+    padding: 24px 12px;
+    align-self: stretch;
+    text-align: center;
+  }
+
+:where(.accessibilityInclusivity) .image20Parent .neurolxpEnsuresEvery { max-width: 286px; margin-inline: auto; }
+
+:where(.accessibilityInclusivity) .image20Parent .frameWrapper { margin: 2px auto 0; }
+
+.accessibilityInclusivity .frameIcon,
+.accessibilityInclusivity .frameChild2,
+.accessibilityInclusivity .neurolxpBadge { padding: 10px 26px; }
+
+.accessibilityInclusivity .frameWrapper { padding: 12px 24px; }
+
+:where(.accessibilityInclusivity) .frameParent6 { gap: 22px !important; }
+
+:where(.accessibilityInclusivity) .frameParent9,
+:where(.accessibilityInclusivity) .frameParent14,
+:where(.accessibilityInclusivity) .frameParent19,
+:where(.accessibilityInclusivity) .frameParent30 { grid-template-columns: minmax(0, 1fr); }
+
+:where(.accessibilityInclusivity) .frameWrapper3,
+:where(.accessibilityInclusivity) .frameWrapper9,
+:where(.accessibilityInclusivity) .frameWrapper11,
+:where(.accessibilityInclusivity) .frameWrapper15,
+:where(.accessibilityInclusivity) .institutionCard { width: 100%; max-width: 296px; margin-inline: auto; }
+
+:where(.accessibilityInclusivity) .frameWrapper3 { padding: 20px 14px; }
+
+:where(.accessibilityInclusivity) .compassParent { padding: 0; }
+
+:where(.accessibilityInclusivity) .frameParent6 .compassParent > :last-child,
+:where(.accessibilityInclusivity) .easyNavigationWrapper,
+:where(.accessibilityInclusivity) .easyNavigation,
+:where(.accessibilityInclusivity) .multiFormatLearning,
+:where(.accessibilityInclusivity) .unlimitedAssessments { width: 100%; max-width: 154px; }
+
+:where(.accessibilityInclusivity) .frameWrapper9,
+:where(.accessibilityInclusivity) .frameWrapper11,
+:where(.accessibilityInclusivity) .frameWrapper15 { padding: 10px; }
+
+:where(.accessibilityInclusivity) .frameParent15 { padding: 26px 10px; }
+
+:where(.accessibilityInclusivity) .frameParent11 .frameParent16 { max-width: 100%; }
+
+:where(.accessibilityInclusivity) .accessibilityInclusivityInner { padding: 16px 12px; }
+
+:where(.accessibilityInclusivity) .frameParent25 { gap: 16px !important; }
+
+:where(.accessibilityInclusivity) .frameParent26 { gap: 10px !important; }
+
+:where(.accessibilityInclusivity) .frameParent27 { margin: 0; gap: 10px !important; }
+
+:where(.accessibilityInclusivity) .inclusiveItem { padding: 12px; }
+
+:where(.accessibilityInclusivity) .institutionCard { padding: 28px 12px; }
+
+:where(.accessibilityInclusivity) .institutionCardText { max-width: 190px; }
+
+:where(.accessibilityInclusivity) .frameParent39,
+:where(.accessibilityInclusivity) .frameParent46 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+:where(.accessibilityInclusivity) .frameParent33,
+:where(.accessibilityInclusivity) .frameWrapper19 { padding: 32px 16px 24px; }
+}
+
+/* Hero artwork and text share a grid row that expands with the copy. */
+
+.accessibilityInclusivity .image20Parent .frameParent2 { align-items: stretch; }
+
+.accessibilityInclusivity .image20Parent .peopleTakingPartBusinessEvParent { align-self: stretch; }
+
+.accessibilityInclusivity .inclusiveArrow,
+.accessibilityInclusivity .inclusiveItem span { transform: none; }
+
+
+/* Expert launcher slot: NeuroLXP closing section only */
+.accessibilityInclusivity .frameParent31 {
+  position: relative;
+}
+
+.accessibilityInclusivity .accessibilityExpertButtonSlot {
+  top:30%;
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .accessibilityInclusivity .accessibilityExpertButtonSlot {
+    top:0px;
+    right: 12px;
+    bottom: 8px;
+  }
+}
+
+/* Mobile only: keep each Accessible Learning card label on one line. */
+@media (max-width: 767px) {
+  .accessibilityInclusivity .frameParent6 .easyNavigation,
+  .accessibilityInclusivity .frameParent6 .multiFormatLearning,
+  .accessibilityInclusivity .frameParent6 .unlimitedAssessments {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    width: 100% !important;
+    max-width: none !important;
+    gap: 0.3em;
+    white-space: nowrap !important;
+    font-size: clamp(14px, 4vw, 20px) !important;
+  }
+  .accessibilityInclusivity .frameParent6 .easyNavigationWrapper,
+  .accessibilityInclusivity .frameParent6 .compassParent > :last-child {
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .accessibilityInclusivity .frameParent6 .easyNavigation > span,
+  .accessibilityInclusivity .frameParent6 .multiFormatLearning > span,
+  .accessibilityInclusivity .frameParent6 .unlimitedAssessments > span {
+    display: inline !important;
+    white-space: nowrap !important;
+    overflow-wrap: normal !important;
+  }
+}
+
+/* Mobile only: a little more space between Flexible Learning Format cards. */
+@media (max-width: 767px) {
+  .accessibilityInclusivity .frameParent11 .frameParent14,
+  .accessibilityInclusivity .frameParent11 .frameParent19 {
+    gap: 24px !important;
+  }
+  .accessibilityInclusivity .frameParent11 .frameParent13 {
+    gap: 24px !important;
+  }
+}
+
+.neurolxpTrademark {
+  display: inline-block;
+  font-size: 10.8px !important;
+  line-height: 6px !important;
+  font-weight: 600;
+  margin-left: 2px;
+  position: relative;
+  top: -1px;
+  color: #2D4CC8;
+  vertical-align: baseline;
+  white-space: nowrap;
+}

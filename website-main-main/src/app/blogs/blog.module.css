@@ -1,0 +1,3594 @@
+.blogs {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dfe6e9;
+  overflow-x: hidden;
+  overflow-y: visible;
+  text-align: left;
+  font-size: 48px;
+  color: #31344b;
+  font-family: "Segoe UI", "Inter";
+}
+.frameParent {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 720px);
+  box-shadow: -4px -4px 4px #fff,
+    4px 4px 4px #c6c6c9;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 80px;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: Inter;
+}
+.frameChild {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: 1096px;
+  width: 132px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frameGroup {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  width: 1376px;
+  height: 45px;
+  flex-shrink: 0;
+}
+.logo01SynapseSpark1Parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.logo01SynapseSpark1Icon {
+  height: 45px;
+  width: 120px;
+  position: relative;
+  object-fit: cover;
+}
+.frameContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.homeParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.home {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.arrowDown01Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.resourcesParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2d4cc8;
+}
+.resources {
+  position: relative;
+  line-height: 24px;
+}
+.signInHelpWrapper {
+  position: absolute;
+  top: calc(50% - 22.5px);
+  left: 1244px;
+  box-shadow: -4px -4px 4px #fff,
+    4px 4px 4px #c6c6c9;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  width: 132px;
+  height: 44px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter";
+}
+.signInHelp {
+  position: relative;
+  letter-spacing: normal;
+  line-height: 28px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.frameItem {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  width: 1429px;
+  height: 592.4px;
+  flex-shrink: 0;
+}
+.frameInner {
+  position: absolute;
+  top: 76px;
+  left: 4px;
+  width: 1436px;
+  height: 839px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 1280px;
+  margin: 32px auto 0;
+  background-color: #dfe6e9;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #2f3547;
+  font-family: "Segoe UI", "Inter";
+}
+.resourcesWrapper {
+  display: flex;
+  align-items: center;
+}
+.resources2 {
+  position: relative;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+.arrowRightDoubleParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #243fa8;
+}
+.rectangleParent {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 1280px;
+  height: 652px;
+  margin: 32px auto 0;
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.5),
+    4px 4px 4px #c4c4c4;
+  border-radius: 50px;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rectangle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 500px;
+  flex-shrink: 0;
+}
+.image20 {
+  position: absolute;
+  top: -561px;
+  left: calc(50% - 640px);
+  width: 1280px;
+  height: 800px;
+  flex-shrink: 0;
+}
+.groupMultiethnicBusinessPeo {
+  position: absolute;
+  top: calc(50% - 332px);
+  left: 0px;
+  width: 1280px;
+  height: 526px;
+  flex-shrink: 0;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0px;
+  left: 560px;
+  width: 720px;
+  height: 652px;
+  flex-shrink: 0;
+}
+.frameChild2 {
+  position: absolute;
+  top: calc(50% - 308px);
+  left: 595px;
+  border-radius: 32px;
+  width: 667px;
+  height: 616px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.frameParent2 {
+  position: absolute;
+  top: calc(50% - 229px);
+  left: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 54px;
+  flex-shrink: 0;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.frameParent4 {
+  width: 420px;
+  height: 193px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
+.frameIcon {
+  width: 106.9px;
+  height: 50.1px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.smarterLearningInsights {
+  align-self: stretch;
+  height: 119px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 60px;
+	font-size: 36px;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: none;
+}
+.exploreExpertInsights {
+  width: 446px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: normal;
+  line-height: 30px;
+  color: #2f3547;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameWrapper2 {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  color: #2f3547;
+}
+.frameWrapper3 {
+  height: 60px;
+  width: 203px;
+  box-shadow: -4px -4px 4px #fff,
+    4px 4px 4px #c6c6c9;
+  border-radius: 8px;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  box-sizing: border-box;
+}
+.frameWrapper4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.bookADemoWrapper {
+  width: 138px;
+  display: flex;
+  align-items: center;
+}
+.bookADemo {
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+.frameParent5 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 1280px;
+  margin: 56px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  color: #2f3547;
+}
+.frameParent6 {
+  width: 978px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+.frameChild3 {
+  width: 231.8px;
+  height: 50.2px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.expertInsightsFor {
+  width: 1038px;
+  height: 63px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 60px;
+  display: inline-block;
+  background: linear-gradient(90deg, #2d4cc8, #bf1869);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  flex-shrink: 0;
+  text-shadow: none;
+}
+.expertInsightsOn {
+  align-self: stretch;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: normal;
+  line-height: 40px;
+  flex-shrink: 0;
+}
+
+.frameParent7 {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 400px));
+		justify-content: center;
+		gap: 24px;
+		color: #bf1869;
+	}
+
+	.frameParent7 > .rectangleGroup:nth-child(4) {
+    color: #907507;
+}
+
+.frameParent7 > .rectangleGroup:nth-child(1) .youngManUsingHisLaptopInfIcon {
+  top: 3.1%;
+  height: 69.8%;
+}
+
+.frameParent8 {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  z-index: 0;
+}
+
+.rectangleParent2 { color: #2d4cc8; }
+.rectangleParent4 { color: #67096e; }
+.rectangleParent8 { color: #2a7308; }
+.rectangleParent10 { color: #052c74; }
+
+.rectangleGroup,
+.rectangleParent2,
+.rectangleParent4,
+.rectangleParent8,
+.rectangleParent10 {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 400 / 390;
+  height: auto;
+  position: relative;
+}
+
+.rectangleDiv {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: -4px -4px 4px #fff,
+    4px 4px 4px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+}
+.rectangleContainer,
+.rectangleParent3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 6%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  gap: 24px;
+}
+.frameChild4,
+.frameChild6,
+.frameChild8,
+.frameChild14 {
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 352 / 229;
+  height: auto;
+  position: relative;
+  box-shadow: -4px -4px 4px #fff inset,
+    4px 4px 4px #c4c4c4 inset;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+}
+
+.aiPoweredLmsParent,
+.interactiveLearningParent,
+.corporateTrainingParent,
+.digitalEducationParent {
+  width: 100%;
+  max-width: 326px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.aiPoweredLms {
+  align-self: stretch;
+  position: relative;
+  font-size: 32px;
+  letter-spacing: normal;
+  line-height: 40px;
+}
+.aiTransformingModern,
+.upskillingTodaysWorkforce,
+.modernAndFlexible,
+.dataDrivenLearningInsights {
+  align-self: stretch;
+  height: auto;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: normal;
+  line-height: 36px;
+  color: #000;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.youngManUsingHisLaptopInfIcon {
+  position: absolute;
+  top: 11.2%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 61%;
+  height: 44.7%;
+  margin: 0;
+  object-fit: contain;
+  object-position: center;
+  z-index: 2;
+}
+
+.concentratedExecutiveManagerIcon {
+  position: absolute;
+  top: 1.9%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 77.5%;
+  height: 54%;
+  margin: 0 !important;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.womanHoldingIdeaIconUsing {
+  position: absolute;
+  top: 6.8%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 72.5%;
+  height: 49.3%;
+  margin: 0 !important;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.computingMan1Icon {
+  position: absolute;
+  top: 5.4%;
+  left: 6%;
+  width: 88.75%;
+  height: 52.7%;
+  margin: 0 !important;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.studentsUsingVrGadgetsStudIcon {
+  position: absolute;
+  top: 7.3%;
+  left: 8.75%;
+  width: 82.25%;
+  height: 48.9%;
+  margin: 0 !important;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameParent9 {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  z-index: 1;
+  color: #907507;
+}
+
+.frameParent10 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 930px;
+  margin: 56px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+  text-align: center;
+  color: #2f3547;
+}
+
+.frameWrapper5 {
+  align-self: stretch;
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frameParent11 {
+  width: 100%;
+  height: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameWrapper6 {
+  align-self: stretch;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+.turnInsightsIntoActionParent {
+  width: 999px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.turnInsightsInto {
+  width: 883px;
+  height: 50px;
+  position: relative;
+  line-height: 60px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+	font-size: 36px;
+}
+.discoverPracticalStrategies {
+  width: 748px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: normal;
+  line-height: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameChild15 {
+  width: 220px;
+  height: 60.2px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.rectangleParent12 {
+  width: 935px;
+  height: 395px;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 36px;
+  color: #67096e;
+}
+.frameChild16 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: -4px -4px 4px #fff,
+    4px 4px 4px #c4c4c4;
+  border-radius: 32px;
+  width: 935px;
+  height: 395px;
+}
+.discoverPracticalIdeasToWrapper {
+  position: absolute;
+  top: calc(50% - 164.73px);
+  left: calc(50% - 252px);
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.discoverPracticalIdeas {
+  width: 504px;
+  height: 63px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 60px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent12 {
+  position: absolute;
+  top: 119.77px;
+  left: calc(50% - 422.5px);
+  width: 846px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-size: 24px;
+  color: #31344b;
+}
+.frameParent13 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 46px;
+}
+.frameParent14 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.frameWrapper7 {
+  width: 400px;
+  height: 70px;
+  box-shadow: -4px -4px 4px #fff inset,
+    4px 4px 4px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 30px;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 14px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+}
+.target02Parent {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 16.47px);
+  left: 33.96px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  transform: rotate(-0.1deg);
+  transform-origin: 0 0;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.target02Icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  transform: rotate(0.1deg);
+}
+.improveEngagement {
+  position: relative;
+  letter-spacing: normal;
+  line-height: 28px;
+  font-weight: 600;
+}
+.frameWrapper8 {
+  width: 400px;
+  height: 70px;
+  box-shadow: -4px -4px 4px #fff inset,
+    4px 4px 4px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 30px;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 14px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+}
+.monitorParent {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 16.5px);
+  left: 33.96px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  transform: rotate(-0.1deg);
+  transform-origin: 0 0;
+  z-index: 0;
+}
+.refresh03Parent {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 16.49px);
+  left: 33.96px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  transform: rotate(-0.1deg);
+  transform-origin: 0 0;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.trendingDownParent {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 16.53px);
+  left: 33.96px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  transform: rotate(-0.1deg);
+  transform-origin: 0 0;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.chartUpParent {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 16.49px);
+  left: 33.96px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  transform: rotate(-0.1deg);
+  transform-origin: 0 0;
+  z-index: 0;
+}
+.frameParent16 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 1280px;
+  margin: 56px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  font-size: 36px;
+  justify-items: center;
+}
+.frameWrapper12 {
+  width: 530px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frameWrapper13 {
+  width: 313px;
+  display: flex;
+  align-items: center;
+}
+.frameWrapper14 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frameParent17 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.stayAheadOfLearningTrendsWrapper {
+  width: 472px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.stayAheadOf {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 50px;
+}
+.exploreTheLatest {
+  width: 427px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: normal;
+  line-height: 32px;
+  color: #2f3547;
+  display: inline-block;
+}
+.frameParent18 {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  font-size: 24px;
+  color: #67096e;
+}
+.frameParent19 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.trendIconOuter {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  flex: 0 0 70px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 100px;
+  transform: rotate(0.05deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trendIconInner {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px #c6c6c9,
+    -4px -4px 4px #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trendIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  object-fit: contain;
+  transform: rotate(0.05deg);
+}
+.actionableIdeasParent {
+  width: 339px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.actionableIdeas {
+  align-self: stretch;
+  height: 37px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 36px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.strategiesForLearning {
+  width: 457px;
+  height: 28px;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: 28px;
+  color: #31344b;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent20 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #c05512;
+}
+.emergingTrendsParent {
+  width: 242px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.emergingTrends {
+  width: 242px;
+  height: 37px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 36px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.stayUpdatedOn {
+  width: 467px;
+  height: 28px;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: 28px;
+  color: #31344b;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.blogsInner {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 1022px;
+  margin: 96px auto 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.frameParent21 {
+  width: 100%;
+  height: 257.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 100%;
+}
+
+.exploreTheNeurolxpBlogParent {
+  width: 1040px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
+.exploreTheNeurolxp {
+  align-self: stretch;
+  height: 63px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 60px;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: none;
+	font-size: 36px;
+}
+.discoverInsightsThat {
+  width: 694px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: normal;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+}
+.frameParent22 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 501px;
+  font-size: 26px;
+  color: #2f3547;
+}
+.frameParent23 {
+  position: absolute;
+  bottom: -0.02px;
+  left: calc(50% - 720px);
+  box-shadow: -4px -4px 4px #fff inset,
+    4px 4px 4px #c4c4c4 inset;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 459px;
+  overflow: hidden;
+}
+.frameParent24 {
+  position: absolute;
+  top: 49.81px;
+  left: 53.96px;
+  width: 1339.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.frameParent25 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+}
+.frameParent26 {
+  width: 676px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.logo01SynapseSpark1Group {
+  width: 577px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.logo01SynapseSpark1Icon2 {
+  width: 299px;
+  height: 112px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.frameParent27 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+.onePlatformParent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.onePlatform {
+  position: relative;
+  letter-spacing: normal;
+  line-height: 34px;
+  text-shadow: none;
+}
+.sparklesIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.prgeeqGlobalSolutionsPrivatParent {
+  width: 459px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 16px;
+}
+.prgeeqGlobalSolutions {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+.prestigeAtlanta1012Container {
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.blankLine {
+  line-height: 24px;
+}
+.frameParent28 {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+  flex-shrink: 0;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+.frameParent29 {
+  width: 619px;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+.aboutUsParent {
+  width: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.aboutUs {
+  width: 93px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+.ourMissionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 20px;
+  color: #2f3547;
+}
+.ourMission {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.quickLinksParent {
+  width: 207px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.quickLinks {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.neurolxpParent {
+  height: 181px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.neurolxp {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 30px;
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+  flex-shrink: 0;
+}
+.ourCustomersGroup {
+  width: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+  font-size: 20px;
+  color: #2f3547;
+}
+.smartContentCreation {
+  width: 229px;
+  height: 26px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frameParent30 {
+  width: 392.4px;
+  height: 80.1px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.frameChild20 {
+  height: 80.1px;
+  width: 80.1px;
+  position: relative;
+}
+.copyright2026 {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: normal;
+  line-height: 56px;
+  font-weight: 600;
+  color: #2d4cc8;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameWrapper15 {
+  position: absolute;
+  bottom: 0.02px;
+  left: calc(50% - 720px);
+  box-shadow: -4px -4px 4px #fff inset,
+    4px 4px 4px #c4c4c4 inset;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 459px;
+  overflow: hidden;
+}
+.frameParent35 {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  isolation: isolate;
+  gap: 24px;
+  flex-shrink: 0;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+.frameParent36 {
+  width: 619px;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.ourMissionGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 18px;
+  color: #2f3547;
+}
+.neurolxpGroup {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.neurolxp2 {
+  height: 26px;
+  width: 103px;
+  position: relative;
+  letter-spacing: normal;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.neurolxpTxt {
+  width: 100%;
+  white-space: pre-wrap;
+}
+.neurolxp3 {
+  line-height: 30px;
+}
+.span {
+  font-size: 12px;
+  line-height: 30px;
+}
+.tm {
+  height: 17px;
+  width: 23px;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: normal;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.ourCustomersContainer {
+  width: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+  font-size: 18px;
+  color: #2f3547;
+}
+.frameParent38 {
+  width: 392.4px;
+  height: 80.1px;
+  margin: 0 !important;
+  position: absolute;
+  top: 217.19px;
+  left: 135.04px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.frameChild24 {
+  height: 80.1px;
+  width: 80.1px;
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild29 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 30.07px);
+  border-radius: 32px;
+  width: 59.1px;
+  height: 92px;
+  object-fit: contain;
+}
+
+.frameChild19 {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dfe6e9;
+  border-radius: 50px;
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.95),
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  margin: 0 auto;
+}
+.neuroBadge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  color: #2d4cc8;
+  line-height: 1;
+}
+.neuroBadgeText {
+  font-size: 24px;
+  letter-spacing: normal;
+}
+.neuroBadgeTM {
+  font-size: 18px;
+  margin-left: 4px;
+  position: relative;
+  top: -10px;
+}
+
+.frameParent,
+.frameParent22,
+.frameChild29 {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.knowledgeHubBadge {
+  width: 230px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 8px;
+  background: #dfe6e9;
+  border-radius: 50px;
+  box-shadow: inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: normal;
+  color: #2d4cc8;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.blogsBadge {
+  width: 106.87px;
+  height: 50.1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dfe6e9;
+  border-radius: 28px;
+  box-shadow: inset -4px -4px 4px #fff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  color: #2d4cc8;
+  line-height: 1;
+  margin: 0;
+}
+
+.heroImageClip {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 0 38px 38px 0;
+  clip-path: path("M 108 0 H 626 Q 684 0 684 40 V 576 Q 684 616 626 616 H 108 C 80 616 66 580 56 532 C 36 448 18 366 18 308 C 18 250 36 168 56 84 C 66 36 80 0 108 0 Z");
+}
+
+.heroImageFrame .frameChild2 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+.rectangleIcon {
+  display: none !important;
+}
+
+.rectangleParent {
+  box-shadow: none;
+  background: transparent;
+  overflow: visible;
+}
+
+.heroFrameSvg {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  width: 1312px;
+  height: 684px;
+  max-width: none;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.heroImageFrame {
+  position: absolute;
+  top: 18px;
+  left: 560px;
+  width: 702px;
+  height: 616px;
+  overflow: hidden;
+  z-index: 1;
+  background: transparent;
+  clip-path: path("M 112.141 0 H 702 V 616 H 112.141 C 112.141 12.141 18.64 12.141 138.622 C 15.453 258.416 112.141 0 112.141 0 Z");
+}
+
+.heroImageClip {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  clip-path: path("M 96 0 H 702 V 616 H 96 C 96 616 0 424 3.5 293 C 6.7 172 96 0 96 0 Z");
+}
+
+.heroImageFrame .frameChild2 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0 32px 32px 0;
+  flex-shrink: 0;
+}
+
+.frameParent2 {
+  z-index: 2;
+}
+
+.heroImageFrame {
+  position: absolute;
+  top: 18px;
+  left: 576px;
+  width: 686px;
+  height: 616px;
+  overflow: visible;
+  z-index: 1;
+  background: transparent;
+  clip-path: none;
+}
+
+.heroImageClip {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 0 32px 32px 0;
+  clip-path: path("M 86 0 H 654 Q 686 0 686 32 V 584 Q 686 616 654 616 H 86 C 78 616 60 590 42 530 C 18 445 6 372 6 308 C 6 244 18 171 42 86 C 60 26 78 0 86 0 Z");
+}
+
+.heroImageFrame .frameChild2 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0 32px 32px 0;
+  flex-shrink: 0;
+}
+
+.frameChild16 {
+  display: block;
+  border: 0;
+  outline: 0;
+  background: #dfe6e9;
+}
+
+.frameWrapper7,
+.frameWrapper8 {
+  cursor: default;
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease;
+  will-change: transform;
+}
+
+.frameWrapper7::after,
+.frameWrapper8::after {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: -72px;
+  width: 42px;
+  height: 112px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+  transform: rotate(22deg);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.frameWrapper7:hover,
+.frameWrapper8:hover {
+  transform: translateY(-6px);
+  box-shadow: -4px -4px 4px #ffffff,
+    4px 4px 4px rgba(196, 196, 196, 0.85);
+}
+
+.frameWrapper7:hover::after,
+.frameWrapper8:hover::after {
+  animation: practicalIdeaShine 0.75s ease forwards;
+}
+
+.frameWrapper7:hover .target02Icon,
+.frameWrapper7:hover .target02Icon,
+.frameWrapper8:hover .target02Icon {
+  animation: practicalIconPulse 0.75s ease;
+}
+
+@keyframes practicalIdeaShine {
+  0% {
+    left: -72px;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    left: 430px;
+    opacity: 0;
+  }
+}
+
+@keyframes practicalIconPulse {
+  0%,
+  100% {
+    transform: rotate(0.1deg) scale(1);
+  }
+  50% {
+    transform: rotate(0.1deg) scale(1.12);
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .frameDiv,
+  .rectangleParent,
+  .frameParent5,
+  .frameParent16 {
+    width: calc(100% - 96px);
+    max-width: 1280px;
+  }
+
+  .rectangleParent {
+    aspect-ratio: 1280 / 652;
+    height: auto;
+  }
+
+  .heroFrameSvg {
+    width: calc(100% + 32px);
+    height: calc(100% + 32px);
+  }
+
+  .heroImageFrame {
+    left: 45%;
+    width: 53.6%;
+    height: calc(100% - 36px);
+  }
+
+  .frameParent2 {
+    left: 5%;
+  }
+
+  .frameParent5 {
+    gap: 8px;
+  }
+
+  .frameParent10 {
+    width: min(930px, calc(100% - 96px));
+  }
+
+  .frameParent16 {
+    gap: 64px;
+  }
+
+  .blogsInner {
+    width: min(1022px, calc(100% - 96px));
+  }
+
+	.frameParent7 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.aiPoweredLms {
+  font-size: 24px;
+}
+
+.aiTransformingModern,
+.upskillingTodaysWorkforce,
+.dataDrivenLearningInsights,
+.modernAndFlexible {
+  font-size: 18px;
+}
+
+	.upskillingTodaysWorkforce,
+	.aiTransformingModern,
+	.dataDrivenLearningInsights,
+	.modernAndFlexible {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .frameDiv,
+  .rectangleParent,
+  .frameParent5,
+  .frameParent16 {
+    width: calc(100% - 48px);
+    max-width: 960px;
+  }
+
+  .frameDiv {
+    margin-top: 24px;
+  }
+
+  .rectangleParent {
+    height: auto;
+    min-height: 560px;
+    margin-top: 24px;
+    border-radius: 40px;
+    overflow: hidden;
+  }
+
+  .heroFrameSvg {
+    display: none;
+  }
+
+  .frameParent2 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 48%;
+    min-height: 560px;
+    padding: 48px 28px;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .frameParent4 {
+    width: 100%;
+    height: auto;
+    gap: 24px;
+  }
+
+  .blogsBadge {
+    width: 96px;
+    height: 46px;
+    font-size: 18px;
+  }
+
+  .smarterLearningInsights {
+    height: auto;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .exploreExpertInsights {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .frameWrapper3 {
+    width: 170px;
+    height: 52px;
+  }
+
+  .bookADemo {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .heroImageFrame {
+    top: 18px;
+    left: 50%;
+    width: calc(50% - 18px);
+    height: calc(100% - 36px);
+    overflow: hidden;
+  }
+
+  .heroImageClip {
+    clip-path: none;
+    border-radius: 0 32px 32px 0;
+  }
+
+  .frameParent5 {
+    margin-top: 72px;
+    gap: 36px;
+  }
+
+  .frameParent6 {
+    width: min(760px, 100%);
+    height: auto;
+    gap: 24px;
+  }
+
+  .knowledgeHubBadge {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .expertInsightsFor {
+    width: 100%;
+    height: auto;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .expertInsightsOn {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+ .frameParent7 {
+  width: 100%;
+  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.aiPoweredLms {
+  font-size: 20px;
+}
+
+.aiTransformingModern,
+.upskillingTodaysWorkforce,
+.modernAndFlexible,
+.dataDrivenLearningInsights {
+  font-size: 16px;
+}
+
+.frameParent10 {
+    width: min(930px, calc(100% - 48px));
+    margin-top: 72px;
+  }
+
+  .frameWrapper5,
+  .frameParent11,
+  .frameWrapper6,
+  .turnInsightsIntoActionParent {
+    width: 100%;
+    height: auto;
+  }
+
+  .turnInsightsIntoActionParent {
+    gap: 18px;
+  }
+
+  .turnInsightsInto {
+    width: 100%;
+    height: auto;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .discoverPracticalStrategies {
+    width: min(748px, 100%);
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .rectangleParent12 {
+    width: 100%;
+    height: auto;
+    min-height: 395px;
+  }
+
+  .frameChild16 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .discoverPracticalIdeasToWrapper {
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 56px);
+  }
+
+  .discoverPracticalIdeas {
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .frameParent12 {
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 64px);
+  }
+
+  .frameParent13 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .frameParent14,
+  .frameWrapper7,
+  .frameWrapper8 {
+    width: 100%;
+  }
+
+  .frameParent16 {
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 48px;
+  }
+
+  .frameWrapper12,
+  .frameWrapper13,
+  .frameParent18 {
+    width: 100%;
+  }
+
+  .stayAheadOfLearningTrendsWrapper,
+  .exploreTheLatest,
+  .strategiesForLearning,
+  .stayUpdatedOn {
+    width: 100%;
+  }
+
+  .stayAheadOf {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .exploreTheLatest {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .frameParent18 {
+    gap: 24px;
+  }
+
+  .actionableIdeasParent,
+  .emergingTrendsParent {
+    width: 100%;
+  }
+
+  .blogsInner {
+    width: min(900px, calc(100% - 48px));
+    margin-top: 72px;
+    margin-bottom: 72px;
+  }
+
+  .frameParent21,
+  .exploreTheNeurolxpBlogParent {
+    width: 100%;
+    height: auto;
+  }
+
+  .exploreTheNeurolxp {
+    height: auto;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .discoverInsightsThat {
+    width: min(694px, 100%);
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .frameDiv,
+  .rectangleParent,
+  .frameParent5,
+  .frameParent10,
+  .frameParent16,
+  .blogsInner {
+    width: calc(100% - 32px);
+  }
+
+	.rectangleGroup,
+  .rectangleParent2,
+  .rectangleParent4,
+  .rectangleParent8,
+  .rectangleParent10 {
+    max-width: 300px;
+  }
+
+  .frameDiv {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 22px;
+    flex-wrap: wrap;
+  }
+
+  .rectangleParent {
+    height: auto;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 28px;
+    background: #dfe6e9;
+    box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.5),
+    4px 4px 4px #c4c4c4;
+    overflow: hidden;
+  }
+
+  .heroFrameSvg {
+    display: none;
+  }
+
+  .frameParent2 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    padding: 32px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+    order: 1;
+  }
+
+  .frameParent3,
+  .frameParent4 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .blogsBadge {
+    width: 90px;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .smarterLearningInsights {
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .exploreExpertInsights {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .frameWrapper3 {
+    width: 160px;
+    height: 50px;
+  }
+
+  .bookADemo {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .heroImageFrame {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: 260px;
+    order: 2;
+    overflow: hidden;
+  }
+
+  .heroImageClip {
+    width: 100%;
+    height: 100%;
+    clip-path: none;
+    border-radius: 0 0 28px 28px;
+  }
+
+  .heroImageFrame .frameChild2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 28px 28px;
+    object-position: 50% 1%;
+  }
+
+  .frameParent5 {
+    margin-top: 48px;
+    gap: 24px;
+  }
+
+  .frameParent6 {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .knowledgeHubBadge {
+    width: 190px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .expertInsightsFor {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .expertInsightsOn {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .frameParent7 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 400px));
+  justify-content: center;
+  gap: 16px;
+}
+
+.aiPoweredLms {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.aiTransformingModern,
+.upskillingTodaysWorkforce,
+.modernAndFlexible,
+.dataDrivenLearningInsights {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+  .frameParent10 {
+    margin-top: 48px;
+    gap: 24px;
+  }
+
+  .frameWrapper5,
+  .frameParent11,
+  .frameWrapper6,
+  .turnInsightsIntoActionParent {
+    width: 100%;
+    height: auto;
+  }
+
+  .frameParent11 {
+    gap: 24px;
+  }
+
+  .turnInsightsIntoActionParent {
+    gap: 12px;
+  }
+
+  .turnInsightsInto {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .discoverPracticalStrategies {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .rectangleParent12 {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    padding: 28px 16px;
+    box-sizing: border-box;
+  }
+
+  .frameChild16 {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .discoverPracticalIdeasToWrapper {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .discoverPracticalIdeas {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .frameParent12 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    margin-top: 24px;
+    gap: 16px;
+  }
+
+  .frameParent13 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .frameParent14,
+  .frameWrapper7,
+  .frameWrapper8 {
+    width: 100%;
+  }
+
+  .frameWrapper7,
+  .frameWrapper8 {
+    height: 60px;
+  }
+
+  .target02Parent,
+  .monitorParent,
+  .refresh03Parent,
+  .trendingDownParent,
+  .chartUpParent {
+    left: 18px;
+    gap: 12px;
+  }
+
+  .improveEngagement {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .frameParent16 {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .frameWrapper12,
+  .frameWrapper13,
+  .frameWrapper14,
+  .frameParent17,
+  .frameParent18 {
+    width: fit-content;
+  }
+
+  .frameWrapper14,
+  .frameParent17 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .stayAheadOfLearningTrendsWrapper,
+  .exploreTheLatest {
+    width: 100%;
+    height: auto;
+  }
+
+  .stayAheadOf {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .exploreTheLatest {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .frameParent18 {
+    gap: 24px;
+  }
+
+  .frameParent19,
+  .frameParent20 {
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .trendIconOuter {
+    width: 60px;
+    height: 60px;
+    flex: 0 0 60px;
+  }
+
+  .trendIconInner {
+    width: 44px;
+    height: 44px;
+  }
+
+  .trendIcon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .actionableIdeasParent,
+  .emergingTrendsParent,
+  .strategiesForLearning,
+  .stayUpdatedOn {
+    width: 100%;
+  }
+
+  .actionableIdeas,
+  .emergingTrends {
+    width: fit-content;
+    height: auto;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .strategiesForLearning,
+  .stayUpdatedOn {
+    height: auto;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .blogsInner {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .frameParent21,
+  .exploreTheNeurolxpBlogParent {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+  }
+
+  .exploreTheNeurolxp {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .discoverInsightsThat {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .frameDiv,
+  .rectangleParent,
+  .frameParent5,
+  .frameParent10,
+  .frameParent16,
+  .blogsInner {
+    width: calc(100% - 24px);
+  }
+
+  .smarterLearningInsights {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .heroImageFrame {
+    height: 220px;
+  }
+
+  .frameParent7 {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 400px));
+    justify-content: center;
+    justify-items: center;
+    gap: 24px;
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .frameWrapper7,
+  .frameWrapper8,
+  .target02Icon {
+    transition: none;
+    animation: none !important;
+  }
+
+  .frameWrapper7:hover,
+  .frameWrapper8:hover {
+    transform: none;
+  }
+
+  .frameWrapper7::after,
+  .frameWrapper8::after {
+    display: none;
+  }
+}
+
+.actionableIdeas,
+.emergingTrends {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.actionableIdeas::after,
+.emergingTrends::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  border-bottom: 3px dotted currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  opacity: 0;
+  transition:
+    transform 0.35s ease,
+    opacity 0.35s ease;
+}
+
+.frameParent19:hover .actionableIdeas::after,
+.frameParent20:hover .emergingTrends::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+.frameParent19:hover .actionableIdeas {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+}
+
+.frameParent20:hover .emergingTrends {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+}
+
+.actionableIdeas,
+.emergingTrends {
+  position: relative;
+  display: inline-flex;
+  width: fit-content;
+  cursor: default;
+}
+
+.actionableIdeas::after,
+.emergingTrends::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  border-bottom: 3px dotted currentColor;
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition:
+    transform 0.35s ease,
+    opacity 0.35s ease;
+}
+
+.frameParent19:hover .actionableIdeas::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.frameParent20:hover .emergingTrends::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+@media screen and (max-width: 767px) {
+ 
+  .aiPoweredLms,
+  .interactiveLearning,
+  .corporateTraining,
+  .learningInnovation,
+  .digitalEducation {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .aiTransformingModern,
+  .upskillingTodaysWorkforce,
+  .modernAndFlexible,
+  .dataDrivenLearningInsights {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+}
+
+
+/* BookDemoTrigger outer shell reset — preserves the original Book a Demo design */
+.frameParent2 > button:has(> .frameWrapper2) {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  background: transparent !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: inherit !important;
+  font: inherit !important;
+  cursor: pointer !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.frameParent2 > button:has(> .frameWrapper2):hover,
+.frameParent2 > button:has(> .frameWrapper2):focus,
+.frameParent2 > button:has(> .frameWrapper2):focus-visible,
+.frameParent2 > button:has(> .frameWrapper2):active {
+  background: transparent !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+
+/* =========================================================
+   BLOG CARDS — IMAGE FIT CORRECTION
+   Keeps card size/design unchanged; only aligns the 6 images
+   inside the existing inset image area like the reference PNG.
+   ========================================================= */
+
+.frameParent7 > .rectangleGroup:nth-child(1) .youngManUsingHisLaptopInfIcon,
+.rectangleParent2 .youngManUsingHisLaptopInfIcon,
+.rectangleParent4 .concentratedExecutiveManagerIcon,
+.frameParent7 > .rectangleGroup:nth-child(4) .womanHoldingIdeaIconUsing,
+.rectangleParent8 .computingMan1Icon,
+.rectangleParent10 .frameChild14 {
+  position: absolute !important;
+  top: 6% !important;
+  left: 6% !important;
+  width: 88% !important;
+  height: 56% !important;
+  margin: 0 !important;
+  transform: none !important;
+  border-radius: 16px !important;
+  object-position: center !important;
+  z-index: 2 !important;
+}
+
+/* People/product images should remain fully visible inside the image well */
+.frameParent7 > .rectangleGroup:nth-child(1) .youngManUsingHisLaptopInfIcon,
+.rectangleParent2 .youngManUsingHisLaptopInfIcon,
+.rectangleParent4 .concentratedExecutiveManagerIcon,
+.frameParent7 > .rectangleGroup:nth-child(4) .womanHoldingIdeaIconUsing,
+.rectangleParent8 .computingMan1Icon {
+  object-fit: contain !important;
+}
+
+/* Analytics image fills its existing image panel cleanly */
+.rectangleParent10 .frameChild14 {
+  object-fit: contain !important;
+  align-self: auto !important;
+  aspect-ratio: auto !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Keep the inset image panel behind every image */
+.frameChild4,
+.frameChild6,
+.frameChild8,
+.rectangleParent10 .rectangleContainer::before {
+  border-radius: 16px;
+}
+
+
+/* =========================================================
+   FINAL SECTION — SPACING + TM SIZE CORRECTION
+   Only reduces excess vertical spacing and makes TM smaller.
+   ========================================================= */
+
+.frameParent16 {
+  margin-top: 40px;
+}
+
+.blogsInner {
+  margin: 40px auto 56px;
+}
+
+.frameParent21 {
+  height: auto;
+  gap: 18px;
+}
+
+.exploreTheNeurolxpBlogParent {
+  gap: 12px;
+}
+
+.neuroBadgeTM {
+  font-size: 10px;
+  margin-left: 3px;
+  top: -6px;
+}
+
+
+/* Stay Ahead section — center alignment only */
+.frameParent16 {
+  justify-content: center;
+  gap: 80px;
+}
+
+.frameWrapper12,
+.frameWrapper13,
+.frameWrapper14,
+.frameParent17 {
+  align-items: center;
+  text-align: center;
+}
+
+.stayAheadOfLearningTrendsWrapper {
+  align-items: center;
+  text-align: center;
+}
+
+.frameParent18 {
+  align-items: flex-start;
+}
+
+
+/* =========================================================
+   BLOG CARDS — RESTORE MISSING TEXT + REMOVE HOVER
+   ========================================================= */
+
+/* Keep all card text visible above the images */
+.aiPoweredLmsParent,
+.interactiveLearningParent,
+.corporateTrainingParent,
+.digitalEducationParent {
+  position: absolute !important;
+  left: 6% !important;
+  bottom: 6% !important;
+  width: 88% !important;
+  max-width: none !important;
+  z-index: 4 !important;
+  margin: 0 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Restore the Learning Analytics text block */
+.rectangleParent10 .aiPoweredLmsParent {
+  position: absolute !important;
+  left: 6% !important;
+  bottom: 6% !important;
+  width: 88% !important;
+  max-width: none !important;
+  z-index: 4 !important;
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Remove hover movement/effects from the six blog cards */
+.rectangleGroup,
+.rectangleParent2,
+.rectangleParent4,
+.rectangleParent8,
+.rectangleParent10,
+.rectangleContainer,
+.rectangleParent3,
+.youngManUsingHisLaptopInfIcon,
+.concentratedExecutiveManagerIcon,
+.womanHoldingIdeaIconUsing,
+.computingMan1Icon,
+.frameChild14 {
+  transition: none !important;
+}
+
+.rectangleGroup:hover,
+.rectangleParent2:hover,
+.rectangleParent4:hover,
+.rectangleParent8:hover,
+.rectangleParent10:hover,
+.rectangleContainer:hover,
+.rectangleParent3:hover {
+  transform: none !important;
+  filter: none !important;
+}
+
+/* Prevent any hover overlay/pseudo effect on cards */
+.rectangleGroup:hover::before,
+.rectangleGroup:hover::after,
+.rectangleParent2:hover::before,
+.rectangleParent2:hover::after,
+.rectangleParent4:hover::before,
+.rectangleParent4:hover::after,
+.rectangleParent8:hover::before,
+.rectangleParent8:hover::after,
+.rectangleParent10:hover::before,
+.rectangleParent10:hover::after {
+  opacity: 0 !important;
+  animation: none !important;
+}
+
+
+/* Mobile only — remove the marked empty gap above Discover practical ideas */
+@media (max-width: 600px) {
+  .frameParent16 {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .frameParent19 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .frameParent20 {
+    margin-top: 12px !important;
+  }
+}
+
+
+/* Mobile — remove the actual gap between Turn Insights and the ideas card */
+@media screen and (max-width: 600px) {
+  .frameParent10 {
+    gap: 0 !important;
+  }
+
+  .frameParent11 {
+    gap: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .frameWrapper5,
+  .frameWrapper6 {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .turnInsightsIntoActionParent {
+    margin: 0 0 12px !important;
+    padding: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .rectangleParent12 {
+    margin-top: 0 !important;
+  }
+}
+
+
+/* Mobile — decrease the Turn Insights spacing a little more */
+@media screen and (max-width: 600px) {
+  .turnInsightsIntoActionParent {
+    margin-bottom: 4px !important;
+  }
+
+  .rectangleParent12 {
+    margin-top: -8px !important;
+  }
+}
+
+
+/* Mobile — reduce the marked gap under Stay Ahead intro */
+@media screen and (max-width: 600px) {
+  .frameParent16 {
+    gap: 18px !important;
+  }
+
+  .frameParent17 {
+    gap: 8px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .frameParent18 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+
+
+/* =========================================================
+   BUTTON HOVER ONLY — INSET EFFECT
+   No size, spacing, positioning, color or layout changes.
+   ========================================================= */
+.signInHelpWrapper,
+.frameParent2 > button:has(> .frameWrapper2) .frameWrapper3 {
+  cursor: pointer;
+  transition: box-shadow 180ms ease !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .signInHelpWrapper:hover,
+  .frameParent2 > button:has(> .frameWrapper2):hover .frameWrapper3 {
+    box-shadow:
+      inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196, 196, 196, 0.82) !important;
+  }
+}
+
+
+/* =========================================================
+   BLOGS — REQUESTED CORRECTIONS ONLY
+   1) prevent blog card text/image overlap
+   2) keep "Teams" visible in the main heading
+   3) keep "Book a Demo" on one line
+   ========================================================= */
+
+/* Allow the full "Expert Insights for Modern Learning Teams"
+   heading to use a second line when needed instead of clipping it. */
+.frameParent6 {
+  height: auto !important;
+}
+
+.expertInsightsFor {
+  height: auto !important;
+  min-height: 63px !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Move only the existing blog-card text block slightly lower,
+   so titles no longer touch/overlap the image panel. */
+.aiPoweredLmsParent,
+.interactiveLearningParent,
+.corporateTrainingParent,
+.digitalEducationParent {
+  bottom: 4% !important;
+  gap: 12px !important;
+}
+
+/* Keep every card title/description free from fixed-height clipping. */
+.aiPoweredLms,
+.interactiveLearning,
+.corporateTraining,
+.learningInnovation,
+.digitalEducation,
+.aiTransformingModern,
+.upskillingTodaysWorkforce,
+.modernAndFlexible,
+.dataDrivenLearningInsights {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Book a Demo must stay on one line. */
+.bookADemo,
+.bookADemoWrapper {
+  white-space: nowrap !important;
+}
+
+
+/* =========================================================
+   BLOG CARDS — UNIFORM TEXT + MOBILE FIT
+   Keeps the existing card design unchanged.
+   ========================================================= */
+
+/* DESKTOP / TABLET
+   All card headings stay on one line.
+   All card descriptions use the same two-line text area. */
+@media screen and (min-width: 768px) {
+
+  .blogs .frameParent7 .aiPoweredLms,
+  .blogs .frameParent7 .interactiveLearning,
+  .blogs .frameParent7 .corporateTraining,
+  .blogs .frameParent7 .learningInnovation,
+  .blogs .frameParent7 .digitalEducation,
+  .blogs .frameParent7 .learningAnalytics,
+  .blogs .frameParent7 .aiPoweredLmsParent > :first-child,
+  .blogs .frameParent7 .interactiveLearningParent > :first-child,
+  .blogs .frameParent7 .corporateTrainingParent > :first-child,
+  .blogs .frameParent7 .digitalEducationParent > :first-child {
+    width: 100% !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 32px !important;
+    line-height: 40px !important;
+
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-align: center !important;
+  }
+
+  .blogs .frameParent7 .aiTransformingModern,
+  .blogs .frameParent7 .upskillingTodaysWorkforce,
+  .blogs .frameParent7 .modernAndFlexible,
+  .blogs .frameParent7 .dataDrivenLearningInsights,
+  .blogs .frameParent7 .aiPoweredLmsParent > :nth-child(2),
+  .blogs .frameParent7 .interactiveLearningParent > :nth-child(2),
+  .blogs .frameParent7 .corporateTrainingParent > :nth-child(2),
+  .blogs .frameParent7 .digitalEducationParent > :nth-child(2) {
+    width: 280px !important;
+    max-width: 100% !important;
+    height: 72px !important;
+    min-height: 72px !important;
+    max-height: 72px !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+    font-size: 24px !important;
+    line-height: 36px !important;
+
+    white-space: normal !important;
+    overflow: visible !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    text-align: center !important;
+  }
+
+  .blogs .frameParent7 .aiPoweredLmsParent,
+  .blogs .frameParent7 .interactiveLearningParent,
+  .blogs .frameParent7 .corporateTrainingParent,
+  .blogs .frameParent7 .digitalEducationParent {
+    gap: 12px !important;
+  }
+}
+
+
+/* MOBILE
+   Keep the same card design, but constrain text to the card width
+   so nothing overflows horizontally. */
+@media screen and (max-width: 767px) {
+
+  .blogs .frameParent7 {
+    width: 100% !important;
+    grid-template-columns: minmax(0, 300px) !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    overflow: visible !important;
+  }
+
+  .blogs .frameParent7 .rectangleGroup,
+  .blogs .frameParent7 .rectangleParent2,
+  .blogs .frameParent7 .rectangleParent4,
+  .blogs .frameParent7 .rectangleParent8,
+  .blogs .frameParent7 .rectangleParent10 {
+    width: min(300px, 100%) !important;
+    max-width: 300px !important;
+    min-width: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    overflow: hidden !important;
+  }
+
+  .blogs .frameParent7 .aiPoweredLmsParent,
+  .blogs .frameParent7 .interactiveLearningParent,
+  .blogs .frameParent7 .corporateTrainingParent,
+  .blogs .frameParent7 .digitalEducationParent {
+    left: 6% !important;
+    width: 88% !important;
+    max-width: 88% !important;
+    bottom: 4% !important;
+    gap: 8px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* One-line title on every mobile card */
+  .blogs .frameParent7 .aiPoweredLms,
+  .blogs .frameParent7 .interactiveLearning,
+  .blogs .frameParent7 .corporateTraining,
+  .blogs .frameParent7 .learningInnovation,
+  .blogs .frameParent7 .digitalEducation,
+  .blogs .frameParent7 .learningAnalytics,
+  .blogs .frameParent7 .aiPoweredLmsParent > :first-child,
+  .blogs .frameParent7 .interactiveLearningParent > :first-child,
+  .blogs .frameParent7 .corporateTrainingParent > :first-child,
+  .blogs .frameParent7 .digitalEducationParent > :first-child {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 26px !important;
+    min-height: 26px !important;
+    max-height: 26px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 18px !important;
+    line-height: 26px !important;
+
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-align: center !important;
+  }
+
+  /* Uniform two-line description on every mobile card */
+  .blogs .frameParent7 .aiTransformingModern,
+  .blogs .frameParent7 .upskillingTodaysWorkforce,
+  .blogs .frameParent7 .modernAndFlexible,
+  .blogs .frameParent7 .dataDrivenLearningInsights,
+  .blogs .frameParent7 .aiPoweredLmsParent > :nth-child(2),
+  .blogs .frameParent7 .interactiveLearningParent > :nth-child(2),
+  .blogs .frameParent7 .corporateTrainingParent > :nth-child(2),
+  .blogs .frameParent7 .digitalEducationParent > :nth-child(2) {
+    width: 230px !important;
+    max-width: 100% !important;
+
+    height: 48px !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+    font-size: 16px !important;
+    line-height: 24px !important;
+
+    white-space: normal !important;
+    overflow: visible !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    text-align: center !important;
+  }
+}
+
+
+/* =========================================================
+   BLOG CARDS — FINAL TYPOGRAPHY + MOBILE DESIGN RESTORE
+   Only:
+   - card heading = 24px
+   - card subheading = 16px
+   - restore original mobile card geometry/design
+   ========================================================= */
+
+/* CARD TYPOGRAPHY — ALL DEVICES */
+.blogs .frameParent7 .aiPoweredLms,
+.blogs .frameParent7 .interactiveLearning,
+.blogs .frameParent7 .corporateTraining,
+.blogs .frameParent7 .learningInnovation,
+.blogs .frameParent7 .digitalEducation,
+.blogs .frameParent7 .learningAnalytics,
+.blogs .frameParent7 .aiPoweredLmsParent > :first-child,
+.blogs .frameParent7 .interactiveLearningParent > :first-child,
+.blogs .frameParent7 .corporateTrainingParent > :first-child,
+.blogs .frameParent7 .digitalEducationParent > :first-child {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 32px !important;
+  min-height: 32px !important;
+  max-height: 32px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-size: 24px !important;
+  line-height: 32px !important;
+
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-align: center !important;
+}
+
+.blogs .frameParent7 .aiTransformingModern,
+.blogs .frameParent7 .upskillingTodaysWorkforce,
+.blogs .frameParent7 .modernAndFlexible,
+.blogs .frameParent7 .dataDrivenLearningInsights,
+.blogs .frameParent7 .aiPoweredLmsParent > :nth-child(2),
+.blogs .frameParent7 .interactiveLearningParent > :nth-child(2),
+.blogs .frameParent7 .corporateTrainingParent > :nth-child(2),
+.blogs .frameParent7 .digitalEducationParent > :nth-child(2) {
+  width: 280px !important;
+  max-width: 100% !important;
+
+  height: 48px !important;
+  min-height: 48px !important;
+  max-height: 48px !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  font-size: 16px !important;
+  line-height: 24px !important;
+
+  white-space: normal !important;
+  overflow: visible !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  text-align: center !important;
+}
+
+
+/* MOBILE — RESTORE ORIGINAL CARD DESIGN */
+@media screen and (max-width: 767px) {
+
+  .blogs .frameParent7 {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(1, minmax(0, 400px)) !important;
+    justify-content: center !important;
+    justify-items: stretch !important;
+    gap: 16px !important;
+    overflow: visible !important;
+  }
+
+  .blogs .frameParent7 .rectangleGroup,
+  .blogs .frameParent7 .rectangleParent2,
+  .blogs .frameParent7 .rectangleParent4,
+  .blogs .frameParent7 .rectangleParent8,
+  .blogs .frameParent7 .rectangleParent10 {
+    width: 100% !important;
+    max-width: 300px !important;
+    min-width: 0 !important;
+    aspect-ratio: 400 / 390 !important;
+    height: auto !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    overflow: visible !important;
+  }
+
+  /* Restore the original text-block placement inside each card. */
+  .blogs .frameParent7 .aiPoweredLmsParent,
+  .blogs .frameParent7 .interactiveLearningParent,
+  .blogs .frameParent7 .corporateTrainingParent,
+  .blogs .frameParent7 .digitalEducationParent {
+    left: 6% !important;
+    bottom: 6% !important;
+    width: 88% !important;
+    max-width: none !important;
+    gap: 8px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Keep requested 24 / 16 typography in mobile too. */
+  .blogs .frameParent7 .aiPoweredLms,
+  .blogs .frameParent7 .interactiveLearning,
+  .blogs .frameParent7 .corporateTraining,
+  .blogs .frameParent7 .learningInnovation,
+  .blogs .frameParent7 .digitalEducation,
+  .blogs .frameParent7 .learningAnalytics,
+  .blogs .frameParent7 .aiPoweredLmsParent > :first-child,
+  .blogs .frameParent7 .interactiveLearningParent > :first-child,
+  .blogs .frameParent7 .corporateTrainingParent > :first-child,
+  .blogs .frameParent7 .digitalEducationParent > :first-child {
+    height: 32px !important;
+    min-height: 32px !important;
+    max-height: 32px !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .blogs .frameParent7 .aiTransformingModern,
+  .blogs .frameParent7 .upskillingTodaysWorkforce,
+  .blogs .frameParent7 .modernAndFlexible,
+  .blogs .frameParent7 .dataDrivenLearningInsights,
+  .blogs .frameParent7 .aiPoweredLmsParent > :nth-child(2),
+  .blogs .frameParent7 .interactiveLearningParent > :nth-child(2),
+  .blogs .frameParent7 .corporateTrainingParent > :nth-child(2),
+  .blogs .frameParent7 .digitalEducationParent > :nth-child(2) {
+    width: 230px !important;
+    max-width: 100% !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+}
+
+
+/* MOBILE ONLY — MOVE BLOG CARD TEXT SLIGHTLY DOWN */
+@media screen and (max-width: 767px) {
+  .blogs .frameParent7 .aiPoweredLmsParent,
+  .blogs .frameParent7 .interactiveLearningParent,
+  .blogs .frameParent7 .corporateTrainingParent,
+  .blogs .frameParent7 .digitalEducationParent {
+    transform: translateY(8px) !important;
+  }
+}
+
+
+/* =========================================================
+   BLOG CARDS — UNIFORM TWO-LINE SUBHEADINGS
+   Desktop + tablet + mobile only.
+   No card/design/image changes.
+   ========================================================= */
+.blogs .frameParent7 .aiTransformingModern,
+.blogs .frameParent7 .upskillingTodaysWorkforce,
+.blogs .frameParent7 .modernAndFlexible,
+.blogs .frameParent7 .dataDrivenLearningInsights,
+.blogs .frameParent7 .aiPoweredLmsParent > :nth-child(2),
+.blogs .frameParent7 .interactiveLearningParent > :nth-child(2),
+.blogs .frameParent7 .corporateTrainingParent > :nth-child(2),
+.blogs .frameParent7 .digitalEducationParent > :nth-child(2) {
+  width: 190px !important;
+  max-width: 190px !important;
+
+  height: 48px !important;
+  min-height: 48px !important;
+  max-height: 48px !important;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+  font-size: 16px !important;
+  line-height: 24px !important;
+
+  white-space: normal !important;
+  overflow: visible !important;
+  text-align: center !important;
+  text-wrap: balance !important;
+}
+
+
+
+/* Main headings and section rhythm. Card/design typography is unchanged. */
+.blogs .mainHeading {
+  width: 100%;
+  max-width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-wrap: balance;
+  color: #31344b;
+  background: none;
+  -webkit-text-fill-color: currentColor;
+}
+
+.blogs .headingAccent {
+  color: #2d4cc8;
+  -webkit-text-fill-color: currentColor;
+}
+
+.blogs,
+.blogs *,
+.blogs *::before,
+.blogs *::after {
+  text-shadow: none !important;
+  word-spacing: normal;
+}
+
+.blogs .frameParent2 {
+  gap: 28px;
+}
+
+.blogs .frameParent3 {
+  gap: 20px;
+}
+
+.blogs .frameParent4 {
+  width: 100%;
+  height: auto;
+  gap: 24px;
+}
+
+.blogs .frameParent5 {
+  gap: 36px;
+}
+
+.blogs .frameParent6 {
+  width: min(978px, 100%);
+  height: auto;
+  gap: 20px;
+}
+
+.blogs .expertInsightsOn {
+  margin: 0;
+}
+
+.blogs .frameParent10 {
+  max-width: calc(100% - 48px);
+  gap: 32px !important;
+}
+
+.blogs .frameWrapper5,
+.blogs .frameParent11,
+.blogs .frameWrapper6,
+.blogs .turnInsightsIntoActionParent {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+}
+
+.blogs .turnInsightsIntoActionParent {
+  margin: 0 !important;
+  gap: 16px;
+}
+
+.blogs .frameChild15 {
+  display: none;
+}
+
+.blogs .rectangleParent12 {
+  max-width: 100%;
+  margin-top: 0 !important;
+}
+
+.blogs .frameParent16 {
+  width: min(1160px, calc(100% - 48px));
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 64px !important;
+  margin-top: 56px;
+}
+
+.blogs .frameWrapper12,
+.blogs .frameWrapper13,
+.blogs .frameWrapper14,
+.blogs .frameParent17,
+.blogs .stayAheadOfLearningTrendsWrapper {
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.blogs .frameParent17 {
+  gap: 16px !important;
+}
+
+.blogs .stayAheadOfLearningTrendsWrapper {
+  max-width: 440px;
+}
+
+.blogs .exploreTheLatest {
+  width: 100%;
+  max-width: 420px;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.blogs .frameParent18 {
+  width: 100%;
+  min-width: 0;
+  gap: 28px;
+}
+
+.blogs .frameParent19,
+.blogs .frameParent20 {
+  width: 100%;
+  min-width: 0;
+  margin: 0 !important;
+  gap: 20px;
+}
+
+.blogs .actionableIdeasParent,
+.blogs .emergingTrendsParent {
+  flex: 1;
+  width: auto;
+  min-width: 0;
+  gap: 8px;
+}
+
+.blogs .actionableIdeas,
+.blogs .emergingTrends,
+.blogs .strategiesForLearning,
+.blogs .stayUpdatedOn {
+  width: 100%;
+  height: auto;
+}
+
+.blogs .blogsInner {
+  max-width: calc(100% - 48px);
+}
+
+.blogs .exploreTheNeurolxpBlogParent {
+  width: 100%;
+  gap: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .blogs .frameParent2 {
+    width: 446px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blogs .mainHeading {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .blogs .frameParent2,
+  .blogs .frameParent4 {
+    gap: 20px;
+  }
+
+  .blogs .frameParent3 {
+    gap: 16px;
+  }
+
+  .blogs .frameParent5 {
+    gap: 28px;
+  }
+
+  .blogs .frameParent6 {
+    gap: 16px;
+  }
+
+  .blogs .frameParent10 {
+    max-width: calc(100% - 24px);
+    gap: 24px !important;
+  }
+
+  .blogs .frameParent16 {
+    width: calc(100% - 32px);
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px !important;
+    margin-top: 48px;
+  }
+
+  .blogs .frameParent18 {
+    max-width: 400px;
+    justify-self: center;
+    gap: 24px;
+  }
+
+  .blogs .frameParent19,
+  .blogs .frameParent20 {
+    gap: 16px;
+  }
+
+  .blogs .blogsInner {
+    max-width: calc(100% - 32px);
+  }
+}
+
+
+/* Compact hero: scale the decorative frame and image with the content. */
+.heroClipDefinitions {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .blogs .rectangleParent {
+    height: 520px;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+
+  .blogs .heroFrameSvg {
+    width: calc(100% + 32px);
+    height: calc(100% + 32px);
+    object-fit: fill;
+  }
+
+  .blogs .heroImageFrame {
+    left: 45%;
+    width: 53.6%;
+    height: calc(100% - 36px);
+  }
+
+  .blogs .heroImageClip {
+    clip-path: url(#blogsHeroImageClip);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .blogs .rectangleParent,
+  .blogs .frameParent2 {
+    min-height: 480px;
+  }
+
+  .blogs .frameParent2 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blogs .frameParent2 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .blogs .heroImageFrame {
+    height: 200px;
+  }
+}
+
+.neuroBadgeTM {
+  display: inline-block;
+  font-size: 10.8px !important;
+  line-height: 6px !important;
+  font-weight: 600;
+  margin-left: 2px;
+  position: relative;
+  top: -12px;
+  color: #2D4CC8;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+/* Keep the five practical-idea labels steady on hover. */
+.frameWrapper7:hover,
+.frameWrapper8:hover {
+  transform: none;
+}
+.frameWrapper7:hover .target02Icon,
+.frameWrapper8:hover .target02Icon {
+  animation: none;
+}
+
+/* Place the existing global expert launcher at the right of the NeuroLXP section. */
+.blogsInner .frameParent21 {
+  position: relative;
+}
+.expertButtonSlot {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+
+/* Prevent the five practical-idea labels and icons from shifting on hover. */
+.blogs .frameWrapper7,
+.blogs .frameWrapper8,
+.blogs .target02Parent,
+.blogs .monitorParent,
+.blogs .refresh03Parent,
+.blogs .trendingDownParent,
+.blogs .chartUpParent,
+.blogs .frameWrapper7 .target02Icon,
+.blogs .frameWrapper8 .target02Icon {
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+.blogs .frameWrapper7:hover,
+.blogs .frameWrapper8:hover,
+.blogs .frameWrapper7:hover .target02Icon,
+.blogs .frameWrapper8:hover .target02Icon {
+  transform: none !important;
+  animation: none !important;
+}
+.blogs .frameWrapper7::after,
+.blogs .frameWrapper8::after {
+  display: none !important;
+}
+
+/* Anchor the existing expert launcher to the NeuroLXP section without reflow. */
+.blogsInner .frameParent21 { position: relative; }
+.expertButtonSlot {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

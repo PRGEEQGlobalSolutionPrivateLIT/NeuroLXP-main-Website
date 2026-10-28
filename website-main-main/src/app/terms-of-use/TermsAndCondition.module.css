@@ -1,0 +1,272 @@
+.tad-root {
+  --bg: #dfe6e9;
+  --surface: #dfe6e9;
+  --t-color: #4f5563;
+  --r-sm: 18px;
+  --r-xl: 40px;
+  --f-display: Segoe UI, sans-serif;
+  --f-body: Segoe UI, sans-serif;
+  min-height: 100vh;
+  background-color: var(--bg);
+  font-family: var(--f-body);
+  display: flex;
+  flex-direction: column;
+}
+
+.tad-main {
+  flex: 1;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.tad-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.tad-doc-title {
+  font-family: var(--f-display);
+  font-size: var(--r-xl);
+  font-weight: 700;
+  color: var(--t-color);
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin-top: 0;
+  word-break: break-word;
+}
+
+.tad-doc-subtitle {
+  font-size: calc(var(--r-sm) + 2px);
+  font-weight: 600;
+  color: var(--t-color);
+  margin: 4px 0 8px 0;
+  word-break: break-word;
+}
+
+.tad-doc-lead {
+  font-size: var(--r-sm);
+  line-height: 1.75;
+  color: var(--t-color);
+}
+
+.tad-declare-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.tad-declare-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.tad-declare-index {
+  padding-top: 0.15rem;
+  min-width: 2rem;
+  flex-shrink: 0;
+  font-size: var(--r-sm);
+  color: var(--t-color);
+}
+
+.tad-declare-body {
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+}
+
+.tad-declare-body p {
+  margin: 0;
+  font-size: var(--r-sm);
+  line-height: 1.7;
+  color: var(--t-color);
+  padding-top: 10px;
+}
+
+.tad-declare-body strong {
+  color: var(--t-color);
+  font-weight: 700;
+}
+
+.tad-sub-list {
+  margin: 0.9rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.tad-sub-list li {
+  font-size: var(--r-sm);
+  line-height: 1.7;
+  color: var(--t-color);
+  padding-left: 1.4rem;
+  position: relative;
+  word-break: break-word;
+}
+
+.tad-sub-list li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.tad-sub-list strong {
+  color: var(--t-color);
+}
+
+.tad-sub-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-top: 10px;
+}
+
+.tad-sub-index {
+  min-width: 2.5rem;
+  flex-shrink: 0;
+  font-size: var(--r-sm);
+  color: var(--t-color);
+  padding-top: 0.15rem;
+}
+
+.tad-sub-body {
+  flex: 1;
+  min-width: 0;
+  font-size: var(--r-sm);
+  line-height: 1.7;
+  color: var(--t-color);
+  word-break: break-word;
+}
+
+.tad-sub-body .tad-sub-list {
+  margin-top: 0.5rem;
+}
+
+.tad-mandatory-label {
+  margin-top: 22px;
+}
+
+.tad-mandatory-label,
+.tad-check-text {
+  font-size: var(--r-sm);
+  color: var(--t-color);
+  padding-left: 1.4rem;
+  line-height: 1.7;
+  position: relative;
+  word-break: break-word;
+}
+
+.tad-mandatory-details {
+  margin-top: 30px;
+  font-size: var(--r-sm);
+  color: var(--t-color);
+  padding-left: 1.4rem;
+  line-height: 1.7;
+  position: relative;
+  word-break: break-word;
+}
+
+.tad-validity-note {
+  font-size: var(--r-sm);
+  color: var(--t-color);
+  padding-left: 1.4rem;
+  line-height: 1.7;
+  position: relative;
+  margin: 0;
+  word-break: break-word;
+}
+
+.tad-email {
+  font-size: 22px;
+  color: var(--t-color);
+  padding-left: 1.4rem;
+  line-height: 1.7;
+  position: relative;
+  word-break: break-all;
+}
+
+@media (max-width: 768px) {
+  .tad-root {
+    --r-sm: 16px;
+    --r-xl: 30px;
+  }
+
+  .tad-main {
+    padding: 2.5rem 1.25rem 3.5rem;
+  }
+
+  .tad-wrapper {
+    gap: 1.75rem;
+  }
+
+  .tad-declare-item {
+    gap: 1rem;
+  }
+
+  .tad-sub-section {
+    gap: 0.75rem;
+  }
+
+  .tad-sub-index {
+    min-width: 2.2rem;
+  }
+
+  .tad-email {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tad-root {
+    --r-sm: 14px;
+    --r-xl: 22px;
+  }
+
+  .tad-main {
+    padding: 1.5rem 1rem 2.5rem;
+  }
+
+  .tad-wrapper {
+    gap: 1.25rem;
+  }
+
+  .tad-declare-item {
+    gap: 0.65rem;
+  }
+
+  .tad-declare-index {
+    min-width: 1.8rem;
+    font-size: 14px;
+  }
+
+  .tad-sub-section {
+    gap: 0.5rem;
+  }
+
+  .tad-sub-index {
+    min-width: 2rem;
+    font-size: 14px;
+  }
+
+  .tad-mandatory-label,
+  .tad-check-text,
+  .tad-mandatory-details,
+  .tad-validity-note {
+    padding-left: 0.75rem;
+  }
+
+  .tad-email {
+    font-size: 15px;
+    padding-left: 0.75rem;
+  }
+
+  .tad-sub-list li {
+    padding-left: 1rem;
+  }
+}

@@ -1,0 +1,5201 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.skipToContent {
+  position: absolute;
+  top: -60px;
+  left: 8px;
+  z-index: 10000;
+  padding: 12px 20px;
+  background: #2d4cc8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: top 0.15s ease-in-out;
+}
+
+.skipToContent:focus {
+  top: 8px;
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.mediaLiteracy {
+  width: 100%;
+  background-color: #dfe6e9;
+  color: #31344b;
+  font-family: "Segoe UI", "Inter";
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  padding-bottom: 24px;
+}
+
+.mediaLiteracy > .frameParent10 {
+  order: 1;
+}
+.mediaLiteracy > .heroSection {
+  order: 2;
+}
+.mediaLiteracy > .frameParent20 {
+  order: 3;
+}
+.mediaLiteracy > .mediaLiteracyInner {
+  order: 4;
+}
+.mediaLiteracy > .frameParent30 {
+  order: 5;
+}
+.mediaLiteracy > .rectangleParent {
+  order: 6;
+}
+.mediaLiteracy > .frameParent40 {
+  order: 7;
+}
+.mediaLiteracy > .mediaLiteracyChild {
+  order: 8;
+}
+
+@media (min-width: 1025px) {
+  .mediaLiteracy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    overflow-x: hidden;
+    text-align: left;
+    gap: 0;
+    padding: 32px 0 32px;
+  }
+}
+
+.frameParent10 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: calc(100% - 40px);
+  margin: 24px auto 0;
+  text-align: left;
+  font-size: 13px;
+  color: #2f3547;
+}
+
+.neurolxp21Wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.neurolxp212 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+}
+
+.arrowRightDoubleParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #243fa8;
+}
+
+.arrowRightDoubleIcon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+}
+
+@media (min-width: 1025px) {
+  .frameParent10 {
+    width: min(1280px, calc(100% - 80px));
+    margin: 0 auto;
+    font-size: 16px;
+  }
+}
+
+.heroSection {
+  width: calc(100% - 32px);
+  max-width: 780px;
+  margin: 32px auto 0;
+  font-family: "Segoe UI", "Inter";
+}
+
+.heroContent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.heroCopy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 0 22px;
+  border-radius: 999px;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+}
+
+.heroTitle {
+  width: 100%;
+  margin: 24px 0 0;
+  color: #31344b;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-shadow: none;
+}
+
+.heroTitle span {
+  display: block;
+  color: #2d4cc8;
+}
+
+.heroDescription {
+  width: 100%;
+  margin: 20px 0 0;
+  color: #2f3547;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.heroStats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-top: 36px;
+  gap: 28px 20px;
+}
+
+.heroStatCard {
+  position: relative;
+  width: 140px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 140px;
+  border-radius: 70px;
+  background: #dfe6e9;
+  box-shadow:
+   inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4;
+  overflow: visible;
+}
+
+.heroStatCircle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 108px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c4c4c4;
+  z-index: 1;
+}
+
+.heroStatCircle strong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  text-shadow: none;
+}
+
+.heroStatBlue {
+  color: #2d4cc8;
+}
+.heroStatGreen {
+  color: #2a7308;
+}
+.heroStatOrange {
+  color: #c05512;
+  gap: 4px;
+}
+
+.heroStatOrange span {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.heroStatCard > span {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  margin: 0;
+  width: 100%;
+  color: #2f3547;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.heroImages {
+  position: relative;
+  width: min(100%, 340px);
+  max-width: 340px;
+  aspect-ratio: 1 / 1;
+  flex: 0 0 auto;
+
+  border-radius: 50%;
+  background: #dfe6e9;
+
+  box-shadow:
+    inset -4px -4px 6px rgba(255, 255, 255, 0.95),
+    inset 4px 4px 6px rgba(196, 196, 196, 0.62);
+
+  overflow: hidden;
+  isolation: isolate;
+  box-sizing: border-box;
+}
+
+/* Old polygon frame is not used for the new circular image design. */
+.heroFramePolygon {
+  display: none;
+}
+
+/* Right-side learner image only. Keep the image path in page.tsx as /images/. */
+.heroPhotoPolygon {
+  position: absolute;
+  inset: 6px;
+
+  display: block;
+
+  border-radius: 50%;
+
+  background-color: transparent;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  z-index: 1;
+}
+
+/* Soft circular outline like the supplied PNG. */
+.heroImages::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+
+  box-shadow:
+    -2px -2px 5px rgba(255, 255, 255, 0.7),
+    2px 2px 5px rgba(196, 196, 196, 0.25);
+
+  pointer-events: none;
+  z-index: 2;
+}
+
+@media (min-width: 641px) {
+  .heroStats {
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .heroStatCard {
+    width: 150px;
+    height: 180px;
+    flex-basis: 150px;
+    border-radius: 75px;
+  }
+
+  .heroStatCircle {
+    width: 116px;
+    height: 106px;
+  }
+
+  .heroStatCard > span {
+    bottom: 30px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .heroSection {
+    max-width: none;
+    width: min(1280px, calc(100% - 48px));
+    margin: 32px auto 0;
+  }
+
+  .heroContent {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .heroCopy {
+    width: 653px;
+    max-width: none;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .heroBadge {
+    min-width: 215.51px;
+    height: 50.2px;
+    padding: 0 24px;
+    font-size: 24px;
+  }
+
+  .heroTitle {
+    width: 100%;
+    max-width: 621px;
+    margin-top: 32px;
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .heroDescription {
+    max-width: 653px;
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .heroStats {
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 587px;
+    margin-top: 64px;
+    gap: 46px;
+    flex-wrap: nowrap;
+  }
+
+  .heroStatCard {
+    width: 165px;
+    height: 196px;
+    flex-basis: 165px;
+    border-radius: 82px;
+  }
+
+  .heroStatCircle {
+    width: 130px;
+    height: 114px;
+  }
+
+  .heroStatCircle strong {
+    font-size: 38px;
+  }
+
+  .heroStatOrange span {
+    font-size: 26px;
+  }
+
+  .heroStatCard > span {
+    bottom: 34px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 26px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .heroImages {
+    /* Right image only — keep all left hero content/layout unchanged. */
+    width: min(430px, calc(100% - 693px));
+    max-width: 430px;
+    min-width: 280px;
+    aspect-ratio: 1 / 1;
+    height: auto;
+
+    margin-top: 0;
+    top: 0;
+
+    flex-shrink: 0;
+  }
+
+  .heroPhotoPolygon {
+    inset: 8px;
+  }
+}
+
+.frameParent20 {
+  width: calc(100% - 24px);
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  font-family: "Segoe UI", "Inter";
+}
+
+.frameParent21 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.frameParent15 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.frameChild11 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 190px;
+  height: 46px;
+  padding: 0 24px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  color: #2d4cc8;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.understandTheSystems {
+  width: 100%;
+  margin: 0;
+  color: #31344b;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.buildEssentialMedia {
+  width: 100%;
+  margin: 0;
+  color: #2f3547;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.frameParent23 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  font-size: 20px;
+}
+
+.featureCard {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  min-height: 210px;
+}
+
+.frameWrapper6 {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: 32px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c4c4c4;
+  overflow: hidden;
+}
+
+.frameChild12,
+.frameChild14 {
+  display: none;
+}
+
+.frameChild13,
+.frameChild15,
+.frameChild17,
+.frameChild19 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90px;
+  height: 32px;
+  padding: 0;
+  border-radius: 0 32px 32px 50px;
+  box-sizing: border-box;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.35),
+    4px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  z-index: 3;
+}
+
+.frameChild13 {
+  background-color: #2d4cc8;
+}
+.frameChild15 {
+  background-color: #0b9ba0;
+}
+.frameChild17 {
+  background-color: #861109;
+}
+.frameChild19 {
+  background-color: #bf1869;
+}
+
+.platformAwarenessParent,
+.culturalInfluenceParent,
+.messageIntentParent,
+.digitalEcosystemsParent {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 20px 24px;
+  height: 200px;
+}
+
+.platformAwareness,
+.messageIntent {
+  margin: 0;
+  color: #31344b;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+}
+
+.understandMediaPlatforms,
+.exploreMediasImpact,
+.identifyPurposeAudience {
+  width: 100%;
+  margin: 0;
+  color: #2f3547;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.platformAwareness br,
+.messageIntent br {
+  display: none;
+}
+
+@media (min-width: 641px) {
+  .frameParent23 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: column;
+    row-gap: 24px;
+    column-gap: 32px;
+  }
+
+  .featureCard {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .frameParent20 {
+    max-width: none;
+    width: min(1280px, calc(100% - 48px));
+    margin: 50px auto 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+
+  .frameParent21 {
+    width: 545px;
+    align-items: flex-start;
+    text-align: left;
+    gap: 32px;
+  }
+
+  .frameParent20 .frameParent21 {
+    /* Move only the copy into the spare left margin; keep the cards fixed.
+       Reduce the shift near the 1209px two-column fit threshold. */
+    position: relative;
+    left: clamp(-40px, calc((1209px - 100vw) / 2), 0px);
+  }
+
+  .frameParent15 {
+    align-items: flex-start;
+  }
+
+  .frameChild11 {
+    min-width: 263.4px;
+    height: 50px;
+    font-size: 24px;
+  }
+
+  .understandTheSystems {
+    text-align: left;
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .buildEssentialMedia {
+    text-align: left;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .frameParent23 {
+    width: 615px;
+    gap: 54px;
+  }
+
+  .featureCard {
+    min-height: 204px;
+  }
+
+  .frameChild13,
+  .frameChild15,
+  .frameChild17,
+  .frameChild19 {
+    width: 100px;
+    height: 35px;
+  }
+
+  .platformAwarenessParent,
+  .culturalInfluenceParent,
+  .messageIntentParent,
+  .digitalEcosystemsParent {
+    padding: 70px 28px 24px;
+    gap: 12px;
+  }
+
+  .platformAwareness,
+  .messageIntent {
+    font-size: 24px;
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+
+  .understandMediaPlatforms,
+  .exploreMediasImpact,
+  .identifyPurposeAudience {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+.mediaLiteracyInner {
+  width: calc(100% - 24px);
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.frameWrapper {
+  width: 100%;
+}
+
+.image20Parent {
+  position: relative;
+  width: 100%;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.85),
+    inset 4px 4px 4px rgba(190, 190, 190, 0.5);
+  overflow: hidden;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.image20 {
+  display: none;
+}
+
+.frameContainer {
+  width: 100%;
+}
+
+.image21Parent {
+  position: relative;
+  width: 100%;
+  border-radius: 24px;
+  background-color: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.6),
+    4px 4px 4px #c4c4c4;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 28px 20px;
+  box-sizing: border-box;
+}
+
+.image21 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.18;
+}
+
+.frameDiv {
+  position: relative;
+  width: min(100%, 320px);
+  aspect-ratio: 1 / 1.16;
+  border-radius: 24px 160px 160px 160px;
+  background-color: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px rgba(196, 196, 196, 0.25);
+  overflow: hidden;
+  z-index: 2;
+}
+
+.frameChild {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+.frameParent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  z-index: 2;
+}
+
+.frameGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frameWrapper2 {
+  width: 100%;
+}
+
+.frameParent2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.spotBiasVerifyFactsBuildWrapper {
+  width: 100%;
+}
+
+.spotBiasVerify {
+  width: 100%;
+  display: block;
+  color: #31344b;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.questionHeadlinesVerify {
+  width: 100%;
+  display: block;
+  color: #2f3547;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.frameItem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 46px;
+  padding: 0 22px;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #2d4cc8;
+  white-space: nowrap;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.frameParent3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  color: #2f3547;
+}
+
+.frameParent4,
+.frameParent6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.frameInner {
+  height: 36px;
+  width: 36px;
+  min-width: 36px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.85),
+    4px 4px 4px rgba(196, 196, 196, 0.75);
+  overflow: hidden;
+}
+
+.frameInnerGreen {
+  background-color: #abd19f;
+}
+.frameInnerPurple {
+  background-color: #c7a3ce;
+}
+.frameInnerCyan {
+  background-color: #95d8dc;
+}
+
+.tickIcon {
+  width: 21px;
+  height: 21px;
+  object-fit: contain;
+  display: block;
+}
+
+.recognizeCredibleSources {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  font-weight: 600;
+  font-size: 18px;
+  width: auto;
+  white-space: nowrap;
+}
+@media (min-width: 641px) {
+  .image21Parent {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 32px;
+    text-align: left;
+  }
+
+  .frameParent2 {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .frameParent4,
+  .frameParent6 {
+    justify-content: flex-start;
+  }
+
+  .recognizeCredibleSources {
+    width: auto;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1025px) {
+  .mediaLiteracyInner {
+    max-width: none;
+    width: min(1280px, calc(100% - 48px));
+    margin: 96px auto 0;
+  }
+
+  .image20Parent {
+    padding: 32px;
+    border-radius: 32px;
+  }
+
+  .image21Parent {
+    justify-content: flex-start;
+    gap: 0;
+    padding: 0;
+    min-height: 706px;
+  }
+
+  .frameDiv {
+    position: relative;
+    width: 575px;
+    max-width: none;
+    aspect-ratio: auto;
+    height: 672px;
+    flex-shrink: 0;
+    border-radius: 0 500px 500px 500px;
+  }
+
+  .frameParent {
+    align-items: flex-start;
+    padding: 50px 40px;
+    gap: 44px;
+    box-sizing: border-box;
+    min-width: 0;
+  }
+
+  .frameGroup {
+    align-items: flex-start;
+  }
+
+  .frameParent2 {
+    max-width: 556px;
+    gap: 32px;
+  }
+
+  .spotBiasVerify {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .questionHeadlinesVerify {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .frameItem {
+    min-width: min(286px, 100%);
+    height: 50px;
+    font-size: 22px;
+  }
+
+  .frameParent3 {
+    align-items: flex-start;
+    max-width: 446px;
+    gap: 24px;
+    font-size: 28px;
+  }
+
+  .frameParent4,
+  .frameParent6 {
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .frameInner {
+    height: 41px;
+    width: 41px;
+    min-width: 41px;
+  }
+
+  .tickIcon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .recognizeCredibleSources {
+    font-size: 24px;
+    line-height: 36px;
+    width: max-content;
+    min-width: max-content;
+    max-width: none;
+    white-space: nowrap;
+  }
+}
+
+.frameParent30 {
+  width: calc(100% - 24px);
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+  font-family: "Segoe UI", "Inter";
+}
+
+.frameParent31 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin-top: 12px;
+}
+
+.frameParent32 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.frameChild20 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 190px;
+  height: 46px;
+  padding: 0 24px;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #2d4cc8;
+  white-space: nowrap;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.questionUnderstandEvaluate {
+  width: 100%;
+  display: block;
+  color: #31344b;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.strengthenYourAbility {
+  width: 100%;
+  color: #2f3547;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.frameParent33 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 24px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.frameWrapper11 {
+  position: relative;
+  width: 90%;
+  max-width: 300px;
+  height: 260px;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px #c4c4c4;
+  overflow: hidden;
+}
+
+.frameParent34 {
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4;
+}
+
+.search02Wrapper {
+  position: absolute;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 130px;
+  height: 125px;
+  border-radius: 999px;
+  background-color: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px #c4c4c4;
+  overflow: hidden;
+}
+
+.search02Icon {
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.frameWrapper12,
+.frameWrapper14,
+.frameWrapper16,
+.frameWrapper18 {
+  position: absolute;
+  top: 148px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 84%;
+  padding: 14px 10px;
+}
+
+.frameWrapper12 {
+  background-color: #6cc3c6;
+  border: 1px dashed #046f73;
+}
+.frameWrapper14 {
+  background-color: #ef97c2;
+  border: 1px dashed #bf1869;
+}
+.frameWrapper16 {
+  background-color: #c29cc5;
+  border: 1px dashed #67096e;
+}
+.frameWrapper18 {
+  background-color: #ff9c9c;
+  border: 1px dashed #cb0c0c;
+}
+
+.questionParent,
+.evaluateParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+}
+
+.question,
+.evaluate,
+.recognize {
+  position: relative;
+  line-height: 1.3;
+  font-size: 20px;
+  color: #31344b;
+}
+
+.assessFacts,
+.compareViews,
+.spotInfluence {
+  position: relative;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #31344b;
+}
+
+@media (min-width: 641px) {
+  .frameParent33 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1025px) {
+  .frameParent30 {
+    max-width: none;
+    width: min(1280px, calc(100% - 48px));
+    margin: 70px auto 0;
+    gap: 22px;
+  }
+
+  .frameParent31 {
+    width: min(1061px, 100%);
+    gap: 2px;
+  }
+
+  .frameChild20 {
+    min-width: 228px;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  .questionUnderstandEvaluate {
+    font-size: 36px;
+    line-height: 1.25;
+  }
+
+  .strengthenYourAbility {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .frameParent33 {
+    grid-template-columns: repeat(4, minmax(0, 290px));
+    gap: 40px;
+  }
+
+  .frameWrapper11 {
+    width: 290px;
+    height: 270px;
+    border-radius: 32px;
+    background-color: #dfe6e9;
+    box-shadow:
+      -4px -4px 4px #fff,
+      4px 4px 4px #c4c4c4;
+  }
+
+  .search02Wrapper {
+    top: -63px;
+    width: 172px;
+    height: 165px;
+  }
+
+  .search02Icon {
+    top: 85px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .frameWrapper12,
+  .frameWrapper14,
+  .frameWrapper16,
+  .frameWrapper18 {
+    top: 131px;
+    width: 242px;
+    min-height: 115px;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .question,
+  .evaluate,
+  .recognize {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .assessFacts,
+  .compareViews,
+  .spotInfluence {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .questionParent,
+  .evaluateParent {
+    gap: 10px;
+  }
+}
+
+.rectangleParent {
+  width: calc(100% - 24px);
+  max-width: 780px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.5),
+    inset 4px 4px 4px #c4c4c4;
+  overflow: hidden;
+  padding: 16px;
+  box-sizing: border-box;
+  color: #2f3547;
+}
+
+.rectangle,
+.image202,
+.image212 {
+  display: none;
+}
+
+.image21Group {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.35),
+    4px 4px 4px rgba(196, 196, 196, 0.75);
+  overflow: hidden;
+  padding-top: 320px;
+  box-sizing: border-box;
+}
+
+.image24Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 20px 20px 0 0;
+  z-index: 1;
+}
+
+.frameParent38 {
+  position: relative;
+  width: 100%;
+  padding: 24px 20px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  background-color: #dfe6e9;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.frameChild21 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  height: auto;
+  min-height: 46px;
+  padding: 9px 18px;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #2d4cc8;
+  white-space: normal;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.createResponsiblyInspireContainer {
+  width: 100%;
+  margin: 0;
+  letter-spacing: 0.02em;
+  line-height: 1.28;
+  font-size: 24px;
+}
+
+.thinkCriticallyNavigate {
+  color: #31344b;
+  line-height: inherit;
+}
+
+.confidently {
+  color: #2d4cc8;
+  line-height: inherit;
+}
+
+.createEthicalCredible {
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2f3547;
+}
+
+@media (min-width: 1025px) {
+  .rectangleParent {
+    max-width: none;
+    width: min(1280px, calc(100% - 48px));
+    height: 565px;
+    margin: 96px auto 0;
+    border-radius: 100px 8px 100px 8px;
+    padding: 0;
+  }
+
+  .image21Group {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    right: 32px;
+    bottom: 32px;
+    width: auto;
+    height: auto;
+    padding-top: 0;
+    border-radius: 80px 4px 80px 4px;
+  }
+
+  .image21Group::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(224, 216, 199, 0.82) 0%, rgba(224, 216, 199, 0.58) 24%, rgba(224, 216, 199, 0.22) 42%, rgba(224, 216, 199, 0) 58%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .image24Icon {
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .frameParent38 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 545px;
+    padding: 0;
+    background: transparent;
+    gap: 32px;
+  }
+
+  .frameChild21 {
+    width: fit-content;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  .createResponsiblyInspireContainer {
+    font-size: 36px;
+    line-height: 1.28;
+  }
+
+  .createEthicalCredible {
+    width: 429px;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+}
+
+.frameParent40 {
+  width: calc(100% - 24px);
+  max-width: 780px;
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.rectangleGroup {
+  position: relative;
+  width: 100%;
+  border-radius: 28px 100px 100px 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #fff,
+    inset 4px 4px 4px #c4c4c4;
+  padding: 24px 22px;
+  box-sizing: border-box;
+}
+
+.rectangle2,
+.image203 {
+  display: none;
+}
+
+.frameParent41 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.frameWrapper19 {
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.frameParent42 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.navigateMediaWithConfidenceWrapper {
+  width: 100%;
+}
+
+.navigateMediaWithContainer {
+  width: 100%;
+  display: block;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  font-size: 24px;
+  color: #31344b;
+}
+
+.frameChild22 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 200px;
+  height: 46px;
+  padding: 0 22px;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #2d4cc8;
+  white-space: nowrap;
+  z-index: 2;
+  box-sizing: border-box;
+  margin-top: 0;
+  order: -1;
+  align-self: flex-start;
+}
+
+.frameParent43 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 24px;
+}
+
+.frameParent44,
+.frameParent45 {
+  --feature-ring-size: 88px;
+  --feature-ring-color: #bf1869;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 180px;
+  border-radius: 70px 70px 8px 70px;
+  background-color: #dfe6e9;
+  border: 1.5px solid #fff;
+  box-sizing: border-box;
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px #c4c4c4;
+  padding: 20px 20px 20px calc(var(--feature-ring-size) + 20px);
+  display: flex;
+  align-items: center;
+  /* The complete dotted ring extends slightly beyond the rounded card. */
+  overflow: visible;
+}
+
+.frameParent45 {
+  --feature-ring-color: #67096e;
+  border-radius: 70px 8px 70px 70px;
+}
+
+.misinformationDefenseParent,
+.certifiedDigitalCitizenParent {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+.misinformationDefense {
+  width: 100%;
+  display: inline-block;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  font-size: 20px;
+  color: #bf1869;
+}
+
+.certifiedDigitalCitizenParent .misinformationDefense {
+  color: #67096e;
+}
+
+.detectResistAndContainer {
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 1.45;
+  color: #2f3547;
+}
+
+.detectResistAnd {
+  line-height: inherit;
+}
+
+.blankLine {
+  display: none;
+}
+
+.frameChild23,
+.frameChild24,
+.frameChild25 {
+  position: absolute;
+  top: -2px;
+  left: -7px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featureEllipse {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.featureIcon {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  z-index: 1;
+}
+
+/* Draw the decorative rings in CSS, independent of image loading. */
+.frameParent40 .frameChild23,
+.frameParent40 .frameChild25 {
+  width: var(--feature-ring-size);
+  height: var(--feature-ring-size);
+  border: none;
+  border-radius: 50%;
+  background-color: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px #c4c4c4;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+/* The PNG uses only a dotted half arc, not a complete dotted circle. */
+.frameParent40 .frameChild23::after,
+.frameParent40 .frameChild25::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: repeating-conic-gradient(
+    from -90deg,
+    var(--feature-ring-color) 0deg 2deg,
+    transparent 2deg 5deg
+  );
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 3px),
+    #000 calc(100% - 3px)
+  );
+  mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 3px),
+    #000 calc(100% - 3px)
+  );
+  clip-path: inset(0 0 0 50%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.frameParent40 .featureEllipse {
+  display: none;
+}
+
+.frameParent40 .detectResistAndContainer,
+.frameParent40 .detectResistAnd {
+  margin: 0;
+  white-space: normal;
+}
+
+@media (min-width: 641px) {
+  .frameParent43 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .frameParent44,
+  .frameParent45 {
+    --feature-ring-size: 96px;
+    min-height: 190px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .frameParent40 {
+    max-width: none;
+    width: min(1388px, calc(100% - 48px));
+    margin: 48px auto 0;
+    position: relative;
+    height: auto;
+    display: grid;
+    grid-template-columns: minmax(0, 56.27fr) minmax(0, 43.73fr);
+    gap: 0;
+    align-items: stretch;
+  }
+
+  .rectangleGroup {
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    /* Preserve the original overlap behind the two right-hand cards. */
+    width: calc(100% * 63.98 / 56.27);
+    height: auto;
+    margin: 20px 0;
+    border-radius: 32px 200px 200px 32px;
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .frameParent41 {
+    height: auto;
+    width: 70.84%;
+    position: relative;
+    margin-left: 13.01%;
+  }
+
+  .frameWrapper19 {
+    position: relative;
+    width: 100%;
+  }
+
+  .navigateMediaWithContainer {
+    font-size: 36px;
+    line-height: 1.3;
+  }
+
+  .questionHeadlinesVerify {
+    width: auto;
+  }
+
+  .frameParent40 .questionHeadlinesVerify {
+    width: 100%;
+  }
+
+  .frameChild22 {
+    position: relative;
+    min-width: min(229.6px, 100%);
+    height: 50.2px;
+    font-size: 22px;
+    margin-top: 0;
+  }
+
+  .frameParent43 {
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 30px;
+    color: #bf1869;
+    z-index: 1;
+  }
+
+  .frameParent44,
+  .frameParent45 {
+    --feature-ring-size: clamp(120px, 11.2vw, 161px);
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 190px;
+    border-radius: 100px 100px 0 100px;
+    padding: 24px 24px 24px calc(var(--feature-ring-size) + 24px);
+    display: flex;
+    align-items: center;
+  }
+
+  .frameParent45 {
+    border-radius: 100px 0 100px 100px;
+    color: #67096e;
+  }
+
+  .misinformationDefenseParent,
+  .certifiedDigitalCitizenParent {
+    width: 100%;
+  }
+
+  .misinformationDefense {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .detectResistAndContainer {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .frameChild23 {
+    top: -12px;
+    left: -12px;
+    width: 161px;
+    height: 161px;
+  }
+
+  .frameChild24 {
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+  }
+
+  .frameChild25 {
+    top: 0;
+    left: -12px;
+    width: 161px;
+    height: 161px;
+  }
+
+  .featureIcon {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+.mediaLiteracyChild {
+  width: 59px;
+  height: 59px;
+  margin: 8px auto 0;
+  border-radius: 50%;
+  background-color: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.95),
+    4px 4px 4px rgba(196, 196, 196, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mediaLiteracyChild img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+@media (min-width: 1025px) {
+  .mediaLiteracyChild {
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .heroCopy {
+    text-align: left;
+    align-items: flex-start;
+    width: 653px;
+    max-width: none;
+  }
+
+  .frameParent33 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 60px;
+  }
+
+  .image20Parent {
+    height: 95%;
+    width: 95%;
+  }
+}
+
+/* =========================================================
+   RESPONSIBLE CONTENT CREATION â€” DESKTOP PNG MATCH
+   Only this section is adjusted.
+   ========================================================= */
+@media (min-width: 1025px) {
+  .rectangleParent {
+    width: min(1280px, calc(100% - 48px)) !important;
+    height: 565px !important;
+    margin: 96px auto 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    border-radius: 100px 8px 100px 8px !important;
+    background-color: #dfe6e9 !important;
+    box-shadow:
+      inset -8px -8px 16px rgba(255, 255, 255, 0.95),
+      inset 8px 8px 16px rgba(196, 196, 196, 0.8) !important;
+    overflow: hidden !important;
+  }
+
+  .image21Group {
+    position: absolute !important;
+    top: 32px !important;
+    left: 32px !important;
+    right: 32px !important;
+    bottom: 32px !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    border-radius: 80px 4px 80px 4px !important;
+    overflow: hidden !important;
+    background-color: #dfe6e9 !important;
+    box-shadow:
+      -10px -10px 20px rgba(255, 255, 255, 0.62),
+      10px 10px 20px rgba(196, 196, 196, 0.72) !important;
+  }
+
+  .image21Group::after {
+    content: "" !important;
+    position: absolute !important;
+    inset: 0 !important;
+    z-index: 2 !important;
+    pointer-events: none !important;
+    background:
+      linear-gradient(
+        90deg,
+        rgba(223, 230, 233, 0.98) 0%,
+        rgba(223, 230, 233, 0.94) 28%,
+        rgba(223, 230, 233, 0.60) 43%,
+        rgba(223, 230, 233, 0.08) 58%,
+        rgba(223, 230, 233, 0) 68%
+      ) !important;
+  }
+
+  .image24Icon {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center 43% !important;
+    border-radius: 0 !important;
+    z-index: 1 !important;
+  }
+
+  .frameParent38 {
+    position: absolute !important;
+    top: 70px !important;
+    left: 52px !important;
+    width: 500px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 34px !important;
+    background: transparent !important;
+    z-index: 3 !important;
+  }
+
+  .frameChild21 {
+    width: auto !important;
+    min-width: 405px !important;
+    height: 50px !important;
+    min-height: 50px !important;
+    padding: 0 30px !important;
+    border-radius: 30px !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.03em !important;
+    white-space: nowrap !important;
+    box-shadow:
+      inset -6px -6px 10px rgba(255, 255, 255, 0.95),
+      inset 6px 6px 10px rgba(196, 196, 196, 0.8) !important;
+  }
+
+  .createResponsiblyInspireContainer {
+    width: 500px !important;
+    margin: 8px 0 0 !important;
+    font-size: 48px !important;
+    line-height: 1.18 !important;
+    letter-spacing: 0.02em !important;
+    font-weight: 700 !important;
+  }
+
+  .thinkCriticallyNavigate,
+  .confidently {
+    line-height: inherit !important;
+  }
+
+  .createEthicalCredible {
+    width: 445px !important;
+    margin: 8px 0 0 !important;
+    font-size: 28px !important;
+    line-height: 1.35 !important;
+    letter-spacing: 0.03em !important;
+  }
+}
+
+/* RESPONSIBLE CONTENT CREATION â€” image position correction only */
+@media (min-width: 1025px) {
+  .image24Icon {
+    width: 94% !important;
+    left: 6% !important;
+    right: auto !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center 28% !important;
+  }
+}
+
+/* RESPONSIBLE CONTENT CREATION â€” leave clear space above the head */
+@media (min-width: 1025px) {
+  .image24Icon {
+    width: 94% !important;
+    left: 6% !important;
+    right: auto !important;
+    top: 0 !important;
+    bottom: auto !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center 12% !important;
+  }
+}
+
+.frameParent40 .frameChild23::after,
+.frameParent40 .frameChild25::after {
+	-webkit-clip-path: polygon(
+		50% 50%,
+		50% 0,
+		100% 0,
+		100% 100%,
+		0 100%,
+		14.65% 85.35%
+	);
+
+	clip-path: polygon(
+		50% 50%,
+		50% 0,
+		100% 0,
+		100% 100%,
+		0 100%,
+		14.65% 85.35%
+	);
+}
+
+/* =========================================================
+   DESKTOP HERO — MOVE ONLY THE LEFT SECTION SLIGHTLY LEFT
+   ========================================================= */
+@media (min-width: 1025px) {
+  .heroCopy {
+    transform: translateX(clamp(-36px, -2vw, -20px));
+  }
+}
+
+
+/* =========================================================
+   DESKTOP HERO — FINAL SMALL ALIGNMENT
+   1) Move only the left hero section a little further left.
+   2) Keep only the 3rd stat-card label on one line without overlap.
+   Everything else remains unchanged.
+   ========================================================= */
+@media (min-width: 1025px) {
+  .heroCopy {
+    transform: translateX(clamp(-52px, -3vw, -36px));
+  }
+
+  .heroStats > .heroStatCard:nth-child(3) > span {
+    font-size: 16px;
+    white-space: nowrap;
+    width: max-content;
+    max-width: none;
+  }
+}
+
+
+/* Spot Misinformation centering is handled by the scoped rules below. */
+
+
+/* =========================================================
+   RESPONSIBLE CONTENT CREATION — DESKTOP REFERENCE MATCH
+   Only this section is adjusted to match the supplied PNG.
+   Mobile/tablet and every other section remain unchanged.
+   ========================================================= */
+@media (min-width: 1025px) {
+  .rectangleParent {
+    position: relative;
+
+    width: min(1280px, calc(100% - 48px));
+    max-width: none;
+    height: 565px;
+
+    margin: 96px auto 0;
+    padding: 0;
+
+    background: #dfe6e9;
+
+    border-radius: 100px 8px 100px 8px;
+
+    box-shadow:
+      inset -4px -4px 4px rgba(255, 255, 255, 0.82),
+      inset 4px 4px 4px rgba(196, 196, 196, 0.72);
+
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .image21Group {
+    position: absolute;
+
+    top: 32px;
+    right: 32px;
+    bottom: 32px;
+    left: 32px;
+
+    width: auto;
+    height: auto;
+
+    padding: 0;
+
+    background: #dfe6e9;
+
+    border-radius: 80px 4px 80px 4px;
+
+    box-shadow:
+      -4px -4px 4px rgba(255, 255, 255, 0.72),
+      4px 4px 4px rgba(196, 196, 196, 0.55);
+
+    overflow: hidden;
+  }
+
+  /* No dark/gradient overlay in the supplied reference. */
+  .image21Group::after {
+    content: none;
+    display: none;
+  }
+
+  /* Match the supplied PNG: large full cutout on the right, without cropping. */
+  .image24Icon {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+
+    width: 72%;
+    height: 100%;
+
+    object-fit: contain;
+    object-position: right bottom;
+
+    border-radius: 0;
+
+    z-index: 1;
+  }
+
+  .frameParent38 {
+    position: absolute;
+
+    top: 54px;
+    left: 50px;
+
+    width: 520px;
+
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 42px;
+
+    background: transparent;
+
+    z-index: 3;
+    box-sizing: border-box;
+  }
+
+  .frameParent38 .frameParent15 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 42px;
+  }
+
+  .frameChild21 {
+    width: fit-content;
+    min-width: 390px;
+    height: 50px;
+    min-height: 50px;
+
+    padding: 0 30px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 28px;
+
+    background: #dfe6e9;
+
+    box-shadow:
+      inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.02em;
+
+    color: #2d4cc8;
+
+    white-space: nowrap;
+
+    box-sizing: border-box;
+  }
+
+  .createResponsiblyInspireContainer {
+    width: 100%;
+    max-width: 510px;
+
+    margin: 0;
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+
+    color: #31344b;
+  }
+
+  .createResponsiblyInspireContainer .thinkCriticallyNavigate {
+    color: #31344b;
+  }
+
+  .createResponsiblyInspireContainer .confidently {
+    color: #2d4cc8;
+  }
+
+  .createEthicalCredible {
+    width: 430px;
+    max-width: 100%;
+
+    margin: 0;
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: 0.02em;
+
+    color: #2f3547;
+  }
+}
+
+/* Keep the same reference proportions on smaller desktop widths. */
+@media (min-width: 1025px) and (max-width: 1240px) {
+  .frameParent38 {
+    left: 42px;
+    width: 470px;
+    gap: 34px;
+  }
+
+  .frameParent38 .frameParent15 {
+    gap: 34px;
+  }
+
+  .frameChild21 {
+    min-width: 330px;
+    font-size: 20px;
+  }
+
+  .createResponsiblyInspireContainer {
+    max-width: 455px;
+    font-size: 42px;
+  }
+
+  .createEthicalCredible {
+    width: 390px;
+    font-size: 24px;
+  }
+
+  .image24Icon {
+    width: 68%;
+    right: 0;
+  }
+}
+
+
+/* =========================================================
+   FINAL RESPONSIBLE CONTENT IMAGE FIX
+   IMPORTANT: keep this at the VERY END of the file.
+   Earlier !important image rules were overriding the newer sizing.
+   ========================================================= */
+@media (min-width: 1025px) {
+  /* Remove the old overlay so the image is clear like the PNG. */
+  .image21Group::after {
+    content: none !important;
+    display: none !important;
+    background: none !important;
+  }
+
+  /* Show the full image on the right without cropping. */
+  .image24Icon {
+    position: absolute !important;
+
+    inset: auto !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+
+    width: 72% !important;
+    height: 100% !important;
+
+    object-fit: contain !important;
+    object-position: right bottom !important;
+
+    border-radius: 0 !important;
+    z-index: 1 !important;
+  }
+}
+
+/* Slightly smaller image on compact desktop widths. */
+@media (min-width: 1025px) and (max-width: 1240px) {
+  .image24Icon {
+    width: 68% !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL LAST SECTION — MATCH SUPPLIED PNG
+   Desktop only. This changes ONLY .frameParent40 section.
+   ========================================================= */
+@media (min-width: 1025px) {
+  .frameParent40 {
+    width: min(1280px, calc(100% - 48px)) !important;
+    max-width: 1280px !important;
+    height: auto !important;
+
+    margin: 48px auto 0 !important;
+
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    align-items: center !important;
+
+    gap: 28px !important;
+
+    position: relative !important;
+  }
+
+  /* LEFT LARGE ROUNDED PANEL */
+  .frameParent40 .rectangleGroup {
+    position: relative !important;
+
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+
+    width: 100% !important;
+    height: 360px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    border-radius: 28px 180px 180px 28px !important;
+
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px #c4c4c4 !important;
+
+    overflow: hidden !important;
+  }
+
+  .frameParent40 .frameParent41 {
+    position: relative !important;
+
+    width: 76% !important;
+    height: auto !important;
+
+    margin: 0 0 0 56px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 26px !important;
+  }
+
+  .frameParent40 .frameWrapper19,
+  .frameParent40 .frameParent42 {
+    width: 100% !important;
+    margin: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 22px !important;
+  }
+
+  .frameParent40 .frameChild22 {
+    width: fit-content !important;
+    min-width: 190px !important;
+    height: 42px !important;
+
+    padding: 0 20px !important;
+    margin: 0 !important;
+
+    order: -1 !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    border-radius: 28px !important;
+
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 1 !important;
+    letter-spacing: 0.02em !important;
+
+    color: #2d4cc8 !important;
+    white-space: nowrap !important;
+  }
+
+  .frameParent40 .navigateMediaWithContainer {
+    width: 100% !important;
+    max-width: 430px !important;
+
+    margin: 0 !important;
+
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    line-height: 1.22 !important;
+    letter-spacing: 0.02em !important;
+
+    color: #31344b !important;
+  }
+
+  .frameParent40 .questionHeadlinesVerify {
+    width: 100% !important;
+    max-width: 430px !important;
+
+    margin: 0 !important;
+
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 1.45 !important;
+    letter-spacing: 0.02em !important;
+
+    color: #2f3547 !important;
+  }
+
+  /* RIGHT COLUMN — TWO COMPACT ROUNDED CARDS */
+  .frameParent40 .frameParent43 {
+    position: relative !important;
+
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    margin: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 22px !important;
+
+    z-index: 2 !important;
+  }
+
+  .frameParent40 .frameParent44,
+  .frameParent40 .frameParent45 {
+    --feature-ring-size: 116px !important;
+
+    position: relative !important;
+
+    width: 100% !important;
+    height: 168px !important;
+    min-height: 168px !important;
+    max-height: 168px !important;
+
+    margin: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    padding:
+      20px
+      28px
+      20px
+      calc(var(--feature-ring-size) + 28px) !important;
+
+    border: 1px solid rgba(255, 255, 255, 0.95) !important;
+
+    border-radius: 90px 28px 28px 90px !important;
+
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      -4px -4px 4px #ffffff,
+      4px 4px 4px #c4c4c4 !important;
+
+    overflow: visible !important;
+  }
+
+  .frameParent40 .misinformationDefenseParent,
+  .frameParent40 .certifiedDigitalCitizenParent {
+    width: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 10px !important;
+
+    margin: 0 !important;
+  }
+
+  .frameParent40 .misinformationDefense {
+    width: 100% !important;
+
+    margin: 0 !important;
+
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0.02em !important;
+
+    color: #bf1869 !important;
+  }
+
+  .frameParent40 .certifiedDigitalCitizenParent .misinformationDefense {
+    color: #67096e !important;
+  }
+
+  .frameParent40 .detectResistAndContainer,
+  .frameParent40 .detectResistAnd {
+    width: 100% !important;
+
+    margin: 0 !important;
+
+    font-size: 17px !important;
+    font-weight: 400 !important;
+    line-height: 1.35 !important;
+    letter-spacing: 0.01em !important;
+
+    color: #2f3547 !important;
+
+    white-space: normal !important;
+  }
+
+  /* ICON CIRCLES */
+  .frameParent40 .frameChild23,
+  .frameParent40 .frameChild25 {
+    position: absolute !important;
+
+    top: 50% !important;
+    left: 12px !important;
+
+    transform: translateY(-50%) !important;
+
+    width: var(--feature-ring-size) !important;
+    height: var(--feature-ring-size) !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    border-radius: 50% !important;
+
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      -4px -4px 4px #ffffff,
+      4px 4px 4px #c4c4c4 !important;
+
+    z-index: 2 !important;
+  }
+
+  /* Full dotted circle like the PNG. */
+  .frameParent40 .frameChild23::after,
+  .frameParent40 .frameChild25::after {
+    content: "" !important;
+
+    position: absolute !important;
+    inset: 13px !important;
+
+    border: 2px dotted var(--feature-ring-color) !important;
+    border-radius: 50% !important;
+
+    background: none !important;
+
+    -webkit-mask: none !important;
+    mask: none !important;
+
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+
+    pointer-events: none !important;
+    z-index: 2 !important;
+  }
+
+  .frameParent40 .featureEllipse {
+    display: none !important;
+  }
+
+  .frameParent40 .featureIcon {
+    position: relative !important;
+
+    width: 48px !important;
+    height: 48px !important;
+
+    object-fit: contain !important;
+
+    z-index: 3 !important;
+  }
+}
+
+/* Keep the same proportions on smaller desktops without changing mobile/tablet. */
+@media (min-width: 1025px) and (max-width: 1180px) {
+  .frameParent40 {
+    gap: 22px !important;
+  }
+
+  .frameParent40 .rectangleGroup {
+    height: 330px !important;
+    border-radius: 24px 160px 160px 24px !important;
+  }
+
+  .frameParent40 .frameParent41 {
+    width: 78% !important;
+    margin-left: 42px !important;
+  }
+
+  .frameParent40 .navigateMediaWithContainer {
+    font-size: 32px !important;
+  }
+
+  .frameParent40 .questionHeadlinesVerify {
+    font-size: 18px !important;
+  }
+
+  .frameParent40 .frameParent44,
+  .frameParent40 .frameParent45 {
+    --feature-ring-size: 104px !important;
+
+    height: 154px !important;
+    min-height: 154px !important;
+    max-height: 154px !important;
+
+    padding:
+      18px
+      22px
+      18px
+      calc(var(--feature-ring-size) + 24px) !important;
+  }
+
+  .frameParent40 .misinformationDefense {
+    font-size: 20px !important;
+  }
+
+  .frameParent40 .detectResistAndContainer,
+  .frameParent40 .detectResistAnd {
+    font-size: 16px !important;
+  }
+
+  .frameParent40 .featureIcon {
+    width: 44px !important;
+    height: 44px !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL LAST SECTION CLEANUP
+   1) Remove the extra solid circle around the dotted icon ring.
+   2) Tighten and align only the LEFT panel text.
+   Keep this block at the VERY END of the file.
+   ========================================================= */
+@media (min-width: 1025px) {
+  /* ---------- RIGHT CARDS: remove only the extra outer circle ---------- */
+  .frameParent40 .frameChild23,
+  .frameParent40 .frameChild25 {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .frameParent40 .frameChild23::after,
+  .frameParent40 .frameChild25::after {
+    inset: 8px !important;
+
+    border: 2px dotted var(--feature-ring-color) !important;
+    border-radius: 50% !important;
+
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* ---------- LEFT PANEL: remove excess internal spacing ---------- */
+  .frameParent40 .frameParent41 {
+    width: 84% !important;
+    margin-left: 36px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+
+    gap: 14px !important;
+  }
+
+  .frameParent40 .frameWrapper19,
+  .frameParent40 .frameParent42 {
+    width: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    gap: 14px !important;
+
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+
+  .frameParent40 .frameChild22 {
+    margin: 0 0 4px 0 !important;
+  }
+
+  .frameParent40 .navigateMediaWithContainer {
+    width: 100% !important;
+    max-width: 470px !important;
+
+    margin: 0 !important;
+
+    text-align: left !important;
+  }
+
+  .frameParent40 .questionHeadlinesVerify {
+    width: 100% !important;
+    max-width: 470px !important;
+
+    margin: 0 !important;
+
+    text-align: left !important;
+  }
+}
+
+/* Compact desktop widths */
+@media (min-width: 1025px) and (max-width: 1180px) {
+  .frameParent40 .frameParent41 {
+    width: 86% !important;
+    margin-left: 30px !important;
+    gap: 12px !important;
+  }
+
+  .frameParent40 .frameWrapper19,
+  .frameParent40 .frameParent42 {
+    gap: 12px !important;
+  }
+}
+
+
+/* =========================================================
+   LAST SECTION — COMPACT DESKTOP REFINEMENT
+   Only the final Why NeuroLXP section is changed.
+   ========================================================= */
+@media (min-width: 1025px) {
+  /* Make only the word "Media" blue. */
+  .frameParent40 .navigateMediaAccent {
+    color: #2d4cc8 !important;
+  }
+
+  /* Reduce overall section width so the design does not feel too stretched. */
+  .frameParent40 {
+    width: min(1120px, calc(100% - 64px)) !important;
+    max-width: 1120px !important;
+    gap: 20px !important;
+    margin-top: 40px !important;
+  }
+
+  /* Compact the left design and remove extra empty space. */
+  .frameParent40 .rectangleGroup {
+    height: 300px !important;
+    border-radius: 24px 150px 150px 24px !important;
+  }
+
+  .frameParent40 .frameParent41 {
+    width: 82% !important;
+    margin-left: 30px !important;
+    gap: 10px !important;
+  }
+
+  .frameParent40 .frameWrapper19,
+  .frameParent40 .frameParent42 {
+    gap: 10px !important;
+  }
+
+  .frameParent40 .frameChild22 {
+    min-width: 160px !important;
+    height: 38px !important;
+    padding: 0 16px !important;
+    margin: 0 0 2px 0 !important;
+    font-size: 16px !important;
+  }
+
+  .frameParent40 .navigateMediaWithContainer {
+    max-width: 400px !important;
+    font-size: 32px !important;
+    line-height: 1.18 !important;
+  }
+
+  .frameParent40 .questionHeadlinesVerify {
+    max-width: 400px !important;
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Compact the two right cards to match the narrower section. */
+  .frameParent40 .frameParent43 {
+    gap: 16px !important;
+  }
+
+  .frameParent40 .frameParent44,
+  .frameParent40 .frameParent45 {
+    --feature-ring-size: 98px !important;
+
+    height: 142px !important;
+    min-height: 142px !important;
+    max-height: 142px !important;
+
+    padding:
+      16px
+      20px
+      16px
+      calc(var(--feature-ring-size) + 20px) !important;
+
+    border-radius: 76px 24px 24px 76px !important;
+  }
+
+  .frameParent40 .frameChild23,
+  .frameParent40 .frameChild25 {
+    left: 10px !important;
+  }
+
+  .frameParent40 .misinformationDefense {
+    font-size: 19px !important;
+    line-height: 1.2 !important;
+  }
+
+  .frameParent40 .detectResistAndContainer,
+  .frameParent40 .detectResistAnd {
+    font-size: 15px !important;
+    line-height: 1.3 !important;
+  }
+
+  .frameParent40 .featureIcon {
+    width: 42px !important;
+    height: 42px !important;
+  }
+}
+
+
+/* =========================================================
+   LAST SECTION — WIDTH ONLY FIX
+   Desktop only.
+   IMPORTANT: Do not change the design, height, radius, text,
+   icons, spacing inside cards, or typography.
+   Only reduce the LEFT panel width and let the right cards
+   move closer automatically.
+   ========================================================= */
+@media (min-width: 1025px) {
+  .frameParent40 {
+    grid-template-columns: minmax(480px, 520px) minmax(0, 1fr) !important;
+  }
+
+  .frameParent40 .rectangleGroup {
+    width: 100% !important;
+    max-width: 520px !important;
+  }
+}
+
+/* Slightly smaller desktop screens: width only, same design. */
+@media (min-width: 1025px) and (max-width: 1180px) {
+  .frameParent40 {
+    grid-template-columns: minmax(440px, 480px) minmax(0, 1fr) !important;
+  }
+
+  .frameParent40 .rectangleGroup {
+    max-width: 480px !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL "WHY NEUROLXP" SECTION — FIGMA CSS MATCH
+   Desktop only.
+   Only this final section is overridden.
+   ========================================================= */
+@media (min-width: 1025px) {
+  .frameParent40 {
+    width: min(1388px, calc(100% - 48px)) !important;
+    max-width: 1388px !important;
+    height: 467px !important;
+
+    margin: 37px auto 0 !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+
+    gap: 50px !important;
+
+    position: relative !important;
+  }
+
+  /* =======================================================
+     LEFT PANEL — 716 x 467
+     ======================================================= */
+  .frameParent40 .rectangleGroup {
+    position: relative !important;
+
+    width: 716px !important;
+    min-width: 716px !important;
+    max-width: 716px !important;
+
+    height: 467px !important;
+    min-height: 467px !important;
+    max-height: 467px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      inset -10px -10px 20px #ffffff,
+      inset 10px 10px 20px #c4c4c4 !important;
+
+    border-radius: 32px 200px 200px 32px !important;
+
+    display: block !important;
+    overflow: hidden !important;
+
+    flex: 0 0 716px !important;
+  }
+
+  .frameParent40 .frameParent41 {
+    position: absolute !important;
+
+    width: 553px !important;
+    height: 359.2px !important;
+
+    left: 50% !important;
+    top: 50% !important;
+
+    transform: translate(
+      calc(-50% + 29.5px),
+      calc(-50% + 21.1px)
+    ) !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: block !important;
+  }
+
+  .frameParent40 .frameWrapper19 {
+    position: absolute !important;
+
+    width: 553px !important;
+    height: 259px !important;
+
+    left: 50% !important;
+    top: 50% !important;
+
+    transform: translate(-50%, calc(-50% + 50.1px)) !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .frameParent40 .frameParent42 {
+    position: absolute !important;
+
+    width: 556px !important;
+    height: 275px !important;
+
+    left: 50% !important;
+    top: 50% !important;
+
+    transform: translate(
+      calc(-50% + 1.5px),
+      calc(-50% - 7.2px)
+    ) !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    gap: 32px !important;
+
+    text-align: left !important;
+  }
+
+  /* Why NeuroLXP pill */
+  .frameParent40 .frameChild22 {
+    width: 229.59px !important;
+    min-width: 229.59px !important;
+    max-width: 229.59px !important;
+
+    height: 50px !important;
+    min-height: 50px !important;
+    max-height: 50px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      inset -4px -4px 8px #ffffff,
+      inset 4px 4px 8px rgba(196, 196, 196, 0.8) !important;
+
+    border-radius: 28px !important;
+
+    font-family: "Segoe UI", "Inter";
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    letter-spacing: 0.03em !important;
+
+    color: #2d4cc8 !important;
+
+    white-space: nowrap !important;
+
+    order: 0 !important;
+    align-self: flex-start !important;
+  }
+
+  /* Main left heading */
+  .frameParent40 .navigateMediaWithContainer {
+    width: 556px !important;
+    max-width: 556px !important;
+
+    margin: 0 !important;
+
+    font-family: "Segoe UI", "Inter";
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 60px !important;
+    letter-spacing: 0.03em !important;
+
+    color: #31344b !important;
+
+    text-align: left !important;
+  }
+
+  /* Keep the word Media blue if the TSX span is present. */
+  .frameParent40 .navigateMediaAccent {
+    color: #2d4cc8 !important;
+  }
+
+  /* Description */
+  .frameParent40 .questionHeadlinesVerify {
+    width: 580px !important;
+    max-width: 580px !important;
+
+    margin: 0 !important;
+
+    font-family: "Segoe UI", "Inter";
+    font-weight: 400 !important;
+    font-size: 28px !important;
+    line-height: 40px !important;
+    letter-spacing: 0.03em !important;
+
+    color: #2f3547 !important;
+
+    text-align: left !important;
+  }
+
+  /* =======================================================
+     RIGHT COLUMN — 607 x 444
+     ======================================================= */
+  .frameParent40 .frameParent43 {
+    position: relative !important;
+
+    width: 607px !important;
+    min-width: 607px !important;
+    max-width: 607px !important;
+
+    height: 444px !important;
+    min-height: 444px !important;
+    max-height: 444px !important;
+
+    margin: 0 !important;
+
+    display: block !important;
+
+    flex: 0 0 607px !important;
+  }
+
+  /* Top card */
+  .frameParent40 .frameParent44 {
+    position: absolute !important;
+
+    width: 607px !important;
+    height: 192px !important;
+
+    left: 0 !important;
+    top: 0 !important;
+
+    margin: 0 !important;
+
+    padding: 9px 32px 16px !important;
+
+    background: #dfe6e9 !important;
+
+    border: 1.5px solid #ffffff !important;
+
+    box-shadow:
+      -10px -10px 20px #ffffff,
+      10px 10px 20px #c4c4c4 !important;
+
+    border-radius: 100px 100px 0 100px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: visible !important;
+  }
+
+  /* Bottom card */
+  .frameParent40 .frameParent45 {
+    position: absolute !important;
+
+    width: 607px !important;
+    height: 192px !important;
+
+    right: 0 !important;
+    top: 252px !important;
+
+    margin: 0 !important;
+
+    padding: 32px 9px 16px 32px !important;
+
+    background: #dfe6e9 !important;
+
+    border: 1.5px solid #ffffff !important;
+
+    box-shadow:
+      -10px -10px 20px #ffffff,
+      10px 10px 20px #c4c4c4 !important;
+
+    border-radius: 100px 0 100px 100px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: visible !important;
+  }
+
+  /* Text blocks inside right cards */
+  .frameParent40 .misinformationDefenseParent,
+  .frameParent40 .certifiedDigitalCitizenParent {
+    position: absolute !important;
+
+    width: 363px !important;
+    height: 129px !important;
+
+    top: 33px !important;
+    left: 196px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 20px !important;
+  }
+
+  .frameParent40 .frameParent45 .certifiedDigitalCitizenParent {
+    top: 32px !important;
+    left: 196px !important;
+  }
+
+  .frameParent40 .misinformationDefense {
+    width: 363px !important;
+
+    margin: 0 !important;
+
+    font-family: "Segoe UI", "Inter";
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    line-height: 44px !important;
+    letter-spacing: 0.03em !important;
+
+    color: #bf1869 !important;
+  }
+
+  .frameParent40 .certifiedDigitalCitizenParent .misinformationDefense {
+    color: #67096e !important;
+  }
+
+  .frameParent40 .detectResistAndContainer,
+  .frameParent40 .detectResistAnd {
+    width: 363px !important;
+
+    margin: 0 !important;
+
+    font-family: "Segoe UI", "Inter";
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    letter-spacing: 0.03em !important;
+
+    color: #2f3547 !important;
+
+    white-space: normal !important;
+  }
+
+  /* =======================================================
+     ICON / DOTTED CIRCLES — 124 x 124
+     ======================================================= */
+  .frameParent40 .frameChild23,
+  .frameParent40 .frameChild25 {
+    position: absolute !important;
+
+    width: 124px !important;
+    height: 124px !important;
+
+    left: 32px !important;
+    top: 33px !important;
+
+    transform: none !important;
+
+    margin: 0 !important;
+
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    z-index: 2 !important;
+  }
+
+  .frameParent40 .frameParent45 .frameChild25 {
+    left: 32px !important;
+    top: 32px !important;
+  }
+
+  /* Draw ONLY the dotted circle — no extra solid circle. */
+  .frameParent40 .frameChild23::after,
+  .frameParent40 .frameChild25::after {
+    content: "" !important;
+
+    position: absolute !important;
+    inset: 0 !important;
+
+    border-radius: 50% !important;
+
+    border: 2.5px dashed var(--feature-ring-color) !important;
+
+    background: transparent !important;
+    box-shadow: none !important;
+
+    -webkit-mask: none !important;
+    mask: none !important;
+
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+
+    pointer-events: none !important;
+
+    z-index: 1 !important;
+  }
+
+  .frameParent40 .featureEllipse {
+    display: none !important;
+  }
+
+  .frameParent40 .frameChild23 .featureIcon {
+    width: 79px !important;
+    height: 79px !important;
+  }
+
+  .frameParent40 .frameChild25 .featureIcon {
+    width: 85px !important;
+    height: 85px !important;
+  }
+
+  .frameParent40 .featureIcon {
+    position: relative !important;
+    object-fit: contain !important;
+    z-index: 2 !important;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE DESKTOP SCALING
+   Same geometry, proportionally reduced before tablet mode.
+   ========================================================= */
+@media (min-width: 1025px) and (max-width: 1435px) {
+  .frameParent40 {
+    transform: scale(calc((100vw - 48px) / 1388));
+    transform-origin: top center;
+    margin-bottom: calc((467px * (1 - ((100vw - 48px) / 1388))) * -1) !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL WHY NEUROLXP TEXT ALIGNMENT
+   Desktop only.
+   Align text fully inside the left panel and both right cards.
+   No card size, icon, dotted circle, color, or other section changes.
+   ========================================================= */
+@media (min-width: 1025px) {
+  /* ---------- LEFT PANEL: keep all copy safely inside ---------- */
+  .frameParent40 .frameParent41 {
+    position: absolute !important;
+    inset: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    transform: none !important;
+  }
+
+  .frameParent40 .frameWrapper19 {
+    position: static !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    transform: none !important;
+  }
+
+  .frameParent40 .frameParent42 {
+    position: absolute !important;
+
+    left: 112px !important;
+    top: 88px !important;
+
+    width: 580px !important;
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    transform: none !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 22px !important;
+
+    text-align: left !important;
+  }
+
+  .frameParent40 .frameChild22 {
+    margin: 0 !important;
+    flex: 0 0 auto !important;
+  }
+
+  .frameParent40 .navigateMediaWithConfidenceWrapper {
+    width: 556px !important;
+    margin: 0 !important;
+  }
+
+  .frameParent40 .navigateMediaWithContainer {
+    width: 556px !important;
+    max-width: 556px !important;
+
+    margin: 0 !important;
+  }
+
+  .frameParent40 .questionHeadlinesVerify {
+    width: 580px !important;
+    max-width: 580px !important;
+
+    margin: 0 !important;
+  }
+
+  /* ---------- RIGHT CARDS: keep titles/descriptions inside ---------- */
+  .frameParent40 .misinformationDefenseParent,
+  .frameParent40 .certifiedDigitalCitizenParent {
+    width: 363px !important;
+    height: auto !important;
+
+    top: 29px !important;
+    left: 196px !important;
+
+    gap: 8px !important;
+  }
+
+  .frameParent40 .frameParent45 .certifiedDigitalCitizenParent {
+    top: 29px !important;
+    left: 196px !important;
+  }
+
+  .frameParent40 .misinformationDefense {
+    width: 363px !important;
+
+    margin: 0 !important;
+
+    font-size: 27px !important;
+    line-height: 36px !important;
+
+    white-space: nowrap !important;
+  }
+
+  .frameParent40 .detectResistAndContainer,
+  .frameParent40 .detectResistAnd {
+    width: 363px !important;
+
+    margin: 0 !important;
+
+    font-size: 20px !important;
+    line-height: 28px !important;
+
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL WHY NEUROLXP MOBILE FIX
+   Fix icon-circle / card overlap in mobile view only.
+   Keep desktop design unchanged.
+   ========================================================= */
+@media (max-width: 767px) {
+  .frameParent40 {
+    width: calc(100% - 24px) !important;
+    max-width: 100% !important;
+    margin: 32px auto 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 18px !important;
+
+    height: auto !important;
+    transform: none !important;
+  }
+
+  .frameParent40 .rectangleGroup {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    border-radius: 28px 120px 120px 28px !important;
+    overflow: hidden !important;
+  }
+
+  .frameParent40 .frameParent41,
+  .frameParent40 .frameWrapper19 {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 0 !important;
+  }
+
+  .frameParent40 .frameParent42 {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    transform: none !important;
+
+    padding: 28px 22px 30px !important;
+    margin: 0 !important;
+
+    gap: 18px !important;
+  }
+
+  .frameParent40 .frameChild22 {
+    width: fit-content !important;
+    min-width: 150px !important;
+    max-width: 100% !important;
+    height: 38px !important;
+    padding: 0 16px !important;
+
+    font-size: 16px !important;
+    line-height: 1 !important;
+  }
+
+  .frameParent40 .navigateMediaWithConfidenceWrapper,
+  .frameParent40 .navigateMediaWithContainer,
+  .frameParent40 .questionHeadlinesVerify {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    text-align: left !important;
+  }
+
+  .frameParent40 .navigateMediaWithContainer {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .frameParent40 .questionHeadlinesVerify {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .frameParent40 .frameParent43 {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+  }
+
+  .frameParent40 .frameParent44,
+  .frameParent40 .frameParent45 {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 122px !important;
+    max-height: none !important;
+
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+
+    padding: 18px 18px 18px 116px !important;
+    margin: 0 !important;
+
+    border-radius: 72px 24px 24px 72px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent40 .frameChild23,
+  .frameParent40 .frameChild25 {
+    position: absolute !important;
+    left: 16px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+
+    width: 84px !important;
+    height: 84px !important;
+    margin: 0 !important;
+
+    z-index: 2 !important;
+  }
+
+  .frameParent40 .frameChild23::after,
+  .frameParent40 .frameChild25::after {
+    inset: 0 !important;
+    border-width: 2px !important;
+  }
+
+  .frameParent40 .frameChild23 .featureIcon,
+  .frameParent40 .frameChild25 .featureIcon {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .frameParent40 .misinformationDefenseParent,
+  .frameParent40 .certifiedDigitalCitizenParent {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 6px !important;
+  }
+
+  .frameParent40 .misinformationDefense {
+    width: 100% !important;
+    margin: 0 !important;
+
+    font-size: 20px !important;
+    line-height: 26px !important;
+    white-space: normal !important;
+  }
+
+  .frameParent40 .detectResistAndContainer,
+  .frameParent40 .detectResistAnd {
+    width: 100% !important;
+    margin: 0 !important;
+
+    font-size: 14px !important;
+    line-height: 20px !important;
+
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+  }
+}
+
+/* =========================================================
+   FINAL DESKTOP RIGHT-CARD ALIGNMENT
+   - Keep both dotted icon circles fully inside their cards.
+   - Maintain 48px between the two cards and above the section.
+   ========================================================= */
+@media (min-width: 1025px) {
+  .frameParent40 {
+    margin-top: 48px !important;
+  }
+
+  .frameParent40 .frameParent43 {
+    height: 432px !important;
+    min-height: 432px !important;
+    max-height: 432px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 48px !important;
+    transform: translateY(24px) !important;
+  }
+
+  .frameParent40 .frameParent44,
+  .frameParent40 .frameParent45 {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    flex: 0 0 192px !important;
+    overflow: hidden !important;
+  }
+
+  .frameParent40 .frameChild23,
+  .frameParent40 .frameChild25,
+  .frameParent40 .frameParent45 .frameChild25 {
+    top: 50% !important;
+    left: 16px !important;
+    transform: translateY(-50%) !important;
+  }
+}
+
+/* =========================================================
+   FINAL PAGE SPACING SYSTEM
+   Keep an exact 48px gap between every major page section.
+   Also regularize the first/hero section's internal spacing.
+   ========================================================= */
+.mediaLiteracy {
+  gap: 0 !important;
+}
+
+.mediaLiteracy > .heroSection,
+.mediaLiteracy > .frameParent20,
+.mediaLiteracy > .mediaLiteracyInner,
+.mediaLiteracy > .frameParent30,
+.mediaLiteracy > .rectangleParent,
+.mediaLiteracy > .frameParent40 {
+  margin-top: 48px !important;
+}
+
+/* Prevent hidden bottom margin from enlarging the next section gap. */
+.frameParent30 .frameParent33 {
+  margin-bottom: 0 !important;
+}
+
+/* First section: consistent badge, heading, description and stats rhythm. */
+.heroContent {
+  gap: 32px !important;
+}
+
+.heroCopy {
+  gap: 0 !important;
+}
+
+.heroTitle {
+  margin-top: 24px !important;
+}
+
+.heroDescription {
+  margin-top: 24px !important;
+}
+
+.heroStats {
+  margin-top: 32px !important;
+}
+
+/* Stable two-column desktop hero without flex wrapping or uneven gaps. */
+@media (min-width: 1025px) {
+  .heroContent {
+    display: grid !important;
+    grid-template-columns: minmax(0, 653px) minmax(280px, 430px) !important;
+    column-gap: 48px !important;
+    row-gap: 32px !important;
+    align-items: start !important;
+    justify-content: center !important;
+  }
+
+  .heroCopy {
+    width: 100% !important;
+    max-width: 653px !important;
+    transform: none !important;
+  }
+
+  .heroImages {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 430px !important;
+    margin: 0 !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE RING AND FONT NORMALIZATION
+   ========================================================= */
+.mediaLiteracy,
+.mediaLiteracy * {
+  font-family: "Segoe UI", "Inter";
+}
+
+@media (max-width: 767px) {
+  .frameParent40 .frameChild23::after,
+  .frameParent40 .frameChild25::after {
+    content: "" !important;
+    position: absolute !important;
+    inset: 0 !important;
+    border: 2px dashed var(--feature-ring-color) !important;
+    border-radius: 50% !important;
+    background: none !important;
+    box-shadow: none !important;
+    -webkit-mask: none !important;
+    mask: none !important;
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+  }
+}
+
+/* =========================================================
+   FINAL MEDIA LITERACY MOBILE TEXT AND SPACING FIXES
+   1) Reduce breadcrumb-to-hero-pill spacing.
+   2) Keep all hero statistic labels on one line.
+   3) Centre the Responsible Content Creation copy and pill.
+   ========================================================= */
+@media (max-width: 767px) {
+  .mediaLiteracy > .heroSection {
+    margin-top: 20px !important;
+  }
+
+  .heroStatCard > span {
+    width: max-content !important;
+    max-width: calc(100% - 12px) !important;
+    bottom: 26px !important;
+    font-size: clamp(12px, 3.8vw, 14px) !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-align: center !important;
+  }
+
+  .rectangleParent .frameParent38 {
+    align-items: center !important;
+    text-align: center !important;
+    padding: 24px 12px 28px !important;
+  }
+
+  .rectangleParent .frameParent15 {
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .rectangleParent .frameChild21 {
+    width: max-content !important;
+    max-width: 100% !important;
+    height: 42px !important;
+    min-height: 42px !important;
+    padding: 0 10px !important;
+    font-size: clamp(12px, 4.4vw, 14px) !important;
+    line-height: 1 !important;
+    letter-spacing: 0.01em !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-align: center !important;
+    flex-shrink: 0 !important;
+  }
+
+  .rectangleParent .createResponsiblyInspireContainer,
+  .rectangleParent .createEthicalCredible {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL TYPOGRAPHY — SEGOE UI ONLY / NO ITALICS
+   Preserve all existing layout and design rules.
+   ========================================================================== */
+.mediaLiteracy,
+.mediaLiteracy *,
+.mediaLiteracy *::before,
+.mediaLiteracy *::after {
+  font-family: "Segoe UI", "Inter";
+  font-style: normal !important;
+}
+
+/* ==========================================================================
+   FINAL FONT MATCH — ONLY SEGOE UI
+   No other font family. No italic font style.
+   ========================================================================== */
+.mediaLiteracy,
+.mediaLiteracy *,
+.mediaLiteracy *::before,
+.mediaLiteracy *::after {
+  font-family: "Segoe UI", "Inter";
+  font-style: normal !important;
+}
+
+/* ==========================================================================
+   FINAL DESKTOP SECTION TYPOGRAPHY — HERO EXCLUDED
+   All non-hero section headings: 36px
+   All non-hero section subheadings: 24px
+   ========================================================================== */
+@media screen and (min-width: 1025px) {
+  .mediaLiteracy .understandTheSystems,
+  .mediaLiteracy .spotBiasVerify,
+  .mediaLiteracy .questionUnderstandEvaluate,
+  .mediaLiteracy .createResponsiblyInspireContainer,
+  .mediaLiteracy .navigateMediaWithContainer,
+  .mediaLiteracy .howInteractiveLearning {
+    font-family: "Segoe UI", "Inter";
+    font-style: normal !important;
+    font-size: 36px !important;
+    line-height: 1.25 !important;
+  }
+
+  .mediaLiteracy .buildEssentialMedia,
+  .mediaLiteracy .questionHeadlinesVerify,
+  .mediaLiteracy .strengthenYourAbility,
+  .mediaLiteracy .createEthicalCredible,
+  .mediaLiteracy .interactiveLearningDrives {
+    font-family: "Segoe UI", "Inter";
+    font-style: normal !important;
+    font-size: 24px !important;
+    line-height: 1.5 !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL DESKTOP — RESPONSIBLE CONTENT LEFT TEXT SPACING ONLY
+   Reduce only the vertical gap between badge, heading and subheading.
+   ========================================================================== */
+@media screen and (min-width: 1025px) {
+  .mediaLiteracy .rectangleParent .frameParent38 {
+    gap: 18px !important;
+  }
+}
+
+
+
+/* Shared page typography, selectable text and flat lettering. */
+.mediaLiteracy {
+  --ml-heading-size: 36px;
+  --ml-heading-line: 44px;
+  --ml-copy-size: 24px;
+  --ml-copy-line: 36px;
+  --ml-button-size: 24px;
+  --ml-badge-size: 24px;
+}
+
+.mediaLiteracy,
+.mediaLiteracy * {
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  text-shadow: none !important;
+}
+
+.mediaLiteracy *::before,
+.mediaLiteracy *::after {
+  text-shadow: none !important;
+}
+
+.mediaLiteracy,
+.mediaLiteracy *,
+html:has(.mediaLiteracy),
+body:has(.mediaLiteracy),
+body:has(.mediaLiteracy) * {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  user-select: text !important;
+  -webkit-touch-callout: default !important;
+}
+
+.mediaLiteracy :is(svg text, svg tspan) {
+  pointer-events: auto !important;
+  filter: none !important;
+}
+
+.mediaLiteracy :is(
+  .heroTitle, .understandTheSystems, .spotBiasVerify,
+  .questionUnderstandEvaluate, .createResponsiblyInspireContainer,
+  .navigateMediaWithContainer, .howInteractiveLearning
+) {
+  font-size: var(--ml-heading-size) !important;
+  line-height: var(--ml-heading-line) !important;
+  font-weight: 700 !important;
+}
+
+.mediaLiteracy :is(
+  .heroDescription, .buildEssentialMedia, .questionHeadlinesVerify,
+  .strengthenYourAbility, .createEthicalCredible, .interactiveLearningDrives
+) {
+  font-size: var(--ml-copy-size) !important;
+  line-height: var(--ml-copy-line) !important;
+  font-weight: 400 !important;
+}
+
+/* Match the previous page's section badges without truncating long labels. */
+.mediaLiteracy :is(
+  .heroBadge, .frameChild11, .frameItem, .frameChild20,
+  .frameChild21, .frameChild22
+) {
+  box-sizing: border-box !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 50px !important;
+  max-height: none !important;
+  padding: 10px 24px !important;
+  background: #dfe6e9 !important;
+  color: #2d4cc8 !important;
+  font-size: var(--ml-badge-size) !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  white-space: normal !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  text-align: center !important;
+  overflow: visible !important;
+  box-shadow: inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+}
+
+/* Standard text buttons; retain separate sizing for image/SVG icon controls. */
+.mediaLiteracy :is(button, a[role="button"]):not(:has(svg, img)):not(.mediaLiteracyChild) {
+  box-sizing: border-box;
+  width: 210px;
+  max-width: 100%;
+  min-height: 60px;
+  height: auto;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  font-size: var(--ml-button-size);
+  font-weight: 600;
+  line-height: 1.35;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9;
+}
+
+.mediaLiteracy :is(button, a[role="button"]):not(:has(svg, img)):not(.mediaLiteracyChild) * {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.mediaLiteracy :is(button, a[role="button"]):not(:has(svg, img)):not(.mediaLiteracyChild):is(:hover, :active) {
+  box-shadow: inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+}
+
+/* One 48px gap between major sections; preserve the breadcrumb-to-hero gap. */
+.mediaLiteracy > :is(
+  .frameParent20, .mediaLiteracyInner, .frameParent30,
+  .rectangleParent, .frameParent40
+) {
+  margin-top: 48px !important;
+  margin-bottom: 0 !important;
+}
+
+.mediaLiteracy > .heroSection {
+  margin-bottom: 0 !important;
+}
+
+/* Hero statistics: normal-flow text cannot collide with the number circle. */
+.mediaLiteracy .heroStats {
+  align-items: stretch;
+  gap: 24px 20px;
+}
+
+.mediaLiteracy .heroStats > .heroStatCard {
+  box-sizing: border-box;
+  height: auto !important;
+  min-height: 170px;
+  min-width: 0;
+  padding: 0 0 20px;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.mediaLiteracy .heroStatCircle {
+  position: relative !important;
+  inset: auto !important;
+  transform: none !important;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+.mediaLiteracy .heroStatCircle strong {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.mediaLiteracy .heroStats > .heroStatCard > span {
+  position: static !important;
+  inset: auto !important;
+  transform: none !important;
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 10px;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 20px !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal;
+  text-wrap: balance;
+  text-align: center;
+}
+
+@media (min-width: 1025px) {
+  .mediaLiteracy .heroStats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .mediaLiteracy .heroStats > .heroStatCard {
+    width: 100%;
+    min-height: 196px;
+  }
+
+  .mediaLiteracy .heroStatCircle strong {
+    font-size: 38px;
+  }
+
+  .mediaLiteracy .heroStats > .heroStatCard > span {
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mediaLiteracy { --ml-button-size: 20px; }
+}
+
+@media (max-width: 767px) {
+  .mediaLiteracy {
+    --ml-heading-size: 24px;
+    --ml-heading-line: 32px;
+    --ml-copy-size: 16px;
+    --ml-copy-line: 24px;
+    --ml-button-size: 18px;
+    --ml-badge-size: 20px;
+  }
+
+  .mediaLiteracy :is(button, a[role="button"]):not(:has(svg, img)):not(.mediaLiteracyChild) {
+    min-height: 52px;
+  }
+}
+
+
+/* Platform Awareness: give the requested sentence room for two balanced lines. */
+.mediaLiteracy .platformAwarenessParent {
+  padding-inline: 12px;
+}
+
+.mediaLiteracy .platformAwarenessParent .understandMediaPlatforms {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 28ch;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 26px;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+  text-wrap: balance;
+}
+
+/* Let the available width determine wrapping instead of old manual breaks. */
+.mediaLiteracy .platformAwarenessParent .understandMediaPlatforms br {
+  display: none;
+}
+
+/* Consistent section boundaries, without stacked bottom/top margins. */
+.mediaLiteracy > :is(
+  .frameParent20, .mediaLiteracyInner, .frameParent30,
+  .rectangleParent, .frameParent40
+) {
+  margin-top: 48px !important;
+  margin-bottom: 0 !important;
+}
+
+/* Use container gaps once rather than adding heading/paragraph margins. */
+.mediaLiteracy :is(.frameParent21, .frameParent31) {
+  gap: 24px !important;
+}
+
+.mediaLiteracy :is(.frameParent15, .frameParent2, .frameParent32) {
+  gap: 16px !important;
+}
+
+.mediaLiteracy .frameParent31 {
+  margin-top: 0 !important;
+}
+
+.mediaLiteracy :is(
+  .understandTheSystems, .buildEssentialMedia, .spotBiasVerify,
+  .questionHeadlinesVerify, .questionUnderstandEvaluate, .strengthenYourAbility,
+  .createResponsiblyInspireContainer, .createEthicalCredible,
+  .navigateMediaWithContainer, .interactiveLearningDrives
+) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.mediaLiteracy .heroDescription {
+  margin-top: 16px !important;
+}
+
+/* The final section fits its container; remove fixed-width scaling/offsets. */
+.mediaLiteracy > .frameParent40 {
+  box-sizing: border-box;
+  width: min(1280px, calc(100% - 48px)) !important;
+  max-width: 1280px !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr) !important;
+  align-items: stretch !important;
+  gap: 32px !important;
+  transform: none !important;
+}
+
+.mediaLiteracy .frameParent40 :is(.rectangleGroup, .frameParent43) {
+  box-sizing: border-box;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  flex: initial !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+.mediaLiteracy .frameParent40 .rectangleGroup {
+  display: flex !important;
+  align-items: center !important;
+  padding: 32px clamp(24px, 3vw, 40px) !important;
+}
+
+.mediaLiteracy .frameParent40 :is(.frameParent41, .frameWrapper19, .frameParent42) {
+  position: static !important;
+  inset: auto !important;
+  box-sizing: border-box;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+}
+
+.mediaLiteracy .frameParent40 .frameParent42 {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+}
+
+.mediaLiteracy .frameParent40 :is(
+  .navigateMediaWithConfidenceWrapper, .navigateMediaWithContainer,
+  .questionHeadlinesVerify
+) {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  white-space: normal !important;
+}
+
+.mediaLiteracy .frameParent40 .frameParent43 {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+}
+
+.mediaLiteracy .frameParent40 :is(.frameParent44, .frameParent45) {
+  position: relative !important;
+  inset: auto !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 176px !important;
+  max-height: none !important;
+  flex: 1 0 auto !important;
+  margin: 0 !important;
+  padding: 24px 24px 24px 140px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.mediaLiteracy .frameParent40 :is(.misinformationDefenseParent, .certifiedDigitalCitizenParent) {
+  position: static !important;
+  inset: auto !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 8px !important;
+}
+
+.mediaLiteracy .frameParent40 :is(.misinformationDefense, .detectResistAndContainer, .detectResistAnd) {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+}
+
+.mediaLiteracy .frameParent40 :is(.frameChild23, .frameChild25),
+.mediaLiteracy .frameParent40 .frameParent45 .frameChild25 {
+  width: 96px !important;
+  height: 96px !important;
+  left: 20px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.mediaLiteracy .frameParent40 :is(.frameChild23, .frameChild25) .featureIcon {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+@media (max-width: 1024px) {
+  .mediaLiteracy > .frameParent40 {
+    width: calc(100% - 24px) !important;
+    max-width: 780px !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 24px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .mediaLiteracy .platformAwarenessParent .understandMediaPlatforms {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mediaLiteracy .frameParent40 .rectangleGroup {
+    padding: 24px !important;
+  }
+
+  .mediaLiteracy .frameParent40 .frameParent42 {
+    gap: 16px !important;
+  }
+
+  .mediaLiteracy .frameParent40 :is(.frameParent44, .frameParent45) {
+    min-height: 122px !important;
+    padding: 18px 18px 18px 96px !important;
+  }
+
+  .mediaLiteracy .frameParent40 :is(.frameChild23, .frameChild25),
+  .mediaLiteracy .frameParent40 .frameParent45 .frameChild25 {
+    width: 64px !important;
+    height: 64px !important;
+    left: 16px !important;
+  }
+
+  .mediaLiteracy .frameParent40 :is(.frameChild23, .frameChild25) .featureIcon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+
+/* Explicit title lines supplied by MediaLiteracy.tsx. */
+.mediaLiteracy .spotBiasVerify {
+  white-space: normal;
+  max-width: 100%;
+  overflow-wrap: normal;
+}
+.mediaLiteracy .spotBiasVerify .spotBiasLine {
+  display: block;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+/* One section gap; spacing comes from CSS, never blank text lines. */
+.mediaLiteracy {
+  row-gap: 0 !important;
+  padding-bottom: 48px !important;
+}
+.mediaLiteracy > :is(.frameParent20, .mediaLiteracyInner,
+  .frameParent30, .rectangleParent, .frameParent40) {
+  margin-top: 48px !important;
+  margin-bottom: 0 !important;
+}
+.mediaLiteracy > .frameParent30,
+.mediaLiteracy .frameParent30 .frameParent31,
+.mediaLiteracy .mediaLiteracyInner .frameParent {
+  gap: 24px !important;
+}
+.mediaLiteracy .frameParent30 .frameParent32,
+.mediaLiteracy .mediaLiteracyInner .frameParent2 {
+  gap: 16px !important;
+}
+.mediaLiteracy .mediaLiteracyInner .frameParent2 > .questionHeadlinesVerify {
+  margin-top: 8px !important;
+}
+.mediaLiteracy .frameParent30 :is(.frameParent31, .frameParent32,
+  .frameParent33, .frameChild20, .questionUnderstandEvaluate, .strengthenYourAbility),
+.mediaLiteracy .spotBiasVerify,
+.mediaLiteracy .spotBiasVerifyFactsBuildWrapper {
+  margin-block: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+.mediaLiteracy .frameParent30 :is(.questionUnderstandEvaluate, .strengthenYourAbility) {
+  padding-block: 0 !important;
+}
+
+/* Keep the section centred inside the page, including its outer frame. */
+.mediaLiteracy > .mediaLiteracyInner {
+  margin-inline: auto !important;
+  transform: none !important;
+}
+
+/* Mobile/tablet copy must fit its available width without shrinking fonts. */
+@media (max-width: 1024px) {
+  .mediaLiteracy .mediaLiteracyInner .image20Parent {
+    padding: 12px;
+  }
+  .mediaLiteracy .mediaLiteracyInner .image21Parent {
+    flex-direction: column;
+    padding: 24px 16px;
+    gap: 24px;
+  }
+  .mediaLiteracy .mediaLiteracyInner :is(.frameParent, .frameGroup,
+    .frameWrapper2, .frameParent2, .spotBiasVerifyFactsBuildWrapper) {
+    box-sizing: border-box;
+    min-width: 0;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .mediaLiteracy .spotBiasVerify .spotBiasLine:not(:first-child) {
+    white-space: normal;
+    text-wrap: balance;
+  }
+  .mediaLiteracy .mediaLiteracyInner .frameItem {
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
+    white-space: normal;
+    text-align: center;
+  }
+  .mediaLiteracy .mediaLiteracyInner .frameParent3 {
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+  .mediaLiteracy .mediaLiteracyInner :is(.frameParent4, .frameParent6) {
+    min-width: 0;
+    max-width: 100%;
+    justify-content: flex-start;
+  }
+  .mediaLiteracy .mediaLiteracyInner .recognizeCredibleSources {
+    width: auto;
+    min-width: 0;
+    white-space: normal;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Uniform compact spacing inside headings; section gaps stay at 48px. */
+  .mediaLiteracy .frameParent30 .frameParent31 {
+    gap: 16px !important;
+  }
+  .mediaLiteracy .mediaLiteracyInner .frameParent2 > .questionHeadlinesVerify {
+    margin-top: 0 !important;
+  }
+  .mediaLiteracy .frameParent30 :is(.questionUnderstandEvaluate, .strengthenYourAbility) {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    text-wrap: balance;
+  }
+  .mediaLiteracy .frameParent40 .rectangleGroup {
+    justify-content: center !important;
+  }
+  .mediaLiteracy .frameParent40 :is(.frameParent41, .frameWrapper19, .frameParent42) {
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .mediaLiteracy .frameParent40 .frameChild22 {
+    box-sizing: border-box;
+    align-self: center !important;
+    margin-inline: auto !important;
+    max-width: 100%;
+  }
+  .mediaLiteracy .frameParent40 :is(.navigateMediaWithConfidenceWrapper,
+    .navigateMediaWithContainer, .questionHeadlinesVerify) {
+    text-align: center !important;
+    text-wrap: balance;
+  }
+}
+
+/* Match the other checklist labels with two lines on mobile. */
+@media (max-width: 767px) {
+  .mediaLiteracy .mediaLiteracyInner .checklistSecondLine {
+    display: block;
+  }
+}
+
+
+/* Spot Misinformation: equal outer margins on every screen. */
+.mediaLiteracy .mediaLiteracyInner {
+  position: relative;
+  inset: auto;
+  box-sizing: border-box;
+  min-width: 0;
+  align-self: center;
+  margin-inline: auto !important;
+  transform: none !important;
+  translate: none;
+}
+.mediaLiteracy .mediaLiteracyInner :is(
+  .frameWrapper, .image20Parent, .frameContainer, .image21Parent
+) {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin-inline: auto;
+}
+@media (min-width: 1025px) {
+  .mediaLiteracy .mediaLiteracyInner {
+    width: min(1280px, calc(100% - 48px));
+    max-width: 1280px;
+  }
+  /* Center both columns as one group; stack when their readable widths
+     cannot fit, instead of clipping or shifting the whole section. */
+  .mediaLiteracy .mediaLiteracyInner .image21Parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    min-height: 0;
+    padding: 24px 0;
+  }
+  .mediaLiteracy .mediaLiteracyInner .frameDiv {
+    flex: 1 1 460px;
+    width: 100%;
+    max-width: 575px;
+    min-width: 0;
+    height: auto;
+    aspect-ratio: 575 / 672;
+    margin: 0;
+  }
+  .mediaLiteracy .mediaLiteracyInner .frameParent {
+    flex: 1 1 460px;
+    width: 100%;
+    max-width: 556px;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+
+/* =========================================================
+   MEDIA LITERACY — SECTION EXPERT BUTTON
+   Matches the Information Literacy section-button placement.
+   The shared launcher is attached to the Critical Thinking
+   section instead of being fixed to the viewport.
+   ========================================================= */
+
+.frameParent30 {
+  position: relative;
+}
+
+.sectionExpertSlot {
+  --expert-button-size: 64px;
+  position: absolute;
+  top: -6px;
+  right: 16px;
+  width: var(--expert-button-size);
+  height: var(--expert-button-size);
+  z-index: 12;
+  pointer-events: none;
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  position: absolute !important;
+  inset: 0 !important;
+  margin: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  pointer-events: auto;
+}
+
+@media (max-width: 1024px) {
+  .sectionExpertSlot {
+    top: -16px;
+    right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionExpertSlot {
+    --expert-button-size: 48px;
+    top: -8px;
+    right: 8px;
+  }
+}
+
+/* Same professional pulse and hover behaviour as the reference page. */
+.sectionExpertSlot::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: 0;
+  border: 2px solid rgba(45, 76, 200, 0.38);
+  border-radius: 50%;
+  box-sizing: border-box;
+  pointer-events: none;
+  opacity: 0;
+  animation: mediaExpertPulse 3s ease-out infinite;
+}
+
+@keyframes mediaExpertPulse {
+  0%, 15% {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.55;
+  }
+
+  75%, 100% {
+    transform: scale(1.32);
+    opacity: 0;
+  }
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  transition: box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover,
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible {
+  box-shadow:
+    -5px -5px 10px #ffffff,
+    5px 5px 10px #c6c6c9,
+    0 0 0 3px rgba(45, 76, 200, 0.14);
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+  transform-origin: center;
+  animation: mediaExpertWave 600ms ease-in-out;
+}
+
+@keyframes mediaExpertWave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-12deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):active {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c6c6c9;
+}
+
+.sectionExpertSlot:has(> :global(button[aria-expanded="true"]))::after {
+  animation: none;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sectionExpertSlot::after,
+  .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+  .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+    animation: none;
+  }
+
+  .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+    transition: none;
+  }
+}
+
+/* Mobile only: reduce vertical empty space inside the feature cards. */
+@media (max-width: 640px) {
+  .featureCard {
+    min-height: 175px;
+  }
+
+  .platformAwarenessParent,
+  .culturalInfluenceParent,
+  .messageIntentParent,
+  .digitalEcosystemsParent {
+    height: 175px;
+    padding: 46px 20px 18px;
+    justify-content: center;
+  }
+}
+
+
+
+/* Keep "Verify Facts with Confidence" on one line at every screen size. */
+.mediaLiteracy .mediaLiteracyInner .recognizeCredibleSources {
+  width: max-content;
+  min-width: max-content;
+  max-width: none;
+  white-space: nowrap !important;
+}
+
+.neuroTrademark {
+  position: relative;
+  top: -6px;
+  margin-left: 2px;
+  font-size: 10.8px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+/* Mobile responsive alignment: Spot Misinformation section only */
+@media (max-width: 640px) {
+  .mediaLiteracyInner {
+    width: calc(100% - 20px);
+  }
+
+  .image20Parent {
+    padding: 10px;
+  }
+
+  .image21Parent {
+    width: 100%;
+    padding: 20px 14px 22px;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+
+  .frameParent {
+    width: 100%;
+    gap: 22px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .frameGroup,
+  .frameWrapper2,
+  .frameParent2,
+  .spotBiasVerifyFactsBuildWrapper {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .frameParent2 {
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+  }
+
+  .frameItem {
+    min-width: 0;
+    width: fit-content;
+    max-width: calc(100% - 20px);
+    height: 42px;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-size: clamp(15px, 4.6vw, 18px);
+  }
+
+  .spotBiasVerify {
+    width: 100%;
+    font-size: clamp(18px, 5.5vw, 22px);
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .spotBiasLine {
+    display: block;
+    width: 100%;
+  }
+
+  .questionHeadlinesVerify {
+    width: min(100%, 290px);
+    margin: 0 auto;
+    font-size: clamp(14px, 4vw, 16px);
+    line-height: 1.35;
+    text-align: center;
+  }
+
+  .frameParent3 {
+    width: 100%;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .frameParent4,
+  .frameParent6 {
+    width: 100%;
+    min-width: 0;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+
+  .frameInner {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    flex: 0 0 32px;
+  }
+
+  .tickIcon {
+    width: 19px;
+    height: 19px;
+  }
+
+  .recognizeCredibleSources {
+    width: auto;
+    min-width: 0;
+    max-width: calc(100% - 44px);
+    font-size: clamp(13px, 4vw, 16px);
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+
+  .sectionExpertSlot {
+    width: var(--expert-button-size);
+    height: var(--expert-button-size);
+    display: block;
+    margin: 0;
+  }
+}
+
+/* Extra-small phones */
+@media (max-width: 360px) {
+  .image21Parent {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .frameParent4,
+  .frameParent6 {
+    gap: 9px;
+    padding: 0 4px;
+  }
+
+  .frameInner {
+    width: 29px;
+    height: 29px;
+    min-width: 29px;
+    flex-basis: 29px;
+  }
+
+  .tickIcon {
+    width: 17px;
+    height: 17px;
+  }
+
+  .recognizeCredibleSources {
+    max-width: calc(100% - 38px);
+    font-size: 13px;
+  }
+}
+
+
+
+/* Mobile only: keep the expert button in the empty space beside the label. */
+@media (max-width: 640px) {
+  .frameParent30 {
+    position: relative;
+  }
+
+  .frameParent30 .sectionExpertSlot {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: var(--expert-button-size);
+    height: var(--expert-button-size);
+    margin: 0;
+    display: block;
+    z-index: 3;
+  }
+
+  .frameParent30 .frameChild20 {
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* Mobile only: align Spot Misinformation content and keep the expert button clear of the label. */
+@media (max-width: 640px) {
+  .mediaLiteracyInner {
+    width: calc(100% - 20px);
+  }
+
+  .image20Parent {
+    padding: 10px;
+  }
+
+  .image21Parent {
+    width: 100%;
+    padding: 18px 12px 22px;
+    gap: 18px;
+    box-sizing: border-box;
+  }
+
+  .frameParent {
+    width: 100%;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .frameParent2 {
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .spotBiasVerify {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  .questionHeadlinesVerify {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .frameParent3 {
+    width: 100%;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .frameParent4,
+  .frameParent6 {
+    width: 100%;
+    min-width: 0;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0 6px;
+    box-sizing: border-box;
+  }
+
+  .frameInner {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    flex: 0 0 30px;
+  }
+
+  .tickIcon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .recognizeCredibleSources {
+    width: auto;
+    min-width: 0;
+    max-width: calc(100% - 40px);
+    font-size: clamp(12px, 3.7vw, 15px);
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+
+  .frameParent30 {
+    position: relative;
+    width: calc(100% - 24px);
+  }
+
+  .frameParent31 {
+    position: relative;
+    width: 100%;
+    padding-top: 8px;
+    box-sizing: border-box;
+  }
+
+  .frameParent30 .sectionExpertSlot {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: var(--expert-button-size);
+    height: var(--expert-button-size);
+    margin: 0;
+    display: block;
+    z-index: 3;
+  }
+
+  .frameParent30 .frameChild20 {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+  }
+
+  .questionUnderstandEvaluate {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .frameParent4,
+  .frameParent6 {
+    gap: 8px;
+    padding: 0 3px;
+  }
+
+  .recognizeCredibleSources {
+    font-size: 12px;
+  }
+
+  .frameParent30 .sectionExpertSlot {
+    left: 2px;
+  }
+}
+.mobileFirstLine,
+.mobileSecondLine {
+  display: inline;
+}
+
+@media (max-width: 640px) {
+  .mobileFirstLine,
+  .mobileSecondLine {
+    display: block;
+  }
+}
+
+/* Mobile only: remove excess empty vertical space from How Media Works cards. */
+@media (max-width: 640px) {
+  .frameParent23 {
+    gap: 18px;
+  }
+
+  .featureCard {
+    width: 90%;
+    min-height: 155px;
+    height: 155px;
+  }
+
+  .platformAwarenessParent,
+  .culturalInfluenceParent,
+  .messageIntentParent,
+  .digitalEcosystemsParent {
+    height: 155px;
+    min-height: 155px;
+    padding: 42px 16px 12px;
+    justify-content: flex-start;
+    gap: 7px;
+  }
+
+  .platformAwareness,
+  .messageIntent {
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .understandMediaPlatforms,
+  .exploreMediasImpact,
+  .identifyPurposeAudience {
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .mobileFirstLine,
+  .mobileSecondLine {
+    display: block;
+  }
+}
+@media (min-width: 1025px) {
+  .frameWrapper2 .frameParent2 {
+    max-width: 556px;
+    gap: 0;
+    align-items: flex-start;
+  }
+
+  /* Space between label and heading */
+  .frameWrapper2 .frameItem {
+    margin-bottom: 65px;
+  }
+
+  /* Space between heading and description */
+  .frameWrapper2 .spotBiasVerifyFactsBuildWrapper {
+    margin-bottom: 65px;
+  }
+
+  .frameWrapper2 .questionHeadlinesVerify {
+    margin: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .frameParent3 .recognizeCredibleSources {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    white-space: normal;
+  }
+}

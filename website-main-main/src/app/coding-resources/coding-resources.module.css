@@ -1,0 +1,6407 @@
+.page {
+  min-height: 100vh;
+  background: #dfe6e9;
+  color: #2f3547;
+  font-family: "Segoe UI", "Inter", sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  box-shadow:
+    -8px -8px 16px #fff,
+    8px 8px 16px #c6c6c9;
+  position: relative;
+  z-index: 2;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  line-height: 0.9;
+  min-width: 120px;
+}
+
+.brand span {
+  color: #38e4ef;
+  font-size: 28px;
+}
+
+.brand b {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.brand small {
+  color: #2d4cc8;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  flex: 1;
+  font-size: 14px;
+}
+
+.navLinks span {
+  white-space: nowrap;
+}
+
+.navLinks small {
+  margin-left: 6px;
+}
+
+.navbar button {
+  border: 0;
+  border-radius: 28px;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  padding: 12px 22px;
+  box-shadow:
+    -8px -8px 16px #fff,
+    8px 8px 16px #c6c6c9;
+}
+
+.shell {
+  width: min(1280px, calc(100% - 80px));
+  margin: auto;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 88px;
+  font-size: 15px;
+}
+
+.breadcrumb b {
+  color: #243fa8;
+}
+
+.heroFrame,
+.growthFrame {
+  padding: 32px;
+  border-radius: 32px;
+  background: #dfe6e9;
+  box-shadow:
+    -8px -8px 16px #fff inset,
+    8px 8px 16px rgba(196, 196, 196, 0.8) inset;
+}
+
+.hero {
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #dfe6e9;
+  box-shadow:
+    10px 10px 20px #c4c4c4,
+    -10px -10px 20px rgba(255, 255, 255, 0.65);
+}
+
+.heroShape {
+  display: none;
+  position: absolute;
+  width: 734px;
+  height: 760px;
+  left: -145px;
+  top: -105px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.heroCopy {
+  position: absolute;
+  z-index: 2;
+  left: 36px;
+  top: 88px;
+  width: 560px;
+  color: #2f3547;
+}
+
+.pill {
+  display: inline-block;
+  color: #2d4cc8;
+  background: #eef2f4;
+  border-radius: 28px;
+  padding: 10px 26px;
+
+  box-shadow:
+    inset -4px -4px 8px #FFFFFF,
+    inset 4px 4px 8px #C4C4C4;
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.heroCopy h1 {
+  font-size: 45px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  margin: 32px 0 22px;
+}
+
+.heroCopy p {
+  font-size: 24px;
+  line-height: 1.45;
+  max-width: 500px;
+}
+
+.heroImage {
+  position: absolute;
+  right: -167px;
+  bottom: -27px;
+  width: 940px;
+  height: 660px;
+  object-fit: contain;
+  transform: scaleX(-1);
+  transform-origin: center center;
+}
+
+.learning {
+  text-align: center;
+  padding: 80px 0 55px;
+}
+
+.learning h2,
+.practice h2,
+.growth h2 {
+  font-size: 42px;
+  line-height: 1.25;
+  margin: 0 0 22px;
+}
+
+.learning > p,
+.practiceIntro p {
+  font-size: 21px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.learningCards {
+  width: 100%;
+  max-width: 1280px;
+  height: 132px;
+  margin: 45px auto 0;
+  display: grid;
+  grid-template-columns: repeat(5, 248px);
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.learningCard {
+  --arrow-border: #2d4cc8;
+  position: relative;
+  width: 248px;
+  height: 132px;
+  flex: 0 0 248px;
+  isolation: isolate;
+}
+
+.learningCardOuter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  width: 248px;
+  height: 128px;
+  object-fit: fill;
+  pointer-events: none;
+  user-select: none;
+}
+
+.learningCardInner {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 2;
+  width: 219px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  filter:
+    drop-shadow(-4px -4px 8px #ffffff)
+    drop-shadow(4px 4px 8px #c4c4c4);
+}
+
+.learningCardInner::before,
+.learningCardInner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  clip-path: polygon(
+    0 0,
+    82% 0,
+    100% 50%,
+    82% 100%,
+    0 100%,
+    11% 50%
+  );
+}
+
+.learningCardInner::before {
+  z-index: -2;
+  background: var(--arrow-border);
+}
+
+.learningCardInner::after {
+  inset: 1px;
+  z-index: -1;
+  background: #dfe6e9;
+}
+
+.learningCardText {
+  position: relative;
+  z-index: 3;
+  width: 150px;
+  margin-left: -10px;
+  color: #31344b;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+
+.learningCard:nth-child(1) {
+  --arrow-border: #2d4cc8;
+}
+
+.learningCard:nth-child(2) {
+  --arrow-border: #0b9ba0;
+}
+
+.learningCard:nth-child(3) {
+  --arrow-border: #bf1869;
+}
+
+.learningCard:nth-child(4) {
+  --arrow-border: #67096e;
+}
+
+.learningCard:nth-child(5) {
+  --arrow-border: #046f73;
+}
+
+.practiceIntro {
+  padding: 70px 35px;
+  text-align: center;
+  border-radius: 8px 100px 8px 100px;
+  box-shadow:
+    -8px -8px 16px #fff inset,
+    8px 8px 16px rgba(196, 196, 196, 0.8) inset;
+}
+
+.practiceIntro h2 {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.supportGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px 115px;
+  padding: 58px 110px;
+}
+
+.supportCard {
+  min-height: 105px;
+  padding: 28px 30px;
+  display: flex;
+  align-items: center;
+  background: #dfe6e9;
+  border-radius: 28px 28px 0 28px;
+  box-shadow:
+    -10px -10px 20px #fff,
+    10px 10px 20px #c4c4c4;
+  border-top: 5px solid #2d4cc8;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.accent2,
+.accent3 {
+  border-top-color: #bf1869;
+}
+
+.practiceOval {
+  position: relative;
+  margin: 20px auto 70px;
+  width: 92%;
+  padding: 35px;
+  text-align: center;
+  border: 2px solid #2d4cc8;
+  border-radius: 50%;
+  box-sizing: border-box;
+  font-size: 34px;
+  font-weight: 700;
+  isolation: isolate;
+}
+
+/* Outer teal oval: touches the blue oval only at the left and right edges */
+.practiceOval::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: -14px;
+  bottom: -14px;
+  border: 2px solid #0b9ba0;
+  border-radius: 50%;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Pillar cards */
+.pillars {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  justify-content: center;
+  align-items: start;
+  gap: 36px;
+}
+
+.pillar {
+  position: relative;
+  width: 400px;
+  height: 610px;
+  padding: 0 31px 48px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #DFE6E9;
+  border-radius: 20px;
+  box-shadow:
+    -4px -4px 8px #FFFFFF,
+    4px 4px 8px #C6C6C6;
+}
+
+.pillarHead {
+  position: relative;
+  width: calc(100% + 62px);
+  height: 271px;
+  min-height: 271px;
+  margin-left: -31px;
+  padding: 24px 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  background: #DFE6E9;
+  border-radius: 20px 20px 0 0;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 76.4%,
+    50% 100%,
+    0 76.4%
+  );
+  box-shadow:
+    inset -8px -8px 16px #FFFFFF,
+    inset 8px 8px 16px #C6C6C6;
+}
+
+/* Soft highlight inside the pointed header */
+.pillarHead::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px 20px 0 0;
+  clip-path: inherit;
+  pointer-events: none;
+  z-index: 0;
+
+  /* Inner neumorphic shadow */
+  box-shadow:
+    inset -8px -8px 16px rgba(255, 255, 255, 0.9),
+    inset 8px 8px 16px rgba(198, 198, 198, 0.8);
+}
+
+.pillarHead::after {
+  content: none;
+}
+
+.pillarHead b {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0.03em;
+  background: linear-gradient(180deg, #bf1869 0%, #590b31 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.pillarHead span {
+  position: relative;
+  z-index: 2;
+  color: #000000;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.pillar h3 {
+  width: calc(100% + 62px);
+  margin: 32px 0 31px -31px;
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.checkList {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.checkItem {
+  width: 100%;
+  height: 44px;
+  min-height: 44px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.checkIconCircle {
+  position: relative;
+  z-index: 1;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #DFE6E9;
+  border-radius: 50%;
+  box-shadow:
+    -8px -8px 16px #FFFFFF,
+    8px 8px 16px #C6C6C6;
+}
+
+.checkIcon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: none;
+}
+
+.checkText {
+  color: #31344b;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+}
+
+
+.growthFrame {
+  margin: 95px 0;
+}
+
+.growth {
+  height: 480px;
+  border-radius: 18px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  box-shadow:
+    10px 10px 20px #c4c4c4,
+    -10px -10px 20px rgba(255, 255, 255, 0.65);
+}
+
+.growthCopy {
+  padding: 64px 70px;
+}
+
+.growthCopy h2 {
+  margin-top: 38px;
+}
+
+.growthCopy p {
+  font-size: 22px;
+  line-height: 1.55;
+  max-width: 520px;
+}
+
+.videoVisual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 30% 25%, #8a96a2, #293442 65%, #131a22);
+  overflow: hidden;
+}
+
+.videoVisual::before,
+.videoVisual::after {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 330px;
+  border-radius: 50%;
+  background: rgba(223, 230, 233, 0.18);
+  transform: rotate(-15deg);
+}
+
+.videoVisual::before {
+  left: 40px;
+}
+
+.videoVisual::after {
+  right: 15px;
+}
+
+.videoVisual img {
+  z-index: 2;
+}
+
+.codeGlow {
+  position: absolute;
+  font-size: 130px;
+  color: rgba(255, 255, 255, 0.12);
+  font-family: "Segoe UI", "Inter", sans-serif;
+}
+
+.footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr);
+  gap: 38px;
+  padding: 58px 55px 95px;
+  background: #dfe6e9;
+  box-shadow:
+    -10px -10px 20px #fff inset,
+    8px 8px 16px #c4c4c4 inset;
+  font-size: 15px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  color: #2d4cc8;
+  margin: 0 0 20px;
+}
+
+.footer p {
+  line-height: 1.8;
+}
+
+.footerBrand strong {
+  display: block;
+  margin: 22px 0;
+}
+
+.socials {
+  grid-column: 3/5;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: -55px;
+}
+
+.socials img {
+  width: 56px;
+  height: auto;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #2d4cc8;
+}
+
+@media (max-width: 1050px) {
+  .navLinks {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .shell {
+    width: min(92%, 900px);
+  }
+
+  .heroImage {
+    right: -164px;
+  }
+
+  .heroCopy {
+    width: 50%;
+  }
+
+  .heroCopy h1 {
+    font-size: 36px;
+  }
+
+  .heroCopy p {
+    font-size: 19px;
+  }
+
+  .learningCards {
+    width: min(100%, 512px);
+    height: auto;
+    grid-template-columns: repeat(2, 248px);
+    justify-content: center;
+  }
+
+  .pillars {
+    grid-template-columns: repeat(2, 400px);
+  }
+
+  .supportGrid {
+    padding: 50px 20px;
+    gap: 30px;
+  }
+
+  .footer {
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
+
+  .footer > div:nth-child(4) {
+    display: none;
+  }
+
+  .socials {
+    grid-column: 2/4;
+  }
+}
+
+@media (max-width: 820px) {
+  .pillars {
+    width: min(100%, 400px);
+    grid-template-columns: 400px;
+    gap: 32px;
+  }
+
+  .pillar {
+    width: 400px;
+    height: 610px;
+    min-height: 610px;
+  }
+}
+
+@media (max-width: 700px) {
+  .heroCopy h1,
+  .heroCopy p {
+    color: #2f3547 !important;
+  }
+
+
+  .navbar {
+    height: 66px;
+    padding: 0 18px;
+  }
+
+  .shell {
+    width: 92%;
+  }
+
+  .breadcrumb {
+    height: 70px;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 14px;
+  }
+
+  .hero {
+    height: 640px;
+  }
+
+  .heroShape {
+    width: 700px;
+    height: 500px;
+    left: -220px;
+    top: -70px;
+  }
+
+  .heroCopy {
+    left: 24px;
+    top: 40px;
+    width: 86%;
+  }
+
+  .heroCopy h1 {
+    font-size: 30px;
+  }
+
+  .heroCopy p {
+    font-size: 17px;
+    max-width: 340px;
+  }
+
+  .heroImage {
+    width: 560px;
+    right: -145px;
+    bottom: -12px;
+  }
+
+  .learning {
+    padding-top: 55px;
+  }
+
+  .learning h2,
+  .practice h2,
+  .growth h2 {
+    font-size: 30px;
+  }
+
+  .learning > p,
+  .practiceIntro p {
+    font-size: 16px;
+  }
+
+  .learningCards {
+    width: 248px;
+    height: auto;
+    grid-template-columns: 248px;
+    justify-content: center;
+  }
+
+  .supportGrid {
+    grid-template-columns: 1fr;
+    padding: 40px 0;
+  }
+
+  .practiceOval {
+    font-size: 21px;
+    padding: 25px 15px;
+  }
+
+  .growth {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .growthCopy {
+    padding: 45px 30px;
+  }
+
+  .videoVisual {
+    min-height: 300px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    padding: 45px 25px 90px;
+  }
+
+  .footerBrand {
+    grid-column: 1/3;
+  }
+
+  .socials {
+    grid-column: 1/3;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .footer > div:nth-child(4) {
+    display: block;
+  }
+}
+
+@media (max-width: 520px) {
+  .pillars {
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .pillar {
+    width: 100%;
+    height: 550px;
+    min-height: 550px;
+    padding: 0 22px 38px;
+  }
+
+  .pillarHead {
+    width: calc(100% + 44px);
+    height: 232px;
+    min-height: 232px;
+    margin-left: -22px;
+    padding-top: 20px;
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 75%,
+      50% 100%,
+      0 75%
+    );
+  }
+
+  .pillarHead b {
+    font-size: 46px;
+    line-height: 54px;
+  }
+
+  .pillarHead span {
+    width: 100%;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .pillar h3 {
+    width: calc(100% + 44px);
+    margin: 28px 0 26px -22px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .checkList {
+    width: 100%;
+    gap: 12px;
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  .checkIconCircle {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    min-height: 42px;
+    box-shadow:
+      -7px -7px 14px #FFFFFF,
+      7px 7px 14px #C6C6C6;
+  }
+
+  .checkIcon {
+    width: 23px;
+    height: 23px;
+  }
+
+  .checkText {
+    flex: 1;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+  }
+}
+/* ===== Learning Cards (Updated Arrow Design) ===== */
+
+.learningCard {
+  --arrow-border: #2D4CC8;
+  position: relative;
+  width: 248px;
+  height: 132px;
+  isolation: isolate;
+}
+
+.learningCardOuter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 248px;
+  height: 128px;
+  object-fit: fill;
+  z-index: 1;
+}
+
+.learningCardInner {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 219px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+
+  filter:
+    drop-shadow(-4px -4px 8px #FFFFFF)
+    drop-shadow(4px 4px 8px #C4C4C4);
+}
+
+.learningCardInner::before,
+.learningCardInner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  /* Straight back like Figma */
+  clip-path: polygon(
+    0 0,
+    82% 0,
+    100% 50%,
+    82% 100%,
+    0 100%
+  );
+}
+
+.learningCardInner::before {
+  background: var(--arrow-border);
+  z-index: -2;
+}
+
+.learningCardInner::after {
+  inset: 1px;
+  background: #DFE6E9;
+  z-index: -1;
+}
+
+.learningCardText {
+  position: relative;
+  z-index: 3;
+  width: 150px;
+  text-align: center;
+  color: #31344B;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+/* Border colours */
+.learningCard:nth-child(1) {
+  --arrow-border: #2D4CC8;
+}
+
+.learningCard:nth-child(2) {
+  --arrow-border: #0B9BA0;
+}
+
+.learningCard:nth-child(3) {
+  --arrow-border: #BF1869;
+}
+
+.learningCard:nth-child(4) {
+  --arrow-border: #67096E;
+}
+
+.learningCard:nth-child(5) {
+  --arrow-border: #046F73;
+}/* FORCE STRAIGHT LEFT SIDE FOR INNER ARROW */
+
+.learningCardInner::before,
+.learningCardInner::after {
+  content: "" !important;
+  position: absolute !important;
+
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+
+  border-radius: 0 !important;
+
+  -webkit-clip-path: polygon(
+    0% 0%,
+    82% 0%,
+    100% 50%,
+    82% 100%,
+    0% 100%,
+    0% 0%
+  ) !important;
+
+  clip-path: polygon(
+    0% 0%,
+    82% 0%,
+    100% 50%,
+    82% 100%,
+    0% 100%,
+    0% 0%
+  ) !important;
+}
+
+.learningCardInner::before {
+  background: var(--arrow-border) !important;
+  z-index: -2 !important;
+}
+
+.learningCardInner::after {
+  top: 1px !important;
+  right: 1px !important;
+  bottom: 1px !important;
+  left: 1px !important;
+
+  background: #dfe6e9 !important;
+  z-index: -1 !important;
+}
+/* ==================================================
+   PILLAR CARDS — PNG MATCH OVERRIDE
+   Paste at the bottom of the CSS file
+================================================== */
+
+.pillars {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  justify-content: center;
+  align-items: stretch;
+  gap: 36px;
+}
+
+.pillar {
+  position: relative;
+  width: 400px;
+  height: 610px;
+  padding: 0 30px 42px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #dfe6e9;
+  border-radius: 20px;
+
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c6c6c6;
+}
+
+/* Pointed curved top section */
+.pillarHead {
+  position: relative;
+  width: calc(100% + 60px);
+  height: 220px;
+  min-height: 220px;
+  margin-left: -30px;
+  padding: 25px 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+
+  background: #dfe6e9;
+  border-radius: 20px 20px 0 0;
+
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 72%,
+    52% 100%,
+    48% 100%,
+    0 72%
+  );
+
+  box-shadow:
+    inset -8px -8px 16px #ffffff,
+    inset 8px 8px 16px #c6c6c6;
+}
+
+/* Soft white light around the curved point */
+.pillarHead::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  /* background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.08) 52%,
+    rgba(255, 255, 255, 0.95) 100%
+  ); */
+
+  clip-path: inherit;
+  border-radius: 20px 20px 0 0;
+}
+
+.pillarHead::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: 230px;
+  height: 52px;
+  z-index: 0;
+  pointer-events: none;
+
+  background: rgba(255, 255, 255, 0.55);
+  filter: blur(18px);
+  transform: translateX(-50%);
+}
+
+/* Numbers */
+.pillarHead b {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0.03em;
+
+  background: linear-gradient(
+    180deg,
+    #bf1869 0%,
+    #8f0e4e 55%,
+    #590b31 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Top titles */
+.pillarHead span {
+  position: relative;
+  z-index: 2;
+
+  margin-top: 1px;
+  color: #000000;
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* Blue heading under pointed section */
+.pillar h3 {
+  width: calc(100% + 60px);
+  margin: 40px 0 28px -30px;
+
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* Checklist spacing */
+.checkList {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.checkItem {
+  width: 100%;
+  height: 44px;
+  min-height: 44px;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Check circle */
+.checkIconCircle {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #dfe6e9;
+  border-radius: 50%;
+
+  box-shadow:
+    -7px -7px 14px rgba(255, 255, 255, 0.95),
+    7px 7px 14px rgba(174, 183, 187, 0.72);
+}
+
+.checkIcon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.checkText {
+  color: #31344b;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+}
+.growthVideo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* Remove all old decorative marks from the video */
+
+.videoVisual {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 18px 18px 0;
+}
+
+.videoVisual::before,
+.videoVisual::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.codeGlow {
+  display: none !important;
+}
+
+.growthVideo {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border: none;
+  outline: none;
+}
+/* =========================
+   MOBILE VIEW FIX
+   ========================= */
+
+@media (max-width: 480px) {
+  .page {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .shell {
+    width: 100%;
+    padding: 0 14px;
+  }
+
+  /* HERO SECTION */
+
+  .heroFrame {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0;
+  }
+
+  .hero {
+    position: relative;
+    width: 100%;
+    min-height: 610px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 22px;
+  }
+
+  .heroShape {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* .heroCopy {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    padding: 40px 24px 200px;
+  } */
+
+  .heroCopy .pill {
+    margin-bottom: 28px;
+    padding: 10px 26px;
+    font-size: 15px;
+  }
+
+  .heroCopy h1 {
+    margin: 0 0 22px;
+    font-size: 31px;
+    line-height: 1.2;
+  }
+
+  .heroCopy p {
+    width: 100%;
+    max-width: 285px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .heroImage {
+    position: absolute;
+    z-index: 2;
+    right: -15px;
+    bottom: 10px;
+    width: 210px;
+    height: auto;
+    object-fit: contain;
+    transform: scaleX(-1);
+  }
+
+  /* REMOVE LARGE EMPTY SPACE UNDER HERO */
+
+  .hero::after {
+    display: none;
+    content: none;
+  }
+
+  /* PILLAR CARDS */
+
+  .pillars {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 100%;
+    margin: 40px 0;
+    padding: 0;
+  }
+
+  .pillar {
+    width: 100%;
+    min-height: 0;
+    height: auto;
+    padding-bottom: 34px;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+
+  .pillarHead {
+    min-height: 220px;
+    height: auto;
+    padding: 28px 20px 62px;
+  }
+
+  .pillarHead b {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 52px;
+    line-height: 1;
+  }
+
+  .pillarHead span {
+    display: block;
+    font-size: 27px;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .pillar h3 {
+    margin: 34px 20px 25px;
+    font-size: 25px;
+    line-height: 1.25;
+    text-align: center;
+    padding-right: 108px;
+  }
+
+  .checkList {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 30px;
+  }
+
+  .checkItem {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .checkIconCircle {
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .checkText {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  /* GROWTH VIDEO SECTION */
+
+  .growthFrame {
+    width: 100%;
+    height: auto;
+    padding: 16px 10px;
+  }
+
+  .growth {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 22px;
+  }
+
+  .growthCopy {
+    width: 100%;
+    padding: 34px 24px;
+  }
+
+  .growthCopy h2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .growthCopy p {
+    font-size: 17px;
+    line-height: 1.55;
+  }
+
+  .videoVisual {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 0 0 18px 18px;
+  }
+
+  .videoVisual::before,
+  .videoVisual::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  .codeGlow {
+    display: none !important;
+  }
+
+  .growthVideo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border: 0;
+    outline: 0;
+  }
+}
+/* =====================================
+   CORRECT MOBILE HERO DESIGN
+   ===================================== */
+
+@media (max-width: 480px) {
+  .heroFrame {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 610px;
+    min-height: 610px;
+    overflow: hidden;
+    border-radius: 22px;
+    background: #dfe6e9;
+  }
+
+  /* Keep the dark area only at the top */
+  .heroShape {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: 100% !important;
+    height: 390px !important;
+
+    background: #30374b !important;
+
+    border-radius: 0 0 50% 50% / 0 0 9% 9% !important;
+    clip-path: none !important;
+    transform: none !important;
+  }
+
+  .heroCopy {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    padding: 78px 40px 0 !important;
+  }
+
+  .heroCopy .pill {
+    margin: 0 0 28px;
+    padding: 10px 25px;
+    font-size: 15px;
+  }
+
+  .heroCopy h1 {
+    max-width: 280px;
+    margin: 0 0 24px;
+    font-size: 31px;
+    line-height: 1.2;
+    color: #2f3547;
+  }
+
+  .heroCopy p {
+    max-width: 285px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2f3547;
+  }
+
+  /* Place the image only in the lower white area */
+  .heroImage {
+    position: absolute !important;
+    z-index: 4;
+    top: auto !important;
+    left: auto !important;
+    right: 5px !important;
+    bottom: 15px !important;
+
+    width: 205px !important;
+    height: auto !important;
+
+    object-fit: contain;
+    transform: scaleX(-1) !important;
+  }
+
+  .hero::before,
+  .hero::after {
+    display: none !important;
+    content: none !important;
+  }
+}
+/* ==========================================
+   HERO TEXT ALIGNMENT - MOBILE ONLY
+   Paste at the bottom of the CSS
+========================================== */
+
+@media (max-width: 480px) {
+
+  .heroCopy {
+    position: relative;
+    z-index: 5;
+
+    width: 100%;
+    max-width: 100%;
+
+    padding: 72px 28px 0 !important;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .heroCopy .pill {
+    margin-bottom: 24px;
+    padding: 10px 26px;
+  }
+
+  .heroCopy h1 {
+    width: 100%;
+    max-width: 255px;
+
+    margin: 0 0 22px;
+
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 600;
+
+    text-align: left;
+    color: #2f3547;
+  }
+
+  .heroCopy p {
+    width: 100%;
+    max-width: 265px;
+
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.6;
+
+    text-align: left;
+    color: #2f3547;
+  }
+
+}
+/* ==========================================
+   MOBILE HERO TEXT ALIGNMENT FIX
+========================================== */
+
+@media (max-width: 480px) {
+
+  /* .heroCopy {
+    position: absolute !important;
+    top: 65px;
+    left: 26px;
+    right: 26px;
+
+    z-index: 5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 0 !important;
+    margin: 0 !important;
+  } */
+
+  .heroCopy .pill {
+    margin: 0 0 24px 0 !important;
+    align-self: flex-start;
+  }
+
+  .heroCopy h1 {
+    margin: 0 0 22px 0 !important;
+
+    width: 250px;
+
+    font-size: 31px;
+    line-height: 1.2;
+    font-weight: 600;
+
+    text-align: left;
+    color: #2f3547;
+  }
+
+  .heroCopy p {
+    margin: 0 !important;
+
+    width: 255px;
+
+    font-size: 16px;
+    line-height: 1.6;
+
+    text-align: left;
+    color: #2f3547;
+  }
+
+}
+/* ==========================================
+   MOBILE HERO CONTENT POSITION FIX
+========================================== */
+
+@media (max-width: 480px) {
+
+  /* .heroCopy{
+    position:absolute !important;
+    top:38px !important;          
+    left:50% !important;
+    transform:translateX(-50%) !important;
+
+    width:100%;
+    max-width:280px;
+
+    padding:0 !important;
+    margin:0 !important;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+
+    text-align:center;
+    z-index:5;
+  } */
+
+  .heroCopy .pill{
+    margin:0 0 22px 0 !important;
+  }
+
+  .heroCopy h1{
+    width:100%;
+    margin:0 0 20px !important;
+
+    font-size:31px;
+    line-height:1.22;
+
+    text-align:center;
+  }
+
+  .heroCopy p{
+    width:100%;
+    max-width:255px;
+
+    margin:0 auto !important;
+
+    font-size:16px;
+    line-height:1.6;
+
+    text-align:center;
+  }
+
+}
+@media (max-width: 480px) {
+
+  /* .heroCopy {
+    align-items: center !important;
+    text-align: center !important;
+  } */
+
+  .heroCopy .pill {
+    align-self: center !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    margin: 0 auto 22px !important;
+
+    min-width: 170px;
+    text-align: center !important;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .heroImage {
+    position: absolute !important;
+    right: -28px !important;
+    bottom: -8px !important;
+
+    width: 440px !important;
+    height: auto !important;
+
+    object-fit: contain;
+    transform: scaleX(-1) !important;
+    z-index: 4;
+  }
+}
+/* ==========================================
+   HOVER EFFECT FOR ALL CARDS
+   ========================================== */
+
+.learningCard,
+.supportCard,
+.pillar {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease,
+    filter 0.35s ease;
+  cursor: default;
+}
+
+/* Learning Cards */
+.learningCard:hover {
+  transform: translateY(-10px) scale(1.02);
+
+  filter: drop-shadow(0 18px 30px rgba(45, 76, 200, 0.15));
+}
+
+.learningCard:hover .learningCardInner {
+  filter:
+    drop-shadow(-6px -6px 12px #ffffff)
+    drop-shadow(8px 8px 16px rgba(160, 170, 180, 0.55));
+}
+
+/* Practice Cards */
+.supportCard:hover {
+  transform: translateY(-10px);
+
+  box-shadow:
+    -14px -14px 28px #ffffff,
+    14px 14px 28px #bfc6ca;
+
+  border-top-width: 6px;
+}
+
+/* Pillar Cards */
+.pillar:hover {
+  transform: translateY(-12px);
+
+  box-shadow:
+    -10px -10px 22px #ffffff,
+    12px 12px 24px #c0c7cb;
+}
+
+.pillar:hover .pillarHead {
+  box-shadow:
+    inset -10px -10px 20px #ffffff,
+    inset 10px 10px 20px #c6c6c6;
+}
+
+.pillar:hover .checkIconCircle {
+  box-shadow:
+    -10px -10px 18px #ffffff,
+    10px 10px 18px #c6c6c6;
+}
+
+/* Smooth animation */
+.learningCard *,
+.supportCard *,
+.pillar * {
+  transition: all 0.35s ease;
+}
+
+/* ==================================================
+   MOBILE TYPOGRAPHY & SPACING SYSTEM
+   Based on the provided mobile specification.
+   Design, shapes, colours and shadows remain unchanged.
+================================================== */
+
+@media (max-width: 480px) {
+
+  /* ------------------------------
+     FONT SIZES
+  ------------------------------ */
+
+  /* Hero Heading (H1): 32 / 40 / 700 */
+  .heroCopy h1 {
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    line-height: 40px !important;
+  }
+
+  /* Section Heading (H2): 24 / 32 / 700 */
+  .learning h2,
+  .practice h2,
+  .practiceIntro h2,
+  .growth h2,
+  .growthCopy h2 {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+  }
+
+  /* Card Heading (H3): 18 / 26 / 600 */
+  .learningCardText,
+  .supportCard,
+  .pillarHead span,
+  .pillar h3 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 26px !important;
+  }
+
+  /* Body Text: 16 / 24 / 400 */
+  .heroCopy p,
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p,
+  .checkText {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+  }
+
+  /* Small Body: 14 / 22 / 400 */
+  .breadcrumb {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+  }
+
+  /* Button / pill text: 16 / 24 / 600 */
+  .pill,
+  .heroCopy .pill {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+  }
+
+  /* ------------------------------
+     SPACING
+  ------------------------------ */
+
+  /* Heading → Body Text: 12px */
+  .heroCopy h1,
+  .learning h2,
+  .practice h2,
+  .practiceIntro h2,
+  .growth h2,
+  .growthCopy h2 {
+    margin-bottom: 12px !important;
+  }
+
+  /* Heading → Cards: 24px */
+  .learningCards {
+    margin-top: 24px !important;
+  }
+
+  .supportGrid {
+    padding-top: 24px !important;
+  }
+
+  .pillars {
+    margin-top: 24px !important;
+  }
+
+  /* Card → Card: 16px */
+  .learningCards {
+    gap: 16px !important;
+  }
+
+  .supportGrid {
+    gap: 16px !important;
+  }
+
+  .pillars {
+    gap: 16px !important;
+  }
+
+  /* Section → Section: 48px */
+  .learning {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .practiceIntro {
+    margin-top: 0 !important;
+  }
+
+  .practiceOval {
+    margin-top: 48px !important;
+    margin-bottom: 48px !important;
+  }
+
+  .growthFrame {
+    margin-top: 48px !important;
+    margin-bottom: 48px !important;
+  }
+
+  /* Image → Heading: 24px */
+  .growthCopy h2 {
+    margin-top: 24px !important;
+  }
+
+  /* Icon → Title: 12px */
+  .checkItem {
+    gap: 12px !important;
+  }
+
+  /* Title → Description: 8px */
+  .pillar h3 {
+    margin-bottom: 8px !important;
+  }
+}
+/* ==========================================
+   MOBILE GROWTH SECTION - CENTER ALIGNMENT
+   Paste this at the VERY BOTTOM of your CSS
+========================================== */
+
+@media (max-width: 480px) {
+
+  .growth {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  .growthCopy {
+    width: 100% !important;
+    padding: 34px 24px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    text-align: center !important;
+  }
+
+  .growthCopy .pill {
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    margin: 0 auto 22px !important;
+  }
+
+  .growthCopy h2 {
+    width: 100% !important;
+    max-width: 320px !important;
+
+    margin: 18px auto 14px !important;
+
+    text-align: center !important;
+  }
+
+  .growthCopy p {
+    width: 100% !important;
+    max-width: 320px !important;
+
+    margin: 0 auto !important;
+
+    text-align: center !important;
+    line-height: 1.7 !important;
+  }
+
+  .videoVisual {
+    width: 100% !important;
+    height: 260px !important;
+  }
+
+}
+
+/* =========================
+   PILLAR CARDS — SVG LAYOUT
+   ========================= */
+
+.pillars {
+  grid-template-columns: repeat(3, 424px);
+  gap: 20px;
+  align-items: start;
+}
+
+.pillar {
+  position: relative;
+  width: 424px;
+  height: 630px;
+  padding: 0;
+  overflow: visible;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.pillarSvg {
+  position: absolute;
+  inset: 0;
+  width: 424px;
+  height: 630px;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.pillarContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  padding: 0 44px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.pillarHead {
+  position: relative;
+  width: 100%;
+  height: 205px;
+  min-height: 205px;
+  margin: 0;
+  padding: 38px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  background: transparent;
+  border-radius: 0;
+  clip-path: none;
+  box-shadow: none;
+}
+
+.pillarHead::before,
+.pillarHead::after {
+  content: none !important;
+  display: none !important;
+}
+
+.pillarHead b {
+  margin: 0;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0.03em;
+  background: linear-gradient(180deg, #bf1869 0%, #590b31 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.pillarHead span {
+  margin: 0;
+  color: #000000;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.pillar h3 {
+  width: 100%;
+  margin: 40px 0 32px;
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: none;
+}
+
+.checkList {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.checkItem {
+  width: 100%;
+  min-height: 44px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.checkIconCircle {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #dfe6e9;
+  border-radius: 50%;
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c6;
+}
+
+.checkIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.checkText {
+  color: #31344b;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+}
+
+.pillar:hover {
+  box-shadow: none;
+}
+
+.pillar:hover .pillarHead {
+  box-shadow: none;
+}
+
+@media (max-width: 1050px) {
+  .pillars {
+    grid-template-columns: repeat(2, 424px);
+  }
+}
+
+@media (max-width: 820px) {
+  .pillars {
+    width: min(100%, 424px);
+    grid-template-columns: 424px;
+  }
+}
+
+@media (max-width: 520px) {
+  .pillars {
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .pillar {
+    width: min(100%, 424px);
+    height: auto;
+    aspect-ratio: 424 / 630;
+    margin: 0 auto;
+  }
+
+  .pillarSvg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pillarContent {
+    padding: 0 24px 26px;
+    align-items: stretch;
+  }
+
+  .pillarHead {
+    height: 32.5%;
+    min-height: 0;
+    padding: 28px 0 0;
+    text-align: center;
+  }
+
+  .pillarHead b {
+    font-size: 46px;
+    line-height: 54px;
+  }
+
+  .pillarHead span {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .pillar h3 {
+    width: 100%;
+    margin: 26px 0 20px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .checkList {
+    gap: 14px;
+  }
+
+  .checkIconCircle {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    min-height: 42px;
+  }
+
+  .checkText {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+/* =========================================================
+   TABLET + LAPTOP RESPONSIVE FIX
+   Prevents overflow/overlap without changing desktop design.
+   ========================================================= */
+
+/* Laptop / small desktop: 1024px–1279px */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .shell {
+    width: calc(100% - 48px);
+    max-width: 1180px;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 24px;
+  }
+
+  .hero {
+    height: 500px;
+  }
+
+  .heroCopy {
+    left: 32px;
+    top: 70px;
+    width: 48%;
+    max-width: 500px;
+  }
+
+  .heroCopy h1 {
+    font-size: 38px;
+    line-height: 1.22;
+  }
+
+  .heroCopy p {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 460px;
+  }
+
+  .heroImage {
+    width: 720px;
+    height: 560px;
+    right: -135px;
+    bottom: -30px;
+  }
+
+  .learningCards {
+    grid-template-columns: repeat(3, 248px);
+    height: auto;
+    gap: 20px;
+    max-width: 784px;
+  }
+
+  .supportGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    padding: 50px 40px;
+  }
+
+  .supportCard {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .pillars {
+    grid-template-columns: repeat(2, minmax(0, 424px));
+    gap: 28px;
+    justify-content: center;
+  }
+
+  .pillar {
+    width: 100%;
+    max-width: 424px;
+  }
+
+  .pillarSvg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .checkText {
+    overflow-wrap: anywhere;
+  }
+
+  .growth {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .growthCopy {
+    padding: 52px 44px;
+    min-width: 0;
+  }
+
+  .growthCopy h2,
+  .growthCopy p {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .videoVisual,
+  .growthVideo {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+/* Tablet landscape + small laptop: 821px–1023px */
+@media (min-width: 821px) and (max-width: 1023px) {
+  .shell {
+    width: calc(100% - 40px);
+    max-width: 940px;
+  }
+
+  .breadcrumb {
+    height: 78px;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 20px;
+  }
+
+  .hero {
+    height: 470px;
+  }
+
+  .heroCopy {
+    left: 28px;
+    top: 58px;
+    width: 50%;
+    max-width: 430px;
+  }
+
+  .heroCopy h1 {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  .heroCopy p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 390px;
+  }
+
+  .heroImage {
+    width: 650px;
+    height: 520px;
+    right: -160px;
+    bottom: -30px;
+  }
+
+  .learning {
+    padding: 64px 0 48px;
+  }
+
+  .learning h2,
+  .practice h2,
+  .growth h2 {
+    font-size: 34px;
+  }
+
+  .learning > p,
+  .practiceIntro p {
+    font-size: 18px;
+  }
+
+  .learningCards {
+    width: min(100%, 780px);
+    max-width: 780px;
+    height: auto;
+    grid-template-columns: repeat(3, 248px);
+    gap: 18px;
+  }
+
+  .supportGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    padding: 46px 24px;
+  }
+
+  .supportCard {
+    min-width: 0;
+    padding: 24px 22px;
+    font-size: 17px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .practiceOval {
+    width: 96%;
+    font-size: 28px;
+  }
+
+  .pillars {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .pillar {
+    width: 100%;
+    max-width: 424px;
+    margin: 0 auto;
+  }
+
+  .pillarSvg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pillarHead span {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .pillar h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .checkText {
+    font-size: 19px;
+    line-height: 28px;
+    overflow-wrap: anywhere;
+  }
+
+  .growth {
+    grid-template-columns: 1fr 1fr;
+    height: 430px;
+  }
+
+  .growthCopy {
+    padding: 46px 34px;
+    min-width: 0;
+  }
+
+  .growthCopy h2 {
+    font-size: 32px;
+  }
+
+  .growthCopy p {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .videoVisual,
+  .growthVideo {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+/* Tablet portrait: 701px–820px */
+@media (min-width: 701px) and (max-width: 820px) {
+  .shell {
+    width: calc(100% - 32px);
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 18px;
+  }
+
+  .hero {
+    height: 560px;
+  }
+
+  .heroCopy {
+    left: 26px;
+    top: 52px;
+    width: 56%;
+    max-width: 390px;
+  }
+
+  .heroCopy h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .heroCopy p {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .heroImage {
+    width: 600px;
+    height: 500px;
+    right: -190px;
+    bottom: -25px;
+  }
+
+  .learningCards {
+    width: min(100%, 512px);
+    grid-template-columns: repeat(2, 248px);
+    gap: 16px;
+  }
+
+  .supportGrid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 40px 22px;
+  }
+
+  .supportCard {
+    width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .practiceOval {
+    width: 96%;
+    font-size: 25px;
+    padding: 28px 20px;
+  }
+
+  .pillars {
+    width: min(100%, 424px);
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .pillar {
+    width: min(100%, 424px);
+    margin: 0 auto;
+  }
+
+  .pillarSvg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .growth {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .growthCopy {
+    width: 100%;
+    padding: 42px 34px;
+  }
+
+  .videoVisual {
+    width: 100%;
+    min-height: 320px;
+    border-radius: 0 0 18px 18px;
+  }
+
+  .growthVideo {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* =========================================================
+   TABLET PORTRAIT ALIGNMENT FIX — 701px to 820px
+   Centered layout, no overflow, no desktop design changes.
+   ========================================================= */
+@media (min-width: 701px) and (max-width: 820px) {
+  .shell {
+    width: calc(100% - 32px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .breadcrumb {
+    justify-content: flex-start;
+  }
+
+  .heroFrame {
+    width: 100%;
+    padding: 18px;
+  }
+
+  .hero {
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .heroCopy {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 100%;
+    max-width: 560px;
+    padding: 42px 28px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroCopy .pill {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heroCopy h1 {
+    width: 100%;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .heroCopy p {
+    width: 100%;
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .heroImage {
+    left: 50%;
+    right: auto;
+    bottom: -34px;
+    width: 500px;
+    height: auto;
+    transform: translateX(-50%) scaleX(-1);
+    transform-origin: center center;
+  }
+
+  .learning {
+    width: 100%;
+    text-align: center;
+    padding: 56px 0 48px;
+  }
+
+  .learning h2 {
+    width: 100%;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .learning > p {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .learningCards {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .practice,
+  .practiceIntro {
+    width: 100%;
+  }
+
+  .practiceIntro {
+    text-align: center;
+  }
+
+  .practiceIntro h2,
+  .practiceIntro p {
+    width: 100%;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .supportGrid {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .practiceOval {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .pillars {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .growthFrame {
+    width: 100%;
+    padding: 18px;
+  }
+
+  .growth {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+  }
+
+  .growthCopy {
+    width: 100%;
+    padding: 42px 34px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .growthCopy .pill {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .growthCopy h2 {
+    width: 100%;
+    max-width: 560px;
+    margin: 24px auto 12px;
+    text-align: center;
+  }
+
+  .growthCopy p {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .videoVisual {
+    width: 100%;
+    height: 320px;
+    min-height: 320px;
+  }
+
+  .growthVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* =========================================================
+   TABLET SUPPORT CARDS + HERO IMAGE POSITION
+   ========================================================= */
+@media (min-width: 701px) and (max-width: 1023px) {
+  .supportGrid {
+    gap: 22px;
+  }
+
+  .supportCard {
+    min-height: 78px;
+    padding: 20px 24px;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.35;
+  }
+
+  .heroImage {
+    bottom: 8px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .supportCard {
+    min-height: 84px;
+    padding: 22px 26px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .heroImage {
+    bottom: -6px;
+  }
+}
+
+/* =========================================================
+   TABLET + LAPTOP TYPOGRAPHY
+   Section headings: 36px bold
+   Subheadings: 24px
+   ========================================================= */
+@media (min-width: 701px) and (max-width: 1279px) {
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p,
+  .pillar h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE TYPOGRAPHY — ALL DEVICES
+   Desktop target: headings 36px / subheadings 24px
+   Scales down appropriately for tablet and mobile.
+   ========================================================= */
+
+/* Desktop / large laptop */
+@media (min-width: 1280px) {
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p,
+  .pillar h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p,
+  .pillar h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 701px) and (max-width: 1023px) {
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p,
+  .pillar h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p,
+  .pillar h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* =========================================================
+   FINAL FULL-PAGE RESPONSIVE SYSTEM
+   Applies to all sections and all viewport sizes.
+   Keeps the existing visual design while preventing
+   overflow, overlap and broken layouts.
+   ========================================================= */
+
+.page,
+.page *,
+.page *::before,
+.page *::after {
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.page img,
+.page video {
+  max-width: 100%;
+}
+
+/* HERO HEADING — ALWAYS BOLD */
+.heroCopy h1 {
+  font-weight: 700 !important;
+}
+
+/* Fluid page container */
+.shell {
+  width: min(1280px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+/* Prevent text overflow everywhere */
+.heroCopy,
+.heroCopy h1,
+.heroCopy p,
+.learning,
+.learning h2,
+.learning > p,
+.practiceIntro,
+.practiceIntro h2,
+.practiceIntro p,
+.supportCard,
+.pillar,
+.pillarHead,
+.pillarHead span,
+.pillar h3,
+.checkText,
+.growthCopy,
+.growthCopy h2,
+.growthCopy p {
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+/* Large desktop */
+@media (min-width: 1280px) {
+  .heroCopy h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .heroCopy p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p,
+  .pillar h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* Standard laptops */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .shell {
+    width: calc(100% - 48px);
+  }
+
+  .hero {
+    height: 500px;
+  }
+
+  .heroCopy {
+    width: 49%;
+    max-width: 500px;
+  }
+
+  .heroCopy h1 {
+    font-size: clamp(36px, 3.5vw, 44px);
+    line-height: 1.2;
+  }
+
+  .heroCopy p {
+    font-size: clamp(19px, 2vw, 22px);
+    line-height: 1.5;
+  }
+
+  .heroImage {
+    width: min(720px, 64vw);
+    right: -105px;
+    bottom: -8px;
+  }
+
+  .learningCards {
+    grid-template-columns: repeat(3, minmax(0, 248px));
+    height: auto;
+    justify-content: center;
+  }
+
+  .supportGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pillars {
+    grid-template-columns: repeat(2, minmax(0, 424px));
+    justify-content: center;
+  }
+
+  .growth {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Tablets / small laptops */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .shell {
+    width: calc(100% - 32px);
+  }
+
+  .breadcrumb {
+    height: 72px;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 18px;
+  }
+
+  .hero {
+    height: 590px;
+  }
+
+  .heroCopy {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 42px 24px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroCopy .pill {
+    align-self: center;
+  }
+
+  .heroCopy h1 {
+    width: 100%;
+    max-width: 540px;
+    margin-inline: auto;
+    font-size: clamp(32px, 4.6vw, 40px);
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .heroCopy p {
+    width: 100%;
+    max-width: 500px;
+    margin-inline: auto;
+    font-size: clamp(18px, 2.5vw, 21px);
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .heroImage {
+    left: 50%;
+    right: auto;
+    bottom: -18px;
+    width: min(520px, 76vw);
+    height: auto;
+    transform: translateX(-50%) scaleX(-1);
+  }
+
+  .learning {
+    padding: 56px 0 48px;
+  }
+
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: clamp(30px, 4vw, 34px);
+    line-height: 1.3;
+    font-weight: 700;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p {
+    font-size: clamp(18px, 2.4vw, 21px);
+    line-height: 1.5;
+  }
+
+  .learningCards {
+    width: min(100%, 512px);
+    grid-template-columns: repeat(2, minmax(0, 248px));
+    gap: 16px;
+    height: auto;
+  }
+
+  .supportGrid {
+    grid-template-columns: 1fr;
+    padding: 36px 20px;
+    gap: 20px;
+  }
+
+  .supportCard {
+    min-height: 76px;
+    padding: 18px 22px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .practiceOval {
+    width: 96%;
+    font-size: clamp(22px, 3vw, 28px);
+  }
+
+  .pillars {
+    width: min(100%, 424px);
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin-inline: auto;
+  }
+
+  .pillar {
+    width: min(100%, 424px);
+    margin-inline: auto;
+  }
+
+  .growth {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .growthCopy {
+    width: 100%;
+    padding: 40px 30px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .growthCopy .pill {
+    align-self: center;
+  }
+
+  .videoVisual {
+    width: 100%;
+    min-height: 320px;
+    border-radius: 0 0 18px 18px;
+  }
+}
+
+/* Large phones / small tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  .shell {
+    width: calc(100% - 24px);
+  }
+
+  .breadcrumb {
+    height: 64px;
+    font-size: 14px;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 14px;
+  }
+
+  .hero {
+    height: 610px;
+  }
+
+  .heroCopy {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 470px !important;
+    margin: 0 auto !important;
+    padding: 34px 18px 0 !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .heroCopy .pill {
+    align-self: center !important;
+    margin-inline: auto !important;
+  }
+
+  .heroCopy h1 {
+    width: 100% !important;
+    max-width: 440px !important;
+    font-size: clamp(28px, 6.2vw, 34px) !important;
+    line-height: 1.2 !important;
+    font-weight: 700 !important;
+    color: #2f3547 !important;
+    text-align: center !important;
+  }
+
+  .heroCopy p {
+    width: 100% !important;
+    max-width: 420px !important;
+    font-size: clamp(16px, 3.8vw, 19px) !important;
+    line-height: 1.5 !important;
+    color: #2f3547 !important;
+    text-align: center !important;
+  }
+
+  .heroImage {
+    left: 50% !important;
+    right: auto !important;
+    bottom: -10px !important;
+    width: min(500px, 94vw) !important;
+    height: auto !important;
+    transform: translateX(-50%) scaleX(-1) !important;
+  }
+
+  .learning,
+  .practice,
+  .growthFrame {
+    width: 100%;
+  }
+
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: clamp(26px, 5vw, 30px) !important;
+    line-height: 1.3 !important;
+    font-weight: 700 !important;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p {
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+  }
+
+  .learningCards {
+    width: 248px;
+    grid-template-columns: 248px;
+    height: auto;
+    gap: 16px;
+  }
+
+  .supportGrid {
+    grid-template-columns: 1fr;
+    padding: 30px 0;
+    gap: 16px;
+  }
+
+  .supportCard {
+    min-height: 72px;
+    padding: 16px 18px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .practiceOval {
+    width: 96%;
+    padding: 24px 14px;
+    font-size: 21px;
+  }
+
+  .pillars {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .pillar {
+    width: min(100%, 424px);
+    margin-inline: auto;
+  }
+
+  .growth {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .growthCopy {
+    width: 100%;
+    padding: 34px 24px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .videoVisual {
+    height: 280px;
+    min-height: 280px;
+    border-radius: 0 0 18px 18px;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .shell {
+    width: 100%;
+    padding-inline: 14px;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .hero {
+    width: 100%;
+    height: 610px;
+  }
+
+  /* .heroCopy {
+    width: calc(100% - 28px) !important;
+    max-width: 360px !important;
+    left: 50% !important;
+    top: 34px !important;
+    transform: translateX(-50%) !important;
+    padding: 0 !important;
+    text-align: center !important;
+    align-items: center !important;
+  } */
+
+  .heroCopy h1 {
+    width: 100% !important;
+    max-width: 340px !important;
+    font-size: clamp(28px, 9vw, 32px) !important;
+    line-height: 40px !important;
+    font-weight: 700 !important;
+    color: #2f3547 !important;
+    text-align: center !important;
+  }
+
+  .heroCopy p {
+    width: 100% !important;
+    max-width: 330px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #2f3547 !important;
+    text-align: center !important;
+  }
+
+  .heroImage {
+    left: 50% !important;
+    right: auto !important;
+    bottom: -8px !important;
+    width: min(440px, 118vw) !important;
+    height: auto !important;
+    transform: translateX(-50%) scaleX(-1) !important;
+  }
+
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 700 !important;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .supportCard {
+    min-height: 68px;
+    padding: 14px 16px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pillar {
+    width: 100%;
+    max-width: 424px;
+  }
+
+  .pillarContent {
+    padding-inline: 22px;
+  }
+
+  .pillarHead span {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pillar h3 {
+    width: 100%;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .checkItem {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .checkText {
+    min-width: 0;
+    flex: 1;
+    text-align: left;
+  }
+
+  .growthCopy {
+    text-align: center;
+    align-items: center;
+  }
+
+  .growthCopy .pill {
+    align-self: center;
+  }
+}
+
+/* LAPTOP ONLY — requested fixes */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .learningCards {
+    grid-template-columns: repeat(3, 248px);
+    column-gap: 32px;
+    row-gap: 24px;
+    justify-content: center;
+  }
+
+  .learningCard {
+    width: 248px;
+  }
+
+  .pillars {
+    grid-template-columns: repeat(2, 424px);
+    justify-content: center;
+  }
+
+  .pillar:nth-child(3) {
+    grid-column: 1 / 3;
+    justify-self: center;
+  }
+}
+
+
+/* =========================================================
+   FINAL RESPONSIVE CENTERING FIX
+   Keeps the existing design unchanged.
+   Fixes horizontal overflow / right-side shifting at 100% zoom.
+   ========================================================= */
+
+.page {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+}
+
+.page,
+.page *,
+.page *::before,
+.page *::after {
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0 auto;
+  overflow-x: clip;
+  position: relative;
+}
+
+.shell {
+  width: min(1280px, calc(100% - 80px));
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.heroFrame,
+.hero,
+.learning,
+.practice,
+.practiceIntro,
+.supportGrid,
+.practiceOval,
+.pillars,
+.growthFrame,
+.growth {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.heroImage,
+.growthVideo,
+.videoVisual img {
+  max-width: 100%;
+}
+
+/* Large desktop */
+@media (min-width: 1280px) {
+  .shell {
+    width: min(1280px, calc(100% - 80px));
+    margin-inline: auto;
+  }
+
+  .learningCards,
+  .pillars {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .shell {
+    width: calc(100% - 48px);
+    max-width: 1180px;
+    margin-inline: auto;
+  }
+
+  .learningCards {
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .pillars {
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .growthFrame {
+    width: 100%;
+    margin-inline: auto;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .shell {
+    width: calc(100% - 32px);
+    max-width: 900px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-inline: auto;
+  }
+
+  .heroFrame,
+  .growthFrame,
+  .learning,
+  .practice {
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .learningCards,
+  .supportGrid,
+  .pillars {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Large phones / small tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  .shell {
+    width: calc(100% - 24px);
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-inline: auto;
+  }
+
+  .heroFrame,
+  .growthFrame,
+  .learning,
+  .practice,
+  .practiceIntro {
+    width: 100%;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .learningCards,
+  .supportGrid,
+  .pillars {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pillar {
+    max-width: 100%;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .page {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0 auto;
+    overflow-x: clip;
+  }
+
+  .shell {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .breadcrumb,
+  .heroFrame,
+  .growthFrame,
+  .learning,
+  .practice,
+  .practiceIntro,
+  .supportGrid,
+  .practiceOval,
+  .pillars,
+  .growth {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .hero {
+    width: 100%;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  /* .heroCopy {
+    left: 50% !important;
+    right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    transform: translateX(-50%) !important;
+  } */
+
+  .heroImage {
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) scaleX(-1) !important;
+  }
+
+  .learningCards {
+    width: min(248px, 100%);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .learningCard {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .supportGrid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .supportCard {
+    width: 100%;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .practiceOval {
+    width: min(96%, 100%);
+  }
+
+  .pillars {
+    width: 100%;
+    max-width: 424px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pillar {
+    width: 100%;
+    max-width: 424px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .growthFrame,
+  .growth {
+    width: 100%;
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .growthCopy,
+  .videoVisual {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .growthVideo {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  .shell {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  /* .heroCopy {
+    width: calc(100% - 20px) !important;
+    max-width: 330px !important;
+  } */
+
+  .learningCards {
+    transform: none;
+  }
+
+  .pillar {
+    max-width: 100%;
+  }
+}
+
+
+/* =========================================================
+   UNIVERSAL FLUID RESPONSIVE SYSTEM
+   Coding Resources
+   Works with mobile / tablet / desktop AND browser zoom.
+   This block intentionally comes last and wins over the
+   older repeated media-query overrides above.
+   ========================================================= */
+
+.page {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+.page,
+.page *,
+.page *::before,
+.page *::after {
+  box-sizing: border-box !important;
+}
+
+.page {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  overflow-x: hidden !important;
+  position: relative !important;
+}
+
+/* Main responsive container.
+   Using width + max-width instead of a fixed pixel canvas
+   keeps the page centered at every browser zoom level. */
+.shell {
+  width: calc(100% - clamp(24px, 5vw, 80px)) !important;
+  max-width: 1280px !important;
+  min-width: 0 !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+/* Never allow a top-level section to become wider than its container. */
+.breadcrumb,
+.heroFrame,
+.hero,
+.learning,
+.practice,
+.practiceIntro,
+.supportGrid,
+.practiceOval,
+.pillars,
+.growthFrame,
+.growth {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Prevent media from creating document-level horizontal overflow. */
+.page img,
+.page video,
+.heroImage,
+.learningCardOuter,
+.pillarSvg,
+.growthVideo {
+  max-width: 100%;
+}
+
+/* Fluid text safety. */
+.heroCopy,
+.heroCopy h1,
+.heroCopy p,
+.learning h2,
+.learning > p,
+.practiceIntro h2,
+.practiceIntro p,
+.supportCard,
+.pillar,
+.pillarContent,
+.pillarHead,
+.pillarHead span,
+.pillar h3,
+.checkList,
+.checkItem,
+.checkText,
+.growthCopy,
+.growthCopy h2,
+.growthCopy p,
+.videoVisual {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  overflow-wrap: break-word;
+}
+
+/* =========================================================
+   HERO — fluid at every viewport width / zoom level
+   ========================================================= */
+
+.heroFrame {
+  padding: clamp(12px, 2.5vw, 32px) !important;
+}
+
+.hero {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Keep the desktop visual composition but scale dimensions fluidly. */
+@media (min-width: 901px) {
+  .hero {
+    height: clamp(440px, 42vw, 550px) !important;
+  }
+
+  .heroCopy {
+    position: absolute !important;
+    left: clamp(24px, 3vw, 36px) !important;
+    right: auto !important;
+    top: clamp(52px, 7vw, 88px) !important;
+    width: min(46%, 560px) !important;
+    max-width: 560px !important;
+    transform: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left !important;
+    align-items: flex-start !important;
+  }
+
+  .heroCopy h1 {
+    font-size: clamp(32px, 3.2vw, 45px) !important;
+    line-height: 1.25 !important;
+  }
+
+  .heroCopy p {
+    font-size: clamp(17px, 1.7vw, 24px) !important;
+    line-height: 1.45 !important;
+  }
+
+  .heroImage {
+    position: absolute !important;
+    left: auto !important;
+    right: clamp(-167px, -10vw, -70px) !important;
+    bottom: clamp(-27px, -2vw, -4px) !important;
+    width: min(73vw, 940px) !important;
+    height: auto !important;
+    max-width: none !important;
+    transform: scaleX(-1) !important;
+  }
+}
+
+/* Tablet + mobile hero.
+   No fixed 440px/560px object can push the document sideways. */
+@media (max-width: 900px) {
+  .hero {
+    height: auto !important;
+    min-height: clamp(560px, 120vw, 680px) !important;
+    display: block !important;
+  }
+
+  .heroCopy {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    transform: none !important;
+    width: min(100%, 560px) !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding:
+      clamp(34px, 8vw, 64px)
+      clamp(18px, 6vw, 44px)
+      clamp(245px, 52vw, 330px) !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .heroCopy .pill {
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .heroCopy h1 {
+    width: 100% !important;
+    max-width: 520px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: clamp(24px, 6vw, 38px) !important;
+    line-height: 1.22 !important;
+    text-align: center !important;
+  }
+
+  .heroCopy p {
+    width: 100% !important;
+    max-width: 500px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: clamp(15px, 3.6vw, 20px) !important;
+    line-height: 1.55 !important;
+    text-align: center !important;
+  }
+
+  .heroImage {
+    position: absolute !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: clamp(-18px, -2vw, 0px) !important;
+    width: min(112%, 620px) !important;
+    height: auto !important;
+    max-width: none !important;
+    transform: translateX(-50%) scaleX(-1) !important;
+  }
+}
+
+/* =========================================================
+   LEARNING CARDS
+   Fluid grid automatically changes column count.
+   ========================================================= */
+
+.learningCards {
+  width: 100% !important;
+  max-width: 1280px !important;
+  height: auto !important;
+  display: grid !important;
+  grid-template-columns:
+    repeat(auto-fit, minmax(min(100%, 248px), 248px)) !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: clamp(14px, 2vw, 24px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.learningCard {
+  width: 248px !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* =========================================================
+   PRACTICE SUPPORT CARDS
+   ========================================================= */
+
+.supportGrid {
+  display: grid !important;
+  grid-template-columns:
+    repeat(auto-fit, minmax(min(100%, 320px), 1fr)) !important;
+  gap: clamp(18px, 4vw, 48px) !important;
+  padding:
+    clamp(28px, 4vw, 58px)
+    clamp(0px, 5vw, 110px) !important;
+}
+
+.supportCard {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.practiceOval {
+  width: min(92%, 1100px) !important;
+}
+
+/* =========================================================
+   PILLAR CARDS
+   This removes the fixed 400/424px overflow problem.
+   ========================================================= */
+
+.pillars {
+  display: grid !important;
+  grid-template-columns:
+    repeat(auto-fit, minmax(min(100%, 360px), 1fr)) !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  gap: clamp(18px, 3vw, 36px) !important;
+  width: 100% !important;
+  max-width: 1280px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.pillar {
+  position: relative !important;
+  width: 100% !important;
+  max-width: 424px !important;
+  min-width: 0 !important;
+  height: auto !important;
+  aspect-ratio: 424 / 630 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* The SVG is the visual card frame; scale it with the article. */
+.pillarSvg {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  object-fit: fill !important;
+}
+
+/* Overlay content stays proportional inside scaled card. */
+.pillarContent {
+  position: relative !important;
+  z-index: 2 !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding:
+    clamp(18px, 4vw, 30px)
+    clamp(18px, 5vw, 30px)
+    clamp(22px, 5vw, 42px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.pillarHead {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 0 !important;
+  height: 32% !important;
+  margin: 0 !important;
+  padding:
+    clamp(10px, 2vw, 24px)
+    0
+    0 !important;
+  text-align: center !important;
+}
+
+.pillarHead b {
+  font-size: clamp(36px, 6vw, 54px) !important;
+  line-height: 1.1 !important;
+}
+
+.pillarHead span {
+  width: 100% !important;
+  font-size: clamp(17px, 3vw, 27px) !important;
+  line-height: 1.35 !important;
+  text-align: center !important;
+}
+
+.pillar h3 {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin:
+    clamp(18px, 4vw, 40px)
+    0
+    clamp(14px, 3vw, 28px) !important;
+  padding: 0 !important;
+  font-size: clamp(17px, 2.4vw, 24px) !important;
+  line-height: 1.35 !important;
+  text-align: center !important;
+}
+
+.checkList {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  gap: clamp(9px, 1.8vw, 16px) !important;
+}
+
+.checkItem {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: clamp(36px, 5vw, 44px) !important;
+}
+
+.checkIconCircle {
+  flex: 0 0 clamp(34px, 5vw, 44px) !important;
+  width: clamp(34px, 5vw, 44px) !important;
+  height: clamp(34px, 5vw, 44px) !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+}
+
+.checkIcon {
+  width: clamp(19px, 3vw, 24px) !important;
+  height: clamp(19px, 3vw, 24px) !important;
+}
+
+.checkText {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  font-size: clamp(14px, 2.4vw, 22px) !important;
+  line-height: 1.4 !important;
+  text-align: left !important;
+}
+
+/* =========================================================
+   GROWTH / VIDEO
+   ========================================================= */
+
+.growthFrame {
+  padding: clamp(12px, 2.5vw, 32px) !important;
+}
+
+@media (min-width: 901px) {
+  .growth {
+    height: clamp(400px, 38vw, 480px) !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr) !important;
+  }
+
+  .growthCopy {
+    min-width: 0 !important;
+    padding:
+      clamp(40px, 5vw, 64px)
+      clamp(36px, 5.5vw, 70px) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .growth {
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .growthCopy {
+    width: 100% !important;
+    padding:
+      clamp(30px, 7vw, 48px)
+      clamp(20px, 6vw, 38px) !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .growthCopy .pill {
+    align-self: center !important;
+  }
+
+  .growthCopy h2,
+  .growthCopy p {
+    width: 100% !important;
+    max-width: 560px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .videoVisual {
+    width: 100% !important;
+    min-height: clamp(240px, 55vw, 360px) !important;
+    border-radius: 0 0 18px 18px !important;
+  }
+
+  .growthVideo {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+}
+
+/* =========================================================
+   PHONE-SPECIFIC COMPACTING
+   These rules do NOT use one device width; they apply
+   fluidly to every phone-size CSS viewport.
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .shell {
+    width: calc(100% - 24px) !important;
+  }
+
+  .breadcrumb {
+    height: 64px !important;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 10px !important;
+  }
+
+  .learning h2,
+  .practiceIntro h2,
+  .growthCopy h2 {
+    font-size: clamp(24px, 7vw, 30px) !important;
+    line-height: 1.3 !important;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p {
+    font-size: clamp(15px, 4.2vw, 17px) !important;
+    line-height: 1.55 !important;
+  }
+
+  .practiceIntro {
+    padding:
+      clamp(34px, 10vw, 54px)
+      clamp(16px, 5vw, 28px) !important;
+    border-radius: 8px 56px 8px 56px !important;
+  }
+
+  .supportGrid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .practiceOval {
+    width: calc(100% - 8px) !important;
+    padding:
+      clamp(20px, 6vw, 30px)
+      clamp(12px, 4vw, 20px) !important;
+    font-size: clamp(18px, 5vw, 24px) !important;
+  }
+
+  .pillars {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .pillar {
+    width: min(100%, 424px) !important;
+  }
+}
+
+/* Very narrow phones */
+@media (max-width: 360px) {
+  .shell {
+    width: calc(100% - 16px) !important;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 8px !important;
+  }
+
+  .heroCopy {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  .pillarContent {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+
+/* =========================================================
+   HERO BADGE — COLOUR MATCH FIX
+   Coding Resources / Programming Growth
+   ========================================================= */
+.heroCopy .pill,
+.growthCopy .pill {
+  color: #2D4CC8 !important;
+  background: #DFE6E9 !important;
+  border: 0 !important;
+  box-shadow:
+    inset -4px -4px 8px #FFFFFF,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8) !important;
+}
+
+/* Keep the badge colour identical on hover/focus */
+.heroCopy .pill:hover,
+.heroCopy .pill:focus,
+.growthCopy .pill:hover,
+.growthCopy .pill:focus {
+  color: #2D4CC8 !important;
+  background: #DFE6E9 !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+
+/* =========================================================
+   FINAL DESKTOP ALIGNMENT — MATCH PROVIDED REFERENCE
+   Keeps the existing design; corrects horizontal alignment,
+   section widths, card spacing, and section-to-section rhythm.
+   ========================================================= */
+@media screen and (min-width: 1051px) {
+
+  /* One common content width for the complete page */
+  .shell {
+    width: 1280px !important;
+    max-width: calc(100% - 80px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Breadcrumb aligned to the same left edge as hero */
+  .breadcrumb {
+    width: 100% !important;
+    height: 72px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  /* HERO */
+  .heroFrame {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 28px !important;
+    box-sizing: border-box !important;
+  }
+
+  .hero {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  .heroCopy {
+    left: 48px !important;
+    top: 72px !important;
+  }
+
+  /* LEARNING MATERIALS SECTION */
+  .learning {
+    width: 100% !important;
+    padding: 72px 0 58px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .learning h2 {
+    max-width: 860px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .learning > p {
+    max-width: 900px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .learningCards {
+    width: 100% !important;
+    max-width: 1280px !important;
+    height: auto !important;
+    margin: 42px auto 0 !important;
+    display: grid !important;
+    grid-template-columns: repeat(5, 232px) !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 0 !important;
+  }
+
+  .learningCard {
+    width: 232px !important;
+    height: 124px !important;
+  }
+
+  .learningCardOuter {
+    width: 232px !important;
+    height: 120px !important;
+  }
+
+  .learningCardInner {
+    width: 205px !important;
+    height: 94px !important;
+    left: 13px !important;
+    top: 13px !important;
+  }
+
+  /* PRACTICE SECTION */
+  .practice {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  .practiceIntro {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 62px 40px !important;
+    box-sizing: border-box !important;
+  }
+
+  .practiceIntro h2 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .practiceIntro p {
+    max-width: 980px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  /* Four support cards = balanced 2 × 2 grid */
+  .supportGrid {
+    width: 100% !important;
+    padding: 52px 0 46px !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 360px)) !important;
+    justify-content: center !important;
+    column-gap: 120px !important;
+    row-gap: 42px !important;
+    box-sizing: border-box !important;
+  }
+
+  .supportCard {
+    width: 360px !important;
+    min-height: 94px !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Oval centered with equal left/right clearance */
+  .practiceOval {
+    width: 92% !important;
+    max-width: 1160px !important;
+    margin: 28px auto 76px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* THREE PILLAR CARDS */
+  .pillars {
+    width: 100% !important;
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 380px) !important;
+    justify-content: space-between !important;
+    align-items: stretch !important;
+    gap: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .pillar {
+    width: 380px !important;
+    height: 610px !important;
+    margin: 0 !important;
+  }
+
+  /* PROGRAMMING GROWTH SECTION */
+  .growthFrame {
+    width: 100% !important;
+    margin: 92px auto 88px !important;
+    padding: 28px !important;
+    box-sizing: border-box !important;
+  }
+
+  .growth {
+    width: 100% !important;
+    height: 480px !important;
+    margin: 0 auto !important;
+    grid-template-columns: 1fr 0.92fr !important;
+  }
+
+  .growthCopy {
+    padding: 58px 62px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Footer stays full width and content remains visually balanced */
+  .footer {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* =========================================================
+   PRACTICE-ORIENTED CODING SUPPORT — REFERENCE ALIGNMENT
+   ========================================================= */
+@media screen and (min-width: 1051px) {
+
+  /* Main curved section */
+  .practiceIntro {
+    width: 100% !important;
+    max-width: 1280px !important;
+    min-height: 300px !important;
+    margin: 0 auto !important;
+    padding: 72px 70px 58px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+  }
+
+  .practiceIntro h2 {
+    width: 100% !important;
+    max-width: 900px !important;
+    margin: 0 auto 22px !important;
+    text-align: center !important;
+  }
+
+  .practiceIntro p {
+    width: 100% !important;
+    max-width: 980px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  /* Four small support cards: symmetric 2 x 2 arrangement */
+  .supportGrid {
+    width: 100% !important;
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+    padding: 54px 70px 40px !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, 360px) !important;
+    grid-template-rows: repeat(2, auto) !important;
+
+    justify-content: space-between !important;
+    align-items: start !important;
+
+    column-gap: 0 !important;
+    row-gap: 38px !important;
+    box-sizing: border-box !important;
+  }
+
+  .supportCard {
+    width: 360px !important;
+    min-height: 92px !important;
+    margin: 0 !important;
+    padding: 24px 28px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Match screenshot: top row slightly inward, lower row wider apart */
+  .supportGrid .supportCard:nth-child(1) {
+    justify-self: end !important;
+    margin-right: 95px !important;
+  }
+
+  .supportGrid .supportCard:nth-child(2) {
+    justify-self: start !important;
+    margin-left: 95px !important;
+  }
+
+  .supportGrid .supportCard:nth-child(3) {
+    justify-self: start !important;
+  }
+
+  .supportGrid .supportCard:nth-child(4) {
+    justify-self: end !important;
+  }
+
+  /* Strengthen skills oval aligned and centered under cards */
+  .practiceOval {
+    width: 1160px !important;
+    max-width: calc(100% - 80px) !important;
+    min-height: 112px !important;
+    margin: 34px auto 82px !important;
+    padding: 28px 46px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+    text-align: center !important;
+  }
+
+  .practiceOval::before {
+    left: -2px !important;
+    right: -2px !important;
+    top: -14px !important;
+    bottom: -14px !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL SUPPORT-CARD LAYER ONLY
+   Reference layout:
+   - top two cards inward
+   - bottom two cards at far left/right
+   - NO other page layer changed
+   ========================================================= */
+@media screen and (min-width: 1051px) {
+
+  .supportGrid {
+    position: relative !important;
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 1280px !important;
+    height: 270px !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .supportCard {
+    position: absolute !important;
+
+    width: 360px !important;
+    height: 108px !important;
+    min-height: 108px !important;
+    max-width: none !important;
+
+    margin: 0 !important;
+    padding: 24px 28px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+
+    box-sizing: border-box !important;
+
+    background: #DFE6E9 !important;
+    border-radius: 28px 28px 0 28px !important;
+
+    box-shadow:
+      -4px -4px 4px #FFFFFF,
+       4px  4px 4px #C4C4C4 !important;
+
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 1.45 !important;
+    text-align: left !important;
+
+    transform: none !important;
+  }
+
+  /* TOP LEFT — inward */
+  .supportGrid .supportCard:nth-child(1) {
+    top: 0 !important;
+    left: 275px !important;
+    right: auto !important;
+
+    border-top: 5px solid #2D4CC8 !important;
+  }
+
+  /* TOP RIGHT — inward */
+  .supportGrid .supportCard:nth-child(2) {
+    top: 0 !important;
+    right: 275px !important;
+    left: auto !important;
+
+    border-top: 5px solid #2D4CC8 !important;
+  }
+
+  /* BOTTOM LEFT — outer edge */
+  .supportGrid .supportCard:nth-child(3) {
+    top: 145px !important;
+    left: 0 !important;
+    right: auto !important;
+
+    border-top: 5px solid #CF1464 !important;
+  }
+
+  /* BOTTOM RIGHT — outer edge */
+  .supportGrid .supportCard:nth-child(4) {
+    top: 145px !important;
+    right: 0 !important;
+    left: auto !important;
+
+    border-top: 5px solid #CF1464 !important;
+  }
+
+  /* Keep this layer completely static */
+  .supportCard:hover {
+    transform: none !important;
+    box-shadow:
+      -4px -4px 4px #FFFFFF,
+       4px  4px 4px #C4C4C4 !important;
+    border-top-width: 5px !important;
+  }
+}
+
+
+/* =========================================================
+   SUPPORT CARDS — REMOVE OVERLAP / FIX VERTICAL SPACING ONLY
+   ========================================================= */
+@media screen and (min-width: 1051px) {
+
+  /* Give the complete 4-card layer enough height so it does
+     not collide with the oval section below */
+  .supportGrid {
+    position: relative !important;
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 1280px !important;
+    height: 330px !important;
+
+    margin: 0 auto 34px !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Keep all four cards at the same size */
+  .supportCard {
+    width: 360px !important;
+    height: 108px !important;
+    min-height: 108px !important;
+    margin: 0 !important;
+  }
+
+  /* Top row */
+  .supportGrid .supportCard:nth-child(1) {
+    top: 0 !important;
+    left: 220px !important;
+    right: auto !important;
+  }
+
+  .supportGrid .supportCard:nth-child(2) {
+    top: 0 !important;
+    right: 220px !important;
+    left: auto !important;
+  }
+
+  /* Bottom row — moved lower so it cannot overlap top row */
+  .supportGrid .supportCard:nth-child(3) {
+    top: 165px !important;
+    left: 60px !important;
+    right: auto !important;
+  }
+
+  .supportGrid .supportCard:nth-child(4) {
+    top: 165px !important;
+    right: 60px !important;
+    left: auto !important;
+  }
+
+  /* Keep clear space between card layer and oval */
+  .practiceOval {
+    margin-top: 24px !important;
+  }
+}
+
+
+/* =========================================================
+   PRACTICE SUPPORT — REMOVE TOP OVERLAP ONLY
+   Keeps every card/design layer unchanged.
+   ========================================================= */
+@media screen and (min-width: 1051px) {
+
+  /* Create clear space below the Practice-Oriented panel */
+  .supportGrid {
+    margin-top: 48px !important;
+    margin-bottom: 34px !important;
+    height: 330px !important;
+  }
+
+  /* Keep the top two cards fully below the panel */
+  .supportGrid .supportCard:nth-child(1),
+  .supportGrid .supportCard:nth-child(2) {
+    top: 0 !important;
+  }
+
+  /* Keep second row spacing unchanged */
+  .supportGrid .supportCard:nth-child(3),
+  .supportGrid .supportCard:nth-child(4) {
+    top: 165px !important;
+  }
+
+  /* Do not allow shadows to visually merge into the panel above */
+  .practiceIntro {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* =========================================================
+   FINAL PILLAR CARD HEIGHT FIX
+   - Removes the extra empty space below the checklist
+   - Applies to desktop + tablet + mobile
+   - Keeps the same card design, SVG frame, shadows, text,
+     icons and spacing between card contents
+   - Keep this block at the VERY BOTTOM of the CSS file
+   ========================================================= */
+
+/* Let every pillar card finish just after its actual content. */
+.pillar {
+  height: auto !important;
+  min-height: 0 !important;
+  aspect-ratio: auto !important;
+}
+
+/* Content determines the final card height instead of filling
+   a fixed 610px / ratio-based card. */
+.pillarContent {
+  height: auto !important;
+  min-height: 0 !important;
+  padding-bottom: 16px !important;
+}
+
+/* Preserve the pointed/top-card content area so the design
+   remains the same while only the unnecessary bottom area is removed. */
+.pillarHead {
+  height: 220px !important;
+  min-height: 220px !important;
+  flex-shrink: 0 !important;
+}
+
+/* MOBILE ONLY — slightly more compact bottom area */
+@media screen and (max-width: 600px) {
+  .pillar {
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+  }
+
+  .pillarContent {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-bottom: 12px !important;
+  }
+
+  .pillarHead {
+    height: 180px !important;
+    min-height: 180px !important;
+  }
+
+  /* Remove any extra trailing space after the final checklist row */
+  .checkList {
+    margin-bottom: 0 !important;
+  }
+
+  .checkItem:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE HERO FIX
+   - Keep the hero frame design the same as the webpage
+   - Reduce only the large gap between subtitle and image
+   - Mobile only
+   - Keep this block at the VERY BOTTOM of the CSS file
+   ========================================================= */
+@media screen and (max-width: 600px) {
+
+  /* SAME OUTER FRAME STYLE AS WEBPAGE */
+  .heroFrame {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    padding: 14px !important;
+    margin: 0 !important;
+
+    box-sizing: border-box !important;
+
+    border-radius: 32px !important;
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      -8px -8px 16px #ffffff inset,
+       8px  8px 16px rgba(196, 196, 196, 0.8) inset !important;
+
+    overflow: visible !important;
+  }
+
+  /* SAME INNER RAISED FRAME STYLE AS WEBPAGE */
+  .heroFrame > .hero {
+    position: relative !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+    min-height: clamp(540px, 118vw, 575px) !important;
+
+    margin: 0 !important;
+
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+
+    border-radius: 16px !important;
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      10px 10px 20px #c4c4c4,
+      -10px -10px 20px rgba(255, 255, 255, 0.65) !important;
+  }
+
+  /* Keep current text layout; only remove the oversized
+     bottom reserve that was creating the large blank gap. */
+  .heroFrame .heroCopy {
+    padding-bottom: 0 !important;
+  }
+
+  .heroFrame .heroCopy p {
+    margin-bottom: 0 !important;
+  }
+
+  /* Move only the image upward so it starts closer
+     to the subtitle without changing its design. */
+  .heroFrame .heroImage {
+    bottom: 68px !important;
+
+    width: min(110%, 560px) !important;
+    height: auto !important;
+
+    object-fit: contain !important;
+    object-position: center bottom !important;
+
+    transform: translateX(-50%) scaleX(-1) !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE ONLY — REMOVE HERO BOTTOM GAP + MATCH
+   GROWTH SECTION FRAME TO DESKTOP/WEBPAGE
+   Keep this block at the VERY BOTTOM of the CSS file.
+   ========================================================= */
+@media screen and (max-width: 600px) {
+
+  /* -------------------------------------------------------
+     1) HERO: remove ONLY the extra space below the image.
+     The image keeps the same visual vertical position by
+     reducing the hero height by the previous 68px bottom gap.
+     ------------------------------------------------------- */
+  .heroFrame > .hero {
+    height: auto !important;
+    min-height: clamp(472px, calc(118vw - 68px), 507px) !important;
+  }
+
+  .heroFrame .heroImage {
+    left: 50% !important;
+    right: auto !important;
+    bottom: 0 !important;
+
+    width: min(110%, 560px) !important;
+    height: auto !important;
+
+    object-fit: contain !important;
+    object-position: center bottom !important;
+
+    transform: translateX(-50%) scaleX(-1) !important;
+    transform-origin: center center !important;
+  }
+
+
+  /* -------------------------------------------------------
+     2) PROGRAMMING GROWTH: same frame/shadow language
+     as the desktop webpage, while keeping mobile stacking.
+     ------------------------------------------------------- */
+  .growthFrame {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    padding: 14px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    box-sizing: border-box !important;
+
+    border-radius: 32px !important;
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      -8px -8px 16px #ffffff inset,
+       8px  8px 16px rgba(196, 196, 196, 0.8) inset !important;
+
+    overflow: visible !important;
+  }
+
+  .growthFrame > .growth {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+
+    margin: 0 !important;
+
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+
+    border-radius: 18px !important;
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      4px 4px 4px #c4c4c4,
+      -4px -4px 4px rgba(255, 255, 255, 0.65) !important;
+  }
+
+  .growthFrame .videoVisual {
+    border-radius: 0 0 18px 18px !important;
+    overflow: hidden !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL CODING RESOURCES RESPONSIVE SYSTEM
+   Keeps existing content, colors, shadows, cards and visual language.
+   Segoe UI is primary; Inter is fallback.
+   ========================================================================== */
+
+.page {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  overflow-x: hidden !important;
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+}
+
+.page,
+.page *,
+.page *::before,
+.page *::after {
+  box-sizing: border-box !important;
+}
+
+.shell {
+  width: min(1280px, calc(100% - 48px)) !important;
+  max-width: 1280px !important;
+  min-width: 0 !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+.breadcrumb {
+  width: 100% !important;
+  min-width: 0 !important;
+  flex-wrap: wrap !important;
+}
+
+.breadcrumb b {
+  color: #2d4cc8 !important;
+  font-weight: 700 !important;
+}
+
+/* ---------- TYPOGRAPHY ---------- */
+.heroCopy h1 {
+  font-size: 36px !important;
+  line-height: 1.25 !important;
+  font-weight: 700 !important;
+}
+
+.learning h2,
+.practice h2,
+.practiceIntro h2,
+.growth h2,
+.growthCopy h2 {
+  font-size: 36px !important;
+  line-height: 1.25 !important;
+  font-weight: 700 !important;
+}
+
+.heroCopy p,
+.learning > p,
+.practiceIntro p,
+.growthCopy p {
+  font-size: 24px !important;
+  line-height: 1.42 !important;
+  font-weight: 400 !important;
+}
+
+.pill,
+.learningCardText,
+.pillarHead b,
+.pillarHead span,
+.pillar h3,
+.checkText,
+.supportCard {
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+}
+
+/* ---------- COMMON WIDTH SAFETY ---------- */
+.heroFrame,
+.hero,
+.learning,
+.practice,
+.practiceIntro,
+.supportGrid,
+.practiceOval,
+.pillars,
+.growthFrame,
+.growth,
+.growthCopy,
+.videoVisual {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.heroFrame,
+.growthFrame {
+  width: 100% !important;
+}
+
+.heroImage,
+.learningCardOuter,
+.pillarSvg,
+.growthVideo {
+  max-width: 100% !important;
+}
+
+/* ---------- DESKTOP ---------- */
+@media screen and (min-width: 1051px) {
+  .heroFrame {
+    padding: 32px !important;
+  }
+
+  .hero {
+    width: 100% !important;
+    height: 550px !important;
+  }
+
+  .heroCopy {
+    position: absolute !important;
+    left: 36px !important;
+    top: 88px !important;
+    width: min(46%, 560px) !important;
+    max-width: 560px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    transform: none !important;
+    text-align: left !important;
+  }
+
+  .heroCopy p {
+    max-width: 500px !important;
+  }
+
+  .heroImage {
+    position: absolute !important;
+    left: auto !important;
+    right: -167px !important;
+    bottom: -27px !important;
+    width: 940px !important;
+    height: 660px !important;
+    object-fit: contain !important;
+    transform: scaleX(-1) !important;
+  }
+
+  .learningCards {
+    width: 100% !important;
+    height: 132px !important;
+    display: grid !important;
+    grid-template-columns: repeat(5, 248px) !important;
+    justify-content: center !important;
+    gap: 10px !important;
+  }
+
+  .pillars {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 400px)) !important;
+    justify-content: center !important;
+    gap: 36px !important;
+  }
+
+  .pillar {
+    width: 400px !important;
+    max-width: 100% !important;
+  }
+
+  .growth {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr) !important;
+    height: 480px !important;
+  }
+
+  .growthCopy {
+    padding: 64px 70px !important;
+  }
+}
+
+/* ---------- TABLET ---------- */
+@media screen and (min-width: 701px) and (max-width: 1050px) {
+  .shell {
+    width: min(92%, 900px) !important;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 24px !important;
+  }
+
+  .hero {
+    height: auto !important;
+    min-height: 560px !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.92fr) !important;
+    align-items: center !important;
+    overflow: hidden !important;
+  }
+
+  .heroCopy {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 48px 0 48px 36px !important;
+    margin: 0 !important;
+    transform: none !important;
+    z-index: 3 !important;
+  }
+
+  .heroCopy h1 {
+    font-size: 34px !important;
+  }
+
+  .heroCopy p {
+    font-size: 20px !important;
+    max-width: 430px !important;
+  }
+
+  .heroImage {
+    position: relative !important;
+    inset: auto !important;
+    width: min(560px, 125%) !important;
+    height: auto !important;
+    justify-self: end !important;
+    align-self: end !important;
+    transform: scaleX(-1) !important;
+  }
+
+  .learning {
+    padding: 64px 0 48px !important;
+  }
+
+  .learningCards {
+    width: min(100%, 760px) !important;
+    height: auto !important;
+    margin: 36px auto 0 !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 248px) !important;
+    justify-content: center !important;
+    gap: 20px 28px !important;
+  }
+
+  .supportGrid {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    padding: 42px 20px !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 28px !important;
+  }
+
+  .supportGrid .supportCard,
+  .supportGrid .supportCard:nth-child(1),
+  .supportGrid .supportCard:nth-child(2),
+  .supportGrid .supportCard:nth-child(3),
+  .supportGrid .supportCard:nth-child(4) {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 100px !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .practiceOval {
+    width: min(92%, 820px) !important;
+    margin: 30px auto 60px !important;
+  }
+
+  .pillars {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 400px)) !important;
+    justify-content: center !important;
+    gap: 28px !important;
+  }
+
+  .pillar {
+    width: 100% !important;
+    max-width: 400px !important;
+  }
+
+  .growth {
+    height: auto !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .growthCopy {
+    width: 100% !important;
+    padding: 48px 44px !important;
+  }
+
+  .videoVisual {
+    width: 100% !important;
+    min-height: 360px !important;
+    border-radius: 0 0 18px 18px !important;
+  }
+}
+
+/* ---------- MOBILE ---------- */
+@media screen and (max-width: 700px) {
+  .shell {
+    width: calc(100% - 24px) !important;
+    padding: 0 !important;
+  }
+
+  .breadcrumb {
+    min-height: 58px !important;
+    height: auto !important;
+    padding: 14px 0 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 14px !important;
+    border-radius: 24px !important;
+  }
+
+  .hero {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 560px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+    border-radius: 16px !important;
+  }
+
+  .heroCopy {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 34px 22px 0 !important;
+    margin: 0 !important;
+    transform: none !important;
+    text-align: left !important;
+    align-items: flex-start !important;
+    z-index: 5 !important;
+  }
+
+  .heroCopy .pill {
+    align-self: flex-start !important;
+    margin: 0 0 22px !important;
+  }
+
+  .heroCopy h1 {
+    width: 100% !important;
+    max-width: 330px !important;
+    margin: 0 0 16px !important;
+    font-size: 32px !important;
+    line-height: 40px !important;
+    text-align: left !important;
+  }
+
+  .heroCopy p {
+    width: 100% !important;
+    max-width: 310px !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: left !important;
+  }
+
+  .heroImage {
+    position: relative !important;
+    inset: auto !important;
+    width: min(520px, 118%) !important;
+    max-width: none !important;
+    height: auto !important;
+    margin: auto -9% -4px auto !important;
+    align-self: flex-end !important;
+    object-fit: contain !important;
+    object-position: center bottom !important;
+    transform: scaleX(-1) !important;
+    z-index: 4 !important;
+  }
+
+  .learning {
+    padding: 48px 0 !important;
+  }
+
+  .learning h2,
+  .practice h2,
+  .practiceIntro h2,
+  .growth h2,
+  .growthCopy h2 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .learning > p,
+  .practiceIntro p,
+  .growthCopy p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .learningCards {
+    width: min(248px, 100%) !important;
+    height: auto !important;
+    margin: 24px auto 0 !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 248px) !important;
+    justify-content: center !important;
+    gap: 16px !important;
+  }
+
+  .learningCard {
+    width: min(248px, 100%) !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  .practiceIntro {
+    width: 100% !important;
+    padding: 44px 22px !important;
+    border-radius: 8px 60px 8px 60px !important;
+  }
+
+  .supportGrid {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 28px 6px !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
+  .supportGrid .supportCard,
+  .supportGrid .supportCard:nth-child(1),
+  .supportGrid .supportCard:nth-child(2),
+  .supportGrid .supportCard:nth-child(3),
+  .supportGrid .supportCard:nth-child(4) {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 92px !important;
+    margin: 0 !important;
+    padding: 22px 24px !important;
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+
+  .practiceOval {
+    width: calc(100% - 12px) !important;
+    min-height: 0 !important;
+    margin: 30px auto 48px !important;
+    padding: 24px 18px !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+
+  .pillars {
+    width: 100% !important;
+    max-width: 424px !important;
+    margin: 0 auto !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
+  .pillar {
+    width: 100% !important;
+    max-width: 424px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 22px 30px !important;
+  }
+
+  .pillarHead {
+    width: calc(100% + 44px) !important;
+    min-height: 200px !important;
+    height: 200px !important;
+    margin-left: -22px !important;
+    padding: 24px 18px 54px !important;
+  }
+
+  .pillarHead b {
+    font-size: 46px !important;
+    line-height: 54px !important;
+  }
+
+  .pillarHead span {
+    width: 100% !important;
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+
+  .pillar h3 {
+    width: calc(100% + 44px) !important;
+    margin: 26px 0 20px -22px !important;
+    padding: 0 16px !important;
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+
+  .checkList {
+    width: 100% !important;
+    padding: 0 !important;
+    gap: 12px !important;
+  }
+
+  .checkItem {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 42px !important;
+  }
+
+  .checkText {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .growthFrame {
+    margin: 48px 0 !important;
+  }
+
+  .growth {
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .growthCopy {
+    width: 100% !important;
+    padding: 36px 24px !important;
+  }
+
+  .growthCopy h2 {
+    margin-top: 24px !important;
+  }
+
+  .videoVisual {
+    width: 100% !important;
+    height: clamp(230px, 65vw, 320px) !important;
+    min-height: 0 !important;
+    border-radius: 0 0 18px 18px !important;
+  }
+
+  .growthVideo {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+}
+
+/* ---------- VERY SMALL MOBILE ---------- */
+@media screen and (max-width: 420px) {
+  .shell {
+    width: calc(100% - 16px) !important;
+  }
+
+  .heroFrame,
+  .growthFrame {
+    padding: 10px !important;
+  }
+
+  .heroCopy {
+    padding: 28px 18px 0 !important;
+  }
+
+  .heroCopy h1 {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+
+  .heroImage {
+    width: 122% !important;
+    margin-right: -12% !important;
+  }
+
+  .supportCard {
+    padding: 20px !important;
+  }
+
+  .pillar {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .pillarHead {
+    width: calc(100% + 36px) !important;
+    margin-left: -18px !important;
+  }
+
+  .pillar h3 {
+    width: calc(100% + 36px) !important;
+    margin-left: -18px !important;
+  }
+}
+
+/* ==========================================================================
+   PILLAR CARDS — PROPORTIONAL REFERENCE LAYOUT
+   Fixes text overlap and scales the complete 3-card group like the reference.
+   Other sections are untouched.
+   ========================================================================== */
+
+.pillars {
+  width: 100% !important;
+  max-width: 1180px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: clamp(14px, 2.4vw, 36px) !important;
+  align-items: stretch !important;
+}
+
+.pillars .pillar {
+  position: relative !important;
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+  min-height: 0 !important;
+  aspect-ratio: 424 / 630 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border-radius: clamp(12px, 1.4vw, 20px) !important;
+  container-type: inline-size;
+}
+
+.pillars .pillarSvg {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: fill !important;
+  pointer-events: none !important;
+}
+
+.pillars .pillarContent {
+  position: relative !important;
+  z-index: 2 !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  padding: 0 7.2% 5.5% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  box-sizing: border-box !important;
+}
+
+/* Top pointed area */
+.pillars .pillarHead {
+  width: calc(100% + 15.5%) !important;
+  height: 33.5% !important;
+  min-height: 0 !important;
+  margin-left: -7.75% !important;
+  padding: 5.5% 5% 0 !important;
+  flex: 0 0 33.5% !important;
+  gap: 0.8% !important;
+  box-sizing: border-box !important;
+}
+
+.pillars .pillarHead b {
+  margin: 0 !important;
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: clamp(24px, 12cqw, 48px) !important;
+  line-height: 1.05 !important;
+}
+
+.pillars .pillarHead span {
+  width: 100% !important;
+  margin: 0 !important;
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: clamp(12px, 6.2cqw, 24px) !important;
+  line-height: 1.18 !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
+
+/* Blue subheading */
+.pillars .pillar h3 {
+  width: 100% !important;
+  margin: 13% 0 8% !important;
+  padding: 0 !important;
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: clamp(12px, 6.1cqw, 24px) !important;
+  line-height: 1.18 !important;
+  text-align: center !important;
+  flex: 0 0 auto !important;
+}
+
+/* Checklist */
+.pillars .checkList {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: clamp(6px, 3.1cqw, 14px) !important;
+  flex: 1 1 auto !important;
+  justify-content: flex-start !important;
+  min-height: 0 !important;
+}
+
+.pillars .checkItem {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: clamp(7px, 3.2cqw, 14px) !important;
+}
+
+.pillars .checkIconCircle {
+  width: clamp(24px, 10.4cqw, 44px) !important;
+  height: clamp(24px, 10.4cqw, 44px) !important;
+  min-width: clamp(24px, 10.4cqw, 44px) !important;
+  min-height: clamp(24px, 10.4cqw, 44px) !important;
+  flex: 0 0 auto !important;
+}
+
+.pillars .checkIcon {
+  width: clamp(14px, 5.7cqw, 24px) !important;
+  height: clamp(14px, 5.7cqw, 24px) !important;
+}
+
+.pillars .checkText {
+  min-width: 0 !important;
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: clamp(10px, 5.2cqw, 20px) !important;
+  line-height: 1.2 !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+}
+
+/* Tablet: still preserve the 3-card reference composition */
+@media screen and (max-width: 900px) {
+  .pillars {
+    max-width: 100% !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: clamp(10px, 2vw, 18px) !important;
+  }
+}
+
+/* Narrow mobile: stack cards so content remains readable */
+@media screen and (max-width: 520px) {
+  .pillars {
+    width: min(100%, 360px) !important;
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+
+  .pillars .pillar {
+    aspect-ratio: 424 / 630 !important;
+  }
+
+  .pillars .pillarHead b {
+    font-size: clamp(34px, 12cqw, 48px) !important;
+  }
+
+  .pillars .pillarHead span,
+  .pillars .pillar h3 {
+    font-size: clamp(18px, 6.2cqw, 24px) !important;
+  }
+
+  .pillars .checkText {
+    font-size: clamp(16px, 5.2cqw, 20px) !important;
+  }
+}
+
+/* ==========================================================================
+   PILLAR HEADER — CENTER ALIGNMENT ONLY
+   Centers 01/02/03 and their titles inside the pointed top section.
+   No other card sizing, content, spacing, shadows or responsiveness changed.
+   ========================================================================== */
+.pillars .pillarHead {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  text-align: center !important;
+}
+
+.pillars .pillarHead b,
+.pillars .pillarHead span {
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  align-self: center !important;
+}
+
+.pillars .pillarHead b {
+  display: block !important;
+}
+
+.pillars .pillarHead span {
+  display: block !important;
+}
+
+/* ==========================================================================
+   PILLAR HEADER — TRUE HORIZONTAL CENTER FIX ONLY
+   The previous header was wider than the card and shifted left.
+   Keep the same visual design; center the header geometry itself.
+   ========================================================================== */
+.pillars .pillarHead {
+  position: relative !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.pillars .pillarHead b,
+.pillars .pillarHead span {
+  position: relative !important;
+  left: 0 !important;
+  transform: none !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* ==========================================================================
+   PRACTICE-ORIENTED CODING SUPPORT — INNER EMPTY SPACE REDUCTION ONLY
+   Keeps the existing shape, shadow, typography, colors and alignment.
+   ========================================================================== */
+.practiceIntro {
+  padding-top: 42px !important;
+  padding-bottom: 42px !important;
+}
+
+@media (max-width: 700px) {
+  .practiceIntro {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .practiceIntro {
+    padding-top: 28px !important;
+    padding-bottom: 28px !important;
+  }
+}
+
+/* ==========================================================================
+   PRACTICE-ORIENTED CODING SUPPORT — EMPTY SPACE FIX
+   Removes the forced minimum height that was keeping the card too tall.
+   Keeps the same shape, shadows, colors, text and alignment.
+   ========================================================================== */
+
+/* Desktop */
+@media screen and (min-width: 1051px) {
+  .practiceIntro {
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 38px 70px !important;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 701px) and (max-width: 1050px) {
+  .practiceIntro {
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 34px 40px !important;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 700px) {
+  .practiceIntro {
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 28px 22px !important;
+  }
+}
+
+
+/* ==========================================================================
+   BADGES — MATCH THE STANDARD NEUROLXP BADGE STYLE
+   ONLY badge styling is changed. No other page layout/design is changed.
+   ========================================================================== */
+
+.heroCopy .pill,
+.growthCopy .pill {
+  box-sizing: border-box !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  min-height: 50px !important;
+  height: auto !important;
+  padding: 10px 24px !important;
+  border: 0 !important;
+  border-radius: 28px !important;
+  background: #DFE6E9 !important;
+  color: #2D4CC8 !important;
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0.02em !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow:
+    inset -4px -4px 4px #FFFFFF,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+  transform: none !important;
+  filter: none !important;
+  transition: none !important;
+}
+
+.heroCopy .pill:hover,
+.heroCopy .pill:focus,
+.heroCopy .pill:active,
+.growthCopy .pill:hover,
+.growthCopy .pill:focus,
+.growthCopy .pill:active {
+  background: #DFE6E9 !important;
+  color: #2D4CC8 !important;
+  box-shadow:
+    inset -4px -4px 4px #FFFFFF,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+@media screen and (max-width: 700px) {
+  .heroCopy .pill,
+  .growthCopy .pill {
+    min-height: 44px !important;
+    padding: 8px 20px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    white-space: nowrap !important;
+  }
+}
+
+
+/* Requested heading colours and card text alignment. */
+.page .heroCopy h1 .headingAccent,
+.page .learning h2 .headingAccent,
+.page .growthCopy h2 .headingAccent {
+  color: #2d4cc8 !important;
+  -webkit-text-fill-color: #2d4cc8 !important;
+}
+
+.page .supportGrid .supportCard {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.page .supportGrid .supportCard .supportCardText {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  text-align: center !important;
+  white-space: normal;
+}
+
+/* Move only the numbers and titles; preserve the pointed card design. */
+.page .pillars .pillarHead > b,
+.page .pillars .pillarHead > span {
+  position: relative !important;
+  top: 12px !important;
+}
+
+/* ==================================================
+   MOBILE SUPPORT CARDS — NARROWER WIDTH + SIDE SPACE
+   Keeps desktop/tablet design unchanged.
+================================================== */
+@media screen and (max-width: 700px) {
+  .page .supportGrid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .page .supportGrid .supportCard,
+  .page .supportGrid .supportCard:nth-child(1),
+  .page .supportGrid .supportCard:nth-child(2),
+  .page .supportGrid .supportCard:nth-child(3),
+  .page .supportGrid .supportCard:nth-child(4) {
+    width: calc(100% - 28px) !important;
+    max-width: 340px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* ==================================================
+   MOBILE HERO CONTENT — CENTER ALIGNMENT ONLY
+   Centers the Coding Resources badge, heading and paragraph.
+   Desktop/tablet remain unchanged.
+================================================== */
+@media screen and (max-width: 480px) {
+  .page .hero .heroCopy {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+  }
+
+  .page .hero .heroCopy .pill {
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .page .hero .heroCopy h1 {
+    width: 100% !important;
+    max-width: 320px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .page .hero .heroCopy p {
+    width: 100% !important;
+    max-width: 300px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+}
+
+/* =========================================================
+   CODING RESOURCES — TALK TO OUR EXPERT BUTTON
+   Positioned in the empty right-side area beside the
+   "Comprehensive Programming / Learning Materials" heading.
+   No learning-card or section layout dimensions are changed.
+   ========================================================= */
+
+.learning {
+  position: relative !important;
+}
+
+/* Desktop:
+   the heading/subtext are centered and capped narrower than
+   the full 1280px section, leaving a safe empty right gutter. */
+.codingResourcesExpertSlot {
+  --expert-button-size: 64px;
+  position: absolute;
+  top: 82px;
+  right: 28px;
+  width: var(--expert-button-size);
+  height: var(--expert-button-size);
+  z-index: 20;
+  pointer-events: none;
+}
+
+.codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  position: absolute !important;
+  inset: 0 !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: auto !important;
+  margin: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  pointer-events: auto !important;
+}
+
+/* Laptop/tablet:
+   keep the launcher inside the section's unused top padding
+   instead of letting it touch the centered heading. */
+@media screen and (max-width: 1050px) {
+  .codingResourcesExpertSlot {
+    --expert-button-size: 48px;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+/* Mobile:
+   the Learning section already has 48px top padding, so the
+   smaller button sits completely inside that empty padding. */
+@media screen and (max-width: 700px) {
+  .codingResourcesExpertSlot {
+    --expert-button-size: 40px;
+    top: 4px;
+    right: 4px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .codingResourcesExpertSlot {
+    --expert-button-size: 38px;
+    top: 5px;
+    right: 2px;
+  }
+}
+
+/* Same subtle professional presence animation as the other pages. */
+.codingResourcesExpertSlot::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: 0;
+  border: 2px solid rgba(45, 76, 200, 0.38);
+  border-radius: 50%;
+  box-sizing: border-box;
+  pointer-events: none;
+  opacity: 0;
+  animation: codingResourcesExpertPulse 3s ease-out infinite;
+}
+
+@keyframes codingResourcesExpertPulse {
+  0%, 15% {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.55;
+  }
+
+  75%, 100% {
+    transform: scale(1.32);
+    opacity: 0;
+  }
+}
+
+.codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  transition: box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover,
+.codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible {
+  box-shadow:
+    -5px -5px 10px #ffffff,
+    5px 5px 10px #c6c6c9,
+    0 0 0 3px rgba(45, 76, 200, 0.14);
+}
+
+.codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+.codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+  transform-origin: center;
+  animation: codingResourcesExpertWave 600ms ease-in-out;
+}
+
+@keyframes codingResourcesExpertWave {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-12deg); }
+  50% { transform: rotate(10deg); }
+  75% { transform: rotate(-5deg); }
+}
+
+.codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]):active {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c6c6c9;
+}
+
+.codingResourcesExpertSlot:has(> :global(button[aria-expanded="true"]))::after {
+  animation: none;
+  opacity: 0;
+}
+
+/* Do not let the pulse ring invade mobile text space. */
+@media screen and (max-width: 700px) {
+  .codingResourcesExpertSlot::after {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .codingResourcesExpertSlot::after,
+  .codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+  .codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+    animation: none;
+  }
+
+  .codingResourcesExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+    transition: none;
+  }
+}
+
+/* Desktop only – Hero label, heading and description spacing */
+@media screen and (min-width: 1024px) {
+  .heroCopy .pill {
+    margin-bottom: 35px;
+  }
+
+  .heroCopy h1 {
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+
+  .heroCopy p {
+    margin-top: 0;
+  }
+}
+
+
+.growthVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  border: none;
+  display: block;
+  transform: translate(-50%, -50%) scale(2.2);
+  transform-origin: center center;
+}

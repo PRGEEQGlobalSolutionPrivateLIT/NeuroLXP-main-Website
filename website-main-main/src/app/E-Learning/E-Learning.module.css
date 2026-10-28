@@ -1,0 +1,7232 @@
+.eLearning {
+  width: 100%;
+  height: 5471px;
+  position: relative;
+  background-color: #dfe6e9;
+  box-shadow:
+    4px 4px 4px rgba(196, 196, 196, 0.8),
+    -4px -4px 4px rgba(255, 255, 255, 0.9),
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8),
+    inset -4px -4px 4px rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  text-align: left;
+  font-size: 48px;
+  color: #31344b;
+  font-family: "Segoe UI";
+  zoom: 0.89;
+}
+
+.eLearningChild {
+  position: absolute;
+  top: -771px;
+  left: calc(50% - 743px);
+  width: 1487px;
+  height: 1413px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.frameParent {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 539px);
+  width: 1078px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+  flex-shrink: 0;
+  text-align: center;
+  transform: translatey(40);
+}
+
+.frameWrapper {
+  align-self: stretch;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frameGroup {
+  width: 100%;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 100%;
+}
+
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.frameChild {
+  width: 294.1px;
+  height: 50.2px;
+  position: relative;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -8px -8px 16px rgba(255, 255, 255, 0.9),
+    inset 8px 8px 16px rgba(196, 196, 196, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.deliverEngagingDigitalContainer {
+  width: 1138px;
+  height: 63px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.deliverEngaging {
+  line-height: 60px;
+  font-size: 36px;
+}
+
+.digitalLearning {
+  color: #2d4cc8;
+  line-height: 60px;
+  font-size: 36px;
+}
+
+.neurolxpEmpowersOrganization {
+  width: 840px;
+  height: 80px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameDiv {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  text-align: left;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+.frameItem {
+  height: 60.2px;
+  width: 200px;
+  position: relative;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.frameWrapper2 {
+  height: 60px;
+  width: 210px;
+  box-shadow:
+    -8px -8px 16px #fff,
+    8px 8px 16px #c6c6c9;
+  border-radius: 8px;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  box-sizing: border-box;
+}
+
+.startLearningWrapper {
+  width: 140px;
+  display: flex;
+  align-items: center;
+}
+
+.startLearning {
+  width: 147px;
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frameParent2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow:
+    -8px -8px 16px #fff,
+    8px 8px 16px #c6c6c9;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-family: "Segoe UI";
+}
+
+.frameInner {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: 1096px;
+  width: 132px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.frameParent3 {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  width: 1376px;
+  height: 45px;
+}
+
+.logo01SynapseSpark1Parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.logo01SynapseSpark1Icon {
+  height: 45px;
+  width: 120px;
+  position: relative;
+  object-fit: cover;
+}
+
+.frameParent4 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.homeParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.arrowDown01Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+
+.ourCustomersParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2d4cc8;
+}
+
+.ourCustomers {
+  position: relative;
+  line-height: 24px;
+}
+
+.signInHelpWrapper {
+  position: absolute;
+  top: calc(50% - 22.5px);
+  left: 1244px;
+  box-shadow:
+    -8px -8px 16px #fff,
+    8px 8px 16px #c6c6c9;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  width: 132px;
+  height: 44px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #2d4cc8;
+  font-family: "Segoe UI";
+}
+
+.signInHelp {
+  width: 97px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.frameParent5 {
+  position: absolute;
+  top: 112px;
+  left: 80px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  font-size: 16px;
+  color: #2f3547;
+  font-family: "Segoe UI";
+}
+
+.ourCustomersWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.solutionsFor {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.arrowRightDoubleGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #243fa8;
+}
+
+.eLearningInner {
+  position: absolute;
+  top: 577px;
+  left: calc(50% - 349px);
+  box-shadow:
+    10px 10px 20px #c4c4c4,
+    -10px -10px 20px #fff;
+  border-radius: 32px 0px 32px 0px;
+  background-color: #dfe6e9;
+  width: 697.7px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.frameIcon {
+  height: 99px;
+  width: 100%;
+  position: relative;
+  border-radius: 50px;
+  object-fit: contain;
+}
+
+.frameParent6 {
+  position: absolute;
+  top: 771.99px;
+  left: 119px;
+  width: 1201.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.frameParent7 {
+  width: 989px;
+  height: 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.keyChallengesBadge {
+  width: 222px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -8px -8px 16px rgba(255, 255, 255, 0.9),
+    inset 8px 8px 16px rgba(196, 196, 196, 0.85);
+  color: #2d4cc8;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  flex-shrink: 0;
+}
+
+.addressingKeyChallengesInEParent {
+  align-self: stretch;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.addressingKeyChallenges {
+  width: 976px;
+  height: 63px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.neurolxpHelpsOrganizations {
+  width: 793px;
+  height: 72px;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameParent8 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.frameChild3 {
+  height: 1450.6px;
+  width: 130.6px;
+  position: relative;
+}
+
+.frameParent9 {
+  width: 1039.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+  gap: 36px;
+}
+
+.frameWrapper3 {
+  width: 1039.3px;
+  height: 322px;
+  box-shadow:
+    -4px -4px 8px #fff inset,
+    4px 4px 8px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 30px 32px 32px;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+.frameParent10 {
+  width: 977px;
+  height: 258px;
+  position: relative;
+}
+
+.frameChild4 {
+  position: absolute;
+  top: 0.18px;
+  left: 0.71px;
+  width: 720.1px;
+  height: 133.8px;
+  object-fit: contain;
+}
+
+.frameWrapper4 {
+  position: absolute;
+  top: 158px;
+  left: 0px;
+  box-shadow:
+    -4px -4px 8px #fff,
+    4px 4px 8px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  border-right: 3px solid #2d4cc8;
+  border-left: 3px solid #2d4cc8;
+  box-sizing: border-box;
+  width: 977px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.frameChild5 {
+  position: absolute;
+  top: calc(50% - 33px);
+  left: 15.93px;
+  width: 100%;
+  height: 66.7px;
+  object-fit: contain;
+}
+
+.frameParent11 {
+  width: 977px;
+  height: 258px;
+  position: absolute;
+  margin: 0 !important;
+  top: 32px;
+  left: 32.07px;
+  z-index: 1;
+}
+
+.frameWrapper5 {
+  position: absolute;
+  top: 158px;
+  left: 0px;
+  box-shadow:
+    -4px -4px 8px #fff,
+    4px 4px 8px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  border-right: 3px solid #bf1869;
+  border-left: 3px solid #bf1869;
+  box-sizing: border-box;
+  width: 977px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.frameWrapper6 {
+  width: 1039.3px;
+  height: 322px;
+  box-shadow:
+    -4px -4px 8px #fff inset,
+    4px 4px 8px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 30px 32px 32px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.frameWrapper8 {
+  width: 1039.3px;
+  height: 322px;
+  box-shadow:
+    -4px -4px 8px #fff inset,
+    4px 4px 8px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 30px 32px 32px;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.frameWrapper9 {
+  position: absolute;
+  top: 158px;
+  left: 0px;
+  box-shadow:
+    -4px -4px 8px #fff,
+    4px 4px 8px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  border-right: 3px solid #67096e;
+  border-left: 3px solid #67096e;
+  box-sizing: border-box;
+  width: 977px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.frameWrapper10 {
+  width: 1039.3px;
+  height: 322px;
+  box-shadow:
+    -4px -4px 8px #fff inset,
+    4px 4px 8px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 30px 32px 32px;
+  box-sizing: border-box;
+  z-index: 4;
+}
+
+.frameWrapper11 {
+  position: absolute;
+  top: 158px;
+  left: 0px;
+  box-shadow:
+    -4px -4px 8px #fff,
+    4px 4px 8px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  border-right: 3px solid #2a7308;
+  border-left: 3px solid #2a7308;
+  box-sizing: border-box;
+  width: 977px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.eLearningItem {
+  position: absolute;
+  top: 3835.81px;
+  left: 82px;
+  width: 399px;
+  height: 120px;
+  flex-shrink: 0;
+}
+
+.eLearningInner2 {
+  position: absolute;
+  top: 3835.81px;
+  left: 521px;
+  width: 399px;
+  height: 120px;
+  flex-shrink: 0;
+}
+
+.frameChild14 {
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  width: 396px;
+  height: 120px;
+}
+
+.frameParent15 {
+  position: absolute;
+  top: 2599.6px;
+  left: 85px;
+  width: 1271px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.frameParent16 {
+  width: 1141px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.frameParent17 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.frameParent18 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.frameChild15 {
+  width: 274.2px;
+  height: 50.2px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+}
+
+.keyFeaturesOfNeurolxpELeaWrapper {
+  align-self: stretch;
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keyFeaturesOf {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+  flex-shrink: 0;
+  font-size: 36px !important;
+}
+
+.frameParent19 {
+  width: 858px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  font-size: 28px;
+}
+
+.frameParent20 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.ellipseParent {
+  height: 284px;
+  width: 404px;
+  position: relative;
+}
+
+.ellipseDiv {
+  position: absolute;
+  top: -0.37px;
+  left: 0px;
+  box-shadow:
+    -8px -8px 16px #fff,
+    8px 8px 16px #c4c4c4;
+  border-radius: 50%;
+  background-color: #dfe6e9;
+  width: 408px;
+  height: 284px;
+  flex-shrink: 0;
+}
+
+.ellipseIcon {
+  position: absolute;
+  top: 18.63px;
+  left: 26px;
+  width: 355px;
+  height: 246px;
+  flex-shrink: 0;
+}
+
+.frameParent21 {
+  position: absolute;
+  top: 55px;
+  left: calc(50% - 140.5px);
+  width: 281px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.ellipseGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  isolation: isolate;
+  gap: 16px;
+}
+
+.frameChild16 {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #bf1869;
+  z-index: 0;
+  flex-shrink: 0;
+}
+
+.aiPoweredContent {
+  width: 292px;
+  height: 34px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.aiBookIcon {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  margin: 0 !important;
+  top: 15px;
+  left: calc(50% - 16.5px);
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.smartContentCuration {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  color: #000;
+}
+
+.frameChild18 {
+  position: absolute;
+  top: 18.63px;
+  left: 26px;
+  box-shadow:
+    -8px -8px 16px #fff inset,
+    8px 8px 16px #c4c4c4 inset;
+  border-radius: 50%;
+  background-color: #dfe6e9;
+  width: 355px;
+  height: 246px;
+  flex-shrink: 0;
+}
+
+.frameChild19 {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #67096e;
+  z-index: 0;
+  flex-shrink: 0;
+}
+
+.frameChild22 {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #c05512;
+  z-index: 0;
+  flex-shrink: 0;
+}
+
+.frameChild25 {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #2a7308;
+  z-index: 0;
+  flex-shrink: 0;
+}
+
+.frameChild26 {
+  width: 168.4px;
+  height: 50.1px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.neurolxpSupportsA {
+  width: 603px;
+  height: 72px;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameParent27 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  font-size: 24px;
+}
+
+.frameParent28 {
+  align-self: stretch;
+  height: 162.2px;
+  position: relative;
+}
+
+.frameWrapper12 {
+  position: absolute;
+  top: 0.19px;
+  left: 0px;
+  width: 396px;
+  height: 162px;
+}
+
+.rectangleParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  height: 162px;
+}
+
+.rectangleDiv {
+  position: absolute;
+  top: calc(50% - 81px);
+  left: calc(50% - 198px);
+  box-shadow:
+    -4px -4px 8px #fff,
+    4px 4px 8px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  width: 300px;
+  height: 162px;
+}
+
+.frameChild27 {
+  position: absolute;
+  top: calc(50% - 65px);
+  left: calc(50% - 182px);
+  box-shadow:
+    -4px -4px 8px #fff inset,
+    4px 4px 8px #c4c4c4 inset;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  width: 380px;
+  height: 130px;
+}
+
+.frameParent29 {
+  position: absolute;
+  top: calc(50% - 34px);
+  left: 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.mortarboard01Icon {
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.onlineEducationParent {
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.onlineEducation {
+  width: 208px;
+  height: 34px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.universitiesSchools {
+  width: 229px;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameWrapper13 {
+  position: absolute;
+  top: 0.19px;
+  left: 439px;
+  width: 396px;
+  height: 162px;
+  text-align: left;
+}
+
+.frameChild29 {
+  position: absolute;
+  top: calc(50% - 65px);
+  left: calc(50% - 182px);
+  box-shadow:
+    -4px -4px 8px #fff,
+    4px 4px 8px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  width: 380px;
+  height: 130px;
+}
+
+.frameParent30 {
+  position: absolute;
+  top: calc(50% - 33.81px);
+  left: 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.corporateTrainingParent {
+  width: 273px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.corporateTraining {
+  align-self: stretch;
+  height: 34px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.employeeDevelopment {
+  width: 253px;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  color: #000;
+  display: inline-block;
+}
+
+.frameWrapper14 {
+  position: absolute;
+  top: 0px;
+  left: 875px;
+  width: 396px;
+  height: 162px;
+}
+
+.professionalCertifications {
+  width: 253px;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+
+.frameParent32 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.frameWrapper16 {
+  height: 162px;
+  width: 396px;
+  position: relative;
+}
+
+.skillDevelopment {
+  width: 229px;
+  height: 34px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.customerEducation {
+  width: 241px;
+  height: 34px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.customerPartner {
+  width: 272px;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameParent35 {
+  position: absolute;
+  top: 4260px;
+  left: calc(50% - 640px);
+  box-shadow:
+    -8px -8px 16px #fff inset,
+    8px 8px 16px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  width: 1280px;
+  height: 614px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.peopleTakingPartBusinessEvParent {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  box-shadow:
+    10px 10px 20px #c4c4c4,
+    -10px -10px 20px rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  width: 1216px;
+  height: 550px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.peopleTakingPartBusinessEv {
+  position: absolute;
+  top: -2.48px;
+  left: 0px;
+  width: 1216px;
+  height: 555px;
+  flex-shrink: 0;
+}
+
+.image21 {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 1216px;
+  height: 737px;
+  flex-shrink: 0;
+}
+
+.groupYoungBusinesspeopleUsi {
+  position: absolute;
+  top: calc(50% - 277px);
+  left: calc(50% - 608px);
+  width: 1216px;
+  height: 555px;
+  flex-shrink: 0;
+}
+
+.frameParent36 {
+  position: absolute;
+  top: calc(50% - 204.48px);
+  left: 50px;
+  width: 575px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 46px;
+  flex-shrink: 0;
+}
+
+.frameParent37 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.frameParent38 {
+  width: 544px;
+  height: 189px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.frameChild36 {
+  width: 170.7px;
+  height: 50.1px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.futureReadyELearning {
+  width: 370px;
+  height: 123px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.interactiveScalableLearning {
+  width: 464px;
+  height: 83px;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameWrapper18 {
+  width: 175px;
+  height: 60px;
+  box-shadow:
+    -8px -8px 16px #fff,
+    8px 8px 16px #c6c6c9;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+.getStartedWrapper {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.getStarted {
+  width: 116px;
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.rectangleIcon {
+  position: absolute;
+  top: 7px;
+  left: 579px;
+  width: 637px;
+  height: 543px;
+  flex-shrink: 0;
+}
+
+.youngStudentSittingTableUsParent {
+  position: absolute;
+  top: -2px;
+  left: 514px;
+  border-radius: 32px 0px 0px 32px;
+  background-color: #fff;
+  width: 702px;
+  height: 552px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.youngStudentSittingTableUsIcon {
+  position: absolute;
+  top: -5px;
+  left: calc(50% - 351px);
+  width: 717px;
+  height: 561px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.frameChild37 {
+  position: absolute;
+  top: calc(50% - 53px);
+  left: calc(50% - 53px);
+  border-radius: 500px;
+  width: 106px;
+  height: 106px;
+  flex-shrink: 0;
+}
+
+.image20 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 640px);
+  width: 1280px;
+  height: 800px;
+  flex-shrink: 0;
+}
+
+.frameParent39 {
+  position: absolute;
+  top: 4970px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 501px;
+  flex-shrink: 0;
+  font-size: 26px;
+  color: #2f3547;
+}
+
+.frameParent40 {
+  position: absolute;
+  bottom: -0.01px;
+  left: calc(50% - 720px);
+  box-shadow:
+    -10px -10px 20px #fff inset,
+    8px 8px 16px #c4c4c4 inset;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 459px;
+  overflow: hidden;
+}
+
+.frameParent41 {
+  position: absolute;
+  top: 49.81px;
+  left: 53.96px;
+  width: 1339.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.frameParent42 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+.frameParent43 {
+  width: 676px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.logo01SynapseSpark1Group {
+  width: 577px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.logo01SynapseSpark1Icon2 {
+  width: 299px;
+  height: 112px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.frameParent44 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.onePlatformParent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.onePlatform {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 34px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sparklesIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+
+.prgeeqGlobalSolutionsPrivatParent {
+  width: 459px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 16px;
+}
+
+.prgeeqGlobalSolutions {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+}
+
+.prestigeAtlanta1012Container {
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.blankLine2 {
+  line-height: 24px;
+}
+
+.frameParent45 {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+  flex-shrink: 0;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+.frameParent46 {
+  width: 619px;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.aboutUsParent {
+  width: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.aboutUs {
+  width: 93px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.ourMissionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 20px;
+  color: #2f3547;
+}
+
+.ourMission {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.quickLinksParent {
+  width: 207px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.quickLinks {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.neurolxpParent {
+  height: 181px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.neurolxp {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ourCustomersGroup {
+  width: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+  font-size: 20px;
+  color: #2f3547;
+}
+
+.smartContentCreation {
+  width: 229px;
+  height: 26px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frameParent47 {
+  width: 392.4px;
+  height: 80.1px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.frameChild38 {
+  height: 80.1px;
+  width: 80.1px;
+  position: relative;
+}
+
+.copyright2026 {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.03em;
+  line-height: 56px;
+  font-weight: 600;
+  color: #2d4cc8;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameWrapper19 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 720px);
+  box-shadow:
+    -8px -8px 16px #fff inset,
+    10px 10px 10px #c4c4c4 inset;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 459px;
+  overflow: hidden;
+}
+
+.frameParent52 {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  isolation: isolate;
+  gap: 24px;
+  flex-shrink: 0;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+.frameParent53 {
+  width: 619px;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  z-index: 0;
+  flex-shrink: 0;
+}
+
+.ourMissionGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 18px;
+  color: #2f3547;
+}
+
+.neurolxpGroup {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.neurolxp2 {
+  height: 26px;
+  width: 103px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.neurolxpTxt {
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+.neurolxp3 {
+  line-height: 30px;
+}
+
+.span {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.tm {
+  height: 17px;
+  width: 23px;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ourCustomersContainer {
+  width: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+  font-size: 18px;
+  color: #2f3547;
+}
+
+.frameParent55 {
+  width: 392.4px;
+  height: 80.1px;
+  margin: 0 !important;
+  position: absolute;
+  top: 217.19px;
+  left: 135.04px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.frameChild42 {
+  height: 80.1px;
+  width: 80.1px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.frameChild47 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 30.07px);
+  border-radius: 32px;
+  width: 59.1px;
+  height: 92px;
+  object-fit: contain;
+}
+
+.frameParent2,
+.frameParent39 {
+  display: none !important;
+}
+
+.frameParent {
+  top: 70px !important;
+}
+
+.frameParent5 {
+  top: 32px !important;
+}
+
+.eLearning {
+  height: 4637px !important;
+}
+
+.challengeSection {
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: 130.6px minmax(0, 1fr);
+  align-items: stretch;
+  gap: 32px;
+}
+
+.challengeTimeline {
+  position: relative;
+  width: 130.6px;
+  min-height: 1450.61px;
+}
+
+.challengeLine {
+  position: absolute;
+  top: 45px;
+  bottom: 45px;
+  left: 50%;
+  width: 50px;
+  transform: translateX(-50%);
+  border-radius: 50px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c4c4c4;
+}
+
+.challengeLine::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 50%;
+  width: 15px;
+  transform: translateX(-50%);
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c6c6c9;
+}
+
+.challengeIconNode {
+  position: absolute;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+  z-index: 2;
+}
+
+.challengeIconNode::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    8px 8px 16px #c6c6c9,
+    -8px -8px 16px #ffffff;
+}
+
+.challengeIconNode:nth-of-type(2) {
+  top: 26px;
+}
+
+.challengeIconNode:nth-of-type(3) {
+  top: 383px;
+}
+
+.challengeIconNode:nth-of-type(4) {
+  top: 740px;
+}
+
+.challengeIconNode:nth-of-type(5) {
+  top: 1098px;
+}
+
+.challengeIconPink::before {
+  border: 2px solid #bf1869;
+}
+
+.challengeIconBlue::before {
+  border: 2px solid #2d4cc8;
+}
+
+.challengeIconPurple::before {
+  border: 2px solid #67096e;
+}
+
+.challengeIconGreen::before {
+  border: 2px solid #2a7308;
+}
+
+.challengeIconImage {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.challengeCards {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.challengeCard {
+  min-height: 322px;
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 16px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.challengeMainContent {
+  min-height: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.challengeNumber {
+  margin-bottom: 24px;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.challengeNumberPink {
+  color: #bf1869;
+}
+
+.challengeNumberBlue {
+  color: #2d4cc8;
+}
+
+.challengeNumberPurple {
+  color: #67096e;
+}
+
+.challengeNumberGreen {
+  color: #2a7308;
+}
+
+.challengeMainContent h3 {
+  margin: 0 0 16px;
+  color: #31344b;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.challengeMainContent p {
+  margin: 0;
+  color: #2f3547;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+
+.challengeSolution {
+  min-height: 100px;
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 16px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.challengeSolution strong {
+  color: #2d4cc8;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.challengeSolution span {
+  color: #2f3547;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.challengeSolutionPink {
+  border-right: 3px solid #bf1869;
+  border-left: 3px solid #bf1869;
+}
+
+.challengeSolutionBlue {
+  border-right: 3px solid #2d4cc8;
+  border-left: 3px solid #2d4cc8;
+}
+
+.challengeSolutionPurple {
+  border-right: 3px solid #67096e;
+  border-left: 3px solid #67096e;
+}
+
+.challengeSolutionGreen {
+  border-right: 3px solid #2a7308;
+  border-left: 3px solid #2a7308;
+}
+
+@media (max-width: 900px) {
+  .challengeSection {
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .challengeTimeline {
+    width: 80px;
+  }
+
+  .challengeIconNode {
+    width: 72px;
+    height: 72px;
+  }
+
+  .challengeIconNode::before {
+    width: 54px;
+    height: 54px;
+  }
+
+  .challengeIconImage {
+    width: 30px;
+    height: 30px;
+  }
+
+  .challengeCard {
+    padding: 24px;
+  }
+}
+
+.platformFeaturesBadge {
+  width: 274px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -8px -8px 16px rgba(255, 255, 255, 0.9),
+    inset 8px 8px 16px rgba(196, 196, 196, 0.85);
+  color: #2d4cc8;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frameParent19 .ellipseParent {
+  width: 404px;
+  height: 284px;
+  position: relative;
+}
+
+.frameParent19 .ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 408px;
+  height: 284px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c4c4c4;
+}
+
+.frameParent19 .frameChild18 {
+  position: absolute;
+  top: 18.63px;
+  left: 26px;
+  width: 355px;
+  height: 246px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    inset -8px -8px 16px #ffffff,
+    inset 8px 8px 16px #c4c4c4;
+}
+
+.frameParent19 .frameParent21 {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  width: 281px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.frameParent19 .ellipseGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 16px;
+}
+
+.idealForBadge {
+  width: 168.38px;
+  height: 50px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -8px -8px 16px rgba(255, 255, 255, 0.9),
+    inset 8px 8px 16px rgba(196, 196, 196, 0.85);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+
+  white-space: nowrap;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.neuroLxpBadge {
+  width: 170.7px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -8px -8px 16px rgba(255, 255, 255, 0.9),
+    inset 8px 8px 16px rgba(196, 196, 196, 0.85);
+  color: #2d4cc8;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.futureReadyVideoWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 702px;
+  height: 550px;
+  overflow: hidden;
+  border-radius: 32px 0 0 32px;
+  background: #000;
+}
+
+.futureReadyVideo {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border: 0;
+}
+
+@media (max-width: 900px) {
+  .futureReadyVideoWrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 24px;
+  }
+
+  .futureReadyVideo {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.neuroLxpBadge {
+  width: 180px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 28px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -8px -8px 16px rgba(255, 255, 255, 0.9),
+    inset 8px 8px 16px rgba(196, 196, 196, 0.85);
+  color: #2d4cc8;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.neuroLxpBadge sup {
+  position: relative;
+  top: -16px;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  transform: translatex(-5);
+}
+
+.futureReadyVideoWrapper {
+  cursor: pointer;
+}
+
+.futureReadyVideo {
+  background: #000;
+}
+
+.futureReadyVideoPlayButton {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.futureReadyVideoPlayButton img {
+  width: 106px;
+  height: 106px;
+  display: block;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.28));
+}
+
+.bookDemoButton {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.85);
+  color: #2d4cc8;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.bookDemoButton:hover {
+  color: #2442b8;
+}
+
+.bookDemoButton:focus-visible {
+  outline: 3px solid rgba(45, 76, 200, 0.35);
+  outline-offset: 3px;
+}
+
+.eLearningInner {
+  position: absolute;
+  top: 577px;
+  left: calc(50% - 348.83px);
+  width: 697.66px;
+  height: 130.99px;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 32px 0;
+  background: #dfe6e9;
+  box-shadow:
+    10px 10px 20px #c4c4c4,
+    -10px -10px 20px #ffffff;
+  overflow: hidden;
+}
+
+.learningStats {
+  position: relative;
+  width: 665.58px;
+  height: 98.47px;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+  border-radius: 50px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.learningStat {
+  position: relative;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+
+.learningStatBlue {
+  width: 225px;
+  background: #bfccff;
+  border-radius: 50px 0 0 50px;
+  z-index: 1;
+}
+
+.learningStatPink {
+  width: 253px;
+  margin-left: -1px;
+  background: #ffd2d2;
+  clip-path: polygon(14% 0, 86% 0, 100% 50%, 86% 100%, 14% 100%, 0 50%);
+  z-index: 2;
+}
+
+.learningStatGreen {
+  width: 253px;
+  margin-left: -1px;
+  background: #dbffca;
+  border-radius: 0 50px 50px 0;
+  z-index: 1;
+}
+
+.learningStat strong {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.learningStat span {
+  min-width: 142px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #2f3547;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.learningStatBlue strong {
+  color: #2d4cc8;
+}
+
+.learningStatPink strong {
+  color: #bf1869;
+}
+
+.learningStatGreen strong {
+  color: #2a7308;
+}
+
+@media (max-width: 760px) {
+  .eLearningInner {
+    width: calc(100% - 32px);
+    left: 16px;
+    height: auto;
+    padding: 12px;
+  }
+
+  .learningStats {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 28px;
+  }
+
+  .learningStat,
+  .learningStatBlue,
+  .learningStatPink,
+  .learningStatGreen {
+    width: 100%;
+    height: 96px;
+    margin-left: 0;
+    border-radius: 0;
+    clip-path: none;
+  }
+
+  .learningStatBlue {
+    border-radius: 28px 28px 0 0;
+  }
+
+  .learningStatGreen {
+    border-radius: 0 0 28px 28px;
+  }
+}
+
+.eLearningInner {
+  width: 697.66px;
+  height: 130.99px;
+  padding: 16px;
+  border-radius: 32px 0;
+}
+
+.learningStats {
+  width: 665.58px;
+  height: 98.47px;
+  display: grid;
+  grid-template-columns: 225px 253px 1fr;
+  align-items: stretch;
+  border-radius: 50px;
+  overflow: hidden;
+  isolation: isolate;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.learningStat {
+  width: auto;
+  height: 98.47px;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  border-radius: 0;
+  clip-path: none;
+}
+
+.learningStatBlue {
+  grid-column: 1;
+  border-radius: 50px 0 0 50px;
+  background: #bfccff;
+  box-shadow:
+    inset 7px 0 14px rgba(255, 255, 255, 0.42),
+    inset -4px 0 10px rgba(88, 109, 196, 0.08);
+  z-index: 1;
+}
+
+.learningStatPink {
+  grid-column: 2;
+  margin-left: -31px;
+  margin-right: -31px;
+  padding-left: 31px;
+  padding-right: 31px;
+  background: #ffd2d2;
+  clip-path: polygon(12.25% 0, 87.75% 0, 100% 50%, 87.75% 100%, 12.25% 100%, 0 50%);
+  z-index: 3;
+}
+
+.learningStatGreen {
+  grid-column: 3;
+  border-radius: 0 50px 50px 0;
+  background: #dbffca;
+  box-shadow:
+    inset -7px 0 14px rgba(255, 255, 255, 0.42),
+    inset 4px 0 10px rgba(55, 128, 20, 0.07);
+  z-index: 1;
+}
+
+.learningStat strong {
+  margin: 0;
+  height: 34px;
+  font-size: 32px;
+  line-height: 34px;
+}
+
+.learningStat span {
+  height: 26px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media (max-width: 760px) {
+  .learningStats {
+    display: flex;
+  }
+
+  .learningStatPink {
+    margin: 0;
+    padding: 0;
+    clip-path: none;
+  }
+}
+
+.learningStats {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8),
+    0 8px 16px rgba(164, 172, 182, 0.22);
+}
+
+.learningStatBlue {
+  background: radial-gradient(circle at 18% 50%, rgba(255, 255, 255, 0.38) 0%, rgba(255, 255, 255, 0.12) 34%, rgba(255, 255, 255, 0) 62%), linear-gradient(90deg, #b9c6ff 0%, #bfccff 58%, #c7d2ff 100%);
+  box-shadow:
+    inset 10px 0 18px rgba(255, 255, 255, 0.34),
+    inset -8px 0 16px rgba(100, 120, 200, 0.08);
+}
+
+.learningStatPink {
+  background: linear-gradient(90deg, #ffd7d7 0%, #ffd2d2 48%, #ffcaca 100%);
+  box-shadow:
+    inset 0 8px 14px rgba(255, 255, 255, 0.2),
+    inset 0 -6px 12px rgba(197, 102, 102, 0.05);
+}
+
+.learningStatGreen {
+  background: radial-gradient(circle at 86% 48%, rgba(255, 255, 255, 0.36) 0%, rgba(255, 255, 255, 0.12) 34%, rgba(255, 255, 255, 0) 64%), linear-gradient(90deg, #d6ffc4 0%, #dbffca 56%, #e2ffd4 100%);
+  box-shadow:
+    inset -10px 0 18px rgba(255, 255, 255, 0.34),
+    inset 8px 0 16px rgba(74, 140, 35, 0.07);
+}
+
+.learningStatBlue::after,
+.learningStatGreen::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  pointer-events: none;
+  border-radius: inherit;
+  box-shadow:
+    inset 0 8px 14px rgba(255, 255, 255, 0.18),
+    inset 0 -7px 12px rgba(90, 100, 115, 0.05);
+}
+
+.eLearningChild {
+  position: absolute;
+  top: -771px;
+  left: calc(50% - 710px);
+  width: 1450px;
+  height: 1413px;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
+}
+
+.learningStats {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 50px;
+
+  background: linear-gradient(90deg, #bfccff 0%, #bfccff 50%, #dbffca 50%, #dbffca 100%);
+}
+
+.learningStatBlue,
+.learningStatGreen {
+  position: relative;
+  height: 100%;
+}
+
+.learningStatBlue {
+  margin-right: -34px;
+  padding-right: 34px;
+}
+
+.learningStatGreen {
+  margin-left: -34px;
+  padding-left: 34px;
+}
+
+.learningStatPink {
+  position: relative;
+  align-self: stretch;
+  height: 100%;
+  min-height: 98.47px;
+  margin-left: -34px;
+  margin-right: -34px;
+  padding-left: 34px;
+  padding-right: 34px;
+  box-sizing: border-box;
+  z-index: 5;
+
+  clip-path: polygon(13.5% -1px, 86.5% -1px, calc(100% + 1px) 50%, 86.5% calc(100% + 1px), 13.5% calc(100% + 1px), -1px 50%);
+
+  background: linear-gradient(90deg, #ffd7d7 0%, #ffd2d2 50%, #ffcaca 100%);
+}
+
+.learningStatBlue,
+.learningStatPink,
+.learningStatGreen {
+  top: 0;
+  bottom: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.learningStatBlue::after,
+.learningStatGreen::after {
+  inset: 0;
+}
+
+.challengeIconNode {
+  overflow: hidden;
+}
+
+.challengeIconNode::after {
+  content: "";
+  position: absolute;
+  top: -35%;
+  left: -120%;
+  width: 28px;
+  height: 170%;
+  transform: rotate(25deg);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0));
+  filter: blur(2px);
+  animation: iconGloss 4s linear infinite;
+  pointer-events: none;
+}
+
+.challengeIconNode:nth-of-type(2)::after {
+  animation-delay: 0s;
+}
+
+.challengeIconNode:nth-of-type(3)::after {
+  animation-delay: 1s;
+}
+
+.challengeIconNode:nth-of-type(4)::after {
+  animation-delay: 2s;
+}
+
+.challengeIconNode:nth-of-type(5)::after {
+  animation-delay: 3s;
+}
+
+@keyframes iconGloss {
+  0% {
+    left: -120%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  25% {
+    left: 130%;
+    opacity: 1;
+  }
+  35%,
+  100% {
+    left: 130%;
+    opacity: 0;
+  }
+}
+
+.frameWrapper12,
+.frameWrapper13,
+.frameWrapper14,
+.frameWrapper16 {
+  cursor: default;
+}
+
+.frameWrapper12 .rectangleDiv {
+  opacity: 1;
+  transition:
+    opacity 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.frameWrapper12 .frameChild27 {
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c4c4c4;
+  transition: box-shadow 0.25s ease;
+}
+
+.frameWrapper12:hover .rectangleDiv,
+.frameWrapper13:hover .rectangleDiv,
+.frameWrapper14:hover .rectangleDiv,
+.frameWrapper16:hover .rectangleDiv {
+  opacity: 1;
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px rgba(196, 196, 196, 0.85);
+}
+
+.frameWrapper12:hover .frameChild27,
+.frameWrapper12:hover .frameChild29,
+.frameWrapper13:hover .frameChild27,
+.frameWrapper13:hover .frameChild29,
+.frameWrapper14:hover .frameChild27,
+.frameWrapper14:hover .frameChild29,
+.frameWrapper16:hover .frameChild27,
+.frameWrapper16:hover .frameChild29 {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.frameWrapper13 .rectangleDiv,
+.frameWrapper14 .rectangleDiv,
+.frameWrapper16 .rectangleDiv,
+.frameWrapper12 .frameChild27,
+.frameWrapper12 .frameChild29,
+.frameWrapper13 .frameChild27,
+.frameWrapper13 .frameChild29,
+.frameWrapper14 .frameChild27,
+.frameWrapper14 .frameChild29,
+.frameWrapper16 .frameChild27,
+.frameWrapper16 .frameChild29 {
+  transition:
+    opacity 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.challengeIconImage,
+.challengeIconNode img,
+.challengeIconNode svg,
+.challengeIconNode picture img,
+.frameParent9 img,
+.frameParent9 svg {
+  filter: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.challengeIconImage {
+  filter: none !important;
+}
+
+.eLearning {
+  height: auto !important;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.eLearning > .frameParent5,
+.eLearning > .frameParent,
+.eLearning > .eLearningInner,
+.eLearning > .frameParent6,
+.eLearning > .frameParent15,
+.eLearning > .frameParent35 {
+  position: relative;
+  top: auto !important;
+  right: auto;
+  bottom: auto;
+  left: auto !important;
+  flex-shrink: 0;
+}
+
+.eLearning > .frameParent5 {
+  order: 1;
+  width: 1280px;
+  margin-top: 32px;
+}
+
+.eLearning > .frameParent {
+  order: 2;
+  margin-top: 14px;
+}
+
+.eLearning > .eLearningInner {
+  order: 3;
+  margin-top: 141px;
+}
+
+.eLearning > .frameParent6 {
+  order: 4;
+  margin-top: 64px;
+}
+
+.eLearning > .frameParent15 {
+  order: 5;
+  margin-top: 64px;
+}
+
+.eLearning > .frameParent35 {
+  order: 6;
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.eLearningChild,
+.frameChild4,
+.frameWrapper4,
+.frameParent11,
+.frameWrapper5,
+.frameWrapper9,
+.frameWrapper11,
+.ellipseDiv,
+.ellipseIcon,
+.frameParent21,
+.frameChild18,
+.aiBookIcon,
+.frameWrapper12,
+.frameWrapper13,
+.frameWrapper14,
+.frameParent29,
+.frameParent30,
+.rectangleDiv,
+.frameChild27,
+.frameChild29,
+.peopleTakingPartBusinessEv,
+.image21,
+.groupYoungBusinesspeopleUsi,
+.frameParent36,
+.rectangleIcon,
+.youngStudentSittingTableUsParent,
+.youngStudentSittingTableUsIcon,
+.frameChild37,
+.image20 {
+  position: absolute;
+}
+
+@media (max-width: 1199px) {
+  .eLearning {
+    zoom: 1;
+    min-height: 0 !important;
+    padding: 0 32px;
+    box-sizing: border-box;
+  }
+
+  .eLearning > .frameParent5,
+  .eLearning > .frameParent,
+  .eLearning > .eLearningInner,
+  .eLearning > .frameParent6,
+  .eLearning > .frameParent15,
+  .eLearning > .frameParent35 {
+    width: min(100%, 1280px);
+    box-sizing: border-box;
+  }
+
+  .eLearning > .frameParent5 {
+    margin-top: 32px;
+  }
+
+  .eLearning > .frameParent {
+    max-width: 1078px;
+    height: auto;
+  }
+
+  .frameWrapper,
+  .frameGroup,
+  .frameContainer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .deliverEngagingDigitalContainer,
+  .neurolxpEmpowersOrganization {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .eLearning > .eLearningInner {
+    max-width: 697.66px;
+  }
+
+  .eLearning > .frameParent6 {
+    max-width: 1201.9px;
+  }
+
+  .frameParent7,
+  .addressingKeyChallengesInEParent,
+  .addressingKeyChallenges,
+  .neurolxpHelpsOrganizations {
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+  }
+
+  .challengeSection {
+    width: 100%;
+  }
+
+  .eLearning > .frameParent15 {
+    max-width: 1271px;
+  }
+
+  .frameParent16,
+  .frameParent17,
+  .frameParent18 {
+    width: 100%;
+    max-width: 1141px;
+    height: auto;
+  }
+
+  .keyFeaturesOfNeurolxpELeaWrapper,
+  .keyFeaturesOf {
+    width: 100%;
+    height: auto;
+  }
+
+  .frameParent19 {
+    width: min(100%, 858px);
+  }
+
+  .frameParent20,
+  .frameParent32 {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .frameParent27 {
+    width: 100%;
+  }
+
+  .frameParent28 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 396px);
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .frameParent28 > .frameWrapper12,
+  .frameParent28 > .frameWrapper13,
+  .frameParent28 > .frameWrapper14 {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+
+  .eLearning > .frameParent35 {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .eLearning {
+    zoom: 1;
+  }
+}
+
+@media (max-width: 1023px) {
+  .eLearning {
+    padding: 0 28px;
+  }
+
+  .eLearning > .frameParent5 {
+    width: 100%;
+    margin-top: 24px;
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+
+  .eLearning > .frameParent {
+    width: 100%;
+    margin-top: 24px;
+    gap: 40px;
+  }
+
+  .frameChild {
+    width: auto;
+    min-width: 250px;
+  }
+
+  .deliverEngagingDigitalContainer {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .deliverEngaging,
+  .digitalLearning {
+    line-height: 50px;
+  }
+
+  .neurolxpEmpowersOrganization {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .eLearning > .eLearningInner {
+    margin-top: 72px;
+  }
+
+  .eLearning > .frameParent6 {
+    margin-top: 72px;
+    gap: 48px;
+  }
+
+  .addressingKeyChallenges {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .neurolxpHelpsOrganizations {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .challengeSection {
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .challengeTimeline {
+    width: 80px;
+    min-height: 100%;
+  }
+
+  .challengeCards {
+    width: 100%;
+  }
+
+  .challengeCard {
+    min-height: 290px;
+  }
+
+  .eLearning > .frameParent15 {
+    margin-top: 80px;
+    gap: 56px;
+  }
+
+  .keyFeaturesOf {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .frameParent20 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 404px));
+    gap: 32px;
+  }
+
+  .frameParent19 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .frameParent28 {
+    grid-template-columns: repeat(2, 396px);
+    gap: 32px;
+  }
+
+  .frameParent32 {
+    display: grid;
+    grid-template-columns: repeat(2, 396px);
+    gap: 32px;
+  }
+
+  .eLearning > .frameParent35 {
+    height: 590px;
+    margin-top: 80px;
+  }
+
+  .peopleTakingPartBusinessEvParent {
+    width: calc(100% - 48px);
+    height: calc(100% - 48px);
+    top: 24px;
+    left: 24px;
+  }
+
+  .frameParent36 {
+    top: 50%;
+    left: 36px;
+    width: 44%;
+    transform: translateY(-50%);
+  }
+
+  .frameParent37,
+  .frameParent38,
+  .futureReadyELearning,
+  .interactiveScalableLearning {
+    width: 100%;
+    height: auto;
+  }
+
+  .futureReadyELearning {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .interactiveScalableLearning {
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  .futureReadyVideoWrapper,
+  .youngStudentSittingTableUsParent {
+    width: 50%;
+    height: 100%;
+    right: 0;
+    left: auto;
+    top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .eLearning {
+    padding: 0 16px;
+    font-size: 32px;
+  }
+
+  .eLearningChild {
+    width: 100%;
+    left: 0;
+    object-position: center top;
+  }
+
+  .eLearning > .frameParent5 {
+    margin-top: 18px;
+    gap: 6px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .arrowDown01Icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .eLearning > .frameParent {
+    margin-top: 0px;
+    gap: 28px;
+    text-align: center;
+  }
+
+  .frameGroup,
+  .frameContainer {
+    gap: 20px;
+  }
+
+  .frameChild,
+  .keyChallengesBadge,
+  .platformFeaturesBadge,
+  .idealForBadge,
+  .neuroLxpBadge {
+    max-width: 100%;
+    height: 44px;
+    padding: 0 14px;
+    font-size: 15px;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+
+  .deliverEngagingDigitalContainer {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .deliverEngaging,
+  .digitalLearning {
+    line-height: 38px;
+  }
+
+  .neurolxpEmpowersOrganization {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .frameDiv {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 18px;
+  }
+
+  .frameItem,
+  .frameWrapper2 {
+    width: 190px;
+    height: 56px;
+  }
+
+  .eLearning > .eLearningInner {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 56px;
+    padding: 12px;
+  }
+
+  .learningStats {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 28px;
+  }
+
+  .learningStat,
+  .learningStatBlue,
+  .learningStatPink,
+  .learningStatGreen {
+    width: 100%;
+    height: 96px;
+    min-height: 96px;
+    margin: 0;
+    padding: 0;
+    clip-path: none;
+    border-radius: 0;
+  }
+
+  .learningStatBlue {
+    border-radius: 28px 28px 0 0;
+  }
+
+  .learningStatGreen {
+    border-radius: 0 0 28px 28px;
+  }
+
+  .eLearning > .frameParent6 {
+    width: 100%;
+    margin-top: 56px;
+    gap: 36px;
+  }
+
+  .frameParent7 {
+    gap: 24px;
+  }
+
+  .addressingKeyChallenges {
+    font-size: 29px;
+    line-height: 38px;
+  }
+
+  .neurolxpHelpsOrganizations {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .challengeSection {
+    display: block;
+  }
+
+  .challengeTimeline {
+    display: none;
+  }
+
+  .challengeCards {
+    width: 100%;
+    gap: 24px;
+  }
+
+  .challengeCard {
+    width: 100%;
+    min-height: 0;
+    padding: 24px 20px;
+    gap: 24px;
+  }
+
+  .challengeMainContent {
+    min-height: 0;
+  }
+
+  .eLearning > .frameParent15 {
+    width: 100%;
+    margin-top: 64px;
+    gap: 48px;
+  }
+
+  .frameParent16,
+  .frameParent17,
+  .frameParent18,
+  .frameParent19,
+  .frameParent27 {
+    width: 100%;
+  }
+
+  .keyFeaturesOf {
+    font-size: 29px;
+    line-height: 38px;
+  }
+
+  .frameParent20 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .ellipseParent {
+    width: min(100%, 404px);
+    transform-origin: center;
+  }
+
+  .neurolxpSupportsA {
+    width: 100%;
+    height: auto;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .frameParent28,
+  .frameParent32 {
+    display: grid;
+    grid-template-columns: minmax(0, 396px);
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+    height: auto;
+  }
+
+  .frameWrapper12,
+  .frameWrapper13,
+  .frameWrapper14,
+  .frameWrapper16 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: min(100%, 396px);
+    max-width: 396px;
+    justify-self: center;
+  }
+
+  .eLearning > .frameParent35 {
+    width: 100%;
+    height: auto;
+    margin-top: 64px;
+    margin-bottom: 56px;
+    padding: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .peopleTakingPartBusinessEvParent {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .frameParent36 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    transform: none;
+    order: 1;
+    padding: 28px 18px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    gap: 28px;
+  }
+
+  .frameParent37,
+  .frameParent38 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  .futureReadyELearning {
+    width: 100%;
+    height: auto;
+    font-size: 29px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .interactiveScalableLearning {
+    width: 100%;
+    height: auto;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .futureReadyVideoWrapper,
+  .youngStudentSittingTableUsParent {
+    position: relative;
+    inset: auto;
+    order: 2;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+
+  .futureReadyVideo,
+  .youngStudentSittingTableUsIcon {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 479px) {
+  .eLearning {
+    padding: 0 12px;
+  }
+
+  .deliverEngagingDigitalContainer,
+  .addressingKeyChallenges,
+  .keyFeaturesOf,
+  .futureReadyELearning {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .deliverEngaging,
+  .digitalLearning {
+    line-height: 34px;
+  }
+
+  .frameDiv {
+    flex-direction: column;
+  }
+
+  .frameItem,
+  .frameWrapper2 {
+    width: 180px;
+  }
+
+  .challengeCard {
+    padding: 20px 16px;
+  }
+
+  .challengeMainContent h3 {
+    font-size: 21px;
+    line-height: 29px;
+  }
+
+  .challengeMainContent p,
+  .challengeSolution strong,
+  .challengeSolution span {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .ellipseParent {
+    transform: scale(0.88);
+    margin-block: -16px;
+  }
+
+  .frameParent28,
+  .frameParent32 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .frameWrapper12,
+  .frameWrapper13,
+  .frameWrapper14,
+  .frameWrapper16 {
+    width: 100%;
+    max-width: 396px;
+  }
+}
+
+.eLearningChild {
+  left: -90px !important;
+  width: calc(100% + 180px) !important;
+  max-width: none !important;
+}
+
+@media (max-width: 1199px) {
+  .eLearning > .frameParent6 {
+    width: 100% !important;
+    max-width: 1202px !important;
+    padding-inline: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent6 .frameParent7,
+  .frameParent6 .addressingKeyChallengesInEParent {
+    width: 100% !important;
+    max-width: 989px !important;
+    height: auto !important;
+  }
+
+  .frameParent6 .challengeSection {
+    width: 100% !important;
+    max-width: 1202px !important;
+    margin-inline: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .eLearning > .frameParent15,
+  .frameParent15 .frameParent16,
+  .frameParent15 .frameParent17,
+  .frameParent15 .frameParent18,
+  .frameParent15 .frameParent19,
+  .frameParent15 .frameParent27 {
+    box-sizing: border-box !important;
+    max-width: 100% !important;
+  }
+
+  .frameParent15 .frameParent20 {
+    width: 100% !important;
+    margin-inline: auto !important;
+    justify-content: center !important;
+  }
+
+  .frameParent15 .ellipseParent {
+    flex: 0 1 404px !important;
+    max-width: 404px !important;
+    margin-inline: auto !important;
+  }
+
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    width: 100% !important;
+    max-width: 1271px !important;
+    margin-inline: auto !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    margin-inline: auto !important;
+  }
+
+  .eLearning > .frameParent35 {
+    width: 100% !important;
+    max-width: 1280px !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent35 .peopleTakingPartBusinessEvParent {
+    max-width: calc(100% - 48px) !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .eLearning {
+    padding-inline: 28px !important;
+  }
+
+  .frameParent15 .frameParent20 {
+    display: grid !important;
+    grid-template-columns: minmax(0, 404px) !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    gap: 32px !important;
+  }
+
+  .frameParent15 .ellipseParent {
+    width: 404px !important;
+    max-width: 100% !important;
+  }
+
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    display: grid !important;
+    grid-template-columns: minmax(0, 396px) !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    gap: 28px !important;
+    height: auto !important;
+  }
+
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    position: relative !important;
+    inset: auto !important;
+    width: 396px !important;
+    max-width: 100% !important;
+    height: 162px !important;
+    justify-self: center !important;
+  }
+
+  .eLearning > .frameParent35 {
+    height: 560px !important;
+  }
+
+  .frameParent35 .peopleTakingPartBusinessEvParent {
+    top: 24px !important;
+    left: 24px !important;
+    width: calc(100% - 48px) !important;
+    height: calc(100% - 48px) !important;
+  }
+
+  .frameParent35 .frameParent36 {
+    left: 32px !important;
+    width: 46% !important;
+  }
+
+  .frameParent35 .futureReadyVideoWrapper,
+  .frameParent35 .youngStudentSittingTableUsParent {
+    right: 0 !important;
+    left: auto !important;
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .eLearningChild {
+    left: -60px !important;
+    width: calc(100% + 120px) !important;
+  }
+
+  .eLearning > .frameParent6 {
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .frameParent6 .frameParent7,
+  .frameParent6 .addressingKeyChallengesInEParent,
+  .frameParent6 .challengeSection,
+  .frameParent6 .challengeCards,
+  .frameParent6 .challengeCard {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .eLearning > .frameParent15 {
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .frameParent15 .frameParent16,
+  .frameParent15 .frameParent17,
+  .frameParent15 .frameParent18,
+  .frameParent15 .frameParent19,
+  .frameParent15 .frameParent27 {
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .frameParent15 .frameParent20 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 28px !important;
+  }
+
+  .frameParent15 .ellipseParent {
+    width: 404px !important;
+    max-width: calc(100vw - 32px) !important;
+    margin-inline: auto !important;
+  }
+
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    display: grid !important;
+    grid-template-columns: minmax(0, 396px) !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 24px !important;
+  }
+
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    position: relative !important;
+    inset: auto !important;
+    width: 396px !important;
+    max-width: calc(100vw - 32px) !important;
+    height: 162px !important;
+    margin-inline: auto !important;
+    justify-self: center !important;
+  }
+
+  .eLearning > .frameParent35 {
+    width: 100% !important;
+    height: auto !important;
+    margin-inline: auto !important;
+    padding: 12px !important;
+  }
+
+  .frameParent35 .peopleTakingPartBusinessEvParent {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .frameParent35 .frameParent36 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    transform: none !important;
+    box-sizing: border-box !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .frameParent35 .futureReadyVideoWrapper,
+  .frameParent35 .youngStudentSittingTableUsParent {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 479px) {
+  .eLearningChild {
+    left: -45px !important;
+    width: calc(100% + 90px) !important;
+  }
+
+  .frameParent15 .ellipseParent {
+    max-width: calc(100vw - 24px) !important;
+  }
+
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    max-width: calc(100vw - 24px) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .frameParent15 .frameParent19,
+  .frameParent15 .frameParent20 {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent20 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 36px !important;
+  }
+
+  .frameParent15 .ellipseParent {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 288px !important;
+    height: 202px !important;
+    margin: 0 auto !important;
+    transform: none !important;
+    flex: none !important;
+  }
+
+  .frameParent15 .ellipseDiv {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 202px !important;
+  }
+
+  .frameParent15 .ellipseIcon,
+  .frameParent15 .frameChild18 {
+    top: 14px !important;
+    left: 14px !important;
+    width: calc(100% - 28px) !important;
+    height: 174px !important;
+  }
+
+  .frameParent15 .frameParent21 {
+    top: 50% !important;
+    left: 50% !important;
+    width: calc(100% - 36px) !important;
+    height: auto !important;
+    transform: translate(-50%, -50%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    text-align: center !important;
+  }
+
+  .frameParent15 .aiPoweredContent {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 23px !important;
+    line-height: 30px !important;
+    text-align: center !important;
+  }
+
+  /* Remove desktop-only manual line breaks so mobile card content stays centered */
+  .frameParent15 .aiPoweredContent br {
+    display: none !important;
+  }
+
+  .frameParent15 .smartContentCuration {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-align: center !important;
+  }
+
+  .frameParent15 .frameChild16,
+  .frameParent15 .frameChild19,
+  .frameParent15 .frameChild22,
+  .frameParent15 .frameChild25 {
+    width: 56px !important;
+    height: 56px !important;
+  }
+
+  .frameParent15 .aiBookIcon {
+    width: 28px !important;
+    height: 28px !important;
+    top: 14px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .frameParent15 .frameParent27,
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 20px !important;
+  }
+
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 288px !important;
+    height: 142px !important;
+    margin: 0 auto !important;
+    overflow: visible !important;
+    flex: none !important;
+  }
+
+  .frameParent15 .rectangleParent {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: 142px !important;
+  }
+
+  .frameParent15 .rectangleDiv {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 142px !important;
+  }
+
+  .frameParent15 .frameChild27,
+  .frameParent15 .frameChild29 {
+    top: 10px !important;
+    left: 10px !important;
+    width: calc(100% - 20px) !important;
+    height: 122px !important;
+  }
+
+  .frameParent15 .frameParent29,
+  .frameParent15 .frameParent30 {
+    top: 50% !important;
+    left: 24px !important;
+    right: 16px !important;
+    width: auto !important;
+    transform: translateY(-50%) !important;
+    gap: 16px !important;
+  }
+
+  .frameParent15 .onlineEducationParent,
+  .frameParent15 .corporateTrainingParent {
+    width: calc(100% - 66px) !important;
+    min-width: 0 !important;
+  }
+
+  .frameParent15 .onlineEducation,
+  .frameParent15 .corporateTraining,
+  .frameParent15 .skillDevelopment,
+  .frameParent15 .customerEducation {
+    width: 100% !important;
+    height: auto !important;
+    font-size: 21px !important;
+    line-height: 28px !important;
+    white-space: normal !important;
+    text-align: left !important;
+  }
+
+  .frameParent15 .universitiesSchools,
+  .frameParent15 .employeeDevelopment,
+  .frameParent15 .professionalCertifications,
+  .frameParent15 .customerPartner {
+    width: 100% !important;
+    height: auto !important;
+    font-size: 16px !important;
+    line-height: 23px !important;
+    white-space: normal !important;
+    text-align: left !important;
+  }
+
+  .frameParent15 .mortarboard01Icon {
+    width: 44px !important;
+    height: 44px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .eLearning > .frameParent35 {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 10px !important;
+    border-radius: 28px !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent35 .peopleTakingPartBusinessEvParent {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 20px !important;
+  }
+
+  .frameParent35 .frameParent36 {
+    padding: 26px 16px 24px !important;
+    gap: 24px !important;
+  }
+
+  .frameParent35 .frameParent37,
+  .frameParent35 .frameParent38 {
+    gap: 20px !important;
+  }
+
+  .frameParent35 .frameChild36 {
+    width: 150px !important;
+    height: 44px !important;
+  }
+
+  .frameParent35 .futureReadyELearning {
+    width: 100% !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+  }
+
+  .frameParent35 .interactiveScalableLearning {
+    width: 100% !important;
+    font-size: 16px !important;
+    line-height: 25px !important;
+  }
+
+  .frameParent35 .frameWrapper18 {
+    width: 176px !important;
+    height: 56px !important;
+    font-size: 20px !important;
+  }
+
+  .frameParent35 .futureReadyVideoWrapper,
+  .frameParent35 .youngStudentSittingTableUsParent {
+    width: 100% !important;
+    height: 190px !important;
+    aspect-ratio: auto !important;
+    border-radius: 20px !important;
+  }
+
+  .frameParent35 .futureReadyVideo,
+  .frameParent35 .youngStudentSittingTableUsIcon {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .frameParent15 .ellipseParent {
+    max-width: 272px !important;
+    height: 194px !important;
+  }
+
+  .frameParent15 .ellipseDiv {
+    height: 194px !important;
+  }
+
+  .frameParent15 .ellipseIcon,
+  .frameParent15 .frameChild18 {
+    height: 166px !important;
+  }
+
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    max-width: 272px !important;
+  }
+
+  .frameParent15 .onlineEducation,
+  .frameParent15 .corporateTraining,
+  .frameParent15 .skillDevelopment,
+  .frameParent15 .customerEducation {
+    font-size: 20px !important;
+  }
+
+  .frameParent35 .futureReadyELearning {
+    font-size: 27px !important;
+    line-height: 34px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .eLearning > .frameParent15 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 1100px !important;
+    height: auto !important;
+    margin-inline: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 64px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent16,
+  .frameParent15 .frameParent17,
+  .frameParent15 .frameParent18,
+  .frameParent15 .frameParent19,
+  .frameParent15 .frameParent27 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .frameParent15 .frameParent20 {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 404px)) !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    gap: 32px !important;
+  }
+
+  .frameParent15 .ellipseParent {
+    position: relative !important;
+    inset: auto !important;
+    width: 404px !important;
+    height: 284px !important;
+    margin: 0 auto !important;
+    transform: none !important;
+  }
+
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 396px)) !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    gap: 28px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent28 > *,
+  .frameParent15 .frameParent32 > * {
+    position: relative !important;
+    inset: auto !important;
+    width: 396px !important;
+    height: 162px !important;
+    margin: 0 auto !important;
+  }
+
+  .eLearning > .frameParent35 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 1100px !important;
+    height: 560px !important;
+    margin-inline: auto !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .frameParent15 .frameParent20 {
+    grid-template-columns: minmax(0, 404px) !important;
+  }
+
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    grid-template-columns: minmax(0, 396px) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .eLearning > .frameParent15 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 56px !important;
+    margin-inline: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 52px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent16,
+  .frameParent15 .frameParent17,
+  .frameParent15 .frameParent18,
+  .frameParent15 .frameParent19,
+  .frameParent15 .frameParent27 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent17,
+  .frameParent15 .frameParent18,
+  .frameParent15 .frameParent19,
+  .frameParent15 .frameParent27 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .frameParent15 .frameParent17 {
+    gap: 44px !important;
+  }
+
+  .frameParent15 .frameParent18 {
+    gap: 30px !important;
+  }
+
+  .frameParent15 .frameParent19 {
+    gap: 24px !important;
+  }
+
+  .frameParent15 .keyFeaturesOfNeurolxpELeaWrapper,
+  .frameParent15 .keyFeaturesOf,
+  .frameParent15 .neurolxpSupportsA {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .frameParent15 .frameParent20 {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 24px !important;
+  }
+
+  .frameParent15 .ellipseParent {
+    position: relative !important;
+    inset: auto !important;
+    width: min(100%, 280px) !important;
+    height: 196px !important;
+    margin: 0 auto !important;
+    transform: none !important;
+    flex: 0 0 auto !important;
+  }
+
+  .frameParent15 .ellipseDiv {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 196px !important;
+  }
+
+  .frameParent15 .ellipseIcon,
+  .frameParent15 .frameChild18 {
+    position: absolute !important;
+    top: 14px !important;
+    left: 14px !important;
+    width: calc(100% - 28px) !important;
+    height: 168px !important;
+  }
+
+  .frameParent15 .frameParent21 {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: calc(100% - 32px) !important;
+    height: auto !important;
+    transform: translate(-50%, -50%) !important;
+    gap: 7px !important;
+  }
+
+  .frameParent15 .aiPoweredContent {
+    width: 100% !important;
+    height: auto !important;
+    font-size: 21px !important;
+    line-height: 28px !important;
+    text-align: center !important;
+    white-space: normal !important;
+  }
+
+  .frameParent15 .smartContentCuration {
+    width: 100% !important;
+    height: auto !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    text-align: center !important;
+  }
+
+  .frameParent15 .frameParent27 {
+    gap: 32px !important;
+  }
+
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 20px !important;
+    margin: 0 !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent28 > *,
+  .frameParent15 .frameParent32 > * {
+    position: relative !important;
+    inset: auto !important;
+    width: min(100%, 280px) !important;
+    height: 146px !important;
+    min-height: 146px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    display: grid !important;
+    grid-template: 1fr / 1fr !important;
+    align-items: center !important;
+    justify-items: stretch !important;
+    overflow: visible !important;
+    flex: 0 0 auto !important;
+  }
+
+  .frameParent15 .frameParent28 > * > *,
+  .frameParent15 .frameParent32 > * > * {
+    grid-area: 1 / 1 !important;
+  }
+
+  .frameParent15 .rectangleParent {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: 146px !important;
+    display: block !important;
+  }
+
+  .frameParent15 .rectangleDiv {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 146px !important;
+  }
+
+  .frameParent15 .frameChild27,
+  .frameParent15 .frameChild29 {
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    width: calc(100% - 20px) !important;
+    height: 126px !important;
+  }
+
+  .frameParent15 .frameParent29,
+  .frameParent15 .frameParent30 {
+    position: relative !important;
+    inset: auto !important;
+    width: calc(100% - 36px) !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    transform: none !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 14px !important;
+    z-index: 3 !important;
+  }
+
+  .frameParent15 .onlineEducationParent,
+  .frameParent15 .corporateTrainingParent {
+    width: auto !important;
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+  }
+
+  .frameParent15 .onlineEducation,
+  .frameParent15 .corporateTraining,
+  .frameParent15 .skillDevelopment,
+  .frameParent15 .customerEducation {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    font-size: 19px !important;
+    line-height: 25px !important;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+
+  .frameParent15 .universitiesSchools,
+  .frameParent15 .employeeDevelopment,
+  .frameParent15 .professionalCertifications,
+  .frameParent15 .customerPartner {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+
+  .frameParent15 .mortarboard01Icon {
+    width: 42px !important;
+    height: 42px !important;
+    flex: 0 0 42px !important;
+  }
+
+  .eLearning > .frameParent35 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 56px !important;
+    margin-bottom: 0 !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .frameParent35 .peopleTakingPartBusinessEvParent {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+  }
+
+  .frameParent35 .frameParent36 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 26px 16px 24px !important;
+    box-sizing: border-box !important;
+    transform: none !important;
+    order: 1 !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 24px !important;
+  }
+
+  .frameParent35 .frameParent37,
+  .frameParent35 .frameParent38 {
+    width: 100% !important;
+    height: auto !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  .frameParent35 .futureReadyELearning,
+  .frameParent35 .interactiveScalableLearning {
+    width: 100% !important;
+    height: 60px !important;
+    text-align: center !important;
+  }
+
+  .frameParent35 .futureReadyELearning {
+    font-size: 27px !important;
+    line-height: 34px !important;
+  }
+
+  .frameParent35 .interactiveScalableLearning {
+    font-size: 16px !important;
+    line-height: 25px !important;
+  }
+
+  .frameParent35 .futureReadyVideoWrapper,
+  .frameParent35 .youngStudentSittingTableUsParent {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: 190px !important;
+    margin: 0 !important;
+    order: 2 !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+  }
+
+  .frameParent35 .futureReadyVideo,
+  .frameParent35 .youngStudentSittingTableUsIcon {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .frameParent15 .ellipseParent,
+  .frameParent15 .frameParent28 > *,
+  .frameParent15 .frameParent32 > * {
+    width: min(100%, 268px) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 24px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent28 > *,
+  .frameParent15 .frameParent32 > * {
+    position: relative !important;
+    inset: auto !important;
+    display: block !important;
+    width: min(100%, 280px) !important;
+    height: 146px !important;
+    min-height: 146px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    flex: 0 0 146px !important;
+  }
+
+  .frameParent15 .frameParent28 > * > *,
+  .frameParent15 .frameParent32 > * > * {
+    grid-area: auto !important;
+  }
+
+  .frameParent15 .rectangleParent {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 146px !important;
+  }
+
+  .frameParent15 .rectangleDiv {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 146px !important;
+  }
+
+  .frameParent15 .frameChild27,
+  .frameParent15 .frameChild29 {
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    width: calc(100% - 20px) !important;
+    height: 126px !important;
+  }
+
+  .frameParent15 .frameParent29,
+  .frameParent15 .frameParent30 {
+    position: absolute !important;
+    top: 50% !important;
+    left: 20px !important;
+    right: 16px !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 14px !important;
+    z-index: 5 !important;
+  }
+
+  .frameParent15 .onlineEducationParent,
+  .frameParent15 .corporateTrainingParent {
+    width: auto !important;
+    min-width: 0 !important;
+    flex: 1 1 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    gap: 4px !important;
+  }
+
+  .frameParent15 .onlineEducation,
+  .frameParent15 .corporateTraining,
+  .frameParent15 .skillDevelopment,
+  .frameParent15 .customerEducation {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    font-size: 18px !important;
+    line-height: 23px !important;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+
+  .frameParent15 .universitiesSchools,
+  .frameParent15 .employeeDevelopment,
+  .frameParent15 .professionalCertifications,
+  .frameParent15 .customerPartner {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+
+  .frameParent15 .mortarboard01Icon {
+    width: 40px !important;
+    height: 40px !important;
+    flex: 0 0 40px !important;
+    object-fit: contain !important;
+  }
+
+  .frameParent15 .frameParent27 {
+    gap: 32px !important;
+  }
+
+  .frameParent15 .neurolxpSupportsA {
+    margin-bottom: 8px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .frameParent15 .frameParent28 > *,
+  .frameParent15 .frameParent32 > * {
+    width: min(100%, 268px) !important;
+  }
+
+  .frameParent15 .frameParent29,
+  .frameParent15 .frameParent30 {
+    left: 16px !important;
+    right: 12px !important;
+    gap: 12px !important;
+  }
+
+  .frameParent15 .onlineEducation,
+  .frameParent15 .corporateTraining,
+  .frameParent15 .skillDevelopment,
+  .frameParent15 .customerEducation {
+    font-size: 17px !important;
+    line-height: 22px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .frameParent15 .frameParent27 {
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 24px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: 396px !important;
+    height: 162px !important;
+    min-width: 396px !important;
+    min-height: 162px !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+    flex: 0 0 162px !important;
+  }
+
+  .frameParent15 .frameWrapper12 .rectangleParent,
+  .frameParent15 .frameWrapper13 .rectangleParent,
+  .frameParent15 .frameWrapper14 .rectangleParent,
+  .frameParent15 .frameWrapper16 .rectangleParent {
+    display: block !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: 396px !important;
+    height: 162px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+    transform-origin: top left !important;
+  }
+
+  .frameParent15 .frameWrapper12 .rectangleDiv,
+  .frameParent15 .frameWrapper13 .rectangleDiv,
+  .frameParent15 .frameWrapper14 .rectangleDiv,
+  .frameParent15 .frameWrapper16 .rectangleDiv {
+    display: block !important;
+    position: absolute !important;
+    top: calc(50% - 81px) !important;
+    left: calc(50% - 198px) !important;
+    width: 300px !important;
+    height: 162px !important;
+    border-radius: 16px !important;
+    background-color: #dfe6e9 !important;
+    box-shadow:
+      -4px -4px 8px #fff,
+      4px 4px 8px #c4c4c4 !important;
+  }
+
+  .frameParent15 .frameWrapper12 .frameChild27,
+  .frameParent15 .frameWrapper13 .frameChild27,
+  .frameParent15 .frameWrapper14 .frameChild27,
+  .frameParent15 .frameWrapper16 .frameChild27,
+  .frameParent15 .frameWrapper12 .frameChild29,
+  .frameParent15 .frameWrapper13 .frameChild29,
+  .frameParent15 .frameWrapper14 .frameChild29,
+  .frameParent15 .frameWrapper16 .frameChild29 {
+    display: block !important;
+    position: absolute !important;
+    top: calc(50% - 65px) !important;
+    left: calc(50% - 182px) !important;
+    width: 380px !important;
+    height: 130px !important;
+    border-radius: 16px !important;
+    background-color: #dfe6e9 !important;
+    box-shadow:
+      -4px -4px 8px #fff inset,
+      4px 4px 8px #c4c4c4 inset !important;
+  }
+
+  .frameParent15 .frameWrapper13 .frameChild29,
+  .frameParent15 .frameWrapper14 .frameChild29,
+  .frameParent15 .frameWrapper16 .frameChild29 {
+    box-shadow:
+      -4px -4px 8px #fff,
+      4px 4px 8px #c4c4c4 !important;
+  }
+
+  .frameParent15 .frameWrapper12 .frameParent29,
+  .frameParent15 .frameWrapper13 .frameParent29,
+  .frameParent15 .frameWrapper14 .frameParent29,
+  .frameParent15 .frameWrapper16 .frameParent29,
+  .frameParent15 .frameWrapper12 .frameParent30,
+  .frameParent15 .frameWrapper13 .frameParent30,
+  .frameParent15 .frameWrapper14 .frameParent30,
+  .frameParent15 .frameWrapper16 .frameParent30 {
+    position: absolute !important;
+    top: calc(50% - 34px) !important;
+    left: 32px !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 24px !important;
+    z-index: 2 !important;
+  }
+
+  .frameParent15 .frameWrapper12 .onlineEducationParent,
+  .frameParent15 .frameWrapper13 .corporateTrainingParent,
+  .frameParent15 .frameWrapper14 .onlineEducationParent,
+  .frameParent15 .frameWrapper14 .corporateTrainingParent,
+  .frameParent15 .frameWrapper16 .onlineEducationParent,
+  .frameParent15 .frameWrapper16 .corporateTrainingParent {
+    position: relative !important;
+    inset: auto !important;
+    width: 253px !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    flex: 0 0 auto !important;
+  }
+
+  .frameParent15 .frameWrapper12 .onlineEducationParent {
+    width: 208px !important;
+  }
+
+  .frameParent15 .onlineEducation,
+  .frameParent15 .corporateTraining,
+  .frameParent15 .skillDevelopment,
+  .frameParent15 .customerEducation {
+    position: relative !important;
+    inset: auto !important;
+    width: auto !important;
+    max-width: none !important;
+    height: 34px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 24px !important;
+    letter-spacing: 0.03em !important;
+    line-height: 32px !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    display: inline-block !important;
+    flex-shrink: 0 !important;
+  }
+
+  .frameParent15 .onlineEducation {
+    width: 208px !important;
+  }
+
+  .frameParent15 .skillDevelopment {
+    width: 229px !important;
+  }
+
+  .frameParent15 .customerEducation {
+    width: 241px !important;
+  }
+
+  .frameParent15 .universitiesSchools,
+  .frameParent15 .employeeDevelopment,
+  .frameParent15 .professionalCertifications,
+  .frameParent15 .customerPartner {
+    position: relative !important;
+    inset: auto !important;
+    width: 253px !important;
+    max-width: none !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 20px !important;
+    letter-spacing: 0.03em !important;
+    line-height: 28px !important;
+    color: #000 !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    display: inline-block !important;
+    flex-shrink: 0 !important;
+  }
+
+  .frameParent15 .universitiesSchools {
+    width: 229px !important;
+  }
+
+  .frameParent15 .customerPartner {
+    width: 272px !important;
+  }
+
+	.neuroLxpBadge sup {
+		font-size: 10px;
+	}
+
+  .frameParent15 .mortarboard01Icon {
+    position: relative !important;
+    inset: auto !important;
+    height: 50px !important;
+    width: 50px !important;
+    min-width: 50px !important;
+    max-width: 50px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: contain !important;
+    flex: 0 0 50px !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    width: 340px !important;
+    height: 139px !important;
+    min-width: 340px !important;
+    min-height: 139px !important;
+    flex-basis: 139px !important;
+  }
+
+  .frameParent15 .frameWrapper12 .rectangleParent,
+  .frameParent15 .frameWrapper13 .rectangleParent,
+  .frameParent15 .frameWrapper14 .rectangleParent,
+  .frameParent15 .frameWrapper16 .rectangleParent {
+    transform: scale(0.8585858586) !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    width: 286px !important;
+    height: 117px !important;
+    min-width: 286px !important;
+    min-height: 117px !important;
+    flex-basis: 117px !important;
+  }
+
+  .frameParent15 .frameWrapper12 .rectangleParent,
+  .frameParent15 .frameWrapper13 .rectangleParent,
+  .frameParent15 .frameWrapper14 .rectangleParent,
+  .frameParent15 .frameWrapper16 .rectangleParent {
+    transform: scale(0.7222222222) !important;
+  }
+}
+
+/* ===== FINAL MOBILE CHALLENGE SECTION SPACING FIX =====
+   Only reduces the empty space between the challenge intro
+   and the first challenge card. No other design is changed.
+*/
+@media screen and (max-width: 767px) {
+  .eLearning > .frameParent6 {
+    gap: 8px !important;
+  }
+
+  .frameParent6 .frameParent7,
+  .frameParent6 .addressingKeyChallengesInEParent {
+    height: auto !important;
+    min-height: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .frameParent6 .neurolxpHelpsOrganizations {
+    height: auto !important;
+    min-height: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .frameParent6 .challengeSection,
+  .frameParent6 .challengeCards {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+
+/* ===== MOBILE CHALLENGE HEADING/SUBTITLE SPACING FIX =====
+   Only reduces the gap between the "Addressing Key Challenges in E-Learning"
+   heading and the NeuroLXP subtitle.
+*/
+@media screen and (max-width: 767px) {
+  .frameParent6 .frameParent7 {
+    gap: 8px !important;
+  }
+
+  .frameParent6 .addressingKeyChallengesInEParent {
+    gap: 8px !important;
+  }
+
+  .frameParent6 .addressingKeyChallenges,
+  .frameParent6 .neurolxpHelpsOrganizations {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* =========================================================
+   FINAL CTA — TM + E-LEARNING FIX
+   Keeps the existing design; only fixes the two marked issues.
+   ========================================================= */
+
+.neuroLxpBadge sup {
+  font-size: 8px !important;
+  line-height: 1 !important;
+  vertical-align: super !important;
+  margin-left: 2px !important;
+  position: relative !important;
+  top: -2px !important;
+  font-weight: 500 !important;
+  transform: none !important;
+}
+
+.eLearningNoBreak {
+  white-space: nowrap !important;
+  display: inline-block !important;
+}
+.neuroLxpBadge sup {
+  position: relative !important;
+  top: -7px !important;
+  margin-left: 2px !important;
+  font-size: 9px !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+  vertical-align: baseline !important;
+  transform: none !important;
+}
+
+/* =========================================================
+   HERO STATS — FIGMA COLOR CORRECTION ONLY
+   Design/layout/shadows/spacing remain unchanged.
+   ========================================================= */
+
+.learningStatBlue {
+  background: #EBEEFC !important;
+}
+
+.learningStatPink {
+  background: #F2E1D9 !important;
+}
+
+.learningStatGreen {
+  background: #ECF1EA !important;
+}
+
+/* Keep the shared strip background consistent with the three exact fills. */
+.learningStats {
+  background: linear-gradient(
+    90deg,
+    #EBEEFC 0%,
+    #EBEEFC 33.333%,
+    #F2E1D9 33.333%,
+    #F2E1D9 66.666%,
+    #ECF1EA 66.666%,
+    #ECF1EA 100%
+  ) !important;
+}
+
+/* =========================================================
+   BOOK A DEMO + GET STARTED BUTTONS
+   Outset normally, inset while clicking.
+   No layout/design dimensions changed.
+   ========================================================= */
+
+.bookDemoButton,
+.frameWrapper18 {
+  background-color: #dfe6e9;
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+  cursor: pointer;
+  transition:
+    box-shadow 0.12s ease,
+    transform 0.12s ease;
+}
+
+/* Pressed neumorphic inset state */
+.bookDemoButton:active,
+.frameWrapper18:active {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.85);
+  transform: translateY(1px);
+}
+
+/* Keep links visually identical to the existing buttons */
+.frameWrapper18 {
+  text-decoration: none;
+  color: #2d4cc8;
+}
+
+.frameWrapper18:focus-visible {
+  outline: 3px solid rgba(45, 76, 200, 0.35);
+  outline-offset: 3px;
+}
+
+/* =========================================================
+   CTA FINAL FIX
+   - No black browser ring/outline around Book a Demo/Get Started
+   - Get Started remains a clean link button
+   - Keep raised -> inset click shadow
+   ========================================================= */
+.bookDemoButton,
+.frameWrapper18 {
+  border: 0 !important;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  text-decoration: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+}
+
+.bookDemoButton:focus,
+.bookDemoButton:focus-visible,
+.frameWrapper18:focus,
+.frameWrapper18:focus-visible {
+  outline: none !important;
+}
+
+.bookDemoButton:active,
+.frameWrapper18:active {
+  outline: none !important;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.85) !important;
+}
+
+/* =========================================================
+   FINAL GET STARTED CLICKABILITY FIX
+   Decorative layers cannot block CTA clicks.
+   No visual design/layout changes.
+   ========================================================= */
+
+.frameParent35 .image20,
+.frameParent35 .peopleTakingPartBusinessEv,
+.frameParent35 .image21,
+.frameParent35 .groupYoungBusinesspeopleUsi {
+  pointer-events: none !important;
+}
+
+/* Ensure text/CTA layer sits above decorative/video layers */
+.frameParent35 .frameParent36 {
+  position: relative;
+  z-index: 20 !important;
+  pointer-events: auto !important;
+}
+
+.frameParent35 .frameWrapper18 {
+  position: relative !important;
+  z-index: 30 !important;
+  pointer-events: auto !important;
+
+  border: 0 !important;
+  outline: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: #2d4cc8 !important;
+
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9 !important;
+}
+
+.frameParent35 .frameWrapper18:active {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.85) !important;
+}
+
+.frameParent35 .getStartedWrapper,
+.frameParent35 .getStarted {
+  pointer-events: none !important;
+}
+
+/* Video remains clickable only in its own video area */
+.frameParent35 .futureReadyVideoWrapper {
+  z-index: 5 !important;
+}
+
+/* =========================================================
+   FINAL CTA CLICKABILITY FIX
+   Start Learning + Get Started -> /HomePage
+   No design/layout change.
+   ========================================================= */
+
+/* Ensure both CTA controls are real clickable layers */
+.frameWrapper2,
+.frameParent35 .frameWrapper18 {
+  position: relative !important;
+  z-index: 50 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+
+  border: 0 !important;
+  outline: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  text-decoration: none !important;
+  color: #2d4cc8 !important;
+  font: inherit;
+}
+
+/* Prevent inner text wrappers from stealing the click */
+.frameWrapper2 .startLearningWrapper,
+.frameWrapper2 .startLearning,
+.frameParent35 .frameWrapper18 .getStartedWrapper,
+.frameParent35 .frameWrapper18 .getStarted {
+  pointer-events: none !important;
+}
+
+/* Keep hero content above decorative background */
+.frameParent,
+.frameDiv {
+  position: relative;
+  z-index: 20 !important;
+  pointer-events: auto !important;
+}
+
+/* Decorative hero background should never block button clicks */
+.eLearningChild {
+  pointer-events: none !important;
+}
+
+/* Keep requested outset -> inset press behavior */
+.frameWrapper2,
+.frameParent35 .frameWrapper18 {
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9 !important;
+}
+
+.frameWrapper2:active,
+.frameParent35 .frameWrapper18:active {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.85) !important;
+  transform: translateY(1px);
+}
+
+/* Remove browser/tap ring without adding any round black border */
+.frameWrapper2:focus,
+.frameWrapper2:focus-visible,
+.frameParent35 .frameWrapper18:focus,
+.frameParent35 .frameWrapper18:focus-visible {
+  outline: none !important;
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9 !important;
+}
+
+.frameWrapper2 {
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.frameParent35 .frameWrapper18 {
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+/* =========================================================
+   HERO GET STARTED — ALIGNMENT FIX ONLY
+   ========================================================= */
+.frameWrapper18 {
+  width: 175px !important;
+  height: 60px !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+}
+
+.getStartedWrapper {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.getStarted {
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: static !important;
+  transform: none !important;
+  white-space: nowrap !important;
+  line-height: 1 !important;
+  display: block !important;
+  text-align: center !important;
+}
+
+/* GET STARTED — RESTORE ORIGINAL FONT SIZE ONLY */
+.getStarted {
+  font-size: 18px !important;
+  line-height: 26px !important;
+}
+
+/* MOBILE ONLY — move last CTA section upward */
+@media (max-width: 768px) {
+  .frameParent35 {
+    position: relative !important;
+    transform: translateY(-35px) !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* SEGoe UI ONLY — typography family normalization */
+.eLearning,
+.eLearning *,
+.eLearning *::before,
+.eLearning *::after {
+  font-family: "Segoe UI" !important;
+}
+
+/* ==========================================================================
+   FINAL VISUAL BASELINE UPDATE
+   Reference: Coding Labs typography + neumorphic CTA behavior.
+   Scope: typography normalization and CTA interaction only.
+   Existing page layout, content, cards, media, spacing and responsive
+   structure remain unchanged.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   FONT FAMILY — SAME FAMILY USED IN THE REFERENCE PAGE
+   -------------------------------------------------------------------------- */
+.eLearning,
+.eLearning *,
+.eLearning *::before,
+.eLearning *::after {
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+}
+
+/* --------------------------------------------------------------------------
+   DESKTOP TYPOGRAPHY
+   -------------------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+  /* Main / section headings */
+  .deliverEngagingDigitalContainer,
+  .deliverEngaging,
+  .digitalLearning,
+  .addressingKeyChallenges,
+  .keyFeaturesOf,
+  .futureReadyELearning {
+    font-size: 36px !important;
+    line-height: 48px !important;
+    font-weight: 700 !important;
+  }
+
+  /* Main descriptive copy */
+  .neurolxpEmpowersOrganization,
+  .neurolxpHelpsOrganizations,
+  .neurolxpSupportsA,
+  .interactiveScalableLearning {
+    font-size: 24px !important;
+    line-height: 40px !important;
+    font-weight: 400 !important;
+  }
+
+  /* Pills / badges */
+  .frameChild,
+  .keyChallengesBadge,
+  .platformFeaturesBadge,
+  .idealForBadge,
+  .neuroLxpBadge {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 600 !important;
+  }
+
+  /* Challenge cards */
+  .challengeMainContent h3,
+  .aiPoweredContent,
+  .onlineEducation,
+  .corporateTraining,
+  .skillDevelopment,
+  .customerEducation {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 700 !important;
+  }
+
+  .challengeMainContent p,
+  .challengeSolution span,
+  .smartContentCuration,
+  .universitiesSchools,
+  .employeeDevelopment,
+  .professionalCertifications,
+  .customerPartner {
+    font-size: 20px !important;
+    line-height: 28px !important;
+    font-weight: 400 !important;
+  }
+
+  .challengeSolution strong {
+    font-size: 20px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+  }
+
+  /* Stats retain their visual hierarchy */
+  .learningStat strong {
+    font-size: 32px !important;
+    line-height: 34px !important;
+    font-weight: 700 !important;
+  }
+
+  .learningStat span {
+    font-size: 18px !important;
+    line-height: 26px !important;
+    font-weight: 600 !important;
+  }
+}
+
+/* ==========================================================================
+   CTA BUTTONS — HOVER IN / HOVER OUT NEUMORPHIC EFFECT
+   Book a Demo + Start Learning + Get Started
+   ========================================================================== */
+
+.bookDemoButton,
+.frameWrapper2,
+.frameParent35 .frameWrapper18 {
+  border: 0 !important;
+  outline: 0 !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+
+  background: #dfe6e9 !important;
+  color: #2d4cc8 !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c6c6c9 !important;
+
+  transition:
+    box-shadow 0.28s ease,
+    transform 0.28s ease,
+    color 0.28s ease !important;
+
+  transform: translateY(0) !important;
+  font-size: 22px !important;
+  font-weight: 600 !important;
+  line-height: 30px !important;
+}
+
+/* Hover-in = pressed/inset. Hover-out automatically returns to raised state. */
+@media (hover: hover) and (pointer: fine) {
+  .bookDemoButton:hover,
+  .frameWrapper2:hover,
+  .frameParent35 .frameWrapper18:hover {
+    box-shadow:
+      inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196, 196, 196, 0.82) !important;
+    transform: translateY(1px) !important;
+    color: #243fa8 !important;
+  }
+}
+
+/* Click / touch feedback */
+.bookDemoButton:active,
+.frameWrapper2:active,
+.frameParent35 .frameWrapper18:active {
+  box-shadow:
+    inset -3px -3px 4px #ffffff,
+    inset 3px 3px 5px rgba(187, 193, 197, 0.9) !important;
+  transform: translateY(2px) !important;
+}
+
+/* Keyboard focus — subtle, design-safe */
+.bookDemoButton:focus-visible,
+.frameWrapper2:focus-visible,
+.frameParent35 .frameWrapper18:focus-visible {
+  outline: 2px solid rgba(45, 76, 200, 0.42) !important;
+  outline-offset: 4px !important;
+}
+
+/* Keep button labels exactly centered */
+.bookDemoButton,
+.frameWrapper2,
+.frameParent35 .frameWrapper18 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+}
+
+.frameWrapper2 .startLearningWrapper,
+.frameWrapper2 .startLearning,
+.frameParent35 .frameWrapper18 .getStartedWrapper,
+.frameParent35 .frameWrapper18 .getStarted {
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: static !important;
+  transform: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  line-height: inherit !important;
+}
+
+/* --------------------------------------------------------------------------
+   TABLET TYPOGRAPHY / CTA RESPONSIVENESS
+   -------------------------------------------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  .deliverEngagingDigitalContainer,
+  .deliverEngaging,
+  .digitalLearning,
+  .addressingKeyChallenges,
+  .keyFeaturesOf,
+  .futureReadyELearning {
+    font-size: 34px !important;
+    line-height: 44px !important;
+  }
+
+  .neurolxpEmpowersOrganization,
+  .neurolxpHelpsOrganizations,
+  .neurolxpSupportsA,
+  .interactiveScalableLearning {
+    font-size: 22px !important;
+    line-height: 34px !important;
+  }
+
+  .bookDemoButton,
+  .frameWrapper2,
+  .frameParent35 .frameWrapper18 {
+    width: auto !important;
+    min-width: 180px !important;
+    max-width: 100% !important;
+    height: 56px !important;
+    padding: 12px 24px !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   MOBILE TYPOGRAPHY / CTA RESPONSIVENESS
+   -------------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+
+  .deliverEngagingDigitalContainer,
+  .deliverEngaging,
+  .digitalLearning,
+  .addressingKeyChallenges,
+  .keyFeaturesOf,
+  .futureReadyELearning {
+    font-size: 29px !important;
+    line-height: 38px !important;
+  }
+
+  .neurolxpEmpowersOrganization,
+  .neurolxpHelpsOrganizations,
+  .neurolxpSupportsA,
+  .interactiveScalableLearning {
+    font-size: 17px !important;
+    line-height: 27px !important;
+  }
+
+  .frameChild,
+  .keyChallengesBadge,
+  .platformFeaturesBadge,
+  .idealForBadge,
+  .neuroLxpBadge {
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+
+  /* Both hero CTAs remain aligned and never overflow the screen. */
+  .frameDiv {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 14px !important;
+  }
+
+  .bookDemoButton,
+  .frameWrapper2 {
+    width: min(100%, 190px) !important;
+    min-width: 0 !important;
+    max-width: 190px !important;
+    height: 52px !important;
+    min-height: 52px !important;
+    padding: 10px 18px !important;
+    border-radius: 12px !important;
+    font-size: 17px !important;
+    line-height: 24px !important;
+    flex: 0 1 190px !important;
+  }
+
+  .frameParent35 .frameWrapper18 {
+    width: min(100%, 176px) !important;
+    min-width: 0 !important;
+    max-width: 176px !important;
+    height: 52px !important;
+    min-height: 52px !important;
+    padding: 10px 18px !important;
+    border-radius: 14px !important;
+    font-size: 17px !important;
+    line-height: 24px !important;
+  }
+
+  .challengeMainContent h3,
+  .aiPoweredContent,
+  .onlineEducation,
+  .corporateTraining,
+  .skillDevelopment,
+  .customerEducation {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+
+  .challengeMainContent p,
+  .challengeSolution strong,
+  .challengeSolution span,
+  .smartContentCuration,
+  .universitiesSchools,
+  .employeeDevelopment,
+  .professionalCertifications,
+  .customerPartner {
+    font-size: 15px !important;
+    line-height: 23px !important;
+  }
+}
+
+/* Small mobile */
+@media screen and (max-width: 479px) {
+
+  .deliverEngagingDigitalContainer,
+  .deliverEngaging,
+  .digitalLearning,
+  .addressingKeyChallenges,
+  .keyFeaturesOf,
+  .futureReadyELearning {
+    font-size: 26px !important;
+    line-height: 34px !important;
+  }
+
+  .frameDiv {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .bookDemoButton,
+  .frameWrapper2 {
+    width: min(100%, 180px) !important;
+    max-width: 180px !important;
+    flex-basis: 50px !important;
+    height: 50px !important;
+    min-height: 50px !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+
+  .frameParent35 .frameWrapper18 {
+    width: min(100%, 170px) !important;
+    max-width: 170px !important;
+    height: 50px !important;
+    min-height: 50px !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+}
+
+/* Reduced-motion users still receive the visual raised/inset states. */
+@media (prefers-reduced-motion: reduce) {
+  .bookDemoButton,
+  .frameWrapper2,
+  .frameParent35 .frameWrapper18 {
+    transition: none !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL DESKTOP SPACING FIX — "IDEAL FOR" SECTION ONLY
+   --------------------------------------------------------------------------
+   Reduces only the two empty areas shown in the screenshot:
+   1. Heading -> supporting description
+   2. Supporting description -> cards
+   No other section, card, typography or responsive layout is changed.
+   ========================================================================== */
+@media screen and (min-width: 1200px) {
+
+  /* The Ideal For header is the second .frameParent7 inside frameParent16.
+     Let its content determine the real height instead of reserving 249px. */
+  .frameParent15 .frameParent16 > .frameParent7 {
+    height: auto !important;
+    min-height: 0 !important;
+    gap: 18px !important;
+  }
+
+  /* Remove the fixed 216px reserve around heading + description. */
+  .frameParent15 .frameParent16 > .frameParent7 .addressingKeyChallengesInEParent {
+    height: auto !important;
+    min-height: 0 !important;
+    gap: 14px !important;
+  }
+
+  /* The TSX contains extra <br> tags after this heading and description.
+     Hide only those line-break spacers in the Ideal For section. */
+  .frameParent15 .frameParent16 > .frameParent7 .addressingKeyChallenges br,
+  .frameParent15 .frameParent16 > .frameParent7 .neurolxpSupportsA br {
+    display: none !important;
+  }
+
+  .frameParent15 .frameParent16 > .frameParent7 .addressingKeyChallenges,
+  .frameParent15 .frameParent16 > .frameParent7 .neurolxpSupportsA {
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Reduce only the blank area before the Ideal For cards.
+     frameParent15 has two direct children:
+     frameParent16 = headings/features/Ideal For heading
+     frameParent27 = Ideal For cards */
+  .frameParent15 {
+    gap: 28px !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL DESKTOP SPACING FIX — PLATFORM FEATURES SECTION ONLY
+   --------------------------------------------------------------------------
+   Reduces only the empty areas shown in the screenshot:
+   1. Key Challenges section -> Platform Features badge
+   2. Platform Features badge -> heading
+   3. Heading -> feature cards
+   Existing fonts, buttons, cards, Ideal For section and responsive layouts
+   are not changed.
+   ========================================================================== */
+@media screen and (min-width: 1200px) {
+
+  /* Reduce the section-to-section gap before Platform Features.
+     Existing value in the page flow is 64px. */
+  .eLearning > .frameParent15 {
+    margin-top: 34px !important;
+  }
+
+  /* Platform Features header + cards container.
+     Existing gap is 64px; tighten only this section. */
+  .frameParent15 .frameParent17 {
+    gap: 30px !important;
+  }
+
+  /* Badge -> heading spacing.
+     Existing gap is 32px. */
+  .frameParent15 .frameParent18 {
+    gap: 18px !important;
+  }
+
+  /* Let the heading use only its real content height. */
+  .frameParent15 .keyFeaturesOfNeurolxpELeaWrapper,
+  .frameParent15 .keyFeaturesOf {
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* The TSX contains two trailing <br> elements after this heading.
+     Hide only those extra line-break spacers in Platform Features. */
+  .frameParent15 .keyFeaturesOf br {
+    display: none !important;
+  }
+
+  /* Reduce only the gap immediately above the four feature circles. */
+  .frameParent15 .frameParent19 {
+    margin-top: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL CANONICAL MOBILE FIX
+   PLATFORM FEATURES + IDEAL FOR ONLY
+   --------------------------------------------------------------------------
+   This block intentionally comes LAST so it overrides the older mobile rules
+   for these two sections without changing desktop/tablet or other sections.
+   ========================================================================== */
+@media screen and (max-width: 767px) {
+
+  /* ------------------------------------------------------------------------
+     SHARED SECTION CONTAINER
+     ------------------------------------------------------------------------ */
+  .eLearning > .frameParent15 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent16,
+  .frameParent15 .frameParent17,
+  .frameParent15 .frameParent18,
+  .frameParent15 .frameParent19,
+  .frameParent15 .frameParent27 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  /* ========================================================================
+     1. PLATFORM FEATURES
+     ======================================================================== */
+
+  .frameParent15 .frameParent17 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 28px !important;
+  }
+
+  .frameParent15 .frameParent18 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 16px !important;
+  }
+
+  .frameParent15 .keyFeaturesOfNeurolxpELeaWrapper,
+  .frameParent15 .keyFeaturesOf {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+  }
+
+  /* Remove the desktop-only manual blank lines from the heading. */
+  .frameParent15 .keyFeaturesOf br {
+    display: none !important;
+  }
+
+  .frameParent15 .frameParent19 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 22px !important;
+  }
+
+  .frameParent15 .frameParent20 {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 22px !important;
+  }
+
+  /* Oval feature card */
+  .frameParent15 .ellipseParent {
+    position: relative !important;
+    inset: auto !important;
+    width: min(100%, 292px) !important;
+    max-width: 292px !important;
+    height: 204px !important;
+    min-height: 204px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    transform: none !important;
+    flex: 0 0 204px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .ellipseDiv {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 204px !important;
+  }
+
+  .frameParent15 .ellipseIcon,
+  .frameParent15 .frameChild18 {
+    position: absolute !important;
+    top: 14px !important;
+    left: 14px !important;
+    width: calc(100% - 28px) !important;
+    height: 176px !important;
+  }
+
+  /* Content gets a deliberate safe inset from the oval border. */
+  .frameParent15 .ellipseParent .frameParent21 {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: calc(100% - 76px) !important;
+    max-width: 216px !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: translate(-50%, -50%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent15 .ellipseParent .ellipseGroup {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+
+  .frameParent15 .frameChild16,
+  .frameParent15 .frameChild19,
+  .frameParent15 .frameChild22,
+  .frameParent15 .frameChild25 {
+    width: 50px !important;
+    height: 50px !important;
+    flex: 0 0 50px !important;
+  }
+
+  .frameParent15 .aiBookIcon {
+    width: 26px !important;
+    height: 26px !important;
+    top: 12px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+
+  /* Prevent title/description from touching or crossing the inner oval. */
+  .frameParent15 .ellipseParent .aiPoweredContent {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 210px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 4px !important;
+    box-sizing: border-box !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .frameParent15 .ellipseParent .aiPoweredContent br {
+    display: none !important;
+  }
+
+  .frameParent15 .ellipseParent .smartContentCuration {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 206px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 6px !important;
+    box-sizing: border-box !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  /* ========================================================================
+     2. IDEAL FOR
+     ======================================================================== */
+
+  /* Header block after Platform Features */
+  .frameParent15 .frameParent16 > .frameParent7 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 16px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameParent16 > .frameParent7 .addressingKeyChallengesInEParent {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px !important;
+  }
+
+  .frameParent15 .frameParent16 > .frameParent7 .addressingKeyChallenges,
+  .frameParent15 .frameParent16 > .frameParent7 .neurolxpSupportsA {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+  }
+
+  /* Remove the manual desktop spacing breaks that were causing overlap/gaps. */
+  .frameParent15 .frameParent16 > .frameParent7 .addressingKeyChallenges br,
+  .frameParent15 .frameParent16 > .frameParent7 .neurolxpSupportsA br {
+    display: none !important;
+  }
+
+  .frameParent15 .frameParent16 > .frameParent7 .neurolxpSupportsA {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  /* Cards become a clean one-column mobile stack. */
+  .frameParent15 .frameParent27 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 18px !important;
+  }
+
+  .frameParent15 .frameParent28,
+  .frameParent15 .frameParent32 {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 18px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    position: relative !important;
+    inset: auto !important;
+    width: min(100%, 310px) !important;
+    max-width: 310px !important;
+    min-width: 0 !important;
+    height: 136px !important;
+    min-height: 136px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+    flex: 0 0 136px !important;
+  }
+
+  .frameParent15 .frameWrapper12 .rectangleParent,
+  .frameParent15 .frameWrapper13 .rectangleParent,
+  .frameParent15 .frameWrapper14 .rectangleParent,
+  .frameParent15 .frameWrapper16 .rectangleParent {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 136px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+    transform-origin: center !important;
+  }
+
+  /* Preserve the original layered-card idea, but scale it proportionally. */
+  .frameParent15 .frameWrapper12 .rectangleDiv,
+  .frameParent15 .frameWrapper13 .rectangleDiv,
+  .frameParent15 .frameWrapper14 .rectangleDiv,
+  .frameParent15 .frameWrapper16 .rectangleDiv {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 76% !important;
+    height: 136px !important;
+    border-radius: 16px !important;
+  }
+
+  .frameParent15 .frameWrapper12 .frameChild27,
+  .frameParent15 .frameWrapper13 .frameChild27,
+  .frameParent15 .frameWrapper14 .frameChild27,
+  .frameParent15 .frameWrapper16 .frameChild27,
+  .frameParent15 .frameWrapper12 .frameChild29,
+  .frameParent15 .frameWrapper13 .frameChild29,
+  .frameParent15 .frameWrapper14 .frameChild29,
+  .frameParent15 .frameWrapper16 .frameChild29 {
+    position: absolute !important;
+    top: 10px !important;
+    left: 12px !important;
+    width: calc(100% - 12px) !important;
+    height: 116px !important;
+    border-radius: 16px !important;
+  }
+
+  .frameParent15 .frameWrapper12 .frameParent29,
+  .frameParent15 .frameWrapper13 .frameParent29,
+  .frameParent15 .frameWrapper14 .frameParent29,
+  .frameParent15 .frameWrapper16 .frameParent29,
+  .frameParent15 .frameWrapper12 .frameParent30,
+  .frameParent15 .frameWrapper13 .frameParent30,
+  .frameParent15 .frameWrapper14 .frameParent30,
+  .frameParent15 .frameWrapper16 .frameParent30 {
+    position: absolute !important;
+    top: 50% !important;
+    left: 24px !important;
+    right: 16px !important;
+    bottom: auto !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 14px !important;
+    z-index: 3 !important;
+  }
+
+  .frameParent15 .frameWrapper12 .onlineEducationParent,
+  .frameParent15 .frameWrapper13 .corporateTrainingParent,
+  .frameParent15 .frameWrapper14 .onlineEducationParent,
+  .frameParent15 .frameWrapper14 .corporateTrainingParent,
+  .frameParent15 .frameWrapper16 .onlineEducationParent,
+  .frameParent15 .frameWrapper16 .corporateTrainingParent {
+    position: relative !important;
+    inset: auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex: 1 1 auto !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    gap: 4px !important;
+  }
+
+  /* Manual <br> tags in these titles were the main mobile overlap source. */
+  .frameParent15 .frameParent27 .onlineEducation br,
+  .frameParent15 .frameParent27 .corporateTraining br,
+  .frameParent15 .frameParent27 .skillDevelopment br,
+  .frameParent15 .frameParent27 .customerEducation br {
+    display: none !important;
+  }
+
+  .frameParent15 .frameParent27 .onlineEducation,
+  .frameParent15 .frameParent27 .corporateTraining,
+  .frameParent15 .frameParent27 .skillDevelopment,
+  .frameParent15 .frameParent27 .customerEducation {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 18px !important;
+    line-height: 23px !important;
+    font-weight: 700 !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .frameParent15 .frameParent27 .universitiesSchools,
+  .frameParent15 .frameParent27 .employeeDevelopment,
+  .frameParent15 .frameParent27 .professionalCertifications,
+  .frameParent15 .frameParent27 .customerPartner {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .frameParent15 .frameParent27 .mortarboard01Icon {
+    position: relative !important;
+    inset: auto !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    max-width: 40px !important;
+    height: 40px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: contain !important;
+    flex: 0 0 40px !important;
+  }
+}
+
+/* Extra-small phones keep the same structure; only reduce widths slightly. */
+@media screen and (max-width: 360px) {
+  .eLearning > .frameParent15 {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  .frameParent15 .ellipseParent {
+    width: min(100%, 276px) !important;
+    max-width: 276px !important;
+  }
+
+  .frameParent15 .ellipseParent .frameParent21 {
+    width: calc(100% - 70px) !important;
+    max-width: 206px !important;
+  }
+
+  .frameParent15 .frameWrapper12,
+  .frameParent15 .frameWrapper13,
+  .frameParent15 .frameWrapper14,
+  .frameParent15 .frameWrapper16 {
+    width: min(100%, 286px) !important;
+    max-width: 286px !important;
+    min-width: 0 !important;
+    height: 132px !important;
+    min-height: 132px !important;
+    flex-basis: 132px !important;
+  }
+
+  .frameParent15 .frameWrapper12 .rectangleParent,
+  .frameParent15 .frameWrapper13 .rectangleParent,
+  .frameParent15 .frameWrapper14 .rectangleParent,
+  .frameParent15 .frameWrapper16 .rectangleParent,
+  .frameParent15 .frameWrapper12 .rectangleDiv,
+  .frameParent15 .frameWrapper13 .rectangleDiv,
+  .frameParent15 .frameWrapper14 .rectangleDiv,
+  .frameParent15 .frameWrapper16 .rectangleDiv {
+    height: 132px !important;
+  }
+
+  .frameParent15 .frameWrapper12 .frameChild27,
+  .frameParent15 .frameWrapper13 .frameChild27,
+  .frameParent15 .frameWrapper14 .frameChild27,
+  .frameParent15 .frameWrapper16 .frameChild27,
+  .frameParent15 .frameWrapper12 .frameChild29,
+  .frameParent15 .frameWrapper13 .frameChild29,
+  .frameParent15 .frameWrapper14 .frameChild29,
+  .frameParent15 .frameWrapper16 .frameChild29 {
+    height: 112px !important;
+  }
+
+  .frameParent15 .frameWrapper12 .frameParent29,
+  .frameParent15 .frameWrapper13 .frameParent29,
+  .frameParent15 .frameWrapper14 .frameParent29,
+  .frameParent15 .frameWrapper16 .frameParent29,
+  .frameParent15 .frameWrapper12 .frameParent30,
+  .frameParent15 .frameWrapper13 .frameParent30,
+  .frameParent15 .frameWrapper14 .frameParent30,
+  .frameParent15 .frameWrapper16 .frameParent30 {
+    left: 20px !important;
+    right: 12px !important;
+    gap: 12px !important;
+  }
+
+  .frameParent15 .frameParent27 .onlineEducation,
+  .frameParent15 .frameParent27 .corporateTraining,
+  .frameParent15 .frameParent27 .skillDevelopment,
+  .frameParent15 .frameParent27 .customerEducation {
+    font-size: 17px !important;
+    line-height: 22px !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL MOBILE NORMALIZATION — IDEAL FOR CARDS
+   --------------------------------------------------------------------------
+   The first "Online Education" card uses .frameChild27 while the remaining
+   cards use .frameChild29. Their original shadows are different, which is why
+   the first card looks different before hover.
+
+   This block makes BOTH inner card layers visually identical on mobile.
+   It does not change desktop/tablet, card content, dimensions, hover motion,
+   typography or spacing.
+   ========================================================================== */
+@media screen and (max-width: 767px) {
+
+  /* Make the first card's inner panel use the SAME raised neumorphic
+     appearance as the other Ideal For cards. */
+  .frameParent15 .frameParent27 .frameChild27,
+  .frameParent15 .frameParent27 .frameChild29 {
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      -4px -4px 8px #ffffff,
+      4px 4px 8px #c4c4c4 !important;
+
+    border: 0 !important;
+    border-radius: 16px !important;
+  }
+
+  /* Ensure the outer/base layer is also identical for every card. */
+  .frameParent15 .frameParent27 .rectangleDiv {
+    background: #dfe6e9 !important;
+
+    box-shadow:
+      -4px -4px 8px #ffffff,
+      4px 4px 8px #c4c4c4 !important;
+
+    border: 0 !important;
+    border-radius: 16px !important;
+  }
+
+  /* Prevent any inherited first-card inset state from showing before hover. */
+  .frameParent15 .frameWrapper12 .frameChild27 {
+    box-shadow:
+      -4px -4px 8px #ffffff,
+      4px 4px 8px #c4c4c4 !important;
+  }
+}
+
+/* Same visual consistency on extra-small phones. */
+@media screen and (max-width: 360px) {
+  .frameParent15 .frameParent27 .frameChild27,
+  .frameParent15 .frameParent27 .frameChild29,
+  .frameParent15 .frameParent27 .rectangleDiv {
+    box-shadow:
+      -4px -4px 8px #ffffff,
+      4px 4px 8px #c4c4c4 !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL REQUESTED CONSISTENCY OVERRIDES — E-LEARNING PAGE
+   ONLY:
+   1) Badges match the previously approved inset pill style.
+   2) CTA buttons match the previously approved raised/inset style.
+   3) Every word is selectable.
+   NO spacing, section, card, image, typography-size or layout changes.
+   ========================================================================== */
+
+/* ==========================================================================
+   1) EVERY WORD SELECTABLE
+   ========================================================================== */
+body:has(.eLearning),
+body:has(.eLearning) * {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  user-select: text !important;
+  -webkit-touch-callout: default;
+}
+
+.eLearning,
+.eLearning *,
+.eLearning *::before,
+.eLearning *::after {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  user-select: text !important;
+}
+
+/* ==========================================================================
+   2) BADGES — SAME AS PREVIOUS APPROVED PAGES
+   Inset neumorphic pill + blue text + NO hover/movement.
+   ========================================================================== */
+.eLearning :is(
+  .frameChild,
+  .keyChallengesBadge,
+  .platformFeaturesBadge,
+  .idealForBadge,
+  .neuroLxpBadge
+) {
+  width: fit-content !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+
+  height: 50px !important;
+  min-height: 50px !important;
+
+  padding: 9px 24px !important;
+  box-sizing: border-box !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border: 0 !important;
+  border-radius: 28px !important;
+
+  background: #dfe6e9 !important;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+  color: #2d4cc8 !important;
+
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  letter-spacing: 0.03em !important;
+
+  text-align: center !important;
+  white-space: nowrap !important;
+
+  filter: none !important;
+  text-shadow: none !important;
+
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+
+  cursor: default !important;
+}
+
+/* Badges are labels, not buttons. */
+.eLearning :is(
+  .frameChild,
+  .keyChallengesBadge,
+  .platformFeaturesBadge,
+  .idealForBadge,
+  .neuroLxpBadge
+):is(:hover, :active) {
+  background: #dfe6e9 !important;
+  color: #2d4cc8 !important;
+
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+  transform: none !important;
+}
+
+/* Preserve the existing trademark treatment inside the NeuroLXP badge.
+   This does not alter the badge layout itself. */
+.eLearning .neuroLxpBadge sup {
+  flex-shrink: 0 !important;
+}
+
+/* ==========================================================================
+   3) CTA BUTTONS — SAME AS PREVIOUS APPROVED PAGES
+   Raised normally, inset on hover/press, NO jumping/translate movement.
+   ========================================================================== */
+.eLearning :is(
+  .bookDemoButton,
+  .frameWrapper2,
+  .frameParent35 .frameWrapper18
+) {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+
+  border: 0 !important;
+  border-radius: 8px !important;
+
+  background: #dfe6e9 !important;
+  color: #2d4cc8 !important;
+
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c6c6c9 !important;
+
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+
+  text-decoration: none !important;
+  text-align: center !important;
+
+  cursor: pointer !important;
+
+  transform: none !important;
+  transition: box-shadow 0.2s ease !important;
+}
+
+/* Keep labels centered and blue. */
+.eLearning :is(
+  .bookDemoButton,
+  .frameWrapper2,
+  .frameParent35 .frameWrapper18,
+  .startLearning,
+  .getStarted
+) {
+  color: #2d4cc8 !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .eLearning :is(
+    .bookDemoButton,
+    .frameWrapper2,
+    .frameParent35 .frameWrapper18
+  ):hover {
+    box-shadow:
+      inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+    color: #2d4cc8 !important;
+    transform: none !important;
+  }
+}
+
+.eLearning :is(
+  .bookDemoButton,
+  .frameWrapper2,
+  .frameParent35 .frameWrapper18
+):active {
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+  color: #2d4cc8 !important;
+  transform: none !important;
+}
+
+/* Keep the existing accessible focus treatment without moving the button. */
+.eLearning :is(
+  .bookDemoButton,
+  .frameWrapper2,
+  .frameParent35 .frameWrapper18
+):focus-visible {
+  outline: 3px solid rgba(45, 76, 200, 0.35) !important;
+  outline-offset: 3px !important;
+  transform: none !important;
+}
+
+/* ==========================================================================
+   RESPONSIVE BADGE SCALE
+   Same style; only prevents badge overflow on smaller devices.
+   ========================================================================== */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .eLearning :is(
+    .frameChild,
+    .keyChallengesBadge,
+    .platformFeaturesBadge,
+    .idealForBadge,
+    .neuroLxpBadge
+  ) {
+    height: auto !important;
+    min-height: 48px !important;
+    padding: 9px 22px !important;
+
+    font-size: 20px !important;
+    line-height: 28px !important;
+
+    white-space: normal !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .eLearning :is(
+    .frameChild,
+    .keyChallengesBadge,
+    .platformFeaturesBadge,
+    .idealForBadge,
+    .neuroLxpBadge
+  ) {
+    width: fit-content !important;
+    max-width: calc(100% - 24px) !important;
+
+    height: auto !important;
+    min-height: 46px !important;
+
+    padding: 9px 20px !important;
+
+    font-size: 16px !important;
+    line-height: 24px !important;
+
+    white-space: normal !important;
+  }
+}
+
+/* ==========================================================================
+   BREADCRUMB — MATCH PREVIOUS PAGES
+   E-Learning page only.
+   No hero, section, card, badge, button, image or page-spacing changes.
+   ========================================================================== */
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+  .eLearning > .frameParent5 {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+
+    width: 1280px !important;
+    max-width: calc(100% - 64px) !important;
+    height: 24px !important;
+
+    margin: 32px auto 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+
+    gap: 8px !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.02em !important;
+
+    color: #2f3547 !important;
+    text-align: left !important;
+
+    transform: none !important;
+    z-index: 5 !important;
+  }
+
+  /* Previous / parent breadcrumb item */
+  .eLearning > .frameParent5 .ourCustomersWrapper,
+  .eLearning > .frameParent5 .solutionsFor {
+    display: inline-flex !important;
+    align-items: center !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 400 !important;
+
+    color: #2f3547 !important;
+    white-space: nowrap !important;
+  }
+
+  /* Current breadcrumb + separator group */
+  .eLearning > .frameParent5 .arrowRightDoubleGroup {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
+
+    color: #243fa8 !important;
+    white-space: nowrap !important;
+  }
+
+  .eLearning > .frameParent5 img,
+  .eLearning > .frameParent5 svg {
+    width: 16px !important;
+    height: 16px !important;
+    flex: 0 0 16px !important;
+    object-fit: contain !important;
+  }
+}
+
+/* Tablet / small laptop */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .eLearning > .frameParent5 {
+    width: 100% !important;
+    max-width: 1280px !important;
+    height: auto !important;
+
+    margin: 24px auto 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+
+    gap: 8px !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+    color: #2f3547 !important;
+    text-align: left !important;
+  }
+
+  .eLearning > .frameParent5 .ourCustomersWrapper,
+  .eLearning > .frameParent5 .solutionsFor,
+  .eLearning > .frameParent5 .arrowRightDoubleGroup {
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+  }
+
+  .eLearning > .frameParent5 .ourCustomersWrapper,
+  .eLearning > .frameParent5 .solutionsFor {
+    color: #2f3547 !important;
+    font-weight: 400 !important;
+  }
+
+  .eLearning > .frameParent5 .arrowRightDoubleGroup {
+    color: #243fa8 !important;
+    font-weight: 600 !important;
+    gap: 8px !important;
+  }
+
+  .eLearning > .frameParent5 img,
+  .eLearning > .frameParent5 svg {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+
+/* Mobile — same compact breadcrumb treatment as the previous pages */
+@media screen and (max-width: 767px) {
+  .eLearning > .frameParent5 {
+    width: 100% !important;
+    height: auto !important;
+
+    margin: 8px auto 12px !important;
+    padding: 0 2px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+
+    gap: 6px !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 11.5px !important;
+    line-height: 18px !important;
+    color: #2f3547 !important;
+    text-align: left !important;
+  }
+
+  .eLearning > .frameParent5 .ourCustomersWrapper,
+  .eLearning > .frameParent5 .solutionsFor,
+  .eLearning > .frameParent5 .arrowRightDoubleGroup {
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 11.5px !important;
+    line-height: 18px !important;
+  }
+
+  .eLearning > .frameParent5 .ourCustomersWrapper,
+  .eLearning > .frameParent5 .solutionsFor {
+    color: #2f3547 !important;
+    font-weight: 400 !important;
+  }
+
+  .eLearning > .frameParent5 .arrowRightDoubleGroup {
+    color: #243fa8 !important;
+    font-weight: 600 !important;
+    gap: 6px !important;
+  }
+
+  .eLearning > .frameParent5 img,
+  .eLearning > .frameParent5 svg {
+    width: 12px !important;
+    height: 12px !important;
+    flex: 0 0 12px !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL SMALL CORRECTIONS — E-LEARNING PAGE
+   ONLY:
+   1) Last/current breadcrumb text = blue + bold.
+   2) Reduce ONLY heading -> subheading spacing.
+   Section-to-section spacing, badge spacing, cards and layouts stay unchanged.
+   ========================================================================== */
+
+/* ==========================================================================
+   1) CURRENT / LAST BREADCRUMB ITEM
+   ========================================================================== */
+.eLearning > .frameParent5 .arrowRightDoubleGroup {
+  color: #2d4cc8 !important;
+  font-weight: 700 !important;
+}
+
+.eLearning > .frameParent5 .arrowRightDoubleGroup * {
+  color: #2d4cc8 !important;
+  font-weight: 700 !important;
+}
+
+/* ==========================================================================
+   2) HEADING -> SUBHEADING SPACING ONLY
+   Do NOT change outer section gaps or badge -> heading gaps.
+   ========================================================================== */
+
+/* Hero:
+   "Deliver Engaging Digital Learning..." -> supporting paragraph */
+.eLearning .deliverEngagingDigitalContainer + .neurolxpEmpowersOrganization {
+  margin-top: -16px !important;
+}
+
+/* Key Challenges:
+   "Addressing Key Challenges in E-Learning" -> supporting paragraph */
+.eLearning .addressingKeyChallengesInEParent {
+  gap: 16px !important;
+}
+
+/* Ideal For:
+   heading -> "NeuroLXP supports..." supporting paragraph
+   Scoped to the Ideal For heading block only. */
+@media screen and (min-width: 1200px) {
+  .eLearning .frameParent15 .frameParent16 > .frameParent7
+  .addressingKeyChallengesInEParent {
+    gap: 10px !important;
+  }
+}
+
+/* Final CTA:
+   "Future-Ready E-Learning..." heading group -> supporting paragraph.
+   This changes only that inner text gap. */
+.eLearning .frameParent35 .frameParent37 {
+  gap: 16px !important;
+}
+
+/* Keep the same compact heading/subheading relationship responsively. */
+@media screen and (max-width: 1199px) {
+  .eLearning .addressingKeyChallengesInEParent {
+    gap: 12px !important;
+  }
+
+  .eLearning .frameParent35 .frameParent37 {
+    gap: 12px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .eLearning .deliverEngagingDigitalContainer + .neurolxpEmpowersOrganization {
+    margin-top: -8px !important;
+  }
+
+  .eLearning .addressingKeyChallengesInEParent {
+    gap: 8px !important;
+  }
+
+  .eLearning .frameParent35 .frameParent37 {
+    gap: 10px !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL MOBILE KEY CHALLENGES TEXT SPACING FIX
+   Scope: ONLY the "Key Challenges" intro shown in the screenshot.
+   Badge, cards, section-to-section spacing and all other sections untouched.
+   ========================================================================== */
+
+@media screen and (max-width: 767px) {
+
+  /* Let the Key Challenges intro size itself only from its real content. */
+  .eLearning > .frameParent6 > .frameParent7 {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    gap: 12px !important;
+  }
+
+  /* Heading + supporting paragraph wrapper */
+  .eLearning > .frameParent6 > .frameParent7
+  .addressingKeyChallengesInEParent {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+
+    gap: 12px !important;
+
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+
+    transform: none !important;
+  }
+
+  /* Heading — remove old fixed box that was creating false spacing. */
+  .eLearning > .frameParent6 > .frameParent7
+  .addressingKeyChallenges {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+
+    display: block !important;
+
+    text-align: center !important;
+
+    font-size: 29px !important;
+    line-height: 38px !important;
+  }
+
+  /* Subtitle — place it immediately below the heading with only the 12px gap. */
+  .eLearning > .frameParent6 > .frameParent7
+  .neurolxpHelpsOrganizations {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+
+    display: block !important;
+
+    text-align: center !important;
+
+    font-size: 17px !important;
+    line-height: 27px !important;
+  }
+}
+
+/* Slightly smaller heading only on very narrow phones so it remains neat.
+   This does not affect spacing or any other section. */
+@media screen and (max-width: 420px) {
+  .eLearning > .frameParent6 > .frameParent7
+  .addressingKeyChallenges {
+    font-size: 27px !important;
+    line-height: 35px !important;
+  }
+}
+
+/* Final-word emphasis for section and card headings; the hero is unchanged. */
+.eLearning .headingLastWord {
+  color: #2d4cc8;
+  display: inline;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* Ideal For: keep the layered surfaces, but let real text size each card. */
+.eLearning .frameParent15 .frameParent27 {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.eLearning .frameParent15 .frameParent27 :is(.frameParent28, .frameParent32) {
+  position: relative !important;
+  inset: auto !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  gap: 40px !important;
+  margin: 0 auto !important;
+}
+
+.eLearning .frameParent15 .frameParent27 .frameParent32 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  width: calc((100% - 80px) * 2 / 3 + 40px) !important;
+}
+
+.eLearning .frameParent15 .frameParent27 :is(.frameWrapper12, .frameWrapper13, .frameWrapper14, .frameWrapper16) {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 162px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex: initial !important;
+}
+
+.eLearning .frameParent15 .frameParent27 .rectangleParent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 162px !important;
+  box-sizing: border-box !important;
+  padding: 32px 20px 32px 32px !important;
+  transform: none !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.eLearning .frameParent15 .frameParent27 .rectangleDiv {
+  position: absolute !important;
+  inset: 0 auto 0 0 !important;
+  width: 76% !important;
+  height: auto !important;
+}
+
+.eLearning .frameParent15 .frameParent27 :is(.frameChild27, .frameChild29) {
+  position: absolute !important;
+  inset: 16px 0 16px 16px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.eLearning .frameParent15 .frameParent27 :is(.frameParent29, .frameParent30) {
+  position: relative !important;
+  inset: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 20px !important;
+  z-index: 3 !important;
+}
+
+.eLearning .frameParent15 .frameParent27 :is(.frameParent29, .frameParent30) > .ourCustomersWrapper {
+  flex: 0 0 50px !important;
+  width: 50px !important;
+}
+
+.eLearning .frameParent15 .frameParent27 .mortarboard01Icon {
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: contain !important;
+}
+
+.eLearning .frameParent15 .frameParent27 :is(.onlineEducationParent, .corporateTrainingParent) {
+  position: relative !important;
+  inset: auto !important;
+  display: flex !important;
+  flex: 1 1 0 !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  width: auto !important;
+  min-width: 0 !important;
+  height: auto !important;
+  gap: 6px !important;
+}
+
+.eLearning .frameParent15 .frameParent27 :is(.onlineEducation, .corporateTraining, .skillDevelopment, .customerEducation, .universitiesSchools, .employeeDevelopment, .professionalCertifications, .customerPartner) {
+  position: static !important;
+  transform: none !important;
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  flex-shrink: 0 !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .eLearning .frameParent15 .frameParent27 .frameParent28 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .eLearning .frameParent15 .frameParent27 .frameParent32 {
+    width: 100% !important;
+  }
+  .eLearning .frameParent15 .frameParent27 .frameWrapper14 {
+    grid-column: 1 / -1;
+    width: calc((100% - 40px) / 2) !important;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .eLearning .frameParent15 .frameParent27 :is(.frameParent28, .frameParent32) {
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: min(100%, 310px) !important;
+    gap: 18px !important;
+  }
+  .eLearning .frameParent15 .frameParent27 :is(.frameWrapper12, .frameWrapper13, .frameWrapper14, .frameWrapper16, .rectangleParent) {
+    min-height: 136px !important;
+  }
+  .eLearning .frameParent15 .frameParent27 .rectangleParent {
+    padding: 26px 16px 26px 24px !important;
+  }
+  .eLearning .frameParent15 .frameParent27 :is(.frameChild27, .frameChild29) {
+    inset: 10px 0 10px 12px !important;
+  }
+  .eLearning .frameParent15 .frameParent27 :is(.frameParent29, .frameParent30) {
+    gap: 14px !important;
+  }
+  .eLearning .frameParent15 .frameParent27 :is(.frameParent29, .frameParent30) > .ourCustomersWrapper {
+    flex-basis: 40px !important;
+    width: 40px !important;
+  }
+  .eLearning .frameParent15 .frameParent27 .mortarboard01Icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .eLearning .frameParent15 .frameParent27 :is(.frameParent28, .frameParent32) {
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: min(100%, 396px) !important;
+    gap: 28px !important;
+  }
+  .eLearning .frameParent15 .frameParent27 .frameWrapper14 {
+    width: 100% !important;
+    grid-column: auto;
+  }
+}
+
+/* ==========================================================================
+   REQUESTED HERO FIXES ONLY
+   - Mobile: reduce top space
+   - Mobile: add breathing room after Start Learning before statistics
+   - Talk to Our Expert: anchor inside the hero without changing layout flow
+   ========================================================================== */
+
+.eLearning > .frameParent {
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  /* Pull only the hero upward on mobile. */
+  .eLearning > .frameParent {
+    margin-top: -18px !important;
+  }
+
+  /* Keep clear separation after Start Learning before the statistics card. */
+  .eLearning > .eLearningInner {
+    margin-top: 72px !important;
+  }
+
+  /* Ideal mobile location: right side beside the hero copy, above the CTAs. */
+
+}
+
+@media screen and (max-width: 479px) {
+  .eLearning > .frameParent {
+    margin-top: -22px !important;
+  }
+
+  .eLearning > .eLearningInner {
+    margin-top: 76px !important;
+  }
+
+}
+
+/* ==========================================================================
+   TALK TO OUR EXPERT — IDEAL FOR
+   Anchored to the Ideal For heading section without changing its layout.
+   ========================================================================== */
+
+.eLearning .frameParent16 {
+  position: relative;
+}
+
+.eLearning .idealForExpertButtonSlot {
+  position: absolute;
+  top: 90%;
+  right: -12px;
+  bottom: auto;
+  left: auto;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-50%);
+  z-index: 20;
+  pointer-events: auto;
+}
+
+@media screen and (max-width: 1100px) {
+  .eLearning .idealForExpertButtonSlot {
+    top: 58%;
+    right: 4px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .eLearning .idealForExpertButtonSlot {
+    top: 85%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .addressingKeyChallenges .headingLastWord {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+/* Last section - NeuroLXP TM alignment */
+.eLearning .neuroLxpBadge .neuroLxpBadgeText {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  white-space: nowrap;
+}
+
+.eLearning .neuroLxpBadge .neuroLxpBadgeText .neuroLxpBadgeTm {
+  display: inline-block !important;
+  position: relative !important;
+  top: -10px !important;
+  transform: translateY(-3px) !important;
+  margin-left: 1px !important;
+  padding: 0 !important;
+  width: auto !important;
+  font-size: 10px !important;
+  line-height: 1 !important;
+  vertical-align: baseline !important;
+  white-space: nowrap;
+}
+
+/* Mobile - unchanged */
+@media screen and (max-width: 768px) {
+  .eLearning .neuroLxpBadge .neuroLxpBadgeText .neuroLxpBadgeTm {
+    top: -5px !important;
+    transform: none !important;
+    margin-left: 1px !important;
+    font-size: 9px !important;
+  }
+}
+
+
+.futureReadyVideoZoom {
+    overflow: hidden;
+}
+
+.futureReadyVideoZoom .futureReadyVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 2000%;
+    transform: translate(-50%, -50%);
+    border: none;
+}

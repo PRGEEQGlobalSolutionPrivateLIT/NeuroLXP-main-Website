@@ -1,0 +1,4872 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,600;0,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:ital,wght@0,400;0,600;0,700&display=swap');
+
+.neurolabsCodingChallenge {
+  	width: 1440px;
+  	height: 4820px;
+  	min-height: 4820px;
+  	position: relative;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 48px;
+  	color: #31344b;
+  	font-family: "Segoe UI", "Inter", sans-serif;
+}
+.frameParent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 80px;
+  	overflow: hidden;
+  	font-size: 16px;
+  	font-family: "Segoe UI", "Inter", sans-serif;
+}
+.frameChild {
+  	position: absolute;
+  	top: calc(50% - 22px);
+  	left: 1096px;
+  	width: 132px;
+  	height: 44px;
+  	display: flex;
+  	align-items: center;
+}
+.frameGroup {
+  	position: absolute;
+  	top: 18px;
+  	left: 32px;
+  	width: 1376px;
+  	height: 45px;
+}
+.logo01SynapseSpark1Parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	gap: 130px;
+}
+.logo01SynapseSpark1Icon {
+  	height: 45px;
+  	width: 120px;
+  	position: relative;
+  	object-fit: cover;
+}
+.frameContainer {
+  	display: flex;
+  	align-items: center;
+  	gap: 30px;
+}
+.homeParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.home {
+  	position: relative;
+  	line-height: 24px;
+  	font-weight: 600;
+}
+.arrowDown01Icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.neuroLabsParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #2d4cc8;
+}
+.neuroLabs {
+  	position: relative;
+  	line-height: 24px;
+}
+.signInHelpWrapper {
+  	position: absolute;
+  	top: calc(50% - 22.5px);
+  	left: 1244px;
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 132px;
+  	height: 44px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 32px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	color: #2d4cc8;
+  	font-family: "Segoe UI", "Inter", sans-serif;
+}
+.signInHelp {
+  	width: 97px;
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: flex-end;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.frameDiv {
+  	position: absolute;
+  	top: 32px;
+  	left: 93px;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	font-size: 16px;
+  	color: #2f3547;
+}
+.neuroLabsWrapper {
+  	display: flex;
+  	align-items: center;
+}
+.arrowRightDoubleParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #243fa8;
+}
+.codingChallenges {
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 24px;
+}
+.frameParent2 {
+  	position: absolute;
+  	top: 80px;
+  	left: 94px;
+  	width: 1252px;
+  	height: 634px;
+  	color: #2f3547;
+}
+.frameWrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1252px;
+  	height: 550px;
+}
+.frameWrapper3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1252px;
+  	height: 523px;
+}
+.image20Parent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 602px);
+  	box-shadow: -8px -8px 16px #fff inset, 8px 8px 16px #c4c4c4 inset;
+  	border-radius: 32px;
+  	background-color: rgba(223, 230, 233, 0.8);
+	background-image: url("/image/codingbackground.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  	width: 1236px;
+  	height: 550px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.image20 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 616px);
+  	width: 1280px;
+  	height: 800px;
+  	flex-shrink: 0;
+}
+.image21 {
+  	position: absolute;
+  	top: 31px;
+  	left: 32px;
+  	width: 1216px;
+  	height: 537px;
+  	flex-shrink: 0;
+}
+.frameParent3 {
+  	position: absolute;
+  	top: calc(50% - 159px);
+  	left: 50px;
+  	width: 639px;
+  	height: 318px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+  	flex-shrink: 0;
+}
+.frameParent4 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.frameItem {
+  	width: 258.8px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+  	flex-shrink: 0;
+}
+.testImproveContainer {
+  	width: 647px;
+  	height: 123px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.testImprove {
+  	line-height: 60px;
+}
+.codingSkills {
+  	color: #2d4cc8;
+  	line-height: 60px;
+}
+.solveRealWorldChallenges {
+  	width: 539px;
+  	height: 81px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.businessStyleYoungBeautifulIcon {
+  	position: absolute;
+  	bottom: 84px;
+  	left: 581px;
+  	width: 663px;
+  	height: 541px;
+  	object-fit: cover;
+}
+.frameWrapper4 {
+  	position: absolute;
+  	top: 503px;
+  	left: 21px;
+  	box-shadow: 8px 8px 16px 0px #c4c4c4, -8px -8px 16px 0px #ffffff;
+  	border-radius: 100px;
+  	background-color: #dfe6e9;
+  	width: 697.7px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 16px;
+  	box-sizing: border-box;
+}
+.frameInner {
+  	height: 99px;
+  	width: 100%;
+  	position: relative;
+  	border-radius: 100px;
+  	object-fit: contain;
+}
+.frameParent5 {
+  	position: absolute;
+  	top: 810px;
+  	left: 80px;
+  	width: 1280px;
+  	height: 571px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 64px;
+  	text-align: center;
+}
+.frameParent6 {
+  	width: 944px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 32px;
+}
+.frameIcon {
+  	width: 225.3px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+.realWorldProblemSolvingParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 32px;
+}
+.realWorldProblemSolving {
+  	align-self: stretch;
+  	height: 63px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	display: inline-block;
+  	flex-shrink: 0;
+	font-size: 36px;
+}
+.codingChallengesSimulate {
+  	width: 926px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+}
+.frameParent7 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 40px;
+  	font-size: 24px;
+  	color: #000;
+}
+.frameWrapper5 {
+  	height: 250px;
+  	width: 290px;
+  	position: relative;
+}
+.rectangleParent {
+  	position: absolute;
+  	top: -0.01px;
+  	left: 0px;
+  	width: 290px;
+  	height: 250px;
+}
+.rectangleDiv {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow:
+  		8px 8px 16px 0px #c4c4c4, -8px -8px 16px 0px #ffffff !important;
+  	border-radius: 50px 50px 0px 50px;
+  	background-color: #dfe6e9;
+  	width: 290px;
+  	height: 250px;
+}
+.frameChild2 {
+  	position: absolute;
+  	top: 24px;
+  	left: 24px;
+  	width: 242px;
+  	height: 202px;
+}
+.ellipseParent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 121px);
+  	border-radius: 32px 32px 0px 32px;
+  	background-color: #CBCBCB;
+  	width: 242px;
+  	height: 202px;
+  	overflow: hidden;
+  	isolation: isolate;
+}
+
+/* Diagonal color flow — starts under icon, fully fills to far-right on hover */
+.ellipseParent::before,
+.ellipseGroup::before,
+.ellipseContainer::before,
+.ellipseParent2::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    var(--card-sweep) 0%,
+    var(--card-sweep-mid) 35%,
+    var(--card-sweep-end) 72%,
+    var(--card-sweep-end) 100%
+  );
+  /* Tiny circle under the icon (top-left) */
+  clip-path: circle(0% at 18% 18%);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 0;
+  transition:
+    clip-path 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.25s ease;
+}
+
+.ellipseParent {
+  --card-sweep: rgba(192, 85, 18, 0.55);
+  --card-sweep-mid: rgba(192, 85, 18, 0.38);
+  --card-sweep-end: rgba(192, 85, 18, 0.28);
+}
+
+.ellipseGroup {
+  --card-sweep: rgba(45, 76, 200, 0.55);
+  --card-sweep-mid: rgba(45, 76, 200, 0.38);
+  --card-sweep-end: rgba(45, 76, 200, 0.28);
+}
+
+.ellipseContainer {
+  --card-sweep: rgba(4, 111, 115, 0.55);
+  --card-sweep-mid: rgba(4, 111, 115, 0.38);
+  --card-sweep-end: rgba(4, 111, 115, 0.28);
+}
+
+.ellipseParent2 {
+  --card-sweep: rgba(191, 24, 105, 0.5);
+  --card-sweep-mid: rgba(191, 24, 105, 0.35);
+  --card-sweep-end: rgba(191, 24, 105, 0.25);
+}
+
+.ellipseDiv,
+.frameChild4,
+.frameChild6,
+.frameChild8 {
+  z-index: 2;
+}
+
+.puzzleIcon,
+.search02Icon,
+.aiBrain01Icon,
+.codeXmlIcon,
+.solveCodingProblems,
+.buildOptimizedSolutions,
+.improveLogicalThinking {
+  z-index: 2;
+	font-size: 24px;
+}
+
+
+.ellipseDiv {
+  	position: absolute;
+  	top: -8px;
+  	left: -8px;
+  	border-radius: 50%;
+  	background-color: #828282;
+  	width: 74px;
+  	height: 74px;
+  	flex-shrink: 0;
+}
+.puzzleIcon {
+  	position: absolute;
+  	top: 11px;
+  	left: 15px;
+  	width: 36px;
+  	height: 36px;
+  	flex-shrink: 0;
+}
+.solveCodingProblems {
+  	position: absolute;
+  	top: calc(50% - 21px);
+  	left: calc(50% - 94px);
+  	line-height: 40px;
+  	font-weight: 700;
+  	display: inline-block;
+  	width: 188px;
+  	height: 73px;
+  	flex-shrink: 0;
+	font-size: 24px;
+}
+.frameWrapper9 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 121px);
+  	width: 242px;
+  	height: 202px;
+}
+.ellipseGroup {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 121px);
+  	border-radius: 32px 32px 0px 32px;
+  	background-color: #bcc6eb;
+  	width: 242px;
+  	height: 202px;
+  	overflow: hidden;
+  	isolation: isolate;
+}
+.frameChild4 {
+  	position: absolute;
+  	top: -8px;
+  	left: -8px;
+  	border-radius: 50%;
+  	background-color: #2d4cc8;
+  	width: 70px;
+  	height: 70px;
+  	flex-shrink: 0;
+}
+.search02Icon {
+  	position: absolute;
+  	top: 9px;
+  	left: 13px;
+  	width: 36px;
+  	height: 36px;
+  	flex-shrink: 0;
+}
+.buildOptimizedSolutions {
+  	position: absolute;
+  	top: calc(50% - 21px);
+  	left: calc(50% - 104px);
+  	line-height: 40px;
+  	font-weight: 700;
+  	display: inline-block;
+  	width: 208px;
+  	height: 73px;
+  	flex-shrink: 0;
+	font-size: 24px;
+}
+.ellipseContainer {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 121px);
+  	border-radius: 32px;
+  	background-color: #a3dcde;
+  	width: 242px;
+  	height: 202px;
+  	overflow: hidden;
+  	isolation: isolate;
+}
+.frameChild6 {
+  	position: absolute;
+  	top: -8px;
+  	left: -8px;
+  	border-radius: 50%;
+  	background-color: #046f73;
+  	width: 70px;
+  	height: 70px;
+  	flex-shrink: 0;
+}
+.aiBrain01Icon {
+  	position: absolute;
+  	top: 12px;
+  	left: 11px;
+  	width: 36px;
+  	height: 36px;
+  	flex-shrink: 0;
+}
+.improveLogicalThinking {
+  	position: absolute;
+  	top: calc(50% - 21px);
+  	left: calc(50% - 101px);
+  	line-height: 40px;
+  	font-weight: 700;
+  	display: inline-block;
+  	width: 203px;
+  	height: 73px;
+  	flex-shrink: 0;
+}
+.ellipseParent2 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 121px);
+  	border-radius: 32px;
+  	background-color: #A9B2D6;
+  	width: 242px;
+  	height: 202px;
+  	overflow: hidden;
+  	isolation: isolate;
+}
+.frameChild8 {
+  	position: absolute;
+  	top: -8px;
+  	left: -8px;
+  	border-radius: 50%;
+  	background-color: #636B8A;
+  	width: 70px;
+  	height: 70px;
+  	flex-shrink: 0;
+}
+.codeXmlIcon {
+  	position: absolute;
+  	top: 12px;
+  	left: 12px;
+  	width: 36px;
+  	height: 36px;
+  	flex-shrink: 0;
+}
+.frameParent8 {
+  	position: absolute;
+  	top: 1719px;
+  	left: calc(50% - 640px);
+  	display: flex;
+  	align-items: center;
+  	gap: 57px;
+  	overflow: visible;
+}
+.frameParent9 {
+  	width: 551px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.frameParent10 {
+  	align-self: stretch;
+  	height: 132px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.frameChild9 {
+  	width: 279.2px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+  	flex-shrink: 0;
+}
+.learnCompeteGrow {
+  	width: 555px;
+  	height: 50px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	display: inline-block;
+  	flex-shrink: 0;
+	font-size: 36px;
+}
+.learnCompeteAnd {
+  	width: 508px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+}
+.frameParent11 {
+  width: 672px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  overflow: visible;
+}
+.frameParent12 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  overflow: visible;
+}
+.frameChild10 {
+  	height: 120.2px;
+  	width: 311.4px;
+  	border-radius: 16px;
+  	object-fit: contain;
+}
+.thinkSolveAndContainer {
+  	position: absolute;
+  	top: 1477px;
+  	left: calc(50% - 430px);
+  	font-size: 48px;
+  	line-height: 62px;
+  	display: flex;
+  	text-align: center;
+  	align-items: center;
+  	width: 860px;
+  	height: 146px;
+  	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.thinkSolveAndContainer2 {
+  	width: 100%;
+}
+.thinkSolveAndPerformLike {
+  	line-height: 62px;
+}
+.thinkSolve {
+  	text-transform: capitalize;
+  	line-height: 62px;
+}
+.a {
+  	text-transform: lowercase;
+  	line-height: 62px;
+}
+.span {
+  	text-transform: capitalize;
+  	line-height: 62px;
+  	color: #2d4cc8;
+}
+.frameParent14 {
+  	position: absolute;
+  	top: 2129.66px;
+  	left: 77px;
+  	width: 1280px;
+  	height: 678px;
+  	text-align: center;
+}
+.image20Group {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 640px);
+  	width: 1280px;
+  	height: 430px;
+  	box-shadow:
+  		8px 8px 16px 0px #c4c4c4cc inset, -8px -8px 16px 0px #ffffff inset;
+  	border-radius: 16px 16px 300px 300px;
+  	background-color: #dfe6e9;
+  	overflow: visible;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 50px 124px 126px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	font-size: 48px;
+  	color: #31344b;
+}
+.image202 {
+  	display: none;
+}
+.frameWrapper14 {
+  	position: relative;
+  	top: auto;
+  	left: auto;
+  	width: 100%;
+  	max-width: 1032px;
+  	height: auto;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.frameParent15 {
+  	width: 100%;
+  	max-width: 1032px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 32px;
+}
+.frameChild14 {
+  	width: 267.3px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+.improveCodingEfficiencyAcParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 32px;
+}
+.improveCodingEfficiency {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+	font-size: 36px;
+}
+.buildBetterCoding {
+  	width: 740px;
+  	max-width: 100%;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+}
+.frameParent16 {
+  	position: absolute;
+  	top: 366px;
+  	left: calc(50% - 517px);
+  	width: 1040px;
+  	display: grid;
+  	grid-template-columns: repeat(2, 500px);
+  	gap: 50px;
+  	justify-content: center;
+  	font-size: 32px;
+  	color: #000;
+  	font-family: "Segoe UI", "Inter", sans-serif;
+}
+.frameParent17 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 50px;
+}
+.pillCard {
+  position: relative;
+  height: 131px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: #dfe6e9;
+  box-shadow:
+    8px 8px 16px 0px #c4c4c4, -8px -8px 16px 0px #ffffff;
+  border-style: solid;
+  border-width: 0 15px;
+  border-color: var(--pill-accent);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  isolation: isolate;
+}
+
+.pillCard::before,
+.pillCard::after {
+  content: '';
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  height: 3px;
+  background-color: var(--pill-accent);
+  z-index: 2;
+  transform: scaleX(0);
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+}
+
+.pillCard::before {
+  top: 0;
+  transform-origin: left center;
+}
+
+.pillCard::after {
+  bottom: 0;
+  transform-origin: right center;
+}
+
+.pillCardLabel {
+  position: relative;
+  z-index: 1;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  text-align: center;
+  color: #000;
+}
+
+
+
+@media (hover: none), (pointer: coarse) {
+  .pillCard:active::before,
+  .pillCard:active::after {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pillCard::before,
+  .pillCard::after {
+    transition: none !important;
+  }
+}
+
+.image21Parent {
+  	height: 131px;
+  	width: 500px;
+  	position: relative;
+  	box-shadow: 8px 8px 16px #c4c4c4, -8px -8px 16px #fff;
+  	border-radius: 100px;
+  	background-color: #dfe6e9;
+  	border-right: 15px solid #bf1869;
+  	border-left: 15px solid #bf1869;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.image212 {
+  	position: absolute;
+  	top: -1px;
+  	left: 0px;
+  	width: 1216px;
+  	height: 537px;
+  	flex-shrink: 0;
+}
+.cleanCode {
+  	position: absolute;
+  	top: 46px;
+  	left: 158px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.frameWrapper15 {
+  	height: 131px;
+  	width: 500px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.image21Group {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  box-shadow: 8px 8px 16px #c4c4c4, -8px -8px 16px #fff;
+  	border-radius: 100px;
+  	background-color: #dfe6e9;
+  	border-right: 15px solid #2a7308;
+  	border-left: 15px solid #2a7308;
+  	box-sizing: border-box;
+  	width: 500px;
+  	height: 131px;
+  	overflow: hidden;
+}
+.smartDebugging {
+  	position: absolute;
+  	top: 46px;
+  	left: 114px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.image21Container {
+  	height: 131px;
+  	width: 500px;
+  	position: relative;
+box-shadow: 8px 8px 16px #c4c4c4, -8px -8px 16px #fff;
+  	border-radius: 100px;
+  	background-color: #dfe6e9;
+  	border-right: 15px solid #c05512;
+  	border-left: 15px solid #c05512;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.optimizeAlgorithms {
+  	position: absolute;
+  	top: 40px;
+  	left: 95px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.image21Parent2 {
+  	height: 131px;
+  	width: 500px;
+  	position: relative;
+  	box-shadow: 8px 8px 16px #c4c4c4, -8px -8px 16px #fff;
+  	border-radius: 100px;
+  	background-color: #dfe6e9;
+  	border-right: 15px solid #2d4cc8;
+  	border-left: 15px solid #2d4cc8;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.scalableSolutions {
+  	position: absolute;
+  	top: 46px;
+  	left: 119px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.frameParent19 {
+  	position: absolute;
+  	top: 2927.66px;
+  	left: calc(50% - 640px);
+  	width: 1280px;
+  	overflow: visible;
+}
+
+.interviewSection {
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  text-align: left;
+  font-size: 48px;
+  color: #31344b;
+  font-family: "Segoe UI", "Inter", sans-serif;
+}
+
+.interviewLayout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 119px;
+  position: relative;
+}
+
+.interviewMediaWrap {
+  flex: 0 0 auto;
+  width: 529px;
+  padding: 12px;
+  margin: -12px;
+  box-sizing: content-box;
+  transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.interviewMediaFrame {
+  height: 460px;
+  width: 100%;
+  box-shadow:
+    8px 8px 16px 0px #c4c4c4, -8px -8px 16px 0px #ffffff !important;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  padding: 32px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.interviewMediaInner {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  background-color: #f2afaa;
+  overflow: hidden;
+  position: relative;
+}
+
+.interviewVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+}
+
+.interviewText {
+  width: 654px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    left 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    right 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    max-width 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  box-sizing: border-box;
+  /* transform: translateX(80); */
+}
+
+.interviewTextTop {
+  width: 100%;
+  max-width: 641px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.prepareForTechnical {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  font-weight: 700;
+	font-size: 36px;
+}
+
+@media (min-width: 768px) {
+  .interviewSectionExpanded .interviewLayout {
+    min-height: 484px;
+    gap: 0;
+  }
+
+  .interviewSectionExpanded .interviewMediaWrap {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    margin: 0;
+    padding: 12px;
+    box-sizing: border-box;
+    z-index: 0;
+  }
+
+  .interviewSectionExpanded .interviewMediaFrame {
+    height: 100%;
+    min-height: 460px;
+  }
+
+  .interviewSectionExpanded .interviewText {
+    position: absolute;
+    z-index: 2;
+    left: min(500px, 41%);
+    right: 48px;
+    top: 44px;
+    bottom: 44px;
+    width: auto;
+    max-width: min(600px, 48%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 28px;
+    overflow: hidden;
+    transform: translateY(-4px);
+    transform: translateX(110px);
+  }
+
+  .interviewSectionExpanded .interviewTextTop {
+    gap: 28px;
+    max-width: 100%;
+  }
+
+  .interviewSectionExpanded .prepareForTechnical {
+    font-size: 42px;
+    line-height: 52px;
+    color: #ffffff;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+  }
+
+  .interviewSectionExpanded .practiceCodingChallenges {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    line-height: 34px;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .interviewMediaWrap,
+  .interviewText {
+    transition: none !important;
+  }
+}
+
+.rectangleParent3 {
+  	height: 460px;
+  	width: 529px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.frameChild15 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c4c4c4;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 529px;
+  	height: 460px;
+}
+.frameChild16 {
+  	position: absolute;
+  	top: 32px;
+  	left: 32px;
+  	border-radius: 16px;
+  	background-color: #f2afaa;
+  	width: 465px;
+  	height: 396px;
+  	overflow: hidden;
+}
+.happyMaleCandidateHandshakiParent {
+  	position: absolute;
+  	top: 32px;
+  	left: 32px;
+  	border-radius: 16px;
+  	width: 465px;
+  	height: 396px;
+  	overflow: hidden;
+}
+.happyMaleCandidateHandshakiIcon {
+  	position: absolute;
+  	top: calc(50% - 198px);
+  	left: calc(50% - 296.5px);
+  	width: 593px;
+  	height: 396px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.frameChild18 {
+  	position: absolute;
+  	top: 145px;
+  	left: 180px;
+  	border-radius: 500px;
+  	width: 106px;
+  	height: 106px;
+  	flex-shrink: 0;
+}
+.frameParent20 {
+  	width: 654px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+  	flex-shrink: 0;
+}
+.frameParent21 {
+  	width: 641px;
+  	height: 203px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.frameChild19 {
+  	width: 210.7px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+.practiceCodingChallenges {
+  	width: 654px;
+  	height: 80px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameParent22 {
+  	position: absolute;
+  	top: 3483.66px;
+  	left: calc(50% - 565px);
+  	width: 1130px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 50px;
+  	text-align: center;
+  	font-size: 48px;
+  	color: #31344b;
+  	font-family: "Segoe UI", "Inter", sans-serif;
+  	overflow: visible;
+}
+
+.audienceHeader {
+  width: 944px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.builtForEveryLearningJournParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.builtForEveryContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  font-weight: 700;
+	font-size: 36px;
+}
+
+.builtForEvery {
+  line-height: 60px;
+}
+
+.learning {
+  color: #2d4cc8;
+  line-height: 60px;
+}
+
+.audienceGrid {
+  width: 100%;
+  max-width: 1130px;
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  column-gap: 130px;
+  row-gap: 46px;
+  justify-content: center;
+  align-items: start;
+  box-sizing: border-box;
+}
+
+.audienceCard {
+  width: 500px;
+  height: 131px;
+  position: relative;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  color: var(--audience-color);
+  overflow: visible;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.audienceCardParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+box-shadow: 8px 8px 16px #c4c4c4, -8px -8px 16px #fff;
+  border-radius: 100px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 500px;
+  height: 131px;
+  overflow: hidden;
+  background-color: #dfe6e9;
+}
+
+.audienceCardWrapper {
+  position: absolute;
+  top: -26px;
+  left: 5px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 500px;
+  height: 131px;
+  overflow: hidden;
+  background-color: #dfe6e9;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+.audienceCardLabel {
+  position: absolute;
+  top: 33px;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  font-weight: 600;
+  color: inherit;
+  z-index: 1;
+  white-space: nowrap;
+  max-width: 92%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+@media (hover: none), (pointer: coarse) {
+  .audienceCard:nth-child(1):active,
+  .audienceCard:nth-child(2):active {
+    transform: translateX(8px);
+  }
+
+  .audienceCard:nth-child(3):active,
+  .audienceCard:nth-child(4):active {
+    transform: translateX(-8px);
+  }
+}
+
+.frameChild20 {
+  	width: 256.9px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+.neurolabsCodingChallenges {
+  	width: 926px;
+  	height: 56px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameParent24 {
+  	align-self: stretch;
+  	height: 308px;
+  	position: relative;
+  	font-size: 32px;
+  	color: #2d4cc8;
+}
+.frameWrapper16 {
+  	position: absolute;
+  	top: 1px;
+  	left: 2px;
+  	width: 500px;
+  	height: 131px;
+}
+.image21Parent3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 8px 8px 16px #c4c4c4, -8px -8px 16px #fff;
+  	border-radius: 100px;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 500px;
+  	height: 131px;
+  	overflow: hidden;
+}
+.universitiesColleges {
+  	position: absolute;
+  	top: calc(50% - 32.5px);
+  	left: 74px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.image21Wrapper {
+  	position: absolute;
+  	top: -26px;
+  	left: 5px;
+  	box-shadow: 10px 10px 20px #c4c4c4, -10px -10px 20px #fff;
+  	border-radius: 100px;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 500px;
+  	height: 131px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.frameWrapper17 {
+  	position: absolute;
+  	top: 0px;
+  	left: 630px;
+  	width: 500px;
+  	height: 131px;
+  	color: #c05512;
+}
+.codingBootcamps {
+  	position: absolute;
+  	top: 33px;
+  	left: calc(50% - 145px);
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.frameWrapper18 {
+  	position: absolute;
+  	top: 177px;
+  	left: 0px;
+  	width: 500px;
+  	height: 131px;
+  	color: #bf1869;
+}
+.corporateTraining {
+  	position: absolute;
+  	top: 33px;
+  	left: 106px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.frameWrapper19 {
+  	position: absolute;
+  	top: 171px;
+  	left: 630px;
+  	width: 500px;
+  	height: 131px;
+  	color: #2a7308;
+}
+.aspiringDevelopers {
+  	position: absolute;
+  	top: 33px;
+  	left: 94px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.rectangleParent4 {
+  	position: absolute;
+  	top: 4167.86px;
+  	left: calc(50% - 640px);
+  	width: 1280px;
+  	height: 505px;
+  	box-shadow:
+  		8px 8px 8px 0px #c4c4c4 inset, -8px -8px 8px 0px #ffffff80 inset !important;
+  	border-radius: 50px;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 48px;
+  	color: #31344b;
+  	font-family: "Segoe UI", "Inter", sans-serif;
+}
+.colleaguesDiscussingWorkProIcon {
+  	position: absolute;
+  	top: 0;
+  	right: 12px;
+  	border-radius: 0 0 0 200px;
+  	width: 702px;
+  	height: 505px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.frameParent25 {
+  	position: absolute;
+  	top: calc(50% - 157.36px);
+  	left: 50px;
+  	width: 527px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+  	flex-shrink: 0;
+  	z-index: 1;
+}
+.ctaTextGroup {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.frameChild21 {
+  	width: 307.9px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+  	flex-shrink: 0;
+}
+.challengeYourSkillsContainer {
+  	width: 533px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+  	font-weight: 700;
+	font-size: 36px;
+}
+.challengeYourSkillsContainer2 {
+  	width: 100%;
+}
+.challengeYourSkills {
+  	line-height: 60px;
+}
+.future {
+  	color: #2d4cc8;
+  	line-height: 60px;
+}
+.solveRealCoding {
+  	width: 468px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+}
+.frameParent27 {
+  	position: absolute;
+  	top: 4768.86px;
+  	left: calc(50% - 720px);
+  	width: 1440px;
+  	height: 501px;
+  	font-size: 26px;
+  	color: #2f3547;
+}
+.frameParent28 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 720px);
+  	box-shadow: 8px 8px 8px 0px #c4c4c4 inset, -8px -8px 8px 0px #ffffff80 inset;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 459px;
+  	overflow: hidden;
+}
+.frameParent29 {
+  	position: absolute;
+  	top: 49.81px;
+  	left: 53.96px;
+  	width: 1339.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+}
+.frameParent30 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 35px;
+}
+.frameParent31 {
+  	width: 676px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 24px;
+  	flex-shrink: 0;
+}
+.logo01SynapseSpark1Group {
+  	width: 577px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.logo01SynapseSpark1Icon2 {
+  	width: 299px;
+  	height: 112px;
+  	position: relative;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.frameParent32 {
+  	display: flex;
+  	align-items: center;
+  	gap: 14px;
+  	flex-shrink: 0;
+}
+.onePlatformParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.onePlatform {
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 34px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sparklesIcon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.prgeeqGlobalSolutionsPrivatParent {
+  	width: 459px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+  	font-size: 16px;
+}
+.prgeeqGlobalSolutions {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 24px;
+}
+.prestigeAtlanta1012Container {
+  	align-self: stretch;
+  	height: 77px;
+  	position: relative;
+  	line-height: 24px;
+  	display: flex;
+  	align-items: flex-end;
+  	flex-shrink: 0;
+}
+.blankLine {
+  	line-height: 24px;
+}
+.frameParent33 {
+  	width: 631px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	gap: 24px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #2d4cc8;
+}
+.frameParent34 {
+  	width: 619px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.aboutUsParent {
+  	width: 123px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.aboutUs {
+  	width: 93px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+}
+.ourMissionParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+.ourMission {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.quickLinksParent {
+  	width: 207px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.quickLinks {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.neurolxpParent {
+  	height: 181px;
+  	width: 205px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.neurolxp {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	white-space: pre-wrap;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.ourCustomersGroup {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+.smartContentCreation {
+  	width: 229px;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.frameParent35 {
+  	width: 392.4px;
+  	height: 80.1px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+}
+.frameChild22 {
+  	height: 80.1px;
+  	width: 80.1px;
+  	position: relative;
+}
+.copyright2026 {
+  	align-self: stretch;
+  	height: 47px;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: -0.03em;
+  	line-height: 56px;
+  	font-weight: 600;
+  	color: #2d4cc8;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.ourMissionGroup {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+.neurolxpGroup {
+  	display: flex;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+}
+.neurolxp2 {
+  	height: 26px;
+  	width: 103px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.neurolxpTxt {
+  	width: 100%;
+  	white-space: pre-wrap;
+}
+.neurolxp3 {
+  	line-height: 30px;
+}
+.span2 {
+  	font-size: 12px;
+  	line-height: 30px;
+}
+.tm {
+  	height: 17px;
+  	width: 23px;
+  	position: relative;
+  	font-size: 12px;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.ourCustomersContainer {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+.frameChild30 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 30.07px);
+  	border-radius: 32px;
+  	width: 59.1px;
+  	height: 92px;
+  	object-fit: contain;
+}
+
+.pageScale {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  box-sizing: border-box;
+  --cc-gutter: clamp(16px, 4vw, 24px);
+}
+
+.neurolabsCodingChallenge {
+  flex-shrink: 0;
+  margin: 0 auto;
+  max-width: 1440px; 
+}
+
+.neurolabsCodingChallenge .sectionBadge {
+  height: 50.2px;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    4px 4px 8px 0px #c4c4c4cc inset, -4px -4px 8px 0px #ffffff inset !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 28px;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: none;
+  color: #2d4cc8;
+  flex-shrink: 0;
+  width: auto;
+  min-width: 180px;
+  position: relative;
+  z-index: 2;
+}
+
+.neurolabsCodingChallenge .image20Group .sectionBadge,
+.neurolabsCodingChallenge .frameChild14 {
+  background-color: #dfe6e9;
+  box-shadow:
+    4px 4px 8px 0px #c4c4c4cc inset, -4px -4px 8px 0px #ffffff inset;
+  border-radius: 28px;
+}
+
+.heroTechStripTrack {
+  width: 665.7px;
+  max-width: 100%;
+  aspect-ratio: 665.7 / 98.5;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100px;
+  container-type: inline-size;
+  container-name: hero-strip;
+}
+
+.heroTechStrip {
+  position: relative;
+  width: 665.7px;
+  height: 98.5px;
+  border-radius: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #dfe6e9;
+}
+
+/* Inset shadow overlay — above colored SVG segments so white highlight shows */
+.heroTechStrip::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow:
+    4px 4px 8px 0px #c4c4c4cc inset, -4px -4px 8px 0px #ffffff inset;
+  pointer-events: none;
+  z-index: 20;
+}
+
+.heroStripSeg {
+  position: relative;
+  flex: 0 0 auto;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  transition: filter 0.25s ease, transform 0.25s ease;
+}
+
+.heroStripPractice {
+  width: 225px;
+  z-index: 1;
+  animation:
+    heroStripEnter 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both,
+    heroStripPulse 2.8s ease-in-out 1.2s infinite;
+}
+
+.heroStripThink {
+  width: 253px;
+  margin-left: -32px;
+  z-index: 2;
+  animation:
+    heroStripEnter 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both,
+    heroStripPulse 2.8s ease-in-out 2.1s infinite;
+}
+
+.heroStripShowcase {
+  width: 253px;
+  margin-left: -32px;
+  z-index: 3;
+  animation:
+    heroStripEnter 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.55s both,
+    heroStripPulse 2.8s ease-in-out 3s infinite;
+}
+
+@keyframes heroStripEnter {
+  from {
+    opacity: 0;
+    transform: translateX(-18px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes heroStripPulse {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.06);
+  }
+}
+
+.heroStripShape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+}
+
+.heroStripContent {
+  position: relative;
+  z-index: 21;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 28px 8px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.heroStripThink .heroStripContent {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.heroStripShowcase .heroStripContent {
+  padding-left: 32px;
+  padding-right: 20px;
+}
+
+.heroStripIcon {
+  width: auto;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  animation: heroIconFloat 2.4s ease-in-out infinite;
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.heroStripThink .heroStripIcon {
+  animation-delay: 0.4s;
+}
+
+.heroStripShowcase .heroStripIcon {
+  animation-delay: 0.8s;
+}
+
+@keyframes heroIconFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.heroStripLabel {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #31344b;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.heroStripLabel b {
+  font-weight: 700;
+}
+
+/* Hover — desktop / devices that support hover */
+
+
+@media (prefers-reduced-motion: reduce) {
+  .heroStripSeg,
+  .heroStripPractice,
+  .heroStripThink,
+  .heroStripShowcase,
+  .heroStripIcon {
+    animation: none !important;
+  }
+
+  .ellipseParent::before,
+  .ellipseGroup::before,
+  .ellipseContainer::before,
+  .ellipseParent2::before {
+    transition: none !important;
+  }
+}
+
+.skillCard {
+  position: relative;
+  height: 120.2px;
+  width: 311.4px;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  box-shadow:
+    4px 4px 8px 0px #c4c4c4cc inset, -4px -4px 8px 0px #ffffff inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  box-sizing: border-box;
+  padding: 24px 32px;
+  flex-shrink: 0;
+  isolation: isolate;
+  transition:
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.3s ease;
+}
+
+.skillCardLabel {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin: 0;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  color: #31344b;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.skillCardDot {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: var(--skill-accent);
+  flex: none;
+  flex-grow: 0;
+  order: 1;
+  z-index: 1;
+  pointer-events: none;
+  will-change: top, left;
+  box-sizing: border-box;
+}
+
+/*
+  Ellipse positions from Figma (card 311.4 × 120.2):
+  BR Ellipse 382 — left: 284.58px; top: 90.59px
+*/
+.skillCard-topLeft .skillCardDot {
+  top: 0;
+  left: 0;
+}
+
+.skillCard-topRight .skillCardDot {
+  top: 0;
+  left: calc(100% - 26.82px);
+}
+
+.skillCard-bottomLeft .skillCardDot {
+  top: calc(100% - 29.61px);
+  left: 0;
+}
+
+.skillCard-bottomRight .skillCardDot {
+  top: calc(100% - 29.61px);
+  left: calc(100% - 26.82px);
+}
+
+/* Circle travels along the L-path on hover */
+@keyframes skillDotTL {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  50% {
+    top: 0;
+    left: calc(100% - 26.82px);
+  }
+  100% {
+    top: calc(100% - 29.61px);
+    left: calc(100% - 26.82px);
+  }
+}
+
+@keyframes skillDotTR {
+  0% {
+    top: 0;
+    left: calc(100% - 26.82px);
+  }
+  50% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: calc(100% - 29.61px);
+    left: 0;
+  }
+}
+
+@keyframes skillDotBL {
+  0% {
+    top: calc(100% - 29.61px);
+    left: 0;
+  }
+  50% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: calc(100% - 26.82px);
+  }
+}
+
+@keyframes skillDotBR {
+  0% {
+    top: calc(100% - 29.61px);
+    left: calc(100% - 26.82px);
+  }
+  50% {
+    top: 0;
+    left: calc(100% - 26.82px);
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+
+
+@media (hover: none), (pointer: coarse) {
+  .skillCard:active {
+    transform: translateY(-4px);
+    box-shadow:
+      -4px -4px 8px 0px #c4c4c4cc inset, 4px 4px 8px 0px #ffffff inset;
+  }
+
+  .skillCard-topLeft:active .skillCardDot {
+    animation: skillDotTL 1.85s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .skillCard-topRight:active .skillCardDot {
+    animation: skillDotTR 1.85s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .skillCard-bottomLeft:active .skillCardDot {
+    animation: skillDotBL 1.85s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .skillCard-bottomRight:active .skillCardDot {
+    animation: skillDotBR 1.85s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skillCard,
+  .skillCardDot {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+.socialBtn {
+  position: relative;
+  width: 80.1px;
+  height: 80.1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.socialBg {
+  position: absolute;
+  inset: 0;
+  width: 80.1px;
+  height: 80.1px;
+}
+
+.socialGlyph {
+  position: relative;
+  z-index: 1;
+  width: 28px;
+  height: 28px;
+}
+
+@media (min-width: 768px) and (max-width: 1439.98px) {
+  .pageScale {
+    justify-content: flex-start;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+
+  .neurolabsCodingChallenge {
+    margin: 0 !important;
+    transform: scale(calc((100vw - 48px) / 1440px));
+    transform-origin: top left;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .pageScale {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .neurolabsCodingChallenge {
+    transform: scale(calc((100vw - 64px) / 1440px));
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+  .pageScale {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .neurolabsCodingChallenge {
+    transform: scale(calc((100vw - 80px) / 1440px));
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Phone fluid — first section (hero + capsule + problem cards)               */
+/* Tablet / laptop / desktop keep scaled artboard (≥768)                      */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 767.98px) {
+  .pageScale {
+    height: auto !important;
+    overflow-x: hidden;
+    overflow-y: visible;
+    justify-content: flex-start;
+    padding-left: var(--cc-gutter);
+    padding-right: var(--cc-gutter);
+    box-sizing: border-box;
+  }
+
+  .neurolabsCodingChallenge {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    transform: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow-x: clip;
+    overflow-y: visible;
+    font-size: clamp(22px, 5.5vw, 28px);
+    box-sizing: border-box;
+  }
+
+  /* Shared fluid section — full width inside gutter padding */
+  .frameParent,
+  .frameDiv,
+  .frameParent2,
+  .frameParent5,
+  .frameParent8,
+  .thinkSolveAndContainer,
+  .frameParent14,
+  .frameParent19,
+  .frameParent22,
+  .rectangleParent4,
+  .frameParent27 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    box-sizing: border-box;
+  }
+
+  /* Header */
+  .frameParent {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    height: auto !important;
+    min-height: 64px;
+    padding: 12px 0;
+    box-sizing: border-box;
+  }
+
+  .frameGroup {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .logo01SynapseSpark1Parent {
+    position: relative !important;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .frameContainer {
+    display: none;
+  }
+
+  .signInHelpWrapper {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: auto;
+    min-width: 112px;
+    height: 40px;
+    padding: 8px 16px;
+  }
+
+  .frameChild {
+    display: none;
+  }
+
+  /* Breadcrumb */
+  .frameDiv {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: auto;
+    margin: 16px 0 0;
+    flex-wrap: wrap;
+  }
+
+  /* Hero — first section */
+  .frameParent2 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    height: auto !important;
+    margin: 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .frameWrapper,
+  .frameWrapper3 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .image20Parent {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 240px;
+    border-radius: 24px;
+    padding: 24px 18px;
+    box-sizing: border-box;
+  }
+
+  .image20,
+  .image21 {
+    display: none;
+  }
+
+  .frameParent3 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 20px;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .frameParent4 {
+    gap: 16px;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .testImproveContainer {
+    width: 100% !important;
+    height: auto !important;
+    font-size: clamp(22px, 5.5vw, 28px);
+    line-height: 1.25;
+    text-align: center !important;
+  }
+
+  .testImprove,
+  .codingSkills {
+    line-height: 1.25;
+  }
+
+  .solveRealWorldChallenges {
+    width: 100% !important;
+    height: auto !important;
+    font-size: 16px !important;
+    line-height: 1.45 !important;
+    text-align: center !important;
+  }
+
+  .businessStyleYoungBeautifulIcon {
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    width: min(100%, 420px) !important;
+    height: auto !important;
+    max-height: 320px;
+    object-fit: contain;
+    order: 3;
+  }
+
+  /* Hero capsule — fluid % widths so all 3 segments always fit */
+  .frameWrapper4 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: 100%;
+    order: 2;
+    box-shadow: 10px 10px 20px 0px #c4c4c4, -10px -10px 20px 0px #ffffff;
+    border-radius: 40px;
+    padding: 10px 12px;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .heroTechStripTrack {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 665.7 / 98.5;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+
+  .heroTechStrip {
+    position: absolute;
+    inset: 0;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none;
+    transform: none !important;
+    zoom: unset !important;
+    display: flex;
+    align-items: stretch;
+  }
+
+  .heroStripSeg {
+    height: 100% !important;
+    min-width: 0;
+  }
+
+  /* Proportions from desktop: 225 / 253 / 253 with -32px overlaps on 665.7 */
+  .heroStripPractice {
+    flex: 0 0 33.8%;
+    width: 33.8% !important;
+    margin-left: 0 !important;
+  }
+
+  .heroStripThink {
+    flex: 0 0 38%;
+    width: 38% !important;
+    margin-left: -4.8% !important;
+  }
+
+  .heroStripShowcase {
+    flex: 0 0 38%;
+    width: 38% !important;
+    margin-left: -4.8% !important;
+  }
+
+  .heroStripContent {
+    padding: 4px 8px !important;
+    gap: 2px !important;
+  }
+
+  .heroStripThink .heroStripContent,
+  .heroStripShowcase .heroStripContent {
+    padding-left: 10px !important;
+    padding-right: 8px !important;
+  }
+
+  .heroStripIcon {
+    height: clamp(18px, 5.5vw, 28px) !important;
+    width: auto !important;
+  }
+
+  .heroStripLabel {
+    font-size: clamp(8px, 2.6vw, 12px) !important;
+    white-space: normal !important;
+    line-height: 1.15 !important;
+    max-width: 100%;
+  }
+
+  /* Real-World Problem Solving — section 2 */
+  .frameParent5 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    height: auto !important;
+    margin: 36px 0 0;
+    gap: 32px;
+  }
+
+  .frameParent6 {
+    width: 100% !important;
+    gap: 20px !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .realWorldProblemSolving {
+    height: auto !important;
+    font-size: clamp(22px, 5.5vw, 28px);
+    line-height: 1.25;
+    text-align: center !important;
+  }
+
+  .codingChallengesSimulate {
+    width: 100% !important;
+    font-size: clamp(14px, 3.8vw, 16px) !important;
+    line-height: 1.45 !important;
+    text-align: center !important;
+  }
+
+  .frameParent7 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .frameWrapper5 {
+    width: min(250px, calc(100vw - var(--cc-gutter) * 2 - 32px));
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 290 / 250;
+    position: relative;
+  }
+
+  .rectangleParent {
+    position: absolute !important;
+    inset: 0;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .rectangleDiv {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50px 50px 0 50px !important;
+    box-shadow:
+      8px 8px 16px 0px #c4c4c4,
+      -8px -8px 16px 0px #ffffff !important;
+  }
+
+  .frameChild2 {
+    position: absolute !important;
+    top: 9.655%;
+    left: 8.276%;
+    width: 83.448%;
+    height: 80.8%;
+  }
+
+  .ellipseParent,
+  .ellipseGroup,
+  .ellipseContainer,
+  .ellipseParent2 {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    transform: none !important;
+    border-radius: 32px 32px 0 32px;
+  }
+
+  .ellipseContainer,
+  .ellipseParent2 {
+    border-radius: 32px;
+  }
+
+  .frameWrapper9 {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    transform: none !important;
+  }
+
+  .ellipseDiv,
+  .frameChild4,
+  .frameChild6,
+  .frameChild8 {
+    top: -3.96%;
+    left: -3.31%;
+    width: 30.58%;
+    height: 36.63%;
+    aspect-ratio: 1;
+  }
+
+  .puzzleIcon,
+  .search02Icon,
+  .aiBrain01Icon,
+  .codeXmlIcon {
+    position: absolute !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+
+  .puzzleIcon {
+    top: 5.45%;
+    left: 6.2%;
+    width: 14.88%;
+    height: 17.82%;
+  }
+
+  .search02Icon {
+    top: 4.46%;
+    left: 5.37%;
+    width: 14.88%;
+    height: 17.82%;
+  }
+
+  .aiBrain01Icon {
+    top: 5.94%;
+    left: 4.55%;
+    width: 14.88%;
+    height: 17.82%;
+  }
+
+  .codeXmlIcon {
+    top: 5.94%;
+    left: 4.96%;
+    width: 14.88%;
+    height: 17.82%;
+  }
+
+  .solveCodingProblems,
+  .buildOptimizedSolutions,
+  .improveLogicalThinking {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 78% !important;
+    height: auto !important;
+    font-size: clamp(14px, 3.8vw, 26px) !important;
+    line-height: 1.35 !important;
+    font-weight: 700 !important;
+    display: block !important;
+    text-align: center !important;
+  }
+
+  /* Remaining sections — fluid flow */
+  .frameParent8,
+  .thinkSolveAndContainer,
+  .frameParent14,
+  .frameParent19,
+  .frameParent22,
+  .rectangleParent4,
+  .frameParent27 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    height: auto !important;
+    margin: 36px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .thinkSolveAndContainer {
+    text-align: center !important;
+    align-items: center !important;
+    padding: 0 4px;
+  }
+
+  /* Coding Excellence bowl section */
+  .image20Group {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 280px;
+    padding: 40px 20px 48px !important;
+    border-radius: 16px 16px 120px 120px !important;
+    box-shadow:
+      8px 8px 16px 0px #c4c4c4cc inset, -8px -8px 16px 0px #ffffff inset !important;
+    overflow: visible !important;
+    isolation: auto !important;
+  }
+
+  .frameWrapper14,
+  .frameParent15,
+  .improveCodingEfficiencyAcParent {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    gap: 20px !important;
+    overflow: visible !important;
+  }
+
+  /* Coding Excellence badge — same inset as all section badges */
+  .neurolabsCodingChallenge .image20Group .sectionBadge,
+  .neurolabsCodingChallenge .frameChild14.sectionBadge,
+  .neurolabsCodingChallenge .frameChild14 {
+    width: auto !important;
+    min-width: 0 !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    border-radius: 28px !important;
+    background-color: #dfe6e9 !important;
+    box-shadow:
+      4px 4px 8px 0px #c4c4c4cc inset, -4px -4px 8px 0px #ffffff inset !important;
+    position: relative !important;
+    z-index: 3 !important;
+  }
+
+  .improveCodingEfficiency {
+    font-size: clamp(22px, 5.5vw, 32px) !important;
+    line-height: 1.25 !important;
+  }
+
+  .buildBetterCoding {
+    width: 100% !important;
+    font-size: clamp(14px, 3.8vw, 18px) !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Coding Excellence + pill cards section */
+  .frameParent14 {
+    gap: 28px !important;
+    text-align: center;
+    overflow: visible !important;
+  }
+
+  .improveCodingEfficiencyAcParent,
+  .frameParent15 {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .buildBetterCoding {
+    text-align: center !important;
+  }
+
+  .frameParent16 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    margin-top: 0 !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+    justify-items: stretch !important;
+  }
+
+  /* .pillCard {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 88px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  } */
+
+  .pillCardLabel {
+    font-size: clamp(16px, 4.2vw, 22px) !important;
+    line-height: 1.3 !important;
+    padding: 18px 20px !important;
+    text-align: center !important;
+    width: 100%;
+  }
+
+  /* Learn Compete Grow — section 3 */
+  .frameParent8 {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 28px !important;
+    text-align: center;
+  }
+
+  .frameParent9 {
+    width: 100% !important;
+    gap: 20px !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .frameParent10 {
+    height: auto !important;
+    gap: 20px !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .learnCompeteGrow {
+    width: 100% !important;
+    height: auto !important;
+    font-size: clamp(24px, 6vw, 32px) !important;
+    line-height: 1.25 !important;
+    text-align: center !important;
+  }
+
+  .learnCompeteAnd {
+    width: 100% !important;
+    font-size: clamp(14px, 3.8vw, 18px) !important;
+    line-height: 1.45 !important;
+    text-align: center !important;
+  }
+
+  .frameParent11 {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 16px !important;
+  }
+
+  .frameParent11,
+  .frameParent12,
+  .frameParent16,
+  .frameParent17,
+  .frameParent24 {
+    width: 100% !important;
+  }
+
+  .frameParent12,
+  .frameParent17,
+  .frameParent24 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  /* Audience — Flexible Learning */
+  .frameParent22 {
+    gap: 32px !important;
+    overflow: visible !important;
+    align-items: stretch !important;
+    text-align: center;
+  }
+
+  .audienceHeader {
+    width: 100% !important;
+    gap: 20px !important;
+    align-items: center !important;
+  }
+
+  .builtForEveryLearningJournParent {
+    gap: 16px !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  /* .builtForEveryContainer {
+    font-size: clamp(24px, 5.5vw, 32px) !important;
+    line-height: 1.25 !important;
+    text-align: center !important;
+  } */
+   .builtForEveryContainer {
+  font-size: clamp(24px, 5.5vw, 32px) !important;
+  line-height: 1.05 !important;
+  text-align: center !important;
+}
+
+.builtForEveryContainer span {
+  line-height: 1.05 !important;
+}
+
+/* Pull Journey slightly upward */
+.builtForEveryContainer > span:last-child {
+  position: relative !important;
+  top: 5px !important;
+}
+
+  .neurolabsCodingChallenges {
+    width: 100% !important;
+    height: auto !important;
+    font-size: clamp(14px, 3.8vw, 18px) !important;
+    line-height: 1.45 !important;
+    text-align: center !important;
+  }
+
+  .audienceGrid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 32px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-top: 20px;
+    box-sizing: border-box;
+    transform: translateY(-25);
+  }
+
+  .audienceCard {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: clamp(100px, 26vw, 131px) !important;
+    font-size: clamp(16px, 4vw, 28px) !important;
+    margin: 0 !important;
+  }
+
+  .audienceCardParent {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .audienceCardWrapper {
+    width: 100% !important;
+    height: 100% !important;
+    top: clamp(-18px, -4.5vw, -26px) !important;
+    left: clamp(3px, 1vw, 5px) !important;
+  }
+
+  .audienceCardLabel {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    font-size: clamp(14px, 3.8vw, 22px) !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+    max-width: 90% !important;
+    text-align: center !important;
+    padding: 0 12px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  /* Legacy pill wrappers only — not new card components */
+  .image21Parent,
+  .frameWrapper15,
+  .image21Group,
+  .image21Container,
+  .image21Parent2,
+  .frameWrapper16,
+  .frameWrapper17,
+  .frameWrapper18,
+  .frameWrapper19,
+  .image21Parent3 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: 100%;
+    height: auto !important;
+    min-height: 88px;
+  }
+
+  .image21Parent3 {
+    height: 100px !important;
+  }
+
+  /* Section 3 — Learn Compete Grow: 1 card per row on mobile */
+  .frameParent8 .frameParent11 {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent8 .frameParent12 {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 16px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent8 .skillCard {
+    width: 100% !important;
+    max-width: 85% !important;
+    min-height: 96px !important;
+    height: auto !important;
+    padding: 22px 18px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    transform: translateX(25);
+  }
+
+  .frameParent8 .skillCardDot {
+    width: 27px !important;
+    height: 27px !important;
+  }
+
+  .frameParent8 .skillCardLabel {
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: clamp(18px, 4vw, 22px) !important;
+    font-weight: 600 !important;
+    line-height: 1.35 !important;
+    letter-spacing: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .universitiesColleges,
+  .codingBootcamps,
+  .corporateTraining,
+  .aspiringDevelopers,
+  .cleanCode,
+  .smartDebugging,
+  .optimizeAlgorithms,
+  .scalableSolutions {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px !important;
+  }
+
+  .rectangleParent3,
+  .frameParent20,
+  .frameParent9,
+  .interviewSection {
+    width: 100% !important;
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  .frameParent19 {
+    overflow: visible !important;
+  }
+
+  .interviewSection {
+    overflow: visible !important;
+  }
+
+  .interviewLayout {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 24px !important;
+    width: 100%;
+  }
+
+  .interviewText {
+    order: 1;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    z-index: auto !important;
+    width: 100% !important;
+    transform: none !important;
+    gap: 24px !important;
+    padding: 0 !important;
+    pointer-events: auto;
+    color: #31344b;
+  }
+
+  .interviewText .prepareForTechnical {
+    color: #31344b !important;
+    text-shadow: none !important;
+  }
+
+  .interviewText .practiceCodingChallenges {
+    width: 100% !important;
+    height: auto !important;
+    font-size: clamp(15px, 4vw, 22px) !important;
+    line-height: 1.45 !important;
+    color: #2f3547 !important;
+    text-shadow: none !important;
+  }
+
+  .interviewMediaWrap {
+    order: 2;
+    width: 100% !important;
+    position: relative !important;
+    inset: auto !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    box-sizing: border-box !important;
+  }
+
+  .interviewMediaFrame {
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 529 / 460;
+    box-shadow:
+      8px 8px 16px 0px #c4c4c4,
+      -8px -8px 16px 0px #ffffff !important;
+  }
+
+  .prepareForTechnical {
+    font-size: clamp(26px, 6vw, 42px) !important;
+    line-height: 1.2 !important;
+    color: #31344b !important;
+    text-align: center !important;
+  }
+
+  .interviewTextTop {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    gap: 20px !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .rectangleParent4 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    border-radius: 28px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    box-shadow:
+      8px 8px 8px 0px #c4c4c4 inset,
+      -8px -8px 8px 0px #ffffff80 inset !important;
+    box-sizing: border-box;
+  }
+
+  .frameParent25 {
+    order: 1;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    padding: 28px 20px 20px !important;
+    box-sizing: border-box;
+    gap: 20px !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .ctaTextGroup {
+    gap: 20px !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .challengeYourSkillsContainer {
+    width: 100% !important;
+    font-size: clamp(22px, 5.5vw, 32px) !important;
+    line-height: 1.25 !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .challengeYourSkills,
+  .future {
+    line-height: 1.25 !important;
+  }
+
+  .solveRealCoding {
+    width: 100% !important;
+    font-size: clamp(14px, 3.8vw, 18px) !important;
+    line-height: 1.45 !important;
+    text-align: center !important;
+  }
+
+  .colleaguesDiscussingWorkProIcon {
+    order: 2;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 702 / 505;
+    border-radius: 0 0 0 clamp(60px, 18vw, 120px) !important;
+    object-fit: cover;
+  }
+
+  .happyMaleCandidateHandshakiParent,
+  .happyMaleCandidateHandshakiIcon {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: 100% !important;
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  .frameChild18 {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+  }
+
+  .challengeYourSkillsContainer,
+  .learnCompeteGrow,
+  .improveCodingEfficiency,
+  .prepareForTechnical,
+  .builtForEveryContainer {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .solveRealCoding,
+  .learnCompeteAnd,
+  .buildBetterCoding,
+  .practiceCodingChallenges,
+  .neurolabsCodingChallenges {
+    width: 100% !important;
+    height: auto !important;
+    font-size: clamp(16px, 3.8vw, 18px) !important;
+    line-height: 2 !important;
+  }
+
+  .thinkSolveAndContainer {
+    font-size: clamp(22px, 5.5vw, 28px) !important;
+    line-height: 1.25 !important;
+    height: auto !important;
+    filter: none;
+    padding: 0 8px;
+    box-sizing: border-box;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  .thinkSolveAndContainer2,
+  .thinkSolveAndPerformLike,
+  .thinkSolve,
+  .a,
+  .span {
+    line-height: 1.25 !important;
+    display: inline;
+  }
+
+  .frameParent16 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    margin-top: 0 !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+    justify-items: stretch !important;
+    align-items: stretch !important;
+    flex-direction: unset !important;
+  }
+
+  .pillCard {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 88px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .pillCardLabel {
+    font-size: clamp(16px, 4.2vw, 22px) !important;
+    line-height: 1.3 !important;
+    padding: 18px 20px !important;
+    text-align: center !important;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .frameParent8 .frameParent9 {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .frameParent8 .frameParent10,
+  .frameParent8 .learnCompeteGrow,
+  .frameParent8 .learnCompeteAnd {
+    width: 100% !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .interviewText {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .interviewTextTop {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .prepareForTechnical {
+    text-align: center !important;
+    width: 100% !important;
+    color: #31344b !important;
+  }
+
+  .interviewText .practiceCodingChallenges {
+    text-align: center !important;
+  }
+
+  .audienceCard {
+    position: relative !important;
+  }
+
+  .audienceCardParent {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .audienceCardWrapper {
+    position: absolute !important;
+    top: clamp(-18px, -4.5vw, -26px) !important;
+    left: clamp(3px, 1vw, 5px) !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .frameParent28 {
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .frameParent29,
+  .frameParent30,
+  .frameParent31,
+  .frameParent33,
+  .frameParent34 {
+    width: 100% !important;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .frameParent35 {
+    width: 100% !important;
+    height: auto !important;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .frameChild30 {
+    display: none;
+  }
+
+  .neurolabsCodingChallenge .sectionBadge {
+    min-width: 0;
+    font-size: 18px;
+    height: 44px;
+    padding: 0 18px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    box-shadow:
+      4px 4px 8px 0px #c4c4c4cc inset,
+      -4px -4px 8px 0px #ffffff inset !important;
+  }
+}
+
+/* Tablet / large phone — 2×2 card grid (fluid mobile only) */
+@media (min-width: 560px) and (max-width: 767.98px) {
+  .frameParent7 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 12px;
+    max-width: 100%;
+    justify-items: center;
+  }
+
+  .frameWrapper5 {
+    width: min(245px, calc((100vw - var(--cc-gutter) * 2 - 12px) / 2));
+    max-width: 100%;
+  }
+
+  .frameParent16 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    column-gap: 12px !important;
+    row-gap: 16px !important;
+  }
+
+  .pillCardLabel {
+    font-size: clamp(13px, 3.2vw, 18px) !important;
+    padding: 16px 12px !important;
+  }
+
+  .audienceGrid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    column-gap: 14px !important;
+    row-gap: 28px !important;
+    width: 100% !important;
+  }
+
+  .audienceCard {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: clamp(88px, 22vw, 118px) !important;
+  }
+
+  .audienceCardWrapper {
+    top: -18px !important;
+    left: 4px !important;
+  }
+
+  .audienceCardLabel {
+    font-size: clamp(12px, 3vw, 17px) !important;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .pageScale {
+    --cc-gutter: 16px;
+  }
+
+  .frameWrapper4 {
+    border-radius: 32px;
+    padding: 8px 10px;
+  }
+
+  .heroStripLabel {
+    font-size: clamp(7px, 2.4vw, 10px) !important;
+  }
+
+  .testImproveContainer {
+    font-size: clamp(20px, 5vw, 24px);
+  }
+
+  .frameParent5 {
+    gap: 28px;
+    margin-top: 28px;
+  }
+
+  .frameParent7 {
+    gap: 14px;
+  }
+
+  .frameWrapper5 {
+    width: min(230px, calc(100vw - var(--cc-gutter) * 2 - 32px));
+  }
+
+  .solveCodingProblems,
+  .buildOptimizedSolutions,
+  .improveLogicalThinking {
+    font-size: clamp(13px, 3.6vw, 18px) !important;
+  }
+}
+
+/* Second section cards — cursor behavior only */
+.frameParent5 .frameWrapper5,
+.frameParent5 .frameWrapper5 *,
+.frameParent5 .rectangleParent,
+.frameParent5 .rectangleParent * {
+  cursor: default !important;
+}
+
+/* Coding Challenge page — no hand cursor anywhere; hover effects remain active */
+.neurolabsCodingChallenge,
+.neurolabsCodingChallenge *,
+.frameDiv,
+.frameDiv *,
+.frameParent2,
+.frameParent2 *,
+.frameParent5,
+.frameParent5 *,
+.frameParent8,
+.frameParent8 *,
+.frameParent14,
+.frameParent14 *,
+.frameParent19,
+.frameParent19 *,
+.frameParent22,
+.frameParent22 *,
+.rectangleParent4,
+.rectangleParent4 * {
+  cursor: default !important;
+}
+
+
+/* =========================================================
+   PRACTICE / THINK / SHOWCASE STRIP — EXACT FIGMA COLOURS
+   ========================================================= */
+
+.frameWrapper4 {
+  background: #DFE6E9 !important;
+  box-shadow:
+    4px 4px 8px #C4C4C4,
+    -4px -4px 8px #FFFFFF !important;
+}
+
+/* Keep the full strip inset exactly as supplied */
+.heroTechStrip,
+.heroTechStripTrack {
+  background: #DFE6E9 !important;
+}
+
+.heroTechStrip::after {
+  box-shadow:
+    inset -4px -4px 8px #FFFFFF,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8) !important;
+}
+
+/*
+  Hide the old coloured shape artwork and build the three
+  colour panels in CSS so the exact supplied colours are used.
+*/
+.heroStripShape {
+  opacity: 0 !important;
+}
+
+/* Practice Coding */
+.heroStripPractice {
+  background: #EBEEFC !important;
+}
+
+/* Think Logically — centre hex / chevron panel */
+.heroStripThink {
+  background: #FADFDF !important;
+  clip-path: polygon(
+    14% 0,
+    86% 0,
+    100% 50%,
+    86% 100%,
+    14% 100%,
+    0 50%
+  ) !important;
+}
+
+/* Showcase Skills */
+.heroStripShowcase {
+  background: #ECF1EA !important;
+}
+
+/* Exact text colours */
+.heroStripPractice .heroStripLabel,
+.heroStripThink .heroStripLabel {
+  color: #2F3547 !important;
+}
+
+.heroStripShowcase .heroStripLabel {
+  color: #000000 !important;
+}
+
+/* Exact icon colour treatment where SVG/icon inherits currentColor */
+.heroStripPractice {
+  color: #2D4CC8 !important;
+}
+
+.heroStripThink {
+  color: #C05512 !important;
+}
+
+.heroStripShowcase {
+  color: #2A7308 !important;
+}
+
+/* Keep icon shadow from the supplied design */
+.heroStripIcon {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+}
+
+/* No hover effects anywhere on these three segments */
+.heroStripSeg,
+.heroStripIcon,
+.heroStripLabel {
+  transition: none !important;
+}
+
+.heroStripSeg:hover,
+.heroStripSeg:hover .heroStripIcon,
+.heroStripSeg:hover .heroStripLabel {
+  transform: none !important;
+  filter: none !important;
+}
+
+/* Restore the required icon drop shadow even during accidental hover */
+.heroStripSeg:hover .heroStripIcon {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+}
+
+/* =========================================================
+   FULL PAGE — REMOVE REMAINING HOVER MOTION/EFFECTS
+   ========================================================= */
+
+/* No hover movement on known interactive visual cards */
+.frameWrapper5:hover,
+.pillCard:hover,
+.skillCard:hover,
+.skillCard-topLeft:hover,
+.skillCard-topRight:hover,
+.skillCard-bottomLeft:hover,
+.skillCard-bottomRight:hover,
+.audienceCard:hover {
+  transform: none !important;
+}
+
+/* Disable hover-only animated overlays */
+.frameWrapper5:hover .ellipseParent::before,
+.frameWrapper5:hover .ellipseGroup::before,
+.frameWrapper5:hover .ellipseContainer::before,
+.frameWrapper5:hover .ellipseParent2::before,
+.pillCard:hover::before,
+.pillCard:hover::after {
+  transform: none !important;
+  opacity: 0 !important;
+}
+
+/* Prevent hover-triggered dot movement */
+.skillCard:hover .skillCardDot,
+.skillCard-topLeft:hover .skillCardDot,
+.skillCard-topRight:hover .skillCardDot,
+.skillCard-bottomLeft:hover .skillCardDot,
+.skillCard-bottomRight:hover .skillCardDot {
+  animation: none !important;
+}
+
+/* =========================================================
+   FINAL HERO ALIGNMENT FIX — MATCH REFERENCE PNG
+   Desktop / tablet artboard only.
+   Keeps all other sections and mobile rules unchanged.
+   Paste/keep this block at the VERY BOTTOM of the CSS file.
+   ========================================================= */
+@media screen and (min-width: 768px) {
+
+  /* Keep the copy above the image and give it its own clean area. */
+  .frameParent3 {
+    width: 620px !important;
+    z-index: 4 !important;
+  }
+
+  .frameParent4 {
+    width: 100% !important;
+    max-width: 620px !important;
+  }
+
+  .testImproveContainer {
+    width: 620px !important;
+    max-width: 620px !important;
+    height: auto !important;
+    position: relative !important;
+    z-index: 4 !important;
+  }
+
+  .testImprove,
+  .codingSkills {
+    position: relative !important;
+    z-index: 4 !important;
+  }
+
+  .solveRealWorldChallenges {
+    width: 540px !important;
+    max-width: 540px !important;
+    position: relative !important;
+    z-index: 4 !important;
+  }
+
+  /* Move and size the people image like the reference:
+     fully on the right, no collision with the heading. */
+  .businessStyleYoungBeautifulIcon {
+    left: auto !important;
+    right: -10px !important;
+    bottom: 84px !important;
+
+    width: 600px !important;
+    height: auto !important;
+    max-height: 500px !important;
+
+    object-fit: contain !important;
+    object-position: right bottom !important;
+
+    z-index: 2 !important;
+  }
+
+  /* Keep the background behind both text and people. */
+  .image20Parent {
+    z-index: 1 !important;
+  }
+
+  /* Keep the Practice / Think / Showcase strip in front,
+     exactly as in the reference PNG. */
+  .frameWrapper4 {
+    z-index: 6 !important;
+  }
+}
+
+/* =========================================================
+   FINAL DESKTOP HERO MATCH — REFERENCE PNG
+   Fixes only the title wrapping / text-image collision.
+   The people image and bottom feature strip keep their
+   current reference-matched position.
+   Keep this block at the VERY BOTTOM of the CSS file.
+   ========================================================= */
+@media screen and (min-width: 768px) {
+
+  /* Wider text area so the heading becomes exactly 2 lines:
+     Test! Improve & Showcase
+     Your Coding Skills
+  */
+  .frameParent3 {
+    width: 700px !important;
+    max-width: 700px !important;
+    z-index: 4 !important;
+  }
+
+  .frameParent4 {
+    width: 700px !important;
+    max-width: 700px !important;
+  }
+
+  .testImproveContainer {
+    width: 700px !important;
+    max-width: 700px !important;
+    height: 123px !important;
+
+    font-size: 48px !important;
+    line-height: 60px !important;
+
+    position: relative !important;
+    z-index: 4 !important;
+  }
+
+  .testImprove,
+  .codingSkills {
+    line-height: 60px !important;
+    position: relative !important;
+    z-index: 4 !important;
+  }
+
+  /* Keep subtitle at the same reference width */
+  .solveRealWorldChallenges {
+    width: 539px !important;
+    max-width: 539px !important;
+    height: 81px !important;
+    position: relative !important;
+    z-index: 4 !important;
+  }
+
+  /* Keep people image exactly on the right;
+     prevent it from entering the title area. */
+  .businessStyleYoungBeautifulIcon {
+    left: auto !important;
+    right: -10px !important;
+    bottom: 84px !important;
+
+    width: 600px !important;
+    height: auto !important;
+    max-height: 500px !important;
+
+    object-fit: contain !important;
+    object-position: right bottom !important;
+
+    z-index: 2 !important;
+  }
+
+  .image20Parent {
+    z-index: 1 !important;
+  }
+
+  .frameWrapper4 {
+    z-index: 6 !important;
+  }
+}
+
+/* =========================================================
+   FINAL HERO IMAGE BOTTOM FIX
+   Keep the people/laptop image fully inside the hero frame.
+   Content and all other sections stay unchanged.
+   Keep this block at the VERY BOTTOM of the CSS file.
+   ========================================================= */
+@media screen and (min-width: 768px) {
+
+  .businessStyleYoungBeautifulIcon {
+    left: auto !important;
+    right: -10px !important;
+
+    /* move image slightly upward so its bottom edge
+       stays inside the hero card like the reference PNG */
+    bottom: 96px !important;
+
+    width: 600px !important;
+    height: auto !important;
+    max-height: 488px !important;
+
+    object-fit: contain !important;
+    object-position: right bottom !important;
+
+    z-index: 2 !important;
+  }
+}
+
+/* =========================================================
+   FINAL HERO IMAGE CLIP FIX
+   Keep the image aligned with the bottom of the hero card,
+   but clip its bottom-right corner to the SAME 32px radius
+   as the hero frame so it does not sit outside the border.
+   Everything else stays unchanged.
+   ========================================================= */
+@media screen and (min-width: 768px) {
+
+  .businessStyleYoungBeautifulIcon {
+    left: auto !important;
+    right: -8px !important;
+
+    /* Hero card is 550px high inside a 634px wrapper,
+       so 84px aligns the image bottom exactly with the card. */
+    bottom: 84px !important;
+
+    width: 600px !important;
+    height: auto !important;
+    max-height: 500px !important;
+
+    display: block !important;
+    object-fit: contain !important;
+    object-position: right bottom !important;
+
+    /* Important part: crop the photo to the hero's rounded edge */
+    border-radius: 0 0 32px 0 !important;
+    clip-path: inset(0 0 0 0 round 0 0 32px 0) !important;
+
+    z-index: 2 !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE CTA SPACING FIX
+   - Reduces gap between subtitle and image
+   - Keeps subtitle font size the same
+   - Adds consistent space after the whole frame
+   - All other code remains unchanged
+   ========================================================= */
+@media screen and (max-width: 767.98px) {
+
+  .rectangleParent4 {
+    margin-bottom: 32px !important;
+  }
+
+  .frameParent25 {
+    padding: 28px 20px 0 !important;
+    gap: 16px !important;
+  }
+
+  .solveRealCoding {
+    width: 100% !important;
+    margin: 0 !important;
+
+    font-size: clamp(16px, 3.8vw, 18px) !important;
+    line-height: 1.45 !important;
+
+    text-align: center !important;
+  }
+
+  .colleaguesDiscussingWorkProIcon {
+    margin-top: clamp(-110px, -20vw, -70px) !important;
+    margin-bottom: 0 !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+
+    object-fit: cover !important;
+    object-position: center bottom !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE CTA GAP — SMALL BALANCED SPACE
+   Keeps current design; only adds a little more space
+   between subtitle and image.
+   ========================================================= */
+@media screen and (max-width: 767.98px) {
+  .colleaguesDiscussingWorkProIcon {
+    margin-top: clamp(-55px, -10vw, -35px) !important;
+  }
+}
+
+/* ==========================================================================
+   INTERVIEW SECTION — EXPANDED VIDEO TEXT SAFE POSITION + TYPOGRAPHY ONLY
+   - Keeps the existing expanded video design
+   - Moves text away from the person's face
+   - Keeps Segoe UI primary / Inter fallback
+   - Matches previous page typography: 36px heading, 24px body
+   ========================================================================== */
+.interviewSection,
+.interviewSection * {
+  font-family: "Segoe UI", "Inter", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .interviewSectionExpanded .interviewText {
+    left: auto !important;
+    right: 58px !important;
+    top: 44px !important;
+    bottom: 44px !important;
+    width: min(470px, 40%) !important;
+    max-width: min(470px, 40%) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    overflow: visible !important;
+  }
+
+  .interviewSectionExpanded .interviewTextTop {
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 24px !important;
+  }
+
+  .interviewSectionExpanded .prepareForTechnical {
+    font-size: 36px !important;
+    line-height: 1.25 !important;
+  }
+
+  .interviewSectionExpanded .practiceCodingChallenges {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    font-size: 24px !important;
+    line-height: 1.42 !important;
+  }
+
+  /* Keep the person more to the left so the right-side text area remains clear. */
+  .interviewSectionExpanded .interviewVideo {
+    object-fit: cover !important;
+    object-position: 38% center !important;
+  }
+}
+
+/* Tablet: keep same hierarchy but fit the available width safely. */
+@media (min-width: 768px) and (max-width: 1100px) {
+  .interviewSectionExpanded .interviewText {
+    right: 36px !important;
+    width: min(410px, 42%) !important;
+    max-width: min(410px, 42%) !important;
+  }
+
+  .interviewSectionExpanded .prepareForTechnical {
+    font-size: 32px !important;
+    line-height: 1.24 !important;
+  }
+
+  .interviewSectionExpanded .practiceCodingChallenges {
+    font-size: 20px !important;
+    line-height: 1.4 !important;
+  }
+
+  .interviewSectionExpanded .interviewVideo {
+    object-position: 34% center !important;
+  }
+}
+/* ==========================================================================
+   FINAL REQUESTED STANDARDIZATION ONLY
+   - Main headings: 36px on desktop
+   - Every visible word/text is selectable
+   - Remove shadows from words/text only
+   - Section badges match the previous pages
+   - Maintain 48px between the major sections
+   No card sizes, images, colours, hover logic, buttons, or other design
+   properties are changed.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   EVERY TEXT SELECTABLE
+   -------------------------------------------------------------------------- */
+.neurolabsCodingChallenge,
+.neurolabsCodingChallenge *,
+.neurolabsCodingChallenge *::before,
+.neurolabsCodingChallenge *::after {
+  -webkit-user-select: text !important;
+  user-select: text !important;
+}
+
+/* --------------------------------------------------------------------------
+   REMOVE WORD / TEXT SHADOWS ONLY
+   Keep card, icon, image and container shadows unchanged.
+   -------------------------------------------------------------------------- */
+.neurolabsCodingChallenge,
+.neurolabsCodingChallenge *,
+.neurolabsCodingChallenge *::before,
+.neurolabsCodingChallenge *::after {
+  text-shadow: none !important;
+}
+
+/* These two headings use filter: drop-shadow instead of text-shadow. */
+.neurolabsCodingChallenge .testImproveContainer,
+.neurolabsCodingChallenge .thinkSolveAndContainer {
+  filter: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   BADGES — MATCH PREVIOUS PAGES
+   -------------------------------------------------------------------------- */
+.neurolabsCodingChallenge .sectionBadge {
+  box-sizing: border-box !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 50px !important;
+  padding: 10px 24px !important;
+
+  border-radius: 28px !important;
+  background: #dfe6e9 !important;
+  color: #2d4cc8 !important;
+
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0.02em !important;
+  text-transform: none !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  white-space: normal !important;
+
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+}
+
+/* --------------------------------------------------------------------------
+   DESKTOP / TABLET ARTBOARD
+   MAIN HEADINGS = 36PX
+   -------------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .neurolabsCodingChallenge :is(
+    .testImproveContainer,
+    .realWorldProblemSolving,
+    .thinkSolveAndContainer,
+    .learnCompeteGrow,
+    .improveCodingEfficiency,
+    .prepareForTechnical,
+    .builtForEveryContainer,
+    .challengeYourSkillsContainer
+  ) {
+    font-size: 36px !important;
+    line-height: 45px !important;
+  }
+
+  .neurolabsCodingChallenge :is(
+    .testImprove,
+    .codingSkills,
+    .thinkSolveAndPerformLike,
+    .thinkSolve,
+    .a,
+    .span,
+    .builtForEvery,
+    .learning,
+    .challengeYourSkills,
+    .future
+  ) {
+    line-height: 45px !important;
+  }
+
+  /* --------------------------------------------------------
+     EXACT 48PX MAJOR-SECTION RHYTHM ON THE 1440PX ARTBOARD
+     Existing section sizes/design remain unchanged.
+     -------------------------------------------------------- */
+
+  /* Hero ends at 714px -> next section starts at 762px. */
+  .neurolabsCodingChallenge > .frameParent5 {
+    top: 762px !important;
+  }
+
+  /* Real-World Problem Solving ends at 1333px -> 48px. */
+  .neurolabsCodingChallenge > .thinkSolveAndContainer {
+    top: 1381px !important;
+  }
+
+  /* Think/Solve heading ends at 1527px -> 48px. */
+  .neurolabsCodingChallenge > .frameParent8 {
+    top: 1575px !important;
+  }
+
+  /* Learn/Compete section keeps its existing visual height -> 48px. */
+  .neurolabsCodingChallenge > .frameParent14 {
+    top: 1937.66px !important;
+  }
+
+  /* Coding Excellence section height = 678px -> 48px. */
+  .neurolabsCodingChallenge > .frameParent19 {
+    top: 2663.66px !important;
+  }
+
+  /* Interview section visual height = 460px -> 48px. */
+  .neurolabsCodingChallenge > .frameParent22 {
+    top: 3171.66px !important;
+  }
+
+  /* Audience section keeps its existing visual height -> 48px. */
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    top: 3807.86px !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   MOBILE — KEEP EXISTING TYPOGRAPHY, ONLY STANDARDIZE BADGES + 48PX SECTIONS
+   -------------------------------------------------------------------------- */
+@media screen and (max-width: 767.98px) {
+  .neurolabsCodingChallenge .sectionBadge {
+    min-height: 50px !important;
+    padding: 10px 24px !important;
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  .neurolabsCodingChallenge > .frameParent5,
+  .neurolabsCodingChallenge > .thinkSolveAndContainer,
+  .neurolabsCodingChallenge > .frameParent8,
+  .neurolabsCodingChallenge > .frameParent14,
+  .neurolabsCodingChallenge > .frameParent19,
+  .neurolabsCodingChallenge > .frameParent22,
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    margin-top: 48px !important;
+    margin-bottom: 0 !important;
+  }
+}
+/* ==========================================================================
+   FINAL REQUESTED ALIGNMENT FIX ONLY
+   - Reduce only heading-to-subheading spacing.
+   - Center only the hero section horizontally.
+   - Keep all existing typography, 48px section spacing, badges, cards,
+     colours, shadows, images and hover behavior unchanged.
+   ========================================================================== */
+
+/* -------------------- HEADING -> SUBHEADING GAP ONLY -------------------- */
+.neurolabsCodingChallenge .frameParent3,
+.neurolabsCodingChallenge .realWorldProblemSolvingParent,
+.neurolabsCodingChallenge .frameParent9,
+.neurolabsCodingChallenge .improveCodingEfficiencyAcParent,
+.neurolabsCodingChallenge .interviewText,
+.neurolabsCodingChallenge .builtForEveryLearningJournParent,
+.neurolabsCodingChallenge .frameParent25 {
+  gap: 16px !important;
+}
+
+/* ------------------------- HERO CENTERING ONLY -------------------------- */
+@media screen and (min-width: 768px) {
+  .neurolabsCodingChallenge > .frameParent2 {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .neurolabsCodingChallenge .frameParent2 .image20Parent {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+/* Mobile hero already uses fluid positioning; keep it centered explicitly. */
+@media screen and (max-width: 767.98px) {
+  .neurolabsCodingChallenge > .frameParent2 {
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .neurolabsCodingChallenge .frameParent2 .image20Parent {
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+/* ==========================================================================
+   FINAL THREE FIXES ONLY
+   1) Reduce the HERO heading -> subheading gap.
+   2) Remove the large empty space after the LAST section on desktop.
+   3) Add a clean 48px space after the LAST section on mobile.
+   No other design, section, card, badge, image, font size, or hover changes.
+   ========================================================================== */
+
+/* -------------------- HERO HEADING -> SUBHEADING -------------------- */
+.neurolabsCodingChallenge .frameParent2 .frameParent3 {
+  height: auto !important;
+  gap: 8px !important;
+}
+
+.neurolabsCodingChallenge .frameParent2 .testImproveContainer {
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+}
+
+.neurolabsCodingChallenge .frameParent2 .solveRealWorldChallenges {
+  margin: 0 !important;
+}
+
+/* -------------------- DESKTOP: LAST SECTION -> PAGE END --------------------
+   Last section starts at 3807.86px and is 505px tall.
+   3807.86 + 505 + 48 = 4360.86px.
+   Keep only the requested 48px after it.
+   -------------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .neurolabsCodingChallenge {
+    height: 4361px !important;
+    min-height: 4361px !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+/* -------------------- MOBILE: LAST SECTION -> PAGE END ---------------------
+   Mobile is normal-flow content, so add exactly 48px after the final section.
+   -------------------------------------------------------------------------- */
+@media screen and (max-width: 767.98px) {
+  .neurolabsCodingChallenge {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-bottom: 48px !important;
+  }
+
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    margin-bottom: 0 !important;
+  }
+}
+/* ==========================================================================
+   FINAL DIRECT FIX
+   Only:
+   1. Force exactly 48px after the final section.
+   2. Make the first breadcrumb item normal weight.
+   ========================================================================== */
+
+/* Remove any fixed page height that can create a large blank area. */
+@media screen and (min-width: 768px) {
+  .neurolabsCodingChallenge {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-bottom: 48px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Final section itself keeps its existing position/size.
+     The page ends 48px after its actual content. */
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    margin-bottom: 48px !important;
+  }
+}
+
+/* Mobile: same exact 48px after the final section. */
+@media screen and (max-width: 767.98px) {
+  .neurolabsCodingChallenge {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-bottom: 48px !important;
+    box-sizing: border-box !important;
+  }
+
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    margin-bottom: 48px !important;
+  }
+}
+
+/* Breadcrumb first word/item — normal weight only. */
+.neurolabsCodingChallenge .breadcrumb :first-child,
+.neurolabsCodingChallenge .breadcrumb > *:first-child,
+.neurolabsCodingChallenge .breadcrumb a:first-child,
+.neurolabsCodingChallenge .breadcrumb span:first-child {
+  font-weight: 400 !important;
+}
+
+/* ======================================================================
+   FINAL VERIFIED FIX — CODING CHALLENGES
+   Only fixes:
+   1. Exact 48px space after the final section.
+   2. First breadcrumb item (NeuroLabs) is normal weight.
+   ====================================================================== */
+
+/* Desktop / scaled desktop: the final section starts at 4167.86px and
+   is 505px tall, so the page must end at 4720.86px for exactly 48px. */
+@media screen and (min-width: 768px) {
+  .neurolabsCodingChallenge {
+    height: 4720.86px !important;
+    min-height: 4720.86px !important;
+    padding-bottom: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    margin-bottom: 0 !important;
+  }
+
+  /* Breadcrumb: first item only — normal, not bold. */
+  .neurolabsCodingChallenge > .frameParent,
+  .neurolabsCodingChallenge .frameDiv {
+    font-weight: 400 !important;
+  }
+
+  .neurolabsCodingChallenge .frameDiv > .neuroLabsWrapper,
+  .neurolabsCodingChallenge .frameDiv > .neuroLabsWrapper * {
+    font-weight: 400 !important;
+  }
+}
+
+/* Mobile: final section remains in responsive flow; give the page exactly
+   48px after it instead of relying on the desktop fixed artboard height. */
+@media screen and (max-width: 767.98px) {
+  .neurolabsCodingChallenge {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-bottom: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    margin-bottom: 48px !important;
+  }
+
+  /* Breadcrumb first item — normal weight. */
+  .neurolabsCodingChallenge .frameDiv,
+  .neurolabsCodingChallenge .frameDiv > .neuroLabsWrapper,
+  .neurolabsCodingChallenge .frameDiv > .neuroLabsWrapper * {
+    font-weight: 400 !important;
+  }
+}
+
+
+/* ==========================================================================
+   FINAL SPACING CORRECTION — LAST SECTION ONLY
+   The last CTA is absolutely positioned, so margin/padding on the parent
+   cannot reliably create the visible page-end gap. Keep the CTA unchanged
+   and set the artboard height to its bottom edge + exactly 48px.
+   ========================================================================== */
+
+@media screen and (min-width: 768px) {
+  .neurolabsCodingChallenge {
+    height: 4720.86px !important;
+    min-height: 4720.86px !important;
+    padding-bottom: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .neurolabsCodingChallenge {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-bottom: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    margin-bottom: 48px !important;
+  }
+}
+
+/* Breadcrumb — first item only, normal weight. */
+.neurolabsCodingChallenge .frameDiv > .neuroLabsWrapper,
+.neurolabsCodingChallenge .frameDiv > .neuroLabsWrapper *,
+.neurolabsCodingChallenge .frameDiv > :first-child {
+  font-weight: 400 !important;
+}
+
+
+/* FINAL OVERRIDE — correct last-section/page-end spacing. The final section is at 3807.86px and 505px tall, so its bottom is 4312.86px; +48px = 4360.86px. */
+@media screen and (min-width: 768px) {
+  .neurolabsCodingChallenge { height: 4360.86px !important; min-height: 4360.86px !important; padding-bottom: 0 !important; box-sizing: border-box !important; }
+  .neurolabsCodingChallenge > .rectangleParent4 { margin-bottom: 0 !important; }
+}
+@media screen and (max-width: 767.98px) {
+  .neurolabsCodingChallenge { height: auto !important; min-height: 0 !important; padding-bottom: 0 !important; box-sizing: border-box !important; }
+  .neurolabsCodingChallenge > .rectangleParent4 { margin-bottom: 48px !important; }
+}
+
+/* ==========================================================================\n   FINAL 48PX PAGE-END SPACING — LAST SECTION ONLY\n   Do not change the CTA itself. The desktop artboard uses the actual final\n   section position (3807.86px) + its 505px height + exactly 48px.\n   ========================================================================== */
+@media screen and (min-width: 768px) {
+  .neurolabsCodingChallenge {
+    height: 4360.86px !important;
+    min-height: 4360.86px !important;
+    padding-bottom: 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    top: 3807.86px !important;
+    height: 505px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .neurolabsCodingChallenge {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-bottom: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    margin-bottom: 48px !important;
+  }
+}
+
+
+/* ==========================================================================
+   ACTUAL PAGE-SCALE FIX — KEEP THE VISUAL 48PX AFTER THE LAST SECTION
+   The Coding Challenges artboard is transformed on desktop. CSS transforms
+   do not change the parent's layout height, which can leave extra space
+   before the following content/footer. Match .pageScale to the transformed
+   artboard height, while keeping exactly 48px after .rectangleParent4.
+   ========================================================================== */
+
+@media screen and (min-width: 1440px) {
+  .pageScale {
+    height: 4360.86px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439.98px) {
+  .pageScale {
+    height: calc(4312.86px * ((100vw - 80px) / 1440px) + 48px) !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .pageScale {
+    height: calc(4312.86px * ((100vw - 64px) / 1440px) + 48px) !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .pageScale {
+    height: calc(4312.86px * ((100vw - 48px) / 1440px) + 48px) !important;
+  }
+}
+
+/* Match the desktop section order in the mobile flex layout.
+   Desktop positions and all existing section spacing are preserved. */
+@media screen and (max-width: 767.98px) {
+  .neurolabsCodingChallenge > .frameDiv {
+    order: 0 !important;
+  }
+
+  .neurolabsCodingChallenge > .frameParent2 {
+    order: 1 !important;
+  }
+
+  .neurolabsCodingChallenge > .frameParent5 {
+    order: 2 !important;
+  }
+
+  .neurolabsCodingChallenge > .thinkSolveAndContainer {
+    order: 3 !important;
+    align-self: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .neurolabsCodingChallenge > .frameParent8 {
+    order: 4 !important;
+  }
+
+  .neurolabsCodingChallenge > .frameParent14 {
+    order: 5 !important;
+  }
+
+  .neurolabsCodingChallenge > .frameParent19 {
+    order: 6 !important;
+  }
+
+  .neurolabsCodingChallenge > .frameParent22 {
+    order: 7 !important;
+  }
+
+  .neurolabsCodingChallenge > .rectangleParent4 {
+    order: 8 !important;
+  }
+}
+
+/* =========================================================
+   CODING CHALLENGES — TALK TO OUR EXPERT BUTTON
+   Desktop/tablet artboard:
+   uses the unused right-side area of the Practical Skills
+   section, outside the centered 944px heading block.
+
+   Phone:
+   moves into the existing 48px gap above the section so the
+   launcher never covers the heading or challenge cards.
+   ========================================================= */
+
+.codingChallengeExpertSlot {
+  --expert-button-size: 64px;
+  position: absolute;
+  top: 0;
+  right: 18px;
+  width: var(--expert-button-size);
+  height: var(--expert-button-size);
+  z-index: 20;
+  pointer-events: none;
+}
+
+.codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  position: absolute !important;
+  inset: 0 !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: auto !important;
+  left: auto !important;
+  margin: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  pointer-events: auto !important;
+}
+
+/* Phone layout is fluid and the section has an exact 48px top gap. */
+@media screen and (max-width: 767.98px) {
+  .codingChallengeExpertSlot {
+    --expert-button-size: 40px;
+    top: -44px;
+    right: 4px;
+  }
+
+  /* Keep the full attention ring out of neighbouring content on small screens. */
+  .codingChallengeExpertSlot::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .codingChallengeExpertSlot {
+    --expert-button-size: 38px;
+    top: -43px;
+    right: 2px;
+  }
+}
+
+/* Same subtle professional attention effect as the other corrected pages. */
+.codingChallengeExpertSlot::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: 0;
+  border: 2px solid rgba(45, 76, 200, 0.38);
+  border-radius: 50%;
+  box-sizing: border-box;
+  pointer-events: none;
+  opacity: 0;
+  animation: codingChallengeExpertPulse 3s ease-out infinite;
+}
+
+@keyframes codingChallengeExpertPulse {
+  0%, 15% {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.55;
+  }
+
+  75%, 100% {
+    transform: scale(1.32);
+    opacity: 0;
+  }
+}
+
+.codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  transition: box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover,
+.codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible {
+  box-shadow:
+    -5px -5px 10px #ffffff,
+    5px 5px 10px #c6c6c9,
+    0 0 0 3px rgba(45, 76, 200, 0.14);
+}
+
+.codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+.codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+  transform-origin: center;
+  animation: codingChallengeExpertWave 600ms ease-in-out;
+}
+
+@keyframes codingChallengeExpertWave {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-12deg); }
+  50% { transform: rotate(10deg); }
+  75% { transform: rotate(-5deg); }
+}
+
+.codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]):active {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c6c6c9;
+}
+
+.codingChallengeExpertSlot:has(> :global(button[aria-expanded="true"]))::after {
+  animation: none;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .codingChallengeExpertSlot::after,
+  .codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+  .codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+    animation: none;
+  }
+
+  .codingChallengeExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+    transition: none;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .codingChallengeExpertSlot::after {
+    display: none;
+  }
+}
+
+/* Desktop only – slightly increase video card height */
+@media screen and (min-width: 1024px) {
+  .interviewMediaFrame {
+    height: 450px !important;
+  }
+}
+
+/* Mobile only – spacing between Practical Skills cards */
+@media screen and (max-width: 767px) {
+  .frameParent5 .frameParent7 {
+    gap: 30px !important;
+  }
+}
+
+
+/* =========================================================
+   CODING CHALLENGES — HERO IMAGE AND RIGHT BORDER FIX
+   ========================================================= */
+
+@media screen and (min-width: 768px) {
+  .frameParent2 {
+    overflow: visible !important;
+  }
+
+  .image20Parent {
+    width: 100% !important;
+    max-width: 1236px !important;
+    overflow: hidden !important;
+    border-radius: 32px !important;
+    box-sizing: border-box !important;
+  }
+
+  .businessStyleYoungBeautifulIcon {
+    position: absolute !important;
+
+    left: auto !important;
+    right: 7 !important;
+    bottom: 84px !important;
+
+    width: 600px !important;
+    height: auto !important;
+    max-height: 505px !important;
+
+    object-fit: contain !important;
+    object-position: right bottom !important;
+
+    z-index: 2 !important;
+  }
+
+  .frameWrapper4 {
+    z-index: 6 !important;
+  }
+}
+
+/* Mobile and tablet layout */
+@media screen and (max-width: 767px) {
+  .businessStyleYoungBeautifulIcon {
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+
+  .image20Parent {
+    overflow: hidden !important;
+    border-radius: 24px !important;
+  }
+}
+
+
+.interviewMediaFrame {
+  overflow: hidden;
+}
+
+.interviewMediaInner {
+  position: relative;
+  overflow: hidden;
+}
+
+.interviewVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  border: none;
+  display: block;
+  transform: translate(-50%, -50%) scale(1.65);
+  transform-origin: center center;
+}

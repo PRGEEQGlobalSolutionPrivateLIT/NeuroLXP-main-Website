@@ -1,0 +1,3334 @@
+.informationLiteracy {
+  width: 100%;
+  background-color: #dfe6e9;
+  color: #31344b;
+  font-family: "Segoe UI", "Inter";
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 36px;
+  /* The final portrait meets the footer without a bottom spacer. */
+  padding-bottom: 0;
+}
+.informationLiteracy > .frameParent8 {
+  order: 1;
+}
+.informationLiteracy > .frameParent9 {
+  order: 2;
+}
+.informationLiteracy > .frameParent13 {
+  order: 3;
+}
+.informationLiteracy > .frameParent19 {
+  order: 4;
+}
+.informationLiteracy > .image20Parent {
+  order: 5;
+}
+.informationLiteracy > .frameParent22 {
+  order: 6;
+}
+.informationLiteracy > .frameParent34 {
+  order: 7;
+}
+.informationLiteracy > .frameParent40 {
+  order: 8;
+}
+.informationLiteracy > .frameParent41 {
+  order: 9;
+}
+@media (min-width: 1025px) {
+  .informationLiteracy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    top: 0;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    text-align: center;
+    gap: 0;
+    padding: 32px 0 0;
+  }
+}
+.informationLiteracyChild {
+  display: none;
+  pointer-events: none;
+}
+@media (min-width: 1025px) {
+  .informationLiteracyChild {
+    z-index: 0;
+    width: 100%;
+    max-width: none;
+    height: 637px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    transform: none;
+    object-fit: fill;
+  }
+}
+.image20Parent {
+  position: relative;
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  border-radius: 28px;
+  overflow: hidden;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.85),
+    inset 4px 4px 4px rgba(190, 190, 190, 0.5);
+  text-align: left;
+  color: #2f3547;
+}
+.image20 {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.researchBackgroundImage {
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.35;
+}
+.frameParent {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  padding: 40px 24px;
+}
+.frameGroup {
+  width: 100%;
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+.frameContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.researchDiscoveryBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 0 22px;
+  border-radius: 999px;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow:
+    inset 4px 4px 4px rgba(190, 198, 202, 0.45),
+    inset -4px -4px 4px rgba(255, 255, 255, 0.75);
+}
+.researchSmarterLearn {
+  width: 100%;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 1.24;
+  text-shadow: none;
+}
+.buildResearchSkills {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.45;
+}
+.frameDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+.frameWrapper,
+.frameWrapper2 {
+  position: relative;
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 1 / 1;
+  border-radius: 26px;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.95),
+    4px 4px 4px rgba(190, 190, 190, 0.75);
+}
+.frameParent2 {
+  position: absolute;
+  inset: 9%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8%;
+}
+.academicResearchWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.academicResearch {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  font-size: clamp(13px, 4vw, 16px);
+  line-height: 1.3;
+  text-align: center;
+  white-space: nowrap;
+}
+.frameParent3 {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  font-size: 14px;
+}
+.frameItem {
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  background-color: #dedbcd99;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.26),
+    inset 4px 4px 4px rgba(132, 78, 78, 0.1);
+}
+.discoverTrustedAcademic {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  box-sizing: border-box;
+  line-height: 1.3;
+  font-size: clamp(11px, 3.4vw, 13px);
+  font-weight: 600;
+  text-align: center;
+}
+.frameParent4 {
+  width: 100%;
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #000;
+}
+.digitalLibrariesParent {
+  position: absolute;
+  inset: 9%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8%;
+}
+.accessCredibleResearchAcrosWrapper,
+.turnResearchIntoClearActiWrapper {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #31344b;
+  overflow: hidden;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.9),
+    4px 4px 4px rgba(190, 190, 190, 0.55);
+}
+.accessCredibleResearchAcrosWrapper {
+  background-color: #bec6e599;
+}
+.turnResearchIntoClearActiWrapper {
+  background-color: #a6ccce80;
+}
+.accessCredibleResearch,
+.turnResearchInto {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  box-sizing: border-box;
+  line-height: 1.3;
+  font-size: clamp(11px, 3.4vw, 13px);
+  font-weight: 600;
+  text-align: center;
+}
+@media (min-width: 641px) {
+  .frameDiv {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  .frameParent4 {
+    /* width: auto; */
+    flex-direction: row;
+    justify-content: center;
+    max-width: none;
+    gap: 28px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1309px) {
+  .frameParent22 {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media (min-width: 1025px) {
+  .image20Parent {
+    position: relative;
+    width: min(1252px, calc(100% - 40px));
+    height: 690px;
+    margin: 96px auto 0;
+    border-radius: 32px;
+  }
+  .researchBackgroundImage {
+    opacity: 0.18;
+  }
+  .frameParent {
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 47px;
+    padding: 0;
+    display: grid;
+    position: absolute;
+    inset: 30px 92px;
+  }
+  .frameGroup {
+    width: 100%;
+    max-width: 510px;
+    align-items: flex-start;
+    text-align: left;
+    gap: 28px;
+  }
+  .frameContainer {
+    align-items: flex-start;
+    gap: 26px;
+  }
+  .researchDiscoveryBadge {
+    min-width: 260px;
+    height: 48px;
+    padding: 0 24px;
+    font-size: 22px;
+  }
+  .researchSmarterLearn {
+    font-size: 36px;
+    line-height: 60px;
+  }
+  .buildResearchSkills {
+    max-width: 475px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .frameDiv {
+    flex-direction: row;
+    align-items: center;
+    gap: 46px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .frameWrapper,
+  .frameWrapper2 {
+    width: 270px;
+    max-width: none;
+    aspect-ratio: auto;
+    height: 270px;
+  }
+  .frameParent2 {
+    position: absolute;
+    inset: auto;
+    top: 24px;
+    left: 24px;
+    width: 222px;
+    height: 222px;
+    display: block;
+    gap: 0;
+  }
+  .academicResearchWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 222px;
+    height: 36px;
+  }
+  .frameParent3 {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    width: 222px;
+    height: 170px;
+    flex: none;
+    min-height: 0;
+  }
+  .frameItem {
+    border-radius: 24px;
+  }
+  .discoverTrustedAcademic {
+    position: absolute;
+    inset: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 184px;
+    height: auto;
+    padding: 0;
+    display: block;
+  }
+  .frameParent4 {
+    width: 270px;
+    max-width: none;
+    gap: 40px;
+    flex-direction: column; 
+  }
+  .digitalLibrariesParent {
+    position: absolute;
+    inset: auto;
+    top: 24px;
+    left: 24px;
+    width: 222px;
+    height: 222px;
+    gap: 16px;
+  }
+  .accessCredibleResearchAcrosWrapper,
+  .turnResearchIntoClearActiWrapper {
+    width: 222px;
+    height: 170px;
+    flex: none;
+    min-height: 0;
+    border-radius: 24px;
+  }
+  .accessCredibleResearch,
+  .turnResearchInto {
+    position: absolute;
+    inset: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 182px;
+    height: auto;
+    padding: 0;
+    display: block;
+  }
+  .academicResearch {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .discoverTrustedAcademic,
+  .accessCredibleResearch,
+  .turnResearchInto {
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+.frameParent8 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: calc(100% - 40px);
+  margin: 24px auto 0;
+  text-align: left;
+  font-size: 13px;
+  color: #2f3547;
+}
+.neurolxp21Wrapper {
+  display: flex;
+  align-items: center;
+}
+.neurolxp212 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+}
+.arrowRightDoubleParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #243fa8;
+}
+.breadcrumbDoubleArrow {
+  height: 16px;
+  width: 16px;
+  flex: 0 0 16px;
+}
+@media (min-width: 1025px) {
+  .frameParent8 {
+    position: relative;
+    width: min(1280px, calc(100% - 80px));
+    margin: 0 auto;
+    flex-shrink: 0;
+    font-size: 16px;
+    z-index: 3;
+  }
+}
+.frameParent9 {
+  width: calc(100% - 32px);
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.frameWrapper4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent10 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.frameParent11 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+.informationLiteracyBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 40px;
+  padding: 9px 20px;
+  border-radius: 999px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4;
+  color: #2d4cc8;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.findEvaluate {
+  width: 100%;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+  text-shadow: none;
+}
+.neurolxpEquipsLearners {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2f3547;
+}
+.frameParent12 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-size: 15px;
+  color: #2d4cc8;
+}
+.requestDemoWrapper,
+.frameWrapper5 {
+  height: 52px;
+  min-width: 150px;
+  flex: 1 1 150px;
+  max-width: 210px;
+  border: none;
+  border-radius: 8px;
+  background-color: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.95),
+    4px 4px 4px rgba(198, 198, 201, 0.7);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  color: #31344b;
+  cursor: pointer;
+}
+.frameWrapper5:hover,
+.requestDemoWrapper:hover {
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.95),
+    inset 4px 4px 4px rgba(198, 198, 201, 0.7);
+}
+.requestDemo,
+.startLearning {
+  position: relative;
+  line-height: 1.2;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.startLearningWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 1025px) {
+  .frameParent9 {
+    position: relative;
+    width: min(1280px, calc(100% - 64px));
+    max-width: none;
+    margin: 32px auto 0;
+    gap: 48px;
+    z-index: 1;
+  }
+  .frameParent10 {
+    gap: 32px;
+  }
+  .frameParent11 {
+    gap: 32px;
+  }
+  .informationLiteracyBadge {
+    min-width: 289.7px;
+    height: 50.2px;
+    padding: 0 28px;
+    font-size: 24px;
+  }
+  .findEvaluate {
+    max-width: 1280px;
+    font-size: clamp(32px, 3.056vw, 44px);
+    line-height: 1.25;
+    text-shadow: none;
+  }
+  .neurolxpEquipsLearners {
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 1000px;
+  }
+  .frameParent12 {
+    gap: 32px;
+    font-size: 22px;
+  }
+  .requestDemoWrapper,
+  .frameWrapper5 {
+    height: 60px;
+    width: 210px;
+    min-width: 210px;
+    max-width: 210px;
+    flex: none;
+    padding: 16px 32px;
+    box-shadow:
+      -4px -4px 4px #fff,
+      4px 4px 4px #c6c6c9;
+  }
+  .requestDemoWrapper {
+    box-shadow:
+      -4px -4px 4px rgba(255, 255, 255, 0.95),
+      4px 4px 4px rgba(198, 198, 201, 0.7);
+  }
+  .requestDemo,
+  .startLearning {
+    line-height: 1.2;
+    font-size: 18px;
+  }
+}
+.frameParent13 {
+  position: relative;
+  width: calc(100% - 24px);
+  max-width: 620px;
+  margin: 0 auto;
+  font-family: "Segoe UI", "Inter";
+}
+.statsPanelShape {
+  display: none;
+}
+.statsContent {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr 2px 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 22px 18px;
+  border-radius: 999px;
+  background: #dfe6e9;
+  box-sizing: border-box;
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.9),
+    inset 4px 4px 4px rgba(190, 190, 190, 0.55),
+    inset 0 0 0 rgba(0, 0, 0, 0);
+}
+.croreParent,
+.parent,
+.group {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+.crore {
+  width: 100%;
+  font-size: clamp(15px, 4.2vw, 20px);
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-shadow: none;
+  white-space: nowrap;
+}
+.statsGreen {
+  color: #2a7308;
+}
+.statsBlue {
+  color: #2d4cc8;
+}
+.statsPink {
+  color: #bf1869;
+}
+.skillDomains {
+  width: 100%;
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #2f3547;
+  white-space: nowrap;
+}
+.statsDivider {
+  width: 2px;
+  height: 48px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #2d4cc8 0%, #0b0e53 100%);
+}
+@media (min-width: 1025px) {
+  .frameParent13 {
+    position: relative;
+    width: min(1280px, calc(100% - 64px));
+    max-width: none;
+    height: 270px;
+    margin: 56px auto 0;
+    z-index: 3;
+  }
+  .statsPanelShape {
+    display: block;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+  .statsContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(1000px, calc(100% - 96px));
+    grid-template-columns: 1fr 9px 1fr 9px 1fr;
+    gap: clamp(16px, 2.5vw, 36px);
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: 2;
+  }
+  .croreParent,
+  .parent,
+  .group {
+    gap: 10px;
+  }
+  .crore {
+    font-size: clamp(34px, 3.195vw, 46px);
+    /* text-shadow: none; */
+  }
+  .skillDomains {
+    font-size: clamp(22px, 2.223vw, 32px);
+    /* text-shadow: none; */
+  }
+  .statsDivider {
+    width: 9px;
+    height: 180px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+.frameParent19 {
+  width: calc(100% - 24px);
+  max-width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.frameParent20 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.trackOutcomesBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background-color: #dfe6e9;
+  color: #2d4cc8;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 9px 18px;
+  white-space: nowrap;
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.9),
+    inset 4px 4px 4px rgba(198, 198, 201, 0.75);
+}
+.buildConfidenceThroughCritiParent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.buildConfidenceThroughContainer {
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.22;
+  font-size: 24px;
+}
+.buildConfidenceThrough,
+.criticalThinking {
+  line-height: inherit;
+}
+.criticalThinking {
+  color: #2d4cc8;
+}
+.empowerLearnersTo {
+  width: 100%;
+  max-width: 620px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2f3547;
+}
+.frameParent21 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 24px;
+  text-align: center;
+  font-size: 24px;
+  color: #31344b;
+}
+.thinkingCard {
+  position: relative;
+  width: min(90%, 252px);
+  aspect-ratio: 280 / 339.57;
+  container-type: inline-size;
+}
+.thinkingCardSvg {
+  position: absolute;
+  inset: 0;
+  background: #dfe6e9;
+  border-radius: 500px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow:
+    inset 4px 4px 8px #c4c4c4,
+    inset -4px -4px 8px #ffffff;
+}
+.thinkingCardInner {
+  box-sizing: border-box;
+  z-index: 2;
+  background: #dfe6e9;
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 82%;
+  height: 84%;
+  /* Scale the reference spacing with each card, not with the viewport. */
+  padding-top: 17.857143cqw;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  box-shadow:
+    -4px -4px 8px rgba(255, 255, 255, 0.65),
+    6px 16px 16px rgba(196, 196, 196, 0.95);
+}
+.thinkingCardTitle {
+  width: 70%;
+  min-height: 2.7em;
+  flex-shrink: 0;
+  margin: 0 0 9.285714cqw;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 8.571429cqw;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000;
+}
+/* Keep Bias and Detection on separate lines without changing the wording. */
+.thinkingCard:nth-child(2) .thinkingCardTitle {
+  width: min-content;
+  max-width: 100%;
+  white-space: normal;
+}
+.evidenceBasedTitle {
+  width: 92%;
+  min-height: 2.7em;
+  flex-shrink: 0;
+  margin: 0 0 9.285714cqw;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 8.571429cqw;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000;
+}
+.thinkingCardDesc {
+  width: 92%;
+  flex-shrink: 0;
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 7.142857cqw;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000;
+}
+.thinkingCardTriangle {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 50%;
+  /* Anchor inside the inner oval; its rounded edge clips the triangle base. */
+  bottom: 0;
+  transform: translateX(-50%);
+  background: var(--triangle-color);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  z-index: 3;
+}
+@media (min-width: 641px) {
+  .frameParent21 {
+    grid-template-columns: repeat(2, minmax(0, 230px));
+    justify-content: center;
+    column-gap: 32px;
+    row-gap: 32px;
+  }
+  .thinkingCard {
+    width: 230px;
+    aspect-ratio: auto;
+    height: 279px;
+  }
+}
+@media (min-width: 1025px) {
+  .frameParent19 {
+    position: relative;
+    width: calc(100% - 64px);
+    max-width: 1280px;
+    margin: 72px auto 0;
+    gap: 64px;
+  }
+  .frameParent20 {
+    width: 100%;
+    max-width: 1061px;
+    gap: 24px;
+  }
+  .trackOutcomesBadge {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 13px 24px;
+  }
+  .buildConfidenceThroughCritiParent {
+    gap: 22px;
+  }
+  .buildConfidenceThroughContainer {
+    font-size: 36px;
+    line-height: 1.22;
+    text-transform: capitalize;
+  }
+  .buildConfidenceThrough,
+  .criticalThinking {
+    line-height: inherit;
+  }
+  .empowerLearnersTo {
+    width: 100%;
+    max-width: 926px;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .frameParent21 {
+    grid-template-columns: repeat(2, 280px);
+    justify-content: center;
+    gap: 53px;
+  }
+  .thinkingCard {
+    width: 280px;
+    height: 339.57px;
+    aspect-ratio: auto;
+  }
+  .thinkingCardInner {
+    width: 230px;
+    height: 84%;
+  }
+  .thinkingCardTriangle {
+    width: 37px;
+    height: 37px;
+  }
+}
+/* Four cards share a row when they can retain readable content. */
+@media (min-width: 1200px) {
+  .frameParent21 {
+    grid-template-columns: repeat(4, minmax(0, 280px));
+    gap: clamp(24px, 3.68vw, 53px);
+  }
+  .thinkingCard {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    aspect-ratio: 280 / 339.57;
+  }
+  .thinkingCardInner {
+    width: 82%;
+  }
+}
+.frameParent22 {
+  width: calc(100% - 24px);
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+}
+.frameParent23 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.frameParent26 {
+  display: contents;
+}
+.frameParent24,
+.frameParent27,
+.frameParent29,
+.frameParent30 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 120px;
+  border-radius: 28px 28px 0 28px;
+  background-color: #dfe6e9;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.9),
+    4px 4px 4px rgba(190, 190, 190, 0.55);
+}
+.frameParent25,
+.frameParent28,
+.frameParent31 {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  margin-right: 12px;
+}
+.frameChild15,
+.frameChild16,
+.frameChild17,
+.frameChild18 {
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.frameChild15 {
+  background-color: #2d4cc8;
+}
+.frameChild16 {
+  background-color: #861109;
+}
+.frameChild17 {
+  background-color: #67096e;
+}
+.frameChild18 {
+  background-color: #bf1869;
+}
+.b5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  z-index: 2;
+}
+.citationExcellenceParent,
+.academicIntegrityParent,
+.intellectualPropertyParent,
+.ethicalKnowledgeParent {
+  width: auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: 24px;
+  color: #31344b;
+}
+.citationExcellence {
+  width: 100%;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+  font-size: 16px;
+}
+.citeSourcesAccuratelyContainer,
+.createOriginalPlagiarismContainer {
+  width: 100%;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  color: #2f3547;
+}
+.citeSourcesAccurately {
+  line-height: inherit;
+}
+.blankLine {
+  line-height: inherit;
+}
+.vectorParent {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  aspect-ratio: 662 / 541;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #31344b;
+}
+.integrityHexagonSvg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  z-index: 0;
+}
+.integrityContent {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ethicsIntegrityBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 32px;
+  padding: 7px 16px;
+  border-radius: 22px;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+  white-space: nowrap;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4;
+}
+.integrityTitle {
+  width: 100%;
+  margin: 0;
+  font-size: clamp(19px, 5.4vw, 24px);
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #31344b;
+}
+.integrityTitle span {
+  color: #2d4cc8;
+}
+.integrityDescription {
+  width: 100%;
+  margin: 14px 0 0;
+  font-size: clamp(11px, 3.2vw, 14px);
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #2f3547;
+}
+@media (min-width: 641px) {
+  .frameParent22 {
+    max-width: 720px;
+    gap: 40px;
+  }
+  .frameParent23 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .frameParent24,
+  .frameParent27,
+  .frameParent29,
+  .frameParent30 {
+    min-height: 140px;
+    padding: 0 20px;
+  }
+  .vectorParent {
+            max-width: 425px;
+        height: 378px;
+  }
+  .integrityContent {
+    top: 22%;
+  }
+}
+/* Keep the stepped cards beside the polygon only when both fit. */
+@media (min-width: 1200px) {
+  .frameParent22 {
+    position: relative;
+    width: calc(100% - 64px);
+    max-width: 1286px;
+    margin: 96px auto 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+  }
+  .frameParent23 {
+    display: block;
+    height: 696px;
+    width: 511.5px;
+    flex: 0 0 511.5px;
+    position: relative;
+  }
+  .frameParent26 {
+    display: flex;
+    position: absolute;
+    top: 182px;
+    left: 131.5px;
+    width: 380px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .frameParent24,
+  .frameParent27,
+  .frameParent29,
+  .frameParent30 {
+    width: 380px;
+    height: 150px;
+    min-height: 150px;
+    border: 1.5px solid #fff;
+    border-radius: 50px 50px 0px 50px;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 9px 32px 16px;
+    isolation: isolate;
+    box-shadow:
+      -4px -4px 4px #fff,
+      4px 4px 4px #c4c4c4;
+  }
+  .frameParent24 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .frameParent27,
+  .frameParent29 {
+    align-self: stretch;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .frameParent30 {
+    position: absolute;
+    top: 546px;
+    left: 0;
+    box-shadow:
+      -4px -4px 4px #fff,
+      4px 4px 4px #c6c6c9;
+  }
+  .frameParent25,
+  .frameParent28,
+  .frameParent31 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    flex: none;
+    margin: 0;
+  }
+  .frameChild15,
+  .frameChild16,
+  .frameChild17,
+  .frameChild18 {
+    position: absolute;
+    top: 0;
+    left: 0.05px;
+    width: 60px;
+    height: 60px;
+  }
+  .b5 {
+    font-size: 32px;
+  }
+  .citationExcellenceParent,
+  .academicIntegrityParent,
+  .intellectualPropertyParent,
+  .ethicalKnowledgeParent {
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    width: calc(100% - 96px);
+    transform: translateY(-50%);
+    flex: none;
+    gap: 8px;
+  }
+  .citationExcellence {
+    height: auto;
+    min-height: 32px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .citeSourcesAccuratelyContainer,
+  .createOriginalPlagiarismContainer {
+    width: 270px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .vectorParent {
+    width: 662px;
+    max-width: 662px;
+    min-width: 0;
+    flex: 1 1 662px;
+    height: auto;
+    aspect-ratio: 662 / 541;
+  }
+  .integrityContent {
+    top: 13%;
+    width: calc(100% - 80px);
+    max-width: 520px;
+  }
+  .ethicsIntegrityBadge {
+    min-width: 200px;
+    height: 50px;
+    padding: 0 18px;
+    font-size: 22px;
+    margin: 20px 0 10px;
+  }
+  .integrityTitle {
+    font-size: 36px;
+    /* line-height: 60px; */
+  }
+  .integrityDescription {
+    max-width: 500px;
+    margin-top: 28px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+.frameParent34 {
+  width: calc(100% - 24px);
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.frameChild21 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  height: 32px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-sizing: border-box;
+  box-shadow:
+    inset 4px 4px 4px rgba(190, 198, 202, 0.52),
+    inset -4px -4px 4px rgba(255, 255, 255, 0.78);
+}
+.masterInformationUnlockContainer {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+  font-size: clamp(20px, 6vw, 27px);
+}
+.frameParent36 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.journeyTimeline {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.journeyTrack {
+  display: none;
+}
+.journeyStage {
+  --stage-color: #2d4cc8;
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  align-items: flex-start;
+  gap: 16px;
+}
+.journeyStage::after {
+  content: "";
+  position: absolute;
+  left: 32px;
+  top: 64px;
+  width: 2px;
+  height: 22px;
+  background: #c8d1d5;
+  transform: translateX(-50%);
+}
+.journeyStage:last-child::after {
+  display: none;
+}
+.journeyCircle {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+}
+.journeyCircle::before {
+  content: "";
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: #dfe6e9;
+  border: 1.5px solid var(--stage-color);
+  box-shadow:
+    4px 4px 4px #c6c6c9,
+    -4px -4px 4px #ffffff;
+}
+.journeyCircle span {
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 600;
+  color: var(--stage-color);
+}
+.journeyCard {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  padding: 16px 18px;
+  border-radius: 14px;
+  background: #dfe6e9;
+  box-shadow:
+    inset 4px 4px 4px rgba(190, 198, 202, 0.5),
+    inset -4px -4px 4px rgba(255, 255, 255, 0.86);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.journeyCorner {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--stage-color);
+  opacity: 0.48;
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.28),
+    inset 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.journeyStage:nth-child(2) .journeyCorner,
+.journeyStage:nth-child(4) .journeyCorner {
+  top: -10px;
+  left: -10px;
+}
+.journeyStage:nth-child(3) .journeyCorner,
+.journeyStage:nth-child(5) .journeyCorner {
+  right: -10px;
+  bottom: -10px;
+}
+.journeyCardTitle {
+  margin: 0 0 6px;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--stage-color);
+}
+.journeyCardDescription {
+  max-width: none;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #31344b;
+}
+@media (max-width: 641px) {
+   .academicResearch {
+    font-size: 20px;
+  }
+  .discoverTrustedAcademic, .accessCredibleResearch, .turnResearchInto {
+    font-size: 16px;
+  }
+  .citationExcellence {
+    font-size: 18px;
+  }
+  .citeSourcesAccurately {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  .integrityContent {
+    gap: 6px;
+  }
+  .ethicsIntegrityBadge {
+    margin-top: 6px;
+    font-size: 15px;
+  }
+  .integrityDescription {
+    font-size: 16px;
+  }
+  .trackOutcomesBadge, .frameChild21 {
+    font-size: 15px;
+  }
+  .journeyStage::after{
+    display: none;
+  }
+  .skillCircleLabel {
+    font-size: 14px;
+  }
+}
+@media (min-width: 641px) {
+  .journeyTimeline {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 32px;
+    row-gap: 32px;
+  }
+  .journeyStage {
+    grid-template-columns: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    justify-items: center;
+  }
+  .journeyStage::after {
+    display: none;
+  }
+  .journeyCard {
+    align-items: center;
+    text-align: center;
+    min-height: 130px;
+  }  
+}
+@media (max-width: 1025px) {
+ .citeSourcesAccurately {
+    white-space: nowrap;
+  }
+}
+@media (min-width: 1025px) {
+  .frameParent34 {
+    position: relative;
+    width: calc(100% - 64px);
+    /* max-width: none; */
+    margin: 64px auto 0;
+    gap: 50px;
+    max-width: 1280px;
+  }
+  .frameChild21 {
+    width: 253.9px;
+    min-width: 0;
+    height: 50.2px;
+    border-radius: 28px;
+    font-size: 22px;
+  }
+  .masterInformationUnlockContainer {
+    letter-spacing: 0.03em;
+    line-height: 60px;
+    font-size: 36px;
+  }
+  .journeyTimeline {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--journey-gap);
+    width: 100%;
+    --journey-gap: clamp(24px, 3.75vw, 54px);
+    align-items: stretch;
+  }
+  .journeyStage {
+    justify-items: center;
+    grid-template-rows: 100px minmax(0, 1fr);
+    align-items: stretch;
+    gap: 24px;
+    min-width: 0;
+  }
+  .journeyTrack {
+    display: block;
+    position: absolute;
+    top: 26px;
+    left: calc(12.5% - var(--journey-gap) * 0.375);
+    right: calc(12.5% - var(--journey-gap) * 0.375);
+    height: 48px;
+    border-radius: 100px;
+    background: #dfe6e9;
+    box-shadow: inset 4px 4px 4px #c4c4c4, inset -4px -4px 4px #ffffff;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .journeyTrack::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 1.4%;
+    right: 1.4%;
+    height: 15px;
+    transform: translateY(-50%);
+    border-radius: 100px;
+    background: #dfe6e9;
+    box-shadow:
+      -4px -4px 4px #ffffff,
+      4px 4px 4px #c6c6c9;
+  }
+  .journeyCircle {
+    width: 100px;
+    height: 100px;
+    flex: 0 0 100px;
+  }
+  .journeyCircle::before {
+    width: 70px;
+    height: 70px;
+    border-style: dashed;
+  }
+  .journeyCircle span {
+    font-size: 28px;
+  }
+  .journeyCard {
+    width: 100%;
+    min-height: 150px;
+    padding: 20px 16px 18px;
+    max-width: 280px;
+    align-self: stretch;
+    border-radius: 12px;
+    justify-content: flex-start;
+  }
+  .journeyCorner {
+    width: 25px;
+    height: 25px;
+  }
+  .journeyStage:nth-child(2) .journeyCorner,
+  .journeyStage:nth-child(4) .journeyCorner {
+    top: -2px;
+    left: -2px;
+  }
+  .journeyStage:nth-child(3) .journeyCorner,
+  .journeyStage:nth-child(5) .journeyCorner {
+    right: -2px;
+    bottom: -2px;
+  }
+  .journeyCardTitle {
+    margin: 0 0 14px;
+    font-size: 24px;
+  }
+  .journeyCardDescription {
+    max-width: 240px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .frameParent34 .frameParent20 {
+    width: 100%;
+    max-width: 1280px;
+    gap: 32px;
+  }
+}
+.rectangle2,
+.image203,
+.informationLiteracyInner,
+.informationLiteracyInner2 {
+  display: none;
+}
+.frameParent40 {
+  width: calc(100% - 32px);
+  max-width: 720px;
+  margin: 0 auto;
+}
+.builtForTheWayLearnersActParent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+.learnersThinkBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.85),
+    inset 4px 4px 4px rgba(196, 196, 196, 0.65);
+  box-sizing: border-box;
+}
+.builtForTheContainer {
+  width: 100%;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+  font-size: clamp(20px, 6vw, 27px);
+}
+.frameParent41 {
+  width: calc(100% - 32px);
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.skillCircleRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 28px;
+}
+.skillCircle {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.skillCircleGraphic {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skillCircleGraphic::before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    4px 4px 4px #c4c4c4,
+    -4px -4px 4px #ffffff;
+  z-index: 1;
+}
+.skillCircleProgress {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: conic-gradient(var(--circle-color) 0deg, var(--circle-color) calc(var(--progress) * 3.6deg), transparent calc(var(--progress) * 3.6deg), transparent 360deg);
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 8px), #000 calc(100% - 7px));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 8px), #000 calc(100% - 7px));
+  z-index: 2;
+}
+.skillCircleInner {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    4px 4px 4px rgba(196, 196, 196, 0.9),
+    -4px -4px 4px rgba(255, 255, 255, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+.skillCircleValue {
+  font-family: "Segoe UI", "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--circle-color);
+}
+.skillCircleLabel {
+  margin-top: 12px;
+  font-family: "Segoe UI", "Inter";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2f3547;
+  white-space: nowrap;
+}
+.frameParent47 {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 677 / 542;
+  /* Reserve only the image's natural landscape frame, with no bottom gap. */
+  overflow: visible;
+}
+.frameChild35 {
+  position: absolute;
+  inset: 0;
+  border-radius: 40px;
+  background: transparent;
+  overflow: hidden;
+}
+.creativeExcitedBrunetteBusiIcon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+  /* Keep the portrait on the section/footer baseline. */
+  transform: none;
+}
+@media (min-width: 641px) {
+  .skillCircleRow {
+    gap: 32px;
+  }
+  .skillCircle {
+    width: 150px;
+  }
+  .skillCircleGraphic {
+    width: 120px;
+    height: 120px;
+  }
+  .skillCircleGraphic::before {
+    width: 135px;
+    height: 135px;
+  }
+  .skillCircleProgress {
+    width: 110px;
+    height: 110px;
+  }
+  .skillCircleInner {
+    width: 76px;
+    height: 76px;
+  }
+  .skillCircleValue {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1025px) {
+  .frameParent40 {
+    position: relative;
+    width: calc(100% - 64px);
+    max-width: 1280px;
+    margin: 48px auto 0;
+  }
+  .builtForTheWayLearnersActParent {
+    width: 100%;
+    max-width: 1280px;
+    gap: 16px;
+  }
+  .learnersThinkBadge {
+    height: 50px;
+    padding: 0 28px;
+    font-size: 22px;
+  }
+  .builtForTheContainer {
+    letter-spacing: 0.03em;
+    line-height: 1.25;
+    font-size: 36px;
+  }
+  .frameParent41 {
+    position: relative;
+    width: calc(100% - 64px);
+    max-width: 1280px;
+    height: auto;
+    margin: 24px auto 0;
+    align-items: end;
+    justify-content: center;
+    gap: 32px;
+    display: grid;
+    /* One shared frame: balanced metrics on the left, a larger portrait on the right. */
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  }
+  .skillCircleRow {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    column-gap: 32px;
+    row-gap: 24px;
+    width: 100%;
+    min-width: 0;
+    --skill-circle-size: clamp(150px, calc(25vw - 140px), 220px);
+    padding: 0 0 32px;
+    box-sizing: border-box;
+    align-self: center;
+    justify-items: center;
+  }
+  .skillCircle:nth-child(3) {
+    grid-column: 1 / 3;
+    justify-self: center;
+  }
+  .skillCircle {
+    width: 100%;
+    max-width: 240px;
+    min-width: 0;
+  }
+  .skillCircleGraphic {
+    width: var(--skill-circle-size);
+    height: auto;
+    max-width: 100%;
+    aspect-ratio: 1;
+  }
+  .skillCircleGraphic::before {
+    width: 100%;
+    height: 100%;
+    box-shadow:
+      inset 4px 4px 4px #c4c4c4,
+      inset -4px -4px 4px #ffffff;
+  }
+  .skillCircleProgress {
+    width: 86%;
+    height: 86%;
+    transform: translate(-50%, -50%);
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 12px), #000 calc(100% - 11px));
+    mask: radial-gradient(farthest-side, transparent calc(100% - 12px), #000 calc(100% - 11px));
+  }
+  .skillCircleInner {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    box-shadow: none;
+  }
+  .skillCircleValue {
+    font-size: clamp(32px, 3.195vw, 46px);
+    line-height: 1.2;
+  }
+  .skillCircleLabel {
+    margin-top: 16px;
+    max-width: 100%;
+    font-size: clamp(16px, 1.667vw, 24px);
+    line-height: 1.35;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+  .frameParent47 {
+    max-width: none;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 677 / 542;
+    align-self: end;
+    min-width: 0;
+    flex-shrink: 0;
+    overflow: visible;
+  }
+  .frameChild35 {
+    border-radius: clamp(120px, 13.889vw, 200px) 0 0 50px;
+    left: 24.52%;
+    width: 75.48%;
+    right: auto;
+    bottom: 0;
+    top: auto;
+    height: 75.17%;
+  }
+  .creativeExcitedBrunetteBusiIcon {
+    top: auto;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom center;
+    bottom: 0;
+    transform: none;
+  }
+}
+/* =========================================================
+   INFORMATION LITERACY — BREADCRUMB OVERLAP FIX ONLY
+   Keeps breadcrumb in its own normal-flow row above hero content.
+   No hero/card/footer design changes.
+   ========================================================= */
+.frameParent8 {
+  position: relative !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  transform: none !important;
+  box-sizing: border-box;
+  flex-shrink: 0 !important;
+  min-height: 40px;
+  z-index: 10 !important;
+}
+.neurolxp21Wrapper,
+.arrowRightDoubleParent {
+  position: relative;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.neurolxp212,
+.arrowRightDoubleParent {
+  white-space: nowrap;
+}
+@media (min-width: 1025px) {
+  .frameParent8 {
+    width: min(1280px, calc(100% - 80px)) !important;
+    margin: 0 auto 28px !important;
+    padding: 0 8px !important;
+    align-self: center;
+    min-height: 24px;
+  }
+  /* Hero starts only after the breadcrumb row has finished. */
+  .frameParent9 {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 1024px) {
+  .frameParent8 {
+    width: calc(100% - 32px) !important;
+    margin: 20px auto 20px !important;
+    padding: 0 !important;
+    flex-wrap: nowrap;
+  }
+}
+@media (max-width: 480px) {
+  .frameParent8 {
+    width: 100% !important;
+    padding: 0 16px !important;
+    margin: 16px auto 20px !important;
+    gap: 6px;
+    font-size: 13px;
+    overflow: visible;
+  }
+  .breadcrumbDoubleArrow {
+    width: 16px;
+    height: 16px;
+    flex: 0 0 16px;
+  }
+}
+/* Full desktop reference spacing; smaller screens retain the compact layout. */
+/* Mobile/tablet text containment. Desktop styling remains unchanged. */
+@media (width < 1025px) {
+  .frameParent8 {
+    min-height: 24px;
+    /* Offset only this row's share of the parent's 36px gap: leave 20px. */
+    margin: 12px auto -16px !important;
+  }
+  .statsContent {
+    grid-template-columns: minmax(0, 1fr) 2px minmax(0, 1fr) 2px minmax(0, 1fr);
+    gap: 6px;
+    padding: 20px 16px;
+  }
+  .statsContent .croreParent,
+  .statsContent .parent,
+  .statsContent .group {
+    max-width: 100%;
+    min-width: 0;
+  }
+  .statsContent .crore,
+  .statsContent .skillDomains {
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+  .statsContent .crore { line-height: 1.2; }
+  .statsContent .skillDomains {
+    line-height: 1.35;
+    min-height: 2.7em;
+    text-wrap: balance;
+  }
+  .statsContent .statsDivider {
+    height: 100%;
+    min-height: 48px;
+  }
+  .frameParent24,
+  .frameParent27,
+  .frameParent29,
+  .frameParent30 {
+    display: grid;
+    grid-template-columns: 42px minmax(0, 1fr);
+    /* Keep the cards compact and bring the number closer to the text. */
+    width: calc(100% - 16px);
+    max-width: 300px;
+    margin-inline: auto;
+    gap: 6px;
+    height: auto;
+    padding: 18px 16px;
+    align-items: center;
+    align-content: center;
+  }
+  .frameParent25,
+  .frameParent28,
+  .frameParent31 {
+    margin-right: 0;
+    align-self: center;
+  }
+  .citationExcellenceParent,
+  .academicIntegrityParent,
+  .intellectualPropertyParent,
+  .ethicalKnowledgeParent {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    /* Centre the heading and description together inside the existing card. */
+    height: 100%;
+    min-height: 0;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .frameParent23 .citationExcellence {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+  .frameParent23 .citeSourcesAccuratelyContainer,
+  .frameParent23 .createOriginalPlagiarismContainer {
+    width: 100%;
+    max-width: 26ch;
+    min-width: 0;
+    height: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.45;
+    text-wrap: balance;
+  }
+  .frameParent23 .citeSourcesAccuratelyContainer,
+  .frameParent23 .createOriginalPlagiarismContainer,
+  .frameParent23 .citeSourcesAccuratelyContainer *,
+  .frameParent23 .createOriginalPlagiarismContainer * {
+    /* Override no-wrap spans without clipping or truncating the wording. */
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+  .frameParent23 .citeSourcesAccuratelyContainer p,
+  .frameParent23 .createOriginalPlagiarismContainer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  /* Do not include exported blank paragraphs when centring the visible text.
+     Removing their bottom-only space lets the heading/description sit lower
+     with equal clearance above and below inside the original card design. */
+  .frameParent23 .citeSourcesAccuratelyContainer .blankLine,
+  .frameParent23 .createOriginalPlagiarismContainer .blankLine {
+    display: none;
+  }
+  .vectorParent {
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+    aspect-ratio: 662 / 541;
+    container-type: inline-size;
+  }
+  .vectorParent .integrityContent {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 82%;
+    min-width: 0;
+    /* Use the child margins once, without the extra mobile flex gap. */
+    gap: 0;
+  }
+  .vectorParent .ethicsIntegrityBadge {
+    max-width: 100%;
+    min-height: 30px;
+    margin: 0 0 6px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.3;
+    white-space: normal;
+    text-align: center;
+  }
+  .vectorParent .integrityTitle {
+    /* Scale with the shape so the heading also fits narrower phones. */
+    font-size: clamp(15px, 6cqw, 24px);
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+  }
+  .vectorParent .integrityDescription {
+    /* Shorter lines stay clear of the hexagon's narrowing lower edges. */
+    width: 100%;
+    max-width: 28ch;
+    font-size: clamp(11px, 4.2cqw, 16px);
+    line-height: 1.4;
+    margin: 8px auto 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    /* Let the final line stay shorter beside the lower sloping edges. */
+    text-wrap: wrap;
+  }
+  /* A larger, proportional portrait on mobile; keep it on the footer edge. */
+  .frameParent41 {
+    width: 100%;
+    max-width: 752px;
+    margin-inline: auto;
+    gap: 12px;
+  }
+  .frameParent41 .skillCircleRow {
+    width: calc(100% - 32px);
+    max-width: 720px;
+    min-width: 0;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  .frameParent41 .frameParent47 {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    min-width: 0;
+    /* Reserve the visible portrait, trimming the empty area above it. */
+    aspect-ratio: 3 / 2;
+    margin-inline: auto;
+    overflow: hidden;
+  }
+  .frameParent41 .creativeExcitedBrunetteBusiIcon {
+    width: 100%;
+    max-width: 100%;
+    /* Retain natural proportions; only the empty top of the frame is clipped. */
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+    object-position: bottom center;
+    top: auto;
+    bottom: 0;
+    transform: none;
+  }
+}
+@media (min-width: 1360px) {
+  .frameParent22 { gap: 112px; }
+}
+/* =========================================================
+   ETHICS & INTEGRITY — DESKTOP FIGMA MATCH
+   Uses the supplied 1280px / 520px / 662px reference values.
+   Only this section is overridden. Mobile/tablet rules stay unchanged.
+   ========================================================= */
+@media (min-width: 1360px) {
+  .frameParent22 {
+    position: relative;
+    width: 1280px;
+    max-width: 1280px;
+    height: 568px;
+    margin: 96px auto 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 98px;
+  }
+  .frameParent23 {
+    position: relative;
+    width: 520px;
+    height: 568px;
+    flex: 0 0 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .frameParent26 {
+    display: contents;
+  }
+  .frameParent24,
+  .frameParent27,
+  .frameParent29,
+  .frameParent30 {
+    position: relative;
+    inset: auto;
+    width: 520px;
+    height: 118px;
+    min-height: 118px;
+    flex: 0 0 118px;
+    margin: 0;
+    padding: 9px 32px 16px;
+    background: #dfe6e9;
+    border: 0;
+    border-radius: 50px 50px 0 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+    isolation: isolate;
+    box-shadow:
+      -4px -4px 4px #ffffff,
+      4px 4px 4px #c4c4c4;
+  }
+  .frameParent30 {
+    box-shadow:
+      -4px -4px 4px #ffffff,
+      4px 4px 4px #c4c4c4;
+  }
+  .frameParent25,
+  .frameParent28,
+  .frameParent31 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    flex: none;
+    margin: 0;
+    z-index: 2;
+  }
+  .frameChild15,
+  .frameChild16,
+  .frameChild17,
+  .frameChild18 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+  }
+  .b5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .frameParent29 .b5 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .citationExcellenceParent,
+  .academicIntegrityParent,
+  .intellectualPropertyParent,
+  .ethicalKnowledgeParent {
+    position: absolute;
+    top: 50%;
+    left: 85px;
+    width: 405px;
+    height: auto;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    color: #31344b;
+    text-align: left;
+  }
+  .ethicalKnowledgeParent {
+    left: 86px;
+    width: 376px;
+  }
+  .citationExcellence {
+    width: 100%;
+    height: auto;
+    min-height: 32px;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", "Inter";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #31344b;
+    text-align: left;
+  }
+  .citeSourcesAccuratelyContainer,
+  .createOriginalPlagiarismContainer {
+    width: 100%;
+    max-width: 416px;
+    height: auto;
+    min-height: 28px;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #2f3547;
+    text-align: left;
+  }
+  .frameParent23 .citeSourcesAccuratelyContainer,
+  .frameParent23 .createOriginalPlagiarismContainer,
+  .frameParent23 .citeSourcesAccuratelyContainer *,
+  .frameParent23 .createOriginalPlagiarismContainer * {
+    white-space: normal !important;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .frameParent23 .blankLine {
+    display: none;
+  }
+  .vectorParent {
+    position: relative;
+    width: 662px;
+    max-width: 662px;
+    min-width: 662px;
+    height: 543px;
+    flex: 0 0 662px;
+    aspect-ratio: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #31344b;
+    overflow: visible;
+  }
+  .integrityHexagonSvg {
+    position: absolute;
+    top: -23.5px;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    width: 680px;
+    height: 589px;
+    overflow: visible;
+    z-index: 0;
+  }
+  .integrityContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 580px;
+    max-width: 580px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+  .ethicsIntegrityBadge {
+    width: 252.31px;
+    min-width: 252.31px;
+    height: 50px;
+    min-height: 50px;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    background: #dfe6e9;
+    box-shadow:
+      inset -4px -4px 8px #ffffff,
+      inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+    font-family: "Segoe UI", "Inter";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #2d4cc8;
+    white-space: nowrap;
+  }
+  .integrityTitle {
+    width: 556px;
+    max-width: 556px;
+    margin: 0;
+    font-family: "Segoe UI", "Inter";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #31344b;
+  }
+  .integrityTitle span {
+    color: #2d4cc8;
+  }
+  .integrityDescription {
+    width: 580px;
+    max-width: 580px;
+    margin: 0;
+    font-family: "Segoe UI", "Inter";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #2f3547;
+  }
+}
+/* =========================================================
+   REQUEST DEMO — PRESSED/CLICKABLE STATE ONLY
+   Keep the original button design and placement unchanged.
+   ========================================================= */
+.requestDemoWrapper:hover,
+.requestDemoWrapper:active,
+.requestDemoWrapper:focus-visible {
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.95),
+    inset 4px 4px 4px rgba(198, 198, 201, 0.7);
+}
+.requestDemoWrapper:hover .requestDemo,
+.requestDemoWrapper:active .requestDemo,
+.requestDemoWrapper:focus-visible .requestDemo {
+  color: #2d4cc8;
+}
+/* Requested updates only: colours, section spacing, heading sizes, text shadows. */
+.informationLiteracy {
+  --il-heading-size: 36px;
+  --il-heading-line: 44px;
+  gap: 0 !important;
+}
+/* Replace accumulated outer margins with one 48px gap after each section. */
+.informationLiteracy > :is(
+  .frameParent9,
+  .frameParent13,
+  .frameParent19,
+  .image20Parent,
+  .frameParent22,
+  .frameParent34,
+  .frameParent40,
+  .frameParent41
+) {
+  margin-top: 0 !important;
+  margin-bottom: 48px !important;
+}
+/* Preserve the existing 20px mobile/tablet breadcrumb-to-hero spacing. */
+@media (max-width: 1024px) {
+  .informationLiteracy > .frameParent8 {
+    margin-bottom: 20px !important;
+  }
+}
+/* Match the previous page's badge/button palette without changing their sizes. */
+.informationLiteracy :is(
+  .informationLiteracyBadge,
+  .researchDiscoveryBadge,
+  .trackOutcomesBadge,
+  .ethicsIntegrityBadge,
+  .frameChild21,
+  .learnersThinkBadge,
+  .requestDemoWrapper,
+  .frameWrapper5
+) {
+  background: #dfe6e9 !important;
+  color: #2d4cc8 !important;
+}
+.informationLiteracy :is(
+  .informationLiteracyBadge,
+  .researchDiscoveryBadge,
+  .trackOutcomesBadge,
+  .ethicsIntegrityBadge,
+  .frameChild21,
+  .learnersThinkBadge,
+  .requestDemoWrapper,
+  .frameWrapper5
+) * {
+  color: inherit !important;
+}
+/* Main page/section headings only; retain existing card-title typography. */
+.informationLiteracy :is(
+  .findEvaluate,
+  .researchSmarterLearn,
+  .buildConfidenceThroughContainer,
+  .integrityTitle,
+  .masterInformationUnlockContainer,
+  .builtForTheContainer
+) {
+  font-size: var(--il-heading-size) !important;
+  line-height: var(--il-heading-line) !important;
+}
+.informationLiteracy,
+.informationLiteracy *,
+.informationLiteracy *::before,
+.informationLiteracy *::after {
+  text-shadow: none !important;
+}
+@media (max-width: 767px) {
+  .informationLiteracy {
+    --il-heading-size: 24px;
+    --il-heading-line: 32px;
+  }
+}
+/* Enable selection throughout this page, including its shared header/footer. */
+.informationLiteracy,
+.informationLiteracy *,
+html:has(.informationLiteracy),
+body:has(.informationLiteracy),
+body:has(.informationLiteracy) * {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  user-select: text !important;
+  -webkit-touch-callout: default !important;
+}
+.informationLiteracy :is(svg text, svg tspan) {
+  pointer-events: auto !important;
+}
+/* Mobile: remove only the Ethics & Integrity polygon and align its content. */
+@media (max-width: 767px) {
+  .informationLiteracy .vectorParent .integrityHexagonSvg {
+    display: none !important;
+  }
+  .informationLiteracy .vectorParent {
+    position: relative;
+    width: 100%;
+    max-width: 460px;
+    min-width: 0;
+    height: auto !important;
+    min-height: 0;
+    aspect-ratio: auto !important;
+    margin-inline: auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+    container-type: normal;
+    text-align: center;
+  }
+  .informationLiteracy .vectorParent .integrityContent {
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .informationLiteracy .vectorParent .ethicsIntegrityBadge {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0;
+  }
+  .informationLiteracy .vectorParent .integrityTitle {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    overflow-wrap: normal;
+    word-break: normal;
+    text-align: center;
+  }
+  .informationLiteracy .vectorParent .integrityDescription {
+    width: 100%;
+    max-width: 36ch;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+    text-align: center;
+  }
+}
+/* Desktop: a larger, uncropped portrait aligned directly with the footer. */
+@media (min-width: 1025px) {
+  .informationLiteracy > .frameParent41 {
+    grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+    align-items: end;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+  }
+  .informationLiteracy .frameParent41 .frameParent47 {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    height: auto !important;
+    min-height: 0;
+    max-height: none;
+    aspect-ratio: auto !important;
+    align-self: end;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .informationLiteracy .frameParent41 .frameChild35 {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    border-radius: 0;
+    overflow: visible !important;
+  }
+  .informationLiteracy .frameParent41 .creativeExcitedBrunetteBusiIcon {
+    position: relative !important;
+    inset: auto !important;
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    margin: 0;
+    padding: 0;
+    object-fit: contain !important;
+    object-position: center bottom !important;
+    transform: none !important;
+    clip-path: none;
+  }
+}
+/* Matching text sizes for both buttons; existing shared dimensions retained. */
+.informationLiteracy .requestDemoWrapper,
+.informationLiteracy .requestDemoWrapper *,
+.informationLiteracy .frameWrapper5,
+.informationLiteracy .frameWrapper5 *,
+.informationLiteracy .startLearning,
+.informationLiteracy .requestDemo {
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .informationLiteracy .requestDemoWrapper,
+  .informationLiteracy .requestDemoWrapper *,
+  .informationLiteracy .frameWrapper5,
+.informationLiteracy .frameWrapper5 *,
+.informationLiteracy .startLearning,
+.informationLiteracy .requestDemo {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 767px) {
+  .informationLiteracy .requestDemoWrapper,
+  .informationLiteracy .requestDemoWrapper *,
+  .informationLiteracy .frameWrapper5,
+.informationLiteracy .frameWrapper5 *,
+.informationLiteracy .startLearning,
+.informationLiteracy .requestDemo {
+    font-size: 18px !important;
+  }
+}
+
+/* Match all three research-card headings to Academic Research. */
+.informationLiteracy .academicResearch {
+  font-weight: 700;
+  color: #31344b;
+  text-shadow: none;
+}
+
+/* Only insights occupies line two; the first phrase must stay intact. */
+.informationLiteracy .synthesisFirstLine {
+  display: inline-block;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+.informationLiteracy .journeyStageSynthesise .journeyCardDescription {
+  max-width: none;
+}
+/* Allocate enough width for the first phrase without reducing the font. */
+@media (min-width: 1025px) {
+  .informationLiteracy .journeyTimeline {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) max-content minmax(0, 1fr);
+  }
+  .informationLiteracy .journeyStageSynthesise .journeyCard {
+    width: max-content;
+    max-width: none;
+  }
+}
+@media (max-width: 640px) {
+  .informationLiteracy .journeyStageSynthesise {
+    row-gap: 10px;
+  }
+
+  .informationLiteracy .journeyStageSynthesise .journeyCard {
+    grid-column: auto;
+    width: 100%;
+    max-width: none;
+    padding-inline: 18px;
+  }
+}
+
+/* Ethics cards: wider text areas retain larger, single-line typography. */
+.informationLiteracy .frameParent22 {
+  width: calc(100% - 24px);
+  max-width: 1280px;
+  height: auto;
+  gap: 78px;
+}
+.informationLiteracy .frameParent23 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  max-width: 100%;
+  height: auto;
+  flex: 0 0 auto;
+}
+.informationLiteracy .frameParent26 {
+  display: contents;
+}
+.informationLiteracy .frameParent23 :is(
+  .frameParent24, .frameParent27, .frameParent29, .frameParent30
+) {
+  position: relative;
+  inset: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  min-height: 118px;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 16px 12px 16px 85px;
+  box-sizing: border-box;
+}
+.informationLiteracy .frameParent23 :is(
+  .frameParent25, .frameParent28, .frameParent31
+) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+.informationLiteracy .frameParent23 :is(
+  .citationExcellenceParent, .academicIntegrityParent,
+  .intellectualPropertyParent, .ethicalKnowledgeParent
+) {
+  position: static;
+  inset: auto;
+  transform: none;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  height: auto;
+  flex: 1 1 auto;
+  align-self: auto;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  container-type: inline-size;
+}
+.informationLiteracy .frameParent23 .citationExcellence {
+  width: 100%;
+  min-height: 0;
+  font-size: 24px;
+  line-height: 1.35;
+  text-align: inherit;
+  white-space: nowrap !important;
+  overflow-wrap: normal;
+  word-break: normal;
+  text-wrap: nowrap;
+}
+.informationLiteracy .frameParent23 :is(
+  .citeSourcesAccuratelyContainer, .createOriginalPlagiarismContainer
+) {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  min-height: 0;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  text-align: inherit;
+  white-space: nowrap !important;
+  overflow-wrap: normal;
+  word-break: normal;
+  text-wrap: nowrap;
+}
+.informationLiteracy .frameParent23 :is(
+  .citeSourcesAccuratelyContainer, .createOriginalPlagiarismContainer
+) * {
+  font-size: inherit;
+  white-space: nowrap !important;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+.informationLiteracy .frameParent23 .citationExcellence br,
+.informationLiteracy .frameParent23 .citeSourcesAccuratelyContainer br,
+.informationLiteracy .frameParent23 .createOriginalPlagiarismContainer br,
+.informationLiteracy .frameParent23 .blankLine {
+  display: none;
+}
+/* Stack this section before the wider cards and polygon can collide. */
+@media (max-width: 1359px) {
+  .informationLiteracy .frameParent22 {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+/* Use the full mobile card width for text, below the number badge. */
+@media (max-width: 640px) {
+  .informationLiteracy .frameParent23 :is(
+    .frameParent24, .frameParent27, .frameParent29, .frameParent30
+  ) {
+    padding: 56px 12px 18px;
+  }
+  .informationLiteracy .frameParent23 :is(
+    .citationExcellenceParent, .academicIntegrityParent,
+    .intellectualPropertyParent, .ethicalKnowledgeParent
+  ) {
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+  .informationLiteracy .frameParent23 .citationExcellence {
+    font-size: 22px;
+  }
+  .informationLiteracy .frameParent23 :is(
+    .citeSourcesAccuratelyContainer, .createOriginalPlagiarismContainer
+  ) {
+    font-size: min(20px, 4.3cqw);
+  }
+}
+
+
+/* Attach the existing shared launcher only to the Learning Journey section. */
+.frameParent34 {
+  position: relative;
+}
+
+.sectionExpertSlot {
+  --expert-button-size: 64px;
+  position: absolute;
+  top: -6px;
+  right: 16px;
+  width: var(--expert-button-size);
+  height: var(--expert-button-size);
+  z-index: 12;
+  pointer-events: none;
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  position: absolute !important;
+  inset: 0 !important;
+  margin: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  pointer-events: auto;
+}
+
+@media (max-width: 1024px) {
+  .sectionExpertSlot {
+    top: -16px;
+    right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionExpertSlot {
+    --expert-button-size: 48px;
+    top: -8px;
+    right: 8px;
+  }
+}
+
+/* Same pulse and hover effects as the other section buttons. */
+.sectionExpertSlot::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: 0;
+  border: 2px solid rgba(45, 76, 200, 0.38);
+  border-radius: 50%;
+  box-sizing: border-box;
+  pointer-events: none;
+  opacity: 0;
+  animation: informationExpertPulse 3s ease-out infinite;
+}
+
+@keyframes informationExpertPulse {
+  0%, 15% { transform: scale(1); opacity: 0; }
+  30% { opacity: 0.55; }
+  75%, 100% { transform: scale(1.32); opacity: 0; }
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  transition: box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover,
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible {
+  box-shadow: -5px -5px 10px #ffffff,
+    5px 5px 10px #c6c6c9,
+    0 0 0 3px rgba(45, 76, 200, 0.14);
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+  transform-origin: center;
+  animation: informationExpertWave 600ms ease-in-out;
+}
+
+@keyframes informationExpertWave {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-12deg); }
+  50% { transform: rotate(10deg); }
+  75% { transform: rotate(-5deg); }
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):active {
+  box-shadow: inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c6c6c9;
+}
+
+.sectionExpertSlot:has(> :global(button[aria-expanded="true"]))::after {
+  animation: none;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sectionExpertSlot::after,
+  .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+  .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+    animation: none;
+  }
+
+  .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+    transition: none;
+  }
+}
+/* =========================================================
+   MEDIA LITERACY — FIXED TALK TO OUR EXPERT BUTTON
+   ========================================================= */
+
+:global(body):has(.mediaLiteracy) {
+  --expert-attention-display: block;
+}
+
+@media (min-width: 1024px) {
+  :global(body):has(.mediaLiteracy) {
+    --expert-button-right: 112px;
+  }
+}
+
+/* Desktop: keep the Ethics & Integrity cards and integrity panel side by side. */
+@media (min-width: 1025px) {
+  .informationLiteracy .frameParent22 {
+    width: min(1280px, calc(100% - 64px));
+    max-width: 1280px;
+    height: auto;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(24px, 3vw, 48px);
+  }
+
+  .informationLiteracy .frameParent23 {
+    width: min(540px, 46%);
+    max-width: 540px;
+    min-width: 0;
+    flex: 1 1 540px;
+  }
+
+  .informationLiteracy .vectorParent {
+    width: min(662px, 50%);
+    max-width: 662px;
+    min-width: 0;
+    flex: 1 1 662px;
+  }
+}
+
+
+/* Mobile only: move the Ethics & Integrity card text upward into the empty top space. */
+@media (max-width: 640px) {
+  .informationLiteracy .frameParent23 :is(
+    .citationExcellenceParent,
+    .academicIntegrityParent,
+    .intellectualPropertyParent,
+    .ethicalKnowledgeParent
+  ) {
+    transform: translateY(-18px);
+  }
+}
+
+
+/* Mobile only: align Learning Journey circles and cards consistently. */
+@media (max-width: 640px) {
+  .journeyTimeline {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .journeyStage {
+    width: 100%;
+    grid-template-columns: 54px minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+  }
+
+  .journeyCircle {
+    width: 54px;
+    height: 54px;
+    flex: 0 0 54px;
+    align-self: center;
+  }
+
+  .journeyCircle::before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .journeyCircle span {
+    font-size: 15px;
+  }
+
+  .journeyCard {
+    grid-column: 2;
+    width: 100%;
+    min-width: 0;
+    min-height: 82px;
+    height: auto;
+    padding: 12px 14px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .journeyCardTitle {
+    margin: 0 0 5px;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+  .journeyCardDescription {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.35;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  .journeyStageSynthesise {
+    row-gap: 0;
+  }
+
+  .journeyStageSynthesise .journeyCard {
+    grid-column: 2;
+    width: 100%;
+    max-width: none;
+    padding: 12px 14px;
+  }
+}
+
+/* Desktop: insights on second line */
+.synthesisInsights {
+  display: block;
+}
+
+/* Mobile: complete sentence on one line */
+@media (max-width: 767px) {
+  .synthesisInsights {
+    display: inline;
+  }
+
+  .journeyCardDescription:has(.synthesisInsights) {
+    white-space: nowrap;
+    font-size: clamp(11px, 3vw, 14px);
+  }
+}
+.learnersThinkTm {
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  vertical-align: baseline;
+  margin-left: 1px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+@media (min-width: 1024px) {
+  .frameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .frameGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .frameGroup {
+    row-gap: 40px;
+  }
+
+  .frameContainer {
+    row-gap: 40px;
+  }
+
+  .researchDiscoveryBadge,
+  .researchSmarterLearn,
+  .buildResearchSkills {
+    margin: 0;
+  }
+}
+
+.creativeExcitedBrunetteBusiIcon {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+/* Final override: shorter information portrait on all viewports */
+.informationLiteracy .frameParent41 .frameParent47 {
+  height: auto !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+}
+.informationLiteracy .frameParent41 .creativeExcitedBrunetteBusiIcon {
+  position: relative !important;
+  inset: auto !important;
+  display: block;
+  width: auto !important;
+  max-width: 100% !important;
+  height: 680px !important;
+  max-height: none !important;
+  margin: 0 0 0 auto;
+  object-fit: contain !important;
+  object-position: right bottom !important;
+}
+@media (max-width: 640px) {
+  .informationLiteracy .frameParent41 .creativeExcitedBrunetteBusiIcon {
+    height: 420px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    margin-inline: auto;
+    object-position: center bottom !important;
+  }
+}
+/* Desktop - move image slightly left */
+@media (min-width: 1025px) {
+  .frameParent47 {
+    transform: translateX(-80px);
+  }
+}
+/* Desktop - move left-side content slightly right */
+@media (min-width: 1025px) {
+  .informationLiteracy .frameParent41 .frameParent42 {
+    transform: translateX(20px);
+  }
+}
+/* Last section - move left-side statistics to the right */
+@media (min-width: 1025px) {
+  .informationLiteracy > .frameParent41 > .skillCircleRow {
+    position: relative;
+    left: 64px;
+  }
+}

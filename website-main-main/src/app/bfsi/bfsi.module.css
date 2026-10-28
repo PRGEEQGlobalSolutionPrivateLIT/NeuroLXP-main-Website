@@ -1,0 +1,3872 @@
+.bfsi-breadcrumb {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  width: calc(100% - 48px);
+  margin-inline: auto;
+  gap: 8px;
+  padding: 16px 0px 0;
+}
+
+.bfsi-breadcrumb-link {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2f3547;
+  text-decoration: none;
+}
+
+.bfsi-breadcrumb-arrow {
+  display: flex;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+}
+
+.bfsi-breadcrumb-current {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #243fa8;
+}
+
+.bfsi-hero {
+  position: relative;
+  padding: 24px 20px 120px;
+  background: #dfe6e9;
+}
+
+.bfsi-hero-bg {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.bfsi-hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 1078px;
+  margin: 80px auto 0;
+}
+
+.bfsi-hero-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 76px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.bfsi-hero-badge span {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+}
+
+
+.bfsi-hero-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 1138px;
+}
+
+.bfsi-hero-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  max-width: 840px;
+}
+
+.bfsi-hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.bfsi-btn-secondary {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: #31344b;
+  cursor: pointer;
+}
+
+.bfsi-btn-primary {
+  width: 210px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  background: #dfe6e9;
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: #2d4cc8;
+  cursor: pointer;
+}
+
+.bfsi-banner {
+  position: relative;
+  padding: 96px 80px 100px;
+  background: #dfe6e9;
+  margin-top: 0;
+}
+
+.bfsi-banner-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 63px;
+  max-width: 1373px;
+  margin: 0 auto;
+}
+
+.bfsi-banner-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 47px;
+  max-width: 651px;
+  width: 100%;
+}
+
+.bfsi-banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 100%;
+}
+
+.bfsi-banner-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  height: 50px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.bfsi-banner-badge span {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  white-space: nowrap;
+}
+
+.bfsi-banner-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 668px;
+}
+
+.bfsi-banner-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  max-width: 651px;
+}
+
+.bfsi-secure-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 543px;
+  min-height: 216px;
+  padding: 32px;
+  border: 1px solid #bf1869;
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c4c4c4;
+}
+
+.bfsi-secure-icon-bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68.99px;
+  height: 68.99px;
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.bfsi-secure-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background: #bf1869;
+  box-shadow:
+    8px 8px 16px #c6c6c9,
+    -8px -8px 16px #ffffff;
+}
+
+.bfsi-secure-title {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+
+.bfsi-secure-desc {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  max-width: 372px;
+}
+
+.bfsi-banner-photo {
+  position: relative;
+  width: 100%;
+  max-width: 690px;
+  height: 517px;
+  border-radius: 100px 0px 0px 100px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -8px -8px 16px #ffffff,
+    inset 8px 8px 16px #c4c4c4;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.bfsi-banner-photo-img {
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.bfsi-secure-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+  cursor: default;
+}
+
+.bfsi-secure-card:hover {
+  transform: translateY(-6px);
+  border-color: #e01e82;
+  box-shadow:
+    -6px -6px 14px #ffffff,
+    6px 6px 14px #c4c4c4,
+    0px 0px 24px rgba(191, 24, 105, 0.25);
+}
+
+.bfsi-secure-icon-bubble {
+  transition: transform 0.3s ease;
+}
+
+.bfsi-secure-card:hover .bfsi-secure-icon-bubble {
+  transform: scale(1.08);
+}
+
+.bfsi-secure-icon-circle {
+  transition: box-shadow 0.3s ease;
+}
+
+.bfsi-secure-card:hover .bfsi-secure-icon-circle {
+  box-shadow:
+    10px 10px 20px #c6c6c9,
+    -10px -10px 20px #ffffff;
+}
+
+.bfsi-cards {
+  padding: 20px 80px 120px;
+  background: #dfe6e9;
+  display: flex;
+  justify-content: center;
+}
+
+.bfsi-cards-wrapper {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  max-width: 1182px;
+  padding: 11px 12px 13px;
+  border-radius: 24px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c6c6c6;
+}
+
+.bfsi-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-width: 0;
+  padding: 32px 20px;
+  border-radius: 16px;
+  border-top: 5px solid transparent;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c4c4c4;
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.bfsi-card:hover {
+  transform: none;
+  box-shadow:
+    -6px -6px 14px #ffffff,
+    6px 6px 14px #c4c4c4;
+}
+
+.bfsi-card-blue:hover {
+  border-top-color: #2d4cc8;
+}
+.bfsi-card-green:hover {
+  border-top-color: #2a7308;
+}
+.bfsi-card-orange:hover {
+  border-top-color: #c05512;
+}
+
+.bfsi-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.bfsi-card-title {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+
+.bfsi-card-desc {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+
+.bfsi-challenges {
+  padding: 0 80px 120px;
+  background: #dfe6e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.bfsi-challenges-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 1063px;
+  text-align: center;
+}
+
+.bfsi-challenges-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  height: 50px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.bfsi-challenges-badge span {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  color: #2d4cc8;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.bfsi-challenges-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+
+.bfsi-challenges-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+}
+
+.bfsi-challenges-row {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  max-width: 1150px;
+  justify-content: center;
+}
+
+.bfsi-challenge-card {
+  flex: 1;
+  max-width: 350px;
+  position: relative;
+}
+
+.bfsi-challenge-top {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 32px 24px;
+  border-radius: 24px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c4c4c4;
+  cursor: pointer;
+  transition: border-radius 0.3s ease;
+}
+
+.bfsi-challenge-top.open {
+  border-radius: 24px 24px 0 0;
+}
+
+.bfsi-challenge-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 1px dashed;
+}
+
+.bfsi-challenge-title {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+
+.bfsi-challenge-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.bfsi-challenge-chevron.open {
+  transform: rotate(180deg);
+}
+
+.bfsi-challenge-panel {
+  position: relative;
+  z-index: 1;
+  margin-top: -20px;
+  padding: 0 24px;
+  border-radius: 0 0 24px 24px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c4c4c4;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.35s ease,
+    opacity 0.3s ease,
+    padding 0.35s ease;
+}
+
+.bfsi-challenge-panel.open {
+  max-height: 200px;
+  opacity: 1;
+  padding: 44px 24px 32px;
+}
+
+.bfsi-challenge-desc {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #31344b;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.bfsi-stat-banner {
+  padding: 0 80px 120px;
+  background: #dfe6e9;
+  display: flex;
+  justify-content: center;
+}
+
+.bfsi-stat-panel {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  height: 576px;
+  border-radius: 32px;
+  overflow: hidden;
+  background: #dfe6e9;
+}
+
+.bfsi-stat-shadow-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 32px;
+  box-shadow:
+    inset -8px -8px 16px #ffffff,
+    inset 8px 8px 16px #c4c4c4;
+  pointer-events: none;
+}
+
+.bfsi-stat-photo {
+  object-fit: cover;
+  transform: scale(1.15);
+  transform-origin: 30% 20%;
+  z-index: 0;
+}
+
+.bfsi-stat-shadow-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 32px;
+  box-shadow:
+    inset -8px -8px 16px #ffffff,
+    inset 8px 8px 16px #c4c4c4;
+  pointer-events: none;
+}
+
+.bfsi-stat-content {
+  position: absolute;
+  z-index: 2;
+  left: 80px;
+  top: 40%;
+  transform: translateY(calc(-50% - 27px));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 421px;
+}
+
+.bfsi-stat-badge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  width: 169.31px;
+  height: 50px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+  padding-top: 12px;
+}
+
+.bfsi-stat-badge-text {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #2d4cc8;
+}
+
+.bfsi-stat-badge-tm {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  color: #2d4cc8;
+}
+
+.bfsi-stat-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 439px;
+}
+
+.bfsi-stat-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  max-width: 421px;
+}
+
+.bfsi-benefits {
+  padding: 0 80px 120px;
+  background: #dfe6e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.bfsi-benefits-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 1080px;
+  text-align: center;
+}
+
+.bfsi-benefits-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  height: 50px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.bfsi-benefits-badge span {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  white-space: nowrap;
+}
+
+.bfsi-benefits-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+
+.bfsi-benefits-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  max-width: 1038px;
+}
+
+.bfsi-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 36px;
+  row-gap: 46px;
+  width: 100%;
+  max-width: 1251px;
+}
+
+.bfsi-benefit-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  min-height: 120px;
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c4c4c4;
+  overflow: visible;
+}
+
+.bfsi-benefit-card::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+  border-radius: 16px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c4c4c4;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bfsi-benefit-card:hover {
+  transform: none;
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c4c4c4;
+}
+
+.bfsi-benefit-icon {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bfsi-benefit-text {
+  position: relative;
+  z-index: 1;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+
+.bfsi-finance-banner {
+  padding: 0 80px 120px;
+  background: #dfe6e9;
+  display: flex;
+  justify-content: center;
+}
+
+.bfsi-finance-panel {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  height: 651px;
+  border-radius: 32px;
+  overflow: hidden;
+  background: rgba(223, 230, 233, 0.8);
+  box-shadow:
+    inset -8px -8px 16px #ffffff,
+    inset 8px 8px 16px #c4c4c4;
+}
+
+.bfsi-finance-photo {
+  object-fit: cover;
+  object-position: center bottom;
+  z-index: 0;
+}
+
+.bfsi-finance-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.bfsi-finance-content {
+  position: absolute;
+  z-index: 2;
+  left: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 444px;
+}
+
+.bfsi-finance-blur {
+  position: absolute;
+  z-index: -1;
+  width: 745px;
+  height: 745px;
+  left: -320px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+.bfsi-finance-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  height: 50px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.bfsi-finance-badge span {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  white-space: nowrap;
+}
+
+.bfsi-finance-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.bfsi-finance-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  max-width: 400px;
+}
+
+.bfsi-cta {
+  padding: 0 80px 120px;
+  background: #dfe6e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.bfsi-cta-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  height: 50px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+}
+
+.bfsi-cta-badge span {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  white-space: nowrap;
+}
+
+.bfsi-cta-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  max-width: 1149px;
+}
+
+.bfsi-cta-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  max-width: 1021px;
+}
+
+.bfsi-btn-secondary:focus-visible,
+.bfsi-btn-primary:focus-visible,
+.bfsi-challenge-top:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 3px;
+}
+
+.bfsi-breadcrumb-link:focus-visible {
+  outline: 2px solid #2d4cc8;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (max-width: 1439px) {
+  .bfsi-hero-subtext {
+    max-width: 80%;
+  }
+
+  .bfsi-hero-heading {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .bfsi-banner {
+    padding: 0 40px 90px;
+  }
+  .bfsi-banner-inner {
+    gap: 40px;
+  }
+  .bfsi-banner-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .bfsi-stat-banner {
+    padding: 0 40px 100px;
+  }
+
+  .bfsi-benefits {
+    padding: 0 40px 100px;
+  }
+  .bfsi-finance-banner {
+    padding: 0 40px 100px;
+  }
+  .bfsi-cta {
+    padding: 0 40px 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bfsi-hero {
+    padding: 24px 20px 80px;
+  }
+
+  .bfsi-hero-content {
+    margin-top: 56px;
+  }
+
+  .bfsi-hero-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .bfsi-hero-subtext {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .bfsi-hero-bg {
+    display: none;
+  }
+
+  .bfsi-banner-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+  .bfsi-banner-left {
+    align-items: center;
+    text-align: center;
+  }
+  .bfsi-banner-text {
+    align-items: center;
+  }
+  .bfsi-banner-heading,
+  .bfsi-banner-subtext {
+    max-width: 100%;
+  }
+  .bfsi-banner-photo {
+    height: 420px;
+    border-radius: 48px;
+  }
+
+  .bfsi-cards {
+    padding: 10px 40px 100px;
+  }
+  .bfsi-cards-wrapper {
+    flex-wrap: wrap;
+  }
+  .bfsi-card {
+    flex: 1;
+    min-width: 220px;
+  }
+
+  .bfsi-challenges {
+    padding: 0 40px 100px;
+  }
+
+  .bfsi-challenges-row {
+    flex-wrap: wrap;
+    row-gap: 44px;
+    column-gap: 16px;
+  }
+
+  .bfsi-challenge-card {
+    flex: 1 1 calc(50% - 8px);
+    max-width: none;
+  }
+
+  .bfsi-challenges-row-3 .bfsi-challenge-card:last-child {
+    flex: 1 1 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .bfsi-challenges-heading {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .bfsi-challenges-subtext {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .bfsi-stat-panel {
+    height: 460px;
+  }
+  .bfsi-stat-content {
+    left: 40px;
+    max-width: 60%;
+  }
+  .bfsi-stat-heading {
+    font-size: 36px;
+    line-height: 46px;
+    max-width: 100%;
+  }
+  .bfsi-stat-subtext {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 100%;
+  }
+
+  .bfsi-benefits {
+    padding: 0 40px 100px;
+    gap: 40px;
+  }
+  .bfsi-benefits-heading,
+  .bfsi-cta-heading {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .bfsi-benefits-subtext,
+  .bfsi-cta-subtext {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .bfsi-benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bfsi-finance-banner {
+    padding: 0 40px 100px;
+  }
+  .bfsi-finance-panel {
+    height: 480px;
+  }
+  .bfsi-finance-content {
+    left: 40px;
+    max-width: 60%;
+  }
+  .bfsi-finance-heading {
+    font-size: 36px;
+    line-height: 46px;
+    max-width: 100%;
+  }
+  .bfsi-finance-subtext {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 100%;
+  }
+
+  .bfsi-cta {
+    padding: 0 40px 100px;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bfsi-breadcrumb {
+    width: 100%;
+    padding: 12px 0px 0;
+    flex-wrap: wrap;
+  }
+
+  .bfsi-hero-bg {
+    display: none;
+  }
+
+  .bfsi-breadcrumb-link,
+  .bfsi-breadcrumb-current {
+    font-size: 14px;
+  }
+
+  .bfsi-hero {
+    padding: 32px 16px 60px;
+  }
+
+  .bfsi-hero-content {
+    margin-top: 40px;
+  }
+
+  .bfsi-hero-badge {
+    width: 130px;
+    height: 56px;
+  }
+
+  .bfsi-hero-badge span {
+    font-size: 32px;
+  }
+
+  .bfsi-hero-heading {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .bfsi-hero-subtext {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bfsi-hero-buttons {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .bfsi-stat-photo {
+    object-position: 75% 30%;
+    transform-origin: 30% 30%;
+  }
+
+  .bfsi-btn-secondary,
+  .bfsi-btn-primary {
+    width: 100%;
+    max-width: 280px;
+    font-size: 16px;
+    height: 52px;
+  }
+
+  .bfsi-banner {
+    padding: 0 20px 60px;
+  }
+  .bfsi-banner-badge {
+    height: 42px;
+    padding: 0 16px;
+  }
+  .bfsi-banner-badge span {
+    font-size: 16px;
+  }
+  .bfsi-banner-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .bfsi-banner-subtext {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .bfsi-secure-card {
+    border-radius: 32px;
+    padding: 24px;
+    min-height: auto;
+  }
+  .bfsi-secure-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  .bfsi-secure-desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .bfsi-banner-photo {
+    height: 280px;
+    border-radius: 24px;
+  }
+
+  .bfsi-cards {
+    padding: 0 20px 60px;
+  }
+  .bfsi-cards-wrapper {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+  .bfsi-card {
+    flex: 1 1 100%;
+    padding: 24px 16px;
+  }
+
+  .bfsi-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  .bfsi-card-desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .bfsi-card-icon svg {
+    width: 56px;
+    height: 56px;
+  }
+
+  .bfsi-challenges {
+    padding: 0 20px 60px;
+    gap: 40px;
+  }
+
+  .bfsi-challenges-row {
+    flex-wrap: wrap;
+    row-gap: 44px;
+    column-gap: 16px;
+  }
+
+  .bfsi-challenge-card {
+    flex: 1 1 calc(50% - 8px);
+    max-width: none;
+  }
+
+  .bfsi-challenges-row-3 .bfsi-challenge-card:last-child {
+    flex: 1 1 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .bfsi-challenges-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .bfsi-challenges-subtext {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .bfsi-challenges-badge {
+    height: 42px;
+    padding: 0 16px;
+  }
+  .bfsi-challenges-badge span {
+    font-size: 16px;
+  }
+  .bfsi-challenge-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  .bfsi-challenge-desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .bfsi-stat-banner {
+    padding: 0 20px 60px;
+  }
+  .bfsi-stat-panel {
+    height: auto;
+    min-height: 320px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .bfsi-stat-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    max-width: 100%;
+    width: 100%;
+    padding: 24px 20px;
+    gap: 16px;
+    background: linear-gradient(180deg, rgba(223, 230, 233, 0) 0%, rgba(223, 230, 233, 0.85) 60%);
+  }
+  .bfsi-stat-badge {
+    width: 130px;
+    height: 42px;
+    padding-top: 8px;
+  }
+  .bfsi-stat-badge-text {
+    font-size: 16px;
+  }
+  .bfsi-stat-badge-tm {
+    font-size: 10px;
+  }
+  .bfsi-stat-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .bfsi-stat-subtext {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bfsi-benefits {
+    padding: 0 20px 60px;
+    gap: 32px;
+  }
+  .bfsi-benefits-badge,
+  .bfsi-finance-badge,
+  .bfsi-cta-badge {
+    height: 42px;
+    padding: 0 16px;
+  }
+  .bfsi-benefits-badge span,
+  .bfsi-finance-badge span,
+  .bfsi-cta-badge span {
+    font-size: 16px;
+  }
+  .bfsi-benefits-heading,
+  .bfsi-cta-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .bfsi-benefits-subtext,
+  .bfsi-cta-subtext {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .bfsi-benefits-grid {
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+  }
+  .bfsi-benefit-card {
+    padding: 20px;
+  }
+  .bfsi-benefit-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bfsi-finance-banner {
+    padding: 0 20px 60px;
+  }
+  .bfsi-finance-panel {
+    height: auto;
+    min-height: 320px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .bfsi-finance-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.55) 70%);
+  }
+  .bfsi-finance-blur {
+    display: none;
+  }
+  .bfsi-finance-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    max-width: 100%;
+    width: 100%;
+    padding: 24px 20px;
+    gap: 16px;
+  }
+  .bfsi-finance-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .bfsi-finance-subtext {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bfsi-cta {
+    padding: 0 20px 60px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bfsi-banner {
+    padding: 0 16px 40px;
+  }
+
+  .bfsi-cards {
+    padding: 20px 16px 40px;
+  }
+
+  .bfsi-cards-wrapper {
+    flex-direction: row;
+  }
+
+  .bfsi-challenges-row {
+    flex-direction: column;
+    row-gap: 44px;
+    column-gap: 0;
+  }
+
+  .bfsi-challenge-card {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .bfsi-hero-heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+/* ===== Finance banner: corrected to supplied PNG ===== */
+@media (min-width: 1025px) {
+  .bfsi-finance-banner {
+    padding: 0 0 120px;
+    background: #dfe6e9;
+  }
+
+  .bfsi-finance-panel {
+    max-width: 1536px;
+    height: 780px;
+    border-radius: 32px;
+    background: #dfe6e9;
+    box-shadow:
+      inset -8px -8px 16px #ffffff,
+      inset 8px 8px 16px #c4c4c4;
+  }
+
+  .bfsi-finance-photo {
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .bfsi-finance-overlay,
+  .bfsi-finance-blur {
+    display: none;
+  }
+
+  .bfsi-finance-content {
+    left: 72px;
+    top: 72px;
+    transform: none;
+    gap: 46px;
+    max-width: 500px;
+  }
+
+  .bfsi-finance-badge {
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 28px;
+  }
+
+  .bfsi-finance-badge span {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .bfsi-finance-heading {
+    margin: 0;
+    max-width: 500px;
+    font-size: 48px;
+    line-height: 1.45;
+    color: #31344b;
+    text-shadow: none;
+  }
+
+  .bfsi-finance-subtext {
+    margin: 0;
+    max-width: 480px;
+    font-size: 28px;
+    line-height: 1.55;
+    color: #31344b;
+  }
+}
+
+
+/* ===== Last BFSI finance section: image + no horizontal overflow ===== */
+.bfsi-finance-banner {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.bfsi-finance-panel {
+  width: min(100%, 1280px);
+  max-width: calc(100% - 32px);
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.bfsi-finance-photo {
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media (max-width: 1024px) {
+  .bfsi-finance-panel {
+    max-width: calc(100% - 24px);
+  }
+}
+
+@media (max-width: 768px) {
+  .bfsi-finance-banner {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .bfsi-finance-panel {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+/* =========================================================
+   FINAL BFSI FINANCE BANNER — MATCH REFERENCE PNG
+   Desktop:
+   - exactly 80px space on left and right
+   - rectangle keeps reference PNG proportion
+   - image fills rectangle cleanly
+   - no left/right overflow
+   ========================================================= */
+
+@media (min-width: 1025px) {
+  .bfsi-finance-banner {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 80px 120px !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .bfsi-finance-panel {
+    position: relative !important;
+
+    /* 100% of the space remaining after the 80px + 80px side gaps */
+    width: 100% !important;
+    max-width: none !important;
+
+    /* Reference PNG = 2048 × 1041 */
+    aspect-ratio: 2048 / 1041 !important;
+    height: auto !important;
+
+    margin: 0 !important;
+    box-sizing: border-box !important;
+
+    border-radius: 32px !important;
+    overflow: hidden !important;
+    background: #dfe6e9 !important;
+  }
+
+  .bfsi-finance-photo {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 102% !important;
+    height: 102% !important;
+
+    object-fit: cover !important;
+    object-position: center center !important;
+
+    transform: none !important;
+    max-width: none !important;
+    padding-left: 356px !important;
+  }
+}
+
+/* Tablet — keep the same proportion, reduce only the outer safe gap */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-finance-banner {
+    width: 100% !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .bfsi-finance-panel {
+    width: 100% !important;
+    max-width: none !important;
+    aspect-ratio: 2048 / 1041 !important;
+    height: auto !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .bfsi-finance-photo {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+  }
+}
+
+/* Mobile — let the finance banner grow to contain its badge and text. */
+@media (max-width: 768px) {
+  .bfsi-finance-banner {
+    width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .bfsi-finance-panel {
+    width: 100% !important;
+    max-width: 100% !important;
+    aspect-ratio: auto !important;
+    display: block !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .bfsi-finance-content {
+    box-sizing: border-box;
+  }
+
+  .bfsi-finance-photo {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+  }
+}
+
+
+/* =========================================================
+   BFSI MOBILE FIX ONLY
+   1) All challenge cards same shape/size
+   2) Remove overlapping stat image on mobile
+   ========================================================= */
+@media (max-width: 768px) {
+  /* ---------- Challenge cards: identical mobile shape ---------- */
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 24px !important;
+  }
+
+  .bfsi-challenge-card,
+  .bfsi-challenges-row-3 .bfsi-challenge-card:last-child {
+    width: 100% !important;
+    max-width: 320px !important;
+    flex: 0 0 auto !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .bfsi-challenge-top {
+    width: 100% !important;
+    min-height: 208px !important;
+    box-sizing: border-box !important;
+    padding: 28px 20px !important;
+    border-radius: 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    background: #dfe6e9 !important;
+    box-shadow:
+      -4px -4px 8px #ffffff,
+      4px 4px 8px #c4c4c4 !important;
+  }
+
+  .bfsi-challenge-top.open {
+    border-radius: 24px 24px 0 0 !important;
+  }
+
+  .bfsi-challenge-title {
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  .bfsi-challenge-chevron {
+    margin-top: 2px !important;
+  }
+
+  .bfsi-challenge-panel {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* ---------- Future-Ready BFSI Training: remove image overlap ---------- */
+  .bfsi-stat-banner {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .bfsi-stat-panel {
+    min-height: 320px !important;
+    height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #dfe6e9 !important;
+    border-radius: 32px !important;
+    overflow: hidden !important;
+  }
+
+  .bfsi-stat-photo {
+    display: none !important;
+  }
+
+  .bfsi-stat-shadow-overlay {
+    display: block !important;
+    border-radius: 32px !important;
+  }
+
+  .bfsi-stat-content {
+    position: relative !important;
+    inset: auto !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 32px 24px !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    gap: 18px !important;
+    background: transparent !important;
+  }
+
+  .bfsi-stat-badge {
+    margin: 0 !important;
+  }
+
+  .bfsi-stat-heading,
+  .bfsi-stat-subtext {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+}
+
+
+/* =========================================================
+   BFSI MOBILE CHALLENGE CARD OVERLAP FIX ONLY
+   Prevent the hidden accordion panel from pulling cards upward.
+   ========================================================= */
+@media (max-width: 768px) {
+  .bfsi-challenge-panel {
+    margin-top: 0 !important;
+  }
+
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    gap: 32px !important;
+  }
+
+  .bfsi-challenge-card {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* ===== Hero CTA pressed/click state =====
+   Keep the normal button shadows unchanged.
+   While either button is being clicked/tapped, switch to inset shadows.
+*/
+.bfsi-btn-secondary:active,
+.bfsi-btn-primary:active {
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4 !important;
+  transform: translateY(1px);
+}
+
+/* ==========================================================================
+   FINAL REFERENCE STANDARD
+   Typography + section-to-section spacing only
+   Reference:
+   - Font family: "Segoe UI", "Inter"
+   - Desktop main headings: 36px
+   - Desktop body / descriptive text: 24px
+   - Desktop badges / pills / CTA labels: 24px
+   - Desktop card headings: 24px
+   - Desktop supporting card text: 20px
+   - Major desktop section spacing: 96px
+   No unrelated colors, shadows, dimensions, images, interactions or layouts
+   are changed here.
+   ========================================================================== */
+
+
+/* ==========================================================================
+   DESKTOP / LARGE LAPTOP — 1025px+
+   ========================================================================== */
+@media (min-width: 1025px) {
+
+  /* ---------- Typography family ---------- */
+  .bfsi-breadcrumb-link,
+  .bfsi-breadcrumb-current,
+  .bfsi-hero-badge span,
+  .bfsi-hero-heading,
+  .bfsi-hero-subtext,
+  .bfsi-btn-secondary,
+  .bfsi-btn-primary,
+  .bfsi-banner-badge span,
+  .bfsi-banner-heading,
+  .bfsi-banner-subtext,
+  .bfsi-secure-title,
+  .bfsi-secure-desc,
+  .bfsi-card-title,
+  .bfsi-card-desc,
+  .bfsi-challenges-badge span,
+  .bfsi-challenges-heading,
+  .bfsi-challenges-subtext,
+  .bfsi-challenge-title,
+  .bfsi-challenge-desc,
+  .bfsi-stat-badge-text,
+  .bfsi-stat-badge-tm,
+  .bfsi-stat-heading,
+  .bfsi-stat-subtext,
+  .bfsi-benefits-badge span,
+  .bfsi-benefits-heading,
+  .bfsi-benefits-subtext,
+  .bfsi-benefit-text,
+  .bfsi-finance-badge span,
+  .bfsi-finance-heading,
+  .bfsi-finance-subtext,
+  .bfsi-cta-badge span,
+  .bfsi-cta-heading,
+  .bfsi-cta-subtext {
+    font-family: "Segoe UI", "Inter" !important;
+  }
+
+  /* ---------- Breadcrumb ---------- */
+  .bfsi-breadcrumb-link,
+  .bfsi-breadcrumb-current {
+    font-size: 16px !important;
+  }
+
+  /* ---------- Main section headings ---------- */
+  .bfsi-hero-heading,
+  .bfsi-banner-heading,
+  .bfsi-challenges-heading,
+  .bfsi-stat-heading,
+  .bfsi-benefits-heading,
+  .bfsi-finance-heading,
+  .bfsi-cta-heading {
+    font-size: 36px !important;
+  }
+
+  /* ---------- Main descriptive text ---------- */
+  .bfsi-hero-subtext,
+  .bfsi-banner-subtext,
+  .bfsi-challenges-subtext,
+  .bfsi-stat-subtext,
+  .bfsi-benefits-subtext,
+  .bfsi-finance-subtext,
+  .bfsi-cta-subtext {
+    font-size: 24px !important;
+  }
+
+  /* ---------- Badges / pills ---------- */
+  .bfsi-hero-badge span,
+  .bfsi-banner-badge span,
+  .bfsi-challenges-badge span,
+  .bfsi-stat-badge-text,
+  .bfsi-benefits-badge span,
+  .bfsi-finance-badge span,
+  .bfsi-cta-badge span {
+    font-size: 24px !important;
+  }
+
+  /* TM remains intentionally small. */
+  .bfsi-stat-badge-tm {
+    font-size: 12px !important;
+  }
+
+  /* ---------- Buttons ---------- */
+  .bfsi-btn-secondary,
+  .bfsi-btn-primary {
+    font-size: 24px !important;
+  }
+
+  /* ---------- Card titles ---------- */
+  .bfsi-secure-title,
+  .bfsi-card-title,
+  .bfsi-challenge-title {
+    font-size: 24px !important;
+  }
+
+  /* ---------- Card/supporting descriptions ---------- */
+  .bfsi-secure-desc,
+  .bfsi-card-desc,
+  .bfsi-challenge-desc,
+  .bfsi-benefit-text {
+    font-size: 20px !important;
+  }
+
+
+  /* ------------------------------------------------------------------------
+     UNIFORM SECTION-TO-SECTION SPACING
+     One section supplies the vertical gap below itself.
+     This avoids double-spacing from bottom + next-section top padding.
+     ------------------------------------------------------------------------ */
+
+  .bfsi-hero {
+    padding-bottom: 96px !important;
+  }
+
+  .bfsi-banner {
+    padding-top: 0 !important;
+    padding-bottom: 96px !important;
+  }
+
+  .bfsi-cards,
+  .bfsi-challenges,
+  .bfsi-stat-banner,
+  .bfsi-benefits,
+  .bfsi-finance-banner,
+  .bfsi-cta {
+    padding-top: 0 !important;
+    padding-bottom: 96px !important;
+  }
+
+  /* Keep the existing desktop horizontal rails. */
+  .bfsi-banner,
+  .bfsi-cards,
+  .bfsi-challenges,
+  .bfsi-stat-banner,
+  .bfsi-benefits,
+  .bfsi-finance-banner,
+  .bfsi-cta {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* ==========================================================================
+   TABLET — 769px to 1024px
+   Same family and hierarchy, proportionally reduced for fit.
+   Uniform section gap = 72px.
+   ========================================================================== */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .bfsi-breadcrumb-link,
+  .bfsi-breadcrumb-current,
+  .bfsi-hero-badge span,
+  .bfsi-hero-heading,
+  .bfsi-hero-subtext,
+  .bfsi-btn-secondary,
+  .bfsi-btn-primary,
+  .bfsi-banner-badge span,
+  .bfsi-banner-heading,
+  .bfsi-banner-subtext,
+  .bfsi-secure-title,
+  .bfsi-secure-desc,
+  .bfsi-card-title,
+  .bfsi-card-desc,
+  .bfsi-challenges-badge span,
+  .bfsi-challenges-heading,
+  .bfsi-challenges-subtext,
+  .bfsi-challenge-title,
+  .bfsi-challenge-desc,
+  .bfsi-stat-badge-text,
+  .bfsi-stat-badge-tm,
+  .bfsi-stat-heading,
+  .bfsi-stat-subtext,
+  .bfsi-benefits-badge span,
+  .bfsi-benefits-heading,
+  .bfsi-benefits-subtext,
+  .bfsi-benefit-text,
+  .bfsi-finance-badge span,
+  .bfsi-finance-heading,
+  .bfsi-finance-subtext,
+  .bfsi-cta-badge span,
+  .bfsi-cta-heading,
+  .bfsi-cta-subtext {
+    font-family: "Segoe UI", "Inter" !important;
+  }
+
+  .bfsi-hero-heading,
+  .bfsi-banner-heading,
+  .bfsi-challenges-heading,
+  .bfsi-stat-heading,
+  .bfsi-benefits-heading,
+  .bfsi-finance-heading,
+  .bfsi-cta-heading {
+    font-size: 32px !important;
+  }
+
+  .bfsi-hero-subtext,
+  .bfsi-banner-subtext,
+  .bfsi-challenges-subtext,
+  .bfsi-stat-subtext,
+  .bfsi-benefits-subtext,
+  .bfsi-finance-subtext,
+  .bfsi-cta-subtext {
+    font-size: 20px !important;
+  }
+
+  .bfsi-hero-badge span,
+  .bfsi-banner-badge span,
+  .bfsi-challenges-badge span,
+  .bfsi-stat-badge-text,
+  .bfsi-benefits-badge span,
+  .bfsi-finance-badge span,
+  .bfsi-cta-badge span,
+  .bfsi-btn-secondary,
+  .bfsi-btn-primary,
+  .bfsi-secure-title,
+  .bfsi-card-title,
+  .bfsi-challenge-title {
+    font-size: 20px !important;
+  }
+
+  .bfsi-secure-desc,
+  .bfsi-card-desc,
+  .bfsi-challenge-desc,
+  .bfsi-benefit-text {
+    font-size: 16px !important;
+  }
+
+  .bfsi-stat-badge-tm {
+    font-size: 11px !important;
+  }
+
+  .bfsi-hero {
+    padding-bottom: 72px !important;
+  }
+
+  .bfsi-banner,
+  .bfsi-cards,
+  .bfsi-challenges,
+  .bfsi-stat-banner,
+  .bfsi-benefits,
+  .bfsi-finance-banner,
+  .bfsi-cta {
+    padding-top: 0 !important;
+    padding-bottom: 72px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* ==========================================================================
+   MOBILE — up to 768px
+   Keeps the existing mobile hierarchy and uses the reference family.
+   Uniform section gap = 48px.
+   ========================================================================== */
+@media (max-width: 768px) {
+
+  .bfsi-breadcrumb-link,
+  .bfsi-breadcrumb-current,
+  .bfsi-hero-badge span,
+  .bfsi-hero-heading,
+  .bfsi-hero-subtext,
+  .bfsi-btn-secondary,
+  .bfsi-btn-primary,
+  .bfsi-banner-badge span,
+  .bfsi-banner-heading,
+  .bfsi-banner-subtext,
+  .bfsi-secure-title,
+  .bfsi-secure-desc,
+  .bfsi-card-title,
+  .bfsi-card-desc,
+  .bfsi-challenges-badge span,
+  .bfsi-challenges-heading,
+  .bfsi-challenges-subtext,
+  .bfsi-challenge-title,
+  .bfsi-challenge-desc,
+  .bfsi-stat-badge-text,
+  .bfsi-stat-badge-tm,
+  .bfsi-stat-heading,
+  .bfsi-stat-subtext,
+  .bfsi-benefits-badge span,
+  .bfsi-benefits-heading,
+  .bfsi-benefits-subtext,
+  .bfsi-benefit-text,
+  .bfsi-finance-badge span,
+  .bfsi-finance-heading,
+  .bfsi-finance-subtext,
+  .bfsi-cta-badge span,
+  .bfsi-cta-heading,
+  .bfsi-cta-subtext {
+    font-family: "Segoe UI", "Inter" !important;
+  }
+
+  /* Main mobile headings */
+  .bfsi-banner-heading,
+  .bfsi-challenges-heading,
+  .bfsi-stat-heading,
+  .bfsi-benefits-heading,
+  .bfsi-finance-heading,
+  .bfsi-cta-heading {
+    font-size: 24px !important;
+  }
+
+  /* Hero keeps a slightly stronger first-page hierarchy. */
+  .bfsi-hero-heading {
+    font-size: 28px !important;
+  }
+
+  /* Mobile body text */
+  .bfsi-hero-subtext,
+  .bfsi-banner-subtext,
+  .bfsi-challenges-subtext,
+  .bfsi-stat-subtext,
+  .bfsi-benefits-subtext,
+  .bfsi-finance-subtext,
+  .bfsi-cta-subtext {
+    font-size: 16px !important;
+  }
+
+  /* Mobile badges / pills / buttons */
+  .bfsi-hero-badge span,
+  .bfsi-banner-badge span,
+  .bfsi-challenges-badge span,
+  .bfsi-stat-badge-text,
+  .bfsi-benefits-badge span,
+  .bfsi-finance-badge span,
+  .bfsi-cta-badge span,
+  .bfsi-btn-secondary,
+  .bfsi-btn-primary {
+    font-size: 16px !important;
+  }
+
+  /* Mobile cards */
+  .bfsi-secure-title,
+  .bfsi-card-title,
+  .bfsi-challenge-title {
+    font-size: 18px !important;
+  }
+
+  .bfsi-secure-desc,
+  .bfsi-card-desc,
+  .bfsi-challenge-desc {
+    font-size: 14px !important;
+  }
+
+  .bfsi-benefit-text {
+    font-size: 16px !important;
+  }
+
+  .bfsi-stat-badge-tm {
+    font-size: 10px !important;
+  }
+
+
+  /* ---------- Uniform mobile section spacing ---------- */
+  .bfsi-hero {
+    padding-bottom: 48px !important;
+  }
+
+  .bfsi-banner,
+  .bfsi-cards,
+  .bfsi-challenges,
+  .bfsi-stat-banner,
+  .bfsi-benefits,
+  .bfsi-finance-banner,
+  .bfsi-cta {
+    padding-top: 0 !important;
+    padding-bottom: 48px !important;
+    box-sizing: border-box !important;
+  }
+
+  .bfsi-banner,
+  .bfsi-cards,
+  .bfsi-challenges,
+  .bfsi-stat-banner,
+  .bfsi-benefits,
+  .bfsi-cta {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Finance panel keeps the existing slightly tighter mobile image rail. */
+  .bfsi-finance-banner {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+
+/* Very narrow phones keep the same typography/spacing hierarchy. */
+@media (max-width: 480px) {
+  .bfsi-banner,
+  .bfsi-cards,
+  .bfsi-challenges,
+  .bfsi-stat-banner,
+  .bfsi-benefits,
+  .bfsi-cta {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .bfsi-finance-banner {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL BFSI HERO UPDATE
+   Scope: hero spacing + the two hero CTA buttons only.
+   All other typography, section spacing, layouts, cards, images, shadows and
+   responsive rules remain unchanged.
+   ========================================================================== */
+
+/* 1) Reduce the empty space between the breadcrumb and the BFSI badge.
+   Because the hero remains in normal document flow, the content below moves
+   upward naturally and no new gap is created after the hero. */
+@media (min-width: 1025px) {
+  .bfsi-hero-content {
+    margin-top: 32px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-hero-content {
+    margin-top: 28px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .bfsi-hero-content {
+    margin-top: 24px !important;
+  }
+}
+
+
+/* 2) Match the University-page CTA treatment.
+   Book a Demo:
+   - default blue text
+   - default inset/pressed neumorphic state
+   - raised shadow on hover
+   - inset again while active */
+.bfsi-btn-secondary {
+  color: #2d4cc8 !important;
+  background: #dfe6e9 !important;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4 !important;
+  transition:
+    box-shadow 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease !important;
+  white-space: nowrap;
+}
+
+.bfsi-btn-secondary:hover {
+  color: #2d4cc8 !important;
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c4c4c4 !important;
+  transform: none !important;
+}
+
+.bfsi-btn-secondary:active {
+  color: #2d4cc8 !important;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4 !important;
+  transform: none !important;
+}
+
+
+/* Start Learning:
+   - default dark/black text
+   - same inset -> raised hover interaction as Book a Demo */
+.bfsi-btn-primary {
+  color: #31344b !important;
+  background: #dfe6e9 !important;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4 !important;
+  transition:
+    box-shadow 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease !important;
+  white-space: nowrap;
+}
+
+.bfsi-btn-primary span {
+  color: #31344b !important;
+  white-space: nowrap;
+}
+
+.bfsi-btn-primary:hover {
+  color: #31344b !important;
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c4c4c4 !important;
+  transform: none !important;
+}
+
+.bfsi-btn-primary:hover span {
+  color: #31344b !important;
+}
+
+.bfsi-btn-primary:active {
+  color: #31344b !important;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4 !important;
+  transform: none !important;
+}
+
+/* Preserve the existing keyboard-accessibility focus treatment. */
+.bfsi-btn-secondary:focus-visible,
+.bfsi-btn-primary:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 3px;
+}
+
+/* ==========================================================================
+   FINAL BFSI BANNER TYPOGRAPHY + TEXT ALIGNMENT FIX
+   Scope: "Built for Banking! Financial Services & Insurance" section only.
+   Keeps the existing reference font sizes and all unrelated sections intact.
+   ========================================================================== */
+
+/* Desktop / laptop */
+@media (min-width: 1025px) {
+  .bfsi-banner-text {
+    width: 100% !important;
+    max-width: 651px !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+
+  .bfsi-banner-heading {
+    width: 100% !important;
+    max-width: 651px !important;
+    margin: 0 !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    line-height: 1.35 !important;
+
+    letter-spacing: 0 !important;
+    word-spacing: normal !important;
+    text-align: left !important;
+    text-wrap: balance;
+
+    color: #31344b !important;
+  }
+
+  .bfsi-banner-subtext {
+    width: 100% !important;
+    max-width: 620px !important;
+    margin: 0 !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    line-height: 1.5 !important;
+
+    letter-spacing: 0 !important;
+    word-spacing: normal !important;
+    text-align: left !important;
+
+    color: #2f3547 !important;
+  }
+}
+
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-banner-text {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .bfsi-banner-heading {
+    width: 100% !important;
+    max-width: 720px !important;
+    margin: 0 auto !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    line-height: 1.35 !important;
+
+    letter-spacing: 0 !important;
+    word-spacing: normal !important;
+    text-align: center !important;
+    text-wrap: balance;
+  }
+
+  .bfsi-banner-subtext {
+    width: 100% !important;
+    max-width: 700px !important;
+    margin: 0 auto !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    line-height: 1.5 !important;
+
+    letter-spacing: 0 !important;
+    word-spacing: normal !important;
+    text-align: center !important;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .bfsi-banner-text {
+    width: 100% !important;
+    max-width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .bfsi-banner-heading {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    line-height: 1.35 !important;
+
+    letter-spacing: 0 !important;
+    word-spacing: normal !important;
+    text-align: center !important;
+    text-wrap: balance;
+  }
+
+  .bfsi-banner-subtext {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    line-height: 1.5 !important;
+
+    letter-spacing: 0 !important;
+    word-spacing: normal !important;
+    text-align: center !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL BFSI SECURE CARD HEIGHT UPDATE
+   Scope: Secure Learning Delivery card only.
+   Reduces the card height slightly while keeping all text, icon, border,
+   typography, shadows, hover effects, and other sections unchanged.
+   ========================================================================== */
+
+@media (min-width: 769px) {
+  .bfsi-secure-card {
+    min-height: 190px !important;
+    padding: 24px 28px !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL SCOPED FIXES
+   IMPORTANT:
+   These rules modify ONLY the sections requested:
+   - Regulated Learning / Secure Learning card
+   - 3-card feature strip and its immediate section gaps
+   - Challenges & Solutions section
+   - Future-Ready Finance Learning panel
+
+   No global section-spacing selector is used here, so other sections retain
+   their existing spacing, typography, dimensions, shadows and layouts.
+   ========================================================================== */
+
+
+/* ==========================================================================
+   1) SECURE LEARNING DELIVERY — REDUCE CARD HEIGHT A LITTLE
+   ========================================================================== */
+
+@media (min-width: 1025px) {
+  .bfsi-secure-card {
+    min-height: 180px !important;
+    padding: 18px 24px !important;
+    gap: 10px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-secure-card {
+    min-height: 180px !important;
+    padding: 18px 24px !important;
+    gap: 10px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* ==========================================================================
+   2) FEATURE STRIP — REDUCE ONLY THE EMPTY SPACE BEFORE/AFTER THESE 3 CARDS
+   ========================================================================== */
+
+@media (min-width: 1025px) {
+  .bfsi-banner {
+    padding-bottom: 56px !important;
+  }
+
+  .bfsi-cards {
+    padding-top: 0 !important;
+    padding-bottom: 56px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-banner {
+    padding-bottom: 44px !important;
+  }
+
+  .bfsi-cards {
+    padding-top: 0 !important;
+    padding-bottom: 44px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .bfsi-banner {
+    padding-bottom: 32px !important;
+  }
+
+  .bfsi-cards {
+    padding-top: 0 !important;
+    padding-bottom: 32px !important;
+  }
+}
+
+
+/* ==========================================================================
+   3) CHALLENGES & SOLUTIONS — REDUCE INTERNAL EMPTY SPACE + CARD HEIGHTS
+   ========================================================================== */
+
+@media (min-width: 1025px) {
+  .bfsi-challenges {
+    gap: 30px !important;
+  }
+
+  .bfsi-challenges-header {
+    gap: 18px !important;
+  }
+
+  .bfsi-challenges-row {
+    gap: 28px !important;
+  }
+
+  .bfsi-challenge-top {
+    min-height: 172px !important;
+    padding: 18px 18px !important;
+    gap: 10px !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-challenges {
+    gap: 26px !important;
+  }
+
+  .bfsi-challenges-header {
+    gap: 16px !important;
+  }
+
+  .bfsi-challenges-row {
+    row-gap: 24px !important;
+    column-gap: 16px !important;
+  }
+
+  .bfsi-challenge-top {
+    min-height: 172px !important;
+    padding: 18px 16px !important;
+    gap: 10px !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .bfsi-challenges {
+    gap: 22px !important;
+  }
+
+  .bfsi-challenges-header {
+    gap: 14px !important;
+  }
+
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    gap: 16px !important;
+  }
+
+  .bfsi-challenge-top {
+    min-height: 174px !important;
+    padding: 20px 18px !important;
+    gap: 12px !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* ==========================================================================
+   4) FUTURE-READY FINANCE LEARNING
+   Reduce panel height and keep the image in a dedicated right-side area so
+   it cannot overlap the text.
+   ========================================================================== */
+
+@media (min-width: 1025px) {
+  .bfsi-stat-panel {
+    height: 500px !important;
+  }
+
+  .bfsi-stat-content {
+    left: 64px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 32% !important;
+    max-width: 400px !important;
+    gap: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .bfsi-stat-heading,
+  .bfsi-stat-subtext {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .bfsi-stat-photo {
+    display: block !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    width: 60% !important;
+    height: 100% !important;
+    max-width: none !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+    transform: none !important;
+    transform-origin: center center !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-stat-panel {
+    height: 400px !important;
+  }
+
+  .bfsi-stat-content {
+    left: 32px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 40% !important;
+    max-width: 360px !important;
+    gap: 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  .bfsi-stat-heading,
+  .bfsi-stat-subtext {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .bfsi-stat-photo {
+    display: block !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    width: 54% !important;
+    height: 100% !important;
+    max-width: none !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+    transform: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .bfsi-stat-panel {
+    height: auto !important;
+    min-height: 280px !important;
+  }
+
+  .bfsi-stat-photo {
+    display: none !important;
+  }
+
+  .bfsi-stat-content {
+    position: relative !important;
+    inset: auto !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 24px 20px !important;
+    gap: 14px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL RESPONSIVE ALIGNMENT FIX — CHALLENGES & SOLUTIONS ONLY
+   This patch changes only the five challenge cards when the viewport becomes
+   smaller. No other BFSI section is affected.
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   TABLET / SMALL LAPTOP: 769px–1024px
+   - clean 2-column layout
+   - equal card widths
+   - equal horizontal + vertical spacing
+   - if a row contains 3 cards, the last one is centered underneath
+   -------------------------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .bfsi-challenges {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    align-items: stretch !important;
+    justify-content: center !important;
+
+    column-gap: 24px !important;
+    row-gap: 24px !important;
+
+    overflow: visible !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Keep a proper gap between separate challenge-row groups. */
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    margin-top: 24px !important;
+  }
+
+  .bfsi-challenge-card,
+  .bfsi-challenges-row-3 .bfsi-challenge-card:last-child {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    flex: none !important;
+    box-sizing: border-box !important;
+  }
+
+  /* When a row contains an odd third card, center it with the same width
+     as either card in the two-column row above. */
+  .bfsi-challenges-row > .bfsi-challenge-card:nth-child(3):last-child,
+  .bfsi-challenges-row-2 > .bfsi-challenge-card:nth-child(3):last-child,
+  .bfsi-challenges-row-3 > .bfsi-challenge-card:nth-child(3):last-child {
+    grid-column: 1 / -1 !important;
+    width: calc((100% - 24px) / 2) !important;
+    justify-self: center !important;
+  }
+
+  .bfsi-challenge-top {
+    width: 100% !important;
+    min-height: 172px !important;
+    padding: 18px 16px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 10px !important;
+    box-sizing: border-box !important;
+  }
+
+  .bfsi-challenge-panel {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   MOBILE: <= 768px
+   One centered card per row with consistent spacing.
+   This prevents the 2 + 1 + 2 staggered appearance on narrow screens.
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+
+  .bfsi-challenges {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    align-items: stretch !important;
+    justify-items: center !important;
+
+    row-gap: 20px !important;
+    column-gap: 0 !important;
+
+    overflow: visible !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Uniform spacing between separate DOM row groups. */
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    margin-top: 20px !important;
+  }
+
+  .bfsi-challenge-card,
+  .bfsi-challenges-row-3 .bfsi-challenge-card:last-child,
+  .bfsi-challenges-row > .bfsi-challenge-card:nth-child(3):last-child,
+  .bfsi-challenges-row-2 > .bfsi-challenge-card:nth-child(3):last-child,
+  .bfsi-challenges-row-3 > .bfsi-challenge-card:nth-child(3):last-child {
+    grid-column: auto !important;
+
+    width: 100% !important;
+    max-width: 360px !important;
+    min-width: 0 !important;
+
+    margin: 0 auto !important;
+    flex: none !important;
+    justify-self: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .bfsi-challenge-top {
+    width: 100% !important;
+    min-height: 174px !important;
+
+    padding: 20px 18px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 12px !important;
+    box-sizing: border-box !important;
+  }
+
+  .bfsi-challenge-panel {
+    width: 100% !important;
+    margin-top: 0 !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* Very small phones: retain a safe gutter so the card shadows are not clipped. */
+@media (max-width: 420px) {
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  .bfsi-challenge-card,
+  .bfsi-challenges-row-3 .bfsi-challenge-card:last-child {
+    max-width: 100% !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL CHALLENGE CARD ROW-SPACING UPDATE
+   Scope: Challenges & Solutions responsive cards only.
+   Adds a little more vertical space between the first row and the next row(s)
+   without changing any other page section.
+   ========================================================================== */
+
+/* Tablet / small laptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    row-gap: 30px !important;
+  }
+
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    margin-top: 30px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    row-gap: 24px !important;
+  }
+
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    margin-top: 24px !important;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 420px) {
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    row-gap: 22px !important;
+  }
+
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    margin-top: 22px !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL — A LITTLE MORE SPACE BETWEEN CHALLENGE CARD ROWS
+   Scope: Challenges & Solutions cards only.
+   This increases only the vertical separation between the first card row
+   and the following card row(s). No other section is changed.
+   ========================================================================== */
+
+/* Desktop / laptop */
+@media (min-width: 1025px) {
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    margin-top: 16px !important;
+  }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    row-gap: 32px !important;
+  }
+
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    margin-top: 34px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    row-gap: 28px !important;
+  }
+
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    margin-top: 28px !important;
+  }
+}
+
+
+
+/* Reference badges/buttons, selectable text and no text shadows.
+   Existing section layout, card styles and responsive spacing are preserved. */
+:is([class^="bfsi-"], [class*=" bfsi-"]),
+:is([class^="bfsi-"], [class*=" bfsi-"]) * {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  user-select: text !important;
+  text-shadow: none !important;
+}
+:is([class^="bfsi-"], [class*=" bfsi-"])::before,
+:is([class^="bfsi-"], [class*=" bfsi-"])::after,
+:is([class^="bfsi-"], [class*=" bfsi-"]) *::before,
+:is([class^="bfsi-"], [class*=" bfsi-"]) *::after {
+  text-shadow: none !important;
+}
+
+.bfsi-hero-badge.bfsi-hero-badge,
+.bfsi-banner-badge.bfsi-banner-badge,
+.bfsi-challenges-badge.bfsi-challenges-badge,
+.bfsi-stat-badge.bfsi-stat-badge,
+.bfsi-benefits-badge.bfsi-benefits-badge,
+.bfsi-finance-badge.bfsi-finance-badge,
+.bfsi-cta-badge.bfsi-cta-badge {
+  box-sizing: border-box !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 50px !important;
+  max-height: none !important;
+  flex-shrink: 0 !important;
+  padding: 8px 24px !important;
+  border: 0 !important;
+  border-radius: 28px !important;
+  background: #dfe6e9 !important;
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, .8) !important;
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+  letter-spacing: .02em !important;
+  color: #2d4cc8 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+  cursor: default !important;
+}
+
+.bfsi-hero-badge.bfsi-hero-badge span:not(.bfsi-stat-badge-tm),
+.bfsi-banner-badge.bfsi-banner-badge span:not(.bfsi-stat-badge-tm),
+.bfsi-challenges-badge.bfsi-challenges-badge span:not(.bfsi-stat-badge-tm),
+.bfsi-stat-badge.bfsi-stat-badge span:not(.bfsi-stat-badge-tm),
+.bfsi-benefits-badge.bfsi-benefits-badge span:not(.bfsi-stat-badge-tm),
+.bfsi-finance-badge.bfsi-finance-badge span:not(.bfsi-stat-badge-tm),
+.bfsi-cta-badge.bfsi-cta-badge span:not(.bfsi-stat-badge-tm) {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+  white-space: normal !important;
+  text-shadow: none !important;
+}
+
+.bfsi-hero-badge.bfsi-hero-badge:hover,
+.bfsi-banner-badge.bfsi-banner-badge:hover,
+.bfsi-challenges-badge.bfsi-challenges-badge:hover,
+.bfsi-stat-badge.bfsi-stat-badge:hover,
+.bfsi-benefits-badge.bfsi-benefits-badge:hover,
+.bfsi-finance-badge.bfsi-finance-badge:hover,
+.bfsi-cta-badge.bfsi-cta-badge:hover {
+  background: #dfe6e9 !important;
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, .8) !important;
+  color: #2d4cc8 !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+.bfsi-hero-badge.bfsi-hero-badge:active,
+.bfsi-banner-badge.bfsi-banner-badge:active,
+.bfsi-challenges-badge.bfsi-challenges-badge:active,
+.bfsi-stat-badge.bfsi-stat-badge:active,
+.bfsi-benefits-badge.bfsi-benefits-badge:active,
+.bfsi-finance-badge.bfsi-finance-badge:active,
+.bfsi-cta-badge.bfsi-cta-badge:active {
+  background: #dfe6e9 !important;
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, .8) !important;
+  color: #2d4cc8 !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+.bfsi-hero-badge.bfsi-hero-badge:focus-visible,
+.bfsi-banner-badge.bfsi-banner-badge:focus-visible,
+.bfsi-challenges-badge.bfsi-challenges-badge:focus-visible,
+.bfsi-stat-badge.bfsi-stat-badge:focus-visible,
+.bfsi-benefits-badge.bfsi-benefits-badge:focus-visible,
+.bfsi-finance-badge.bfsi-finance-badge:focus-visible,
+.bfsi-cta-badge.bfsi-cta-badge:focus-visible {
+  background: #dfe6e9 !important;
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, .8) !important;
+  color: #2d4cc8 !important;
+  transform: none !important;
+  transition: none !important;
+  animation: none !important;
+}
+
+.bfsi-btn-secondary.bfsi-btn-secondary,
+.bfsi-btn-primary.bfsi-btn-primary {
+  box-sizing: border-box !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: fit-content !important;
+  min-width: min(203px, 100%) !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 60px !important;
+  padding: 14px 32px !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  background: #dfe6e9 !important;
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9 !important;
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 30px !important;
+  letter-spacing: .02em !important;
+  color: #2d4cc8 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transform: none !important;
+  transition: box-shadow .22s ease !important;
+}
+
+.bfsi-btn-secondary.bfsi-btn-secondary span,
+.bfsi-btn-primary.bfsi-btn-primary span {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+  white-space: normal !important;
+}
+
+.bfsi-btn-secondary.bfsi-btn-secondary:hover,
+.bfsi-btn-primary.bfsi-btn-primary:hover {
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, .8) !important;
+  color: #2d4cc8 !important;
+  transform: none !important;
+}
+
+.bfsi-btn-secondary.bfsi-btn-secondary:active,
+.bfsi-btn-primary.bfsi-btn-primary:active {
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, .8) !important;
+  color: #2d4cc8 !important;
+  transform: none !important;
+}
+
+.bfsi-btn-secondary.bfsi-btn-secondary:focus-visible,
+.bfsi-btn-primary.bfsi-btn-primary:focus-visible {
+  outline: 3px solid #2d4cc8 !important;
+  outline-offset: 4px !important;
+  box-shadow: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, .8) !important;
+}
+
+@media (max-width: 768px) {
+.bfsi-hero-badge.bfsi-hero-badge,
+.bfsi-banner-badge.bfsi-banner-badge,
+.bfsi-challenges-badge.bfsi-challenges-badge,
+.bfsi-stat-badge.bfsi-stat-badge,
+.bfsi-benefits-badge.bfsi-benefits-badge,
+.bfsi-finance-badge.bfsi-finance-badge,
+.bfsi-cta-badge.bfsi-cta-badge {
+  min-height: 44px !important;
+  padding: 8px 18px !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.bfsi-btn-secondary.bfsi-btn-secondary,
+.bfsi-btn-primary.bfsi-btn-primary {
+  min-width: min(190px, 100%) !important;
+  min-height: 54px !important;
+  padding: 12px 24px !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+}
+
+}
+
+/* Keep child margins from adding to the 48px section gap. */
+.bfsi-banner.bfsi-banner > :first-child,
+.bfsi-cards.bfsi-cards > :first-child,
+.bfsi-challenges.bfsi-challenges > :first-child,
+.bfsi-stat-banner.bfsi-stat-banner > :first-child,
+.bfsi-benefits.bfsi-benefits > :first-child,
+.bfsi-finance-banner.bfsi-finance-banner > :first-child,
+.bfsi-cta.bfsi-cta > :first-child {
+  margin-top: 0 !important;
+}
+
+.bfsi-hero.bfsi-hero > :last-child,
+.bfsi-banner.bfsi-banner > :last-child,
+.bfsi-cards.bfsi-cards > :last-child,
+.bfsi-challenges.bfsi-challenges > :last-child,
+.bfsi-stat-banner.bfsi-stat-banner > :last-child,
+.bfsi-benefits.bfsi-benefits > :last-child,
+.bfsi-finance-banner.bfsi-finance-banner > :last-child,
+.bfsi-cta.bfsi-cta > :last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Compact the text stacks, retaining the existing horizontal alignment. */
+.bfsi-hero-content.bfsi-hero-content,
+.bfsi-banner-text.bfsi-banner-text,
+.bfsi-challenges-header.bfsi-challenges-header,
+.bfsi-stat-content.bfsi-stat-content,
+.bfsi-benefits-header.bfsi-benefits-header,
+.bfsi-finance-content.bfsi-finance-content,
+.bfsi-cta.bfsi-cta {
+  row-gap: 16px !important;
+}
+
+/* Remove browser paragraph/heading margins that add to the flex gap. */
+.bfsi-hero-heading.bfsi-hero-heading,
+.bfsi-hero-subtext.bfsi-hero-subtext,
+.bfsi-banner-heading.bfsi-banner-heading,
+.bfsi-banner-subtext.bfsi-banner-subtext,
+.bfsi-challenges-heading.bfsi-challenges-heading,
+.bfsi-challenges-subtext.bfsi-challenges-subtext,
+.bfsi-stat-heading.bfsi-stat-heading,
+.bfsi-stat-subtext.bfsi-stat-subtext,
+.bfsi-benefits-heading.bfsi-benefits-heading,
+.bfsi-benefits-subtext.bfsi-benefits-subtext,
+.bfsi-finance-heading.bfsi-finance-heading,
+.bfsi-finance-subtext.bfsi-finance-subtext,
+.bfsi-cta-heading.bfsi-cta-heading,
+.bfsi-cta-subtext.bfsi-cta-subtext {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .bfsi-hero-content.bfsi-hero-content,
+  .bfsi-banner-text.bfsi-banner-text,
+  .bfsi-challenges-header.bfsi-challenges-header,
+  .bfsi-stat-content.bfsi-stat-content,
+  .bfsi-benefits-header.bfsi-benefits-header,
+  .bfsi-finance-content.bfsi-finance-content,
+  .bfsi-cta.bfsi-cta {
+    row-gap: 12px !important;
+  }
+}
+
+/* Hero artwork: retain its proportions when the text stack is compacted.
+   Bottom alignment keeps the curved edge visible as in the supplied reference.
+   The existing background asset and tablet/mobile visibility are preserved. */
+@media (min-width: 1025px) {
+  .bfsi-hero.bfsi-hero .bfsi-hero-bg {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    display: block !important;
+    object-fit: cover !important;
+    object-position: center bottom !important;
+    background-size: cover !important;
+    background-position: center bottom !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+  }
+
+  /* Also supports a background wrapper containing an image or picture. */
+  .bfsi-hero.bfsi-hero .bfsi-hero-bg picture {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .bfsi-hero.bfsi-hero .bfsi-hero-bg img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    object-fit: cover !important;
+    object-position: center bottom !important;
+  }
+}
+
+/* Third section: restore the original raised panel and inset cards. */
+.bfsi-cards .bfsi-cards-wrapper {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  max-width: 1182px;
+  padding: 11px 12px 13px;
+  border-radius: 24px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 8px #ffffff,
+    4px 4px 8px #c6c6c6;
+  box-sizing: border-box;
+  align-items: stretch;
+  overflow: visible;
+}
+
+.bfsi-cards .bfsi-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-width: 0;
+  padding: 32px 20px;
+  border-radius: 16px;
+  border-top: 5px solid transparent;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c4c4c4;
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: default;
+  box-sizing: border-box;
+}
+
+.bfsi-cards .bfsi-card:hover {
+  transform: none;
+  box-shadow:
+    -6px -6px 14px #ffffff,
+    6px 6px 14px #c4c4c4;
+}
+
+.bfsi-cards .bfsi-card-blue:hover {
+  border-top-color: #2d4cc8;
+}
+
+.bfsi-cards .bfsi-card-green:hover {
+  border-top-color: #2a7308;
+}
+
+.bfsi-cards .bfsi-card-orange:hover {
+  border-top-color: #c05512;
+}
+
+.bfsi-cards .bfsi-card-title,
+.bfsi-cards .bfsi-card-desc {
+  margin: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bfsi-cards .bfsi-cards-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .bfsi-cards .bfsi-card {
+    flex: 1 1 220px;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .bfsi-cards .bfsi-cards-wrapper {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .bfsi-cards .bfsi-card {
+    flex: 0 0 auto;
+    width: 100%;
+    min-width: 0;
+    padding: 24px 16px;
+  }
+}
+
+/* The existing page.tsx imports this file as ./bfsi.module.css.
+   Put the spacing between section boxes on their shared parent. */
+.bfsi-page {
+  display: flex;
+  flex-direction: column;
+  gap: 48px !important;
+  margin: 0 !important;
+  padding: 0 0 48px !important;
+  min-width: 0;
+  box-sizing: border-box;
+  background: #dfe6e9;
+}
+
+.bfsi-page > section.bfsi-hero,
+.bfsi-page > section.bfsi-banner,
+.bfsi-page > section.bfsi-cards,
+.bfsi-page > section.bfsi-challenges,
+.bfsi-page > section.bfsi-stat-banner,
+.bfsi-page > section.bfsi-benefits,
+.bfsi-page > section.bfsi-finance-banner,
+.bfsi-page > section.bfsi-cta {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* This is internal space within the curved hero artwork.
+   The next section starts 48px below the artwork's section box. */
+.bfsi-page > section.bfsi-hero {
+  padding-top: 24px !important;
+  padding-bottom: 48px !important;
+}
+
+@media (max-width: 768px) {
+  .bfsi-page > section.bfsi-hero {
+    padding-top: 32px !important;
+    /* The page gap already supplies the full 48px mobile separation. */
+    padding-bottom: 0 !important;
+  }
+}
+
+/* The original SVG filters extend beyond the 70px icon viewports.
+   Both the wrapper and SVG must allow those existing shadows to paint. */
+.bfsi-cards .bfsi-card-icon {
+  overflow: visible;
+}
+
+.bfsi-cards .bfsi-card-icon svg {
+  display: block;
+  overflow: visible;
+}
+
+
+/* =========================================================
+   FINAL — BFSI HERO CONTENT LIFT
+   Only moves the desktop hero content upward so the CTA
+   buttons sit clearly above the curved background edge.
+   No typography, buttons, artwork, or other sections changed.
+   ========================================================= */
+@media (min-width: 1025px) {
+  .bfsi-hero .bfsi-hero-content.bfsi-hero-content {
+    margin-top: 0 !important;
+    transform: translateY(-32px) !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL — BFSI HERO REFERENCE LAYOUT
+   Matches the supplied hero reference ONLY.
+   No typography, button design, colors, or other sections changed.
+   ========================================================= */
+@media (min-width: 1025px) {
+
+  /* Keep the hero/background at the same 1440 × 624 proportion
+     used by the existing SVG artwork so its curved bottom is not
+     compressed around the CTA buttons. */
+  .bfsi-page > section.bfsi-hero {
+    position: relative !important;
+    width: 100% !important;
+    height: clamp(624px, 43.333vw, 800px) !important;
+    min-height: 624px !important;
+    padding: 24px 20px 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  /* Restore the reference spacing of the centered content stack. */
+  .bfsi-hero .bfsi-hero-content.bfsi-hero-content {
+    width: 100% !important;
+    max-width: 1078px !important;
+    margin: 80px auto 0 !important;
+    transform: none !important;
+    gap: 32px !important;
+    row-gap: 32px !important;
+  }
+
+  /* Let the existing SVG occupy the complete reference-sized hero. */
+  .bfsi-hero .bfsi-hero-bg.bfsi-hero-bg {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    z-index: 0 !important;
+  }
+
+  /* Keep the CTA row centered inside the curved artwork. */
+  .bfsi-hero .bfsi-hero-buttons {
+    position: relative !important;
+    z-index: 2 !important;
+    margin: 0 !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL — REQUESTED BFSI SPACING + BENEFIT TEXT ALIGNMENT
+   Only:
+   1) 48px gap between page sections
+   2) Center the two-line Benefit-card text
+   ========================================================= */
+
+.bfsi-page {
+  gap: 48px !important;
+  row-gap: 48px !important;
+}
+
+.bfsi-benefit-text {
+  flex: 1 1 auto !important;
+  text-align: center !important;
+}
+
+/* Keep the same 48px section spacing on tablet and mobile. */
+@media (max-width: 1024px) {
+  .bfsi-page {
+    gap: 48px !important;
+    row-gap: 48px !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL MOBILE ONLY — BENEFIT ICON ALIGNMENT + STAT CENTERING
+   No desktop styles are changed.
+   ========================================================= */
+@media screen and (max-width: 768px) {
+
+  /* Benefit cards:
+     move the green icon inward/right and keep the two-line text
+     visually centered by balancing the icon with an equal spacer. */
+  .bfsi-benefit-card {
+    display: grid !important;
+    grid-template-columns: 32px minmax(0, 1fr) 32px !important;
+    align-items: center !important;
+    column-gap: 12px !important;
+    padding: 20px 24px !important;
+  }
+
+  .bfsi-benefit-icon {
+    grid-column: 1 !important;
+    justify-self: center !important;
+    margin: 0 !important;
+  }
+
+  .bfsi-benefit-text {
+    grid-column: 2 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: center !important;
+    justify-self: center !important;
+  }
+
+  /* Future-Ready BFSI Training card:
+     center the badge, heading and paragraph on mobile. */
+  .bfsi-stat-content {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .bfsi-stat-badge {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .bfsi-stat-heading,
+  .bfsi-stat-subtext {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+
+/* Talk-to-Expert anchor only — no existing BFSI layout rules are changed. */
+.bfsiExpertAnchor {
+  position: absolute;
+  top: 150px;
+  right: 24px;
+  width: 64px;
+  height: 64px;
+  z-index: 12;
+  pointer-events: none;
+}
+
+.bfsiExpertAnchor > :global(button[class*="talk-to-expert-fab"]) {
+  position: absolute !important;
+  inset: 0 !important;
+  margin: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  pointer-events: auto;
+}
+
+.bfsi-stat-expert-btn {
+  width: 220px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  background: #dfe6e9;
+  box-shadow:
+    -8px -8px 16px #ffffff,
+    8px 8px 16px #c6c6c9;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #2d4cc8;
+  cursor: pointer;
+}
+
+.bfsi-stat-expert-btn:hover {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c4c4c4;
+}.bfsi-benefit-break {
+  display: none;
+}
+
+.bfsi-benefit-line2::before {
+  content: " ";
+}
+
+.bfsi-benefit-text {
+  white-space: nowrap;
+}
+
+/* =========================================================
+   FINAL MOBILE FIX — CHALLENGES & SOLUTIONS ARROW
+   Only moves the dropdown arrow upward.
+   No other section/card/layout is changed.
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .bfsi-challenge-chevron {
+    margin-top: -10px !important;
+    transform: translateY(-8px) !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .bfsi-challenge-chevron {
+    margin-top: -12px !important;
+    transform: translateY(-10px) !important;
+  }
+}
+
+/* =========================================================
+   FINAL — CHALLENGE CARD ARROW FIX
+   Closed: ↓
+   Open:   ↑
+   Mobile: arrow positioned slightly higher
+   ========================================================= */
+
+.bfsi-challenge-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.bfsi-challenge-chevron.open {
+  transform: rotate(180deg);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .bfsi-challenge-chevron {
+    margin-top: -10px !important;
+    transform: translateY(-8px) !important;
+  }
+
+  .bfsi-challenge-chevron.open {
+    transform: translateY(-8px) rotate(180deg) !important;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 420px) {
+  .bfsi-challenge-chevron {
+    margin-top: -12px !important;
+    transform: translateY(-10px) !important;
+  }
+
+  .bfsi-challenge-chevron.open {
+    transform: translateY(-10px) rotate(180deg) !important;
+  }
+}
+/* Remove space above breadcrumbs only */
+.bfsi-hero {
+  padding-top: 0;
+}
+
+.bfsi-breadcrumb {
+  padding-top: 0;
+}
+/* Move breadcrumbs slightly upward */
+.bfsi-breadcrumb {
+  transform: translateY(-10px);
+}
+
+.bfsi-stat-badge-tm {
+  position: relative;
+  top: -5px;
+}
+/* Last section – NeuroLXP TM */
+.bfsi-last-badge-tm {
+  position: relative;
+  top: -7px;
+  margin-left: 2px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: baseline;
+  color: #2D4CC8;
+}
+
+/* Last section NeuroLXP label – raise TM only */
+.bfsi-cta-badge .bfsi-last-badge-tm {
+  position: relative;
+  top: -12px;
+  margin-left: 2px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: baseline;
+  color: #2D4CC8;
+}

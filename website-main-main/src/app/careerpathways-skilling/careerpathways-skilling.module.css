@@ -1,0 +1,6611 @@
+/* Career Pathways & Skilling — replace the previous module with this complete file. */
+.careerPathwaysSkilling {
+    margin-top: -80px;
+  	width: 100%;
+  	height: 8011px;
+  	position: relative;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 48px;
+  	color: #31344b;
+  	font-family: "Segoe UI", "Inter";
+}
+
+.frameParent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 720px);
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 80px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	font-family: "Segoe UI", "Inter";
+}
+
+.frameChild {
+  	position: absolute;
+  	top: calc(50% - 22px);
+  	left: 1096px;
+  	width: 132px;
+  	height: 44px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+
+.frameGroup {
+  	position: absolute;
+  	top: 18px;
+  	left: 32px;
+  	width: 1376px;
+  	height: 45px;
+  	flex-shrink: 0;
+}
+
+.logo01SynapseSpark1Parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	gap: 130px;
+}
+
+.logo01SynapseSpark1Icon {
+  	height: 45px;
+  	width: 120px;
+  	position: relative;
+  	object-fit: cover;
+}
+
+.frameContainer {
+  	display: flex;
+  	align-items: center;
+  	gap: 30px;
+}
+
+.homeParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+
+.home {
+  	position: relative;
+  	line-height: 24px;
+  	font-weight: 600;
+}
+
+.arrowDown01Icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+
+.featuresParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #2d4cc8;
+}
+
+.features {
+  	position: relative;
+  	line-height: 24px;
+}
+
+.signInHelpWrapper {
+  	position: absolute;
+  	top: calc(50% - 22.5px);
+  	left: 1244px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 132px;
+  	height: 44px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 32px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	color: #2d4cc8;
+  	font-family: "Segoe UI", "Inter";
+}
+
+.signInHelp {
+  	width: 97px;
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: flex-end;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+
+.frameItem {
+  	position: absolute;
+  	top: 6px;
+  	left: 11px;
+  	width: 1429px;
+  	height: 592.4px;
+  	flex-shrink: 0;
+}
+
+.frameInner {
+  	position: absolute;
+  	top: 76px;
+  	left: 4px;
+  	width: 1436px;
+  	height: 839px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+
+.frameDiv {
+  	position: absolute;
+  	top: 112px;
+  	left: 80px;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #2f3547;
+  	font-family: "Segoe UI", "Inter";
+}
+
+.featuresWrapper {
+  	display: flex;
+  	align-items: center;
+}
+
+.learningEcoSystem {
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 24px;
+}
+
+.arrowRightDoubleGroup {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #243fa8;
+}
+
+.frameParent2 {
+  	position: absolute;
+  	top: 168px;
+  	left: calc(50% - 640px);
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	width: 1280px;
+  	height: 1028px;
+  	overflow: hidden;
+}
+
+.frameWrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 467px);
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 0px 0px 100px 100px;
+  	background-color: #dfe6e9;
+  	width: 934px;
+  	height: 532px;
+  	overflow: hidden;
+}
+
+.frameIcon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 0px 0px 100px 100px;
+  	width: 100%;
+  	height: 532px;
+  	object-fit: cover;
+}
+
+.frameWrapper2 {
+  	position: absolute;
+  	top: 582px;
+  	left: calc(50% - 522px);
+  	width: 1044px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.frameParent3 {
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 54px;
+  	max-width: 100%;
+}
+
+.frameWrapper3 {
+  	align-self: stretch;
+  	height: 287px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.frameWrapper4 {
+  	width: 100%;
+  	height: 205px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	max-width: 100%;
+}
+
+.frameParent4 {
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+  	max-width: 100%;
+  	flex-shrink: 0;
+}
+
+.frameParent5 {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+}
+
+.frameChild2 {
+	width: 393.9px;
+	height: 50.3px;
+	position: relative;
+	border-radius: 28px;
+	background: #dfe6e9;
+	box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px #c4c4c4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	letter-spacing: 0.02em;
+	color: #2d4cc8;
+}
+
+.buildSkillsFollowContainer {
+  	width: 868px;
+  	height: 123px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+		font-size: 48px;
+}
+
+.buildSkillsFollow {
+  	line-height: 60px;
+}
+
+.becomeCareerReady {
+  	color: #2d4cc8;
+  	line-height: 60px;
+}
+
+.neurolxpConnectsLearning {
+  	width: 844px;
+  	height: 64px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.frameParent6 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 32px;
+	text-align: center;
+	font-size: 22px;
+	color: #2d4cc8;
+}
+
+.frameChild3 {
+	height: 60px;
+	width: 200px;
+	position: relative;
+	border-radius: 8px;
+}
+
+.frameWrapper5 {
+	height: 60px;
+	width: 210px;
+	border-radius: 8px;
+}
+
+.startLearningWrapper {
+  	width: 140px;
+  	display: flex;
+  	align-items: center;
+}
+
+.startLearning {
+  	width: 147px;
+  	position: relative;
+  	line-height: 30px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+
+.frameParent7 {
+  	position: absolute;
+  	top: 1292px;
+  	left: 80px;
+  	width: 1280px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 50px;
+}
+
+.frameParent8 {
+  	width: 909px;
+  	height: 228px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 32px;
+}
+
+.frameChild4 {
+  	width: 396.9px;
+  	height: 50.3px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+
+.fromLearningToCareerReadinParent {
+  	align-self: stretch;
+  	height: 146px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 12px;
+}
+
+.fromLearningTo {
+  	align-self: stretch;
+  	height: 65px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 65px;
+  	display: inline-block;
+  	flex-shrink: 0;
+		font-size: 38px;
+}
+
+.turnLearningInto {
+  	width: 1028px;
+  	height: 40px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.frameParent9 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 40px;
+  	font-size: 20px;
+  	color: #000;
+}
+
+.frameParent10 {
+  	height: 250px;
+  	width: 290px;
+  	position: relative;
+}
+
+.frameChild5 {
+  	position: absolute;
+  	top: -0.01px;
+  	left: 0px;
+  	width: 290px;
+  	height: 250px;
+  	flex-shrink: 0;
+}
+
+.frameWrapper6 {
+  	position: absolute;
+  	top: 3px;
+  	left: 0px;
+  	width: 290px;
+  	height: 250px;
+  	flex-shrink: 0;
+}
+
+.rectangleParent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 290px;
+  	height: 250px;
+}
+
+.rectangleDiv {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	border: 1px solid #ff9c9c;
+  	box-sizing: border-box;
+  	width: 290px;
+  	height: 250px;
+}
+
+.buildStrongCoreKnowledgeAnWrapper {
+  	position: absolute;
+  	top: 140px;
+  	left: 43px;
+  	width: 204px;
+  	height: 60px;
+}
+
+.buildStrongCore {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	letter-spacing: 0.03em;
+  	line-height: 30px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 204px;
+}
+
+.learnWrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 0px 0px 32px 32px;
+  	background-color: #ff9c9c;
+  	width: 290px;
+  	height: 102px;
+  	overflow: hidden;
+  	font-size: 28px;
+  	color: #2f3547;
+}
+
+.learn {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: calc(50% - 37px);
+  	line-height: 36px;
+  	display: inline-block;
+  	width: 74px;
+}
+
+.frameChild6 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 87px);
+  	border-radius: 50px;
+  	background-color: #ff9c9c;
+  	width: 174px;
+  	height: 15px;
+  	overflow: hidden;
+}
+
+.frameChild8 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	width: 290px;
+  	height: 250px;
+}
+
+.frameChild9 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 87px);
+  	border-radius: 50px;
+  	background-color: #e5a2c3;
+  	width: 174px;
+  	height: 15px;
+  	overflow: hidden;
+}
+
+.developPracticalJobReady {
+  	position: absolute;
+  	top: calc(50% - 30px);
+  	left: 0px;
+  	letter-spacing: 0.03em;
+  	line-height: 30px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 204px;
+}
+
+.buildSkillsWrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 0px 0px 32px 32px;
+  	background-color: #e5a2c3;
+  	width: 290px;
+  	height: 102px;
+  	overflow: hidden;
+  	font-size: 28px;
+  	color: #31344b;
+}
+
+.buildSkills {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: calc(50% - 75px);
+  	line-height: 36px;
+  	display: inline-block;
+  	width: 151px;
+}
+
+.frameChild12 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 87px);
+  	border-radius: 50px;
+  	background-color: #c6c6c9;
+  	width: 174px;
+  	height: 15px;
+  	overflow: hidden;
+}
+
+.validateSkillsAnd {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 141px);
+  	letter-spacing: 0.03em;
+  	line-height: 30px;
+  	font-weight: 600;
+  	white-space: pre-wrap;
+  	display: inline-block;
+  	width: 281px;
+  	flex-shrink: 0;
+}
+
+.proveCompetencyWrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 0px 0px 32px 32px;
+  	background-color: #c6c6c9;
+  	width: 290px;
+  	height: 102px;
+  	overflow: hidden;
+  	font-size: 28px;
+  	color: #31344b;
+}
+
+.proveCompetency {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: calc(50% - 125px);
+  	line-height: 36px;
+  	display: inline-block;
+  	width: 251px;
+}
+
+.frameChild14 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 0px 0px 24px 24px;
+  	background-color: #dfe6e9;
+  	width: 290px;
+  	height: 250px;
+}
+
+.frameChild15 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 87px);
+  	border-radius: 50px;
+  	background-color: #6cc3c6;
+  	width: 174px;
+  	height: 15px;
+  	overflow: hidden;
+}
+
+.trackProgressToward {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 110px);
+  	letter-spacing: 0.03em;
+  	line-height: 30px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 220px;
+  	flex-shrink: 0;
+}
+
+.careerReadyWrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 0px 0px 32px 32px;
+  	background-color: rgba(108, 195, 198, 0.3);
+  	width: 290px;
+  	height: 102px;
+  	overflow: hidden;
+  	font-size: 28px;
+  	color: #31344b;
+}
+
+.careerReady {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: calc(50% - 91px);
+  	line-height: 36px;
+  	display: inline-block;
+  	width: 182px;
+}
+
+.careerPathwaysSkillingChild {
+  	position: absolute;
+  	top: 2793.99px;
+  	left: 43px;
+  	width: 290px;
+  	height: 250px;
+}
+
+.frameParent14 {
+  	position: absolute;
+  	top: 2442px;
+  	left: 79px;
+  	width: 1281px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 50px;
+}
+
+.frameWrapper10 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.frameParent15 {
+  	width: 1002px;
+  	height: 259px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 32px;
+}
+
+.frameChild16 {
+  	width: 272.9px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+
+.createIndustryAlignedLearni {
+  	width: 1028px;
+  	height: 80px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.frameParent16 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 50px;
+  	font-size: 28px;
+  	color: #bf1869;
+}
+
+.frameParent17 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 36px;
+}
+
+.rectangleParent3 {
+  	height: 306px;
+  	width: 400px;
+  	position: relative;
+}
+
+.frameChild17 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 24px;
+  	background-color: rgba(182, 179, 179, 0.2);
+  	width: 400px;
+  	height: 306px;
+}
+
+.frameChild18 {
+  	position: absolute;
+  	top: 24px;
+  	left: 24px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	width: 352px;
+  	height: 258px;
+}
+
+.coreKnowledgeParent {
+  	position: absolute;
+  	top: 118px;
+  	left: 50px;
+  	width: 300px;
+  	height: auto;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 10px;
+}
+
+.coreKnowledge {
+  	width: 226px;
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 40px;
+  	display: inline-block;
+}
+
+.buildFoundationsThrough {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 22px;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	color: #2f3547;
+  	text-align: center;
+}
+
+.wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 145px;
+  	border-radius: 0px 0px 16px 16px;
+  	background: linear-gradient(180deg, #bf1869, #590b31);
+  	width: 110px;
+  	height: 89px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 50px;
+  	color: #fff;
+}
+
+.b {
+  	position: absolute;
+  	top: 15px;
+  	left: 25px;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+}
+
+.rectangleParent4 {
+  	height: 306px;
+  	width: 400px;
+  	position: relative;
+  	color: #67096e;
+}
+
+.skillDevelopment {
+  	width: 256px;
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 40px;
+  	display: inline-block;
+}
+
+.developTechnicalAnd {
+  	width: 274px;
+  	position: relative;
+  	font-size: 22px;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	color: #2f3547;
+  	text-align: center;
+  	display: inline-block;
+}
+
+.container {
+  	position: absolute;
+  	top: 0px;
+  	left: 145px;
+  	border-radius: 0px 0px 16px 16px;
+  	background: linear-gradient(180deg, #67096e, #c711d4);
+  	width: 110px;
+  	height: 89px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 50px;
+  	color: #fff;
+}
+
+.rectangleParent5 {
+  	height: 306px;
+  	width: 400px;
+  	position: relative;
+  	text-align: center;
+  	color: #2d4cc8;
+}
+
+.practiceAndApply {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 40px;
+}
+
+.applyKnowledgeThrough {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 22px;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	color: #2f3547;
+}
+
+.frame {
+  	position: absolute;
+  	top: 0px;
+  	left: 145px;
+  	border-radius: 0px 0px 16px 16px;
+  	background: linear-gradient(180deg, #2d4cc8, #162562);
+  	width: 110px;
+  	height: 89px;
+  	overflow: hidden;
+  	font-size: 50px;
+  	color: #fff;
+}
+
+.b3 {
+  	position: absolute;
+  	top: calc(50% - 29.5px);
+  	left: 25px;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+}
+
+.frameParent18 {
+  	width: 836px;
+  	display: flex;
+  	align-items: center;
+  	gap: 36px;
+  	text-align: center;
+  	color: #907507;
+}
+
+.assessAndValidate {
+  	width: 286px;
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 40px;
+  	display: inline-block;
+}
+
+.measureSkillsThrough {
+  	width: 249px;
+  	position: relative;
+  	font-size: 22px;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	color: #2f3547;
+  	display: inline-block;
+}
+
+.frameChild25 {
+  	position: absolute;
+  	top: 0px;
+  	left: 145px;
+  	border-radius: 0px 0px 16px 16px;
+  	background: linear-gradient(180deg, #907507, #2a2202);
+  	width: 110px;
+  	height: 89px;
+  	overflow: hidden;
+}
+
+.frameWrapper11 {
+  	position: absolute;
+  	top: 0px;
+  	left: 145px;
+  	border-radius: 0px 0px 16px 16px;
+  	background: linear-gradient(180deg, #907507, #2a2202);
+  	width: 110px;
+  	height: 89px;
+  	overflow: hidden;
+  	font-size: 50px;
+  	color: #fff;
+}
+
+.frameWrapper12 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 0px 0px 16px 16px;
+  	background: linear-gradient(180deg, #907507, #2a2202);
+  	width: 110px;
+  	height: 89px;
+  	overflow: hidden;
+}
+
+.rectangleParent7 {
+  	height: 306px;
+  	width: 400px;
+  	position: relative;
+  	color: #c05512;
+}
+
+.recognizeAchievementsAnd {
+  	width: 288px;
+  	position: relative;
+  	font-size: 22px;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	color: #2f3547;
+  	display: inline-block;
+}
+
+.wrapper3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 145px;
+  	border-radius: 0px 0px 16px 16px;
+  	background: linear-gradient(180deg, #c05512, #5a2808);
+  	width: 110px;
+  	height: 89px;
+  	overflow: hidden;
+  	font-size: 50px;
+  	color: #fff;
+}
+
+.frameParent19 {
+  	position: absolute;
+  	top: 1916px;
+  	left: 80px;
+  	width: 1280px;
+  	display: flex;
+  	align-items: center;
+  	gap: 83px;
+  	text-align: left;
+}
+
+.frameParent20 {
+  	width: 583px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+
+.frameParent21 {
+  	align-self: stretch;
+  	height: 192px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+
+.frameChild28 {
+  	width: 322.8px;
+  	height: 50.3px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+  	flex-shrink: 0;
+}
+
+.personalizedLearningAnd {
+    letter-spacing: .03em;
+    flex-shrink: 0;
+    align-self: stretch;
+    line-height: 50px;
+    position: relative;
+    font-size: 38px;
+}
+
+.guideLearnersThrough {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	color: #2f3547;
+}
+
+.rectangleParent8 {
+  	height: 430px;
+  	width: 613px;
+  	position: relative;
+}
+
+.frameChild29 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 613px;
+  	height: 430px;
+}
+
+.frameParent22 {
+  	position: absolute;
+  	top: 32px;
+  	left: 32px;
+  	width: 549px;
+  	height: 366px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+
+.frameChild30 {
+  	align-self: stretch;
+  	height: 60.4px;
+  	position: relative;
+  	border-radius: 8px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: contain;
+}
+
+.frameParent23 {
+  	position: absolute;
+  	top: 3509px;
+  	left: 80px;
+  	width: 1281px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 50px;
+}
+
+.frameChild35 {
+  	width: 429px;
+  	height: 50.3px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+
+.giveLearnersAnd {
+  	width: 861px;
+  	height: 80px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.learningAnalyticsParent {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 60px;
+  	font-size: 28px;
+  	color: #bf1869;
+}
+
+.learningAnalytics {
+  	height: 388px;
+  	width: 761px;
+  	position: relative;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+
+.learningAnalytics2 {
+  	position: absolute;
+  	top: 24px;
+  	left: 24px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	width: 713px;
+  	height: 340px;
+  	overflow: hidden;
+}
+
+.frameParent25 {
+  	position: absolute;
+  	top: calc(50% - 139px);
+  	left: 48px;
+  	width: 666px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 36px;
+}
+
+.frameWrapper15 {
+  	width: 177px;
+  	height: 71px;
+  	position: relative;
+}
+
+.image21Parent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 89px);
+  	box-shadow: 4px 4px 4px #c4c4c4 inset, -4px -4px 4px #fff inset;
+  	border-radius: 50px;
+  	background-color: #dfe6e9;
+  	width: 177px;
+  	height: 71px;
+  	overflow: hidden;
+  	opacity: 0.8;
+}
+
+.image21 {
+  	position: absolute;
+  	top: -41px;
+  	left: 48px;
+  	width: 1216px;
+  	height: 537px;
+  	flex-shrink: 0;
+}
+
+.track {
+  	position: absolute;
+  	top: 19px;
+  	left: calc(50% - 47.5px);
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	display: inline-block;
+  	width: 95px;
+  	height: 34px;
+  	flex-shrink: 0;
+}
+
+.frameParent26 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 50px;
+}
+
+.frameParent27 {
+  	width: 308px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 40px;
+}
+
+.frameChild36 {
+  	align-self: stretch;
+  	height: 30.5px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: contain;
+}
+
+.frameChild40 {
+  	align-self: stretch;
+  	height: 30.4px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: contain;
+}
+
+.frameParent29 {
+  	width: 459px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+  	font-size: 30px;
+  	color: #2a7308;
+}
+
+.frameParent30 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+
+.ellipseParent {
+  	height: 208px;
+  	width: 208px;
+  	position: relative;
+}
+
+.ellipseDiv {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 50%;
+  	background-color: #dfe6e9;
+  	width: 208px;
+  	height: 208px;
+}
+
+.frameChild42 {
+  	position: absolute;
+  	top: 16px;
+  	left: calc(50% - 89px);
+  	filter: drop-shadow(-4px -4px 4px #fff inset) drop-shadow(4px 4px 4px #c4c4c4 inset);
+  	border-radius: 50%;
+  	border: 26px solid rgba(191, 24, 105, 0.05);
+  	box-sizing: border-box;
+  	width: 176px;
+  	height: 176px;
+}
+
+.frameChild43 {
+  	position: absolute;
+  	top: 36px;
+  	left: 36px;
+  	border-radius: 50%;
+  	background-color: #dfe6e9;
+  	width: 136px;
+  	height: 136px;
+}
+
+.parent {
+  	position: absolute;
+  	top: calc(50% - 45px);
+  	left: calc(50% - 38px);
+  	width: 76px;
+  	height: 91px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 8px;
+}
+
+.b6 {
+  	width: 63px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	display: inline-block;
+}
+
+.technicalSkills {
+  	align-self: stretch;
+  	height: 24px;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: 0.03em;
+  	line-height: 24px;
+  	display: inline-block;
+  	color: #2f3547;
+  	flex-shrink: 0;
+}
+
+.wrapperEllipse395 {
+  	position: absolute;
+  	top: 6px;
+  	left: 6px;
+  	width: 195.5px;
+  	height: 195.5px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.wrapperEllipse395Child {
+  	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+  	position: absolute;
+  	left: 2px;
+  	top: 0px;
+  	transform: scale(1);
+}
+
+.ellipseGroup {
+  	height: 208px;
+  	width: 208px;
+  	position: relative;
+  	color: #67096e;
+}
+
+.frameChild45 {
+  	position: absolute;
+  	top: 16px;
+  	left: calc(50% - 89px);
+  	filter: drop-shadow(-4px -4px 4px #fff inset) drop-shadow(4px 4px 4px #c4c4c4 inset);
+  	border-radius: 50%;
+  	border: 26px solid rgba(103, 9, 110, 0.05);
+  	box-sizing: border-box;
+  	width: 176px;
+  	height: 176px;
+}
+
+.wrapperEllipse394 {
+  	position: absolute;
+  	top: 5.18px;
+  	left: 5.97px;
+  	width: 197px;
+  	height: 197.6px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.group {
+  	position: absolute;
+  	top: calc(50% - 46px);
+  	left: calc(50% - 38px);
+  	width: 76px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 8px;
+}
+
+.b7 {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+}
+
+.practicalSkills {
+  	align-self: stretch;
+  	height: 44px;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: 0.03em;
+  	line-height: 24px;
+  	display: inline-block;
+  	color: #2f3547;
+  	flex-shrink: 0;
+}
+
+.frameChild48 {
+  	position: absolute;
+  	top: 16px;
+  	left: calc(50% - 89px);
+  	filter: drop-shadow(-4px -4px 4px #fff inset) drop-shadow(4px 4px 4px #c4c4c4 inset);
+  	border-radius: 50%;
+  	border: 26px solid rgba(42, 115, 8, 0.05);
+  	box-sizing: border-box;
+  	width: 176px;
+  	height: 176px;
+}
+
+.parent2 {
+  	position: absolute;
+  	top: calc(50% - 48px);
+  	left: calc(50% - 38px);
+  	width: 76px;
+  	height: 96px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 8px;
+}
+
+.b8 {
+  	width: 86px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.careerReadiness {
+  	width: 81px;
+  	height: 24px;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: 0.03em;
+  	line-height: 24px;
+  	display: inline-block;
+  	color: #2f3547;
+  	flex-shrink: 0;
+}
+
+.wrapperEllipse3952 {
+  	position: absolute;
+  	top: 15px;
+  	left: 15px;
+  	width: 177.2px;
+  	height: 177.2px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.wrapperEllipse395Item {
+  	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+  	position: absolute;
+  	left: 1px;
+  	top: 0px;
+  	transform: scale(1);
+}
+
+.careerPathwaysSkillingInner {
+  	position: absolute;
+  	top: 4354px;
+  	left: 80px;
+  	border-radius: 32px;
+  	width: 1281px;
+  	height: 446px;
+  	overflow: hidden;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	text-align: left;
+}
+
+.frameParent31 {
+  	position: absolute;
+  	top: 50px;
+  	left: calc(50% - 589.5px);
+  	width: 1180px;
+  	display: flex;
+  	align-items: center;
+  	gap: 160px;
+}
+
+.frameChild50 {
+  	width: 297.8px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+  	flex-shrink: 0;
+}
+
+.frameParent34 {
+  	width: 429px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 22px;
+  	text-align: center;
+  	font-size: 24px;
+}
+
+.frameParent35 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+}
+
+.frameChild51 {
+  	height: 70.1px;
+  	width: 70.1px;
+  	position: relative;
+}
+
+.relevantCourses {
+  	height: 37px;
+  	width: 307px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frameParent36 {
+  	align-self: stretch;
+  	height: 70px;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+}
+
+.skillsToImprove {
+  	height: 37px;
+  	width: 194px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.careerAlignedLearning {
+  	height: 37px;
+  	width: 282px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frameChild54 {
+  	height: 70.1px;
+  	width: 70.1px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+
+.careerBoostingCertifications {
+  	height: 37px;
+  	width: 349px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frameParent39 {
+  	position: absolute;
+  	top: 4896px;
+  	left: 71px;
+  	width: 1300px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 50px;
+}
+
+.frameChild55 {
+  	width: 278.3px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+
+.learnThrough {
+  	line-height: 65px;
+}
+
+.realWorldPractice {
+  	color: #2d4cc8;
+  	line-height: 65px;
+}
+
+.frameParent41 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 50px;
+  	font-size: 50px;
+  	color: #bf1869;
+}
+
+.frameChild56 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 100px 24px 100px 100px;
+  	width: 400px;
+  	height: 306px;
+}
+
+.frameChild57 {
+  	position: absolute;
+  	top: 24px;
+  	left: 24px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 80px;
+  	background-color: #dfe6e9;
+  	width: 352px;
+  	height: 258px;
+}
+
+.b9 {
+  	position: absolute;
+  	top: 46px;
+  	left: calc(50% - 30px);
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	background: linear-gradient(180deg, #31344b, #bf1869);
+
+  	-webkit-text-fill-color: transparent;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.interactiveActivitiesParent {
+  	position: absolute;
+  	top: 108px;
+  	left: 50px;
+  	width: 300px;
+  	height: auto;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 8px;
+  	text-align: left;
+  	font-size: 28px;
+}
+
+.rectangleParent10 {
+  	height: 306px;
+  	width: 400px;
+  	position: relative;
+  	color: #2d4cc8;
+}
+
+.b10 {
+  	position: absolute;
+  	top: 46px;
+  	left: calc(50% - 30px);
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	background: linear-gradient(180deg, #31344b, #2d4cc8);
+
+  	-webkit-text-fill-color: transparent;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.scenarioLearningParent {
+  	position: absolute;
+  	top: 108px;
+  	left: 50px;
+  	width: 300px;
+  	height: auto;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 8px;
+  	font-size: 28px;
+}
+
+.scenarioLearning {
+  	width: 250px;
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 40px;
+  	display: inline-block;
+}
+
+.rectangleParent11 {
+  	height: 306px;
+  	width: 400px;
+  	position: relative;
+  	color: #046f73;
+}
+
+.b11 {
+  	position: absolute;
+  	top: 46px;
+  	left: calc(50% - 30px);
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	background: linear-gradient(180deg, #31344b, #046f73);
+
+  	-webkit-text-fill-color: transparent;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frameParent43 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 50px;
+  	color: #907507;
+}
+
+.b12 {
+  	position: absolute;
+  	top: 46px;
+  	left: calc(50% - 30px);
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	background: linear-gradient(180deg, #31344b, #907507);
+
+  	-webkit-text-fill-color: transparent;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.b13 {
+  	position: absolute;
+  	top: 46px;
+  	left: calc(50% - 30px);
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	background: linear-gradient(180deg, #31344b, #c05512);
+
+  	-webkit-text-fill-color: transparent;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frameParent44 {
+  	position: absolute;
+  	top: 5963px;
+  	left: calc(50% - 640px);
+  	width: 1280px;
+  	display: flex;
+  	align-items: center;
+  	gap: 151px;
+  	text-align: left;
+}
+
+.frameParent45 {
+  	width: 638px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+
+.frameChild66 {
+  	width: 315px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+
+.measureWhatMatters {
+  	align-self: stretch;
+  	height: auto;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.learningAnalyticsHelp {
+  	align-self: stretch;
+  	height: 88px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.frameParent46 {
+  	width: 429px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 24px;
+}
+
+.frameParent47 {
+  	align-self: stretch;
+  	height: 60px;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+  	text-align: center;
+}
+
+.trackSkillAcquisition {
+  	height: 37px;
+  	width: 249px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.frameParent48 {
+  	align-self: stretch;
+  	height: 60px;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+}
+
+.identifyCompetencyGaps {
+  	height: 37px;
+  	width: 306px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.monitorLearnerProgress {
+  	height: 37px;
+  	width: 293px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.measureAssessmentPerformance {
+  	height: 37px;
+  	width: 399px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.trackCredentials {
+  	height: 37px;
+  	width: 418px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.evaluateCareerReadiness {
+  	height: 37px;
+  	width: 343px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.frameParent53 {
+  	position: absolute;
+  	top: 6499px;
+  	left: 70px;
+  	width: 1300px;
+  	height: 875px;
+}
+
+.frameParent54 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1300px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 50px;
+}
+
+.frameWrapper17 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+
+.alignLearningProgrammes {
+  	width: 861px;
+  	height: 80px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.frameParent56 {
+  	display: flex;
+  	align-items: center;
+  	gap: 50px;
+  	flex-shrink: 0;
+  	font-size: 20px;
+  	color: #2d4cc8;
+}
+
+.frameParent57 {
+  	height: 312px;
+  	width: 365px;
+  	position: relative;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+
+.frameParent58 {
+  	position: absolute;
+  	top: 238.5px;
+  	left: 1px;
+  	width: 363px;
+  	height: 74px;
+  	flex-shrink: 0;
+}
+
+.frameChild74 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 181.5px);
+  	background-color: #fff;
+  	width: 363px;
+  	height: 74px;
+  	overflow: hidden;
+}
+
+.trainingInstitutesWrapper {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: calc(50% - 109.5px);
+  	width: 220px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.trainingInstitutes {
+  	width: 249px;
+  	height: 37px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.seminarEmployees1Icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 365px;
+  	height: 238.5px;
+  	object-fit: cover;
+  	object-position: center top;
+  	flex-shrink: 0;
+}
+
+.frameParent59 {
+  	height: 405px;
+  	width: 473px;
+  	position: relative;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	font-size: 28px;
+  	color: #bf1869;
+}
+
+.universitiesWrapper {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 236.5px);
+  	background-color: #fff;
+  	width: 473px;
+  	height: 90px;
+  	overflow: hidden;
+}
+
+.universities {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: calc(50% - 86.5px);
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	display: inline-block;
+  	width: 173px;
+  	height: 32px;
+}
+
+.frameChild75 {
+  	position: absolute;
+  	top: calc(50% + 54.5px);
+  	left: calc(50% - 108.5px);
+  	width: 220px;
+  	height: 37px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.maleWearingBrownCoatBackpaIcon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 473px;
+  	height: 315px;
+  	object-fit: cover;
+}
+
+.frameParent60 {
+  	height: 312px;
+  	width: 365px;
+  	position: relative;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	color: #67096e;
+}
+
+.frameParent61 {
+  	position: absolute;
+  	top: 238.5px;
+  	left: 1px;
+  	width: 363px;
+  	height: 74px;
+}
+
+.corporateLearningWrapper {
+  	position: absolute;
+  	top: calc(50% - 15.5px);
+  	left: calc(50% - 109.5px);
+  	width: 220px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.corporateLearning {
+  	width: 245px;
+  	height: 32px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.businessTeamWorkingProjectIcon {
+  	position: absolute;
+  	top: 0.5px;
+  	left: 0px;
+  	width: 365px;
+  	height: 243px;
+  	object-fit: cover;
+}
+
+.frameParent62 {
+  	height: 312px;
+  	width: 365px;
+  	position: relative;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	color: #c05512;
+}
+
+.youngBeautifulModernWomanHIcon {
+  	position: absolute;
+  	top: -8.5px;
+  	left: calc(50% - 190.5px);
+  	width: 381px;
+  	height: 254px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+
+.frameParent64 {
+  	position: absolute;
+  	top: 7470px;
+  	left: calc(50% - 522px);
+  	width: 1045px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 36px;
+}
+
+.frameChild79 {
+  	width: 164px;
+  	height: 50.1px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+
+.frameParent65 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 50px;
+}
+
+.frameParent66 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+}
+
+.frameWrapper18 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+
+.turnLearningIntoCareerGrowParent {
+  	align-self: stretch;
+  	height: 157px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 17px;
+}
+
+.turnLearningIntoContainer {
+  	align-self: stretch;
+  	height: 68px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.neurolxpConnectsLearning2 {
+  	width: 858px;
+  	height: 120px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.frameWrapper19 {
+  	width: 796px;
+  	border-radius: 50px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: left;
+  	font-size: 36px;
+}
+
+.frameWrapper20 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+}
+
+.buildSkillsShapeCareersEWrapper {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+}
+
+.buildSkillsShape {
+  	position: relative;
+  	line-height: 48px;
+  	background: linear-gradient(90deg, #bf1869, #2d4cc8);
+
+  	-webkit-text-fill-color: transparent;
+  	white-space: pre-wrap;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frameWrapper21 {
+  	width: 255px;
+  	border-radius: 50px;
+  	display: flex;
+  	align-items: center;
+}
+
+.frameChild80 {
+  	height: 60.2px;
+  	width: 100%;
+  	position: relative;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px rgba(196, 196, 196, 0.8);
+  	border-radius: 50px;
+  	object-fit: contain;
+}
+
+.frameParent67 {
+  	position: absolute;
+  	top: 8011.33px;
+  	left: calc(50% - 720px);
+  	width: 1440px;
+  	height: 501px;
+  	text-align: left;
+  	font-size: 26px;
+  	color: #2f3547;
+}
+
+.frameParent68 {
+  	position: absolute;
+  	bottom: -0.01px;
+  	left: calc(50% - 720px);
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 459px;
+  	overflow: hidden;
+}
+
+.frameParent69 {
+  	position: absolute;
+  	top: 49.81px;
+  	left: 53.96px;
+  	width: 1339.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+}
+
+.frameParent70 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 35px;
+}
+
+.frameParent71 {
+  	width: 676px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 24px;
+  	flex-shrink: 0;
+}
+
+.logo01SynapseSpark1Group {
+  	width: 577px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+
+.logo01SynapseSpark1Icon2 {
+  	width: 299px;
+  	height: 112px;
+  	position: relative;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+
+.frameParent72 {
+  	display: flex;
+  	align-items: center;
+  	gap: 14px;
+  	flex-shrink: 0;
+}
+
+.onePlatformParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+
+.onePlatform {
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 34px;
+  	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sparklesIcon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+
+.prgeeqGlobalSolutionsPrivatParent {
+  	width: 459px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+  	font-size: 16px;
+}
+
+.prgeeqGlobalSolutions {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 24px;
+}
+
+.prestigeAtlanta1012Container {
+  	align-self: stretch;
+  	height: 77px;
+  	position: relative;
+  	line-height: 24px;
+  	display: flex;
+  	align-items: flex-end;
+  	flex-shrink: 0;
+}
+
+.blankLine {
+  	line-height: 24px;
+}
+
+.frameParent73 {
+  	width: 631px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	gap: 24px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #2d4cc8;
+}
+
+.frameParent74 {
+  	width: 619px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+
+.aboutUsParent {
+  	width: 123px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+
+.aboutUs {
+  	width: 93px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+}
+
+.ourMissionParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+
+.ourMission {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+
+.quickLinksParent {
+  	width: 207px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+
+.quickLinks {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+
+.neurolxpParent {
+  	height: 181px;
+  	width: 205px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+
+.neurolxp {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	white-space: pre-wrap;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+
+.ourCustomersGroup {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+
+.smartContentCreation {
+  	width: 229px;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+
+.frameParent75 {
+  	width: 392.4px;
+  	height: 80.1px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+}
+
+.frameChild81 {
+  	height: 80.1px;
+  	width: 80.1px;
+  	position: relative;
+}
+
+.copyright2026 {
+  	align-self: stretch;
+  	height: 47px;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: -0.03em;
+  	line-height: 56px;
+  	font-weight: 600;
+  	color: #2d4cc8;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+
+.frameWrapper22 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 720px);
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 459px;
+  	overflow: hidden;
+}
+
+.frameParent80 {
+  	width: 631px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 24px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #2d4cc8;
+}
+
+.frameParent81 {
+  	width: 619px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+
+.ourMissionGroup {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+
+.neurolxpGroup {
+  	display: flex;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+}
+
+.neurolxp2 {
+  	height: 26px;
+  	width: 103px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+
+.neurolxpTxt {
+  	width: 100%;
+  	white-space: pre-wrap;
+}
+
+.neurolxp3 {
+  	line-height: 30px;
+}
+
+.span {
+  	font-size: 12px;
+  	line-height: 30px;
+}
+
+.tm {
+  	height: 17px;
+  	width: 23px;
+  	position: relative;
+  	font-size: 17px;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+
+.ourCustomersContainer {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+
+.frameParent83 {
+  	width: 392.4px;
+  	height: 80.1px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 217.19px;
+  	left: 135.04px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
+
+.frameChild85 {
+  	height: 80.1px;
+  	width: 80.1px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+
+.frameChild90 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 30.07px);
+  	border-radius: 32px;
+  	width: 59.1px;
+  	height: 92px;
+  	object-fit: contain;
+}
+
+.heroActionButton {
+	border: 0;
+	background-color: #dfe6e9;
+	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 16px 24px;
+	font-family: "Segoe UI", "Inter";
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.bookDemoButton,
+.startLearningButton {
+	color: #2d4cc8;
+}
+
+.heroActionButton:focus-visible {
+	outline: 3px solid rgba(45, 76, 200, 0.35);
+	outline-offset: 4px;
+}
+
+.frameChild4Title {
+  width:396.9px;
+  height:50.3px;
+  border-radius:28px;
+  background:#DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF, inset 4px 4px 4px #C4C4C4;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: "Segoe UI", "Inter";
+  font-size:24px;
+  font-weight:600;
+  line-height:32px;
+  letter-spacing:.02em;
+  color:#2D4CC8;
+}
+
+.frameChild28Title {
+  width: 322.8px;
+  height: 50.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: #DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF,
+              inset 4px 4px 4px #C4C4C4;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #2D4CC8;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.pathwayItem {
+  width: 549px;
+  height: 60px;
+  box-sizing: border-box;
+  background: #DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 24px;
+  gap: 16px;
+  flex: none;
+  align-self: stretch;
+  overflow: hidden;
+  font-family: "Segoe UI", "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.pathwayArrow {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex: none;
+}
+
+.pathwayItemPink {
+  color: #BF1869;
+}
+
+.pathwayItemTeal {
+  color: #046F73;
+}
+
+.pathwayItemOrange {
+  color: #C05512;
+}
+
+.pathwayItemGreen {
+  color: #2A7308;
+}
+
+.pathwayItemBlue {
+  color: #2D4CC8;
+}
+
+.frameChild16Title {
+  width:272.9px;
+  height:50.2px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:28px;
+  background:#DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF,
+             inset 4px 4px 4px rgba(196,196,196,.8);
+  font-family: "Segoe UI", "Inter";
+  font-size:24px;
+  font-weight:600;
+  line-height:32px;
+  letter-spacing:.02em;
+  color:#2D4CC8;
+  margin:0 auto;
+}
+
+.frameChild35Title {
+  width:429px;
+  height:50.3px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:28px;
+  background:#DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF,
+             inset 4px 4px 4px rgba(196,196,196,.8);
+  font-family: "Segoe UI", "Inter";
+  font-size:24px;
+  font-weight:600;
+  line-height:32px;
+  letter-spacing:.02em;
+  color:#2D4CC8;
+  margin:0 auto;
+}
+
+.trackPanelContent {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 28px 34px;
+  box-sizing: border-box;
+}
+
+.trackTitlePill {
+  width: 182px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  background: #DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #C83B8B;
+  flex-shrink: 0;
+  transform: translatey(20px);
+}
+
+.trackItemsGrid {
+  width: 100%;
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 54px;
+  row-gap: 26px;
+}
+
+.trackItem {
+  min-height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.trackItemIcon {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+  transform: translatex(10px);
+}
+
+.trackItemPink {
+  color: #D41473;
+}
+
+.trackItemOrange {
+  color: #C05512;
+}
+
+.trackItemBlue {
+  color: #2D4CC8;
+}
+
+.trackItemTeal {
+  color: #00777B;
+}
+
+.trackItemPurple {
+  color: #67096E;
+}
+
+.trackItemNavy {
+  color: #162562;
+}
+
+.frameParent64 {
+  position: absolute;
+  top: 7470px;
+  left: calc(50% - 522px);
+  width: 1045px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+}
+
+.frameChild79Title {
+  width: 164px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: #DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #2D4CC8;
+}
+
+.frameParent65 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+
+.frameParent66 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.turnLearningIntoCareerGrowParent {
+  align-self: stretch;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.turnLearningIntoContainer {
+  align-self: stretch;
+  height: auto;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.neurolxpConnectsLearning2 {
+  width: 960px;
+  height: auto;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  color: #2F3547;
+  display: inline-block;
+}
+
+.frameWrapper19 {
+  width: auto;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 32px;
+}
+
+.frameWrapper20 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buildSkillsShapeCareersEWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.buildSkillsShape {
+  position: relative;
+  line-height: 44px;
+  background: linear-gradient(90deg, #BF1869, #2D4CC8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+}
+
+.frameWrapper21 {
+  width: 255px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frameChild80 {
+  width: 255px;
+  height: 60px;
+  border: 0;
+  border-radius: 50px;
+  background: #DFE6E9;
+  box-shadow: -4px -4px 4px #FFFFFF,
+    4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", "Inter";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #2D4CC8;
+  cursor: pointer;
+}
+
+.careerPathwaysSkillingInner {
+  position: absolute;
+  width: 1281px;
+  height: 446px;
+  left: 80px;
+  top: 4354px;
+}
+
+.aiRecommendationsFrame {
+  position: relative;
+  width: 1281px;
+  height: 446px;
+  overflow: hidden;
+  border-radius: 32px;
+  background:
+    url("/assets/careerimages/bg.png") center center / cover no-repeat,
+    #DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF,
+    inset 4px 4px 4px #C4C4C4;
+}
+
+.aiRecommendationsContent {
+  position: absolute;
+  width: 1180px;
+  height: 346px;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 160px;
+  z-index: 1;
+}
+
+.aiRecommendationsLeft {
+  width: 583px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  text-align: left;
+}
+
+.aiRecommendationsHeadingGroup {
+  width: 583px;
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.aiRecommendationsPill {
+  width: 297.73px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background: #DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #2D4CC8;
+}
+
+.aiRecommendationsTitle {
+  width: 583px;
+  height: 120px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Segoe UI", "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  color: #31344B;
+}
+
+.aiRecommendationsDescription {
+  width: 583px;
+  height: 96px;
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #2F3547;
+}
+
+.aiRecommendationsList {
+  width: 429px;
+  height: 346px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.aiRecommendationItem {
+  width: 429px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.aiRecommendationIconFrame {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background: #DFE6E9;
+  box-shadow: inset -4px -4px 4px #FFFFFF,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+}
+
+.aiRecommendationIconInner {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #DFE6E9;
+  box-shadow: 4px 4px 4px #C6C6C9,
+    -4px -4px 4px #FFFFFF;
+}
+
+.aiRecommendationIcon {
+  object-fit: contain;
+  display: block;
+}
+
+.aiRecommendationItem h3 {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: #31344B;
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+
+.frameWrapper {
+    position:absolute;
+    overflow:hidden;
+    border-radius:0 0 100px 100px;
+    background:#DFE6E9;
+    box-shadow: -4px -4px 4px #FFFFFF,4px 4px 4px #C4C4C4;
+}
+
+.frameWrapper::before {
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:inherit;
+    box-shadow: inset -4px -4px 4px #FFFFFF,inset 4px 4px 4px #C4C4C4;
+    pointer-events:none;
+    z-index:3;
+}
+
+.frameIcon {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:calc(100% - 20px);
+    height:calc(100% - 10px);
+    object-fit:cover;
+    border-radius:0 0 90px 90px;
+    z-index:1;
+}
+
+.frameChild3.heroActionButton.bookDemoButton {
+    background:#DFE6E9 !important;
+    border:none !important;
+    border-radius:8px;
+    box-shadow: inset -4px -4px 4px #FFFFFF,
+        inset 4px 4px 4px #C4C4C4 !important;
+    transform:none !important;
+    filter:none !important;
+}
+
+.frameChild3.heroActionButton.bookDemoButton:hover,
+.frameChild3.heroActionButton.bookDemoButton:focus,
+.frameChild3.heroActionButton.bookDemoButton:active {
+    box-shadow: inset -4px -4px 4px #FFFFFF,
+        inset 4px 4px 4px #C4C4C4 !important;
+    transform:none !important;
+    filter:none !important;
+}
+
+.buildSkillsFollowContainer {
+    width:100% !important;
+    max-width:980px !important;
+    height:auto !important;
+    line-height:1.15 !important;
+    letter-spacing:0.01em !important;
+    filter:none !important;
+    text-align:center;
+}
+
+.buildSkillsFollow,
+.becomeCareerReady {
+    display:block;
+    white-space:nowrap;
+    line-height:1.15 !important;
+}
+
+.practicalLearningPill {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	background-color: #dfe6e9;
+	box-shadow: inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px #c4c4c4;
+	color: #2d4cc8;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	letter-spacing: 0.02em;
+}
+
+.b9,
+.b10,
+.b11,
+.b12,
+.b13 {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.analyticsReportingPill {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	background-color: #dfe6e9;
+	box-shadow: inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px #c4c4c4;
+	color: #2d4cc8;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+
+.frameParent46 .frameChild54.analyticsCheckOuter {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	flex: 0 0 70px;
+	border-radius: 100px;
+	background: #dfe6e9;
+	box-shadow: inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	transform: rotate(0.05deg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
+}
+
+.frameParent46 .analyticsCheckInner {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #dfe6e9;
+	box-shadow: 4px 4px 4px #c6c6c9,
+		-4px -4px 4px #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.frameParent46 .analyticsCheckIcon {
+	width: 34px;
+	height: 34px;
+	object-fit: contain;
+	transform: rotate(0.05deg);
+}
+
+.targetAudiencesPill {
+width:278px;
+height:50px;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:0 auto;
+border-radius:28px;
+background:#DFE6E9;
+box-shadow: inset -4px -4px 4px #FFFFFF,inset 4px 4px 4px rgba(196,196,196,.8);
+font-family: "Segoe UI", "Inter";
+font-size:24px;
+font-weight:600;
+line-height:32px;
+letter-spacing:.02em;
+color:#2D4CC8;
+flex-shrink:0;
+}
+
+.neurolxpNavigation {
+	position: absolute;
+	width: 306px;
+	height: 101px;
+	left: 50%;
+	top: 774px;
+	transform: translateX(-50%);
+	z-index: 20;
+}
+
+.neurolxpNavigationBar {
+	position: absolute;
+	width: 211.99px;
+	height: 66.11px;
+	left: 47.05px;
+	top: 17px;
+	background: #dfe6e9;
+	box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	border-radius: 100px;
+	transform: rotate(0.05deg);
+}
+
+.neurolxpNavButton {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 100px;
+	background: #dfe6e9;
+	box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	z-index: 2;
+	transform: rotate(0.05deg);
+	transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.neurolxpNavLeft {
+	left: 0;
+	top: 0.46px;
+}
+
+.neurolxpNavRight {
+	left: 200.08px;
+	top: 0;
+}
+
+.neurolxpNavInner {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #dfe6e9;
+	box-shadow: 4px 4px 4px #c6c6c9, -4px -4px 4px #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.neurolxpNavInner img {
+	width: 42px;
+	height: 42px;
+	object-fit: contain;
+}
+
+.neurolxpNavButton:hover {
+	transform: rotate(0.05deg) scale(1.04);
+}
+
+.neurolxpNavButton:active {
+	transform: rotate(0.05deg) scale(0.96);
+}
+
+.neurolxpNavButton:focus-visible {
+	outline: 3px solid #2d4cc8;
+	outline-offset: 4px;
+}
+
+.ellipseParent,
+.ellipseGroup {
+	position: relative;
+	width: 208px;
+	height: 208px;
+	flex: 0 0 208px;
+	border-radius: 50%;
+}
+
+.ellipseDiv {
+	position: absolute;
+	inset: 0;
+	width: 208px;
+	height: 208px;
+	border-radius: 50%;
+	background: #dfe6e9;
+	box-shadow: -4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4;
+	z-index: 0;
+}
+
+.frameChild42,
+.frameChild45,
+.frameChild48 {
+	position: absolute;
+	top: 16px;
+	left: 15px;
+	width: 176px;
+	height: 176px;
+	box-sizing: border-box;
+	border: 0;
+	border-radius: 50%;
+	background: transparent;
+	box-shadow: inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px #c4c4c4;
+	z-index: 1;
+}
+
+.frameChild43 {
+	position: absolute;
+	top: 36px;
+	left: 36px;
+	width: 136px;
+	height: 136px;
+	border-radius: 50%;
+	background: #dfe6e9;
+	box-shadow: -4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4;
+	z-index: 3;
+}
+
+.frameParent8 h2 {
+		font-size: 36px !important;
+	}
+
+.progressRing {
+	position: absolute;
+	top: 16px;
+	left: 15px;
+	width: 176px;
+	height: 176px;
+	overflow: visible;
+	transform: rotate(-125deg);
+	transform-origin: 50% 50%;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.progressRing circle {
+	fill: none;
+	stroke-width: 10px;
+	vector-effect: non-scaling-stroke;
+	transform: scale(1.083333);
+	transform-origin: 88px 88px;
+}
+
+.progressRingTrack {
+	stroke: transparent;
+}
+
+.progressRingValue {
+	fill: none;
+	stroke-linecap: round;
+	stroke-dasharray: 452.39;
+	stroke-dashoffset: 452.39;
+	animation: drawRingSlowStart 4.6s cubic-bezier(0.42, 0, 0.35, 1) forwards;
+	will-change: stroke-dashoffset;
+}
+
+.progressRingTechnical .progressRingValue {
+	stroke: #bf1869;
+	--target-offset: 49.76;
+}
+
+.progressRingPractical .progressRingValue {
+	stroke: #67096e;
+	--target-offset: 99.53;
+	animation-delay: 0.2s;
+}
+
+.progressRingCareer .progressRingValue {
+	stroke: #2a7308;
+	--target-offset: 72.40;
+	animation-delay: 0.4s;
+}
+
+@keyframes drawRingSlowStart {
+	from {
+		stroke-dashoffset: 452.39;
+	}
+	to {
+		stroke-dashoffset: var(--target-offset);
+	}
+}
+
+@keyframes targetAudienceFloat {
+	0%,
+	100% {
+		transform: translateY(0px) scale(1);
+	}
+	50% {
+		transform: translateY(-8px) scale(1);
+	}
+}
+
+@keyframes targetAudienceFloatLeft {
+	0%,
+	100% {
+		transform: translateY(0px) rotate(-0.35deg);
+	}
+	50% {
+		transform: translateY(-6px) rotate(0.35deg);
+	}
+}
+
+@keyframes targetAudienceFloatRight {
+	0%,
+	100% {
+		transform: translateY(0px) rotate(0.35deg);
+	}
+	50% {
+		transform: translateY(-6px) rotate(-0.35deg);
+	}
+}
+
+.targetAudienceImage {
+	animation: targetAudienceImageDrift 8s ease-in-out infinite alternate;
+}
+
+@keyframes targetAudienceImageDrift {
+	from {
+		transform: scale(1.01) translateX(-3px);
+	}
+	to {
+		transform: scale(1.045) translateX(3px);
+	}
+}
+
+.targetAudienceCard:hover .targetAudienceImage {
+	animation-play-state: paused;
+	transform: scale(1.055);
+}
+
+.parent,
+.group,
+.parent2 {
+	z-index: 4;
+}
+
+.b6,
+.b7,
+.b8 {
+	font-family: "Segoe UI", "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.b6,
+.b8 {
+	color: #2a7308;
+}
+
+.b7 {
+	color: #67096e;
+}
+
+.technicalSkills,
+.practicalSkills,
+.careerReadiness {
+	font-family: "Segoe UI", "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #2f3547;
+}
+
+.wrapperEllipse395,
+.wrapperEllipse394,
+.wrapperEllipse3952 {
+	display: none;
+}
+
+.frameParent64 .turnLearningIntoContainer {
+	width: 100% !important;
+	max-width: none !important;
+	height: auto !important;
+	margin: 0;
+	font-size: 48px;
+	line-height: 60px !important;
+	letter-spacing: 0.02em !important;
+	text-align: center;
+	white-space: nowrap;
+	filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)) !important;
+}
+
+.frameParent64 .turnLearningIntoContainer .buildSkillsFollow,
+.frameParent64 .turnLearningIntoContainer .becomeCareerReady {
+	display: inline !important;
+	white-space: nowrap;
+	line-height: inherit !important;
+}
+
+.frameParent64 .turnLearningIntoCareerGrowParent {
+	height: auto;
+	gap: 18px;
+}
+
+.frameParent64 .neurolxpConnectsLearning2 {
+	width: 1045px;
+	height: auto;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.03em;
+	text-align: center;
+}
+
+.frameParent64 .frameParent66 {
+	gap: 20px;
+}
+
+.frameParent64 .frameParent65 {
+	gap: 36px;
+}
+
+.frameParent64 .frameWrapper19 {
+	width: auto;
+	font-size: 32px;
+	text-align: center;
+}
+
+.frameParent64 .buildSkillsShape {
+	line-height: 44px;
+	white-space: nowrap;
+}
+
+.b9,
+.b10,
+.b11,
+.b12,
+.b13 {
+	width: 60px;
+	height: 60px;
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+	text-align: center;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	border: 0;
+	box-shadow: none;
+}
+
+.b9 {
+	background-image: linear-gradient(180deg, #31344b 0%, #bf1869 100%);
+}
+
+.b10 {
+	background-image: linear-gradient(180deg, #31344b 0%, #2d4cc8 100%);
+}
+
+.b11 {
+	background-image: linear-gradient(180deg, #31344b 0%, #046f73 100%);
+}
+
+.b12 {
+	background-image: linear-gradient(180deg, #31344b 0%, #907507 100%);
+}
+
+.b13 {
+	background-image: linear-gradient(180deg, #31344b 0%, #c05512 100%);
+}
+
+.frameParent9 > * {
+	transition: transform 220ms ease, filter 220ms ease;
+}
+
+.frameParent9 > *:hover {
+	transform: translateY(-6px);
+	filter: drop-shadow(0 10px 12px rgba(49, 52, 75, 0.12));
+}
+
+.frameParent9 > * .rectangleDiv,
+.frameParent9 > * .frameChild8,
+.frameParent9 > * .frameChild14 {
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	transition: border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.frameParent9 > *:nth-child(1):hover .rectangleDiv,
+.frameParent9 > *:nth-child(1):hover .frameChild8,
+.frameParent9 > *:nth-child(1):hover .frameChild14 {
+	border-color: #ff9c9c !important;
+	box-shadow: -4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4,
+		0 0 0 2px rgba(255, 156, 156, 0.22);
+}
+
+.frameParent9 > *:nth-child(2):hover .rectangleDiv,
+.frameParent9 > *:nth-child(2):hover .frameChild8,
+.frameParent9 > *:nth-child(2):hover .frameChild14 {
+	border-color: #e5a2c3 !important;
+	box-shadow: -4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4,
+		0 0 0 2px rgba(229, 162, 195, 0.22);
+}
+
+.frameParent9 > *:nth-child(3):hover .rectangleDiv,
+.frameParent9 > *:nth-child(3):hover .frameChild8,
+.frameParent9 > *:nth-child(3):hover .frameChild14 {
+	border-color: #c6c6c9 !important;
+	box-shadow: -4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4,
+		0 0 0 2px rgba(198, 198, 201, 0.30);
+}
+
+.frameParent9 > *:nth-child(4):hover .rectangleDiv,
+.frameParent9 > *:nth-child(4):hover .frameChild8,
+.frameParent9 > *:nth-child(4):hover .frameChild14 {
+	border-color: #6cc3c6 !important;
+	box-shadow: -4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4,
+		0 0 0 2px rgba(108, 195, 198, 0.24);
+}
+
+.targetAudienceCarousel {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 54px;
+	overflow: hidden;
+}
+
+.targetAudienceCards {
+	width: 100%;
+	min-height: 430px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 54px;
+	overflow: hidden;
+}
+
+.targetAudienceCard {
+	position: relative;
+	flex: 0 0 390px;
+	height: 345px;
+	border-radius: 32px;
+	background: #ffffff;
+	box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4;
+	overflow: hidden;
+	opacity: 1;
+	animation: targetAudienceCardIn 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+	will-change: transform;
+}
+
+.targetAudienceCardCenter {
+	flex-basis: 420px;
+	height: 370px;
+	z-index: 2;
+}
+
+.targetAudienceCardLeft,
+.targetAudienceCardRight {
+	z-index: 1;
+}
+
+.targetAudienceImageFrame {
+	width: 100%;
+	height: calc(100% - 74px);
+	overflow: hidden;
+	background: #ffffff;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.targetAudienceCardCenter .targetAudienceImageFrame {
+	height: calc(100% - 82px);
+}
+
+.targetAudienceImage {
+	width: 100%;
+	height: calc(100% + 1px);
+	display: block;
+	object-fit: cover;
+	object-position: center top;
+	padding: 0;
+	box-sizing: border-box;
+	transform: none;
+	animation: none;
+	transition: none;
+}
+
+.targetAudienceCard:hover .targetAudienceImage {
+	transform: none;
+}
+
+.targetAudienceTitle {
+	height: 74px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background: #ffffff;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0.03em;
+	text-align: center;
+}
+
+.targetAudienceCardCenter .targetAudienceTitle {
+	height: 82px;
+	font-size: 27px;
+	line-height: 36px;
+}
+
+.targetAudienceBlue .targetAudienceTitle {
+	color: #2d4cc8;
+}
+
+.targetAudiencePink .targetAudienceTitle {
+	color: #bf1869;
+}
+
+.targetAudiencePurple .targetAudienceTitle {
+	color: #67096e;
+}
+
+.targetAudienceOrange .targetAudienceTitle {
+	color: #c05512;
+}
+
+.targetAudienceCardLeft {
+	animation-name: targetAudienceCardInLeft;
+}
+
+.targetAudienceCardRight {
+	animation-name: targetAudienceCardInRight;
+}
+
+@keyframes targetAudienceCardIn {
+	from {
+		transform: translateX(64px);
+	}
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes targetAudienceCardInLeft {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes targetAudienceCardInRight {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0px);
+	}
+}
+
+.b6 {
+  color:#BF1869 !important;
+}
+
+.frameParent41 .assessAndValidate,
+.frameParent41 .scenarioLearning,
+.frameParent41 .coreKnowledge,
+.frameParent43 .assessAndValidate,
+.frameParent43 .scenarioLearning,
+.frameParent43 .coreKnowledge {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  line-height: 1.25;
+}
+
+.frameParent41 .interactiveActivitiesParent,
+.frameParent41 .scenarioLearningParent,
+.frameParent43 .interactiveActivitiesParent,
+.frameParent43 .scenarioLearningParent {
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.careerPathwaysSkilling *,
+.careerPathwaysSkilling *::before,
+.careerPathwaysSkilling *::after {
+  box-sizing: border-box;
+}
+
+.careerPathwaysSkilling img,
+.careerPathwaysSkilling svg {
+  max-width: 100%;
+}
+
+
+
+/* Shared typography, selection and fluid layout. All legacy media queries were removed. */
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling {
+  --page-gutter:80px !important;
+  --section-gap:48px !important;
+  --heading-size:36px !important;
+  --copy-size:24px !important;
+  --card-title:26px !important;
+  --card-copy:20px !important;
+  --badge-size:24px !important;
+  --badge-height:56px !important;
+  --badge-padding:12px 36px !important;
+  --button-size:24px !important;
+  --button-height:60px !important;
+  --button-padding:16px 28px !important;
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:100% !important;
+  max-width:none !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  margin:0 !important;
+  padding:0 0 48px !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  gap:0 !important;
+  overflow:visible !important;
+  font-size:var(--copy-size) !important;
+  line-height:1.45 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling * {
+  box-sizing:border-box !important;
+  font-family:"Segoe UI", "Inter" !important;
+  -webkit-user-select:text !important;
+  -moz-user-select:text !important;
+  user-select:text !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling * {
+  min-width:0 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling *::before,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling *::after {
+  pointer-events:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling::selection,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling *::selection {
+  background:#b9caff !important;
+  color:#162562 !important;
+  -webkit-text-fill-color:#162562 !important;
+  text-shadow:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling p {
+  margin:0 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling img {
+  max-width:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:1 !important;
+  margin:0 auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent7 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:2 !important;
+  margin:var(--section-gap) auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent19 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:3 !important;
+  margin:var(--section-gap) auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:4 !important;
+  margin:var(--section-gap) auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent23 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:5 !important;
+  margin:var(--section-gap) auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .careerPathwaysSkillingInner {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:6 !important;
+  margin:var(--section-gap) auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:7 !important;
+  margin:var(--section-gap) auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent44 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:8 !important;
+  margin:var(--section-gap) auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent53 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:9 !important;
+  margin:var(--section-gap) auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent64 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  width:min(1280px, calc(100% - var(--page-gutter) * 2)) !important;
+  max-width:1280px !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  flex:none !important;
+  order:10 !important;
+  margin:var(--section-gap) auto 0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling > .frameParent53 + .frameParent64 {
+  margin-top:var(--section-gap) !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling > .frameParent {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  order:-2 !important;
+  width:100% !important;
+  margin:0 !important;
+  flex:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling > .frameDiv {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  zoom:1 !important;
+  order:-1 !important;
+  display:flex !important;
+  flex-wrap:wrap !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  width:min(1440px,100%) !important;
+  max-width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  margin:0 auto 24px !important;
+  padding:32px var(--page-gutter) 0 !important;
+  gap:8px !important;
+  font-size:14px !important;
+  line-height:20px !important;
+  font-weight:400 !important;
+  letter-spacing:.02em !important;
+  text-align:left !important;
+  color:#2f3547 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .homeParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .featuresWrapper,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .arrowRightDoubleGroup {
+  display:flex !important;
+  align-items:center !important;
+  gap:8px !important;
+  flex-wrap:wrap !important;
+  max-width:100% !important;
+  height:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .learningEcoSystem,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .home,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv a {
+  font-size:14px !important;
+  line-height:20px !important;
+  font-weight:400 !important;
+  color:inherit !important;
+  white-space:normal !important;
+  text-decoration:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .arrowRightDoubleGroup:last-child,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv [aria-current="page"],
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv b {
+  font-size:16px !important;
+  line-height:24px !important;
+  font-weight:700 !important;
+  color:#243fa8 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .arrowRightDoubleGroup:last-child .learningEcoSystem {
+  font-size:inherit !important;
+  line-height:inherit !important;
+  font-weight:inherit !important;
+  color:inherit !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv img,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv svg {
+  width:16px !important;
+  height:16px !important;
+  flex:0 0 16px !important;
+  object-fit:contain !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild2,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild4Title,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild28Title,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild16Title,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild35Title,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackTitlePill,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsPill,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .practicalLearningPill,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .analyticsReportingPill,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudiencesPill,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild79Title {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  flex:0 0 auto !important;
+  align-self:center !important;
+  width:fit-content !important;
+  max-width:100% !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:var(--badge-height) !important;
+  max-height:none !important;
+  margin:0 !important;
+  padding:var(--badge-padding) !important;
+  border:0 !important;
+  border-radius:999px !important;
+  background:#dfe6e9 !important;
+  box-shadow:inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196,196,196,.8) !important;
+  color:#2d4cc8 !important;
+  font-size:var(--badge-size) !important;
+  font-weight:600 !important;
+  line-height:1.3 !important;
+  letter-spacing:.03em !important;
+  text-align:center !important;
+  white-space:normal !important;
+  overflow:visible !important;
+  overflow-wrap:break-word !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .heroActionButton,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .bookDemoButton,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .startLearningButton,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild80,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper5 {
+  position:relative !important;
+  inset:auto !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:fit-content !important;
+  max-width:100% !important;
+  min-width:0 !important;
+  height:auto !important;
+  min-height:var(--button-height) !important;
+  max-height:none !important;
+  flex:0 0 auto !important;
+  margin:0 !important;
+  padding:var(--button-padding) !important;
+  border:0 !important;
+  border-radius:8px !important;
+  background:#dfe6e9 !important;
+  box-shadow:-4px -4px 4px #fff,4px 4px 4px #c6c6c9 !important;
+  color:#2d4cc8 !important;
+  font-size:var(--button-size) !important;
+  font-weight:600 !important;
+  line-height:1.2 !important;
+  letter-spacing:normal !important;
+  text-align:center !important;
+  text-decoration:none !important;
+  white-space:normal !important;
+  overflow:visible !important;
+  transform:none !important;
+  scale:1 !important;
+  translate:none !important;
+  filter:none !important;
+  animation:none !important;
+  transition:box-shadow 180ms ease !important;
+  cursor:pointer !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .heroActionButton:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .heroActionButton:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .heroActionButton:focus,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .heroActionButton:focus-visible,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .bookDemoButton:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .bookDemoButton:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .bookDemoButton:focus,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .bookDemoButton:focus-visible,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .startLearningButton:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .startLearningButton:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .startLearningButton:focus,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .startLearningButton:focus-visible,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild80:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild80:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild80:focus,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild80:focus-visible,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper5:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper5:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper5:focus,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper5:focus-visible {
+  transform:none !important;
+  scale:1 !important;
+  translate:none !important;
+  filter:none !important;
+  animation:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .heroActionButton:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .heroActionButton:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .bookDemoButton:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .bookDemoButton:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .startLearningButton:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .startLearningButton:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild80:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild80:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper5:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper5:active {
+  box-shadow:inset -4px -4px 4px #fff,inset 4px 4px 4px #c4c4c4 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .heroActionButton:focus-visible,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .bookDemoButton:focus-visible,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .startLearningButton:focus-visible,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild80:focus-visible,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper5:focus-visible {
+  outline:3px solid #2d4cc8 !important;
+  outline-offset:4px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .heroActionButton *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .bookDemoButton *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .startLearningButton *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild80 *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper5 * {
+  font:inherit !important;
+  color:inherit !important;
+  pointer-events:auto !important;
+  transform:none !important;
+  scale:1 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent6,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper21 {
+  position:relative !important;
+  inset:auto !important;
+  width:auto !important;
+  max-width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  flex-wrap:wrap !important;
+  gap:20px !important;
+  transform:none !important;
+  scale:1 !important;
+  translate:none !important;
+  overflow:visible !important;
+  box-shadow:none !important;
+  background:transparent !important;
+  border-radius:8px !important;
+  padding:0 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper21:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper21:active,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper21:focus-within {
+  transform:none !important;
+  scale:1 !important;
+  box-shadow:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper21:hover .frameChild80,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper21:active .frameChild80,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper21:focus-within .frameChild80 {
+  transform:none !important;
+  scale:1 !important;
+  filter:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .fromLearningTo,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .personalizedLearningAnd,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .measureWhatMatters,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .turnLearningIntoContainer,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsTitle {
+  position:relative !important;
+  inset:auto !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  margin:0 !important;
+  padding:0 !important;
+  font-size:var(--heading-size) !important;
+  line-height:1.28 !important;
+  font-weight:700 !important;
+  letter-spacing:.02em !important;
+  white-space:normal !important;
+  overflow:visible !important;
+  text-wrap:balance !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learnThrough,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .realWorldPractice {
+  font-size:var(--heading-size) !important;
+  line-height:1.28 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpConnectsLearning,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .turnLearningInto,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .guideLearnersThrough,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .createIndustryAlignedLearni,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .giveLearnersAnd,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalyticsHelp,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpConnectsLearning2,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .alignLearningProgrammes,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsDescription {
+  position:relative !important;
+  inset:auto !important;
+  width:100% !important;
+  max-width:1045px !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  margin:0 !important;
+  padding:0 !important;
+  font-size:var(--copy-size) !important;
+  line-height:1.45 !important;
+  font-weight:400 !important;
+  letter-spacing:.02em !important;
+  white-space:normal !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .buildSkillsFollow,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .becomeCareerReady {
+  white-space:normal !important;
+  line-height:inherit !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper4,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent4,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent5,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent8,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .fromLearningToCareerReadinParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent15,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent20,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent21,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent45,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent46,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent65,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent66,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper18,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper19,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper20,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .turnLearningIntoCareerGrowParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsLeft,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsHeadingGroup,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsList,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent54 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  gap:24px !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent7,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent16,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent23,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent54,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent64 {
+  gap:32px !important;
+  align-items:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 {
+  padding:0 32px 40px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .frameWrapper {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  width:min(934px,100%) !important;
+  height:auto !important;
+  aspect-ratio:934 / 532 !important;
+  margin:0 auto !important;
+  flex:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .frameWrapper2 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  translate:none !important;
+  scale:1 !important;
+  align-self:center !important;
+  width:100% !important;
+  max-width:1044px !important;
+  height:auto !important;
+  margin:32px auto 0 !important;
+  padding:0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .buildSkillsFollowContainer {
+  font-size:48px !important;
+  line-height:1.2 !important;
+  font-weight:700 !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  margin:0 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 {
+  display:grid !important;
+  grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+  gap:24px !important;
+  align-items:start !important;
+  width:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 > *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameParent10,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameWrapper6,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .rectangleParent {
+  width:100% !important;
+  max-width:100% !important;
+  min-width:0 !important;
+  height:250px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild5,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .rectangleDiv,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild8,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild14,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .learnWrapper,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildSkillsWrapper,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .proveCompetencyWrapper,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .careerReadyWrapper {
+  width:100% !important;
+  max-width:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .learn,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildSkills,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .proveCompetency,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .careerReady {
+  position:absolute !important;
+  left:16px !important;
+  right:16px !important;
+  top:50% !important;
+  transform:translateY(-50%) !important;
+  width:auto !important;
+  height:auto !important;
+  margin:0 !important;
+  font-size:var(--card-title) !important;
+  font-weight:600 !important;
+  line-height:1.25 !important;
+  white-space:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildStrongCore,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .developPracticalJobReady,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .validateSkillsAnd,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .trackProgressToward {
+  font-size:var(--card-copy) !important;
+  font-weight:600 !important;
+  line-height:1.4 !important;
+  min-height:0 !important;
+  z-index:2 !important;
+  pointer-events:auto !important;
+  -webkit-user-select:text !important;
+  user-select:text !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildStrongCoreKnowledgeAnWrapper,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildStrongCore,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .developPracticalJobReady,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .validateSkillsAnd,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .trackProgressToward {
+  position:absolute !important;
+  left:20px !important;
+  right:20px !important;
+  top:130px !important;
+  bottom:auto !important;
+  transform:none !important;
+  width:auto !important;
+  max-width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  margin:0 !important;
+  padding:0 !important;
+  text-align:center !important;
+  white-space:normal !important;
+  text-wrap:balance !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildStrongCoreKnowledgeAnWrapper .buildStrongCore,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildStrongCoreKnowledgeAnWrapper .developPracticalJobReady,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildStrongCoreKnowledgeAnWrapper .validateSkillsAnd,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildStrongCoreKnowledgeAnWrapper .trackProgressToward {
+  position:static !important;
+  inset:auto !important;
+  width:100% !important;
+  transform:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildStrongCore *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .developPracticalJobReady *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .validateSkillsAnd *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .trackProgressToward * {
+  font-family:inherit !important;
+  font-size:inherit !important;
+  font-weight:600 !important;
+  line-height:inherit !important;
+  letter-spacing:inherit !important;
+  -webkit-user-select:text !important;
+  user-select:text !important;
+  pointer-events:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .learn,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildSkills,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .proveCompetency,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .careerReady {
+  z-index:2 !important;
+  -webkit-user-select:text !important;
+  user-select:text !important;
+  pointer-events:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .buildStrongCoreKnowledgeAnWrapper {
+  font-size:var(--card-copy) !important;
+  font-weight:600 !important;
+  line-height:1.4 !important;
+  z-index:2 !important;
+  -webkit-user-select:text !important;
+  user-select:text !important;
+  pointer-events:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild5,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .rectangleDiv,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild8,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild14,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild6,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild9,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild12,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 .frameChild15 {
+  pointer-events:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent19,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalyticsParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsContent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent44 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  translate:none !important;
+  scale:1 !important;
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+  align-items:center !important;
+  gap:40px !important;
+  height:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalyticsParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsContent {
+  width:100% !important;
+  max-width:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent19 .rectangleParent8 {
+  position:relative !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  padding:28px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent19 .frameChild29 {
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  pointer-events:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent22 {
+  position:relative !important;
+  inset:auto !important;
+  width:100% !important;
+  height:auto !important;
+  gap:16px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .pathwayItem {
+  width:100% !important;
+  height:auto !important;
+  min-height:60px !important;
+  padding:14px 18px !important;
+  gap:12px !important;
+  font-size:22px !important;
+  line-height:1.4 !important;
+  white-space:normal !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .pathwayItem span {
+  flex:1 !important;
+  min-width:0 !important;
+  white-space:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent17,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent18,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent41,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent43 {
+  display:grid !important;
+  grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  gap:28px !important;
+  width:100% !important;
+  max-width:100% !important;
+  align-items:stretch !important;
+  justify-content:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent18,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent43 {
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  max-width:844px !important;
+  margin-inline:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent41 > .frameParent43 {
+  grid-column:1 / -1 !important;
+  width:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent4,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent5,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent7,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent10,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent11 {
+  position:relative !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  min-height:266px !important;
+  padding:104px 30px 30px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild17,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild56 {
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+  pointer-events:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild18,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild57 {
+  inset:20px !important;
+  width:auto !important;
+  height:auto !important;
+  pointer-events:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .coreKnowledgeParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .interactiveActivitiesParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .scenarioLearningParent {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  gap:10px !important;
+  text-align:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .coreKnowledgeParent > :first-child,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .interactiveActivitiesParent > :first-child,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .scenarioLearningParent > :first-child {
+  width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  margin:0 !important;
+  font-size:var(--card-title) !important;
+  line-height:1.3 !important;
+  font-weight:600 !important;
+  white-space:normal !important;
+  text-align:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .coreKnowledgeParent > :last-child,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .interactiveActivitiesParent > :last-child,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .scenarioLearningParent > :last-child {
+  width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  margin:0 !important;
+  font-size:var(--card-copy) !important;
+  line-height:1.4 !important;
+  font-weight:400 !important;
+  white-space:normal !important;
+  text-align:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .wrapper,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .container,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .frame,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .frameWrapper11,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .wrapper3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .frameChild25 {
+  top:0 !important;
+  left:50% !important;
+  transform:translateX(-50%) !important;
+  width:90px !important;
+  height:76px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .frameWrapper12 {
+  width:100% !important;
+  height:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .b,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .b3 {
+  position:absolute !important;
+  inset:0 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:100% !important;
+  height:100% !important;
+  font-size:42px !important;
+  line-height:1.2 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b9,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b10,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b11,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b12,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b13 {
+  top:30px !important;
+  font-size:42px !important;
+  line-height:1.2 !important;
+  width:60px !important;
+  height:60px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics {
+  position:relative !important;
+  width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  padding:24px !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics2 {
+  inset:16px !important;
+  width:auto !important;
+  height:auto !important;
+  pointer-events:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackPanelContent {
+  position:relative !important;
+  inset:auto !important;
+  width:100% !important;
+  height:auto !important;
+  padding:16px 8px !important;
+  gap:24px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItemsGrid {
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  width:100% !important;
+  gap:20px !important;
+  margin:0 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItem {
+  width:100% !important;
+  height:auto !important;
+  min-height:48px !important;
+  font-size:22px !important;
+  line-height:1.35 !important;
+  gap:12px !important;
+  white-space:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItemIcon {
+  width:28px !important;
+  height:28px !important;
+  min-width:28px !important;
+  min-height:28px !important;
+  flex:0 0 28px !important;
+  transform:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItem > span {
+  flex:1 !important;
+  white-space:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent29 {
+  width:100% !important;
+  max-width:459px !important;
+  min-width:0 !important;
+  height:auto !important;
+  margin:0 auto !important;
+  zoom:1 !important;
+  gap:24px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent30 {
+  width:100% !important;
+  display:flex !important;
+  justify-content:center !important;
+  gap:24px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b6 {
+  color:#bf1869 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsFrame {
+  width:100% !important;
+  height:auto !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsContent {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  padding:40px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationItem,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent47,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent48 {
+  width:100% !important;
+  height:auto !important;
+  min-height:70px !important;
+  gap:16px !important;
+  align-items:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationItem h3 {
+  flex:1 !important;
+  width:auto !important;
+  max-width:100% !important;
+  height:auto !important;
+  margin:0 !important;
+  font-size:22px !important;
+  line-height:1.4 !important;
+  font-weight:600 !important;
+  white-space:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackSkillAcquisition,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .identifyCompetencyGaps,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .monitorLearnerProgress,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .measureAssessmentPerformance,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackCredentials,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .evaluateCareerReadiness {
+  width:auto !important;
+  max-width:100% !important;
+  height:auto !important;
+  flex:1 !important;
+  font-size:22px !important;
+  line-height:1.4 !important;
+  white-space:normal !important;
+  text-align:left !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent53,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent54 {
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  gap:28px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameWrapper17 {
+  width:100% !important;
+  gap:20px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCarousel {
+  width:100% !important;
+  gap:24px !important;
+  overflow:hidden !important;
+  padding:8px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCards {
+  width:100% !important;
+  min-height:0 !important;
+  gap:28px !important;
+  padding:8px 0 !important;
+  overflow:hidden !important;
+  align-items:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCard {
+  flex:0 0 30% !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-width:100% !important;
+  animation-duration:.45s !important;
+  animation-iteration-count:1 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCardCenter {
+  flex-basis:34% !important;
+  height:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceImageFrame,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCardCenter .targetAudienceImageFrame {
+  height:auto !important;
+  aspect-ratio:4 / 3 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceImage {
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  object-position:center top !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceTitle,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCardCenter .targetAudienceTitle {
+  height:auto !important;
+  min-height:76px !important;
+  padding:16px !important;
+  font-size:var(--card-title) !important;
+  line-height:1.3 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavigation {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  width:260px !important;
+  max-width:100% !important;
+  height:80px !important;
+  min-height:80px !important;
+  margin:0 auto !important;
+  flex:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavButton {
+  width:80px !important;
+  height:80px !important;
+  transform:none !important;
+  transition:box-shadow 180ms ease !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavButton:hover,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavButton:active {
+  transform:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavigationBar {
+  left:40px !important;
+  right:40px !important;
+  top:16px !important;
+  width:auto !important;
+  height:48px !important;
+  transform:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent64 .turnLearningIntoContainer .buildSkillsFollow,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent64 .turnLearningIntoContainer .becomeCareerReady {
+  display:inline !important;
+  white-space:normal !important;
+  line-height:inherit !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .buildSkillsShape {
+  font-size:28px !important;
+  line-height:1.4 !important;
+  white-space:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling > .frameParent67 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  order:11 !important;
+  margin:48px auto 0 !important;
+  padding-top:32px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling:has(> .frameParent67) {
+  padding-bottom:0 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent68,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameWrapper22,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent69,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent83 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  margin:0 !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent68,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameWrapper22 {
+  padding:32px var(--page-gutter) !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent70 {
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:32px !important;
+  width:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent71,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent73,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent74,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent80,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent81,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .logo01SynapseSpark1Group,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .prgeeqGlobalSolutionsPrivatParent {
+  width:100% !important;
+  height:auto !important;
+  max-width:100% !important;
+  min-width:0 !important;
+  flex-wrap:wrap !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .copyright2026,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .prestigeAtlanta1012Container {
+  height:auto !important;
+  line-height:1.5 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent20,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent21,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsLeft,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsHeadingGroup,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent45 {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  translate:none !important;
+  scale:1 !important;
+  justify-self:stretch !important;
+  align-self:center !important;
+  align-items:flex-start !important;
+  text-align:left !important;
+  margin:0 !important;
+  padding:0 !important;
+  width:100% !important;
+  max-width:100% !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent20 .frameChild28Title,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsLeft .aiRecommendationsPill,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent45 .analyticsReportingPill {
+  align-self:flex-start !important;
+  margin:0 !important;
+  text-align:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .frameParent3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .frameParent4,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .frameParent5 {
+  align-items:center !important;
+  text-align:center !important;
+  width:100% !important;
+  max-width:100% !important;
+  flex-shrink:1 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .frameParent6 {
+  width:100% !important;
+  justify-content:center !important;
+  align-items:stretch !important;
+  gap:24px !important;
+  margin:0 auto !important;
+  flex-wrap:wrap !important;
+  flex-shrink:0 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .startLearningWrapper,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .startLearning {
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  width:auto !important;
+  max-width:100% !important;
+  height:auto !important;
+  margin:0 !important;
+  display:inline !important;
+  line-height:inherit !important;
+  font:inherit !important;
+  color:inherit !important;
+  white-space:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .buildSkillsFollowContainer,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .neurolxpConnectsLearning {
+  display:block !important;
+  position:relative !important;
+  inset:auto !important;
+  transform:none !important;
+  translate:none !important;
+  margin-inline:auto !important;
+  width:100% !important;
+  max-width:100% !important;
+  overflow-wrap:break-word !important;
+  white-space:normal !important;
+  text-align:center !important;
+  flex-shrink:1 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .buildSkillsFollowContainer * {
+  white-space:normal !important;
+  max-width:100% !important;
+  line-height:inherit !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .frameParent41,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .frameParent43 {
+  display:flex !important;
+  flex-direction:row !important;
+  flex-wrap:wrap !important;
+  justify-content:center !important;
+  align-items:stretch !important;
+  width:100% !important;
+  max-width:100% !important;
+  gap:28px !important;
+  margin:0 !important;
+  grid-template-columns:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .frameParent41 > div:not(.rectangleParent3):not(.rectangleParent7):not(.rectangleParent10):not(.rectangleParent11) {
+  display:flex !important;
+  flex-direction:row !important;
+  flex-wrap:wrap !important;
+  align-items:stretch !important;
+  justify-content:center !important;
+  flex:0 0 100% !important;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  gap:28px !important;
+  grid-column:1 / -1 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent7,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent10,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent11 {
+  flex:0 1 calc((100% - 56px) / 3) !important;
+  width:calc((100% - 56px) / 3) !important;
+  max-width:400px !important;
+  min-width:0 !important;
+  min-height:266px !important;
+  align-self:stretch !important;
+  box-sizing:border-box !important;
+  overflow:visible !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .coreKnowledgeParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .interactiveActivitiesParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .scenarioLearningParent {
+  width:100% !important;
+  max-width:100% !important;
+  text-align:center !important;
+  align-items:center !important;
+  overflow-wrap:break-word !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .coreKnowledgeParent > *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .interactiveActivitiesParent > *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .scenarioLearningParent > * {
+  width:100% !important;
+  max-width:100% !important;
+  text-align:center !important;
+  overflow-wrap:break-word !important;
+  word-break:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItem {
+  display:flex !important;
+  flex-wrap:nowrap !important;
+  align-items:flex-start !important;
+  min-width:0 !important;
+  max-width:100% !important;
+  overflow-wrap:break-word !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItem > span {
+  display:block !important;
+  flex:1 1 0 !important;
+  min-width:0 !important;
+  max-width:100% !important;
+  white-space:normal !important;
+  overflow-wrap:break-word !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent30 {
+  flex-wrap:wrap !important;
+  justify-content:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItemsGrid {
+  grid-auto-rows:minmax(0,1fr) !important;
+  align-items:stretch !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem {
+  display:flex !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  min-height:2.8em !important;
+  font-weight:600 !important;
+  line-height:1.4 !important;
+  letter-spacing:.01em !important;
+  text-align:left !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem > span {
+  display:block !important;
+  flex:0 1 13ch !important;
+  width:13ch !important;
+  max-width:100% !important;
+  min-height:2.8em !important;
+  margin:0 !important;
+  padding:0 !important;
+  font-size:inherit !important;
+  font-weight:600 !important;
+  line-height:1.4 !important;
+  letter-spacing:inherit !important;
+  text-align:left !important;
+  white-space:normal !important;
+  text-wrap:balance !important;
+  word-break:normal !important;
+  overflow-wrap:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItemIcon {
+  align-self:center !important;
+  margin:0 !important;
+  transform:none !important;
+}
+
+@media (min-width: 1440px) {
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling {
+  --page-gutter:max(80px, calc((100% - 1280px) / 2)) !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling > .frameDiv {
+  padding-inline:80px !important;
+}
+
+}
+
+@media (max-width: 1279px) {
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling {
+  --page-gutter:32px !important;
+  --heading-size:32px !important;
+  --copy-size:20px !important;
+  --card-title:23px !important;
+  --card-copy:18px !important;
+  --button-size:20px !important;
+  --button-height:52px !important;
+  --button-padding:14px 20px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 {
+  grid-template-columns:repeat(2,minmax(0,290px)) !important;
+  justify-content:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent19,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalyticsParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsContent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent44 {
+  gap:28px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent17 {
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent7,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent10,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent11 {
+  flex-basis:calc((100% - 28px) / 2) !important;
+  width:calc((100% - 28px) / 2) !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent17 > :nth-child(3):last-child {
+  grid-column:1 / -1 !important;
+  width:calc((100% - 28px) / 2) !important;
+  justify-self:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .buildSkillsFollowContainer {
+  font-size:40px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalyticsParent {
+  grid-template-columns:minmax(0,1fr) !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItem,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .pathwayItem,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationItem h3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackSkillAcquisition,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .identifyCompetencyGaps,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .monitorLearnerProgress,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .measureAssessmentPerformance,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackCredentials,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .evaluateCareerReadiness {
+  font-size:20px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsContent {
+  padding:28px !important;
+}
+
+}
+
+@media (max-width: 899px) {
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent19,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsContent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent44 {
+  grid-template-columns:minmax(0,1fr) !important;
+  text-align:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent20,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent21,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent45,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsLeft,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsHeadingGroup {
+  align-items:center !important;
+  text-align:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent20 .frameChild28Title,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsLeft .aiRecommendationsPill,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent45 .analyticsReportingPill {
+  align-self:center !important;
+  margin-inline:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent19 .rectangleParent8,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsList,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent46 {
+  max-width:600px !important;
+  margin-inline:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCard {
+  flex-basis:31% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCardCenter {
+  flex-basis:36% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent70 {
+  grid-template-columns:1fr !important;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling {
+  --page-gutter:20px !important;
+  --section-gap:40px !important;
+  --heading-size:28px !important;
+  --copy-size:18px !important;
+  --card-title:22px !important;
+  --card-copy:18px !important;
+  --badge-size:20px !important;
+  --badge-height:48px !important;
+  --badge-padding:10px 26px !important;
+  --button-size:18px !important;
+  --button-height:48px !important;
+  --button-padding:12px 20px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling > .frameDiv {
+  padding:12px 20px 0 !important;
+  margin-bottom:20px !important;
+  gap:6px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .homeParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .arrowRightDoubleGroup {
+  gap:6px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 {
+  padding:0 0 24px !important;
+  background:transparent !important;
+  box-shadow:none !important;
+  border-radius:0 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .frameWrapper {
+  border-radius:0 0 48px 48px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .frameIcon {
+  border-radius:0 0 40px 40px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .frameWrapper2 {
+  margin-top:24px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .buildSkillsFollowContainer {
+  font-size:30px !important;
+  line-height:1.25 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent4,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent5,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent8,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent15,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent20,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent21,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent45,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent65,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent66,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsLeft,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsHeadingGroup {
+  gap:20px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent6 {
+  gap:16px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent9 {
+  grid-template-columns:minmax(0,320px) !important;
+  gap:24px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent17,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent18 {
+  grid-template-columns:minmax(0,400px) !important;
+  justify-content:center !important;
+  gap:24px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent7,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent10,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent39 .rectangleParent11 {
+  flex-basis:100% !important;
+  width:100% !important;
+  max-width:400px !important;
+  min-height:230px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent17 > :nth-child(3):last-child {
+  grid-column:auto !important;
+  width:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent18 {
+  max-width:400px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent4,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent5,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent7,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent10,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .rectangleParent11 {
+  min-height:230px !important;
+  padding:88px 28px 28px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .wrapper,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .container,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .frame,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .frameWrapper11,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .wrapper3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .frameChild25 {
+  width:72px !important;
+  height:64px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .b,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent14 .b3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b9,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b10,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b11,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b12,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b13 {
+  font-size:36px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b9,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b10,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b11,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b12,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b13 {
+  top:24px !important;
+  height:44px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent19 .rectangleParent8 {
+  padding:20px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .pathwayItem {
+  font-size:18px !important;
+  min-height:56px !important;
+  padding:12px !important;
+  gap:10px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .pathwayArrow {
+  width:24px !important;
+  height:24px !important;
+  flex-basis:24px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics {
+  padding:20px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackPanelContent {
+  padding:12px 4px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItemsGrid {
+  gap:18px 14px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItem {
+  font-size:18px !important;
+  gap:10px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItemIcon {
+  width:24px !important;
+  height:24px !important;
+  min-width:24px !important;
+  min-height:24px !important;
+  flex-basis:24px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent29 {
+  max-width:360px !important;
+  gap:20px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent30 {
+  gap:20px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .ellipseParent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .ellipseGroup {
+  width:150px !important;
+  height:150px !important;
+  flex:0 0 150px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .ellipseDiv {
+  inset:0 !important;
+  width:100% !important;
+  height:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild42,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild45,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild48,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .progressRing {
+  top:12px !important;
+  left:12px !important;
+  width:126px !important;
+  height:126px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameChild43 {
+  top:26px !important;
+  left:26px !important;
+  width:98px !important;
+  height:98px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .parent,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .group,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .parent2 {
+  top:50% !important;
+  left:50% !important;
+  transform:translate(-50%,-50%) !important;
+  width:94px !important;
+  height:auto !important;
+  min-height:0 !important;
+  gap:4px !important;
+  align-items:center !important;
+  justify-content:center !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b6,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b7,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .b8 {
+  width:100% !important;
+  height:auto !important;
+  font-size:25px !important;
+  line-height:1.2 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .technicalSkills,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .practicalSkills,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .careerReadiness {
+  width:100% !important;
+  height:auto !important;
+  font-size:14px !important;
+  line-height:1.25 !important;
+  white-space:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsFrame {
+  background-image:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsContent {
+  padding:24px 20px !important;
+  gap:28px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationItem h3,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackSkillAcquisition,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .identifyCompetencyGaps,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .monitorLearnerProgress,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .measureAssessmentPerformance,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackCredentials,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .evaluateCareerReadiness {
+  font-size:18px !important;
+  line-height:1.4 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationItem,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent47,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent48 {
+  min-height:56px !important;
+  gap:14px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationIconFrame,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent46 .frameChild54.analyticsCheckOuter {
+  width:56px !important;
+  height:56px !important;
+  flex:0 0 56px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationIconInner,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .analyticsCheckInner {
+  width:40px !important;
+  height:40px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .analyticsCheckIcon {
+  width:28px !important;
+  height:28px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCard {
+  flex:0 0 min(280px,82vw) !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCardLeft,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCardRight {
+  display:none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCardCenter {
+  display:block !important;
+  flex-basis:min(320px,100%) !important;
+  width:min(320px,100%) !important;
+  margin-inline:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCards {
+  justify-content:center !important;
+  gap:0 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceTitle,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceCardCenter .targetAudienceTitle {
+  min-height:64px !important;
+  font-size:20px !important;
+  padding:12px 16px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavigation {
+  width:220px !important;
+  height:64px !important;
+  min-height:64px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavButton {
+  width:64px !important;
+  height:64px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavInner {
+  width:48px !important;
+  height:48px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavigationBar {
+  left:32px !important;
+  right:32px !important;
+  top:14px !important;
+  height:36px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .buildSkillsShape {
+  font-size:22px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .keepTogether {
+  white-space:normal !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent74,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent81 {
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:24px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent74 > *,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent81 > * {
+  width:100% !important;
+  height:auto !important;
+}
+
+}
+
+@media (max-width: 479px) {
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .learningEcoSystem,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .home,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv a,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv .arrowRightDoubleGroup:last-child,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv [aria-current="page"],
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameDiv b {
+  font-size:12px !important;
+  line-height:18px !important;
+  font-weight:400 !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .buildSkillsFollowContainer {
+  font-size:28px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent6 {
+  width:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent6 > * {
+  max-width:100% !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .trackItemsGrid {
+  grid-template-columns:1fr !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent30 {
+  gap:16px !important;
+  flex-wrap:wrap !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent74,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent67 .frameParent81 {
+  grid-template-columns:1fr !important;
+}
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling * {
+  animation:none !important;
+  transition:none !important;
+  scroll-behavior:auto !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .progressRingValue {
+  stroke-dashoffset:var(--target-offset) !important;
+}
+
+}
+
+/* Requested: 36px hero heading and no target-audience shuffle animation. */
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent2 .buildSkillsFollowContainer {
+  font-size: 36px !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling :is(.targetAudienceCard, .targetAudienceCardCenter, .targetAudienceCardLeft, .targetAudienceCardRight) {
+  animation: none !important;
+  transform: none !important;
+  translate: none !important;
+  rotate: none !important;
+  scale: 1 !important;
+  will-change: auto !important;
+}
+
+/* Slide a stable track one card at a time; never re-mount or shuffle cards. */
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceViewport {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  container-type: inline-size;
+  padding-block: 8px;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceTrack {
+  --target-width: 30cqw;
+  --target-center-width: 34cqw;
+  --target-gap: calc(2cqw + 28px);
+  --target-title-height: 76px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  gap: var(--target-gap);
+  padding-inline: calc(50% - var(--target-width) / 2);
+  align-items: center;
+  transform: translateX(calc(var(--target-index) * (var(--target-width) + var(--target-gap)) * -1));
+  transition: transform .55s ease !important;
+  animation: none !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceSlot {
+  display: flex;
+  flex: 0 0 var(--target-width);
+  width: var(--target-width);
+  min-width: 0;
+  height: calc(var(--target-center-width) * .75 + var(--target-title-height));
+  align-items: center;
+  justify-content: center;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceSlot .targetAudienceCard {
+  display: block !important;
+  flex: 0 0 auto !important;
+  width: var(--target-width) !important;
+  max-width: none !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  animation: none !important;
+  transform: none !important;
+  transition: width .55s ease !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceSlot .targetAudienceCardCenter {
+  width: var(--target-center-width) !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceSlot .targetAudienceTitle {
+  height: var(--target-title-height) !important;
+  min-height: var(--target-title-height) !important;
+}
+
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceTrackNoTransition,
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceTrackNoTransition .targetAudienceCard {
+  transition: none !important;
+}
+
+@media (max-width: 767px) {
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceTrack {
+    --target-width: min(320px, calc(100cqw - 16px));
+    --target-center-width: var(--target-width);
+    --target-gap: 24px;
+    --target-title-height: 64px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceTrack,
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .targetAudienceSlot .targetAudienceCard {
+    transition: none !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE CONTENT ALIGNMENT FIXES
+   ========================================================= */
+
+/* Desktop/tablet: the explicit pathway line breaks stay disabled. */
+.mobileOnlyBreak {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+  /* 1) Personalized Pathways — exactly two lines for every item. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .mobileOnlyBreak {
+    display: block !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .pathwayItem {
+    min-height: 72px !important;
+    padding: 10px 14px !important;
+    gap: 10px !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    align-items: center !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .pathwayItem > span {
+    flex: 1 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    white-space: normal !important;
+    line-height: 22px !important;
+  }
+
+  /* 2) Track panel — keep every item on one line with no overlap. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem {
+    min-height: 42px !important;
+    gap: 10px !important;
+    align-items: center !important;
+    overflow: visible !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem > span {
+    display: block !important;
+    flex: 1 1 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    white-space: nowrap !important;
+    text-wrap: nowrap !important;
+    overflow-wrap: normal !important;
+    word-break: keep-all !important;
+  }
+
+  /* 3) Target-audience carousel — remove arrows/navigation on mobile. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .neurolxpNavigation {
+    display: none !important;
+  }
+
+  /* 4) Analytics checklist — keep labels on one line. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    :is(.trackSkillAcquisition,
+        .identifyCompetencyGaps,
+        .monitorLearnerProgress,
+        .measureAssessmentPerformance,
+        .trackCredentials,
+        .evaluateCareerReadiness) {
+    flex: 1 1 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    height: auto !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    white-space: nowrap !important;
+    overflow-wrap: normal !important;
+    word-break: keep-all !important;
+    text-align: left !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    .frameParent46 :is(.frameParent47, .frameParent48) {
+    width: 100% !important;
+    gap: 12px !important;
+    align-items: center !important;
+  }
+
+  /* 5) Analytics & Reporting — remove the oversized vertical gap. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent44 {
+    gap: 18px !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent45 {
+    gap: 14px !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalyticsHelp {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 6) AI Recommendations — keep all labels on one line where they fit. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationItem {
+    min-height: 54px !important;
+    gap: 12px !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationItem h3 {
+    flex: 1 1 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    white-space: nowrap !important;
+    overflow-wrap: normal !important;
+    word-break: keep-all !important;
+    text-align: left !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE OVERFLOW CORRECTIONS
+   ========================================================= */
+@media screen and (max-width: 767px) {
+
+  /* Hero main heading requested at 24px. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    .frameParent2 .buildSkillsFollowContainer {
+    width: calc(100% - 16px) !important;
+    max-width: 350px !important;
+    margin-inline: auto !important;
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+    overflow: visible !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    text-align: center !important;
+  }
+
+  /* Analytics checklist: remove the legacy 429px width and keep every row
+     inside the mobile viewport. Longer labels may use two lines. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent46 {
+    width: 100% !important;
+    max-width: 340px !important;
+    min-width: 0 !important;
+    margin-inline: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    .frameParent46 :is(.frameParent47, .frameParent48) {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    :is(.trackSkillAcquisition,
+        .identifyCompetencyGaps,
+        .monitorLearnerProgress,
+        .measureAssessmentPerformance,
+        .trackCredentials,
+        .evaluateCareerReadiness) {
+    flex: 1 1 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    white-space: normal !important;
+    text-wrap: pretty !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    overflow: visible !important;
+  }
+
+  /* AI Recommendations heading: final word gets its own mobile line,
+     preventing the blue word from extending outside the card. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsTitle {
+    width: 100% !important;
+    max-width: 320px !important;
+    margin-inline: auto !important;
+    padding-inline: 4px !important;
+    font-size: 28px !important;
+    line-height: 1.28 !important;
+    text-align: center !important;
+    overflow: visible !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  /* AI recommendation rows: remove nowrap so the final long item can use
+     two lines instead of overflowing to the right. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsList {
+    width: 100% !important;
+    max-width: 320px !important;
+    min-width: 0 !important;
+    margin-inline: auto !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationItem {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationItem h3 {
+    flex: 1 1 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    white-space: normal !important;
+    text-wrap: pretty !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    overflow: visible !important;
+  }
+}
+
+/* =========================================================
+   MOBILE COMPACT ANALYTICS LIST + AI HEADING FIX
+   ========================================================= */
+@media screen and (max-width: 767px) {
+
+  /* FIRST SCREENSHOT: make the analytics checklist compact. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .frameParent46 {
+    width: calc(100% - 20px) !important;
+    max-width: 315px !important;
+    margin-inline: auto !important;
+    gap: 6px !important;
+    align-items: stretch !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    .frameParent46 :is(.frameParent47, .frameParent48) {
+    width: 100% !important;
+    min-height: 48px !important;
+    height: auto !important;
+    padding-block: 2px !important;
+    gap: 10px !important;
+    align-items: center !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    .frameParent46 .frameChild54.analyticsCheckOuter {
+    width: 48px !important;
+    height: 48px !important;
+    min-width: 48px !important;
+    min-height: 48px !important;
+    flex: 0 0 48px !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    .frameParent46 .analyticsCheckInner {
+    width: 34px !important;
+    height: 34px !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    .frameParent46 .analyticsCheckIcon {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    :is(.trackSkillAcquisition,
+        .identifyCompetencyGaps,
+        .monitorLearnerProgress,
+        .measureAssessmentPerformance,
+        .trackCredentials,
+        .evaluateCareerReadiness) {
+    font-size: 16px !important;
+    line-height: 21px !important;
+    font-weight: 600 !important;
+    white-space: normal !important;
+    text-wrap: pretty !important;
+    overflow: visible !important;
+  }
+
+  /* SECOND SCREENSHOT: the title was still a flex row, so the blue word
+     was being pushed outside the card. Make it a normal text block on mobile. */
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsTitle {
+    display: block !important;
+    width: 100% !important;
+    max-width: 300px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    font-size: 26px !important;
+    line-height: 34px !important;
+    text-align: center !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    .aiRecommendationsTitle .mobileOnlyBreak {
+    display: block !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .aiRecommendationsHeadingGroup {
+    width: 100% !important;
+    max-width: 320px !important;
+    margin-inline: auto !important;
+    align-items: center !important;
+  }
+}
+
+/* FINAL MOBILE LABEL FIX — keep the shortened subtexts on one line. */
+@media screen and (max-width: 767px) {
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    :is(.trackSkillAcquisition,
+        .identifyCompetencyGaps,
+        .monitorLearnerProgress,
+        .measureAssessmentPerformance,
+        .trackCredentials,
+        .evaluateCareerReadiness) {
+    white-space: nowrap !important;
+  }
+
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling
+    .aiRecommendationItem h3 {
+    white-space: nowrap !important;
+  }
+}
+
+
+/* Expert launcher anchored to Target Audiences without affecting section flow. */
+.careerPathwaysSkilling .frameParent53 { position: relative; }
+.careerPathwaysSkilling .targetAudienceExpertButtonSlot {
+  position: absolute;
+  top: 30%;
+  right: 12px;
+  width: 64px;
+  height: 64px;
+  transform: translateY(-50%);
+  z-index: 30;
+}
+@media (max-width: 767px) {
+  .careerPathwaysSkilling .targetAudienceExpertButtonSlot { top: -20px; right: -10px; width: 56px; height: 56px; }
+}
+
+.aiRecommendationsTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 0;
+}
+
+.aiRecommendationsTitle span {
+  display: block;
+}
+
+.frameChild79Title sup {
+  font-size: 12px !important;
+  line-height: 4px !important;
+  transform: translateY(-7px) scale(0.75) !important;
+}
+
+
+/* Track section: keep all six labels on one line */
+.trackItemsGrid {
+  column-gap: 12px;
+}
+
+.trackItem {
+  gap: 6px;
+  min-width: 0;
+}
+
+.trackItem span {
+  font-size: clamp(10px, 1.05vw, 14px);
+  line-height: 1.4;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.trackItemIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+/* Track labels: final override of older high-specificity wrapping rules. */
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItemsGrid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  column-gap: 10px !important;
+}
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem {
+  gap: 5px !important;
+  min-width: 0 !important;
+  font-size: clamp(10px, 1.15vw, 15px) !important;
+  white-space: nowrap !important;
+}
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem > span {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  font-size: inherit !important;
+  line-height: 1.35 !important;
+  letter-spacing: 0 !important;
+  white-space: nowrap !important;
+  text-wrap: nowrap !important;
+  overflow-wrap: normal !important;
+}
+.careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItemIcon {
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px !important;
+  min-height: 18px !important;
+  flex: 0 0 18px !important;
+}
+@media (max-width: 767px) {
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItemsGrid {
+    grid-template-columns: 1fr !important;
+  }
+  .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem {
+    font-size: 16px !important;
+  }
+}

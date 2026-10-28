@@ -1,0 +1,4198 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* HOME PAGE ALIGNMENT — 22 September 2026
+   Full replacement: existing selectors and artwork retained below.
+   The final scoped section owns typography, controls and content layout.
+   Keep the same module import filename in your application.
+   Uses the same Inter font import as the supplied home stylesheet. */
+
+.employeeInduction {
+  	width: 100%;
+  	height: 3125px;
+  	position: relative;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 48px;
+  	color: #31344b;
+  	font-family: "Segoe UI", "Inter";
+    zoom: 0.89;
+}
+.frameParent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 720px);
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 80px;
+  	overflow: hidden;
+  	font-size: 16px;
+  	font-family: "Segoe UI", "Inter";
+}
+.frameChild {
+  	position: absolute;
+  	top: calc(50% - 22px);
+  	left: 1096px;
+  	width: 132px;
+  	height: 44px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.frameGroup {
+  	position: absolute;
+  	top: 18px;
+  	left: 32px;
+  	width: 1376px;
+  	height: 45px;
+  	flex-shrink: 0;
+}
+.logo01SynapseSpark1Parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	gap: 130px;
+}
+.logo01SynapseSpark1Icon {
+  	height: 45px;
+  	width: 120px;
+  	position: relative;
+  	object-fit: cover;
+}
+.frameContainer {
+  	display: flex;
+  	align-items: center;
+  	gap: 30px;
+}
+.homeParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.home {
+  	position: relative;
+  	line-height: 24px;
+  	font-weight: 600;
+}
+.arrowDown01Icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.resourcesParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #2d4cc8;
+}
+.resources {
+  	position: relative;
+  	line-height: 24px;
+}
+.signInHelpWrapper {
+  	position: absolute;
+  	top: calc(50% - 22.5px);
+  	left: 1244px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 132px;
+  	height: 44px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 32px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	color: #2d4cc8;
+  	font-family: "Segoe UI", "Inter";
+}
+.signInHelp {
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.frameItem {
+  	position: absolute;
+  	top: 6px;
+  	left: 11px;
+  	width: 1429px;
+  	height: 592.4px;
+  	flex-shrink: 0;
+}
+.frameInner {
+  	position: absolute;
+  	top: 76px;
+  	left: 4px;
+  	width: 1436px;
+  	height: 839px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.frameDiv {
+  	position: absolute;
+  	top: 32px;
+  	left: 80px;
+  	background-color: #dfe6e9;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	font-size: 16px;
+  	color: #2f3547;
+  	font-family: "Segoe UI", "Inter";
+}
+.resourcesWrapper {
+  	display: flex;
+  	align-items: center;
+}
+.useCases {
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 24px;
+}
+.arrowRightDoubleGroup {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #243fa8;
+}
+.frameParent2 {
+  	position: absolute;
+  	top: 88px;
+  	left: calc(50% - 640px);
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px rgba(196, 196, 196, 0.8) inset;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 1280px;
+  	height: 614px;
+  	overflow: hidden;
+}
+.image21Parent {
+  	position: absolute;
+  	top: 32px;
+  	left: 32px;
+  	box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px rgba(255, 255, 255, 0.6);
+  	border-radius: 16px;
+  	background-color: #dfe6e9;
+  	width: 1216px;
+  	height: 550px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.image21 {
+  	position: absolute;
+  	top: -1px;
+  	left: 0px;
+  	width: 1216px;
+  	height: 737px;
+  	flex-shrink: 0;
+}
+.groupYoungBusinesspeopleUsi {
+  	position: absolute;
+  	top: calc(50% - 277px);
+  	left: calc(50% - 608px);
+  	width: 1216px;
+  	height: 555px;
+  	flex-shrink: 0;
+}
+.frameParent3 {
+  	position: absolute;
+  	top: calc(50% - 153px);
+  	left: 50px;
+  	width: 608px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+  	flex-shrink: 0;
+}
+.frameParent4 {
+  	align-self: stretch;
+  	height: 189px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.frameIcon {
+  	width: 372px;
+  	height: 50px;
+  	position: relative;
+  	border-radius: 28px;
+  	background-color: #dfe6e9;
+  	box-shadow: -4px -4px 4px #ffffff inset, 4px 4px 4px rgba(196, 196, 196, 0.9) inset;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0 24px;
+  	box-sizing: border-box;
+  	font-size: 24px;
+  	font-weight: 500;
+  	letter-spacing: 0.03em;
+  	line-height: 30px;
+  	color: #2d4cc8;
+  	white-space: nowrap;
+  	flex-shrink: 0;
+}
+.transformOnboardingIntoContainer {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	flex-shrink: 0;
+}
+.transformOnboardingInto {
+  	line-height: 60px;
+}
+.learning {
+  	color: #2d4cc8;
+  	line-height: 60px;
+}
+.neurolxpSimplifiesOnboarding {
+  	width: 521px;
+  	height: 85px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.businessmenClosingDealWithWrapper {
+  	position: absolute;
+  	top: 32px;
+  	left: 688px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 500px;
+  	background-color: #dfe6e9;
+  	width: 496px;
+  	height: 486px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.businessmenClosingDealWithIcon {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 441px;
+  object-fit: contain;
+  object-position: center bottom;
+  display: block;
+}
+.image20 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 640px);
+  	width: 1280px;
+  	height: 800px;
+  	flex-shrink: 0;
+}
+.frameParent5 {
+  	position: absolute;
+  	top: 766px;
+  	left: 147px;
+  	width: 1146px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 50px;
+  	text-align: center;
+  	color: #2f3547;
+}
+.frameParent6 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 28px;
+}
+.frameWrapper {
+  	width: 1133px;
+  	height: 72px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.structuredOnboardingForProdWrapper {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	flex-shrink: 0;
+}
+.structuredOnboardingFor {
+  height: 72px;
+  width: 1133px;
+  position: relative;
+  line-height: 60px;
+  text-transform: capitalize;
+  display: inline-block;
+  background: linear-gradient(90deg, #bf1869 14.9%, #2d4cc8 56.25%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  flex-shrink: 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.neurolxpHelpsOrganizations {
+  	width: 1133px;
+  	position: relative;
+  	font-size: 28px;
+  	line-height: 46px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.frameParent7 {
+  	width: 1050px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 50px;
+  	font-size: 16px;
+  	color: #bf1869;
+}
+.frameParent8 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 50px;
+}
+.frameParent9 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 50px;
+}
+.frameParent10 {
+  	height: 250px;
+  	width: 500px;
+  	position: relative;
+}
+.frameChild2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	width: 500px;
+  	height: 250px;
+  	overflow: hidden;
+}
+.frameChild3 {
+  	position: absolute;
+  	top: 16px;
+  	left: 16px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 16px;
+  	background-color: #dfe6e9;
+  	border: 1px solid #bf1869;
+  	box-sizing: border-box;
+  	width: 468px;
+  	height: 218px;
+  	overflow: hidden;
+}
+.frameParent11 {
+  	position: absolute;
+  	top: 56px;
+  	left: calc(50% - 168px);
+  	width: 337px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 16px;
+}
+.challenge1Parent {
+  	align-self: stretch;
+  	height: 66px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 12px;
+}
+.challenge1 {
+  	width: 121px;
+  	height: 24px;
+  	position: relative;
+	/* font-size: 16px; */
+  	letter-spacing: 0.03em;
+  	line-height: 24px;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inconsistentOnboarding {
+  	width: 295px;
+  	height: 32px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	display: inline-block;
+  	color: #31344b;
+  	text-align: left;
+  	flex-shrink: 0;
+}
+.differentTeamsDeliver {
+  	width: 307px;
+  	height: 56px;
+  	position: relative;
+  	font-size: 18px;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameParent12 {
+  	height: 250px;
+  	width: 500px;
+  	position: relative;
+  	color: #2d4cc8;
+}
+.frameChild5 {
+  	position: absolute;
+  	top: 16px;
+  	left: 16px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 16px;
+  	background-color: #dfe6e9;
+  	border: 1px solid #2d4cc8;
+  	box-sizing: border-box;
+  	width: 468px;
+  	height: 218px;
+  	overflow: hidden;
+}
+.frameParent13 {
+  	position: absolute;
+  	top: 56px;
+  	left: 82px;
+  	width: 337px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.informationOverload {
+  	width: 295px;
+  	height: 32px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	display: inline-block;
+  	color: #31344b;
+  	flex-shrink: 0;
+}
+.newHiresReceive {
+  	align-self: stretch;
+  	height: 56px;
+  	position: relative;
+  	font-size: 18px;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameParent14 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 50px;
+  	color: #2a7308;
+}
+.frameChild7 {
+  	position: absolute;
+  	top: 16px;
+  	left: 16px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 16px;
+  	background-color: #dfe6e9;
+  	border: 1px solid #2a7308;
+  	box-sizing: border-box;
+  	width: 468px;
+  	height: 218px;
+  	overflow: hidden;
+}
+.frameParent17 {
+  	height: 250px;
+  	width: 500px;
+  	position: relative;
+  	color: #67096e;
+}
+.frameChild9 {
+  	position: absolute;
+  	top: 16px;
+  	left: 16px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 16px;
+  	background-color: #dfe6e9;
+  	border: 1px solid #67096e;
+  	box-sizing: border-box;
+  	width: 468px;
+  	height: 218px;
+  	overflow: hidden;
+}
+.frameWrapper2 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	color: #907507;
+}
+.frameChild11 {
+  	position: absolute;
+  	top: 16px;
+  	left: 16px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 16px;
+  	background-color: #dfe6e9;
+  	border: 1px solid #907507;
+  	box-sizing: border-box;
+  	width: 468px;
+  	height: 218px;
+  	overflow: hidden;
+}
+.frameParent21 {
+  	position: absolute;
+  	top: 2099px;
+  	left: 80px;
+  	display: flex;
+  	align-items: center;
+  	gap: 140px;
+  	font-size: 36px;
+}
+.frameParent22 {
+  	width: 583px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 24px;
+}
+.frameParent23 {
+  	align-self: stretch;
+  	height: 164px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 24px;
+}
+.frameChild12 {
+  	width: 149.7px;
+  	height: 50px;
+  	position: relative;
+  	border-radius: 28px;
+  	background-color: #dfe6e9;
+  	box-shadow: -4px -4px 4px #ffffff inset, 4px 4px 4px rgba(196, 196, 196, 0.9) inset;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0 20px;
+  	box-sizing: border-box;
+  	font-size: 24px;
+  	font-weight: 600;
+  	letter-spacing: 0.03em;
+  	line-height: 30px;
+  	color: #2d4cc8;
+  	white-space: nowrap;
+  	flex-shrink: 0;
+}
+.benefitsOfEmployee {
+  	width: 593px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 50px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.organizationsCanAchieve {
+  	align-self: stretch;
+  	height: 81px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameWrapper3 {
+  	height: 526px;
+  	width: 557px;
+  	position: relative;
+  	font-size: 24px;
+}
+.frameWrapper4 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 557px;
+  	height: 512px;
+  	overflow: hidden;
+}
+.frameWrapper5 {
+  	position: absolute;
+  	top: 16px;
+  	left: 16px;
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	width: 525px;
+  	height: 480px;
+  	overflow: hidden;
+}
+.frameParent24 {
+  	position: absolute;
+  	top: calc(50% - 208px);
+  	left: 32px;
+  	width: 475px;
+  	height: 491px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+  	flex-shrink: 0;
+}
+.frameParent25 {
+  	align-self: stretch;
+  	height: 70px;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+}
+.frameChild13 {
+  	display: none;
+}
+
+.benefitIconCircle {
+  	width: 70px;
+  	height: 70px;
+  	position: relative;
+  	flex: none;
+  	border-radius: 100px;
+  	background: #dfe6e9;
+  	box-shadow:
+  		inset -4px -4px 4px #ffffff,
+  		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	transform: rotate(0.05deg);
+}
+
+.benefitIconInner {
+  	width: 50px;
+  	height: 50px;
+  	border-radius: 50%;
+  	background: #dfe6e9;
+  	box-shadow:
+  		4px 4px 4px #c6c6c9,
+  		-4px -4px 4px #ffffff;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.benefitIconImage {
+  	width: 36px !important;
+  	height: 36px !important;
+  	object-fit: contain;
+  	display: block;
+  	flex-shrink: 0;
+}
+.fasterEmployeeIntegration {
+  	height: 37px;
+  	width: 351px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.consistentValuesAnd {
+  	height: 37px;
+  	width: 355px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.betterOnboardingEngagement {
+  	height: 37px;
+  	width: 379px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.easyProgressTracking {
+  	height: 37px;
+  	width: 310px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.reducedHrWorkload {
+  	height: 37px;
+  	width: 286px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameParent30 {
+  	position: absolute;
+  	top: 2721px;
+  	left: calc(50% - 551px);
+  	width: 1103px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 50px;
+  	text-align: center;
+  	font-size: 36px;
+}
+.frameParent31 {
+  	align-self: stretch;
+  	height: 180px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+}
+.frameChild18 {
+  	width: 422.3px;
+  	height: 50px;
+  	position: relative;
+  	border-radius: 28px;
+  	background-color: #dfe6e9;
+  	box-shadow:
+  		-4px -4px 4px #ffffff inset,
+  		4px 4px 4px rgba(196, 196, 196, 0.9) inset;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0 24px;
+  	box-sizing: border-box;
+  	font-size: 24px;
+  	font-weight: 500;
+  	letter-spacing: 0.03em;
+  	line-height: 30px;
+  	color: #2d4cc8;
+  	white-space: nowrap;
+  	flex-shrink: 0;
+}
+.enablingSmarterEmployeeOnboParent {
+  	width: 999px;
+  	height: 114px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+  	flex-shrink: 0;
+}
+.enablingSmarterEmployeeContainer {
+  	width: 851px;
+  	height: 50px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 50px;
+  	text-transform: capitalize;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.enablingSmarter {
+  	line-height: 50px;
+}
+.employeeOnboarding {
+  	color: #2d4cc8;
+  	line-height: 50px;
+}
+.neurolxpMakesOnboarding {
+  	width: 714px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	color: #2f3547;
+  	display: inline-block;
+}
+.frameWrapper6 {
+  	width: 220px;
+  	border-radius: 50px;
+  	display: flex;
+  	align-items: center;
+}
+.frameChild19 {
+  	height: 60px;
+  	width: 220px;
+  	position: relative;
+  	box-shadow:
+  		-4px -4px 4px #ffffff,
+  		4px 4px 4px rgba(196, 196, 196, 0.8);
+  	border-radius: 50px;
+  	background-color: #dfe6e9;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0 24px;
+  	box-sizing: border-box;
+  	font-size: 24px;
+  	font-weight: 600;
+  	letter-spacing: 0.02em;
+  	line-height: 32px;
+  	color: #2d4cc8;
+  	text-decoration: none;
+  	white-space: nowrap;
+  	cursor: pointer;
+  	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.frameChild19:hover {
+  	transform: translateY(-2px);
+}
+
+.frameChild19:active {
+  	transform: translateY(0);
+  	box-shadow:
+  		-4px -4px 4px #ffffff inset,
+  		4px 4px 4px rgba(196, 196, 196, 0.8) inset;
+}
+
+.frameChild19:focus-visible {
+  	outline: 2px solid #2d4cc8;
+  	outline-offset: 4px;
+}
+.employeeInductionChild {
+  	position: absolute;
+  	top: 1908px;
+  	left: calc(50% - 720px);
+  	background: linear-gradient(90deg, #bf1869, #2d4cc8);
+  	width: 1440px;
+  	height: 5px;
+  	overflow: hidden;
+}
+.employeeInductionInner {
+  	position: absolute;
+  	top: 1963px;
+  	left: calc(50% - 566px);
+  	width: 1133px;
+  	height: 72px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	text-align: center;
+}
+.frameParent32 {
+  	position: absolute;
+  	right: 0px;
+  	bottom: -0.2px;
+  	width: 1440px;
+  	height: 501px;
+  	font-size: 26px;
+  	color: #2f3547;
+}
+.frameParent33 {
+  	position: absolute;
+  	bottom: -0.02px;
+  	left: calc(50% - 720px);
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 459px;
+  	overflow: hidden;
+}
+.frameParent34 {
+  	position: absolute;
+  	top: 49.81px;
+  	left: 53.96px;
+  	width: 1339.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+}
+.frameParent35 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 35px;
+}
+.frameParent36 {
+  	width: 676px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 24px;
+  	flex-shrink: 0;
+}
+.logo01SynapseSpark1Group {
+  	width: 577px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.logo01SynapseSpark1Icon2 {
+  	width: 299px;
+  	height: 112px;
+  	position: relative;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.frameParent37 {
+  	display: flex;
+  	align-items: center;
+  	gap: 14px;
+  	flex-shrink: 0;
+}
+.onePlatformParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.onePlatform {
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 34px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sparklesIcon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.prgeeqGlobalSolutionsPrivatParent {
+  	width: 459px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+  	font-size: 16px;
+}
+.prgeeqGlobalSolutions {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 24px;
+}
+.prestigeAtlanta1012Container {
+  	align-self: stretch;
+  	height: 77px;
+  	position: relative;
+  	line-height: 24px;
+  	display: flex;
+  	align-items: flex-end;
+  	flex-shrink: 0;
+}
+.blankLine {
+  	line-height: 24px;
+}
+.frameParent38 {
+  	width: 631px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	gap: 24px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #2d4cc8;
+}
+.frameParent39 {
+  	width: 619px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.aboutUsParent {
+  	width: 123px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.aboutUs {
+  	width: 93px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+}
+.ourMissionParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+.ourMission {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.quickLinksParent {
+  	width: 207px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.quickLinks {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.neurolxpParent {
+  	height: 181px;
+  	width: 205px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.neurolxp {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	white-space: pre-wrap;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.ourCustomersGroup {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+.smartContentCreation {
+  	width: 229px;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.frameParent40 {
+  	width: 392.4px;
+  	height: 80.1px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+}
+.frameChild20 {
+  	height: 80.1px;
+  	width: 80.1px;
+  	position: relative;
+}
+.copyright2026 {
+  	align-self: stretch;
+  	height: 47px;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: -0.03em;
+  	line-height: 56px;
+  	font-weight: 600;
+  	color: #2d4cc8;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameWrapper7 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 720px);
+  	box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 459px;
+  	overflow: hidden;
+}
+.frameParent45 {
+  	width: 631px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 24px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #2d4cc8;
+}
+.frameParent46 {
+  	width: 619px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.ourMissionGroup {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+.neurolxpGroup {
+  	display: flex;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+}
+.neurolxp2 {
+  	height: 26px;
+  	width: 103px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.neurolxpTxt {
+  	width: 100%;
+  	white-space: pre-wrap;
+}
+.neurolxp3 {
+  	line-height: 30px;
+}
+.span {
+  	font-size: 12px;
+  	line-height: 30px;
+}
+.tm {
+  	height: 17px;
+  	width: 23px;
+  	position: relative;
+  	font-size: 12px;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.ourCustomersContainer {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+.frameParent48 {
+  	width: 392.4px;
+  	height: 80.1px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 217.19px;
+  	left: 135.04px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
+.frameChild24 {
+  	height: 80.1px;
+  	width: 80.1px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.frameChild29 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 30.07px);
+  	border-radius: 32px;
+  	width: 59.1px;
+  	height: 92px;
+  	object-fit: contain;
+}
+
+/* ===== Employee challenge cards: alignment and hover borders ===== */
+
+/* Make every challenge card interactive without changing its dimensions. */
+.frameParent10,
+.frameParent12,
+.frameParent17,
+.frameWrapper2 > .frameParent10 {
+	cursor: pointer;
+}
+
+/* Hide the coloured inner border until the card is hovered. */
+.frameChild3,
+.frameChild5,
+.frameChild7,
+.frameChild9,
+.frameChild11 {
+	border-color: transparent;
+	transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Restore each card's own border colour on hover. */
+.frameParent9 > .frameParent10:hover > .frameChild3 {
+	border-color: #bf1869;
+}
+
+.frameParent12:hover > .frameChild5 {
+	border-color: #2d4cc8;
+}
+
+.frameParent14 > .frameParent10:hover > .frameChild7 {
+	border-color: #2a7308;
+}
+
+.frameParent17:hover > .frameChild9 {
+	border-color: #67096e;
+}
+
+.frameWrapper2 > .frameParent10:hover > .frameChild11 {
+	border-color: #907507;
+}
+
+/* Centre the complete text block inside all five cards. */
+.frameParent11,
+.frameParent13 {
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
+	text-align: center;
+}
+
+/* Remove fixed heights that caused title and description overlap. */
+.challenge1Parent {
+	align-self: auto;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.challenge1 {
+	width: auto;
+	height: auto;
+	line-height: 24px;
+	text-align: center;
+}
+
+/* Keep challenge titles centred and on one line. */
+.inconsistentOnboarding,
+.informationOverload {
+	width: 100%;
+	height: auto;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	white-space: nowrap;
+	display: block;
+}
+
+/* Centre descriptions beneath the titles. */
+.differentTeamsDeliver,
+.newHiresReceive {
+	align-self: auto;
+	width: 360px;
+	height: auto;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	display: block;
+}
+
+/* Ignore the forced line breaks included in two card titles. */
+.inconsistentOnboarding br,
+.informationOverload br {
+	display: none;
+}
+
+/* ===== Benefit icon circle alignment ===== */
+.frameParent24 {
+	top: 32px;
+	height: auto;
+	gap: 16px;
+}
+
+.frameParent25 {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.fasterEmployeeIntegration,
+.consistentValuesAnd,
+.betterOnboardingEngagement,
+.easyProgressTracking,
+.reducedHrWorkload {
+	height: auto;
+	line-height: 36px;
+	display: flex;
+	align-items: center;
+}
+
+/* BFSI normal-flow responsive overrides */
+.employeeInduction {
+	height: auto;
+	min-height: 3125px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+.frameDiv,
+.frameParent2,
+.frameParent5,
+.employeeInductionChild,
+.employeeInductionInner,
+.frameParent21,
+.frameParent30 {
+	position: relative;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	flex-shrink: 0;
+}
+
+.frameDiv { width: 1280px; margin-top: 32px; flex-wrap: wrap; white-space: normal; overflow: visible; }
+.frameParent2 { margin-top: 32px; }
+.frameParent5 { margin-top: 64px; }
+.employeeInductionChild { margin-top: 50px; width: 100%; max-width: 1440px; }
+.employeeInductionInner { margin-top: 50px; width: 1133px; }
+.frameParent21 { margin-top: 64px; width: 1280px; justify-content: center; }
+.frameParent30 { margin-top: 96px; margin-bottom: 80px; width: 1103px; }
+
+.frameParent5,
+.frameParent7,
+.frameParent8 { height: auto; }
+
+.frameParent7 { width: 1050px; }
+
+@media (max-width: 1439px) {
+	.employeeInduction { zoom: 1; min-height: 0; padding: 0 32px; box-sizing: border-box; }
+	.frameDiv, .frameParent2, .frameParent5, .employeeInductionInner, .frameParent21, .frameParent30 { width: min(100%, 1280px); }
+	.frameParent2 { height: auto; aspect-ratio: 1280 / 614; }
+	.image21Parent { inset: 32px; width: auto; height: auto; }
+	.image21, .groupYoungBusinesspeopleUsi { inset: 0; width: 100%; height: 100%; }
+	.frameParent3 { left: 4.1%; width: 50%; }
+	.businessmenClosingDealWithWrapper { left: auto; right: 2.6%; width: 40.8%; height: calc(100% - 64px); }
+	.businessmenClosingDealWithIcon { width: 81%; height: calc(100% - 45px); }
+	.frameParent6, .frameWrapper, .structuredOnboardingFor, .neurolxpHelpsOrganizations { width: 100%; max-width: 1133px; height: auto; }
+	.frameParent7 { width: min(100%, 1050px); }
+	.frameParent9, .frameParent14 { width: 100%; justify-content: center; }
+	.frameParent21 { gap: clamp(48px, 8vw, 140px); }
+	.frameParent22 { width: min(48%, 583px); }
+	.frameWrapper3 { width: min(46%, 557px); }
+	.frameWrapper4 { width: 100%; }
+	.frameWrapper5 { width: calc(100% - 32px); }
+	.frameParent24 { width: calc(100% - 64px); }
+	.frameParent30, .frameParent31, .enablingSmarterEmployeeOnboParent { width: min(100%, 1103px); }
+	.enablingSmarterEmployeeContainer, .neurolxpMakesOnboarding { width: 100%; height: auto; }
+}
+
+@media (max-width: 1023px) {
+	.employeeInduction { padding: 0 28px; }
+	.frameDiv { margin-top: 24px; font-size: 15px; }
+	.frameParent2 { margin-top: 24px; aspect-ratio: auto; height: 590px; }
+	.image21Parent { inset: 24px; display: flex; align-items: center; overflow: hidden; }
+	.frameParent3 { top: 50%; left: 36px; width: 48%; transform: translateY(-50%); gap: 24px; z-index: 2; }
+	.frameParent4 { height: auto; gap: 24px; }
+	.frameIcon { width: fit-content; max-width: 100%; font-size: 19px; }
+	.transformOnboardingIntoContainer { font-size: 38px; line-height: 48px; }
+	.transformOnboardingInto, .learning { line-height: 48px; }
+	.neurolxpSimplifiesOnboarding { width: 100%; height: auto; font-size: 21px; line-height: 32px; }
+	.businessmenClosingDealWithWrapper { left: auto; right: 24px; top: 48px; width: 44%; height: calc(100% - 96px); }
+	.businessmenClosingDealWithIcon { top: 28px; width: 86%; height: calc(100% - 28px); }
+	.frameParent5 { margin-top: 64px; gap: 40px; }
+	.structuredOnboardingFor { font-size: 38px; line-height: 48px; }
+	.neurolxpHelpsOrganizations { font-size: 22px; line-height: 36px; }
+	.frameParent7, .frameParent8 { gap: 32px; }
+	.frameParent9, .frameParent14 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+	.frameParent10, .frameParent12, .frameParent17 { width: 100%; height: 230px; }
+	.frameChild2 { width: 100%; height: 100%; }
+	.frameChild3, .frameChild5, .frameChild7, .frameChild9, .frameChild11 { width: calc(100% - 32px); height: calc(100% - 32px); }
+	.frameParent11, .frameParent13 { width: calc(100% - 64px); }
+	.inconsistentOnboarding, .informationOverload { white-space: normal; font-size: 21px; line-height: 28px; }
+	.differentTeamsDeliver, .newHiresReceive { width: 100%; font-size: 16px; line-height: 24px; }
+	.frameWrapper2 { width: 100%; }
+	.frameWrapper2 > .frameParent10 { width: calc(50% - 14px); }
+	.employeeInductionChild { margin-top: 48px; }
+	.employeeInductionInner { margin-top: 40px; }
+	.structuredOnboardingFor { width: 100%; height: auto; text-align: center; }
+	.frameParent21 { margin-top: 56px; flex-direction: column; align-items: center; gap: 40px; font-size: 32px; }
+	.frameParent22, .frameWrapper3 { width: min(100%, 600px); }
+	.frameParent22 { align-items: center; text-align: center; }
+	.frameParent23 { height: auto; align-items: center; }
+	.benefitsOfEmployee, .organizationsCanAchieve { width: 100%; height: auto; }
+	.frameWrapper3 { height: 526px; }
+	.frameParent30 { margin-top: 72px; font-size: 32px; }
+}
+
+@media (max-width: 767px) {
+	.employeeInduction { padding: 0 16px; }
+	.frameDiv { width: 100%; margin-top: 18px; gap: 6px; font-size: 12px; line-height: 18px; }
+	.arrowDown01Icon { width: 12px; height: 12px; }
+	.frameParent2 { width: 100%; height: 720px; margin-top: 20px; border-radius: 24px; }
+	.image21Parent { inset: 16px; display: block; border-radius: 14px; }
+	.frameParent3 { top: 28px; left: 20px; right: 20px; width: auto; transform: none; align-items: center; text-align: center; gap: 20px; }
+	.frameParent4 { align-items: center; gap: 20px; }
+	.frameIcon { width: auto; height: 44px; padding: 0 16px; font-size: 15px; line-height: 22px; white-space: nowrap; }
+	.transformOnboardingIntoContainer { width: 100%; font-size: 30px; line-height: 38px; text-align: center; }
+	.transformOnboardingInto, .learning { line-height: 38px; }
+	.neurolxpSimplifiesOnboarding { width: 100%; font-size: 17px; line-height: 26px; text-align: center; }
+	.businessmenClosingDealWithWrapper { top: auto; right: 50%; bottom: 20px; width: min(88%, 410px); height: 360px; transform: translateX(50%); }
+	.businessmenClosingDealWithIcon { top: 20px; width: 88%; height: calc(100% - 20px); }
+	.frameParent5 { width: 100%; margin-top: 56px; gap: 32px; }
+	.frameParent6 { gap: 20px; }
+	.frameWrapper, .structuredOnboardingForProdWrapper { width: 100%; height: auto; }
+	.structuredOnboardingFor { width: 100%; height: auto; font-size: 30px; line-height: 38px; text-align: center; }
+	.neurolxpHelpsOrganizations { width: 100%; font-size: 17px; line-height: 27px; text-align: center; }
+	.frameParent9, .frameParent14 { grid-template-columns: 1fr; gap: 22px; }
+	.frameParent10, .frameParent12, .frameParent17, .frameWrapper2 > .frameParent10 { width: 100%; height: 220px; }
+	.frameParent11, .frameParent13 { width: calc(100% - 56px); gap: 12px; }
+	.challenge1 { font-size: 14px; }
+	.inconsistentOnboarding, .informationOverload { font-size: 20px; line-height: 27px; }
+	.employeeInductionChild { height: 4px; margin-top: 40px; }
+	.employeeInductionInner { width: 100%; height: auto; margin-top: 32px; }
+	.employeeInductionInner .structuredOnboardingForProdWrapper { padding: 0; }
+	.frameParent21 { width: 100%; margin-top: 48px; gap: 32px; font-size: 28px; }
+	.frameChild12 { font-size: 18px; }
+	.benefitsOfEmployee { font-size: 28px; line-height: 38px; }
+	.organizationsCanAchieve { font-size: 17px; line-height: 27px; }
+	.frameWrapper3 { width: 100%; height: auto; min-height: 500px; }
+	.frameWrapper4 { position: relative; width: 100%; height: auto; min-height: 500px; }
+	.frameWrapper5 { position: relative; top: auto; left: auto; width: calc(100% - 24px); height: auto; min-height: 468px; margin: 12px; }
+	.frameParent24 { position: relative; top: auto; left: auto; width: auto; height: auto; padding: 24px 18px; }
+	.frameParent25 { width: 100%; height: auto; min-height: 62px; }
+	.benefitIconCircle { width: 62px; height: 62px; }
+	.benefitIconInner { width: 44px; height: 44px; }
+	.benefitIconImage { width: 31px !important; height: 31px !important; }
+	.fasterEmployeeIntegration, .consistentValuesAnd, .betterOnboardingEngagement, .easyProgressTracking, .reducedHrWorkload { width: calc(100% - 78px); font-size: 17px; line-height: 25px; }
+	.frameParent30 { width: 100%; margin-top: 56px; margin-bottom: 56px; gap: 32px; font-size: 28px; }
+	.frameParent31, .enablingSmarterEmployeeOnboParent { width: 100%; height: auto; gap: 20px; }
+	.frameChild18 { width: auto; max-width: 100%; height: 46px; padding: 0 18px; font-size: 17px; line-height: 24px; }
+	.enablingSmarterEmployeeContainer { width: 100%; height: auto; font-size: 28px; line-height: 38px; }
+	.enablingSmarter, .employeeOnboarding { line-height: 38px; }
+	.neurolxpMakesOnboarding { width: 100%; font-size: 17px; line-height: 27px; }
+	.frameChild19 { width: 190px; height: 56px; font-size: 19px; }
+}
+
+@media (max-width: 479px) {
+	.employeeInduction { padding: 0 12px; }
+	.frameParent2 { height: 680px; }
+	.frameIcon { font-size: 13px; padding: 0 12px; }
+	.transformOnboardingIntoContainer, .structuredOnboardingFor, .benefitsOfEmployee, .enablingSmarterEmployeeContainer { font-size: 26px; line-height: 34px; }
+	.transformOnboardingInto, .learning, .enablingSmarter, .employeeOnboarding { line-height: 34px; }
+	.businessmenClosingDealWithWrapper { height: 330px; }
+	.frameParent10, .frameParent12, .frameParent17, .frameWrapper2 > .frameParent10 { height: 210px; }
+	.frameParent11, .frameParent13 { width: calc(100% - 44px); }
+	.inconsistentOnboarding, .informationOverload { font-size: 18px; line-height: 25px; }
+	.differentTeamsDeliver, .newHiresReceive { font-size: 15px; line-height: 22px; }
+	.fasterEmployeeIntegration, .consistentValuesAnd, .betterOnboardingEngagement, .easyProgressTracking, .reducedHrWorkload { font-size: 15px; line-height: 22px; }
+}
+
+/* WCAG AA contrast correction for challenge labels only */
+.frameParent9 > .frameParent10 .challenge1 {
+	color: #b51661;
+}
+
+.frameParent14 > .frameParent10 .challenge1 {
+	color: #256806;
+}
+
+.frameWrapper2 > .frameParent10 .challenge1 {
+	color: #765f00;
+}
+
+/* WCAG 2.2 AA contrast fix for Challenge 1 and Challenge 5 labels only */
+.frameParent9 > .frameParent10 .challenge1 {
+	color: #8f0f4c !important;
+}
+
+.frameWrapper2 > .frameParent10 .challenge1 {
+	color: #5a4700 !important;
+}
+
+/* =========================================================
+   FINAL RESPONSIVE SPACING REFINEMENT
+   Spacing only — no design/effect changes.
+   Keeps all existing colors, shadows, borders, hover effects,
+   typography and component structure unchanged.
+   ========================================================= */
+
+/* ---------- Tablet / compact desktop ---------- */
+@media (max-width: 1180px) {
+  /* Main page sections: use a consistent vertical rhythm */
+  .frameParent2 {
+    margin-top: 28px !important;
+  }
+
+  .frameParent5 {
+    margin-top: 52px !important;
+  }
+
+  .employeeInductionInner {
+    margin-top: 48px !important;
+  }
+
+  .frameParent21 {
+    margin-top: 56px !important;
+  }
+
+  .frameParent30 {
+    margin-top: 64px !important;
+  }
+
+  /* Hero internal spacing */
+  .frameParent3 {
+    gap: 26px !important;
+  }
+
+  .frameParent4 {
+    gap: 24px !important;
+  }
+
+  /* Challenge heading to cards */
+  .frameParent5 {
+    gap: 40px !important;
+  }
+
+  .frameParent6 {
+    gap: 22px !important;
+  }
+
+  /* Challenge card groups */
+  .frameParent7,
+  .frameParent8 {
+    gap: 36px !important;
+  }
+
+  .frameParent9,
+  .frameParent14 {
+    gap: 36px !important;
+  }
+
+  /* Benefits section */
+  .frameParent21 {
+    gap: 80px !important;
+  }
+
+  .frameParent22,
+  .frameParent23 {
+    gap: 20px !important;
+  }
+
+  .frameParent24 {
+    gap: 14px !important;
+  }
+
+  /* CTA */
+  .frameParent30 {
+    gap: 40px !important;
+  }
+
+  .frameParent31,
+  .enablingSmarterEmployeeOnboParent {
+    gap: 20px !important;
+  }
+}
+
+
+/* ---------- Tablet ---------- */
+@media (max-width: 900px) {
+  /* Consistent section spacing */
+  .frameParent2 {
+    margin-top: 24px !important;
+  }
+
+  .frameParent5 {
+    margin-top: 44px !important;
+  }
+
+  .employeeInductionChild {
+    margin-top: 44px !important;
+  }
+
+  .employeeInductionInner {
+    margin-top: 36px !important;
+  }
+
+  .frameParent21 {
+    margin-top: 48px !important;
+  }
+
+  .frameParent30 {
+    margin-top: 56px !important;
+  }
+
+  /* Hero */
+  .image21Parent {
+    padding: 28px !important;
+  }
+
+  .frameParent3 {
+    gap: 22px !important;
+  }
+
+  .frameParent4 {
+    gap: 20px !important;
+  }
+
+  /* Challenge intro */
+  .frameParent5 {
+    gap: 34px !important;
+  }
+
+  .frameParent6 {
+    gap: 18px !important;
+  }
+
+  /* Cards */
+  .frameParent7,
+  .frameParent8 {
+    gap: 30px !important;
+  }
+
+  .frameParent9,
+  .frameParent14 {
+    gap: 30px !important;
+  }
+
+  /* Benefits */
+  .frameParent21 {
+    gap: 44px !important;
+  }
+
+  .frameParent22,
+  .frameParent23 {
+    gap: 18px !important;
+  }
+
+  .frameWrapper3 {
+    margin-top: 0 !important;
+  }
+
+  .frameParent24 {
+    gap: 14px !important;
+  }
+
+  /* CTA */
+  .frameParent30 {
+    gap: 34px !important;
+  }
+
+  .frameParent31,
+  .enablingSmarterEmployeeOnboParent {
+    gap: 18px !important;
+  }
+}
+
+
+/* ---------- Mobile ---------- */
+@media (max-width: 600px) {
+  /* Main section rhythm */
+  .frameParent2 {
+    margin-top: 20px !important;
+  }
+
+  .frameParent5 {
+    margin-top: 36px !important;
+  }
+
+  .employeeInductionChild {
+    margin-top: 36px !important;
+  }
+
+  .employeeInductionInner {
+    margin-top: 28px !important;
+  }
+
+  .frameParent21 {
+    margin-top: 40px !important;
+  }
+
+  .frameParent30 {
+    margin-top: 44px !important;
+  }
+
+  /* Hero internal spacing */
+  .image21Parent {
+    padding: 20px !important;
+  }
+
+  .frameParent3 {
+    gap: 18px !important;
+  }
+
+  .frameParent4 {
+    gap: 16px !important;
+  }
+
+  .neurolxpSimplifiesOnboarding {
+    margin-top: 0 !important;
+  }
+
+  /* Challenge heading and cards */
+  .frameParent5 {
+    gap: 28px !important;
+  }
+
+  .frameParent6 {
+    gap: 14px !important;
+  }
+
+  .frameParent7,
+  .frameParent8 {
+    gap: 24px !important;
+  }
+
+  .frameParent9,
+  .frameParent14 {
+    gap: 24px !important;
+  }
+
+  .frameWrapper2 {
+    margin-top: 0 !important;
+  }
+
+  /* Keep text blocks inside cards evenly spaced */
+  .frameParent11,
+  .frameParent13 {
+    gap: 10px !important;
+  }
+
+  .challenge1Parent {
+    gap: 6px !important;
+  }
+
+  /* Benefits section */
+  .frameParent21 {
+    gap: 32px !important;
+  }
+
+  .frameParent22,
+  .frameParent23 {
+    gap: 14px !important;
+  }
+
+  .organizationsCanAchieve {
+    margin-top: 0 !important;
+  }
+
+  .frameWrapper3 {
+    margin-top: 0 !important;
+  }
+
+  .frameParent24 {
+    gap: 12px !important;
+  }
+
+  .frameParent25 {
+    gap: 12px !important;
+  }
+
+  /* Final CTA */
+  .frameParent30 {
+    gap: 28px !important;
+  }
+
+  .frameParent31,
+  .enablingSmarterEmployeeOnboParent {
+    gap: 14px !important;
+  }
+
+  .frameWrapper6 {
+    margin-top: 0 !important;
+  }
+}
+
+
+/* ---------- Very narrow mobile ---------- */
+@media (max-width: 380px) {
+  .frameParent5 {
+    margin-top: 32px !important;
+    gap: 24px !important;
+  }
+
+  .frameParent7,
+  .frameParent8,
+  .frameParent9,
+  .frameParent14 {
+    gap: 20px !important;
+  }
+
+  .frameParent21 {
+    margin-top: 36px !important;
+    gap: 28px !important;
+  }
+
+  .frameParent30 {
+    margin-top: 40px !important;
+    gap: 24px !important;
+  }
+}
+
+/* =========================================================
+   FINAL HERO + BENEFITS TABLET/MOBILE SPACING FIX
+   Spacing only. No colors, shadows, borders, typography,
+   hover effects, shapes, or other design effects changed.
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   TABLET
+   --------------------------------------------------------- */
+@media (max-width: 1023px) {
+  /* HERO:
+     Reduce the unused vertical space between the intro copy
+     and the employee image while preserving the same image
+     container shape/effects. */
+  .frameParent2 {
+    height: 560px !important;
+  }
+
+  .image21Parent {
+    inset: 24px !important;
+  }
+
+  .frameParent3 {
+    top: 46% !important;
+  }
+
+  .businessmenClosingDealWithWrapper {
+    top: 42px !important;
+    bottom: 42px !important;
+    height: auto !important;
+  }
+
+  /* BENEFITS:
+     The TSX contains trailing <br> elements after both the
+     heading and description. They are unnecessary once the
+     section stacks vertically, so remove only those visual
+     line-break gaps on tablet/mobile. */
+  .benefitsOfEmployee br,
+  .organizationsCanAchieve br {
+    display: none !important;
+  }
+
+  .frameParent22 {
+    gap: 20px !important;
+  }
+
+  .frameParent23 {
+    gap: 16px !important;
+  }
+
+  .organizationsCanAchieve {
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+  }
+
+  .frameParent21 {
+    gap: 32px !important;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   MOBILE
+   --------------------------------------------------------- */
+@media (max-width: 767px) {
+  /* HERO:
+     Keep the same stacked design but position the image higher
+     so there is a balanced gap after the paragraph. */
+  .frameParent2 {
+    height: 660px !important;
+  }
+
+  .image21Parent {
+    inset: 16px !important;
+  }
+
+  .frameParent3 {
+    top: 24px !important;
+    gap: 16px !important;
+  }
+
+  .frameParent4 {
+    gap: 16px !important;
+  }
+
+  .neurolxpSimplifiesOnboarding {
+    margin: 0 !important;
+  }
+
+  .businessmenClosingDealWithWrapper {
+    top: auto !important;
+    right: 50% !important;
+    bottom: 18px !important;
+
+    width: min(88%, 410px) !important;
+    height: 345px !important;
+
+    transform: translateX(50%) !important;
+  }
+
+  .businessmenClosingDealWithIcon {
+    top: 18px !important;
+    height: calc(100% - 18px) !important;
+  }
+
+  /* BENEFITS:
+     Tight, professional rhythm:
+     badge -> heading -> description -> benefits card. */
+  .frameParent21 {
+    margin-top: 40px !important;
+    gap: 24px !important;
+  }
+
+  .frameParent22 {
+    gap: 18px !important;
+  }
+
+  .frameParent23 {
+    gap: 14px !important;
+  }
+
+  .benefitsOfEmployee {
+    margin: 0 !important;
+  }
+
+  .benefitsOfEmployee br,
+  .organizationsCanAchieve br {
+    display: none !important;
+  }
+
+  .organizationsCanAchieve {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    line-height: 27px !important;
+  }
+
+  .frameWrapper3 {
+    margin-top: 4px !important;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   SMALL MOBILE
+   --------------------------------------------------------- */
+@media (max-width: 479px) {
+  .frameParent2 {
+    height: 630px !important;
+  }
+
+  .frameParent3 {
+    top: 20px !important;
+    gap: 14px !important;
+  }
+
+  .frameParent4 {
+    gap: 14px !important;
+  }
+
+  .businessmenClosingDealWithWrapper {
+    bottom: 16px !important;
+    height: 330px !important;
+  }
+
+  .frameParent21 {
+    margin-top: 36px !important;
+    gap: 22px !important;
+  }
+
+  .frameParent22 {
+    gap: 16px !important;
+  }
+
+  .frameWrapper3 {
+    margin-top: 2px !important;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   VERY NARROW MOBILE
+   --------------------------------------------------------- */
+@media (max-width: 380px) {
+  .frameParent2 {
+    height: 610px !important;
+  }
+
+  .businessmenClosingDealWithWrapper {
+    height: 310px !important;
+  }
+
+  .frameParent21 {
+    gap: 20px !important;
+  }
+}
+
+/* =========================================================
+   FINAL BENEFITS LIST — TABLET/MOBILE SPACING + TEXT SIZE
+   Only affects the Benefits list card at smaller viewports.
+   No colors, shadows, borders, icon effects, or desktop design changed.
+   ========================================================= */
+
+@media (max-width: 1023px) {
+  /* Let the benefits list card size itself to its content
+     instead of keeping excessive fixed vertical space. */
+  .frameWrapper3 {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .frameWrapper4 {
+    position: relative !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .frameWrapper5 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+
+    width: calc(100% - 24px) !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 12px !important;
+    padding: 0 !important;
+  }
+
+  .frameParent24 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+
+    width: auto !important;
+    height: auto !important;
+
+    padding: 28px 24px !important;
+    gap: 16px !important;
+  }
+
+  .frameParent25 {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 70px !important;
+    gap: 16px !important;
+  }
+
+  /* Match the benefit labels more closely to the surrounding text scale. */
+  .fasterEmployeeIntegration,
+  .consistentValuesAnd,
+  .betterOnboardingEngagement,
+  .easyProgressTracking,
+  .reducedHrWorkload {
+    width: calc(100% - 86px) !important;
+    height: auto !important;
+
+    font-size: 19px !important;
+    line-height: 28px !important;
+
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+  .frameWrapper5 {
+    width: calc(100% - 20px) !important;
+    margin: 10px !important;
+  }
+
+  .frameParent24 {
+    padding: 22px 18px 24px !important;
+    gap: 12px !important;
+  }
+
+  .frameParent25 {
+    min-height: 62px !important;
+    gap: 14px !important;
+  }
+
+  .fasterEmployeeIntegration,
+  .consistentValuesAnd,
+  .betterOnboardingEngagement,
+  .easyProgressTracking,
+  .reducedHrWorkload {
+    width: calc(100% - 76px) !important;
+
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+}
+
+
+/* Small mobile */
+@media (max-width: 479px) {
+  .frameParent24 {
+    padding: 20px 16px 22px !important;
+    gap: 10px !important;
+  }
+
+  .frameParent25 {
+    min-height: 60px !important;
+    gap: 12px !important;
+  }
+
+  .fasterEmployeeIntegration,
+  .consistentValuesAnd,
+  .betterOnboardingEngagement,
+  .easyProgressTracking,
+  .reducedHrWorkload {
+    width: calc(100% - 72px) !important;
+
+    font-size: 17px !important;
+    line-height: 24px !important;
+  }
+}
+
+
+/* Very narrow phones */
+@media (max-width: 380px) {
+  .frameParent24 {
+    padding: 18px 14px 20px !important;
+  }
+
+  .fasterEmployeeIntegration,
+  .consistentValuesAnd,
+  .betterOnboardingEngagement,
+  .easyProgressTracking,
+  .reducedHrWorkload {
+    font-size: 16px !important;
+    line-height: 23px !important;
+  }
+}
+
+/* Book a Demo navigation — remove native button/browser wrapper chrome only */
+button.frameChild19 {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button.frameChild19:focus,
+button.frameChild19:focus-visible {
+  outline: 0;
+}
+
+/* =========================================================
+   REQUESTED CORRECTION ONLY
+   1) Center "Start Strong! Learn Fast! Succeed Sooner!"
+   2) Reduce only the space before the Benefits section
+   ========================================================= */
+@media (min-width: 1024px) {
+  .employeeInductionInner {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .employeeInductionInner .structuredOnboardingForProdWrapper,
+  .employeeInductionInner .structuredOnboardingFor {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .frameParent21 {
+    margin-top: 32px !important;
+  }
+}
+
+/* Center Structured Onboarding layer only */
+.frameParent5 .frameParent6,
+.frameParent5 .frameWrapper,
+.frameParent5 .structuredOnboardingForProdWrapper,
+.frameParent5 .structuredOnboardingFor,
+.frameParent5 .neurolxpHelpsOrganizations {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+/* BUTTON HOVER ONLY */
+.employeeInduction .signInHelpWrapper,
+.employeeInduction .frameChild19 {
+  cursor: pointer;
+  transition:
+    box-shadow 180ms ease,
+    transform 180ms ease,
+    color 180ms ease !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .employeeInduction .signInHelpWrapper:hover,
+  .employeeInduction .frameChild19:hover {
+    box-shadow:
+      inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px #c4c4c4 !important;
+    transform: translateY(1px) !important;
+    color: #243fa8 !important;
+  }
+}
+
+.employeeInduction .signInHelpWrapper:active,
+.employeeInduction .frameChild19:active {
+  box-shadow:
+    inset -3px -3px 4px #ffffff,
+    inset 4px 4px 5px #bfc2c4 !important;
+  transform: translateY(2px) !important;
+}
+
+.employeeInduction .signInHelpWrapper:focus-visible,
+.employeeInduction .frameChild19:focus-visible {
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4 !important;
+  transform: translateY(1px) !important;
+  outline: none !important;
+}
+
+
+/* ============================================================
+   REQUESTED CORRECTIONS ONLY
+   ============================================================ */
+
+/* Keep "Employees" in the Structured Onboarding heading visible
+   using the same pink-to-blue treatment as the full sentence. */
+.employeeInduction .structuredOnboardingFor,
+.employeeInduction .structuredOnboardingFor span,
+.employeeInduction .structuredOnboardingFor strong,
+.employeeInduction .structuredOnboardingFor b {
+  background: linear-gradient(90deg, #bf1869 14.9%, #2d4cc8 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+}
+
+
+/* Desktop/tablet Benefits list — keep the right-side labels on one line. */
+@media screen and (min-width: 768px) {
+  .employeeInduction .frameParent24 .fasterEmployeeIntegration,
+  .employeeInduction .frameParent24 .consistentValuesAnd,
+  .employeeInduction .frameParent24 .betterOnboardingEngagement,
+  .employeeInduction .frameParent24 .easyProgressTracking,
+  .employeeInduction .frameParent24 .reducedHrWorkload {
+    width: auto !important;
+    max-width: none !important;
+    flex: 1 1 auto !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+}
+
+
+/* Mobile hero only */
+@media screen and (max-width: 767.98px) {
+
+  /* Remove only the circular/oval background around the employee image.
+     Keep the employee image itself. */
+  .employeeInduction .businessmenClosingDealWithWrapper {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+  }
+
+  /* Keep the hero pill fully inside the card and prevent overlap. */
+  .employeeInduction .frameParent2 .frameIcon {
+    width: fit-content !important;
+    max-width: calc(100% - 24px) !important;
+    height: auto !important;
+    min-height: 40px !important;
+
+    margin: 0 auto 2px !important;
+    padding: 7px 12px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    font-size: 13px !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    white-space: normal !important;
+
+    flex-shrink: 0 !important;
+  }
+
+  .employeeInduction .frameParent2 .frameParent4 {
+    height: auto !important;
+    min-height: 0 !important;
+    gap: 16px !important;
+  }
+
+  .employeeInduction .frameParent2 .frameParent3 {
+    top: 24px !important;
+  }
+}
+
+
+/* 320–479px phones */
+@media screen and (max-width: 479.98px) {
+  .employeeInduction .frameParent2 .frameIcon {
+    max-width: calc(100% - 16px) !important;
+    min-height: 38px !important;
+    padding: 6px 10px !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+  }
+
+  .employeeInduction .frameParent2 .frameParent3 {
+    top: 22px !important;
+  }
+}
+
+
+/* ============================================================
+   REQUESTED FIX ONLY
+   1) Hero pill text stays fully inside the pill
+   2) "Employees" is fully visible and no longer overlaps
+   ============================================================ */
+
+/* Desktop / large tablet */
+@media screen and (min-width: 1024px) {
+
+  /* Give the hero pill enough room for the complete label */
+  .employeeInduction .frameParent2 .frameIcon {
+    width: 400px !important;
+    max-width: 400px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    white-space: nowrap !important;
+  }
+
+  /* The heading is intentionally two lines.
+     Increase only its wrapper height so "Employees" does not
+     sit on top of the description below. */
+  .employeeInduction .frameParent5 .frameWrapper {
+    height: auto !important;
+    min-height: 118px !important;
+  }
+
+  .employeeInduction .frameParent5 .structuredOnboardingForProdWrapper {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 118px !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .employeeInduction .frameParent5 .structuredOnboardingFor {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 118px !important;
+
+    margin: 0 !important;
+
+    line-height: 56px !important;
+    overflow: visible !important;
+
+    background: linear-gradient(
+      90deg,
+      #bf1869 14.9%,
+      #2d4cc8 100%
+    ) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: transparent !important;
+  }
+
+  /* Keep the description safely below the two-line heading */
+  .employeeInduction .frameParent5 .neurolxpHelpsOrganizations {
+    margin-top: 4px !important;
+  }
+}
+
+
+
+/* =====================================================================
+   HOME PAGE ALIGNMENT
+   Scoped specificity intentionally wins over the supplied legacy overrides.
+   No viewport zoom, fixed text heights, or translated section spacing.
+   64px section rhythm / 48px on phones; 24px content gaps / 16px on phones.
+   ===================================================================== */
+
+.employeeInduction.employeeInduction {
+  --page-font: "Segoe UI", "Inter", sans-serif !important;
+  --page-bg: #dfe6e9 !important;
+  --page-blue: #2d4cc8 !important;
+  --page-raised: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9 !important;
+  --page-inset: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196,196,196,.8) !important;
+  --page-section-gap: 64px !important;
+  --page-content-gap: 24px !important;
+  --page-heading: 36px !important;
+  --page-body: 24px !important;
+  --page-badge: 24px !important;
+  --page-button: 24px !important;
+  --page-icon: 70px !important;
+  --page-inner-icon: 52px !important;
+  --page-panel-padding: 32px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  zoom: 1 !important;
+  padding: 0 24px 48px !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 0 !important;
+  font-family: var(--page-font) !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  background: var(--page-bg) !important;
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+
+.employeeInduction.employeeInduction *,
+.employeeInduction.employeeInduction *::before,
+.employeeInduction.employeeInduction *::after {
+  box-sizing: border-box !important;
+}
+
+.employeeInduction.employeeInduction :where(h1,h2,h3,h4,p,a,button,input,textarea,select,span,div,li,strong,b) {
+  font-family: var(--page-font) !important;
+}
+
+.employeeInduction.employeeInduction :where(img,svg,video) {
+  max-width: 100% !important;
+}
+
+.employeeInduction.employeeInduction .frameParent2,
+.employeeInduction.employeeInduction .frameParent5,
+.employeeInduction.employeeInduction .employeeInductionInner,
+.employeeInduction.employeeInduction .frameParent21,
+.employeeInduction.employeeInduction .frameParent30,
+.employeeInduction.employeeInduction .frameDiv {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 1280px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: var(--page-section-gap) auto 0 !important;
+  transform: none !important;
+  translate: none !important;
+  aspect-ratio: auto !important;
+  flex-shrink: 0 !important;
+}
+
+.employeeInduction.employeeInduction .frameDiv {
+  margin: 24px auto 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: wrap !important;
+  column-gap: 8px !important;
+  row-gap: 4px !important;
+  padding: 0 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  white-space: normal !important;
+  overflow: visible !important;
+}
+
+.employeeInduction.employeeInduction .frameDiv .resourcesWrapper,
+.employeeInduction.employeeInduction .frameDiv .arrowRightDoubleGroup {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.employeeInduction.employeeInduction .frameDiv .useCases,
+.employeeInduction.employeeInduction .frameDiv .resources,
+.employeeInduction.employeeInduction .frameDiv a,
+.employeeInduction.employeeInduction .frameDiv span {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+}
+
+.employeeInduction.employeeInduction .frameDiv .breadcrumbArrow,
+.employeeInduction.employeeInduction .frameDiv img,
+.employeeInduction.employeeInduction .frameDiv svg {
+  width: 16px !important;
+  height: 16px !important;
+  flex: 0 0 16px !important;
+  object-fit: contain !important;
+}
+
+.employeeInduction.employeeInduction .frameDiv a {
+  color: var(--page-blue) !important;
+  text-decoration: none !important;
+  text-underline-offset: 3px !important;
+}
+
+.employeeInduction.employeeInduction .frameDiv a:hover {
+  text-decoration: underline !important;
+}
+
+.employeeInduction.employeeInduction .frameParent2 {
+  margin-top: 24px !important;
+}
+
+.employeeInduction.employeeInduction .frameIcon,
+.employeeInduction.employeeInduction .frameChild12,
+.employeeInduction.employeeInduction .frameChild18 {
+  position: relative !important;
+  inset: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: auto !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 56px !important;
+  margin: 0 !important;
+  padding: 12px 36px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: var(--page-bg) !important;
+  box-shadow: var(--page-inset) !important;
+  font-family: var(--page-font) !important;
+  font-size: var(--page-badge) !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: .03em !important;
+  color: var(--page-blue) !important;
+  white-space: normal !important;
+  text-align: center !important;
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  flex-shrink: 0 !important;
+  transform: none !important;
+}
+
+.employeeInduction.employeeInduction .frameChild19 {
+  position: relative !important;
+  inset: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  width: fit-content !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 48px !important;
+  padding: 16px 32px !important;
+  margin: 0 !important;
+  appearance: none !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  background: var(--page-bg) !important;
+  box-shadow: var(--page-raised) !important;
+  font-family: var(--page-font) !important;
+  font-size: var(--page-button) !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: .02em !important;
+  color: var(--page-blue) !important;
+  text-decoration: none !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  transform: none !important;
+  touch-action: manipulation !important;
+  transition: box-shadow .2s ease !important;
+  overflow: visible !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.employeeInduction.employeeInduction .frameChild19:hover {
+  box-shadow: var(--page-inset) !important;
+  transform: none !important;
+}
+}
+
+.employeeInduction.employeeInduction .frameChild19:active {
+  box-shadow: var(--page-inset) !important;
+  transform: none !important;
+}
+
+.employeeInduction.employeeInduction .frameChild19:focus-visible,
+.employeeInduction.employeeInduction .frameDiv a:focus-visible {
+  outline: 3px solid var(--page-blue) !important;
+  outline-offset: 4px !important;
+  transform: none !important;
+}
+
+.employeeInduction.employeeInduction .transformOnboardingIntoContainer,
+.employeeInduction.employeeInduction .structuredOnboardingFor,
+.employeeInduction.employeeInduction .benefitsOfEmployee,
+.employeeInduction.employeeInduction .enablingSmarterEmployeeContainer {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  font-size: var(--page-heading) !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: .03em !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  text-wrap: balance !important;
+  overflow: visible !important;
+  display: block !important;
+}
+
+.employeeInduction.employeeInduction .transformOnboardingIntoContainer :where(span,strong,b),
+.employeeInduction.employeeInduction .structuredOnboardingFor :where(span,strong,b),
+.employeeInduction.employeeInduction .benefitsOfEmployee :where(span,strong,b),
+.employeeInduction.employeeInduction .enablingSmarterEmployeeContainer :where(span,strong,b) {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+.employeeInduction.employeeInduction .neurolxpSimplifiesOnboarding,
+.employeeInduction.employeeInduction .neurolxpHelpsOrganizations,
+.employeeInduction.employeeInduction .organizationsCanAchieve,
+.employeeInduction.employeeInduction .neurolxpMakesOnboarding {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  font-size: var(--page-body) !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  letter-spacing: .03em !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  overflow: visible !important;
+  display: block !important;
+}
+
+.employeeInduction.employeeInduction .fasterEmployeeIntegration,
+.employeeInduction.employeeInduction .consistentValuesAnd,
+.employeeInduction.employeeInduction .betterOnboardingEngagement,
+.employeeInduction.employeeInduction .easyProgressTracking,
+.employeeInduction.employeeInduction .reducedHrWorkload {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  font-size: var(--page-body) !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  text-align: left !important;
+  flex: 1 1 0 !important;
+  display: block !important;
+}
+
+.employeeInduction.employeeInduction .benefitIconOuter,
+.employeeInduction.employeeInduction .benefitIconCircle {
+  width: var(--page-icon) !important;
+  height: var(--page-icon) !important;
+  min-width: var(--page-icon) !important;
+  flex: 0 0 var(--page-icon) !important;
+}
+
+.employeeInduction.employeeInduction .benefitIconInner {
+  width: var(--page-inner-icon) !important;
+  height: var(--page-inner-icon) !important;
+  min-width: var(--page-inner-icon) !important;
+  flex: 0 0 var(--page-inner-icon) !important;
+}
+
+@media (max-width: 1023.98px) {
+.employeeInduction.employeeInduction {
+  --page-heading: 36px !important;
+  --page-body: 20px !important;
+  --page-button: 20px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction {
+  --page-section-gap: 48px !important;
+  --page-content-gap: 16px !important;
+  --page-heading: 36px !important;
+  --page-body: 16px !important;
+  --page-badge: 20px !important;
+  --page-button: 18px !important;
+  --page-icon: 56px !important;
+  --page-inner-icon: 40px !important;
+  --page-panel-padding: 16px !important;
+  padding: 0 16px 32px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .frameDiv {
+  font-size: 14px !important;
+  line-height: 22px !important;
+  margin-top: 16px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .frameParent2 {
+  margin-top: 16px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .frameIcon,
+.employeeInduction.employeeInduction .frameChild12,
+.employeeInduction.employeeInduction .frameChild18 {
+  min-height: 48px !important;
+  padding: 10px 26px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .frameChild19 {
+  padding: 14px 24px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .benefitIcon,
+.employeeInduction.employeeInduction .benefitIconImage {
+  width: 28px !important;
+  height: 28px !important;
+}
+}
+
+.employeeInduction.employeeInduction .frameParent2 {
+  padding: var(--page-panel-padding) !important;
+  overflow: visible !important;
+}
+
+.employeeInduction.employeeInduction .image21Parent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: hidden !important;
+  display: grid !important;
+  grid-template-columns: minmax(0,1.15fr) minmax(0,1fr) !important;
+  align-items: center !important;
+  gap: 32px !important;
+  padding: var(--page-panel-padding) !important;
+  isolation: isolate !important;
+}
+
+.employeeInduction.employeeInduction .image21,
+.employeeInduction.employeeInduction .groupYoungBusinesspeopleUsi {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  z-index: -1 !important;
+  pointer-events: none !important;
+}
+
+.employeeInduction.employeeInduction .frameParent3,
+.employeeInduction.employeeInduction .frameParent4 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: flex-start !important;
+  z-index: 1 !important;
+}
+
+.employeeInduction.employeeInduction .businessmenClosingDealWithWrapper {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 440px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: 1 / 1 !important;
+  overflow: hidden !important;
+  justify-self: center !important;
+}
+
+/* Leave headroom inside the curved top of the circular frame. */
+.employeeInduction.employeeInduction .businessmenClosingDealWithIcon {
+  position: absolute !important;
+  inset: 12% 8% 0 !important;
+  width: 84% !important;
+  height: 88% !important;
+  max-width: 84% !important;
+  transform: none !important;
+  object-fit: contain !important;
+  object-position: center bottom !important;
+}
+
+.employeeInduction.employeeInduction .frameParent5,
+.employeeInduction.employeeInduction .frameParent6 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.employeeInduction.employeeInduction .frameParent5 {
+  margin: var(--page-section-gap) auto 0 !important;
+  gap: 32px !important;
+}
+
+.employeeInduction.employeeInduction .frameWrapper,
+.employeeInduction.employeeInduction .structuredOnboardingForProdWrapper {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  padding: 0 !important;
+}
+
+.employeeInduction.employeeInduction .frameParent7,
+.employeeInduction.employeeInduction .frameParent8 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+}
+
+.employeeInduction.employeeInduction .frameParent7 {
+  max-width: 1050px !important;
+  margin: 0 auto !important;
+}
+
+.employeeInduction.employeeInduction .frameParent9,
+.employeeInduction.employeeInduction .frameParent14 {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+}
+
+.employeeInduction.employeeInduction .frameParent10,
+.employeeInduction.employeeInduction .frameParent12,
+.employeeInduction.employeeInduction .frameParent17 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 230px !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 40px 32px !important;
+}
+
+.employeeInduction.employeeInduction .frameChild2 {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: none !important;
+}
+
+.employeeInduction.employeeInduction .frameChild3,
+.employeeInduction.employeeInduction .frameChild5,
+.employeeInduction.employeeInduction .frameChild7,
+.employeeInduction.employeeInduction .frameChild9,
+.employeeInduction.employeeInduction .frameChild11 {
+  position: absolute !important;
+  inset: 16px !important;
+  width: auto !important;
+  height: auto !important;
+  pointer-events: none !important;
+}
+
+.employeeInduction.employeeInduction .frameParent11,
+.employeeInduction.employeeInduction .frameParent13,
+.employeeInduction.employeeInduction .challenge1Parent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 1 !important;
+}
+
+.employeeInduction.employeeInduction .challenge1 {
+  width: auto !important;
+  height: auto !important;
+  font-size: 36px !important;
+  line-height: 1.2 !important;
+  margin: 0 !important;
+}
+
+.employeeInduction.employeeInduction .inconsistentOnboarding,
+.employeeInduction.employeeInduction .informationOverload {
+  width: 100% !important;
+  height: auto !important;
+  font-size: 24px !important;
+  line-height: 1.3 !important;
+  white-space: normal !important;
+  text-align: center !important;
+}
+
+.employeeInduction.employeeInduction .differentTeamsDeliver,
+.employeeInduction.employeeInduction .newHiresReceive {
+  width: 100% !important;
+  height: auto !important;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+  text-align: center !important;
+}
+
+.employeeInduction.employeeInduction .frameWrapper2 {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.employeeInduction.employeeInduction .frameWrapper2 > .frameParent10 {
+  width: calc((100% - 24px) / 2) !important;
+}
+
+.employeeInduction.employeeInduction .employeeInductionChild {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 1280px !important;
+  height: 4px !important;
+  margin: 32px auto 0 !important;
+  transform: none !important;
+}
+
+.employeeInduction.employeeInduction .employeeInductionInner {
+  margin-top: 32px !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.employeeInduction.employeeInduction .frameParent21 {
+  display: grid !important;
+  grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+  align-items: center !important;
+  gap: 48px !important;
+  margin-top: 32px !important;
+}
+
+.employeeInduction.employeeInduction .frameParent22,
+.employeeInduction.employeeInduction .frameParent23 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+}
+
+.employeeInduction.employeeInduction .frameWrapper3,
+.employeeInduction.employeeInduction .frameWrapper4 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  padding: 0 !important;
+}
+
+.employeeInduction.employeeInduction .frameWrapper4 {
+  padding: 16px !important;
+  overflow: visible !important;
+}
+
+.employeeInduction.employeeInduction .frameWrapper5 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  padding: 24px !important;
+}
+
+.employeeInduction.employeeInduction .frameParent24 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  padding: 0 !important;
+  align-items: stretch !important;
+}
+
+.employeeInduction.employeeInduction .frameParent25 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: grid !important;
+  grid-template-columns: var(--page-icon) minmax(0,1fr) !important;
+  align-items: center !important;
+  gap: 16px !important;
+}
+
+.employeeInduction.employeeInduction .frameParent30,
+.employeeInduction.employeeInduction .frameParent31,
+.employeeInduction.employeeInduction .enablingSmarterEmployeeOnboParent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.employeeInduction.employeeInduction .frameParent30 {
+  margin: var(--page-section-gap) auto 0 !important;
+  padding: 0 !important;
+}
+
+.employeeInduction.employeeInduction .frameWrapper6 {
+  width: fit-content !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  border-radius: 8px !important;
+}
+
+@media (max-width: 1023.98px) {
+.employeeInduction.employeeInduction .image21Parent,
+.employeeInduction.employeeInduction .frameParent21 {
+  grid-template-columns: minmax(0,1fr) !important;
+  gap: 32px !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.employeeInduction.employeeInduction .frameParent3,
+.employeeInduction.employeeInduction .frameParent4,
+.employeeInduction.employeeInduction .frameParent22,
+.employeeInduction.employeeInduction .frameParent23 {
+  align-items: center !important;
+  text-align: center !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.employeeInduction.employeeInduction .frameWrapper3 {
+  max-width: 620px !important;
+  margin: 0 auto !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.employeeInduction.employeeInduction .businessmenClosingDealWithWrapper {
+  max-width: 360px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .frameParent9,
+.employeeInduction.employeeInduction .frameParent14 {
+  grid-template-columns: minmax(0,1fr) !important;
+}
+
+/* Keep the last CTA/button safely above the footer. */
+.employeeInduction.employeeInduction .frameParent30 {
+  margin-bottom: 48px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .frameParent10,
+.employeeInduction.employeeInduction .frameParent12,
+.employeeInduction.employeeInduction .frameParent17,
+.employeeInduction.employeeInduction .frameWrapper2 > .frameParent10 {
+  width: 100% !important;
+  min-height: 0 !important;
+  padding: 32px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .inconsistentOnboarding,
+.employeeInduction.employeeInduction .informationOverload {
+  font-size: 20px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .differentTeamsDeliver,
+.employeeInduction.employeeInduction .newHiresReceive {
+  font-size: 16px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .frameWrapper4 {
+  padding: 12px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.employeeInduction.employeeInduction .frameWrapper5 {
+  padding: 20px 16px !important;
+}
+}
+
+.employeeInduction.employeeInduction img.frameIcon,
+.employeeInduction.employeeInduction img.frameChild12,
+.employeeInduction.employeeInduction img.frameChild18,
+.employeeInduction.employeeInduction img.frameChild19 {
+  width: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+.employeeInduction.employeeInduction *,
+.employeeInduction.employeeInduction *::before,
+.employeeInduction.employeeInduction *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+}
+
+
+/* Breadcrumbs matched to the previous Customer Training page. */
+.employeeInduction.employeeInduction.employeeInduction {
+  --matched-breadcrumb-width: min(100vw, 1280px);
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) {
+  position: relative !important;
+  inset: auto !important;
+  box-sizing: border-box !important;
+  width: var(--matched-breadcrumb-width) !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  align-self: center !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+  padding: 12px 20px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  font-family: "Segoe UI", "Inter" !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  letter-spacing: 0.02em !important;
+  color: #2f3547 !important;
+  text-align: left !important;
+  white-space: nowrap !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+  translate: none !important;
+  overflow-x: auto !important;
+  scrollbar-width: none;
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"])::-webkit-scrollbar { display: none; }
+
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(ol, ul, .resourcesWrapper, .arrowRightDoubleGroup, li) {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  flex-shrink: 0 !important;
+  gap: 8px !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  font: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button, span, b, strong, .useCases, .resources, .home) {
+  font-family: "Segoe UI", "Inter" !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  white-space: nowrap !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  text-shadow: none !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button) {
+  display: inline-flex !important;
+  align-items: center !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  text-underline-offset: 4px !important;
+  cursor: pointer !important;
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, strong, [aria-current="page"], li:last-child) {
+  color: #243fa8 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  flex-shrink: 0 !important;
+  white-space: nowrap !important;
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(img, svg, .breadcrumbArrow, .arrowRightDoubleIcon, .arrowRightDoubleIcon2, .arrowDown01Icon) {
+  display: block !important;
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  flex: 0 0 16px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+  transform: none !important;
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button):hover { text-decoration: underline !important; }
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button):focus-visible {
+  outline: 3px solid #2d4cc8 !important;
+  outline-offset: 3px !important;
+}
+
+@media (min-width: 768px) {
+  .employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) { padding-top: 32px !important; }
+}
+
+@media (min-width: 1280px) {
+  .employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) { padding-inline: 80px !important; }
+}
+
+@media (min-width: 1440px) {
+  .employeeInduction.employeeInduction.employeeInduction { --matched-breadcrumb-width: min(100vw, 1440px); }
+}
+
+@media (max-width: 480px) {
+  .employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) { font-size: 12px !important; line-height: 18px !important; }
+  .employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, strong, [aria-current="page"], li:last-child) {
+    font-weight: 700 !important;
+  }
+}
+
+/* Current breadcrumb: the screenshot uses #243fa8 with bold text.
+   Set the label itself as well as nested text, overriding inherited colors. */
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) > :last-child:not(img, svg, ol, ul),
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, [aria-current="page"], strong, li:last-child),
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) > :last-child:not(img, svg, ol, ul) :is(a, button, span, div, b, strong),
+.employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, [aria-current="page"], strong, li:last-child) :is(a, button, span, div, b, strong) {
+  color: #243fa8 !important;
+  -webkit-text-fill-color: #243fa8 !important;
+  font-weight: 700 !important;
+  text-shadow: none !important;
+}
+
+/* Same breadcrumb alignment as Customer Training. */
+@media (min-width: 768px) {
+  .employeeInduction.employeeInduction.employeeInduction :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) {
+    transform: translateX(-16px) !important;
+  }
+}
+
+/* Consistent main page headings at every viewport size. */
+.employeeInduction.employeeInduction.employeeInduction :is(
+  h1,
+  h2,
+  .transformOnboardingIntoContainer,
+  .structuredOnboardingFor,
+  .benefitsOfEmployee,
+  .enablingSmarterEmployeeContainer
+) {
+  font-size: 36px !important;
+  line-height: 44px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(
+  h1,
+  h2,
+  .transformOnboardingIntoContainer,
+  .structuredOnboardingFor,
+  .benefitsOfEmployee,
+  .enablingSmarterEmployeeContainer
+) :is(span, strong, b) {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+/* Benefits: remove blank lines after the copy and use a compact gap. */
+.employeeInduction.employeeInduction.employeeInduction .frameParent22 {
+  height: auto !important;
+  min-height: 0 !important;
+  gap: 16px !important;
+  justify-content: flex-start !important;
+}
+
+.employeeInduction.employeeInduction.employeeInduction .frameParent23 {
+  height: auto !important;
+  min-height: 0 !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  justify-content: flex-start !important;
+  flex: 0 0 auto !important;
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(.benefitsOfEmployee, .organizationsCanAchieve) {
+  height: auto !important;
+  min-height: 0 !important;
+  margin-block: 0 !important;
+  padding-block: 0 !important;
+}
+
+.employeeInduction.employeeInduction.employeeInduction :is(.benefitsOfEmployee, .organizationsCanAchieve) br:last-child,
+.employeeInduction.employeeInduction.employeeInduction :is(.benefitsOfEmployee, .organizationsCanAchieve) br:has(+ br:last-child),
+.employeeInduction.employeeInduction.employeeInduction .organizationsCanAchieve > br:first-child {
+  display: none !important;
+}
+
+/* Employee Induction: heading accent and consistent two-line copy. */
+.employeeInduction.employeeInduction.employeeInduction .benefitsOfEmployee .headingBrand {
+  color: #2d4cc8 !important;
+  -webkit-text-fill-color: #2d4cc8 !important;
+  background: none !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  font-weight: inherit !important;
+}
+.employeeInduction.employeeInduction.employeeInduction .frameParent6 .structuredOnboardingFor,
+.employeeInduction.employeeInduction.employeeInduction .neurolxpHelpsOrganizations {
+  height: auto !important;
+  min-height: 0 !important;
+  width: 100% !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+  text-wrap: initial !important;
+}
+.employeeInduction.employeeInduction.employeeInduction .sectionHeadingLine,
+.employeeInduction.employeeInduction.employeeInduction .copyLine {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  font-weight: inherit !important;
+  letter-spacing: inherit !important;
+  text-align: center !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
+.employeeInduction.employeeInduction.employeeInduction .differentTeamsDeliver,
+.employeeInduction.employeeInduction.employeeInduction .newHiresReceive {
+  min-height: 3em !important;
+  text-align: center !important;
+}
+/* Main headings only: restore the requested mobile size. */
+@media (max-width: 767.98px) {
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    .transformOnboardingIntoContainer,
+    .structuredOnboardingFor,
+    .benefitsOfEmployee,
+    .enablingSmarterEmployeeContainer
+  ) {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+}
+
+
+/* =========================================================
+   FINAL MOBILE TYPOGRAPHY FIX
+   Main headings: 24px
+   Main supporting/subheading text: 16px
+   Mobile only — no desktop/tablet design changes.
+   Keep this block at the VERY END of the stylesheet.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  .employeeInduction.employeeInduction {
+    --page-heading: 24px !important;
+    --page-body: 16px !important;
+  }
+
+  /* Main page/section headings only */
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    h1,
+    h2,
+    .transformOnboardingIntoContainer,
+    .structuredOnboardingFor,
+    .benefitsOfEmployee,
+    .enablingSmarterEmployeeContainer
+  ) {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    h1,
+    h2,
+    .transformOnboardingIntoContainer,
+    .structuredOnboardingFor,
+    .benefitsOfEmployee,
+    .enablingSmarterEmployeeContainer
+  ) :is(span, strong, b) {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+
+  /* Main supporting/subheading copy only */
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    .neurolxpSimplifiesOnboarding,
+    .neurolxpHelpsOrganizations,
+    .organizationsCanAchieve,
+    .neurolxpMakesOnboarding
+  ) {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+}
+
+
+/* ======================================================================
+   FINAL MOBILE BENEFITS + BADGE CORRECTION
+   Keep this block as the LAST block in this stylesheet.
+   - Mobile page headings remain 24px
+   - Supporting copy remains 16px
+   - Section badges stay on ONE line
+   - Benefits list becomes TWO columns
+   - Every benefit title is balanced into TWO lines
+   - Fifth benefit is centered on the final row
+   ====================================================================== */
+@media (max-width: 767.98px) {
+
+  /* --------------------------------------------------
+     MOBILE TYPOGRAPHY — keep previous 24px / 16px request
+     -------------------------------------------------- */
+  .employeeInduction.employeeInduction {
+    --page-heading: 24px !important;
+    --page-body: 16px !important;
+  }
+
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    h1,
+    h2,
+    .transformOnboardingIntoContainer,
+    .structuredOnboardingFor,
+    .benefitsOfEmployee,
+    .enablingSmarterEmployeeContainer
+  ) {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    h1,
+    h2,
+    .transformOnboardingIntoContainer,
+    .structuredOnboardingFor,
+    .benefitsOfEmployee,
+    .enablingSmarterEmployeeContainer
+  ) :is(span, strong, b) {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    .neurolxpSimplifiesOnboarding,
+    .neurolxpHelpsOrganizations,
+    .organizationsCanAchieve,
+    .neurolxpMakesOnboarding
+  ) {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  /* --------------------------------------------------
+     BADGES — ONE LINE ONLY
+     -------------------------------------------------- */
+  .employeeInduction.employeeInduction .frameIcon,
+  .employeeInduction.employeeInduction .frameChild12,
+  .employeeInduction.employeeInduction .frameChild18 {
+    width: max-content !important;
+    max-width: calc(100vw - 64px) !important;
+    height: auto !important;
+    min-height: 42px !important;
+    padding: 8px 16px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    font-size: 15px !important;
+    line-height: 22px !important;
+    white-space: nowrap !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    text-wrap: nowrap !important;
+  }
+
+  /* --------------------------------------------------
+     BENEFITS OUTER CARD
+     Remove all old fixed heights/absolute positioning
+     -------------------------------------------------- */
+  .employeeInduction.employeeInduction .frameWrapper3 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 auto !important;
+    position: relative !important;
+  }
+
+  .employeeInduction.employeeInduction .frameWrapper4 {
+    position: relative !important;
+    inset: auto !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    padding: 10px !important;
+    overflow: visible !important;
+  }
+
+  .employeeInduction.employeeInduction .frameWrapper5 {
+    position: relative !important;
+    inset: auto !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 18px 14px !important;
+
+    overflow: visible !important;
+  }
+
+  /* --------------------------------------------------
+     BENEFITS — TWO COLUMNS
+     -------------------------------------------------- */
+  .employeeInduction.employeeInduction .frameParent24 {
+    position: relative !important;
+    inset: auto !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-auto-flow: row !important;
+    column-gap: 14px !important;
+    row-gap: 18px !important;
+
+    align-items: start !important;
+    justify-items: stretch !important;
+  }
+
+  /* --------------------------------------------------
+     EACH BENEFIT ITEM
+     Icon above + title below gives enough width for
+     clean two-line headings on phones.
+     -------------------------------------------------- */
+  .employeeInduction.employeeInduction .frameParent25 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 112px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 10px !important;
+
+    text-align: center !important;
+  }
+
+  /* fifth item centered across the last row */
+  .employeeInduction.employeeInduction .frameParent24 > .frameParent25:nth-child(5) {
+    grid-column: 1 / -1 !important;
+    width: calc(50% - 7px) !important;
+    justify-self: center !important;
+  }
+
+  /* --------------------------------------------------
+     BENEFIT ICONS — smaller only for this mobile grid
+     -------------------------------------------------- */
+  .employeeInduction.employeeInduction .benefitIconOuter,
+  .employeeInduction.employeeInduction .benefitIconCircle {
+    width: 52px !important;
+    height: 52px !important;
+    min-width: 52px !important;
+    flex: 0 0 52px !important;
+  }
+
+  .employeeInduction.employeeInduction .benefitIconInner {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    flex: 0 0 38px !important;
+  }
+
+  .employeeInduction.employeeInduction .benefitIcon,
+  .employeeInduction.employeeInduction .benefitIconImage {
+    width: 26px !important;
+    height: 26px !important;
+    min-width: 26px !important;
+    object-fit: contain !important;
+  }
+
+  /* --------------------------------------------------
+     BENEFIT TITLES — TWO LINES
+     No fixed old widths/heights.
+     -------------------------------------------------- */
+  .employeeInduction.employeeInduction :is(
+    .fasterEmployeeIntegration,
+    .consistentValuesAnd,
+    .betterOnboardingEngagement,
+    .easyProgressTracking,
+    .reducedHrWorkload
+  ) {
+    width: 100% !important;
+    max-width: 150px !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 44px !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 22px !important;
+    letter-spacing: 0 !important;
+
+    text-align: center !important;
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    text-wrap: balance !important;
+
+    flex: none !important;
+    overflow: visible !important;
+  }
+}
+
+/* ----------------------------------------------------------
+   VERY SMALL PHONES
+   Still keep TWO columns; only tighten spacing slightly.
+   ---------------------------------------------------------- */
+@media (max-width: 379.98px) {
+  .employeeInduction.employeeInduction .frameWrapper5 {
+    padding: 16px 10px !important;
+  }
+
+  .employeeInduction.employeeInduction .frameParent24 {
+    column-gap: 10px !important;
+    row-gap: 16px !important;
+  }
+
+  .employeeInduction.employeeInduction .frameParent24 > .frameParent25:nth-child(5) {
+    width: calc(50% - 5px) !important;
+  }
+
+  .employeeInduction.employeeInduction :is(
+    .fasterEmployeeIntegration,
+    .consistentValuesAnd,
+    .betterOnboardingEngagement,
+    .easyProgressTracking,
+    .reducedHrWorkload
+  ) {
+    max-width: 140px !important;
+    font-size: 15px !important;
+    line-height: 21px !important;
+  }
+
+  .employeeInduction.employeeInduction .frameIcon,
+  .employeeInduction.employeeInduction .frameChild12,
+  .employeeInduction.employeeInduction .frameChild18 {
+    max-width: calc(100vw - 48px) !important;
+    font-size: 14px !important;
+  }
+}
+
+
+/* ======================================================================
+   FINAL MOBILE MAIN-HEADING TWO-LINE FIX
+   Keep this block at the VERY END of the stylesheet.
+   Main headings: 24px and two lines on phones.
+   Badges remain one line. Desktop/tablet are unchanged.
+   ====================================================================== */
+@media (max-width: 767.98px) {
+
+  /* Main mobile headings */
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    .transformOnboardingIntoContainer,
+    .structuredOnboardingFor,
+    .benefitsOfEmployee,
+    .enablingSmarterEmployeeContainer
+  ) {
+    width: 100% !important;
+    max-width: 340px !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 64px !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    font-size: 24px !important;
+    line-height: 32px !important;
+    letter-spacing: 0.01em !important;
+    text-align: center !important;
+
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    text-wrap: balance !important;
+    overflow: visible !important;
+  }
+
+  /* HERO HEADING:
+     keep the existing two heading parts on separate lines */
+  .employeeInduction.employeeInduction.employeeInduction
+    .transformOnboardingIntoContainer {
+    max-width: 300px !important;
+    min-height: 64px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    white-space: normal !important;
+    overflow: visible !important;
+  }
+
+  .employeeInduction.employeeInduction.employeeInduction
+    .transformOnboardingIntoContainer .transformOnboardingInto,
+  .employeeInduction.employeeInduction.employeeInduction
+    .transformOnboardingIntoContainer .learning {
+    display: inline !important;
+    width: auto !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    text-align: center !important;
+    white-space: normal !important;
+  }
+
+  /* STRUCTURED ONBOARDING:
+     if the TSX already uses sectionHeadingLine, each part gets one line */
+  .employeeInduction.employeeInduction.employeeInduction
+    .structuredOnboardingFor .sectionHeadingLine {
+    display: block !important;
+    width: 100% !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+
+  /* BENEFITS HEADING:
+     place the highlighted last part on line 2 */
+  .employeeInduction.employeeInduction.employeeInduction
+    .benefitsOfEmployee .headingBrand {
+    display: block !important;
+    width: 100% !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+
+  /* FINAL CTA HEADING:
+     keep both existing text parts on separate lines */
+  .employeeInduction.employeeInduction.employeeInduction
+    .enablingSmarterEmployeeContainer .enablingSmarter,
+  .employeeInduction.employeeInduction.employeeInduction
+    .enablingSmarterEmployeeContainer .employeeOnboarding {
+    display: block !important;
+    width: 100% !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    text-align: center !important;
+  }
+
+  /* Keep all heading child emphasis at the same 24px size */
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    .transformOnboardingIntoContainer,
+    .structuredOnboardingFor,
+    .benefitsOfEmployee,
+    .enablingSmarterEmployeeContainer
+  ) :is(span, strong, b) {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+
+  /* Badges/pills remain on ONE line */
+  .employeeInduction.employeeInduction .frameIcon,
+  .employeeInduction.employeeInduction .frameChild12,
+  .employeeInduction.employeeInduction .frameChild18 {
+    width: max-content !important;
+    max-width: calc(100vw - 48px) !important;
+    white-space: nowrap !important;
+    text-wrap: nowrap !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+}
+
+/* Narrow phones: keep the same two-line heading structure */
+@media (max-width: 379.98px) {
+  .employeeInduction.employeeInduction.employeeInduction :is(
+    .transformOnboardingIntoContainer,
+    .structuredOnboardingFor,
+    .benefitsOfEmployee,
+    .enablingSmarterEmployeeContainer
+  ) {
+    max-width: calc(100vw - 28px) !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    letter-spacing: 0 !important;
+  }
+
+  .employeeInduction.employeeInduction.employeeInduction
+    .structuredOnboardingFor .sectionHeadingLine {
+    white-space: normal !important;
+  }
+}
+
+/* First-section card: allow normal text highlighting without changing layout. */
+.employeeInduction .frameParent2 > .image20 {
+  pointer-events: none !important;
+}
+.employeeInduction .image21Parent .frameParent3,
+.employeeInduction .image21Parent .frameParent3 * {
+  -webkit-user-select: text !important;
+  user-select: text !important;
+}
+
+
+/* Independent portal anchor: not a flex item in the Challenges heading. */
+.employeeInduction.employeeInduction .frameParent5 {
+  position: relative !important;
+}
+.employeeInduction.employeeInduction .frameParent5 > .challengesExpertButtonSlot {
+  position: absolute !important;
+  top: 0 !important;
+  right: 12px !important;
+  left: auto !important;
+  bottom: auto !important;
+  display: block !important;
+  width: 64px !important;
+  height: 64px !important;
+  min-width: 64px !important;
+  min-height: 64px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  z-index: 50 !important;
+  pointer-events: auto;
+}
+@media (max-width: 767px) {
+  .employeeInduction.employeeInduction .frameParent5 > .challengesExpertButtonSlot {
+    right: 3px !important;
+    top: -20 !important;
+  }
+}
+
+
+/* Breadcrumb typography only: all three labels share the same font size. */
+.employeeInduction.employeeInduction.employeeInduction .frameDiv,
+.employeeInduction.employeeInduction.employeeInduction .frameDiv .resourcesWrapper,
+.employeeInduction.employeeInduction.employeeInduction .frameDiv .arrowRightDoubleGroup,
+.employeeInduction.employeeInduction.employeeInduction .frameDiv .useCases,
+.employeeInduction.employeeInduction.employeeInduction .frameDiv b,
+.employeeInduction.employeeInduction.employeeInduction .frameDiv span,
+.employeeInduction.employeeInduction.employeeInduction .frameDiv div {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+@media (max-width: 480px) {
+  .employeeInduction.employeeInduction.employeeInduction .frameDiv,
+  .employeeInduction.employeeInduction.employeeInduction .frameDiv .resourcesWrapper,
+  .employeeInduction.employeeInduction.employeeInduction .frameDiv .arrowRightDoubleGroup,
+  .employeeInduction.employeeInduction.employeeInduction .frameDiv .useCases,
+  .employeeInduction.employeeInduction.employeeInduction .frameDiv b,
+  .employeeInduction.employeeInduction.employeeInduction .frameDiv span,
+  .employeeInduction.employeeInduction.employeeInduction .frameDiv div {
+    font-size: 12px !important;
+    line-height: 18px !important;
+  }
+}
+
+

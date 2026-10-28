@@ -1,0 +1,5182 @@
+.finatialLiteracy,
+.finatialLiteracy * {
+  font-family: 'Segoe UI', 'Inter';
+}
+
+.finatialLiteracy {
+  --section-gap: 48px;
+  width: 1440px;
+  min-height: 4280px;
+  height: 4280px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  text-align: left;
+  font-size: 48px;
+  color: #31344b;
+  font-family: 'Segoe UI', 'Inter';
+}
+
+.wrapperEllipse359 {
+  display: none;
+}
+
+.wrapperEllipse359Child {
+  width: 1613.8px !important;
+  height: 1433.7px !important;
+  max-width: none;
+  object-fit: cover;
+  display: none;
+}
+
+.finatialLiteracyChild {
+  position: absolute;
+  top: calc(50% - 2692.5px);
+  left: calc(50% - 736px);
+  filter: drop-shadow(-4px -4px 4px #fff) drop-shadow(4px 4px 4px #c4c4c4);
+  width: 250px;
+  height: 244px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+.frameParent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-family: 'Segoe UI', 'Inter';
+  z-index: 10;
+}
+
+.frameChild {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: 1096px;
+  width: 132px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.frameGroup {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  width: 1376px;
+  height: 45px;
+}
+
+.logo01SynapseSpark1Parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.logo01SynapseSpark1Icon {
+  height: 45px;
+  width: 120px;
+  position: relative;
+  object-fit: cover;
+}
+
+.frameContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.homeParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: default;
+}
+
+.home {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.arrowDown01Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+
+.neurolxp21Parent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2d4cc8;
+  cursor: default;
+}
+
+.neurolxp21 {
+  position: relative;
+  line-height: 24px;
+}
+
+.signInHelpWrapper {
+  position: absolute;
+  top: calc(50% - 22.5px);
+  left: 1244px;
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  width: 132px;
+  height: 44px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #2d4cc8;
+  font-family: 'Segoe UI', 'Inter';
+  cursor: default;
+}
+
+.signInHelp {
+  width: 97px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.frameDiv {
+  position: absolute;
+  top: 32px;
+  left: 80px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  font-size: 16px;
+  color: #2f3547;
+  z-index: 2;
+}
+
+.neurolxp21Wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.arrowRightDoubleParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #243fa8;
+}
+
+.financialLiteracy {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+}
+
+.frameParent2 {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 1280px;
+  height: 688px;
+  display: flex;
+  align-items: center;
+  gap: 53px;
+  flex-shrink: 0;
+  z-index: 1;
+  isolation: isolate;
+}
+
+/*
+ * Full-bleed hero background.
+ * It starts at the header's bottom border, so the breadcrumb strip and the
+ * main hero content share one continuous patterned background.
+ */
+.frameParent2::before {
+  content: '';
+  position: absolute;
+  width: 1440px;
+  height: calc(100% + 80px);
+  left: 50%;
+  top: -80px;
+  transform: translateX(-50%);
+  background-color: #dfe6e9;
+  background-image: url('/images/Ellipse 359.png');
+  background-repeat: no-repeat;
+  background-size: 1180px auto;
+  background-position: left -330px center;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.frameParent3 {
+  position: relative;
+  z-index: 1;
+  width: 539px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.frameParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.finatialLiteracy .sectionBadge {
+  height: 50.2px;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    4px 4px 4px #c4c4c4cc inset,
+    -4px -4px 4px #ffffff inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 28px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2d4cc8;
+  flex-shrink: 0;
+}
+
+.frameItem {
+  width: auto;
+  min-width: 253.2px;
+}
+
+.empoweringSmarterMoneyContainer {
+  align-self: stretch;
+  height: 119px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  filter: none;
+}
+
+.empoweringSmarter {
+  line-height: 60px;
+}
+
+.money {
+  color: #2d4cc8;
+  line-height: 60px;
+}
+
+.buildConfidenceToContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.buildConfidenceTo {
+  line-height: 40px;
+}
+
+.heroOuterCircle {
+  width: 688px;
+  height: 688px;
+  margin-left: 0;
+  border-radius: 500px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4;
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.heroInnerCircle {
+  position: absolute;
+  inset: 0;
+  width: 688px;
+  height: 688px;
+  border-radius: 500px;
+  overflow: hidden;
+  background: transparent;
+  z-index: 2;
+  filter: none;
+}
+
+.heroInnerCircle::after {
+  display: none;
+}
+
+.ellipseIcon {
+  position: absolute;
+  width: 690px;
+  height: 690px;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  border-radius: 500px;
+  max-width: none;
+  overflow: hidden;
+  background: url('/images/bg_removal [Background removed].png') center / cover no-repeat;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  z-index: 0;
+}
+
+.frameParent5 {
+  position: absolute;
+  top: 861px;
+  left: max(80px, calc(50% - 640px));
+  width: min(1280px, calc(100% - 160px));
+  height: 685.24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 64px;
+  flex-shrink: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.frameParent6 {
+  width: 100%;
+  max-width: 1152px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.frameIcon {
+  width: 303.1px;
+}
+
+.buildTheConfidenceToManageParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.buildTheConfidenceContainer {
+  width: 100%;
+  max-width: 1152px;
+  height: auto;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.build {
+  text-transform: capitalize;
+  line-height: 60px;
+}
+
+.the {
+  text-transform: lowercase;
+  line-height: 60px;
+}
+
+.developPracticalFinancial {
+  width: 740px;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameParent7 {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+  font-size: 54px;
+  color: #fff;
+  font-family: 'Segoe UI', 'Inter';
+  box-sizing: border-box;
+}
+
+.frameParent8 {
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.frameParent9 {
+  width: 620px;
+  height: 156px;
+  position: relative;
+  cursor: default;
+  transition: transform 0.28s ease;
+  will-change: transform;
+}
+
+.frameParent9:hover {
+  transform: none;
+  z-index: 3;
+}
+
+.wrapper,
+.container,
+.frame,
+.wrapper2 {
+  transition:
+    box-shadow 0.28s ease,
+    background-color 0.28s ease,
+    filter 0.28s ease;
+}
+
+.frameParent9:hover .wrapper,
+.frameParent9:hover .container,
+.frameParent9:hover .frame,
+.frameParent9:hover .wrapper2 {
+  box-shadow:
+    4px 4px 4px rgba(0, 0, 0, 0.22),
+    -4px -4px 4px rgba(255, 255, 255, 0.75);
+  filter: brightness(1.12);
+}
+
+.frameParent9:hover .wrapper {
+  background-color: #d41f78;
+}
+
+.frameParent9:hover .container {
+  background-color: #3b5fd6;
+}
+
+.frameParent9:hover .frame {
+  background-color: #7c0b85;
+}
+
+.frameParent9:hover .wrapper2 {
+  background-color: #0db4ba;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .frameParent9,
+  .wrapper,
+  .container,
+  .frame,
+  .wrapper2,
+  .tickWrap,
+  .image20Parent,
+  .image21Parent,
+  .image21Container,
+  .frameWrapper {
+    transition: none;
+  }
+
+  .frameParent9:hover,
+  .frameParent19:hover .tickWrap,
+  .frameParent21:hover .tickWrap,
+  .image20Parent:hover,
+  .frameParent31 > .frameParent32:nth-child(odd):hover .frameWrapper,
+  .frameParent31 > .frameParent32:nth-child(even):hover .frameWrapper {
+    transform: none;
+  }
+
+  @media (max-width: 767.98px) {
+    .frameParent9:hover {
+      transform: none !important;
+    }
+  }
+
+  .frameParent32:hover {
+    z-index: 0;
+  }
+}
+
+.wrapper {
+  position: absolute;
+  top: calc(50% - 78px);
+  left: calc(50% - 310px);
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px rgba(255, 255, 255, 0.88);
+  border-radius: 16px;
+  background-color: #bf1869;
+  width: 620px;
+  height: 156px;
+  overflow: hidden;
+}
+
+.b {
+  position: absolute;
+  top: calc(50% - 31.24px);
+  left: 16px;
+  letter-spacing: 0.03em;
+  line-height: 62px;
+}
+
+.skillCardPanel,
+.rectangleIcon {
+  position: absolute;
+  top: -1px;
+  left: 68px;
+  border-radius: 8px;
+  width: 552px;
+  height: 146px;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #dfe6e9;
+}
+
+.skillCardPanelAlt,
+.rectangleIconAlt {
+  position: absolute;
+  top: -1.24px;
+  left: 68px;
+  border-radius: 8px;
+  width: 552px;
+  height: 146px;
+  flex-shrink: 0;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #dfe6e9;
+}
+
+.rectangleIcon,
+.rectangleIconAlt {
+  position: absolute;
+  top: -1px;
+  left: 68px;
+  width: 552px;
+  height: 146px;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #dfe6e9;
+  clip-path: polygon(17px 0%, 102% 0%, 100% 237%, 13% 106%, 9% 90px);
+}
+
+.smartBudgetingParent {
+  position: absolute;
+  top: calc(50% - 42.24px);
+  left: 140px;
+  width: 302px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  text-align: left;
+  font-size: 28px;
+  color: #31344b;
+  z-index: 1;
+}
+
+.smartBudgeting {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 36px;
+}
+
+.planIncomeAnd {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 34px;
+  color: #2f3547;
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  top: calc(50% - 78px);
+  left: calc(50% - 310px);
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px rgba(255, 255, 255, 0.88);
+  border-radius: 16px;
+  background-color: #2d4cc8;
+  width: 620px;
+  height: 156px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.creditManagementParent {
+  position: absolute;
+  top: calc(50% - 42.24px);
+  left: 140px;
+  width: 302px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 28px;
+  color: #31344b;
+  z-index: 1;
+}
+
+.borrowResponsibly {
+  width: 217px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 34px;
+  color: #2f3547;
+  text-align: center;
+  display: inline-block;
+}
+
+.frameParent11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.frame {
+  position: absolute;
+  top: calc(50% - 78px);
+  left: calc(50% - 310px);
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px rgba(255, 255, 255, 0.88);
+  border-radius: 16px;
+  background-color: #67096e;
+  width: 620px;
+  height: 156px;
+  overflow: hidden;
+}
+
+.savingEssentialsParent {
+  position: absolute;
+  top: calc(50% - 42.24px);
+  left: 140px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  text-align: left;
+  font-size: 28px;
+  color: #31344b;
+  z-index: 1;
+}
+
+.growSavingsAnd {
+  width: 350px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 34px;
+  color: #2f3547;
+  text-align: center;
+  display: inline-block;
+}
+
+.wrapper2 {
+  position: absolute;
+  top: calc(50% - 78px);
+  left: calc(50% - 310px);
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px rgba(255, 255, 255, 0.88);
+  border-radius: 16px;
+  background-color: #0b9ba0;
+  width: 620px;
+  height: 156px;
+  overflow: hidden;
+}
+
+.b4 {
+  position: absolute;
+  top: calc(50% - 32.24px);
+  left: 16px;
+  letter-spacing: 0.03em;
+  line-height: 64px;
+}
+
+.achieveFinancialGoals {
+  width: 257px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 34px;
+  color: #2f3547;
+  text-align: center;
+  display: inline-block;
+}
+
+.frameParent14 {
+  position: absolute;
+  top: 1610.24px;
+  left: max(80px, calc(50% - 640px));
+  width: min(1280px, calc(100% - 160px));
+  height: 595.21px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 64px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.frameParent15 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.frameParent16 {
+  width: min(594px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.frameParent17 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.frameChild5 {
+  width: 263.4px;
+}
+
+.makeConfidentFinancialContainer {
+  width: 620px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.makeConfidentFinancialContainer2 {
+  width: 100%;
+}
+
+.buildTheSkills {
+  align-self: stretch;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+}
+
+.frameParent18 {
+  width: 446px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 32px;
+  font-size: 24px;
+  color: #2f3547;
+}
+
+.frameParent19 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+  cursor: default;
+}
+
+.tickWrap {
+  height: 41px;
+  width: 41px;
+  position: relative;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.28s ease;
+  will-change: transform;
+}
+
+.frameParent19:hover .tickWrap,
+.frameParent21:hover .tickWrap {
+  transform: none;
+}
+
+.tickBg {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-color: color-mix(in srgb, var(--tick-color, #67096e) 30%, transparent);
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c6c6c9;
+  pointer-events: none;
+}
+
+.frameChild6 {
+  height: 41px;
+  width: 41px;
+  position: absolute;
+  inset: 0;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.tickIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.understandCreditLoans {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 34px;
+  white-space: nowrap;
+}
+
+.frameParent21 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+  cursor: default;
+}
+
+.frameChild8 {
+  height: 41px;
+  width: 41px;
+  position: absolute;
+  inset: 0;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.tick03Icon {
+  width: 24px !important;
+  height: 24px !important;
+  position: relative;
+  max-width: none;
+  overflow: visible;
+  z-index: 1;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.assessRisksBefore {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 34px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.ellipseParent {
+  width: 1266px;
+  height: 217px;
+  position: relative;
+  text-align: center;
+  font-size: 44px;
+  color: #2f3547;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.frameChild10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1266px;
+  height: 217px;
+  border-radius: 50%;
+  border: 2px solid #bf1869;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+    -4px -4px 4px rgba(255, 255, 255, 0.75);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: 68px;
+  width: 1130px;
+  height: 217px;
+  border-radius: 50%;
+  border: 2px solid #0b9ba0;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+    -4px -4px 4px rgba(255, 255, 255, 0.75);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.theseSkillsBuildConfidenceParent {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.theseSkillsBuildContainer {
+  position: absolute;
+  top: calc(50% - 50.5px);
+  left: 126px;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  text-transform: none;
+  display: inline-block;
+  width: 1046px;
+  height: 120px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.75));
+}
+
+.frameParent23 {
+  position: absolute;
+  top: 2269.45px;
+  left: max(80px, calc(50% - 640px));
+  width: min(1280px, calc(100% - 160px));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  flex-shrink: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.frameChild11 {
+  width: 248px;
+}
+
+.buildResponsibleFinancialHaParent {
+  width: 1040px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.buildResponsibleFinancial {
+  align-self: stretch;
+  height: 63px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameParent25 {
+  width: 1165.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  font-size: 28px;
+  color: #000;
+}
+
+.frameParent26 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.image20Parent {
+  height: 194px;
+  width: 394px;
+  position: relative;
+  box-shadow:
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8),
+    inset -4px -4px 4px #ffffff;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  flex-shrink: 0;
+  cursor: default;
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease;
+  will-change: transform;
+}
+
+.image20Parent:hover {
+  transform: none;
+  box-shadow:
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8),
+    inset -4px -4px 4px #ffffff,
+    4px 4px 4px rgba(0, 0, 0, 0.12),
+    -4px -4px 4px rgba(255, 255, 255, 0.75);
+}
+
+.image20Parent:hover .image21Parent,
+.image20Parent:hover .image21Container {
+  box-shadow:
+    4px 4px 4px #b0b0b0,
+    -4px -4px 4px #fff;
+}
+
+.image21Parent {
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 175px);
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #fff;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  width: 350px;
+  height: 150px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: box-shadow 0.28s ease;
+}
+
+.checkmarkBadge03Parent {
+  position: absolute;
+  top: calc(50% - 51px);
+  left: calc(50% - 116px);
+  width: 232px;
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
+
+.checkmarkBadge03Icon {
+  width: 38px;
+  height: 38px;
+  position: relative;
+}
+
+.saveConsistently {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  font-weight: 600;
+
+  width: max-content;
+  max-width: none;
+
+  white-space: nowrap;
+  text-align: center;
+}
+
+.frameParent27 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.image21Container {
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 175.47px);
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #fff;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  width: 350px;
+  height: 150px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: box-shadow 0.28s ease;
+}
+
+.checkmarkBadge03Container {
+  position: absolute;
+  top: calc(50% - 51px);
+  left: calc(50% - 136px);
+  width: 272px;
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
+
+.checkmarkBadge03Icon3 {
+  width: 38px;
+  height: 38px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.smartFinancialPlan {
+  width: 286px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameParent28 {
+  position: absolute;
+  top: 3124.61px;
+  left: max(80px, calc(50% - 640px));
+  width: min(1280px, calc(100% - 160px));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  flex-shrink: 0;
+  color: #2d4cc8;
+  box-sizing: border-box;
+}
+
+.frameChild12 {
+  width: 252.7px;
+}
+
+.frameParent29 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px;
+  box-sizing: border-box;
+}
+
+.frameParent29 .frameParent16 {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.financialLiteracyForEverySWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.financialLiteracyForContainer {
+  width: 100%;
+  max-width: 585px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.forEveryStage {
+  color: #31344b;
+  line-height: 60px;
+}
+
+.frameParent31 {
+  width: min(532px, 100%);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  font-size: 24px;
+  color: #2f3547;
+}
+
+.frameParent32 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  cursor: default;
+  position: relative;
+  z-index: 0;
+}
+
+.frameParent32:hover {
+  z-index: 2;
+}
+
+.frameWrapper {
+  height: 110px;
+  width: 400px;
+  position: relative;
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c4c4c4;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  flex-shrink: 0;
+  transition: transform 0.28s ease;
+  will-change: transform;
+}
+
+.frameParent31 > .frameParent32:nth-child(odd):hover .frameWrapper {
+  transform: none;
+}
+
+.frameParent31 > .frameParent32:nth-child(even):hover .frameWrapper {
+  transform: none;
+}
+
+.stageIcon {
+  height: 108px;
+  width: 108px;
+  position: relative;
+  border-radius: 16px;
+  background-color: #dfe6e9;
+  box-shadow:
+    4px 4px 4px #c4c4c4cc inset,
+    -4px -4px 4px #ffffff inset,
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.stageIconInner {
+  width: 70px;
+  height: 70px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow:
+    4px 4px 4px rgba(0, 0, 0, 0.25),
+    -4px -4px 4px rgba(255, 255, 255, 0.55);
+}
+
+.stageIconInnerPink {
+  background-color: #bf1869;
+}
+
+.stageIconInnerBlue {
+  background-color: #0b9ba0;
+}
+
+.stageIconInnerPurple {
+  background-color: #ba06ae;
+}
+
+.stageIconInnerTeal {
+  background-color: #bccf10;
+}
+
+.stageGlyph {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.75));
+}
+
+.schoolsParent {
+  position: absolute;
+  top: calc(50% - 33px);
+  left: 24px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.schools {
+  width: 107px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.buildMoneyHabits {
+  align-self: stretch;
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  line-height: 30px;
+}
+
+.universitiesParent {
+  position: absolute;
+  top: calc(50% - 33px);
+  left: 24px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.universities {
+  width: 143px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.workforceParent {
+  position: absolute;
+  top: calc(50% - 33px);
+  left: 24px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.workforce {
+  width: 130px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.communities {
+  width: 163px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.image20Parent3 {
+  position: absolute;
+  top: 3828.81px;
+  left: calc(50% - 640px);
+  width: 1280px;
+  height: 409px;
+  box-shadow:
+    inset 4px 4px 4px #c4c4c4cc,
+    inset -4px -4px 4px #ffffff;
+  border-radius: 8px 200px 8px 200px;
+  background-color: #dfe6e9;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 48px;
+  color: #31344b;
+  font-family: 'Segoe UI', 'Inter';
+}
+
+.image20 {
+  position: absolute;
+  top: 0.17px;
+  left: calc(50% - 640px);
+  width: 1280px;
+  height: 800px;
+  flex-shrink: 0;
+}
+
+.ctaBorderFrame {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 1232px;
+  height: 361px;
+  border-radius: 8px 200px 8px 200px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ctaBorderFrameMobile {
+  display: none;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ctaBorderPath {
+  fill: none;
+  animation: none;
+}
+
+@keyframes ctaBorderMarch {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -16;
+  }
+}
+
+.frameParent36 {
+  position: absolute;
+  top: 64.17px;
+  left: calc(50% - 511px);
+  width: 1022px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.frameChild18 {
+  width: 156.6px;
+  height: 50.1px;
+  border-radius: 28px;
+}
+
+.financialConfidenceStartsHeParent {
+  width: 1040px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.financialConfidenceStarts {
+  align-self: stretch;
+  height: 63px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+    -4px -4px 4px rgba(255, 255, 255, 0.75);
+}
+
+.neurolxpEmpowersLearners {
+  align-self: stretch;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+}
+
+.frameParent37 {
+  position: absolute;
+  top: 4301.81px;
+  left: 0px;
+  width: 1440px;
+  height: 504.6px;
+  flex-shrink: 0;
+  font-size: 26px;
+  color: #2f3547;
+}
+
+.frameParent38 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  box-shadow: -4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 459px;
+  overflow: hidden;
+}
+
+.frameParent39 {
+  position: absolute;
+  top: 49.81px;
+  left: 53.96px;
+  width: 1339.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.frameParent40 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+.frameParent41 {
+  width: 676px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.logo01SynapseSpark1Group {
+  width: 577px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.logo01SynapseSpark1Icon2 {
+  width: 299px;
+  height: 112px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.frameParent42 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.onePlatformParent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.onePlatform {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 34px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+    -4px -4px 4px rgba(255, 255, 255, 0.75);
+}
+
+.sparklesIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+
+.prgeeqGlobalSolutionsPrivatParent {
+  width: 459px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 16px;
+}
+
+.prgeeqGlobalSolutions {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+}
+
+.prestigeAtlanta1012Container {
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.blankLine {
+  line-height: 24px;
+}
+
+.frameParent43 {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+  flex-shrink: 0;
+  font-size: 22px;
+  color: #2d4cc8;
+}
+
+.frameParent44 {
+  width: 619px;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.aboutUsParent {
+  width: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.aboutUs {
+  width: 93px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.ourMissionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-size: 20px;
+  color: #2f3547;
+}
+
+.ourMission {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.quickLinksParent {
+  width: 207px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.quickLinks {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.neurolxpParent {
+  height: 181px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.neurolxpGroup {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.neurolxp2 {
+  height: 26px;
+  width: 103px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.neurolxpTxt {
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+.neurolxp3 {
+  line-height: 30px;
+}
+
+.tm {
+  height: 17px;
+  width: 23px;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ourCustomersContainer {
+  width: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+  font-size: 18px;
+  color: #2f3547;
+}
+
+.smartContentCreation {
+  width: 229px;
+  height: 26px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frameParent45 {
+  width: 392.4px;
+  height: 80.1px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.socialBtn {
+  height: 80.1px;
+  width: 80.1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.socialBg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.socialGlyph {
+  position: relative;
+  z-index: 1;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.copyright2026 {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.03em;
+  line-height: 56px;
+  font-weight: 600;
+  color: #2d4cc8;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frameChild27 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 30.07px);
+  border-radius: 32px;
+  width: 59.1px;
+  height: 92px;
+  background: linear-gradient(180deg, #2d4cc8, #bf1869);
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.footerAccentIcon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.pageScale {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #dfe6e9;
+  overflow: hidden;
+}
+
+.finatialLiteracy {
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1439.98px) {
+  .pageScale {
+    justify-content: flex-start;
+  }
+
+  .finatialLiteracy {
+    margin: 0 !important;
+    transform: scale(calc(100vw / 1440px));
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .pageScale {
+    height: auto !important;
+    overflow-x: hidden;
+    overflow-y: visible;
+    justify-content: flex-start;
+  }
+
+  .finatialLiteracy {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+    margin: 0 !important;
+    transform: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow-x: clip;
+    overflow-y: visible;
+    font-size: 36px;
+  }
+
+  .wrapperEllipse359 {
+    position: absolute;
+    top: 0;
+    left: -40%;
+    width: min(900px, 160vw);
+    height: min(600px, 80vw);
+    opacity: 0.45;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .frameParent,
+  .frameDiv,
+  .frameParent2,
+  .frameParent5,
+  .frameParent14,
+  .frameParent23,
+  .frameParent28,
+  .image20Parent3,
+  .frameParent37 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    width: 100% !important;
+    max-width: 1200px;
+    height: auto !important;
+    min-height: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+
+  .frameParent {
+    height: auto !important;
+    min-height: 72px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  }
+
+  .frameGroup {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .logo01SynapseSpark1Parent {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .frameContainer {
+    display: none; /* collapse dense nav on laptop/tablet; keep logo + help */
+  }
+
+  .frameChild {
+    display: none;
+  }
+
+  .signInHelpWrapper {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    flex-shrink: 0;
+  }
+
+  .frameDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 0;
+  }
+
+  .frameParent2,
+  .frameParent5,
+  .frameParent14,
+  .frameParent23,
+  .frameParent28,
+  .image20Parent3 {
+    margin-top: 60px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .frameParent37 {
+    margin-top: 60px !important;
+  }
+
+  .frameParent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px !important;
+  }
+
+  .frameParent3 {
+    width: 100% !important;
+    max-width: 640px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .frameParent4 {
+    align-items: center;
+    height: auto !important;
+    width: 100%;
+  }
+
+  .empoweringSmarterMoneyContainer {
+    height: auto !important;
+    width: 100% !important;
+    font-size: 44px;
+    line-height: 1.2 !important;
+    white-space: normal;
+  }
+
+  .empoweringSmarterMoneyContainer .empoweringSmarter,
+  .empoweringSmarterMoneyContainer .money,
+  .empoweringSmarterMoneyContainer .build,
+  .empoweringSmarterMoneyContainer .the {
+    line-height: 1.2 !important;
+  }
+
+  .buildConfidenceToContainer {
+    height: auto !important;
+    width: 100% !important;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    gap: 12px;
+  }
+
+  .buildConfidenceTo {
+    white-space: normal;
+    line-height: 1.45 !important;
+  }
+
+  .heroOuterCircle {
+    width: min(420px, 70vw) !important;
+    height: min(420px, 70vw) !important;
+    margin-left: 0 !important;
+    left: auto !important;
+    top: auto !important;
+    align-self: center;
+  }
+
+  .heroInnerCircle {
+    width: 100% !important;
+    height: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+  .ellipseIcon {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    object-fit: contain;
+    object-position: center bottom;
+  }
+
+  .frameParent5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px !important;
+    text-align: center;
+    overflow-x: clip;
+    width: 100%;
+  }
+
+  .frameParent6 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .buildTheConfidenceContainer {
+    font-size: 36px !important;
+    line-height: 1.25 !important;
+    height: auto !important;
+    letter-spacing: 0.02em;
+  }
+
+  .buildTheConfidenceContainer .empoweringSmarter,
+  .buildTheConfidenceContainer .build,
+  .buildTheConfidenceContainer .the,
+  .buildTheConfidenceContainer .money {
+    line-height: 1.25 !important;
+  }
+
+  .developPracticalFinancial {
+    width: 100% !important;
+    max-width: 640px;
+    font-size: 17px !important;
+    line-height: 1.45 !important;
+    height: auto !important;
+  }
+
+  .frameParent7 {
+    width: 100% !important;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px !important;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .frameParent8,
+  .frameParent11 {
+    display: contents;
+  }
+
+  .frameParent8 > .frameParent9:nth-child(1) {
+    order: 1;
+  }
+  .frameParent11 > .frameParent9:nth-child(1) {
+    order: 2;
+  }
+  .frameParent8 > .frameParent9:nth-child(2) {
+    order: 3;
+  }
+  .frameParent11 > .frameParent9:nth-child(2) {
+    order: 4;
+  }
+
+  .frameParent9 {
+    width: 620px !important;
+    max-width: none !important;
+    height: 156px !important;
+    margin: 0 !important;
+    transform: none !important;
+    overflow: visible;
+    border-radius: 0;
+    zoom: calc((100vw - 80px) / 620px);
+  }
+
+  .frameParent9:hover {
+    transform: none !important;
+  }
+
+  @supports not (zoom: 1) {
+    .frameParent9 {
+      zoom: normal;
+      transform: scale(calc((100vw - 80px) / 620px)) !important;
+      transform-origin: top left;
+      margin-bottom: calc(156px * ((100vw - 80px) / 620px - 1)) !important;
+    }
+
+    .frameParent9:hover {
+      transform: scale(calc((100vw - 80px) / 620px)) !important;
+    }
+  }
+
+  .frameParent14 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px !important;
+  }
+
+  .frameParent15 {
+    flex-direction: column;
+    align-items: center;
+    gap: 28px !important;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+
+  .frameParent16 {
+    width: 100% !important;
+    max-width: 640px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .frameParent17 {
+    align-items: center;
+  }
+
+  .makeConfidentFinancialContainer {
+    font-size: 36px;
+    line-height: 1.25;
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .buildTheSkills {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .frameParent18 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 0 !important;
+    align-items: stretch;
+    gap: 20px !important;
+    font-size: 18px;
+    box-sizing: border-box;
+    overflow: visible;
+    padding: 8px 4px;
+  }
+
+  .frameParent19,
+  .frameParent21 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex-shrink: 1 !important;
+    align-items: flex-start;
+    gap: 12px !important;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+
+  .tickWrap {
+    width: 36px !important;
+    height: 36px !important;
+    flex-shrink: 0 !important;
+    overflow: visible;
+  }
+
+  .tickBg {
+    box-shadow:
+      -4px -4px 4px #ffffff,
+      4px 4px 4px #c6c6c9 !important;
+  }
+
+  .tick03Icon,
+  .tickIcon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .understandCreditLoans,
+  .assessRisksBefore {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.35 !important;
+    font-size: 16px !important;
+    letter-spacing: 0.02em;
+  }
+
+  .ellipseParent {
+    width: 100% !important;
+    max-width: 640px;
+    height: auto !important;
+    min-height: 140px;
+    aspect-ratio: 1266 / 217;
+    overflow: visible;
+  }
+
+  .frameChild10,
+  .ellipseDiv {
+    width: 100% !important;
+    height: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+    transform: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+      -4px -4px 4px rgba(255, 255, 255, 0.75) !important;
+  }
+
+  .ellipseDiv {
+    width: 90% !important;
+    left: 5% !important;
+  }
+
+  .theseSkillsBuildContainer {
+    position: absolute;
+    left: 10% !important;
+    width: 80% !important;
+    height: auto !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    font-size: clamp(14px, 3.6vw, 22px) !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0.02em;
+    white-space: normal;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25))
+      drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.75));
+  }
+
+  .theseSkillsBuildContainer .empoweringSmarter,
+  .theseSkillsBuildContainer .money {
+    line-height: 1.2 !important;
+  }
+
+  .frameParent23 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px !important;
+    text-align: center;
+  }
+
+  .buildResponsibleFinancialHaParent {
+    width: 100% !important;
+    max-width: 640px;
+  }
+
+  .buildResponsibleFinancial {
+    height: auto !important;
+    font-size: 36px;
+    line-height: 1.25;
+  }
+
+  .frameParent25,
+  .frameParent26,
+  .frameParent27 {
+    width: 100% !important;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px !important;
+  }
+
+  .image20Parent {
+    width: 100% !important;
+    max-width: 360px;
+  }
+
+  .frameParent28 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px !important;
+  }
+
+  .frameParent29 {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px !important;
+    width: 100%;
+  }
+
+  .frameParent29 .frameParent16 {
+    flex: 0 0 auto;
+    min-width: 0;
+    height: auto;
+    width: 100% !important;
+    max-width: 640px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .financialLiteracyForContainer {
+    font-size: 36px;
+    line-height: 1.25;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .financialLiteracyForEverySWrapper {
+    align-items: center;
+  }
+
+  .frameParent31 {
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 16px !important;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+
+  .frameParent32 {
+    width: 100% !important;
+    max-width: 100% !important;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px !important;
+    box-sizing: border-box;
+  }
+
+  .stageIcon {
+    width: 72px !important;
+    height: 72px !important;
+    flex-shrink: 0 !important;
+    border-radius: 14px;
+    box-shadow:
+      4px 4px 4px #c4c4c4cc inset,
+      -4px -4px 4px #ffffff inset,
+      -4px -4px 4px #ffffff,
+      4px 4px 4px #c4c4c4;
+  }
+
+  .stageIconInner {
+    width: 46px !important;
+    height: 46px !important;
+    border-radius: 10px;
+  }
+
+  .stageGlyph {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .frameWrapper {
+    flex: 1 1 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: 72px;
+    padding: 12px 14px !important;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 14px;
+  }
+
+  .schoolsParent,
+  .universitiesParent,
+  .workforceParent {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 4px !important;
+  }
+
+  .schools,
+  .universities,
+  .workforce,
+  .communities {
+    width: auto !important;
+    max-width: 100%;
+    font-size: 16px !important;
+    line-height: 1.25 !important;
+    display: block !important;
+  }
+
+  .buildMoneyHabits {
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+    white-space: nowrap !important;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+  }
+
+  .frameParent31 > .frameParent32:nth-child(odd):hover .frameWrapper,
+  .frameParent31 > .frameParent32:nth-child(even):hover .frameWrapper {
+    transform: none;
+  }
+
+  .image20Parent3 {
+    width: calc(100% - 40px) !important;
+    max-width: 400px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 8px 64px 8px 64px !important;
+    padding: 32px 24px;
+    min-height: 320px;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .image20 {
+    display: none;
+  }
+
+  .ctaBorderFrame {
+    display: none !important;
+  }
+
+  .ctaBorderFrameMobile {
+    display: block !important;
+    position: absolute !important;
+    top: 8px !important;
+    left: 8px !important;
+    width: calc(100% - 16px) !important;
+    height: calc(100% - 16px) !important;
+    overflow: visible;
+    z-index: 0;
+  }
+
+  .frameParent36 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: 100%;
+    padding: 8px 4px;
+    gap: 20px !important;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+
+  .frameChild18 {
+    margin: 0 auto;
+  }
+
+  .financialConfidenceStartsHeParent {
+    width: 100% !important;
+    max-width: 100%;
+    gap: 16px !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .financialConfidenceStarts {
+    height: auto !important;
+    font-size: 28px !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0.02em;
+    white-space: normal !important;
+    text-align: center;
+  }
+
+  .neurolxpEmpowersLearners {
+    font-size: 16px !important;
+    line-height: 1.45 !important;
+    height: auto !important;
+    white-space: normal !important;
+    hyphens: none !important;
+    -webkit-hyphens: none !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    text-align: center;
+    max-width: 34em;
+    margin: 0 auto;
+  }
+
+  .frameParent37 {
+    padding-bottom: 24px;
+    max-width: 100%;
+  }
+
+  .frameChild27 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    margin: 0 auto 16px;
+  }
+
+  .frameParent38 {
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 40px 24px 24px;
+    border-radius: 16px;
+    overflow: visible;
+  }
+
+  .frameParent39 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+  }
+
+  .frameParent40 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px !important;
+    text-align: center;
+  }
+
+  .frameParent41 {
+    align-items: center;
+    width: 100%;
+  }
+
+  .logo01SynapseSpark1Group {
+    align-items: center;
+  }
+
+  .prgeeqGlobalSolutionsPrivatParent {
+    align-items: center;
+    text-align: center;
+    width: 100% !important;
+  }
+
+  .frameParent43 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .frameParent44 {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px !important;
+    width: 100%;
+  }
+
+  .aboutUsParent,
+  .quickLinksParent,
+  .neurolxpParent {
+    width: 100% !important;
+    max-width: 320px;
+    align-items: center;
+    text-align: center;
+    height: auto !important;
+  }
+
+  .ourMissionParent,
+  .ourCustomersContainer {
+    align-items: center;
+    width: 100% !important;
+  }
+
+  .frameParent45 {
+    width: 100% !important;
+    max-width: 360px;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto !important;
+  }
+
+  .copyright2026 {
+    height: auto !important;
+    line-height: 1.4;
+    padding: 8px 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .frameParent,
+  .frameDiv,
+  .frameParent2,
+  .frameParent5,
+  .frameParent14,
+  .frameParent23,
+  .frameParent28,
+  .image20Parent3,
+  .frameParent37 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .frameParent2,
+  .frameParent5,
+  .frameParent14,
+  .frameParent23,
+  .frameParent28,
+  .image20Parent3,
+  .frameParent37 {
+    margin-top: 40px !important;
+  }
+
+  .frameParent2 {
+    gap: 24px !important;
+  }
+
+  .empoweringSmarterMoneyContainer {
+    font-size: 34px !important;
+    line-height: 1.2 !important;
+  }
+
+  .empoweringSmarterMoneyContainer .empoweringSmarter,
+  .empoweringSmarterMoneyContainer .money {
+    line-height: 1.2 !important;
+  }
+
+  .buildConfidenceToContainer,
+  .developPracticalFinancial,
+  .buildTheSkills,
+  .neurolxpEmpowersLearners {
+    font-size: 16px !important;
+    line-height: 1.45 !important;
+  }
+
+  .buildTheConfidenceContainer,
+  .makeConfidentFinancialContainer,
+  .buildResponsibleFinancial,
+  .financialLiteracyForContainer,
+  .financialConfidenceStarts {
+    font-size: 28px !important;
+    line-height: 1.25 !important;
+  }
+
+  .buildTheConfidenceContainer .empoweringSmarter,
+  .buildTheConfidenceContainer .build,
+  .buildTheConfidenceContainer .the,
+  .buildTheConfidenceContainer .money,
+  .makeConfidentFinancialContainer .empoweringSmarter,
+  .makeConfidentFinancialContainer .money {
+    line-height: 1.25 !important;
+  }
+
+  .smartBudgeting,
+  .saveConsistently,
+  .smartFinancialPlan {
+    font-size: 20px;
+  }
+
+  .heroOuterCircle {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .frameParent7,
+  .frameParent25,
+  .frameParent26,
+  .frameParent27 {
+    gap: 16px !important;
+  }
+
+  .frameParent9 {
+    zoom: calc((100vw - 40px) / 620px);
+  }
+
+  @supports not (zoom: 1) {
+    .frameParent9 {
+      transform: scale(calc((100vw - 40px) / 620px)) !important;
+      margin-bottom: calc(156px * ((100vw - 40px) / 620px - 1)) !important;
+    }
+
+    .frameParent9:hover {
+      transform: scale(calc((100vw - 40px) / 620px)) !important;
+    }
+  }
+
+  .image20Parent {
+    max-width: 360px;
+    width: 100% !important;
+    height: 180px !important;
+  }
+
+  .image21Parent,
+  .image21Container {
+    width: calc(100% - 28px) !important;
+    height: calc(100% - 28px) !important;
+    left: 14px !important;
+    top: 14px !important;
+  }
+
+  .checkmarkBadge03Parent,
+  .checkmarkBadge03Container {
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+    width: 90% !important;
+  }
+
+  .image20Parent3 {
+    width: calc(100% - 40px) !important;
+    max-width: 400px;
+    border-radius: 8px 64px 8px 64px !important;
+    padding: 32px 24px;
+    min-height: 320px;
+  }
+
+  .ctaBorderFrame {
+    display: none !important;
+  }
+
+  .ctaBorderFrameMobile {
+    display: block !important;
+    position: absolute !important;
+    top: 8px !important;
+    left: 8px !important;
+    width: calc(100% - 16px) !important;
+    height: calc(100% - 16px) !important;
+    overflow: visible;
+    z-index: 0;
+  }
+
+  .financialConfidenceStarts {
+    font-size: 28px !important;
+    line-height: 1.25 !important;
+  }
+
+  .neurolxpEmpowersLearners {
+    font-size: 16px !important;
+  }
+
+  .frameParent36 {
+    max-width: 100%;
+    gap: 20px !important;
+    padding: 8px 4px;
+  }
+
+  .signInHelpWrapper {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .signInHelp {
+    width: 100%;
+    text-align: center;
+  }
+
+  .ellipseParent {
+    min-height: 130px;
+  }
+
+  .theseSkillsBuildContainer {
+    font-size: clamp(13px, 3.4vw, 18px) !important;
+    left: 11% !important;
+    width: 78% !important;
+    line-height: 1.2 !important;
+  }
+
+  .frameParent9:hover {
+    transform: none !important;
+  }
+
+  @supports not (zoom: 1) {
+    .frameParent9:hover {
+      transform: scale(calc((100vw - 40px) / 620px)) !important;
+    }
+  }
+
+  .image20Parent:hover {
+    transform: none;
+  }
+
+  .frameParent19:hover .tickWrap,
+  .frameParent21:hover .tickWrap {
+    transform: none;
+  }
+
+  .ellipseParent {
+    min-height: 120px;
+  }
+
+  .theseSkillsBuildContainer {
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+    left: 12% !important;
+    width: 76% !important;
+  }
+
+  .theseSkillsBuildContainer .empoweringSmarter,
+  .theseSkillsBuildContainer .money {
+    line-height: 1.2 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .frameParent,
+  .frameDiv,
+  .frameParent2,
+  .frameParent5,
+  .frameParent14,
+  .frameParent23,
+  .frameParent28,
+  .image20Parent3,
+  .frameParent37 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .empoweringSmarterMoneyContainer {
+    font-size: 30px !important;
+    line-height: 1.2 !important;
+  }
+
+  .buildTheConfidenceContainer,
+  .makeConfidentFinancialContainer,
+  .buildResponsibleFinancial,
+  .financialLiteracyForContainer,
+  .financialConfidenceStarts {
+    font-size: 26px !important;
+    line-height: 1.25 !important;
+  }
+
+  .heroOuterCircle {
+    width: 260px !important;
+    height: 260px !important;
+  }
+
+  .frameParent9 {
+    zoom: calc((100vw - 32px) / 620px);
+  }
+
+  @supports not (zoom: 1) {
+    .frameParent9 {
+      transform: scale(calc((100vw - 32px) / 620px)) !important;
+      margin-bottom: calc(156px * ((100vw - 32px) / 620px - 1)) !important;
+    }
+  }
+
+  .finatialLiteracy .sectionBadge {
+    font-size: 13px;
+    padding: 0 18px;
+    height: 44px;
+    min-height: 44px;
+  }
+
+  .tickWrap {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .socialBtn {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .image20Parent3 {
+    width: calc(100% - 32px) !important;
+    border-radius: 8px 52px 8px 52px !important;
+    padding: 28px 20px;
+    min-height: 300px;
+  }
+
+  .ctaBorderFrameMobile {
+    top: 8px !important;
+    left: 8px !important;
+    width: calc(100% - 16px) !important;
+    height: calc(100% - 16px) !important;
+  }
+
+  .financialConfidenceStarts {
+    font-size: 28px !important;
+  }
+
+  .logo01SynapseSpark1Icon2 {
+    width: min(220px, 70vw) !important;
+    height: auto !important;
+  }
+}
+
+@media (hover: none) {
+  .frameParent9:hover {
+    transform: none !important;
+  }
+
+  .image20Parent:hover {
+    transform: none;
+  }
+
+  .frameParent9:active {
+    transform: none !important;
+  }
+
+  .image20Parent:active {
+    transform: none;
+  }
+
+  .frameParent19:hover .tickWrap,
+  .frameParent21:hover .tickWrap {
+    transform: none;
+  }
+
+  .frameParent19:active .tickWrap,
+  .frameParent21:active .tickWrap {
+    transform: none;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE SPACING REFINEMENT ONLY
+   Keeps existing design/content/hover/shadows unchanged.
+   ========================================================= */
+
+/* Mobile / fluid layout */
+@media (max-width: 767.98px) {
+  /* Reduce only the vertical space between the major page sections. */
+  .frameParent2 {
+    margin-top: 24px !important;
+  }
+
+  .frameParent5,
+  .frameParent14,
+  .frameParent23,
+  .frameParent28,
+  .image20Parent3 {
+    margin-top: 32px !important;
+  }
+
+  .frameParent37 {
+    margin-top: 32px !important;
+  }
+
+  /* Tighter, consistent spacing inside section heading groups. */
+  .frameParent3,
+  .frameParent4,
+  .frameParent6,
+  .buildTheConfidenceToManageParent,
+  .frameParent16,
+  .frameParent17 {
+    gap: 20px !important;
+  }
+
+  /* Financial-foundation cards */
+  .frameParent5 {
+    gap: 28px !important;
+  }
+
+  .frameParent7 {
+    gap: 14px !important;
+  }
+
+  /* Smart Decisions */
+  .frameParent14 {
+    gap: 28px !important;
+  }
+
+  .frameParent15 {
+    gap: 24px !important;
+  }
+
+  .frameParent18 {
+    margin-top: 8px !important;
+    gap: 20px !important;
+  }
+
+  /* Smart Finance */
+  .frameParent23 {
+    gap: 28px !important;
+  }
+
+  .frameParent25 {
+    gap: 20px !important;
+  }
+
+  .frameParent26,
+  .frameParent27 {
+    gap: 16px !important;
+  }
+
+  /* Who We Support */
+  .frameParent28 {
+    gap: 28px !important;
+  }
+
+  .frameParent29 {
+    gap: 24px !important;
+  }
+
+  .frameParent31 {
+    gap: 18px !important;
+  }
+
+  /* CTA */
+  .image20Parent3 {
+    padding-top: 26px !important;
+    padding-bottom: 26px !important;
+  }
+
+  .frameParent36 {
+    gap: 16px !important;
+  }
+
+  .financialConfidenceStartsHeParent {
+    gap: 14px !important;
+  }
+}
+
+/* Narrow phones */
+@media (max-width: 480px) {
+  .frameParent2 {
+    margin-top: 20px !important;
+  }
+
+  .frameParent5,
+  .frameParent14,
+  .frameParent23,
+  .frameParent28,
+  .image20Parent3,
+  .frameParent37 {
+    margin-top: 24px !important;
+  }
+
+  .frameParent3,
+  .frameParent4,
+  .frameParent6,
+  .buildTheConfidenceToManageParent,
+  .frameParent16,
+  .frameParent17 {
+    gap: 16px !important;
+  }
+
+  .frameParent5,
+  .frameParent14,
+  .frameParent23,
+  .frameParent28 {
+    gap: 24px !important;
+  }
+
+  .frameParent15,
+  .frameParent29 {
+    gap: 20px !important;
+  }
+
+  .frameParent18,
+  .frameParent25,
+  .frameParent31 {
+    gap: 16px !important;
+  }
+
+  .image20Parent3 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+}
+
+/* =========================================================
+   MOBILE ONLY â€” FINANCIAL FOUNDATION CARDS FIX
+   Reduced coloured area + no text overlap.
+   Desktop/tablet unchanged.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  .frameParent7 {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 14px !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .frameParent8,
+  .frameParent11 {
+    display: contents !important;
+  }
+
+  .frameParent9 {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 148px !important;
+    min-height: 148px !important;
+    margin: 0 !important;
+    transform: none !important;
+    overflow: hidden !important;
+    border-radius: 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent9:hover {
+    transform: none !important;
+  }
+
+  .wrapper,
+  .container,
+  .frame,
+  .wrapper2 {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 148px !important;
+    border-radius: 16px !important;
+  }
+
+  /* Smaller coloured number area */
+  .skillCardPanel,
+  .rectangleIcon,
+  .skillCardPanelAlt,
+  .rectangleIconAlt {
+    top: 0 !important;
+    left: 22% !important;
+    width: 78% !important;
+    height: 140px !important;
+    max-width: none !important;
+    border-radius: 0 8px 8px 0 !important;
+  }
+
+  .rectangleIcon,
+  .rectangleIconAlt {
+    clip-path: polygon(16% 0%, 100% 0%, 100% 100%, 0 100%, 9% 58%) !important;
+  }
+
+  .b,
+  .b4 {
+    top: 50% !important;
+    left: 14px !important;
+    transform: translateY(-50%) !important;
+    font-size: 44px !important;
+    line-height: 1 !important;
+  }
+
+  /* More room for text */
+  .smartBudgetingParent,
+  .creditManagementParent,
+  .savingEssentialsParent {
+    top: 50% !important;
+    left: 33% !important;
+    width: 61% !important;
+    transform: translateY(-50%) !important;
+    gap: 8px !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .smartBudgeting {
+    width: 100% !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .planIncomeAnd,
+  .borrowResponsibly,
+  .growSavingsAnd,
+  .achieveFinancialGoals {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .frameParent9 {
+    height: 142px !important;
+    min-height: 142px !important;
+  }
+
+  .wrapper,
+  .container,
+  .frame,
+  .wrapper2 {
+    height: 142px !important;
+  }
+
+  .skillCardPanel,
+  .rectangleIcon,
+  .skillCardPanelAlt,
+  .rectangleIconAlt {
+    left: 21% !important;
+    width: 79% !important;
+    height: 134px !important;
+  }
+
+  .b,
+  .b4 {
+    left: 12px !important;
+    font-size: 42px !important;
+  }
+
+  .smartBudgetingParent,
+  .creditManagementParent,
+  .savingEssentialsParent {
+    left: 32% !important;
+    width: 63% !important;
+  }
+
+  .smartBudgeting {
+    font-size: 15px !important;
+    line-height: 19px !important;
+  }
+
+  .planIncomeAnd,
+  .borrowResponsibly,
+  .growSavingsAnd,
+  .achieveFinancialGoals {
+    font-size: 13px !important;
+    line-height: 18px !important;
+  }
+}
+
+/* =========================================================
+   MOBILE ONLY â€” CENTER SMART DECISIONS TICK LIST
+   Alignment only. No other design changes.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  .frameParent18 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+  }
+
+  .frameParent19,
+  .frameParent21 {
+    width: 100% !important;
+    max-width: 330px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: flex-start !important;
+  }
+
+  .understandCreditLoans,
+  .assessRisksBefore {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    white-space: normal !important;
+    text-align: left !important;
+  }
+}
+
+/* =========================================================
+   MOBILE ONLY â€” ALIGN EACH LINE WITH CIRCLE CENTER
+   Alignment only. No other design changes.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  .frameParent19,
+  .frameParent21 {
+    display: grid !important;
+    grid-template-columns: 41px minmax(0, 1fr) !important;
+    column-gap: 16px !important;
+    align-items: center !important;
+    width: 330px !important;
+    max-width: calc(100% - 24px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .tickWrap {
+    width: 41px !important;
+    height: 41px !important;
+    margin: 0 !important;
+    align-self: center !important;
+  }
+
+  .understandCreditLoans,
+  .assessRisksBefore {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-self: center !important;
+    line-height: 24px !important;
+    white-space: normal !important;
+    text-align: left !important;
+  }
+}
+
+/* =========================================================
+   DESKTOP â€” FINANCIAL SKILL CARDS: REMOVE EMPTY RIGHT SPACE
+   Only card width/layout is adjusted.
+   ========================================================= */
+@media (min-width: 1025px) {
+  .frameParent7 {
+    gap: 40px !important;
+  }
+
+  .frameParent8,
+  .frameParent11 {
+    width: 560px !important;
+  }
+
+  .frameParent9 {
+    width: 560px !important;
+  }
+
+  .wrapper,
+  .container,
+  .frame,
+  .wrapper2 {
+    width: 560px !important;
+    left: calc(50% - 280px) !important;
+  }
+
+  .skillCardPanel,
+  .rectangleIcon,
+  .skillCardPanelAlt,
+  .rectangleIconAlt {
+    width: 492px !important;
+  }
+}
+
+/* DESKTOP â€” reduce the remaining empty space on the right of skill cards */
+@media (min-width: 1025px) {
+  .frameParent8,
+  .frameParent11,
+  .frameParent9 {
+    width: 520px !important;
+  }
+
+  .wrapper,
+  .container,
+  .frame,
+  .wrapper2 {
+    width: 520px !important;
+    left: calc(50% - 260px) !important;
+  }
+
+  .skillCardPanel,
+  .rectangleIcon,
+  .skillCardPanelAlt,
+  .rectangleIconAlt {
+    width: 452px !important;
+  }
+}
+
+/* =========================================================
+   DESKTOP / TABLET â€” WHO WE SUPPORT SPACING CORRECTION
+   Lowers only the left copy, keeps its supporting copy to two
+   lines, and reduces the oversized badge-to-content gap.
+   ========================================================= */
+@media (min-width: 768px) {
+  .frameParent28 {
+    gap: 48px !important;
+  }
+
+  .frameParent29 {
+    align-items: flex-start !important;
+  }
+
+  .frameParent29 .frameParent16 {
+    width: min(650px, 100%) !important;
+    max-width: 650px !important;
+    margin-top: 110px !important;
+    gap: 24px !important;
+  }
+
+  .frameParent29 .frameParent17 {
+    gap: 24px !important;
+  }
+
+  .frameParent29 .financialLiteracyForContainer {
+    width: 100% !important;
+    max-width: 650px !important;
+    line-height: 1.25 !important;
+  }
+
+  .frameParent29 .forEveryStage {
+    line-height: 1.25 !important;
+  }
+
+  .frameParent29 .buildTheSkills {
+    width: 650px !important;
+    max-width: 100% !important;
+    line-height: 40px !important;
+    white-space: normal !important;
+  }
+}
+
+/* =========================================================
+   SMART DECISIONS â€” KEEP NEW DESIGN, RESTORE ICON CIRCLES
+   Only the four marked icon circles use their original size.
+   ========================================================= */
+@media (min-width: 768px) {
+  .frameParent14 {
+    height: 640px !important;
+    gap: 32px !important;
+  }
+
+  .frameParent15 {
+    width: 100% !important;
+    min-height: 336px !important;
+    align-items: center !important;
+    gap: 48px !important;
+  }
+
+  .frameParent14 .frameParent16 {
+    width: 620px !important;
+    max-width: 620px !important;
+  }
+
+  .frameParent14 .frameParent17 {
+    gap: 28px !important;
+  }
+
+  .frameParent14 .makeConfidentFinancialContainer {
+    width: 620px !important;
+    max-width: 100% !important;
+    line-height: 1.25 !important;
+    display: block !important;
+  }
+
+  .frameParent14 .makeConfidentFinancialContainer2 {
+    width: 100% !important;
+  }
+
+  .frameParent14 .buildTheSkills {
+    width: 620px !important;
+    max-width: 100% !important;
+    line-height: 40px !important;
+  }
+
+  .frameParent14 .frameParent18 {
+    width: 500px !important;
+    margin-top: 32px !important;
+    gap: 32px !important;
+    font-size: 24px !important;
+  }
+
+  .frameParent14 .frameParent19,
+  .frameParent14 .frameParent21 {
+    width: 100% !important;
+    min-height: 41px !important;
+    gap: 24px !important;
+    align-items: center !important;
+  }
+
+  /* Restore only the marked circle areas to the original design. */
+  .frameParent14 .tickWrap {
+    width: 41px !important;
+    height: 41px !important;
+    flex: 0 0 41px !important;
+    border-radius: 50% !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .frameParent14 .tickBg {
+    inset: 0 !important;
+    width: 41px !important;
+    height: 41px !important;
+    border-radius: 50% !important;
+    background-color: color-mix(
+      in srgb,
+      var(--tick-color, #67096e) 30%,
+      transparent
+    ) !important;
+    box-shadow:
+      -4px -4px 4px #ffffff,
+      4px 4px 4px #c6c6c9 !important;
+  }
+
+  .frameParent14 .frameChild6,
+  .frameParent14 .frameChild8 {
+    display: block !important;
+    width: 41px !important;
+    height: 41px !important;
+  }
+
+  .frameParent14 .tickIcon,
+  .frameParent14 .tick03Icon {
+    width: 24px !important;
+    height: 24px !important;
+    filter: none !important;
+    opacity: 1 !important;
+  }
+
+  .frameParent14 .understandCreditLoans,
+  .frameParent14 .assessRisksBefore {
+    line-height: 34px !important;
+    white-space: nowrap !important;
+  }
+
+  .frameParent14 .ellipseParent {
+    width: 1140px !important;
+    max-width: calc(100% - 120px) !important;
+    height: 270px !important;
+    min-height: 270px !important;
+    align-self: center !important;
+    border: 6px solid rgba(255, 255, 255, 0.9) !important;
+    border-radius: 50% !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    background-color: #dfe6e9 !important;
+    background-image: radial-gradient(
+      circle,
+      rgba(49, 52, 75, 0.1) 1.2px,
+      transparent 1.3px
+    ) !important;
+    background-size: 7px 7px !important;
+    box-shadow:
+      inset -4px -4px 4px rgba(255, 255, 255, 0.82),
+      inset 4px 4px 4px rgba(196, 196, 196, 0.4),
+      -4px -4px 4px rgba(255, 255, 255, 0.75),
+      4px 4px 4px rgba(196, 196, 196, 0.72) !important;
+  }
+
+  .frameParent14 .frameChild10,
+  .frameParent14 .ellipseDiv {
+    display: none !important;
+  }
+
+  .frameParent14 .theseSkillsBuildConfidenceParent {
+    position: absolute !important;
+    inset: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .frameParent14 .theseSkillsBuildContainer {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: calc(100% - 120px) !important;
+    height: auto !important;
+    margin: 0 !important;
+    font-size: 44px !important;
+    line-height: 60px !important;
+    text-align: center !important;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25))
+      drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.75)) !important;
+  }
+
+  .frameParent14 .theseSkillsBuildContainer .empoweringSmarter,
+  .frameParent14 .theseSkillsBuildContainer .money {
+    display: block !important;
+    line-height: 60px !important;
+  }
+}
+
+/* =========================================================
+   MOBILE FINAL â€” FOUNDATION CARDS + SMART DECISIONS + FOOTER GAP
+   Desktop and tablet rules above remain unchanged.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  /* Financial Foundations: readable mobile cards and typography. */
+  .frameParent5 .frameParent7 {
+    width: 100% !important;
+    max-width: 360px !important;
+    margin-inline: auto !important;
+    padding-inline: 8px !important;
+    align-items: center !important;
+    gap: 14px !important;
+  }
+
+  .frameParent5 .frameParent9 {
+    width: 100% !important;
+    max-width: 320px !important;
+    height: 148px !important;
+    min-height: 148px !important;
+    margin-inline: auto !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+  }
+
+  .frameParent5 .wrapper,
+  .frameParent5 .container,
+  .frameParent5 .frame,
+  .frameParent5 .wrapper2 {
+    width: 100% !important;
+    height: 148px !important;
+    left: 0 !important;
+    border-radius: 16px !important;
+  }
+
+  .frameParent5 .skillCardPanel,
+  .frameParent5 .rectangleIcon,
+  .frameParent5 .skillCardPanelAlt,
+  .frameParent5 .rectangleIconAlt {
+    height: 140px !important;
+  }
+
+  .frameParent5 .smartBudgetingParent,
+  .frameParent5 .creditManagementParent,
+  .frameParent5 .savingEssentialsParent {
+    left: 32% !important;
+    width: 64% !important;
+    gap: 7px !important;
+  }
+
+  .frameParent5 .smartBudgeting {
+    font-size: 18px !important;
+    line-height: 22px !important;
+    font-weight: 700 !important;
+  }
+
+  .frameParent5 .planIncomeAnd,
+  .frameParent5 .borrowResponsibly,
+  .frameParent5 .growSavingsAnd,
+  .frameParent5 .achieveFinancialGoals {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+
+  .frameParent5 .b,
+  .frameParent5 .b4 {
+    font-size: 42px !important;
+  }
+
+  /* Smart Decisions: use the new single dotted ellipse on mobile. */
+  .frameParent14 .ellipseParent {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    height: 128px !important;
+    min-height: 128px !important;
+    aspect-ratio: auto !important;
+    margin-inline: auto !important;
+    border: 4px solid rgba(255, 255, 255, 0.92) !important;
+    border-radius: 50% !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    background-color: #dfe6e9 !important;
+    background-image: radial-gradient(
+      circle,
+      rgba(49, 52, 75, 0.1) 0.9px,
+      transparent 1px
+    ) !important;
+    background-size: 6px 6px !important;
+    box-shadow:
+      inset -4px -4px 4px rgba(255, 255, 255, 0.82),
+      inset 4px 4px 4px rgba(196, 196, 196, 0.38),
+      -4px -4px 4px rgba(255, 255, 255, 0.75),
+      4px 4px 4px rgba(196, 196, 196, 0.7) !important;
+  }
+
+  .frameParent14 .frameChild10,
+  .frameParent14 .ellipseDiv {
+    display: none !important;
+  }
+
+  .frameParent14 .theseSkillsBuildConfidenceParent {
+    position: absolute !important;
+    inset: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .frameParent14 .theseSkillsBuildContainer {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: calc(100% - 28px) !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 11px !important;
+    line-height: 17px !important;
+    letter-spacing: 0 !important;
+    text-align: center !important;
+    white-space: normal !important;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.2))
+      drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.75)) !important;
+  }
+
+  .frameParent14 .theseSkillsBuildContainer .empoweringSmarter,
+  .frameParent14 .theseSkillsBuildContainer .money {
+    display: block !important;
+    line-height: 17px !important;
+    white-space: nowrap !important;
+  }
+
+  .frameParent14 .theseSkillsBuildContainer .money {
+    margin-top: 5px !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+
+  /* Clear breathing room between the final page section and footer. */
+  .finatialLiteracy {
+    padding-bottom: var(--section-gap) !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .frameParent5 .smartBudgeting {
+    font-size: 17px !important;
+    line-height: 21px !important;
+  }
+
+  .frameParent5 .planIncomeAnd,
+  .frameParent5 .borrowResponsibly,
+  .frameParent5 .growSavingsAnd,
+  .frameParent5 .achieveFinancialGoals {
+    font-size: 14px !important;
+    line-height: 19px !important;
+  }
+
+  .frameParent14 .ellipseParent {
+    max-width: 300px !important;
+    height: 122px !important;
+    min-height: 122px !important;
+  }
+}
+
+/* =========================================================
+   MOBILE FINAL TYPOGRAPHY â€” EXACT REQUESTED SIZES
+   Card title 24px, card subtitle 16px, uniform two-line list,
+   and a readable two-line confidence message.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  .frameParent5 .frameParent9 {
+    height: 164px !important;
+    min-height: 164px !important;
+  }
+
+  .frameParent5 .wrapper,
+  .frameParent5 .container,
+  .frameParent5 .frame,
+  .frameParent5 .wrapper2 {
+    height: 164px !important;
+  }
+
+  .frameParent5 .skillCardPanel,
+  .frameParent5 .rectangleIcon,
+  .frameParent5 .skillCardPanelAlt,
+  .frameParent5 .rectangleIconAlt {
+    height: 156px !important;
+  }
+
+  .frameParent5 .smartBudgetingParent,
+  .frameParent5 .creditManagementParent,
+  .frameParent5 .savingEssentialsParent {
+    left: 29% !important;
+    width: 68% !important;
+    gap: 9px !important;
+  }
+
+  .frameParent5 .smartBudgeting {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .frameParent5 .planIncomeAnd,
+  .frameParent5 .borrowResponsibly,
+  .frameParent5 .growSavingsAnd,
+  .frameParent5 .achieveFinancialGoals {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  /* Every Smart Decisions line uses the same two-line text column. */
+  .frameParent14 .frameParent18 {
+    width: 100% !important;
+    max-width: 100% !important;
+    align-items: center !important;
+  }
+
+  .frameParent14 .frameParent19,
+  .frameParent14 .frameParent21 {
+    display: grid !important;
+    grid-template-columns: 41px 178px !important;
+    column-gap: 16px !important;
+    align-items: center !important;
+    width: 235px !important;
+    max-width: 100% !important;
+    min-height: 48px !important;
+    margin-inline: auto !important;
+  }
+
+  .frameParent14 .understandCreditLoans,
+  .frameParent14 .assessRisksBefore {
+    width: 178px !important;
+    max-width: 178px !important;
+    min-width: 178px !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    text-align: left !important;
+  }
+
+  /* Readable confidence message, contained in exactly two lines. */
+  .frameParent14 .ellipseParent {
+    max-width: 320px !important;
+    height: 136px !important;
+    min-height: 136px !important;
+  }
+
+  .frameParent14 .theseSkillsBuildContainer {
+    width: calc(100% - 24px) !important;
+    max-width: calc(100% - 24px) !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: 0 !important;
+    white-space: normal !important;
+  }
+
+  .frameParent14 .theseSkillsBuildContainer .empoweringSmarter,
+  .frameParent14 .theseSkillsBuildContainer .money {
+    display: inline !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    white-space: normal !important;
+  }
+}
+
+/* =========================================================
+   MOBILE FOUNDATION CARDS â€” FULL WIDTH, NO SCALING/OVERLAP
+   Keeps the requested 24px title and 16px subtitle at their
+   real sizes by cancelling the older responsive zoom rule.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  .frameParent5 .frameParent7 {
+    width: 100% !important;
+    max-width: 320px !important;
+    margin-inline: auto !important;
+    padding-inline: 0 !important;
+    align-items: center !important;
+    gap: 14px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent5 .frameParent9 {
+    width: 100% !important;
+    max-width: 320px !important;
+    height: 124px !important;
+    min-height: 124px !important;
+    margin: 0 auto !important;
+    zoom: 1 !important;
+    transform: none !important;
+    transform-origin: center !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent5 .frameParent9:hover,
+  .frameParent5 .frameParent9:active {
+    transform: none !important;
+  }
+
+  .frameParent5 .wrapper,
+  .frameParent5 .container,
+  .frameParent5 .frame,
+  .frameParent5 .wrapper2 {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 124px !important;
+  }
+
+  .frameParent5 .skillCardPanel,
+  .frameParent5 .rectangleIcon,
+  .frameParent5 .skillCardPanelAlt,
+  .frameParent5 .rectangleIconAlt {
+    left: 22% !important;
+    width: 78% !important;
+    height: 116px !important;
+  }
+
+  .frameParent5 .smartBudgetingParent,
+  .frameParent5 .creditManagementParent,
+  .frameParent5 .savingEssentialsParent {
+    top: 50% !important;
+    left: 35% !important;
+    width: 63% !important;
+    transform: translateY(-50%) !important;
+    gap: 6px !important;
+    overflow: visible !important;
+  }
+
+  .frameParent5 .smartBudgeting {
+    font-size: 24px !important;
+    line-height: 28px !important;
+    letter-spacing: 0 !important;
+    text-align: left !important;
+  }
+
+  .frameParent5 .planIncomeAnd,
+  .frameParent5 .borrowResponsibly,
+  .frameParent5 .growSavingsAnd,
+  .frameParent5 .achieveFinancialGoals {
+    font-size: 16px !important;
+    line-height: 21px !important;
+    letter-spacing: 0 !important;
+    text-align: left !important;
+  }
+
+  @supports not (zoom: 1) {
+    .frameParent5 .frameParent9,
+    .frameParent5 .frameParent9:hover,
+    .frameParent5 .frameParent9:active {
+      transform: none !important;
+      margin: 0 auto !important;
+    }
+  }
+}
+
+/* =========================================================
+   MOBILE ALIGNMENT + RESPONSIVE SMART-DECISION ROWS
+   - Oval confidence message is centred in both directions.
+   - Large mobiles: icon and sentence remain on one line.
+   - Small mobiles: sentence wraps cleanly into two lines.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  .frameParent14 .theseSkillsBuildConfidenceParent {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+  }
+
+  .frameParent14 .theseSkillsBuildContainer {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: calc(100% - 32px) !important;
+    max-width: calc(100% - 32px) !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    line-height: 22px !important;
+  }
+
+  .frameParent14 .theseSkillsBuildContainer .empoweringSmarter,
+  .frameParent14 .theseSkillsBuildContainer .money {
+    line-height: 22px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767.98px) {
+  .frameParent14 .frameParent19,
+  .frameParent14 .frameParent21 {
+    grid-template-columns: 41px max-content !important;
+    column-gap: 16px !important;
+    width: max-content !important;
+    max-width: 100% !important;
+    min-height: 41px !important;
+    margin-inline: auto !important;
+  }
+
+  .frameParent14 .understandCreditLoans,
+  .frameParent14 .assessRisksBefore {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    line-height: 24px !important;
+    white-space: nowrap !important;
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .frameParent14 .frameParent19,
+  .frameParent14 .frameParent21 {
+    grid-template-columns: 41px 170px !important;
+    column-gap: 14px !important;
+    width: 225px !important;
+    max-width: 100% !important;
+    min-height: 48px !important;
+    margin-inline: auto !important;
+  }
+
+  .frameParent14 .understandCreditLoans,
+  .frameParent14 .assessRisksBefore {
+    width: 170px !important;
+    min-width: 170px !important;
+    max-width: 170px !important;
+    line-height: 24px !important;
+    white-space: normal !important;
+    text-align: left !important;
+  }
+}
+@media (min-width: 1025px) {
+  .frameParent23 {
+    margin-top: 48px !important;
+  }
+}
+
+/* Move only the left hero copy upward; keep the hero image unchanged. */
+@media (min-width: 768px) {
+  .frameParent2 .frameParent3 {
+    transform: translateY(-80px);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .frameParent2::before {
+    width: 100vw;
+    height: calc(100% + 80px);
+    left: 50%;
+    top: -80px;
+    transform: translateX(-50%);
+    background-size: max(700px, 145vw) auto;
+    background-position: left -45vw center;
+    opacity: 0.55;
+  }
+}
+
+/* =========================================================
+   FINAL SECTION SPACING
+   Keep the shared 48px rhythm between every major section.
+   On mobile the four foundation cards retain a 24px card gap.
+   ========================================================= */
+@media (min-width: 768px) {
+  /* Lift only the hero's right-side visual; the hero section's layout height
+     remains unchanged, so the following 48px section gap stays intact. */
+  .frameParent2 .heroOuterCircle {
+    transform: translateY(-24px);
+  }
+
+  .frameParent5 {
+    top: calc(768px + var(--section-gap)) !important;
+  }
+
+  .frameParent14 {
+    top: calc(1501.24px + var(--section-gap)) !important;
+  }
+
+  .frameParent23 {
+    top: calc(2189.24px + var(--section-gap)) !important;
+    margin-top: 0 !important;
+  }
+
+  .frameParent28 {
+    top: calc(3028.4px + var(--section-gap)) !important;
+  }
+
+  .image20Parent3 {
+    top: calc(3716.6px + var(--section-gap)) !important;
+  }
+
+  .frameParent37 {
+    top: calc(4173.6px + var(--section-gap)) !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .frameParent2 {
+    margin-top: 12px !important;
+  }
+
+  .frameParent5,
+  .frameParent14,
+  .frameParent23,
+  .frameParent28,
+  .image20Parent3,
+  .frameParent37 {
+    margin-top: var(--section-gap) !important;
+  }
+
+  .frameParent7 {
+    gap: 24px !important;
+  }
+}
+
+/* Add breathing room between the left and right card pairs. */
+@media (min-width: 1025px) {
+  .frameParent7 {
+    column-gap: 80px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .frameParent7 {
+    column-gap: 48px !important;
+  }
+}
+
+/* Mobile: remove the decorative hero pattern, keep the solid page colour. */
+@media (max-width: 767.98px) {
+  .frameParent2::before {
+    content: none !important;
+    display: none !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE FOUNDATION CARD VISIBILITY
+   Show the complete desktop-style outer shadow and keep the
+   Credit Management heading on one line on narrow screens.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  .frameParent5 .frameParent7 {
+    padding: 12px 0 !important;
+    overflow: visible !important;
+  }
+
+  .frameParent5 .frameParent9 {
+    width: 100% !important;
+    max-width: 320px !important;
+    overflow: visible !important;
+    border-radius: 16px !important;
+  }
+
+  .frameParent5 .wrapper,
+  .frameParent5 .container,
+  .frameParent5 .frame,
+  .frameParent5 .wrapper2 {
+    overflow: hidden !important;
+    box-shadow:
+      4px 4px 4px rgba(196, 196, 196, 0.95),
+      -4px -4px 4px rgba(255, 255, 255, 0.88) !important;
+  }
+
+  .frameParent5 .creditManagementParent .smartBudgeting {
+    width: max-content !important;
+    max-width: 100% !important;
+    font-size: clamp(17px, 5.7vw, 20px) !important;
+    line-height: 28px !important;
+    letter-spacing: 0 !important;
+    white-space: nowrap !important;
+    overflow-wrap: normal !important;
+    word-break: keep-all !important;
+  }
+}
+
+/* Final mobile polish: tighten the two-line section heading and keep the
+   Saving Essentials supporting text on one line. */
+@media (max-width: 767.98px) {
+  .frameParent28 .financialLiteracyForContainer {
+    line-height: 1.08 !important;
+  }
+
+  .frameParent28 .financialLiteracyForContainer > span,
+  .frameParent28 .financialLiteracyForContainer .money,
+  .frameParent28 .financialLiteracyForContainer .forEveryStage {
+    margin: 0 !important;
+    line-height: 1.08 !important;
+  }
+
+  .frameParent5 .savingEssentialsParent .growSavingsAnd {
+    width: 100% !important;
+    max-width: 100% !important;
+    align-self: auto !important;
+    font-family: 'Segoe UI', 'Inter' !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    letter-spacing: 0 !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: keep-all !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL DESKTOP TYPOGRAPHY + SMART FINANCE COMPACT VIEW
+   - Hero section is intentionally untouched.
+   - Non-hero main headings = 36px.
+   - Non-hero main subheadings/descriptions = 24px.
+   - Smart Finance section is tightened to fit comfortably in one desktop view.
+   ========================================================================== */
+@media screen and (min-width: 1025px) {
+
+  /* ----------------------------------------------------------
+     NON-HERO MAIN SECTION HEADINGS — 36px
+     ---------------------------------------------------------- */
+  .finatialLiteracy .buildTheConfidenceContainer,
+  .finatialLiteracy .makeConfidentFinancialContainer,
+  .finatialLiteracy .buildResponsibleFinancial,
+  .finatialLiteracy .financialLiteracyForContainer,
+  .finatialLiteracy .financialConfidenceStarts {
+    font-size: 36px !important;
+    line-height: 45px !important;
+    height: auto !important;
+  }
+
+  /* Keep nested coloured heading spans on the same 36px rhythm. */
+  .finatialLiteracy .buildTheConfidenceContainer .empoweringSmarter,
+  .finatialLiteracy .buildTheConfidenceContainer .build,
+  .finatialLiteracy .buildTheConfidenceContainer .the,
+  .finatialLiteracy .buildTheConfidenceContainer .money,
+  .finatialLiteracy .makeConfidentFinancialContainer .empoweringSmarter,
+  .finatialLiteracy .makeConfidentFinancialContainer .money,
+  .finatialLiteracy .financialLiteracyForContainer .money,
+  .finatialLiteracy .financialLiteracyForContainer .forEveryStage {
+    line-height: 45px !important;
+  }
+
+  /* ----------------------------------------------------------
+     NON-HERO MAIN SUBHEADINGS / DESCRIPTIONS — 24px
+     ---------------------------------------------------------- */
+  .finatialLiteracy .developPracticalFinancial,
+  .finatialLiteracy .buildTheSkills,
+  .finatialLiteracy .neurolxpEmpowersLearners {
+    font-size: 24px !important;
+    line-height: 36px !important;
+    height: auto !important;
+  }
+
+  /* The Smart Finance explanatory copy is the sibling directly
+     below Build Responsible Financial Habits. */
+  .finatialLiteracy
+    .buildResponsibleFinancialHaParent
+    > :not(.buildResponsibleFinancial) {
+    font-size: 24px !important;
+    line-height: 36px !important;
+    height: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* ----------------------------------------------------------
+     SMART FINANCE — REDUCE VERTICAL SPACE ONLY
+     Keep card width, colours, icons, shadows and hover design.
+     ---------------------------------------------------------- */
+  .finatialLiteracy .frameParent23 {
+    gap: 24px !important;
+  }
+
+  .finatialLiteracy .buildResponsibleFinancialHaParent {
+    gap: 14px !important;
+  }
+
+  .finatialLiteracy .frameParent25 {
+    gap: 24px !important;
+  }
+
+  .finatialLiteracy .frameParent26,
+  .finatialLiteracy .frameParent27 {
+    gap: 36px !important;
+  }
+
+  /* Make all four Smart Finance cards shorter, without changing width. */
+  .finatialLiteracy .frameParent23 .image20Parent {
+    height: 160px !important;
+    min-height: 160px !important;
+  }
+
+  .finatialLiteracy .frameParent23 .image21Parent,
+  .finatialLiteracy .frameParent23 .image21Container {
+    top: 50% !important;
+    height: 124px !important;
+    min-height: 124px !important;
+    transform: translateY(-50%) !important;
+  }
+
+  .finatialLiteracy .frameParent23 .checkmarkBadge03Parent,
+  .finatialLiteracy .frameParent23 .checkmarkBadge03Container {
+    top: 50% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    gap: 12px !important;
+    transform: translateY(-50%) !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL FULL-PAGE SECTION RHYTHM — EXACT 48PX BETWEEN MAJOR SECTIONS
+   The Smart Finance section was compacted by 218px, so every section below
+   it is moved upward by the same amount. This removes the stale empty space.
+   Existing typography, cards, hover effects and section designs are preserved.
+   ========================================================================== */
+
+.finatialLiteracy {
+  --section-gap: 48px !important;
+}
+
+/* Desktop / scaled desktop canvas */
+@media screen and (min-width: 768px) {
+
+  /* Hero ends at 768px -> 48px -> next section */
+  .finatialLiteracy .frameParent5 {
+    top: 816px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* 816 + 685.24 + 48 */
+  .finatialLiteracy .frameParent14 {
+    top: 1549.24px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* 1549.24 + 640 + 48 */
+  .finatialLiteracy .frameParent23 {
+    top: 2237.24px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Compact Smart Finance now occupies about 573.16px.
+     2237.24 + 573.16 + 48 = 2858.40 */
+  .finatialLiteracy .frameParent28 {
+    top: 2858.4px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Preserve the existing Who We Support section height/rhythm.
+     2858.4 + 640.2 + 48 = 3546.6 */
+  .finatialLiteracy .image20Parent3 {
+    top: 3546.6px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* CTA height is 409px.
+     3546.6 + 409 + 48 = 4003.6 */
+  .finatialLiteracy .frameParent37 {
+    top: 4003.6px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Mobile normal-flow layout — one consistent 48px gap only.
+   Remove any older extra bottom margins that could create blank space. */
+@media screen and (max-width: 767.98px) {
+  .finatialLiteracy .frameParent5,
+  .finatialLiteracy .frameParent14,
+  .finatialLiteracy .frameParent23,
+  .finatialLiteracy .frameParent28,
+  .finatialLiteracy .image20Parent3,
+  .finatialLiteracy .frameParent37 {
+    margin-top: 48px !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL CTA → FOOTER GAP FIX
+   The footer wrapper is positioned independently, so target it directly.
+   Keep exactly 48px after the 409px CTA section on desktop/tablet.
+   ========================================================================== */
+@media screen and (min-width: 768px) {
+  .frameParent37 {
+    top: 4003.6px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   FINAL EMPTY-SPACE FIX — PAGE HEIGHT MATCHES CTA + 48PX
+   The remaining blank area came from the old fixed 4280px page height.
+   CTA: top 3546.6px + height 409px = 3955.6px
+   Required footer gap: 48px
+   Final desktop page height: 4003.6px
+   ========================================================================== */
+
+/* Full desktop: end the Financial Literacy canvas exactly 48px after CTA. */
+@media screen and (min-width: 1440px) {
+  .finatialLiteracy {
+    height: 4003.6px !important;
+    min-height: 4003.6px !important;
+  }
+
+  .pageScale {
+    height: 4003.6px !important;
+    min-height: 4003.6px !important;
+  }
+}
+
+/* Scaled desktop/tablet canvas:
+   the child is visually scaled by viewport/1440, but transforms do not shrink
+   layout height. Give the wrapper the same visual height so no blank area is
+   left before the external footer.
+   4003.6 / 1440 * 100 = 278.0277778vw
+*/
+@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .finatialLiteracy {
+    height: 4003.6px !important;
+    min-height: 4003.6px !important;
+  }
+
+  .pageScale {
+    height: 278.0277778vw !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+}
+
+/* Mobile remains normal-flow and keeps the existing 48px section rhythm. */
+@media screen and (max-width: 767.98px) {
+  .pageScale,
+  .finatialLiteracy {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+}
+
+/* =========================================================
+   INTER FALLBACK — FINANCIAL FOUNDATION CARD TEXT FIX
+   Vertically center the complete title + subtitle block using
+   its real rendered height instead of the Segoe-specific offset.
+   This prevents Inter from touching/overlapping the card bottom.
+   Mobile rules below/elsewhere remain unchanged.
+   ========================================================= */
+@media (min-width: 768px) {
+  .frameParent5 .smartBudgetingParent,
+  .frameParent5 .creditManagementParent,
+  .frameParent5 .savingEssentialsParent {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    height: auto !important;
+    min-height: 0 !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent5 .smartBudgeting {
+    margin: 0 !important;
+    line-height: 36px !important;
+  }
+
+  .frameParent5 .planIncomeAnd,
+  .frameParent5 .borrowResponsibly,
+  .frameParent5 .growSavingsAnd,
+  .frameParent5 .achieveFinancialGoals {
+    margin: 0 !important;
+    line-height: 32px !important;
+  }
+}
+
+
+/* =========================================================
+   FINANCIAL FOUNDATION CARDS — SINGLE-LINE CENTERED HEADINGS
+   ========================================================= */
+@media (min-width: 768px) {
+  .frameParent5 .smartBudgeting,
+  .frameParent5 .creditManagement,
+  .frameParent5 .savingEssentials,
+  .frameParent5 .futurePlanning {
+    width: 100% !important;
+    max-width: none !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    display: block !important;
+    margin: 0 !important;
+  }
+
+  .frameParent5 .smartBudgetingParent,
+  .frameParent5 .creditManagementParent,
+  .frameParent5 .savingEssentialsParent,
+  .frameParent5 .futurePlanningParent {
+    align-items: center !important;
+    text-align: center !important;
+  }
+}
+
+
+/* ========================================================================== 
+   FINAL MOBILE — FINANCIAL FOUNDATION CARDS UNIFORM TYPOGRAPHY + ALIGNMENT
+   Mobile only. Keeps desktop/tablet and all card colours/shapes unchanged.
+   ========================================================================== */
+@media screen and (max-width: 767.98px) {
+  .finatialLiteracy .frameParent5 .frameParent9 {
+    height: 164px !important;
+    min-height: 164px !important;
+  }
+
+  .finatialLiteracy .frameParent5 .wrapper,
+  .finatialLiteracy .frameParent5 .container,
+  .finatialLiteracy .frameParent5 .frame,
+  .finatialLiteracy .frameParent5 .wrapper2 {
+    height: 164px !important;
+  }
+
+  .finatialLiteracy .frameParent5 .skillCardPanel,
+  .finatialLiteracy .frameParent5 .rectangleIcon,
+  .finatialLiteracy .frameParent5 .skillCardPanelAlt,
+  .finatialLiteracy .frameParent5 .rectangleIconAlt {
+    height: 156px !important;
+  }
+
+  /* Put every title + subtitle block at exactly the same position. */
+  .finatialLiteracy .frameParent5 .smartBudgetingParent,
+  .finatialLiteracy .frameParent5 .savingEssentialsParent,
+  .finatialLiteracy .frameParent5 .creditManagementParent,
+  .finatialLiteracy .frameParent5 .futurePlanningParent {
+    top: 50% !important;
+    left: 29% !important;
+    width: 68% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    gap: 9px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+    box-sizing: border-box !important;
+  }
+
+  /* All four card titles use one identical mobile typography rule. */
+  .finatialLiteracy .frameParent5 .smartBudgeting,
+  .finatialLiteracy .frameParent5 .savingEssentials,
+  .finatialLiteracy .frameParent5 .creditManagement,
+  .finatialLiteracy .frameParent5 .futurePlanning {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0 !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  /* All four descriptions use one identical mobile typography rule. */
+  .finatialLiteracy .frameParent5 .planIncomeAnd,
+  .finatialLiteracy .frameParent5 .growSavingsAnd,
+  .finatialLiteracy .frameParent5 .borrowResponsibly,
+  .finatialLiteracy .frameParent5 .achieveFinancialGoals {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  /* Keep all four number labels visually identical. */
+  .finatialLiteracy .frameParent5 .b,
+  .finatialLiteracy .frameParent5 .b4 {
+    top: 50% !important;
+    left: 14px !important;
+    transform: translateY(-50%) !important;
+    font-size: 42px !important;
+    line-height: 1 !important;
+    letter-spacing: 0 !important;
+  }
+}
+
+/* ========================================================================== 
+   FINAL MOBILE — FOUNDATION CARDS: TWO-LINE TITLE + TWO-LINE SUBTITLE
+   Fixes text overlap only. Desktop/tablet, colours, shapes and shadows unchanged.
+   ========================================================================== */
+@media screen and (max-width: 767.98px) {
+  /* Keep enough vertical room for 2 title lines + 2 subtitle lines. */
+  .finatialLiteracy .frameParent5 .frameParent9,
+  .finatialLiteracy .frameParent5 .wrapper,
+  .finatialLiteracy .frameParent5 .container,
+  .finatialLiteracy .frameParent5 .frame,
+  .finatialLiteracy .frameParent5 .wrapper2 {
+    height: 164px !important;
+    min-height: 164px !important;
+  }
+
+  /* All four cards use these existing text containers. */
+  .finatialLiteracy .frameParent5 .smartBudgetingParent,
+  .finatialLiteracy .frameParent5 .creditManagementParent,
+  .finatialLiteracy .frameParent5 .savingEssentialsParent {
+    top: 50% !important;
+    left: 34% !important;
+    width: 62% !important;
+    height: 108px !important;
+    min-height: 108px !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    gap: 8px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    box-sizing: border-box !important;
+    text-align: left !important;
+  }
+
+  /* All card headings: exactly the same 2-line space. */
+  .finatialLiteracy .frameParent5 .smartBudgeting,
+  .finatialLiteracy .frameParent5 .creditManagementParent .smartBudgeting,
+  .finatialLiteracy .frameParent5 .savingEssentialsParent .smartBudgeting {
+    display: block !important;
+    width: 160px !important;
+    max-width: 160px !important;
+    min-height: 56px !important;
+    max-height: 56px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0 !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow: hidden !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  /* All card subheadings: same 2-line space and no collision with title. */
+  .finatialLiteracy .frameParent5 .planIncomeAnd,
+  .finatialLiteracy .frameParent5 .growSavingsAnd,
+  .finatialLiteracy .frameParent5 .borrowResponsibly,
+  .finatialLiteracy .frameParent5 .achieveFinancialGoals {
+    display: block !important;
+    width: 132px !important;
+    max-width: 132px !important;
+    min-height: 42px !important;
+    max-height: 42px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+    text-align: left !important;
+    white-space: normal !important;
+    overflow: hidden !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+}
+
+
+/* Match the supplied Media Literacy reference badges. */
+.finatialLiteracy .sectionBadge {
+  box-sizing: border-box !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 50px !important;
+  max-height: none !important;
+  padding: 10px 24px !important;
+  border-radius: 999px !important;
+  background: #dfe6e9 !important;
+  color: #2d4cc8 !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0.02em !important;
+  text-transform: none !important;
+  text-align: center !important;
+  white-space: normal !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  overflow: visible !important;
+  box-shadow: inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+}
+.finatialLiteracy .sectionBadge * {
+  font: inherit !important;
+  color: inherit !important;
+  text-transform: none !important;
+}
+
+/* One continuous pattern across the hero, visible behind its circle too. */
+.finatialLiteracy .frameParent2::before {
+  content: '' !important;
+  display: block !important;
+  width: 1440px;
+  height: calc(100% + 80px);
+  left: 50%;
+  top: -80px;
+  transform: translateX(-50%);
+  background-color: #dfe6e9;
+  background-image: url('/images/Ellipse 359.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 0;
+}
+/* Hide the hero pattern only inside the portrait circle. */
+.finatialLiteracy .frameParent2 .heroOuterCircle {
+  background-color: #dfe6e9 !important;
+}
+.finatialLiteracy .frameParent2 .heroInnerCircle {
+  background-color: transparent !important;
+}
+
+/* Financial Literacy / for Every Stage of Life. */
+.finatialLiteracy .frameParent28 .financialLiteracyForContainer {
+  display: block !important;
+  height: auto !important;
+}
+.finatialLiteracy .frameParent28 .financialLiteracyForContainer .forEveryStage {
+  display: block !important;
+  margin: 0 !important;
+  line-height: inherit !important;
+  white-space: normal !important;
+}
+@media (min-width: 768px) {
+  .finatialLiteracy .frameParent28 .financialLiteracyForContainer .forEveryStage {
+    white-space: nowrap !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .finatialLiteracy .sectionBadge {
+    font-size: 20px !important;
+    min-height: 50px !important;
+    padding: 10px 24px !important;
+  }
+  .finatialLiteracy .frameParent2::before {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+}
+
+/* The source pattern is oval. Crop its enlarged centre inside a rectangular
+   hero layer so the oval's clear corners stay outside the visible hero. */
+@media (min-width: 768px) {
+  .pageScale {
+    position: relative;
+    isolation: isolate;
+    background-color: #dfe6e9;
+    background-image: none;
+  }
+  .pageScale::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto;
+    height: 768px;
+    background: #dfe6e9 url('/images/Ellipse 359.png') center / 200% 200% no-repeat;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .finatialLiteracy {
+    z-index: 1;
+    background-color: transparent !important;
+    background-image: linear-gradient(to bottom,
+      transparent 0, transparent 768px, #dfe6e9 768px, #dfe6e9 100%);
+  }
+  .finatialLiteracy .frameParent2::before {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1439.98px) {
+  .pageScale::before {
+    height: 53.3333333333vw;
+  }
+}
+@media (max-width: 767.98px) {
+  .finatialLiteracy .frameParent2::before {
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: 200% 200%;
+    background-position: center;
+  }
+}
+
+/* Hover feedback stays in place: colours, brightness and shadows only. */
+.finatialLiteracy :is(.frameParent9, .tickWrap, .image20Parent, .frameWrapper) {
+  transition: background-color 0.28s ease, box-shadow 0.28s ease, filter 0.28s ease;
+  will-change: auto;
+}
+.finatialLiteracy :is(.frameParent19, .frameParent21):hover .tickWrap,
+.finatialLiteracy .frameParent31 > .frameParent32:hover .frameWrapper {
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 8px rgba(0, 0, 0, 0.18);
+}
+
+/* Mobile breadcrumb stays visible above the hero's decorative layer. */
+@media (max-width: 767.98px) {
+  .finatialLiteracy .frameDiv {
+    display: flex !important;
+    position: relative !important;
+    z-index: 3 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    min-height: 24px !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    margin: 0 auto !important;
+    padding-block: 12px 0 !important;
+    box-sizing: border-box;
+  }
+  .finatialLiteracy .frameParent2::before {
+    top: 0 !important;
+    height: 100% !important;
+  }
+
+  /* 16px inside each heading group, with the existing 48px section gaps. */
+  .finatialLiteracy :is(.frameParent23, .frameParent28) {
+    gap: 16px !important;
+  }
+  .finatialLiteracy .buildResponsibleFinancialHaParent,
+  .finatialLiteracy .frameParent28 :is(.frameParent16, .frameParent17) {
+    gap: 16px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin-block: 0 !important;
+  }
+  .finatialLiteracy .buildResponsibleFinancialHaParent > *,
+  .finatialLiteracy .frameParent28 :is(.financialLiteracyForEverySWrapper,
+    .financialLiteracyForContainer, .buildTheSkills) {
+    margin-block: 0 !important;
+    padding-block: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+  .finatialLiteracy .buildResponsibleFinancialHaParent p,
+  .finatialLiteracy .frameParent28 .financialLiteracyForContainer p {
+    margin-block: 0 !important;
+  }
+  .finatialLiteracy .buildResponsibleFinancial br:last-child,
+  .finatialLiteracy .buildResponsibleFinancialHaParent > :not(.buildResponsibleFinancial) > br:first-child,
+  .finatialLiteracy .frameParent28 .financialLiteracyForContainer br {
+    display: none;
+  }
+  /* Reset the inherited 60px line-height on every nested heading span. */
+  .finatialLiteracy .frameParent28 .financialLiteracyForContainer,
+  .finatialLiteracy .frameParent28 .financialLiteracyForContainer * {
+    line-height: 1.2 !important;
+    margin-block: 0 !important;
+    padding-block: 0 !important;
+  }
+  .finatialLiteracy .frameParent28 {
+    gap: 12px !important;
+  }
+  .finatialLiteracy .frameParent28 :is(.frameParent16, .frameParent17) {
+    gap: 12px !important;
+  }
+  .finatialLiteracy .frameParent28 .frameParent29 {
+    gap: 20px !important;
+  }
+}
+
+/* =========================================================
+   FINANCIAL LITERACY — SECTION EXPERT BUTTON
+   Same section-slot placement used by Information Literacy.
+   The launcher sits in the Smart Finance section's empty
+   top-right area without changing the section dimensions.
+   ========================================================= */
+
+.sectionExpertSlot {
+  --expert-button-size: 64px;
+  position: absolute;
+  top: -6px;
+  right: 16px;
+  width: var(--expert-button-size);
+  height: var(--expert-button-size);
+  z-index: 12;
+  pointer-events: none;
+}
+
+/* The shared TalkToExpertButton is portaled into this slot. */
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  position: absolute !important;
+  inset: 0 !important;
+  margin: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  pointer-events: auto;
+}
+
+@media (max-width: 1024px) {
+  .sectionExpertSlot {
+    top: -16px;
+    right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionExpertSlot {
+    --expert-button-size: 48px;
+    top: -8px;
+    right: 8px;
+  }
+}
+
+/* Same subtle professional attention animation as the reference page. */
+.sectionExpertSlot::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: 0;
+  border: 2px solid rgba(45, 76, 200, 0.38);
+  border-radius: 50%;
+  box-sizing: border-box;
+  pointer-events: none;
+  opacity: 0;
+  animation: financialExpertPulse 3s ease-out infinite;
+}
+
+@keyframes financialExpertPulse {
+  0%, 15% {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.55;
+  }
+
+  75%, 100% {
+    transform: scale(1.32);
+    opacity: 0;
+  }
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+  transition: box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover,
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible {
+  box-shadow:
+    -5px -5px 10px #ffffff,
+    5px 5px 10px #c6c6c9,
+    0 0 0 3px rgba(45, 76, 200, 0.14);
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+  transform-origin: center;
+  animation: financialExpertWave 600ms ease-in-out;
+}
+
+@keyframes financialExpertWave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-12deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+
+.sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):active {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px #c6c6c9;
+}
+
+.sectionExpertSlot:has(> :global(button[aria-expanded="true"]))::after {
+  animation: none;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sectionExpertSlot::after,
+  .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+  .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+    animation: none;
+  }
+
+  .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+    transition: none;
+  }
+}
+
+
+
+/* =========================================================
+   MOBILE ONLY - SMART DECISIONS FREE LEFT ALIGNMENT
+   Removes centered/justified positioning from the tick list.
+   ========================================================= */
+@media (max-width: 767.98px) {
+  .frameParent14 .frameParent18 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    align-items: flex-start !important;
+  }
+
+  .frameParent14 .frameParent19,
+  .frameParent14 .frameParent21 {
+    display: flex !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 48px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 16px !important;
+  }
+
+  .frameParent14 .tickWrap {
+    width: 41px !important;
+    height: 41px !important;
+    flex: 0 0 41px !important;
+    margin: 0 !important;
+  }
+
+  .frameParent14 .understandCreditLoans,
+  .frameParent14 .assessRisksBefore {
+    width: auto !important;
+    max-width: calc(100% - 57px) !important;
+    flex: 1 1 auto !important;
+    margin: 0 !important;
+    text-align: left !important;
+    white-space: normal !important;
+  }
+}
+
+
+/* Mobile only: slightly increase the space between Financial Foundation cards. */
+@media (max-width: 767.98px) {
+  .frameParent5 .frameParent7 {
+    gap: 30px !important;
+  }
+}
+
+.neuroBadgeWithTM {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.neuroTrademark {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 10.8px;
+  line-height: 1;
+  font-weight: 600;
+  color: #2d4cc8;
+}
+@media (min-width: 768px) {
+  .finatialLiteracy .frameParent36 .frameChild18 {
+    width: 220px !important;
+    min-width: 220px !important;
+    height: 50.1px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0 !important;
+    white-space: nowrap;
+  }
+
+  .finatialLiteracy .frameParent36 .frameChild18 sup {
+    display: inline !important;
+    position: relative;
+    top: -0.4em;
+    margin-left: 1px;
+    font-size: 10px;
+    line-height: 1;
+  }
+}
+@media (min-width: 768px) {
+  .finatialLiteracy .frameParent36 .frameChild18 {
+    width: 220px !important;
+    min-width: 220px !important;
+    max-width: 220px !important;
+    height: 50.1px;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .finatialLiteracy .neurolxpLabelText {
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+    position: static;
+    width: max-content;
+    white-space: nowrap;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .finatialLiteracy .neurolxpLabelText sup {
+    position: relative !important;
+    top: -5px !important;
+    left: auto !important;
+    right: auto !important;
+    margin-left: 1px !important;
+    font-size: 10px;
+    line-height: 1;
+    vertical-align: baseline;
+  }
+}

@@ -1,0 +1,3091 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:global(html),
+:global(body) {
+  min-height: 100%;
+  background: #dfe6e9;
+}
+
+.page {
+  /*
+   * Shared responsive tokens. Change a value here and every viewport inherits
+   * it; the media queries below only change layout when space becomes limited.
+   */
+  --bg: #dfe6e9;
+  --ink: #31344b;
+  --body: #2f3547;
+  --blue: #2d4cc8;
+  --pink: #bf1869;
+  --purple: #67096e;
+  --orange: #c05512;
+  --teal: #046f73;
+  --green: #2a7308;
+  --gold: #907507;
+  --out:
+    4px 4px 4px #c4c4c4,
+    -4px -4px 4px #ffffff;
+  --out-soft:
+    4px 4px 4px rgba(196, 196, 196, 0.8),
+    -4px -4px 4px rgba(255, 255, 255, 0.8);
+  --in:
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8),
+    inset -4px -4px 4px #ffffff;
+
+  --page-gutter: clamp(16px, 3.75vw, 48px);
+  --section-space: clamp(56px, 7.5vw, 96px);
+  --heading-gap: clamp(18px, 2.5vw, 32px);
+  --row-gap: clamp(18px, 2.8125vw, 36px);
+
+  --hero-title-size: clamp(30px, 3.75vw, 48px);
+  --hero-body-size: clamp(16px, 2.1875vw, 28px);
+  --section-title-size: clamp(24px, 2.8125vw, 36px);
+  --section-body-size: clamp(16px, 1.875vw, 24px);
+  --card-title-size: clamp(18px, 1.5625vw, 20px);
+  --card-body-size: clamp(14px, 1.25vw, 16px);
+  --progress-title-size: clamp(20px, 2.1875vw, 28px);
+  --progress-body-size: clamp(14px, 1.5625vw, 20px);
+  --list-title-size: clamp(18px, 1.875vw, 24px);
+  --journey-title-size: clamp(18px, 2.1875vw, 28px);
+  --cta-title-size: clamp(30px, 4.22vw, 54px);
+  --cta-body-size: clamp(16px, 2.1875vw, 28px);
+
+  width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
+  overflow-x: clip;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Segoe UI", "Inter", sans-serif;
+}
+
+.page *,
+.page *::before,
+.page *::after {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.page :is(h1, h2, h3, p) {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+.page :is(button, a):focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 4px;
+}
+
+.shell {
+  width: min(
+    1280px,
+    calc(100% - var(--page-gutter) - var(--page-gutter))
+  );
+  margin-inline: auto;
+  padding: clamp(20px, 2.5vw, 32px) 0 clamp(56px, 6.25vw, 80px);
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: clamp(6px, 0.625vw, 8px);
+  margin-bottom: 8px;
+  color: var(--body);
+  font-size: clamp(14px, 1.25vw, 16px);
+  line-height: 24px;
+}
+
+.breadcrumb strong {
+  color: #243fa8;
+  font-weight: 400;
+}
+
+.breadcrumb img {
+  flex: 0 0 auto;
+}
+
+.heroSection {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1275 / 816;
+  min-height: 720px;
+}
+
+.heroPolygons {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.heroCopy {
+  position: absolute;
+  top: 12.3%;
+  left: 50%;
+  z-index: 2;
+  width: min(91%, 1160px);
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(18px, 2.03125vw, 26px);
+  text-align: center;
+}
+
+.sectionPill {
+  width: fit-content;
+  max-width: 100%;
+  min-height: clamp(42px, 3.90625vw, 50px);
+  padding: clamp(8px, 0.703125vw, 9px) clamp(18px, 2.1875vw, 28px);
+  border-radius: 28px;
+  background: var(--bg);
+  box-shadow: var(--in);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue);
+  font-size: var(--section-body-size);
+  line-height: 1.34;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.heroCopy h1 {
+  width: 100%;
+  color: var(--ink);
+  font-size: var(--hero-title-size);
+  line-height: 1.24;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-wrap: balance;
+}
+
+.heroCopy > p:last-child {
+  width: min(100%, 1056px);
+  color: var(--body);
+  font-size: var(--hero-body-size);
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+  text-wrap: balance;
+}
+
+.statsStage {
+  position: absolute;
+  left: 50%;
+  bottom: 7.4%;
+  z-index: 3;
+  width: min(74.7%, 952px);
+  height: 276px;
+  transform: translateX(-50%);
+}
+
+.statCard {
+  position: absolute;
+  width: min(30.5%, 290px);
+  min-height: clamp(104px, 9.375vw, 120px);
+  height: auto;
+  padding: 12px;
+  border-radius: 16px;
+  background: var(--bg);
+  box-shadow: var(--out-soft);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.statCard strong {
+  color: var(--tone);
+  font-size: clamp(30px, 3.12vw, 40px);
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.statCard span {
+  color: var(--ink);
+  font-size: clamp(14px, 1.56vw, 20px);
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.statLeft {
+  left: 0;
+  top: 71px;
+}
+
+.statTop {
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.statRight {
+  right: 0;
+  top: 71px;
+}
+
+.statBottom {
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.toneblue { --tone: var(--blue); }
+.tonepink { --tone: var(--pink); }
+.tonepurple { --tone: var(--purple); }
+.toneorange { --tone: var(--orange); }
+.toneteal { --tone: var(--teal); }
+.tonegreen { --tone: var(--green); }
+.tonegold { --tone: var(--gold); }
+
+.section {
+  margin-top: var(--section-space);
+}
+
+/* ==========================================================
+   Challenge Section - Updated Responsive Alignment
+   ========================================================== */
+
+.challengeSection {
+  width:100%;
+  display:grid;
+  grid-template-columns:
+    minmax(0,1fr)
+    minmax(320px,0.95fr);
+
+  align-items:center;
+  justify-content:center;
+
+  gap:clamp(32px,4vw,64px);
+}
+
+.challengeText {
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+
+  justify-content:center;
+  align-items:flex-start;
+
+  gap:clamp(16px,2vw,24px);
+
+  padding-block:clamp(12px,2vw,24px);
+}
+
+.challengeText h2 {
+
+  color:var(--ink);
+
+  font-size:var(--section-title-size);
+
+  line-height:1.23;
+
+  font-weight:700;
+
+  letter-spacing:.03em;
+
+  text-wrap:balance;
+
+  max-width:560px;
+
+}
+
+.challengeText > p {
+
+  max-width:560px;
+
+  color:var(--body);
+
+  font-size:var(--section-body-size);
+
+  line-height:1.45;
+
+  letter-spacing:.03em;
+
+}
+
+/* Cards */
+
+.challengeCards {
+
+  width:100%;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:center;
+
+  gap:clamp(14px,1.5vw,20px);
+
+}
+
+.challengeCard {
+
+  width:100%;
+
+  min-height:clamp(78px,6vw,96px);
+
+  padding:
+
+  clamp(12px,1vw,16px)
+
+  clamp(14px,1.5vw,22px);
+
+  border-radius:clamp(18px,1.7vw,22px);
+
+  background:var(--bg);
+
+  box-shadow:var(--out);
+
+  display:flex;
+
+  align-items:center;
+
+  gap:clamp(12px,1.5vw,20px);
+
+  overflow:hidden;
+
+}
+
+.challengeIconCircle {
+
+  width:clamp(52px,5vw,64px);
+
+  height:clamp(52px,5vw,64px);
+
+  flex-shrink:0;
+
+  border-radius:50%;
+
+  background:var(--bg);
+
+  box-shadow:var(--in);
+
+  display:grid;
+
+  place-items:center;
+
+}
+
+.challengeIconCircle img {
+
+  width:clamp(30px,3vw,40px);
+
+  height:clamp(30px,3vw,40px);
+
+}
+
+.challengeCard > div {
+
+  min-width:0;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:5px;
+
+}
+
+.challengeCard h3 {
+
+  color:var(--tone);
+
+  font-size:var(--card-title-size);
+
+  line-height:1.3;
+
+  font-weight:700;
+
+}
+
+.challengeCard p {
+
+  color:var(--ink);
+
+  font-size:var(--card-body-size);
+
+  line-height:1.4;
+
+}
+
+/* ==========================================================
+   Tablet
+   ========================================================== */
+
+@media(max-width:1024px){
+
+.challengeSection{
+
+ grid-template-columns:1fr;
+
+ gap:36px;
+
+}
+
+.challengeText{
+
+ align-items:center;
+
+ text-align:center;
+
+}
+
+.challengeText h2,
+.challengeText p{
+
+ max-width:700px;
+
+}
+
+.challengeCards{
+
+ width:min(100%,650px);
+
+ margin:auto;
+
+}
+
+}
+
+/* ==========================================================
+   Mobile
+   ========================================================== */
+
+@media(max-width:640px){
+
+.challengeSection{
+
+ gap:28px;
+
+}
+
+.challengeText{
+
+ padding-inline:8px;
+
+}
+
+.challengeText h2{
+
+ line-height:1.3;
+
+}
+
+.challengeCard{
+
+ min-height:76px;
+
+ padding:12px;
+
+ gap:12px;
+
+}
+
+.challengeCard h3{
+
+ font-size:16px;
+
+ line-height:1.25;
+
+}
+
+.challengeCard p{
+
+ font-size:13px;
+
+ line-height:1.35;
+
+}
+
+}
+
+@media(max-width:380px){
+
+.challengeCard{
+
+ align-items:flex-start;
+
+}
+
+.challengeIconCircle{
+
+ width:48px;
+
+ height:48px;
+
+}
+
+}
+
+.centerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerHeading,
+.centerHeadingCompact {
+  width: min(100%, 1110px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.centerHeading {
+  gap: var(--heading-gap);
+}
+
+.centerHeadingCompact {
+  gap: var(--heading-gap);
+}
+
+.centerHeading h2,
+.centerHeadingCompact h2 {
+  width: 100%;
+  color: var(--ink);
+  font-size: var(--section-title-size);
+  line-height: 1.23;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-wrap: balance;
+}
+
+.centerHeading > p:last-child {
+  width: min(100%, 1110px);
+  color: var(--body);
+  font-size: var(--section-body-size);
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  text-wrap: balance;
+}
+
+.goalCards {
+  width: min(100%, 1041px);
+  margin-top: clamp(34px, 5.078125vw, 65px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* The PNG uses a compact honeycomb: the two square SVG rows touch. */
+  gap: 0;
+}
+
+.goalTopRow,
+.goalBottomRow {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: var(--row-gap);
+}
+
+.goalTopRow {
+  grid-template-columns: repeat(3, minmax(0, 323px));
+}
+
+.goalBottomRow {
+  grid-template-columns: repeat(2, minmax(0, 323px));
+}
+
+.goalCard {
+  position: relative;
+  width: 100%;
+  max-width: 323px;
+  aspect-ratio: 1;
+  min-width: 0;
+  justify-self: center;
+  color: var(--tone);
+  container-type: inline-size;
+}
+
+.hexagonSvg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.goalCardContent {
+  position: absolute;
+  inset: 22% 18%;
+  z-index: 2;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(5px, 2.8cqw, 10px);
+  text-align: center;
+}
+
+.goalCardContent > * {
+  width: 100%;
+  max-width: 90%;
+  min-width: 0;
+}
+
+.featureIcon {
+  position: relative;
+  width: clamp(64px, 5.78125vw, 74px);
+  height: clamp(64px, 5.78125vw, 74px);
+  flex: 0 0 clamp(64px, 5.78125vw, 74px);
+}
+
+.goalCard .featureIcon {
+  width: clamp(42px, 22.91cqw, 74px);
+  height: clamp(42px, 22.91cqw, 74px);
+  flex-basis: clamp(42px, 22.91cqw, 74px);
+}
+
+.featureIcon svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.featureIcon > img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: clamp(40px, 3.59375vw, 46px);
+  height: clamp(40px, 3.59375vw, 46px);
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+
+.goalCard .featureIcon > img {
+  width: clamp(28px, 14.24cqw, 46px);
+  height: clamp(28px, 14.24cqw, 46px);
+}
+
+.goalCard h3 {
+  max-width: 95%;
+  color: var(--tone);
+  font-size: clamp(13px, 5.8cqw, 20px);
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-wrap: balance;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.goalCard p {
+  max-width: 90%;
+  color: var(--body);
+  font-size: clamp(10px, 4.3cqw, 15px);
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+.progressCards {
+  width: min(100%, 1261px);
+  margin-top: clamp(34px, 3.90625vw, 50px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--row-gap);
+}
+
+.progressRow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 603px));
+  justify-content: space-between;
+  gap: clamp(18px, 3.90625vw, 50px);
+}
+
+.progressLastRow {
+  display: flex;
+  justify-content: center;
+}
+
+.progressCard {
+  position: relative;
+  width: 100%;
+  max-width: 603px;
+  min-height: 104px;
+  height: auto;
+  aspect-ratio: 603 / 160;
+  border-radius: 24px;
+  background: var(--bg);
+  box-shadow: var(--in);
+  overflow: hidden;
+  color: var(--tone);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+}
+
+/* Keep the original inset frame visible above both halves of every card. */
+.progressCard::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border-radius: inherit;
+  box-shadow: var(--in);
+  pointer-events: none;
+}
+
+.progressCap {
+  --scroll-reveal: 1;
+  position: relative;
+  z-index: 1;
+  width: calc(100% - 8px);
+  flex: 1 0 50%;
+  min-height: 52px;
+  border-radius: 0 0 100px 100px;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  isolation: isolate;
+}
+
+.progressCap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: 0 0 100px 100px;
+  border-bottom: 3px solid var(--tone);
+  clip-path: none;
+  pointer-events: none;
+}
+
+.progressCap h3 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-inline: 12px;
+  color: var(--tone);
+  font-size: var(--progress-title-size);
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.progressCard > p {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 52px;
+  margin: 0;
+  padding: 10px 14px 12px;
+  color: #000000;
+  font-size: var(--progress-body-size);
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 50%;
+}
+
+.adaptiveSection {
+  width: min(100%, 1200px);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 621px) minmax(0, 429px);
+  gap: min(11.72vw, 150px);
+  align-items: center;
+}
+
+.adaptiveCopy {
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--heading-gap);
+}
+
+.adaptiveSection .sectionPill,
+.adaptiveSection .sectionPill > * {
+  color: var(--blue) !important;
+}
+
+.adaptiveList {
+  width: 100%;
+  max-width: 429px;
+  min-width: 0;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.adaptiveItem {
+  width: 100%;
+  min-height: clamp(58px, 5.46875vw, 70px);
+  display: grid;
+  grid-template-columns: clamp(58px, 5.46875vw, 70px) minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: center;
+}
+
+.adaptiveIconCircle {
+  width: clamp(58px, 5.46875vw, 70px);
+  height: clamp(58px, 5.46875vw, 70px);
+  flex: 0 0 clamp(58px, 5.46875vw, 70px);
+  border-radius: 50%;
+  background: var(--bg);
+  box-shadow: var(--in);
+  display: grid;
+  place-items: center;
+}
+
+.adaptiveIconCircle > span {
+  width: clamp(44px, 4.0625vw, 52px);
+  height: clamp(44px, 4.0625vw, 52px);
+  border-radius: 50%;
+  background: var(--bg);
+  box-shadow: var(--out);
+  display: grid;
+  place-items: center;
+}
+
+.adaptiveIconCircle img {
+  width: clamp(28px, 2.65625vw, 34px);
+  height: clamp(28px, 2.65625vw, 34px);
+  object-fit: contain;
+}
+
+.adaptiveItem p {
+  min-width: 0;
+  color: var(--ink);
+  font-size: var(--list-title-size);
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.benefitsFrame {
+  width: 100%;
+  min-height: 597px;
+  margin-top: clamp(34px, 3.90625vw, 50px);
+  padding: clamp(16px, 2.5vw, 32px);
+  border-radius: clamp(24px, 2.5vw, 32px);
+  background: var(--bg);
+  box-shadow: var(--in);
+}
+
+.benefitsInner {
+  width: 100%;
+  min-height: 533px;
+  padding:
+    clamp(16px, 1.953125vw, 25px)
+    clamp(16px, 2.5vw, 32px)
+    clamp(16px, 2.421875vw, 31px);
+  border-radius: clamp(14px, 1.25vw, 16px);
+  background: var(--bg);
+  box-shadow: var(--out-soft);
+  display: grid;
+  grid-template-columns: minmax(0, 606px) minmax(0, 383px);
+  align-items: center;
+  gap: min(9.84vw, 126px);
+  overflow: hidden;
+}
+
+.benefitsImage {
+  width: 606px;
+  max-width: 100%;
+  height: 473px;
+  object-fit: cover;
+}
+
+.benefitsList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(18px, 3.90625vw, 50px);
+}
+
+.benefitItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  color: var(--ink);
+}
+
+.benefitItem img {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 auto;
+  filter:
+    drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.75));
+}
+
+.benefitItem p {
+  min-width: 0;
+  color: var(--ink);
+  font-size: clamp(17px, 1.875vw, 24px);
+  line-height: 1.17;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  overflow-wrap: anywhere;
+}
+
+.journeyTrustSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-space);
+}
+
+.journeyBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(34px, 5vw, 64px);
+}
+
+.journeyColumns {
+  width: min(100%, 1020px);
+  display: grid;
+  grid-template-columns: 200px 360px 300px;
+  justify-content: center;
+  gap: min(12.5vw, 160px);
+}
+
+.journeyColumn {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(16px, 1.875vw, 24px);
+}
+
+.journeyItem {
+  width: 100%;
+  min-height: clamp(48px, 4.375vw, 56px);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+}
+
+.journeyItem img {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 auto;
+  filter:
+    drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(-4px -4px 4px rgba(255, 255, 255, 0.75));
+}
+
+.journeyItem span {
+  color: var(--ink);
+  min-width: 0;
+  font-size: var(--journey-title-size);
+  line-height: 1.29;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  white-space: normal;
+}
+
+.trustBlock {
+  display: grid;
+  grid-template-columns: minmax(0, 501px) minmax(0, 649px);
+  align-items: center;
+  gap: min(7.82vw, 100px);
+}
+
+.trustHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--heading-gap);
+}
+
+.trustGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 306px));
+  gap:
+    clamp(18px, 2.8125vw, 36px)
+    clamp(18px, 4.6875vw, 60px);
+}
+
+.trustCard {
+  position: relative;
+  width: 100%;
+  min-height: clamp(104px, 9.375vw, 120px);
+  border-radius: 16px;
+  background: var(--bg);
+  box-shadow: var(--out);
+  display: grid;
+  place-items: center;
+}
+
+.trustCardInner {
+  width: calc(100% - 32px);
+  min-height: clamp(76px, 6.875vw, 88px);
+  padding: 20px 16px;
+  border-radius: 16px;
+  background: var(--bg);
+  box-shadow: var(--out);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.trustCardInner img {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+.trustCard h3 {
+  color: var(--ink);
+  font-size: clamp(17px, 1.5625vw, 20px);
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* ==========================================================
+   Final CTA Section - Neomorphic Card Shadow
+   ========================================================== */
+
+.ctaSection {
+
+  position: relative;
+
+  width:100%;
+
+  min-height:505px;
+
+  margin-top:var(--section-space);
+
+  border-radius:100px;
+
+  overflow:hidden;
+
+  background:var(--bg);
+
+  /* Added neumorphic floating card effect */
+
+  box-shadow:
+
+    10px 10px 20px rgba(196,196,196,0.75),
+
+    -10px -10px 20px rgba(255,255,255,0.95);
+
+}
+
+.ctaBackground {
+  position: absolute;
+  inset: 0 auto 0 -11%;
+  width: 111%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.ctaCopy {
+  position: relative;
+  z-index: 2;
+  width: 524px;
+  padding-top: 62px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--row-gap);
+}
+
+.ctaCopy h2 {
+  width: 619px;
+  max-width: 100%;
+  color: var(--ink);
+  font-size: var(--cta-title-size);
+  line-height: 1.37;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+}
+
+.ctaCopy p {
+  width: 524px;
+  max-width: 100%;
+  color: #000000;
+  font-size: var(--cta-body-size);
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+}
+
+.demoButton {
+  width: clamp(178px, 16.40625vw, 210px);
+  min-height: clamp(54px, 5vw, 64px);
+  height: auto;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 32px;
+  background: var(--bg);
+  box-shadow: var(--out);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue);
+  font-size: clamp(17px, 1.875vw, 24px);
+  line-height: 1.17;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition:
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.demoButton:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    6px 6px 8px rgba(196, 196, 196, 0.9),
+    -6px -6px 8px #ffffff;
+}
+
+.demoButton:active {
+  transform: translateY(0);
+  box-shadow: var(--in);
+}
+
+.ctaPerson {
+
+  position:absolute;
+
+  right:0;
+
+  bottom:0;
+
+  z-index:1;
+
+  width:min(47%,601px);
+
+  height:500px;
+
+  object-fit:cover;
+
+  object-position:center;
+
+  /* soft depth separation */
+
+  filter:
+
+    drop-shadow(8px 8px 14px rgba(196,196,196,0.6))
+
+    drop-shadow(-8px -8px 14px rgba(255,255,255,0.7));
+
+}
+
+/* Tablet and smaller: layout changes only; visual values stay shared above. */
+@media (max-width: 1024px) {
+  .heroSection {
+    aspect-ratio: auto;
+    min-height: 0;
+    padding: clamp(48px, 7vw, 72px) 0 clamp(28px, 4vw, 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    isolation: isolate;
+  }
+
+  .heroPolygons {
+    inset: 0;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .heroCopy {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: min(100%, 760px);
+    transform: none;
+  }
+
+  .statsStage {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: min(100%, 760px);
+    height: auto;
+    margin-top: clamp(36px, 5.5vw, 56px);
+    padding-inline: clamp(6px, 1vw, 10px);
+    transform: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(14px, 2.34375vw, 24px);
+  }
+
+  .statCard {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    transform: none;
+  }
+
+  .challengeSection,
+  .adaptiveSection,
+  .trustBlock {
+    grid-template-columns: 1fr;
+  }
+
+  .challengeSection,
+  .adaptiveSection {
+    gap: clamp(36px, 5.078125vw, 52px);
+  }
+
+  .challengeText,
+  .adaptiveCopy,
+  .trustHeading {
+    align-items: center;
+    text-align: center;
+  }
+
+  .challengeText > p,
+  .adaptiveCopy > p {
+    max-width: 680px;
+  }
+
+  .challengeImage {
+    width: min(100%, 707px);
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .goalCards {
+    width: min(100%, 700px);
+    gap: clamp(18px, 2.34375vw, 24px);
+  }
+
+  .goalTopRow,
+  .goalBottomRow {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-items: center;
+    gap: clamp(20px, 2.734375vw, 28px);
+  }
+
+  .goalCard {
+    width: min(100%, 300px);
+    flex: none;
+  }
+
+  .goalTopRow .goalCard:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .progressCards {
+    width: 100%;
+  }
+
+  .progressRow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(18px, 2.34375vw, 24px);
+  }
+
+  .adaptiveList {
+    width: min(100%, 520px);
+    max-width: 520px;
+    margin-inline: auto;
+    justify-self: center;
+  }
+
+  .benefitsFrame {
+    min-height: 0;
+  }
+
+  .benefitsInner {
+    min-height: 0;
+    grid-template-columns: 1fr;
+    gap: var(--row-gap);
+  }
+
+  .benefitsImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .benefitsList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .journeyColumns {
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(20px, 2.734375vw, 28px);
+  }
+
+  .trustBlock {
+    gap: clamp(34px, 4.296875vw, 44px);
+  }
+
+  .trustGrid {
+    width: min(100%, 680px);
+    margin-inline: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media(max-width:1024px){
+
+  .ctaSection{
+
+    border-radius:clamp(34px,5.8vw,60px);
+
+    box-shadow:
+
+      8px 8px 16px rgba(196,196,196,.7),
+
+      -8px -8px 16px rgba(255,255,255,.9);
+
+  }
+
+}
+
+@media(max-width:640px){
+
+  .ctaSection{
+
+    border-radius:32px;
+
+    box-shadow:
+
+      6px 6px 12px rgba(196,196,196,.7),
+
+      -6px -6px 12px rgba(255,255,255,.9);
+
+  }
+
+}
+
+  .ctaBackground {
+    left: 0;
+    width: 100%;
+    opacity: 0.75;
+  }
+
+  .ctaCopy {
+    width: min(100%, 600px);
+    margin: 0 auto;
+    padding-top: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ctaPerson {
+    position: relative;
+    inset: auto;
+    width: min(82%, 560px);
+    height: auto;
+    max-height: 380px;
+    margin-top: clamp(20px, 3vw, 32px);
+    transform: none;
+    object-fit: contain;
+    object-position: center bottom;
+  }
+}
+
+/* Small tablets: prevent dense three-column and two-column cards. */
+@media (max-width: 800px) {
+  .journeyColumns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .journeyColumn:last-child {
+    grid-column: 1 / -1;
+    width: min(100%, 360px);
+    justify-self: center;
+  }
+}
+
+@media (max-width: 720px) {
+  .progressRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile: compact structure, using the same shared values. */
+@media (max-width: 640px) {
+  .breadcrumb {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+
+  .breadcrumb::-webkit-scrollbar {
+    display: none;
+  }
+
+  .heroSection {
+    padding: 24px 0 0;
+  }
+
+  .heroPolygons {
+    display: none;
+  }
+
+  .heroCopy {
+    width: 100%;
+    max-width: 100%;
+    padding-inline: 8px;
+  }
+
+  .heroCopy h1 {
+    max-width: 330px;
+    line-height: 1.28;
+  }
+
+  .heroCopy > p:last-child {
+    max-width: 330px;
+    line-height: 1.5;
+  }
+
+  .statsStage {
+    width: 100%;
+    margin-top: 28px;
+    padding: 0;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .statCard {
+    min-height: 100px;
+    padding: 10px 8px;
+  }
+
+  .challengeSection {
+    margin-top: 32px;
+    gap: 32px;
+  }
+
+  .challengeText {
+    gap: 14px;
+  }
+
+  .challengeText h2 {
+    max-width: 100%;
+    padding-inline: 4px;
+    line-height: 1.34;
+  }
+
+  .challengeText > p {
+    line-height: 1.5;
+  }
+
+  .goalCards {
+    width: min(100%, 340px);
+    margin-top: 34px;
+    gap: 16px;
+  }
+
+  .goalTopRow,
+  .goalBottomRow {
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+  }
+
+  .goalTopRow .goalCard:last-child {
+    grid-column: auto;
+  }
+
+  .goalCard {
+    width: min(100%, 300px);
+    margin-block: 0;
+  }
+
+  .progressCards,
+  .progressRow {
+    width: 100%;
+    gap: 18px;
+  }
+
+  .progressRow {
+    justify-items: center;
+  }
+
+  .progressCard {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .progressCap {
+    padding-inline: 12px;
+  }
+
+  .progressCap h3 {
+    font-size: clamp(16px, 4.8vw, 18px);
+  }
+
+  .progressCard > p {
+    padding: 6px 12px 8px;
+    font-size: clamp(12px, 3.467vw, 14px);
+    line-height: 1.35;
+  }
+
+  .adaptiveList {
+    width: min(100%, 300px);
+    max-width: 300px;
+    margin-inline: auto;
+  }
+
+  .adaptiveItem {
+    grid-template-columns: 58px minmax(0, 1fr);
+  }
+
+  .adaptiveItem p {
+    min-width: 0;
+    text-align: left;
+  }
+
+  .benefitsList {
+    grid-template-columns: 1fr;
+  }
+
+  .journeyColumns {
+    width: min(100%, 320px);
+    margin-inline: auto;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .journeyColumn:last-child {
+    grid-column: auto;
+    width: 100%;
+  }
+
+  .journeyColumn {
+    width: 100%;
+    gap: 16px;
+  }
+
+  .journeyItem {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 32px minmax(0, 1fr);
+    column-gap: 16px;
+    align-items: center;
+  }
+
+  .journeyItem span {
+    min-width: 0;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .trustGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaPerson {
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+/* Very narrow phones: keep every card comfortably readable. */
+@media (max-width: 380px) {
+  .statsStage {
+    grid-template-columns: 1fr;
+  }
+
+  .challengeCard,
+  .benefitItem,
+  .trustCardInner {
+    align-items: flex-start;
+  }
+
+  .challengeCard {
+    min-height: 78px;
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .challengeCard h3 {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .challengeCard p {
+    font-size: 13px;
+    line-height: 1.35;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .challengeImage,
+  .progressCap {
+    --scroll-reveal: 1;
+  }
+
+  .demoButton {
+    transition: none;
+  }
+}
+
+/* ==========================================================
+   Challenge section label - blue pill text
+   ========================================================== */
+.challengeText .sectionPill,
+.challengeText .sectionPill * {
+  color: var(--blue) !important;
+}
+
+/* ==========================================================
+   Challenge illustration position correction
+   Move only left side image upward without affecting layout
+   ========================================================== */
+
+.challengeImage {
+  width: min(100%, 707px);
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  transform: translateY(-35px);
+}
+
+/* Keep image balanced on tablets */
+@media (max-width:1024px) {
+  .challengeImage {
+    transform: translateY(-22px);
+    margin-inline:auto;
+  }
+}
+
+/* Mobile spacing correction */
+@media (max-width:640px) {
+  .challengeImage {
+    transform: translateY(-12px);
+  }
+}
+/* ==========================================================
+   Reduce space between Challenge and Goal Setting sections
+   ========================================================== */
+
+.section {
+  margin-top: clamp(36px, 4vw, 56px);
+}
+
+/* Goal Setting Section spacing correction */
+.centerSection {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Reduce heading to card gap */
+.goalCards {
+  margin-top: clamp(20px, 2.5vw, 36px);
+}
+
+/* Keep section content compact */
+.centerHeading,
+.centerHeadingCompact {
+  gap: clamp(12px, 1.8vw, 20px);
+}
+
+/* Desktop */
+@media (min-width:1025px) {
+
+  .section {
+    margin-top: 48px;
+  }
+
+  .goalCards {
+    margin-top: 28px;
+  }
+
+}
+
+/* Tablet */
+@media (max-width:1024px) {
+
+  .section {
+    margin-top: 40px;
+  }
+
+  .goalCards {
+    margin-top: 24px;
+  }
+
+}
+
+/* Mobile */
+@media (max-width:640px) {
+
+  .section {
+    margin-top: 32px;
+  }
+
+  .goalCards {
+    margin-top: 20px;
+  }
+
+  .centerHeading h2,
+  .centerHeadingCompact h2 {
+    line-height: 1.25;
+  }
+
+}
+
+/* ==========================================================
+   Final Goal Card Text Safety Fix
+   Keeps hexagon content away from borders on all devices
+   ========================================================== */
+
+@media (min-width:1025px){
+  .goalCardContent{
+    inset:20% 17%;
+  }
+
+  .goalCard h3{
+    font-size:20px;
+  }
+
+  .goalCard p{
+    font-size:15px;
+  }
+}
+
+@media(max-width:1024px){
+
+  .goalCardContent{
+    inset:22% 18%;
+  }
+
+}
+
+@media(max-width:640px){
+
+  .goalCardContent{
+    inset:23% 20%;
+    gap:6px;
+  }
+
+  .goalCard h3{
+    font-size:16px;
+    line-height:1.25;
+  }
+
+  .goalCard p{
+    font-size:12px;
+    line-height:1.35;
+  }
+
+}
+
+@media(max-width:380px){
+
+  .goalCardContent{
+    inset:24% 21%;
+  }
+
+  .goalCard h3{
+    font-size:15px;
+  }
+
+  .goalCard p{
+    font-size:11px;
+  }
+
+}
+/* ==========================================================
+   Benefits Section - Neomorphic Shadow Update
+   Inner + Outer Depth Effect
+   ========================================================== */
+
+.benefitsFrame {
+
+  width:100%;
+
+  min-height:0;
+
+  height:auto;
+
+  margin-top:clamp(34px,3.90625vw,50px);
+
+  padding:
+    clamp(14px,2vw,24px);
+
+  border-radius:
+    clamp(24px,2.5vw,32px);
+
+  background:var(--bg);
+
+  /* outer raised + inner pressed effect */
+  box-shadow:
+
+    8px 8px 16px rgba(196,196,196,0.75),
+
+    -8px -8px 16px rgba(255,255,255,0.95),
+
+    inset 3px 3px 6px rgba(196,196,196,0.45),
+
+    inset -3px -3px 6px rgba(255,255,255,0.85);
+
+}
+
+.benefitsInner {
+
+  width:100%;
+
+  height:clamp(380px,34vw,500px);
+
+  min-height:0;
+
+  padding:
+
+    clamp(14px,1.8vw,24px)
+
+    clamp(14px,2.2vw,28px);
+
+  border-radius:
+    clamp(18px,2vw,28px);
+
+  background:var(--bg);
+
+  /* raised inner panel like reference image */
+  box-shadow:
+
+    7px 7px 14px rgba(196,196,196,0.7),
+
+    -7px -7px 14px rgba(255,255,255,0.9);
+
+  display:grid;
+
+  grid-template-columns:
+    minmax(0,606px)
+    minmax(0,383px);
+
+  align-items:center;
+
+  gap:
+    clamp(40px,7vw,100px);
+
+  overflow:hidden;
+
+}
+
+.benefitsImage {
+
+  width:100%;
+
+  max-width:606px;
+
+  height:
+    clamp(320px,32vw,430px);
+
+  object-fit:contain;
+
+}
+
+.benefitsList {
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:flex-start;
+
+  gap:
+    clamp(14px,2vw,28px);
+
+}
+
+.benefitItem {
+
+  display:flex;
+
+  align-items:center;
+
+  gap:14px;
+
+  min-width:0;
+
+}
+
+.benefitItem img {
+
+  width:28px;
+
+  height:28px;
+
+  flex:0 0 auto;
+
+  filter:
+    drop-shadow(4px 4px 4px rgba(0,0,0,.20))
+    drop-shadow(-4px -4px 4px rgba(255,255,255,.8));
+
+}
+
+.benefitItem p {
+
+  min-width:0;
+
+  color:var(--ink);
+
+  font-size:
+    clamp(16px,1.6vw,22px);
+
+  line-height:1.25;
+
+  font-weight:600;
+
+  letter-spacing:.03em;
+
+}
+
+/* Tablet */
+
+@media(max-width:1024px){
+
+  .benefitsFrame{
+
+    min-height:0;
+
+  }
+
+  .benefitsInner{
+
+    height:auto;
+
+    grid-template-columns:1fr;
+
+    gap:32px;
+
+  }
+
+  .benefitsImage{
+
+    height:auto;
+
+    max-height:380px;
+
+    margin-inline:auto;
+
+  }
+
+}
+
+/* Mobile */
+
+@media(max-width:640px){
+
+  .benefitsFrame{
+
+    padding:14px;
+
+  }
+
+  .benefitsInner{
+
+    padding:16px;
+
+    gap:24px;
+
+  }
+
+  .benefitsImage{
+
+    width:100%;
+
+    height:auto;
+
+    max-height:260px;
+
+  }
+
+  .benefitsList{
+
+    gap:18px;
+
+  }
+
+  .benefitItem p{
+
+    font-size:16px;
+
+    line-height:1.35;
+
+  }
+
+}
+
+/* ==========================================================
+   FINAL CTA MOBILE CARD SHADOW + TOP SPACE FIX
+   ========================================================== */
+
+/* Desktop + Tablet CTA depth correction */
+.ctaSection {
+
+  box-shadow:
+    10px 10px 22px rgba(196,196,196,0.75),
+    -10px -10px 22px rgba(255,255,255,0.95),
+    inset 3px 3px 8px rgba(196,196,196,0.35),
+    inset -3px -3px 8px rgba(255,255,255,0.8);
+
+}
+
+/* Mobile CTA correction */
+@media(max-width:640px){
+
+  .ctaSection{
+
+    padding-top:32px;
+
+    padding-left:18px;
+
+    padding-right:18px;
+
+    padding-bottom:18px;
+
+    border-radius:32px;
+
+    box-shadow:
+
+      7px 7px 16px rgba(196,196,196,0.75),
+
+      -7px -7px 16px rgba(255,255,255,0.95),
+
+      inset 3px 3px 7px rgba(196,196,196,0.35),
+
+      inset -3px -3px 7px rgba(255,255,255,0.8);
+
+  }
+
+  .ctaCopy{
+
+    padding-top:0;
+
+    gap:18px;
+
+  }
+
+  .ctaCopy h2{
+
+    margin-top:0;
+
+  }
+
+  .ctaCopy p{
+
+    margin-top:4px;
+
+  }
+
+  .demoButton{
+
+    margin-top:4px;
+
+  }
+
+  .ctaPerson{
+
+    margin-top:24px;
+
+    border-radius:0 0 26px 26px;
+
+  }
+
+}
+
+/* Very small mobile */
+@media(max-width:380px){
+
+ .ctaSection{
+
+    padding-top:26px;
+
+ }
+
+ .ctaPerson{
+
+    margin-top:20px;
+
+ }
+
+}
+
+/* ==========================================================
+   FINAL CTA SECTION - CONSOLIDATED RESPONSIVE FIX
+   Keeps original Inter/Segoe typography, neomorphic depth,
+   and button hover/press interaction
+   ========================================================== */
+
+.ctaSection {
+  box-shadow:
+    10px 10px 22px rgba(196,196,196,0.75),
+    -10px -10px 22px rgba(255,255,255,0.95),
+    inset 3px 3px 8px rgba(196,196,196,0.35),
+    inset -3px -3px 8px rgba(255,255,255,0.8);
+}
+
+.ctaCopy h2 {
+  font-family: inherit;
+  font-size: var(--cta-title-size);
+  font-weight: 700;
+}
+
+.ctaCopy p {
+  font-family: inherit;
+  font-size: var(--cta-body-size);
+  font-weight: 400;
+}
+
+.demoButton {
+  font-family: inherit;
+  transition:
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.demoButton:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    6px 6px 8px rgba(196,196,196,0.9),
+    -6px -6px 8px #ffffff;
+}
+
+.demoButton:active {
+  transform: translateY(0);
+  box-shadow: var(--in);
+}
+
+@media(max-width:640px){
+  .ctaSection {
+    padding: 32px 18px 18px;
+    border-radius: 32px;
+  }
+
+  .ctaCopy {
+    padding-top: 0;
+    gap: 18px;
+  }
+
+  .ctaPerson {
+    margin-top: 24px;
+    max-height: 300px;
+  }
+}
+
+@media(max-width:380px){
+  .ctaSection {
+    padding-top: 26px;
+  }
+
+  .ctaPerson {
+    margin-top: 20px;
+  }
+}
+
+/* ==========================================================
+   FINAL BOOK A DEMO BUTTON — HOVER IN / OUT ONLY
+   Default = raised/out effect
+   Hover   = pressed/in effect
+   Mouse out = smoothly returns to raised/out effect
+   Click does not introduce a separate visual style
+   ========================================================== */
+
+.demoButton {
+  position: relative;
+  overflow: hidden;
+  font-family: inherit;
+
+  background: var(--bg);
+
+  /* OUT effect - default state */
+  box-shadow:
+    5px 5px 10px rgba(196, 196, 196, 0.78),
+    -5px -5px 10px rgba(255, 255, 255, 0.96);
+
+  transform: translateY(0);
+
+  transition:
+    box-shadow 220ms ease,
+    transform 220ms ease;
+}
+
+/* IN effect - hover only */
+.demoButton:hover {
+  transform: translateY(0);
+
+  box-shadow:
+    inset 4px 4px 8px rgba(196, 196, 196, 0.78),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.94);
+}
+
+/* No separate click/active effect */
+.demoButton:active {
+  transform: translateY(0);
+
+  box-shadow:
+    inset 4px 4px 8px rgba(196, 196, 196, 0.78),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.94);
+}
+
+/* Keyboard focus keeps the same visible accessibility outline */
+.demoButton:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 4px;
+}
+
+/* On touch/mobile devices the normal raised state remains */
+@media (hover: none) {
+  .demoButton:hover,
+  .demoButton:active {
+    box-shadow:
+      5px 5px 10px rgba(196, 196, 196, 0.78),
+      -5px -5px 10px rgba(255, 255, 255, 0.96);
+  }
+}
+/* ==========================================================
+   FINAL CTA HEADING SIZE FIX
+   ========================================================== */
+
+.ctaCopy h2 {
+
+    font-family: "Segoe UI", "Inter", sans-serif;
+
+    font-size: clamp(24px, 2.8125vw, 36px);
+
+    line-height: 1.25;
+
+    font-weight: 700;
+
+    letter-spacing: 0.02em;
+
+}
+
+/* CTA paragraph maintain body scale */
+
+.ctaCopy p {
+
+    font-family: "Segoe UI", "Inter", sans-serif;
+
+    font-size: clamp(16px, 1.875vw, 24px);
+
+    line-height: 1.45;
+
+}
+
+/* Mobile CTA: fit the copy to the card's inner width. */
+
+@media(max-width:640px){
+
+    .ctaCopy {
+        width:100%;
+        max-width:100%;
+        min-width:0;
+        margin-inline:auto;
+    }
+
+    .ctaCopy h2,
+    .ctaCopy p {
+        width:100%;
+        max-width:100%;
+        min-width:0;
+        white-space:normal;
+        word-break:normal;
+        overflow-wrap:break-word;
+        text-align:center;
+    }
+
+    .ctaCopy h2 {
+
+        font-size: clamp(22px, 6vw, 28px);
+
+        line-height:1.25;
+
+        text-wrap:balance;
+
+        margin-inline:auto;
+
+    }
+
+    .ctaCopy p {
+
+        font-size:16px;
+
+        line-height:1.45;
+
+        margin-inline:auto;
+
+    }
+
+    .ctaCopy .demoButton {
+        max-width:100%;
+        align-self:center;
+        white-space:normal;
+    }
+
+}
+
+/* Shared desktop typography: includes the hero and final CTA.
+   Matches the existing desktop layout breakpoint. */
+@media (min-width: 1025px) {
+  .page {
+    --section-title-size: 36px;
+    --section-body-size: 24px;
+    --hero-title-size: var(--section-title-size);
+    --hero-body-size: var(--section-body-size);
+    --cta-title-size: var(--section-title-size);
+    --cta-body-size: var(--section-body-size);
+    --badge-font-size: 24px;
+  }
+
+  .heroCopy h1,
+  .challengeText h2,
+  .centerHeading h2,
+  .centerHeadingCompact h2,
+  .adaptiveCopy h2,
+  .trustHeading h2,
+  .ctaCopy h2 {
+    font-size: var(--section-title-size);
+  }
+
+  .heroCopy > p:last-child,
+  .challengeText > p,
+  .centerHeading > p:last-child,
+  .centerHeadingCompact > p:last-child,
+  .adaptiveCopy > p:not(.sectionPill),
+  .trustHeading > p:not(.sectionPill),
+  .ctaCopy p {
+    font-size: var(--section-body-size);
+  }
+
+  .adaptiveCopy h2,
+  .trustHeading h2 {
+    max-width: 100%;
+    color: var(--ink);
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    white-space: normal;
+  }
+
+  .adaptiveCopy > p:not(.sectionPill),
+  .trustHeading > p:not(.sectionPill) {
+    max-width: 100%;
+    color: var(--body);
+    line-height: 1.45;
+    letter-spacing: 0.03em;
+    white-space: normal;
+  }
+
+  .sectionPill {
+    font-size: var(--badge-font-size);
+  }
+}
+
+/* Personalised Learning Paths reference: breadcrumbs, controls and badges.
+   These scoped rules follow all older responsive declarations. */
+.page {
+  --matched-breadcrumb-width: min(100vw, 1280px);
+  --matched-button-size: 24px;
+  --matched-button-line: 32px;
+  --matched-button-padding: 16px 32px;
+  --matched-raised: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9;
+  --matched-inset: inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+}
+
+/* The breadcrumb supplies its own top padding, just as on PLP.
+   Leave the shell's content width and bottom spacing unchanged. */
+.page .shell { padding-top: 0; }
+
+.page .breadcrumb {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: var(--matched-breadcrumb-width);
+  max-width: none;
+  margin-block: 0;
+  margin-inline: calc((100% - var(--matched-breadcrumb-width)) / 2);
+  padding: 12px 20px 0;
+  font-family: "Segoe UI", "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #2f3547;
+}
+
+.page .breadcrumb :is(a, span, strong) {
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+}
+
+.page .breadcrumb :is(strong, [aria-current="page"]) {
+  color: #243fa8;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.page .breadcrumb :is(img, svg) { flex-shrink: 0; }
+
+.page .demoButton {
+  appearance: none;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: auto;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 52px;
+  height: auto;
+  padding: var(--matched-button-padding);
+  border: 0;
+  border-radius: 8px;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter";
+  font-size: var(--matched-button-size);
+  font-weight: 600;
+  line-height: var(--matched-button-line);
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  box-shadow: var(--matched-raised);
+  transform: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: box-shadow 0.2s ease;
+}
+
+/* Journey controls fill their existing column; icons retain their dimensions. */
+.page .journeyItem { width: 100%; }
+
+.page .demoButton :is(span, svg) {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+.page .demoButton:is(:hover, :active, :focus, :visited) {
+  background: #dfe6e9;
+  color: #2d4cc8;
+  transform: none;
+  box-shadow: var(--matched-raised);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .page .demoButton:hover:not(:disabled):not([aria-disabled="true"]) {
+    box-shadow: var(--matched-inset);
+  }
+}
+
+.page .demoButton:active:not(:disabled):not([aria-disabled="true"]) {
+  box-shadow: var(--matched-inset);
+}
+
+.page .demoButton:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+.page .demoButton:is(:disabled, [aria-disabled="true"]) {
+  opacity: 0.55;
+  cursor: not-allowed;
+  box-shadow: var(--matched-raised);
+}
+
+/* Repeated class intentionally beats contextual paragraph/hero typography. */
+.page .sectionPill.sectionPill {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 56px;
+  height: auto;
+  padding: 12px 36px;
+  border: 0;
+  border-radius: 999px;
+  background: #dfe6e9;
+  box-shadow: var(--matched-inset);
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: none;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 768px) {
+  .page .breadcrumb { padding-top: 32px; }
+}
+
+@media (min-width: 1024px) {
+  .page .breadcrumb { margin-bottom: 24px; }
+}
+
+@media (min-width: 1280px) {
+  .page .breadcrumb { padding-inline: 80px; }
+}
+
+@media (min-width: 1440px) {
+  .page { --matched-breadcrumb-width: min(100vw, 1440px); }
+}
+
+@media (width < 1024px) {
+  .page {
+    --matched-button-size: 20px;
+    --matched-button-line: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page {
+    --matched-button-size: 18px;
+    --matched-button-line: 24px;
+    --matched-button-padding: 14px 24px;
+  }
+  .page .sectionPill.sectionPill {
+    width: max-content;
+    max-width: calc(100vw - 16px);
+    min-height: 48px;
+    flex-shrink: 0;
+    padding: 10px 8px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    text-wrap: nowrap;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  .page .breadcrumb {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .page .breadcrumb :is(strong, [aria-current="page"]) { font-weight: 400; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page .demoButton { transition: none; }
+}
+
+/* Goals and Tracking: screenshot layout corrections. */
+.page .challengeText {
+  height: auto;
+  overflow: visible;
+}
+
+.page .challengeImage {
+  position: static;
+  display: block;
+  /* Move 12px left. Removing the former 12px net top space moves it up
+     without a vertical transform or negative margins crossing nearby text. */
+  transform: translateX(-12px);
+  width: min(100%, 707px);
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+  user-select: auto;
+  -webkit-user-select: auto;
+  -webkit-user-drag: auto;
+}
+
+@media (max-width: 640px) {
+  .page .challengeImage {
+    transform: translateX(-6px);
+  }
+}
+
+/* Single-line titles share one baseline; descriptions remain readable below.
+   Keep text inside the central area of each hexagon, not against its edges. */
+.page .goalCardContent {
+  inset: 20% 14%;
+  gap: 12px;
+  justify-content: center;
+}
+
+.page .goalCardContent > * {
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.page .goalCard .featureIcon {
+  width: clamp(48px, 22cqw, 72px);
+  height: clamp(48px, 22cqw, 72px);
+  flex: 0 0 clamp(48px, 22cqw, 72px);
+}
+
+.page .goalCard h3 {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  font-size: clamp(15px, 6cqw, 20px);
+  line-height: 1.25;
+  white-space: nowrap;
+  text-wrap: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.page .goalCard p {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  font-size: clamp(12px, 4.65cqw, 15px);
+  line-height: 1.4;
+  white-space: nowrap;
+  text-wrap: nowrap;
+  overflow-wrap: normal;
+}
+
+/* Journey: three numbered steps per row, in reading order.
+   The existing markup groups Set Goals/Learn, Track Progress/Analyze
+   Performance, and Create Plans/Adapt & Improve into three columns. */
+.page .journeyBlock {
+  gap: 32px;
+}
+
+.page .journeyColumns {
+  display: grid;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: row;
+  gap: 24px 32px;
+  align-items: start;
+}
+
+/* Flatten only the column wrappers so all six steps share one grid. */
+.page .journeyColumn,
+.page .journeyColumn:last-child {
+  display: contents;
+}
+
+.page .journeyItem {
+  --journey-circle-size: 70px;
+  --journey-circle-inset: 8px;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--ink);
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  justify-content: flex-start;
+  text-align: left;
+  transform: none;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+/* Replace the former tick icons with matching blue number circles. */
+.page .journeyItem img,
+.page .journeyItem svg {
+  display: none;
+}
+
+/* Double circle matches the reference: recessed outer ring, raised face. */
+.page .journeyItem::before {
+  content: "";
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 var(--journey-circle-size);
+  width: var(--journey-circle-size);
+  height: var(--journey-circle-size);
+  border: 0;
+  border-radius: 50%;
+  background: var(--bg);
+  box-shadow:
+    inset 4px 4px 4px #c4c4c4,
+    inset -4px -4px 4px #ffffff;
+  pointer-events: none;
+}
+
+.page .journeyItem::after {
+  content: var(--journey-number);
+  box-sizing: border-box;
+  position: absolute;
+  left: var(--journey-circle-inset);
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--journey-circle-size) - 2 * var(--journey-circle-inset));
+  height: calc(var(--journey-circle-size) - 2 * var(--journey-circle-inset));
+  border: 0;
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--blue);
+  box-shadow:
+    3px 3px 4px rgba(196, 196, 196, 0.9),
+    -3px -3px 4px #ffffff;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 32px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.page .journeyItem span {
+  min-width: 0;
+  flex: 1 1 auto;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  line-height: inherit;
+  white-space: normal;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+  word-break: normal;
+  text-align: left;
+}
+
+/* Row 1: Set Goals, Create Plans, Learn.
+   Row 2: Track Progress, Analyze Performance, Adapt & Improve. */
+.page .journeyColumn:nth-child(1) .journeyItem:nth-child(1) {
+  order: 1;
+  --journey-number: "1";
+}
+
+.page .journeyColumn:nth-child(3) .journeyItem:nth-child(1) {
+  order: 2;
+  --journey-number: "2";
+}
+
+.page .journeyColumn:nth-child(1) .journeyItem:nth-child(2) {
+  order: 3;
+  --journey-number: "3";
+}
+
+.page .journeyColumn:nth-child(2) .journeyItem:nth-child(1) {
+  order: 4;
+  --journey-number: "4";
+}
+
+.page .journeyColumn:nth-child(2) .journeyItem:nth-child(2) {
+  order: 5;
+  --journey-number: "5";
+}
+
+.page .journeyColumn:nth-child(3) .journeyItem:nth-child(2) {
+  order: 6;
+  --journey-number: "6";
+}
+
+.page .journeyItem:is(:hover, :active, :focus, :visited) {
+  color: var(--ink);
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+}
+
+@media (max-width: 1024px) {
+  .page .journeyColumns {
+    max-width: 800px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page .journeyBlock {
+    gap: 24px;
+  }
+
+  .page .journeyColumns {
+    width: calc(100% - 24px);
+    max-width: 300px;
+    margin-inline: auto;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .page .journeyItem {
+    --journey-circle-size: 56px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* Desktop reference: three hexagons above two centred between them. */
+@media (min-width: 1025px) {
+  .page .goalCards {
+    width: min(100%, 1025px);
+    gap: 0;
+  }
+  .page .goalTopRow,
+  .page .goalBottomRow {
+    width: 100%;
+    gap: 28px;
+  }
+  .page .goalTopRow {
+    grid-template-columns: repeat(3, minmax(0, 323px));
+  }
+  .page .goalBottomRow {
+    width: calc((100% - 56px) / 3 * 2 + 28px);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: -28px;
+  }
+  .page .goalCard { width: 100%; max-width: 323px; }
+
+  /* Left-aligned trust heading beside the original 2x2 neomorphic cards. */
+  .page .trustBlock {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    gap: 48px;
+  }
+  .page .trustHeading { align-items: flex-start; text-align: left; }
+  .page .trustGrid {
+    width: 100%;
+    max-width: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+  .page .trustCardInner { gap: 12px; padding: 20px 12px; }
+  .page .trustCard h3 { font-size: clamp(15px, 1.35vw, 20px); }
+}
+
+@media (max-width: 640px) {
+  .page .goalCardContent { gap: 8px; }
+}
+
+/* Benefits list: slightly tighter, centered rows with natural panel height. */
+.page .benefitsInner {
+  height: auto;
+}
+
+.page .benefitsList {
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+}
+
+.page .benefitItem {
+  width: 100%;
+  min-width: 0;
+  flex-shrink: 0;
+}
+
+.page .benefitItem p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media (min-width: 1025px) {
+  .page .benefitsInner {
+    min-height: clamp(380px, 34vw, 500px);
+    padding-block: 24px;
+  }
+
+  .page .benefitsList {
+    align-self: center;
+    justify-content: center;
+    gap: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page .benefitsInner {
+    min-height: 0;
+    padding-block: 24px;
+  }
+
+  .page .benefitsList {
+    align-self: auto;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page .benefitsList {
+    gap: 20px;
+  }
+
+  .page .benefitItem p {
+    line-height: 24px;
+  }
+}
+
+/* Apply the accent only to the marked last word in main headings. */
+.page h1 .blueText,
+.page h2 .blueText {
+  color: var(--blue);
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* Widen only the polygon frame slightly; keep its text and line breaks. */
+.page .goalCard .hexagonSvg {
+  transform: scaleX(1.08);
+  transform-origin: center;
+}
+.mobileHeadingTail {
+  display: inline;
+}
+@media (max-width: 767px) {
+  .page .adaptiveCopy .mobileHeadingTail {
+    display: block;
+    white-space: nowrap;
+  }
+  .page .adaptiveList {
+    width: 100%;
+    max-width: 420px;
+    margin-inline: auto;
+  }
+  .page .adaptiveItem {
+    min-height: 48px;
+    grid-template-columns: 48px minmax(0, 1fr);
+    column-gap: 12px;
+  }
+  .page .adaptiveIconCircle {
+    width: 48px;
+    height: 48px;
+    flex-basis: 48px;
+  }
+  .page .adaptiveIconCircle > span {
+    width: 36px;
+    height: 36px;
+  }
+  .page .adaptiveIconCircle img {
+    width: 26px;
+    height: 26px;
+  }
+  .page .adaptiveItem p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    text-align: left;
+  }
+}
+
+/* ==========================================================================
+   REQUESTED FIXES ONLY
+   1. Breadcrumb current text matches the other breadcrumb font size
+   2. Mobile section pills have more horizontal space around their text
+   3. Personalized Learning Journey entries are non-clickable
+   ========================================================================== */
+
+.page .breadcrumb :is(strong, [aria-current="page"]) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.page .journeyItem {
+  cursor: default;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+@media (max-width: 767px) {
+  .page .sectionPill.sectionPill {
+    width: auto;
+    min-width: max-content;
+    max-width: calc(100vw - 32px);
+    padding-inline: 16px;
+  }
+}
+
+/* ==========================================================================
+   TALK TO OUR EXPERT — TRUST & INTELLIGENCE
+   Anchors the global expert launcher to this section only.
+   ========================================================================== */
+
+.page .trustBlock {
+  position: relative;
+}
+
+.page .trustExpertButtonSlot {
+  position: absolute;
+  top: -30%;
+  right: -24px;
+  bottom: auto;
+  left: auto;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-50%);
+  z-index: 20;
+  pointer-events: auto;
+}
+
+@media (max-width: 1100px) {
+  .page .trustExpertButtonSlot {
+    right: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page .trustExpertButtonSlot {
+    top: -10%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.benefitsImage {
+  transform: scale(1.08) translateY(-8px);
+}

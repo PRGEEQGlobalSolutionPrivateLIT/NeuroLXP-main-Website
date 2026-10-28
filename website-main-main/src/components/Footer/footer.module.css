@@ -1,0 +1,1286 @@
+.nlxp-footer {
+  position: relative;
+  width: 100%;
+  background: #dfe6e9;
+
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4;
+}
+
+.nlxp-footer-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 56px 50px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.nlxp-footer-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+.nlxp-footer-brand {
+  flex: 1 1 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nlxp-footer-brand-top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nlxp-footer-logo {
+  width: 299px;
+  height: 112px;
+  object-fit: contain;
+}
+
+.nlxp-footer-tagline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.nlxp-footer-tagline-text {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  color: #2f3547;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nlxp-footer-sparkle {
+  width: 23px;
+  height: 23px;
+  flex: none;
+}
+
+.nlxp-footer-company {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nlxp-footer-company-name,
+.nlxp-footer-address {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2f3547;
+}
+
+.nlxp-footer-company-name {
+  letter-spacing: 0.03em;
+}
+
+.nlxp-footer-right {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.nlxp-footer-columns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 32px;
+}
+
+.nlxp-footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 140px;
+}
+
+.nlxp-footer-heading {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #2d4cc8;
+}
+
+.nlxp-footer-heading-tm {
+  font-size: 12px;
+  vertical-align: super;
+  margin-left: 2px;
+}
+
+.nlxp-footer-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+.nlxp-footer-link {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  text-decoration: none;
+}
+
+.nlxp-footer-link:hover {
+  color: #2d4cc8;
+}
+
+.nlxp-footer-social {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nlxp-footer-social-icon {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+
+  box-shadow:
+    inset 4px 4px 8px rgba(196, 196, 196, 0.85),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.95);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  cursor: pointer;
+}
+
+.nlxp-footer-social-icon::before {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #dfe6e9;
+
+  box-shadow:
+    5px 5px 10px rgba(196, 196, 196, 0.85),
+    -5px -5px 10px rgba(255, 255, 255, 0.95);
+
+  pointer-events: none;
+}
+
+.nlxp-footer-social-icon--mail {
+  color: #2d4cc8;
+}
+
+.nlxp-footer-social-icon--facebook {
+  color: #2d4cc8;
+}
+
+.nlxp-footer-social-icon--instagram {
+  color: #bf1869;
+}
+
+.nlxp-footer-social-icon--youtube {
+  color: #cb0c0c;
+}
+
+.nlxp-footer-social-icon--linkedin {
+  color: #2d4cc8;
+}
+
+.nlxp-footer-social-svg {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  z-index: 1;
+  color: inherit;
+  fill: none;
+  stroke: currentColor;
+  transition: transform 0.3s ease;
+}
+
+.nlxp-footer-social-icon:hover {
+  transform: translateY(-4px) scale(1.05);
+
+  box-shadow:
+    inset 4px 4px 8px rgba(196, 196, 196, 0.85),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.95),
+    0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.nlxp-footer-social-icon:hover::before {
+  box-shadow:
+    8px 8px 16px rgba(196, 196, 196, 0.85),
+    -8px -8px 16px rgba(255, 255, 255, 0.95);
+}
+
+.nlxp-footer-social-icon:hover .nlxp-footer-social-svg {
+  transform: scale(1.1);
+}
+
+.nlxp-footer-copyright {
+  width: 100%;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #2d4cc8;
+}
+
+
+/* ==========================================
+   SCROLL TO TOP
+   Positioned at footer top-center
+========================================== */
+
+.scroll-top-button {
+  position: absolute;
+
+  top: 0;
+  left: 50%;
+
+  width: 59px;
+  height: 92px;
+  min-width: 59px;
+  min-height: 92px;
+
+  padding: 0;
+  margin: 0;
+
+  transform: translate(-50%, -50%);
+
+  background: #dfe6e9;
+  border: none;
+  border-radius: 32px;
+
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+
+  z-index: 100;
+}
+
+.scroll-top-button-visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.scroll-top-button-inner {
+  width: 40px;
+  height: 68px;
+  min-width: 40px;
+  min-height: 68px;
+
+  background: #dfe6e9;
+  border-radius: 16px;
+
+  box-shadow:
+    10px 10px 20px #c4c4c4,
+    -10px -10px 20px #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.scroll-top-button-icon {
+  width: 30px !important;
+  height: 30px !important;
+
+  max-width: 30px !important;
+  max-height: 30px !important;
+
+  color: #31344b;
+
+  transform: rotate(180deg);
+
+  overflow: hidden;
+}
+
+.scroll-top-button-icon svg {
+  display: block;
+
+  width: 30px !important;
+  height: 30px !important;
+
+  max-width: 30px !important;
+  max-height: 30px !important;
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 1280px) {
+  .nlxp-footer-inner {
+    padding: 48px 32px 28px;
+  }
+
+  .nlxp-footer-tagline-text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .nlxp-footer-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .nlxp-footer-brand {
+    flex: none;
+  }
+
+  .nlxp-footer-right {
+    flex: none;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .nlxp-footer-columns {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .nlxp-footer-social {
+    align-self: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .nlxp-footer {
+    box-shadow:
+      inset -4px -4px 8px #c4c4c4,
+      inset 4px 4px 8px #c4c4c4;
+  }
+
+  .nlxp-footer-inner {
+    padding: 40px 20px 24px;
+    gap: 16px;
+  }
+
+  .nlxp-footer-brand {
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .nlxp-footer-brand-top {
+    align-items: center;
+    gap: 8px;
+  }
+
+  .nlxp-footer-company {
+    align-items: center;
+  }
+
+  .nlxp-footer-logo {
+    width: 133px;
+    height: 50px;
+  }
+
+  .nlxp-footer-tagline {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nlxp-footer-tagline-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .nlxp-footer-sparkle {
+    width: 14px;
+    height: 14px;
+  }
+
+  .nlxp-footer-address,
+  .nlxp-footer-company-name {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .nlxp-footer-columns {
+    gap: 28px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .nlxp-footer-column {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 44px;
+    width: 100%;
+    border-top: 1px dashed rgba(49, 52, 75, 0.5);
+    padding-top: 24px;
+  }
+
+  .nlxp-footer-column .nlxp-footer-heading {
+    flex: none;
+    width: 108px;
+  }
+
+  .nlxp-footer-list {
+    flex: 1;
+    gap: 12px;
+  }
+
+  .nlxp-footer-heading {
+    font-size: 16px;
+  }
+
+  .nlxp-footer-link {
+    font-size: 14px;
+  }
+
+  .nlxp-footer-social {
+    gap: 16px;
+    border-top: 1px dashed rgba(49, 52, 75, 0.5);
+    padding-top: 24px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nlxp-footer-social-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .nlxp-footer-social-icon::before {
+    width: 35px;
+    height: 35px;
+  }
+
+  .nlxp-footer-social-svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nlxp-footer-copyright {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .scroll-top-button {
+    width: 46px;
+    height: 72px;
+
+    min-width: 46px;
+    min-height: 72px;
+
+    border-radius: 24px;
+  }
+
+  .scroll-top-button-inner {
+    width: 32px;
+    height: 54px;
+
+    min-width: 32px;
+    min-height: 54px;
+  }
+
+  .scroll-top-button-icon {
+    width: 24px !important;
+    height: 24px !important;
+
+    max-width: 24px !important;
+    max-height: 24px !important;
+  }
+
+  .scroll-top-button-icon svg {
+    width: 24px !important;
+    height: 24px !important;
+
+    max-width: 24px !important;
+    max-height: 24px !important;
+  }
+}
+
+@media (max-width: 374px) {
+  .nlxp-footer-inner {
+    padding: 32px 16px 20px;
+  }
+
+  .nlxp-footer-columns {
+    gap: 20px;
+  }
+
+  .nlxp-footer-column {
+    min-width: 120px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .nlxp-footer-inner {
+    max-width: 1800px;
+  }
+}
+
+/* =========================================================
+   FOOTER — FIGMA / PNG DESKTOP MATCH
+   Reference values taken from the supplied Figma CSS.
+   Mobile/tablet layout is intentionally untouched.
+   Segoe UI remains primary; Inter is fallback.
+   ========================================================= */
+
+.nlxp-footer,
+.nlxp-footer * {
+  font-family: "Segoe UI", "Inter";
+}
+
+@media (min-width: 1280px) {
+
+  /* Figma footer frame: 1440 × 459 */
+  .nlxp-footer {
+    width: 100% !important;
+    height: 459px !important;
+    min-height: 459px !important;
+  }
+
+  /* Figma inner frame: ~1339.46 × 374.06, top ~49.81 */
+  .nlxp-footer-inner {
+    position: relative !important;
+    top: 49.81px !important;
+
+    width: calc(100% - 100px) !important;
+    max-width: 1339.46px !important;
+    height: 374.06px !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 24px !important;
+
+    box-sizing: border-box !important;
+  }
+
+  /* Figma top row: left 676 + gap 35 + right 631 */
+  .nlxp-footer-top {
+    width: 100% !important;
+    height: 303.06px !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+
+    gap: 35px !important;
+  }
+
+  /* ---------------- LEFT SIDE ---------------- */
+
+  .nlxp-footer-brand {
+    flex: 0 0 676px !important;
+    width: 676px !important;
+    height: 295px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 24px !important;
+
+    text-align: left !important;
+  }
+
+  .nlxp-footer-brand-top {
+    width: 100% !important;
+    height: 166px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 20px !important;
+  }
+
+  /* Exact Figma logo size */
+  .nlxp-footer-logo {
+    display: block !important;
+
+    width: 299px !important;
+    height: 112px !important;
+    min-width: 299px !important;
+    min-height: 112px !important;
+    max-width: 299px !important;
+    max-height: 112px !important;
+
+    margin: 0 !important;
+
+    object-fit: contain !important;
+    object-position: left center !important;
+
+    align-self: flex-start !important;
+    flex: 0 0 auto !important;
+  }
+
+  /* Exact Figma tagline row: 636 × 34 */
+  .nlxp-footer-tagline {
+    width: 636px !important;
+    height: 34px !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+
+    flex-wrap: nowrap !important;
+    gap: 14px !important;
+
+    white-space: nowrap !important;
+  }
+
+  .nlxp-footer-tagline-text {
+    font-size: 26px !important;
+    line-height: 34px !important;
+    font-weight: 700 !important;
+
+    white-space: nowrap !important;
+  }
+
+  .nlxp-footer-sparkle {
+    width: 23px !important;
+    height: 23px !important;
+    min-width: 23px !important;
+    flex: 0 0 23px !important;
+  }
+
+  /* Figma company block: 459 × 105 */
+  .nlxp-footer-company {
+    width: 459px !important;
+    height: 105px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 4px !important;
+
+    text-align: left !important;
+  }
+
+  .nlxp-footer-company-name,
+  .nlxp-footer-address {
+    width: 459px !important;
+    margin: 0 !important;
+
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+
+    text-align: left !important;
+  }
+
+  /* ---------------- RIGHT SIDE ---------------- */
+
+  .nlxp-footer-right {
+    flex: 0 0 631px !important;
+    width: 631px !important;
+    height: 303.06px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+
+    gap: 24px !important;
+  }
+
+  /* Figma columns frame: 619 × 199, gap 32 */
+  .nlxp-footer-columns {
+    width: 619px !important;
+    height: 199px !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+
+    flex-wrap: nowrap !important;
+    gap: 32px !important;
+  }
+
+  .nlxp-footer-column {
+    flex: 0 0 auto !important;
+    min-width: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+
+    gap: 20px !important;
+  }
+
+  .nlxp-footer-column:nth-child(1) {
+    width: 123px !important;
+  }
+
+  .nlxp-footer-column:nth-child(2) {
+    width: 207px !important;
+  }
+
+  .nlxp-footer-column:nth-child(3) {
+    width: 225px !important;
+  }
+
+  .nlxp-footer-heading {
+    margin: 0 !important;
+
+    font-size: 22px !important;
+    line-height: 30px !important;
+    font-weight: 700 !important;
+
+    white-space: nowrap !important;
+  }
+
+  .nlxp-footer-heading-tm {
+    font-size: 12px !important;
+  }
+
+  .nlxp-footer-list {
+    width: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 15px !important;
+  }
+
+  /* Figma desktop links are 18px / 28px in the supplied final frame. */
+  .nlxp-footer-link {
+    font-size: 18px !important;
+    line-height: 28px !important;
+    font-weight: 400 !important;
+
+    white-space: nowrap !important;
+  }
+
+  /* PNG contains five icons. Keep all five on one row. */
+  .nlxp-footer-social {
+    align-self: flex-end !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+
+    gap: 24px !important;
+
+    width: auto !important;
+    height: 80.06px !important;
+  }
+
+  /* Figma social button: ~80 × 80 with inner ~60 × 60 */
+  .nlxp-footer-social-icon {
+    width: 80px !important;
+    height: 80px !important;
+    min-width: 80px !important;
+    min-height: 80px !important;
+
+    flex: 0 0 80px !important;
+  }
+
+  .nlxp-footer-social-icon::before {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .nlxp-footer-social-svg {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  /* Figma copyright row: 47px high */
+  .nlxp-footer-copyright {
+    width: 100% !important;
+    height: 47px !important;
+
+    margin: 0 !important;
+
+    font-size: 16px !important;
+    line-height: 56px !important;
+    font-weight: 600 !important;
+
+    text-align: center !important;
+  }
+}
+ /* FOOTER LOGO — 299 × 112 WITHOUT OVERLAP
+   Only the logo sizing/flex behavior is corrected. */
+
+@media (min-width: 1280px) {
+  .nlxp-footer-logo {
+    width: 299px !important;
+    height: 112px !important;
+
+    min-width: 299px !important;
+    min-height: 112px !important;
+    max-width: 299px !important;
+    max-height: 112px !important;
+
+    /* Important: do NOT use flex-basis: 299px in a column layout.
+       That makes the logo reserve 299px vertically and can cause overlap. */
+    flex: none !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+
+    display: block !important;
+    object-fit: contain !important;
+    object-position: left center !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Keep the Figma logo + tagline stack tall enough naturally. */
+  .nlxp-footer-brand-top {
+    min-height: 166px !important;
+    height: auto !important;
+  }
+}
+/* FOOTER LOGO — VISIBLE SIZE INCREASE, NO OVERLAP
+   The original CSS already had 299px × 112px, so setting the same
+   values again could not create a visible change.
+   This keeps that exact layout box and only enlarges the rendered logo. */
+
+@media (min-width: 1280px) {
+  .nlxp-footer-logo {
+    width: 299px !important;
+    height: 112px !important;
+    min-width: 299px !important;
+    min-height: 112px !important;
+    max-width: 299px !important;
+    max-height: 112px !important;
+
+    flex: none !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+
+    display: block !important;
+    object-fit: contain !important;
+    object-position: left top !important;
+
+    /* Visibly enlarge the logo without changing its layout footprint. */
+    transform: scale(1.17) !important;
+    transform-origin: left top !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* =========================================================
+   FINAL FOOTER RESPONSIVE WIDTH / OVERFLOW FIX
+   - Prevents horizontal overflow at 100% zoom.
+   - Keeps the original wide-desktop layout.
+   - Makes laptop/desktop widths fluid from 1024px–1499px.
+   - Does not change the existing mobile stacking design.
+   ========================================================= */
+
+.nlxp-footer,
+.nlxp-footer-inner,
+.nlxp-footer-top,
+.nlxp-footer-brand,
+.nlxp-footer-brand-top,
+.nlxp-footer-tagline,
+.nlxp-footer-company,
+.nlxp-footer-right,
+.nlxp-footer-columns,
+.nlxp-footer-column,
+.nlxp-footer-social,
+.nlxp-footer-copyright {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.nlxp-footer {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+.nlxp-footer-inner,
+.nlxp-footer-top,
+.nlxp-footer-brand,
+.nlxp-footer-right,
+.nlxp-footer-columns {
+  max-width: 100%;
+}
+
+/* ---------------------------------------------------------
+   SMALL / MEDIUM LAPTOPS: 1024px–1279px
+   --------------------------------------------------------- */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .nlxp-footer-inner {
+    width: 100%;
+    padding-left: clamp(22px, 3vw, 32px);
+    padding-right: clamp(22px, 3vw, 32px);
+  }
+
+  .nlxp-footer-top {
+    width: 100%;
+    gap: clamp(20px, 2.2vw, 28px);
+  }
+
+  .nlxp-footer-brand,
+  .nlxp-footer-right {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+  }
+
+  .nlxp-footer-tagline {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nlxp-footer-tagline-text {
+    white-space: normal;
+  }
+
+  .nlxp-footer-columns {
+    width: 100%;
+    max-width: 100%;
+    gap: clamp(16px, 1.8vw, 24px);
+  }
+
+  .nlxp-footer-column {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+  }
+
+  .nlxp-footer-link {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .nlxp-footer-social {
+    max-width: 100%;
+    gap: clamp(14px, 1.6vw, 20px);
+  }
+}
+
+/* ---------------------------------------------------------
+   STANDARD DESKTOP / LARGE LAPTOPS: 1280px–1499px
+   Override the fixed Figma dimensions that caused overflow.
+   --------------------------------------------------------- */
+@media (min-width: 1280px) and (max-width: 1499px) {
+  .nlxp-footer {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .nlxp-footer-inner {
+    position: relative !important;
+    top: 0 !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+
+    margin: 0 auto !important;
+    padding: 48px clamp(28px, 3vw, 42px) 28px !important;
+  }
+
+  .nlxp-footer-top {
+    width: 100% !important;
+    height: auto !important;
+
+    justify-content: space-between !important;
+    gap: clamp(20px, 2vw, 30px) !important;
+  }
+
+  .nlxp-footer-brand {
+    flex: 1 1 52% !important;
+    width: auto !important;
+    max-width: none !important;
+    height: auto !important;
+    min-width: 0 !important;
+  }
+
+  .nlxp-footer-brand-top {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .nlxp-footer-logo {
+    width: clamp(245px, 22vw, 299px) !important;
+    height: auto !important;
+
+    min-width: 0 !important;
+    min-height: 0 !important;
+    max-width: 299px !important;
+    max-height: none !important;
+
+    aspect-ratio: 299 / 112;
+    transform: none !important;
+  }
+
+  .nlxp-footer-tagline {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+
+    white-space: normal !important;
+  }
+
+  .nlxp-footer-tagline-text {
+    font-size: clamp(20px, 1.65vw, 24px) !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+  }
+
+  .nlxp-footer-company,
+  .nlxp-footer-company-name,
+  .nlxp-footer-address {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .nlxp-footer-right {
+    flex: 1 1 48% !important;
+    width: auto !important;
+    max-width: none !important;
+    height: auto !important;
+    min-width: 0 !important;
+  }
+
+  .nlxp-footer-columns {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+
+    gap: clamp(14px, 1.5vw, 22px) !important;
+  }
+
+  .nlxp-footer-column,
+  .nlxp-footer-column:nth-child(1),
+  .nlxp-footer-column:nth-child(2),
+  .nlxp-footer-column:nth-child(3) {
+    flex: 1 1 0 !important;
+    width: auto !important;
+    min-width: 0 !important;
+  }
+
+  .nlxp-footer-heading {
+    font-size: clamp(18px, 1.45vw, 22px) !important;
+    line-height: 1.35 !important;
+    white-space: normal !important;
+  }
+
+  .nlxp-footer-link {
+    font-size: clamp(15px, 1.2vw, 18px) !important;
+    line-height: 1.45 !important;
+
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+
+  .nlxp-footer-social {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+
+    gap: clamp(14px, 1.5vw, 22px) !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .nlxp-footer-social-icon {
+    width: clamp(60px, 5.25vw, 74px) !important;
+    height: clamp(60px, 5.25vw, 74px) !important;
+    min-width: clamp(60px, 5.25vw, 74px) !important;
+    min-height: clamp(60px, 5.25vw, 74px) !important;
+    flex: 0 0 clamp(60px, 5.25vw, 74px) !important;
+  }
+
+  .nlxp-footer-social-icon::before {
+    width: clamp(44px, 4vw, 56px) !important;
+    height: clamp(44px, 4vw, 56px) !important;
+  }
+
+  .nlxp-footer-social-svg {
+    width: clamp(26px, 2.2vw, 32px) !important;
+    height: clamp(26px, 2.2vw, 32px) !important;
+  }
+
+  .nlxp-footer-copyright {
+    width: 100% !important;
+    height: auto !important;
+    line-height: 28px !important;
+    padding-top: 4px !important;
+  }
+}
+
+/* ---------------------------------------------------------
+   WIDE DESKTOPS: retain the supplied Figma dimensions, but
+   remove the tiny 2–3px overflow created by 676 + 35 + 631.
+   --------------------------------------------------------- */
+@media (min-width: 1500px) {
+  .nlxp-footer-top {
+    gap: 32px !important;
+  }
+}
+
+/* =========================================================
+   FOOTER LINKS — BLUE TEXT + BLUE UNDERLINE ON HOVER
+   Paste this at the VERY BOTTOM of footer.css
+   ========================================================= */
+
+.nlxp-footer-link {
+  position: relative !important;
+  display: inline-block !important;
+  width: fit-content !important;
+
+  color: #2f3547 !important;
+  text-decoration: none !important;
+
+  transition: color 0.3s ease !important;
+}
+
+/* Blue line hidden normally */
+.nlxp-footer-link::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 0;
+  height: 2px;
+
+  background-color: #2d4cc8;
+
+  transition: width 0.3s ease;
+}
+
+/* Hover */
+.nlxp-footer-link:hover {
+  color: #2d4cc8 !important;
+}
+
+/* Blue line comes under the hovered text */
+.nlxp-footer-link:hover::after {
+  width: 100%;
+}
+
+/* Keyboard focus also gets the same effect */
+.nlxp-footer-link:focus-visible {
+  color: #2d4cc8 !important;
+}
+
+.nlxp-footer-link:focus-visible::after {
+  width: 100%;
+}
+
+/* Slightly smaller Scroll to Top button */
+.scroll-top-button {
+  width: 52px;
+  height: 82px;
+  min-width: 52px;
+  min-height: 82px;
+}
+
+.scroll-top-button-inner {
+  width: 36px;
+  height: 60px;
+  min-width: 36px;
+  min-height: 60px;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .scroll-top-button {
+    width: 42px;
+    height: 66px;
+    min-width: 42px;
+    min-height: 66px;
+  }
+
+  .scroll-top-button-inner {
+    width: 29px;
+    height: 48px;
+    min-width: 29px;
+    min-height: 48px;
+  }
+}
+
+/* Space above footer with matching background */
+.nlxp-footer {
+  margin-top: 0;
+}
+
+.nlxp-footer::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #dfe6e9;
+  pointer-events: none;
+}

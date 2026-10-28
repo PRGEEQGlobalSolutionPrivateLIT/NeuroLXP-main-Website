@@ -1,0 +1,3284 @@
+html,
+
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+*,
+
+*::before,
+
+*::after {
+
+  box-sizing: border-box;
+
+}
+
+button,
+
+a {
+
+  font: inherit;
+
+}
+
+:root {
+
+  --coding-bg: #dfe6e9;
+
+  --coding-heading: #31344b;
+
+  --coding-text: #2f3547;
+
+  --coding-blue: #2d4cc8;
+
+  --coding-green: #2a7308;
+
+  --coding-pink: #bf1869;
+
+  --coding-purple: #67096e;
+
+  --coding-white: #ffffff;
+
+  --coding-shadow-dark: #c4c4c4;
+
+  --coding-radius-xl: 32px;
+
+  --coding-radius-lg: 24px;
+
+  --coding-radius-md: 16px;
+
+}
+
+.coding-page {
+
+  width: 100%;
+
+  min-height: 100vh;
+
+  overflow-x: clip;
+
+  background: var(--coding-bg);
+
+  color: var(--coding-heading);
+
+  font-family: "Segoe UI", "Inter";
+
+}
+
+.coding-shell {
+
+  width: min(1280px, calc(100% - 48px));
+
+  margin: 0 auto;
+
+  padding: 32px 0 96px;
+
+}
+
+.coding-breadcrumb {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  min-height: 24px;
+
+  color: var(--coding-text);
+
+  font-size: 16px;
+
+  line-height: 24px;
+
+}
+
+.coding-breadcrumb strong {
+
+  color: #243fa8;
+
+}
+
+.coding-hero {
+
+  margin-top: 32px;
+
+  padding: 32px;
+
+  border-radius: var(--coding-radius-xl);
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    inset -8px -8px 16px #ffffff,
+
+    inset 8px 8px 16px rgba(196, 196, 196, 0.8);
+
+}
+
+.coding-hero__inner {
+
+  min-height: 550px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.15fr);
+
+  align-items: center;
+
+  border-radius: var(--coding-radius-md);
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    10px 10px 20px #c4c4c4,
+
+    -10px -10px 20px rgba(255, 255, 255, 0.6);
+
+}
+
+.coding-hero__content {
+
+  position: relative;
+
+  z-index: 2;
+
+  align-self: center;
+
+  padding:32px 0 50px 50px;
+
+  transform: translateY(-50px);
+
+}
+
+.coding-pill {
+
+  width: fit-content;
+
+  min-height: 50px;
+
+  padding: 10px 26px;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 28px;
+
+  background: var(--coding-bg);
+
+  color: var(--coding-blue);
+
+  box-shadow:
+
+    inset -4px -4px 8px #ffffff,
+
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+}
+
+.coding-pill--wide {
+
+  padding-inline: 30px;
+
+}
+
+.coding-hero h1,
+
+.coding-section-copy h2,
+
+.coding-challenges__intro h2,
+
+.coding-cta h2 {
+
+  margin: 0;
+
+  color: var(--coding-heading);
+
+  font-weight: 700;
+
+  letter-spacing: 0.03em;
+
+}
+
+.coding-hero h1 {
+
+  max-width: 580px;
+
+  margin-top: 32px;
+
+  font-size: 36px;
+
+  line-height: 1.25;
+
+}
+
+.coding-hero p {
+
+  max-width: 500px;
+
+  margin:10px 0 0;
+
+  color: var(--coding-text);
+
+  font-size: 24px;
+
+  line-height: 1.3;
+
+  letter-spacing: 0.03em;
+
+  margin-bottom:50px;
+
+}
+
+.coding-hero__visual {
+
+  min-width: 0;
+
+  height: 100%;
+
+  min-height: 550px;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: flex-end;
+
+}
+
+.coding-hero__visual img {
+
+  width: min(740px, 118%);
+
+  max-width: none;
+
+  height: auto;
+
+  object-fit: contain;
+
+  transform: translateX(4%);
+
+}
+
+.coding-section {
+
+  margin-top: 96px;
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.9fr);
+
+  align-items: center;
+
+  gap: 68px;
+
+}
+
+.coding-section-copy {
+
+  min-width: 0;
+
+}
+
+.coding-section-copy h2 {
+
+  max-width: 650px;
+
+  margin-top: 32px;
+
+  font-size: 36px;
+
+  line-height: 1.25;
+
+}
+
+.coding-section-copy p {
+
+  max-width: 654px;
+
+  margin: 32px 0 0;
+
+  color: var(--coding-text);
+
+  font-size: 24px;
+
+  line-height: 1.43;
+
+  letter-spacing: 0.03em;
+
+}
+
+.coding-practice-card {
+
+  width: 100%;
+
+  max-width: 529px;
+
+  justify-self: end;
+
+  padding: 32px;
+
+  border-radius: var(--coding-radius-xl);
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c4c4c4;
+
+}
+
+.coding-practice-card__inner {
+
+  min-height: 396px;
+
+  padding: 52px 36px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  gap: 32px;
+
+  border-radius: var(--coding-radius-md);
+
+  background: #dddddd;
+
+  box-shadow:
+
+    -8px -8px 8px rgba(255, 255, 255, 0.65),
+
+    8px 8px 8px rgba(196, 196, 196, 0.75);
+
+}
+
+.coding-practice-row {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 24px;
+
+  color: var(--coding-heading);
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 40px;
+
+  letter-spacing: 0.03em;
+
+}
+
+.coding-check-icon {
+
+  flex: 0 0 36px;
+
+}
+
+.coding-challenges {
+
+  margin-top: 96px;
+
+  padding: 50px;
+
+  border-radius: var(--coding-radius-xl);
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    inset -8px -8px 16px #ffffff,
+
+    inset 8px 8px 16px rgba(196, 196, 196, 0.8);
+
+}
+
+.coding-challenges__intro {
+
+  max-width: 944px;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+}
+
+.coding-challenges__intro h2 {
+
+  margin-top: 32px;
+
+  font-size: 36px;
+
+  line-height: 1.25;
+
+}
+
+.coding-challenges__intro p {
+
+  margin: 14px auto 0;
+
+  color: var(--coding-text);
+
+  font-size: 24px;
+
+  line-height: 40px;
+
+  letter-spacing: 0.03em;
+
+}
+
+.coding-challenge-grid {
+
+  margin-top: 64px;
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 50px 56px;
+
+}
+
+.coding-challenge-card {
+
+  min-height: 196px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 36px 150px 36px 32px;
+
+  display: flex;
+
+  align-items: center;
+
+  border-radius: var(--coding-radius-md);
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    10px 10px 20px #c4c4c4,
+
+    -10px -10px 20px #ffffff;
+
+  cursor: default;
+
+  transition:
+
+    transform 0.25s ease,
+
+    box-shadow 0.25s ease;
+
+}
+
+.coding-challenge-card,
+
+.coding-challenge-card * {
+
+  cursor: default !important;
+
+}
+
+.coding-challenge-card::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  clip-path: polygon(0 0, 56% 0, 100% 100%, 0 100%);
+
+  pointer-events: none;
+
+}
+
+.coding-challenge-card--pink::before {
+
+  background: rgba(229, 162, 195, 0.45);
+
+}
+
+.coding-challenge-card--teal::before {
+
+  background: rgba(108, 195, 198, 0.45);
+
+}
+
+.coding-challenge-card--purple::before {
+
+  background: rgba(194, 156, 197, 0.55);
+
+}
+
+.coding-challenge-card--blue::before {
+
+  background: rgba(156, 167, 210, 0.55);
+
+}
+
+.coding-challenge-card__copy {
+
+  position: relative;
+
+  z-index: 2;
+
+}
+
+.coding-challenge-card h3 {
+
+  margin: 0;
+
+  color: var(--coding-heading);
+
+  font-size: 24px;
+
+  line-height: 32px;
+
+}
+
+.coding-challenge-card p {
+
+  max-width: 330px;
+
+  margin: 20px 0 0;
+
+  color: var(--coding-text);
+
+  font-size: 20px;
+
+  line-height: 28px;
+
+}
+
+.coding-challenge-card__icon {
+
+  position: absolute;
+
+  z-index: 3;
+
+  top: 24px;
+
+  right: 32px;
+
+  width: 80px;
+
+  height: 80px;
+
+  padding: 18px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    8px 8px 16px #c6c6c9,
+
+    -8px -8px 16px #ffffff;
+
+}
+
+.coding-challenge-card__icon img {
+
+  width: 42px;
+
+  height: 42px;
+
+  object-fit: contain;
+
+}
+
+.coding-skills {
+
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.05fr);
+
+  gap: 128px;
+
+}
+
+.coding-skill-list {
+
+  min-width: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 32px;
+
+}
+
+.coding-skill-item {
+
+  --skill-color: var(--coding-blue);
+
+  width: min(430px, 100%);
+
+  min-height: 70px;
+
+  padding: 15px 34px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  border-left: 5px solid var(--skill-color);
+
+  border-right: 5px solid var(--skill-color);
+
+  border-radius: 32px;
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    inset -4px -4px 8px #ffffff,
+
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+
+  color: var(--coding-heading);
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+}
+
+.coding-skill-item img {
+
+  flex: 0 0 36px;
+
+}
+
+.coding-skills,
+
+.coding-skills *,
+
+.coding-skill-item,
+
+.coding-skill-item *,
+
+.coding-skills .coding-section-copy,
+
+.coding-skills .coding-section-copy * {
+
+  cursor: default !important;
+
+}
+
+.coding-skill-item {
+
+  transition:
+
+    transform 0.25s ease,
+
+    box-shadow 0.25s ease;
+
+}
+
+.coding-skills a,
+
+.coding-skills button {
+
+  cursor: default !important;
+
+  pointer-events: none;
+
+}
+
+.coding-learning {
+
+  grid-template-columns: minmax(0, 430px) minmax(0, 1fr);
+
+  gap: 96px;
+
+  align-items: start;
+
+}
+
+.coding-learning .coding-section-copy {
+
+  padding-top: 122px;
+
+}
+
+.coding-video-area {
+
+  width: 100%;
+
+  max-width: 689px;
+
+  min-width: 0;
+
+  margin-left: auto;
+
+}
+
+.coding-video-deck {
+
+  width: 100%;
+
+  max-width: 689px;
+
+  height: 570px;
+
+  position: relative;
+
+  margin: 0;
+
+}
+
+.coding-video-card {
+
+  position: absolute;
+
+  overflow: hidden;
+
+  padding: 16px;
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9;
+
+}
+
+.coding-video-card video {
+
+  width: 100%;
+
+  height: 100%;
+
+  display: block;
+
+  border-radius: 8px;
+
+  object-fit: cover;
+
+}
+
+.coding-learning .coding-video-card {
+
+  cursor: default;
+
+  transition:
+
+    transform 0.25s ease,
+
+    box-shadow 0.25s ease;
+
+}
+
+.coding-learning .coding-video-card:hover {
+
+  transform: translateY(-4px);
+
+  box-shadow:
+
+    -10px -10px 20px #ffffff,
+
+    10px 10px 20px #c4c4c4;
+
+}
+
+.coding-learning .coding-section-copy,
+
+.coding-learning .coding-section-copy * {
+
+  cursor: default !important;
+
+}
+
+.coding-video-card--back {
+
+  width: 204px;
+
+  height: 222px;
+
+  top: 162px;
+
+  right: 0;
+
+  border-radius: 16px;
+
+}
+
+.coding-video-card--middle {
+
+  width: 306px;
+
+  height: 328px;
+
+  top: 106px;
+
+  right: 72px;
+
+  padding: 24px;
+
+  border-radius: 24px;
+
+}
+
+.coding-video-card--front {
+
+  width: 501px;
+
+  height: 551px;
+
+  top: 0;
+
+  left: 0;
+
+  padding: 24px;
+
+  border-radius: 24px;
+
+}
+
+.coding-video-controls {
+
+  width: 100%;
+
+  max-width: 689px;
+
+  margin: 30px 0 0;
+
+  padding-right: 28px;
+
+  display: flex;
+
+  justify-content: flex-end;
+
+  gap: 30px;
+
+}
+
+.coding-video-controls button {
+
+  width: 80px;
+
+  height: 80px;
+
+  padding: 8px;
+
+  position: relative;
+
+  display: grid;
+
+  place-items: center;
+
+  border: 0;
+
+  border-radius: 50%;
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    inset 6px 6px 12px #c4c4c4,
+
+    inset -6px -6px 12px #ffffff;
+
+  cursor: pointer;
+
+}
+
+.coding-video-controls button::before {
+
+  content: "";
+
+  position: absolute;
+
+  width: 58px;
+
+  height: 58px;
+
+  border-radius: 50%;
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    -6px -6px 12px #ffffff,
+
+    6px 6px 12px #c6c6c9;
+
+}
+
+.coding-video-controls button img {
+
+  position: relative;
+
+  z-index: 2;
+
+  width: 24px;
+
+  height: 24px;
+
+}
+
+.coding-video-controls button:active::before {
+
+  box-shadow:
+
+    inset -4px -4px 8px #ffffff,
+
+    inset 4px 4px 8px #c4c4c4;
+
+}
+
+.coding-cta {
+
+  min-height: 505px;
+
+  margin-top: 96px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  display: grid;
+
+  place-items: center;
+
+  padding: 64px;
+
+  border-radius: 250px;
+
+  isolation: isolate;
+
+  box-shadow:
+
+    -4px -4px 8px rgba(255, 255, 255, 0.72),
+
+    4px 4px 8px rgba(196, 196, 196, 0.45);
+
+}
+
+.coding-cta__background {
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: -1;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+.coding-cta__content {
+
+  width: min(880px, 100%);
+
+  text-align: center;
+
+}
+
+.coding-cta h2 {
+
+  font-size: 36px;
+
+  line-height: 1.35;
+
+  text-transform: capitalize;
+
+}
+
+.coding-cta p {
+
+  max-width: 660px;
+
+  margin: 28px auto 0;
+
+  color: #000000;
+
+  font-size: 24px;
+
+  line-height: 40px;
+
+  letter-spacing: 0.03em;
+
+}
+
+.coding-cta__actions {
+
+  margin-top: 48px;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 32px;
+
+}
+
+.coding-cta__actions button {
+
+  min-width: 200px;
+
+  height: 64px;
+
+  padding: 0 28px;
+
+  border: 0;
+
+  border-radius: 32px;
+
+  background: var(--coding-bg);
+
+  color: var(--coding-blue);
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9;
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 32px;
+
+  cursor: pointer;
+
+}
+
+.coding-cta__actions button.is-selected {
+
+  color: var(--coding-heading);
+
+  box-shadow:
+
+    inset -5px -5px 10px #ffffff,
+
+    inset 5px 5px 10px #c4c4c4;
+
+}
+
+.coding-cta__actions button:active,
+
+.coding-cta__actions button.is-selected {
+
+  color: var(--coding-heading);
+
+}
+
+.coding-video-controls button:focus-visible,
+
+.coding-cta__actions button:focus-visible {
+
+  outline: 2px solid var(--coding-blue);
+
+  outline-offset: 4px;
+
+}
+
+.coding-hero h1,
+
+.coding-section-copy h2,
+
+.coding-challenges__intro h2,
+
+.coding-cta h2 {
+
+  font-size: 36px;
+
+}
+
+@media (max-width: 900px) {
+
+  .coding-shell {
+
+    width: min(100% - 40px, 960px);
+
+  }
+
+  .coding-hero__inner {
+
+    min-height: 500px;
+
+    grid-template-columns: minmax(0, 1fr) minmax(360px, 0.9fr);
+
+  }
+
+  .coding-hero__content {
+
+    padding-left: 40px;
+
+  }
+
+  .coding-hero__visual {
+
+    min-height: 500px;
+
+  }
+
+  .coding-hero__visual img {
+
+    width: min(650px, 132%);
+
+    transform: translateX(11%);
+
+  }
+
+  .coding-section,
+
+  .coding-skills,
+
+  .coding-learning {
+
+    gap: 48px;
+
+  }
+
+  .coding-section-copy h2,
+
+  .coding-challenges__intro h2 {
+
+    font-size: 36px;
+
+  }
+
+  .coding-section-copy p,
+
+  .coding-challenges__intro p,
+
+  .coding-hero p {
+
+    font-size: 24px;
+
+    line-height: 34px;
+
+  }
+
+  .coding-practice-row {
+
+    font-size: 23px;
+
+  }
+
+  .coding-challenges {
+
+    padding: 44px 36px;
+
+  }
+
+  .coding-challenge-grid {
+
+    gap: 36px;
+
+  }
+
+  .coding-challenge-card {
+
+    padding-right: 120px;
+
+  }
+
+  .coding-skills {
+
+    grid-template-columns: minmax(330px, 0.8fr) minmax(0, 1fr);
+
+    gap: 72px;
+
+  }
+
+  .coding-learning {
+
+    grid-template-columns: minmax(0, 0.85fr) minmax(470px, 1.15fr);
+
+  }
+
+  .coding-video-deck {
+
+    height: 500px;
+
+    transform-origin: center center;
+
+    transform: scale(0.86);
+
+    margin: 0 auto 24px;
+
+  }
+
+  .coding-video-controls {
+
+    position: relative;
+
+    z-index: 5;
+
+    margin-top: 24px;
+
+    justify-content: center;
+
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .coding-video-controls button {
+
+    width: 80px;
+
+    height: 80px;
+
+    padding: 8px;
+
+    border-radius: 50%;
+
+    background: var(--coding-bg);
+
+    box-shadow:
+
+      inset 6px 6px 12px #c4c4c4,
+
+      inset -6px -6px 12px #ffffff;
+
+  }
+
+  .coding-video-controls button::before {
+
+    width: 58px;
+
+    height: 58px;
+
+    border-radius: 50%;
+
+    background: var(--coding-bg);
+
+    box-shadow:
+
+      -6px -6px 12px #ffffff,
+
+      6px 6px 12px #c6c6c9;
+
+  }
+
+  .coding-video-controls button img {
+
+    width: 24px;
+
+    height: 24px;
+
+  }
+
+  .coding-hero__content {
+
+    transform: translateY(0);
+
+  }
+
+  .coding-shell {
+
+    width: min(100% - 40px, 760px);
+
+    padding-top: 24px;
+
+  }
+
+  .coding-hero {
+
+    padding: 24px;
+
+  }
+
+  .coding-hero__inner {
+
+    min-height: 0;
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .coding-hero__content {
+
+    padding: 40px 40px 0;
+
+    text-align: center;
+
+  }
+
+  .coding-hero__content .coding-pill {
+
+    margin-inline: auto;
+
+  }
+
+  .coding-hero h1 {
+
+    max-width: 620px;
+
+    margin-inline: auto;
+
+  }
+
+  .coding-hero p {
+
+    margin-inline: auto;
+
+  }
+
+  .coding-hero__visual {
+
+    min-height: 390px;
+
+    justify-content: center;
+
+  }
+
+  .coding-hero__visual img {
+
+    width: min(660px, 95%);
+
+    transform: none;
+
+  }
+
+  .coding-section,
+
+  .coding-skills,
+
+  .coding-learning {
+
+    margin-top: 72px;
+
+    grid-template-columns: 1fr;
+
+    gap: 42px;
+
+  }
+
+  .coding-section-copy {
+
+    text-align: center;
+
+  }
+
+  .coding-learning .coding-section-copy {
+
+    padding-top: 0;
+
+  }
+
+  .coding-section-copy .coding-pill {
+
+    margin-inline: auto;
+
+  }
+
+  .coding-section-copy h2,
+
+  .coding-section-copy p {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+  .coding-practice-card {
+
+    justify-self: center;
+
+  }
+
+  .coding-challenge-grid {
+
+    grid-template-columns: 1fr;
+
+    max-width: 620px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+  .coding-skill-list {
+
+    width: min(100%, 520px);
+
+    margin: 0 auto;
+
+  }
+
+  .coding-skill-item {
+
+    width: 100%;
+
+  }
+
+  .coding-video-area {
+
+    max-width: 690px;
+
+    margin: 0 auto;
+
+  }
+
+  .coding-video-deck {
+
+    width: 100%;
+
+    max-width: 689px;
+
+    height: 570px;
+
+    transform: none;
+
+    transform-origin: center center;
+
+    margin: 0 auto 28px;
+
+  }
+
+  .coding-video-controls {
+
+    position: relative;
+
+    z-index: 5;
+
+    margin-top: 0;
+
+    justify-content: center;
+
+    gap: 30px;
+
+  }
+
+  .coding-cta {
+
+    min-height: 440px;
+
+    margin-top: 72px;
+
+    padding: 54px;
+
+    border-radius: 220px;
+
+  }
+
+  .coding-cta h2 {
+
+    font-size: 36px;
+
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .coding-section-copy p,
+
+  .coding-challenges__intro p {
+
+    text-wrap: balance;
+
+  }
+
+  .coding-practice .coding-section-copy p {
+
+    width: 100%;
+
+    max-width: 560px;
+
+    font-size: 16px;
+
+    line-height: 28px;
+
+    letter-spacing: 0;
+
+    text-wrap: balance;
+
+  }
+
+  .coding-practice .coding-section-copy p br {
+
+    display: none;
+
+  }
+
+  .coding-shell {
+
+    width: calc(100% - 32px);
+
+    padding: 18px 0 56px;
+
+  }
+
+  .coding-breadcrumb {
+
+    font-size: 14px;
+
+  }
+
+  .coding-hero {
+
+    margin-top: 24px;
+
+    padding: 16px;
+
+    border-radius: 24px;
+
+  }
+
+  .coding-hero__inner {
+
+    border-radius: 14px;
+
+  }
+
+  .coding-hero__content {
+
+    padding: 28px 20px 0;
+
+  }
+
+  .coding-pill {
+
+    min-height: 42px;
+
+    padding: 8px 20px;
+
+    font-size: 18px;
+
+    line-height: 26px;
+
+  }
+
+  .coding-hero h1 {
+
+    margin-top: 22px;
+
+    font-size: 36px;
+
+    line-height: 1.22;
+
+  }
+
+  .coding-hero p {
+
+    margin-top: 20px;
+
+    font-size: 16px;
+
+    line-height: 28px;
+
+  }
+
+  .coding-hero__visual {
+
+    min-height: 310px;
+
+  }
+
+  .coding-hero__visual img {
+
+    width: min(560px, 112%);
+
+  }
+
+  .coding-section,
+
+  .coding-skills,
+
+  .coding-learning {
+
+    margin-top: 56px;
+
+    gap: 30px;
+
+  }
+
+  .coding-section-copy h2,
+
+  .coding-challenges__intro h2 {
+
+    margin-top: 22px;
+
+    font-size: 36px;
+
+    line-height: 1.25;
+
+  }
+
+  .coding-section-copy p,
+
+  .coding-challenges__intro p {
+
+    margin-top: 20px;
+
+    font-size: 16px;
+
+    line-height: 28px;
+
+  }
+
+  .coding-practice-card {
+
+    padding: 20px;
+
+    border-radius: 24px;
+
+  }
+
+  .coding-practice-card__inner {
+
+    min-height: 0;
+
+    padding: 30px 22px;
+
+    gap: 24px;
+
+  }
+
+  .coding-practice-row {
+
+    gap: 16px;
+
+    font-size: 18px;
+
+    line-height: 26px;
+
+  }
+
+  .coding-check-icon {
+
+    width: 30px;
+
+    height: 30px;
+
+    flex-basis: 30px;
+
+  }
+
+  .coding-challenges {
+
+    margin-top: 56px;
+
+    padding: 34px 20px;
+
+    border-radius: 24px;
+
+  }
+
+  .coding-challenge-grid {
+
+    width: calc(100% - 40px);
+
+    max-width: 396px;
+
+    margin: 28px auto 0;
+
+    gap: 20px;
+
+  }
+
+  .coding-challenge-card {
+
+    min-height: 112px;
+
+    padding: 18px 78px 18px 18px;
+
+    align-items: flex-start;
+
+  }
+
+  .coding-challenge-card__icon {
+
+    top: 20px;
+
+    right: 20px;
+
+    left: auto;
+
+    width: 58px;
+
+    height: 58px;
+
+    padding: 11px;
+
+    background: #ffffff;
+
+  }
+
+  .coding-challenge-card__icon img {
+
+    width: 34px;
+
+    height: 34px;
+
+  }
+
+  .coding-challenge-card::before {
+
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+
+  }
+
+  .coding-challenge-card__copy {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    padding-right: 4px;
+
+  }
+
+  .coding-challenge-card h3 {
+
+    max-width: 170px;
+
+    font-size: 20px;
+
+    line-height: 26px;
+
+  }
+
+  .coding-challenge-card p {
+
+    max-width: 190px;
+
+    margin-top: 12px;
+
+    font-size: 15px;
+
+    line-height: 22px;
+
+  }
+
+  .coding-skill-list {
+
+    gap: 20px;
+
+  }
+
+  .coding-skill-item {
+
+    min-height: 62px;
+
+    padding: 13px 20px;
+
+    border-radius: 26px;
+
+    font-size: 16px;
+
+    line-height: 24px;
+
+  }
+
+  .coding-skill-item img {
+
+    width: 30px;
+
+    height: 30px;
+
+    flex-basis: 30px;
+
+  }
+
+  .coding-video-deck {
+
+    height: auto;
+
+    display: grid;
+
+    gap: 18px;
+
+  }
+
+  .coding-video-card,
+
+  .coding-video-card--back,
+
+  .coding-video-card--middle,
+
+  .coding-video-card--front {
+
+    width: 100%;
+
+    height: auto;
+
+    aspect-ratio: 16 / 10;
+
+    position: relative;
+
+    inset: auto;
+
+    padding: 14px;
+
+    border-radius: 20px;
+
+  }
+
+  .coding-video-card--back {
+
+    order: 3;
+
+  }
+
+  .coding-video-card--middle {
+
+    order: 2;
+
+  }
+
+  .coding-video-card--front {
+
+    order: 1;
+
+  }
+
+  .coding-video-controls {
+
+    margin-top: 24px;
+
+    gap: 20px;
+
+  }
+
+  .coding-video-controls button {
+
+    width: 62px;
+
+    height: 62px;
+
+    padding: 7px;
+
+    border-radius: 50%;
+
+    background: var(--coding-bg);
+
+    box-shadow:
+
+      inset 5px 5px 10px #c4c4c4,
+
+      inset -5px -5px 10px #ffffff;
+
+  }
+
+  .coding-video-controls button::before {
+
+    width: 46px;
+
+    height: 46px;
+
+    border-radius: 50%;
+
+    background: var(--coding-bg);
+
+    box-shadow:
+
+      -5px -5px 10px #ffffff,
+
+      5px 5px 10px #c6c6c9;
+
+  }
+
+  .coding-video-controls button img {
+
+    width: 22px;
+
+    height: 22px;
+
+  }
+
+  .coding-cta {
+
+    min-height: 390px;
+
+    margin-top: 56px;
+
+    padding: 46px 24px;
+
+    border-radius: 80px;
+
+  }
+
+  .coding-cta h2 {
+
+    font-size: 36px;
+
+    line-height: 1.25;
+
+  }
+
+  .coding-cta p {
+
+    margin-top: 20px;
+
+    font-size: 16px;
+
+    line-height: 28px;
+
+  }
+
+  .coding-cta__actions {
+
+    margin-top: 32px;
+
+    gap: 16px;
+
+    flex-wrap: wrap;
+
+  }
+
+  .coding-cta__actions button {
+
+    min-width: 170px;
+
+    height: 56px;
+
+    padding-inline: 22px;
+
+    font-size: 18px;
+
+    line-height: 26px;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .coding-shell {
+
+    width: calc(100% - 24px);
+
+  }
+
+  .coding-breadcrumb {
+
+    gap: 6px;
+
+    font-size: 13px;
+
+  }
+
+  .coding-hero {
+
+    padding: 12px;
+
+  }
+
+  .coding-hero__content {
+
+    padding: 24px 14px 0;
+
+  }
+
+  .coding-hero h1 {
+
+    font-size: 24px;
+
+  }
+
+  .coding-hero__visual {
+
+    min-height: 260px;
+
+  }
+
+  .coding-hero__visual img {
+
+    width: 118%;
+
+  }
+
+  .coding-section-copy h2,
+
+  .coding-challenges__intro h2 {
+
+    font-size: 24px;
+
+  }
+
+  .coding-practice-card {
+
+    padding: 14px;
+
+  }
+
+  .coding-practice-card__inner {
+
+    padding: 26px 16px;
+
+  }
+
+  .coding-practice-row {
+
+    font-size: 16px;
+
+  }
+
+  .coding-challenges {
+
+    padding-inline: 8px;
+
+  }
+
+  .coding-challenge-card {
+
+    min-height: 104px;
+
+    padding: 16px 64px 16px 14px;
+
+    align-items: flex-start;
+
+    background: #dfe6e9;
+
+  }
+
+  .coding-challenge-card__icon {
+
+    top: 50%;
+
+    right: 12px;
+
+    left: auto;
+
+    width: 48px;
+
+    height: 48px;
+
+    padding: 9px;
+
+    background: #dfe6e9;
+
+    transform: translateY(-50%);
+
+  }
+
+  .coding-challenge-card__icon img {
+
+    width: 28px;
+
+    height: 28px;
+
+  }
+
+  .coding-challenge-card::before {
+
+    inset: 0 auto 0 0;
+
+    width: calc(100% - 52px);
+
+    height: 100%;
+
+    clip-path: polygon(0 0, 78% 0, 100% 100%, 0 100%);
+
+  }
+
+  .coding-challenge-card h3 {
+
+    max-width: 170px;
+
+    font-size: 16px;
+
+    line-height: 22px;
+
+    white-space: nowrap;
+
+  }
+
+  .coding-challenge-card p {
+
+    width: 100%;
+
+    max-width: none;
+
+    text-wrap: balance;
+
+    margin-top: 8px;
+
+    font-size: 12px;
+
+    line-height: 16px;
+
+  }
+
+  .coding-skill-item {
+
+    min-height: 62px;
+
+    padding: 12px 16px;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+    gap: 12px;
+
+    font-size: 15px;
+
+    line-height: 20px;
+
+  }
+
+  .coding-skill-item img {
+
+    width: 30px;
+
+    height: 30px;
+
+    flex: 0 0 30px;
+
+    align-self: center;
+
+  }
+
+  .coding-skill-item span {
+
+    flex: 1 1 auto;
+
+    min-width: 0;
+
+    margin: 0;
+
+    text-align: left;
+
+    white-space: nowrap;
+
+    line-height: 20px;
+
+  }
+
+  .coding-cta {
+
+    min-height: 420px;
+
+    padding-inline: 18px;
+
+    border-radius: 52px;
+
+  }
+
+  .coding-cta h2 {
+
+    font-size: 24px;
+
+  }
+
+  .coding-cta__actions {
+
+    width: 100%;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+  }
+
+  .coding-cta__actions button {
+
+    width: 60%;
+
+    transform: translateX(50);
+
+  }
+
+}
+
+.coding-cta__actions button {
+
+  background: var(--coding-bg);
+
+  color: var(--coding-blue);
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9;
+
+  transition:
+
+    color 0.2s ease,
+
+    box-shadow 0.2s ease;
+
+}
+
+.coding-cta__actions button:hover:not(.is-selected),
+
+.coding-cta__actions button:not(.is-selected):active {
+
+  color: var(--coding-blue);
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9;
+
+}
+
+.coding-cta__actions button.is-selected,
+
+.coding-cta__actions button.is-selected:hover,
+
+.coding-cta__actions button.is-selected:active {
+
+  color: var(--coding-heading);
+
+  box-shadow:
+
+    inset -5px -5px 10px #ffffff,
+
+    inset 5px 5px 10px #c4c4c4;
+
+}
+
+.coding-cta__actions button:not(.is-selected),
+
+.coding-cta__actions button:not(.is-selected):hover,
+
+.coding-cta__actions button:not(.is-selected):focus,
+
+.coding-cta__actions button:not(.is-selected):active {
+
+  color: var(--coding-blue);
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9;
+
+}
+
+.coding-cta__actions button:not(.is-selected):focus-visible {
+
+  color: var(--coding-blue);
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9;
+
+  outline: 2px solid var(--coding-blue);
+
+  outline-offset: 4px;
+
+}
+
+.coding-cta__actions button.is-selected,
+
+.coding-cta__actions button.is-selected:hover,
+
+.coding-cta__actions button.is-selected:focus,
+
+.coding-cta__actions button.is-selected:active {
+
+  color: var(--coding-heading);
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    inset -5px -5px 10px #ffffff,
+
+    inset 5px 5px 10px #c4c4c4;
+
+}
+
+/* .coding-cta__actions button {
+
+  color: var(--coding-blue);
+
+  background: var(--coding-bg);
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9;
+
+} */
+
+.coding-cta__actions button.is-selected {
+
+  color: var(--coding-heading);
+
+  box-shadow:
+
+    inset -5px -5px 10px #ffffff,
+
+    inset 5px 5px 10px #c4c4c4;
+
+}
+
+.coding-cta__actions button:not(.is-selected),
+
+.coding-cta__actions button:not(.is-selected):hover,
+
+.coding-cta__actions button:not(.is-selected):active {
+
+  color: var(--coding-blue);
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9;
+
+}
+
+@media (max-width: 700px) {
+
+  .coding-video-card video {
+
+    object-fit: cover !important;
+
+    object-position: center top !important;
+
+  }
+
+}
+
+/* FIRST VIDEO FRAME POSITION — MOBILE ONLY */
+
+@media (max-width: 700px) {
+
+  .coding-video-card video.coding-first-video {
+
+    object-fit: cover !important;
+
+    object-position: center 30% !important;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .coding-video-card video.coding-first-video {
+
+    object-position: center 30% !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   GET STARTED BUTTON — RAISED / INSET HOVER EFFECT ONLY
+
+   ========================================================================== */
+
+.coding-cta__actions button:not(.is-selected) {
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9 !important;
+
+  transition:
+
+    color 0.2s ease,
+
+    box-shadow 0.22s ease !important;
+
+}
+
+.coding-cta__actions button:not(.is-selected):hover {
+
+  color: var(--coding-blue) !important;
+
+  background: var(--coding-bg) !important;
+
+  box-shadow:
+
+    inset -5px -5px 10px #ffffff,
+
+    inset 5px 5px 10px #c4c4c4 !important;
+
+}
+
+.coding-cta__actions button:not(.is-selected):not(:hover) {
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9 !important;
+
+}
+
+/* ==========================================================================
+
+   VIDEO NAVIGATION — SLIGHTLY UP + UNIFORM SECTION SPACING
+
+   Desktop only. No other layout, sizing, video, typography or effects changed.
+
+   ========================================================================== */
+
+@media (min-width: 901px) {
+
+  .coding-video-controls {
+
+    margin-top: 12px !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   VIDEO NAVIGATION — MOVE BUTTONS UP ONLY
+
+   Desktop only. This visually lifts the Previous/Next controls without
+
+   changing the video deck, section layout, button design, or other content.
+
+   ========================================================================== */
+
+@media (min-width: 901px) {
+
+  .coding-video-controls {
+
+    margin-top: 0 !important;
+
+    transform: translateY(-32px) !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   VIDEO SECTION — UNIFORM DESKTOP SECTION-TO-SECTION SPACING
+
+   Keeps the buttons raised, but removes the large blank area below them.
+
+   No video/card/button design, typography, colors or other sections changed.
+
+   ========================================================================== */
+
+@media (min-width: 901px) {
+
+  .coding-learning {
+
+    margin-bottom: -105px !important;
+
+  }
+
+  .coding-cta {
+
+    margin-top: 96px !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   VIDEO NAVIGATION — SLIGHT RIGHT SHIFT ONLY
+
+   Keeps the existing raised position and all button/video styling unchanged.
+
+   ========================================================================== */
+
+@media (min-width: 901px) {
+
+  .coding-video-controls {
+
+    transform: translate(28px, -32px) !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   BOOK A DEMO — MOBILE CENTER ALIGNMENT ONLY
+
+   Keeps the existing button size, shadow, typography and desktop/tablet design.
+
+   ========================================================================== */
+
+@media (max-width: 700px) {
+
+  .coding-cta__actions {
+
+    width: 100% !important;
+
+    display: flex !important;
+
+    justify-content: center !important;
+
+    align-items: center !important;
+
+  }
+
+  .coding-cta__actions button {
+
+    margin-left: auto !important;
+
+    margin-right: auto !important;
+
+    transform: none !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   CTA CARD — COMPACT WIDTH / HEIGHT ONLY
+
+   Reduces excess empty space while retaining the same design and effects.
+
+   ========================================================================== */
+
+@media (min-width: 901px) {
+
+  .coding-cta {
+
+    width: min(1180px, calc(100% - 64px)) !important;
+
+    min-height: 430px !important;
+
+    margin-left: auto !important;
+
+    margin-right: auto !important;
+
+    padding: 48px !important;
+
+    border-radius: 220px !important;
+
+  }
+
+  .coding-cta__content {
+
+    width: min(800px, 100%) !important;
+
+  }
+
+  .coding-cta p {
+
+    margin-top: 22px !important;
+
+  }
+
+  .coding-cta__actions {
+
+    margin-top: 36px !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   VIDEO CARDS — FINGER SWIPE ON TABLET + MOBILE
+
+   Swipe left = next video. Swipe right = previous video.
+
+   Vertical page scrolling remains enabled.
+
+   ========================================================================== */
+
+@media (max-width: 900px) {
+
+  .coding-video-deck {
+
+    touch-action: pan-y !important;
+
+    user-select: none !important;
+
+    -webkit-user-select: none !important;
+
+    -webkit-tap-highlight-color: transparent;
+
+  }
+
+  .coding-video-card,
+
+  .coding-video-card video {
+
+    touch-action: pan-y !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   FINAL CONSISTENCY FIX — BADGES + TEXT BUTTONS + 48PX SECTION GAP ONLY
+
+   Matches the previous page styling.
+
+   No other layout, typography, cards, videos, colours or effects are changed.
+
+   ========================================================================== */
+
+/* ---------- BADGES: same as previous pages ---------- */
+
+.coding-page .coding-pill,
+
+.coding-page .coding-pill--wide {
+
+  box-sizing: border-box !important;
+
+  width: fit-content !important;
+
+  min-width: 0 !important;
+
+  max-width: 100% !important;
+
+  height: auto !important;
+
+  min-height: 50px !important;
+
+  padding: 10px 24px !important;
+
+  border-radius: 28px !important;
+
+  background: var(--coding-bg) !important;
+
+  color: var(--coding-blue) !important;
+
+  font-size: 24px !important;
+
+  font-weight: 600 !important;
+
+  line-height: 1.3 !important;
+
+  letter-spacing: 0.02em !important;
+
+  text-align: center !important;
+
+  white-space: normal !important;
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+}
+
+/* ---------- TEXT BUTTONS: same as previous pages ----------
+
+   Only CTA text buttons are standardized.
+
+   Video navigation/icon buttons are intentionally untouched.
+
+   --------------------------------------------------------- */
+
+.coding-page .coding-cta__actions button {
+
+  box-sizing: border-box !important;
+
+  width: 210px !important;
+
+  max-width: 100% !important;
+
+  min-width: 0 !important;
+
+  height: auto !important;
+
+  min-height: 60px !important;
+
+  padding: 12px 20px !important;
+
+  border: 0 !important;
+
+  border-radius: 8px !important;
+
+  background: var(--coding-bg) !important;
+
+  color: var(--coding-blue) !important;
+
+  font-size: 24px !important;
+
+  font-weight: 600 !important;
+
+  line-height: 1.35 !important;
+
+  box-shadow:
+
+    -4px -4px 4px #ffffff,
+
+    4px 4px 4px #c6c6c9 !important;
+
+  transform: none !important;
+
+}
+
+.coding-page .coding-cta__actions button:hover,
+
+.coding-page .coding-cta__actions button:active,
+
+.coding-page .coding-cta__actions button.is-selected,
+
+.coding-page .coding-cta__actions button.is-selected:hover,
+
+.coding-page .coding-cta__actions button.is-selected:active {
+
+  background: var(--coding-bg) !important;
+
+  color: var(--coding-blue) !important;
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+}
+
+/* ---------- EXACT 48PX BETWEEN MAJOR SECTIONS ---------- */
+
+.coding-page .coding-section,
+
+.coding-page .coding-challenges,
+
+.coding-page .coding-cta {
+
+  margin-top: 48px !important;
+
+}
+
+/* Remove the older negative spacing adjustment below the video section. */
+
+.coding-page .coding-learning {
+
+  margin-bottom: 0 !important;
+
+}
+
+/* ---------- MOBILE: same previous-page badge/button sizing ---------- */
+
+@media (max-width: 767.98px) {
+
+  .coding-page .coding-pill,
+
+  .coding-page .coding-pill--wide {
+
+    min-height: 50px !important;
+
+    padding: 10px 24px !important;
+
+    font-size: 20px !important;
+
+    line-height: 1.3 !important;
+
+  }
+
+  .coding-page .coding-cta__actions button {
+
+    width: 210px !important;
+
+    max-width: 100% !important;
+
+    min-height: 52px !important;
+
+    padding: 10px 18px !important;
+
+    font-size: 18px !important;
+
+    line-height: 1.35 !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   FINAL ARROW BUTTON FIX ONLY
+
+   1) Center Previous/Next controls under the FIRST video card.
+
+   2) Keep the existing gap between the two arrow buttons.
+
+   3) Reduce only the arrow-button shadows to 4px values.
+
+   ========================================================================== */
+
+/* Desktop: first video card is 501px wide, so center the control group
+
+   inside that same 501px width. Keep the existing 30px button gap. */
+
+@media (min-width: 901px) {
+
+  .coding-page .coding-video-controls {
+
+    width: 501px !important;
+
+    max-width: 501px !important;
+
+    padding-left: 0 !important;
+
+    padding-right: 0 !important;
+
+    justify-content: center !important;
+
+    gap: 30px !important;
+
+    transform: translateY(-32px) !important;
+
+  }
+
+}
+
+/* Arrow button shadows only — 4 / 4 / 4 and -4 / -4 / 4. */
+
+.coding-page .coding-video-controls button {
+
+  box-shadow:
+
+    inset 4px 4px 4px #c4c4c4,
+
+    inset -4px -4px 4px #ffffff !important;
+
+}
+
+.coding-page .coding-video-controls button::before {
+
+  box-shadow:
+
+    -4px -4px 4px #ffffff,
+
+    4px 4px 4px #c6c6c9 !important;
+
+}
+
+.coding-page .coding-video-controls button:active::before {
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px #c4c4c4 !important;
+
+}
+
+/* ==========================================================================
+
+   FINAL ARROW POSITION FIX ONLY
+
+   Move the arrow controls down so they sit below the first video frame
+
+   without overlapping it. Horizontal centering and button gap stay the same.
+
+   ========================================================================== */
+
+@media (min-width: 901px) {
+
+  .coding-page .coding-video-controls {
+
+    margin-top: 18px !important;
+
+    transform: none !important;
+
+  }
+
+}
+
+/* Blue emphasis in the requested headings. */
+
+.coding-heading-blue {
+
+  color: var(--coding-blue);
+
+}
+
+@media (max-width: 700px) {
+
+  .coding-challenge-card__copy {
+
+    transform: translateX(6px);
+
+  }
+
+}
+
+/* =========================================================
+
+   CODING LABS — SECTION EXPERT BUTTON
+
+   Placed in the empty area of the Real-World Skill
+
+   Development section without overlapping any content.
+
+   ========================================================= */
+
+.coding-skills {
+
+  position: relative;
+
+}
+
+/* Desktop: place in the empty top-right area of the text section */
+
+.coding-expert-slot {
+
+  --expert-button-size: 64px;
+
+  position: absolute;
+
+  top: 14px;
+
+  right: 8px;
+
+  width: var(--expert-button-size);
+
+  height: var(--expert-button-size);
+
+  z-index: 12;
+
+  pointer-events: none;
+
+}
+
+.coding-expert-slot > button[class*="talk-to-expert-fab"] {
+
+  position: absolute !important;
+
+  inset: 0 !important;
+
+  top: 0 !important;
+
+  right: 0 !important;
+
+  bottom: auto !important;
+
+  left: auto !important;
+
+  margin: 0 !important;
+
+  transform: none !important;
+
+  translate: none !important;
+
+  pointer-events: auto !important;
+
+}
+
+/* Large tablet: slightly smaller and tucked to the edge */
+
+@media (max-width: 1200px) {
+
+  .coding-expert-slot {
+
+    --expert-button-size: 56px;
+
+    top: 12px;
+
+    right: 6px;
+
+  }
+
+}
+
+/* Tablet/mobile: move into safe empty gap so it does not cover text */
+
+@media (max-width: 900px) {
+
+  .coding-expert-slot {
+
+    --expert-button-size: 48px;
+
+    top: -56px;
+
+    right: 8px;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .coding-expert-slot {
+
+    --expert-button-size: 44px;
+
+    top: -48px;
+
+    right: 4px;
+
+  }
+
+}
+
+@media (max-width: 380px) {
+
+  .coding-expert-slot {
+
+    --expert-button-size: 42px;
+
+    top: -46px;
+
+    right: 2px;
+
+  }
+
+}
+
+/* Same professional pulse and hover behaviour as before */
+
+.coding-expert-slot::after {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 2px;
+
+  z-index: 0;
+
+  border: 2px solid rgba(45, 76, 200, 0.38);
+
+  border-radius: 50%;
+
+  box-sizing: border-box;
+
+  pointer-events: none;
+
+  opacity: 0;
+
+  animation: codingExpertPulse 3s ease-out infinite;
+
+}
+
+@keyframes codingExpertPulse {
+
+  0%, 15% {
+
+    transform: scale(1);
+
+    opacity: 0;
+
+  }
+
+  30% {
+
+    opacity: 0.55;
+
+  }
+
+  75%, 100% {
+
+    transform: scale(1.32);
+
+    opacity: 0;
+
+  }
+
+}
+
+.coding-expert-slot > button[class*="talk-to-expert-fab"] {
+
+  transition: box-shadow 180ms ease, background-color 180ms ease;
+
+}
+
+.coding-expert-slot > button[class*="talk-to-expert-fab"]:hover,
+
+.coding-expert-slot > button[class*="talk-to-expert-fab"]:focus-visible {
+
+  box-shadow:
+
+    -5px -5px 10px #ffffff,
+
+    5px 5px 10px #c6c6c9,
+
+    0 0 0 3px rgba(45, 76, 200, 0.14);
+
+}
+
+.coding-expert-slot > button[class*="talk-to-expert-fab"]:hover svg,
+
+.coding-expert-slot > button[class*="talk-to-expert-fab"]:focus-visible svg {
+
+  transform-origin: center;
+
+  animation: codingExpertWave 600ms ease-in-out;
+
+}
+
+@keyframes codingExpertWave {
+
+  0%, 100% {
+
+    transform: rotate(0deg);
+
+  }
+
+  25% {
+
+    transform: rotate(-12deg);
+
+  }
+
+  50% {
+
+    transform: rotate(10deg);
+
+  }
+
+  75% {
+
+    transform: rotate(-5deg);
+
+  }
+
+}
+
+.coding-expert-slot > button[class*="talk-to-expert-fab"]:active {
+
+  box-shadow:
+
+    inset -4px -4px 8px #ffffff,
+
+    inset 4px 4px 8px #c6c6c9;
+
+}
+
+.coding-expert-slot:has(> button[aria-expanded="true"])::after {
+
+  animation: none;
+
+  opacity: 0;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .coding-expert-slot::after,
+
+  .coding-expert-slot > button[class*="talk-to-expert-fab"]:hover svg,
+
+  .coding-expert-slot > button[class*="talk-to-expert-fab"]:focus-visible svg {
+
+    animation: none;
+
+  }
+
+  .coding-expert-slot > button[class*="talk-to-expert-fab"] {
+
+    transition: none;
+
+  }
+
+}
+
+/* Requested adjustments only */
+@media (min-width: 901px) {
+  .coding-hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .coding-hero__content h1,
+  .coding-hero__content p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+.coding-learning .coding-video-card {
+  cursor: pointer;
+}
+.coding-learning .coding-video-card:focus-visible {
+  outline: 3px solid var(--coding-blue);
+  outline-offset: 4px;
+}
+
+.coding-video-card {
+  overflow: hidden;
+}
+
+.coding-video-card iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  border: none;
+  display: block;
+  transform: translate(-50%, -50%) scale(1.65);
+  transform-origin: center;
+}
+
+
+.coding-video-card {
+  overflow: hidden;
+}
+
+.coding-video-card iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  border: none;
+  display: block;
+  transform: translate(-50%, -50%) scale(1.65);
+  transform-origin: center center;
+  pointer-events: none;
+}
+

@@ -1,0 +1,1171 @@
+.assistant-overlay {
+
+    position: fixed;
+
+    inset: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 16px;
+
+    background: rgba(0, 0, 0, 0.25);
+
+    z-index: 20000;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+
+}
+
+.assistant-popup {
+
+    position: relative;
+
+    width: min(528px, calc(100vw - 32px));
+
+    height: auto;
+
+    min-height: min(808px, calc(100dvh - 32px));
+
+    max-height: calc(100dvh - 32px);
+
+    margin: 0;
+
+    border-radius: 24px;
+
+    background: #DFE6E9;
+
+    box-shadow:
+
+        inset 4px 4px 4px #C4C4C4,
+
+        inset -4px -4px 4px #FFFFFF;
+
+    /* ONE SCROLL ONLY:
+
+       the popup scrolls when content grows.
+
+       No inner section has its own scrollbar. */
+
+    overflow-x: hidden;
+
+    overflow-y: auto;
+
+    overscroll-behavior: contain;
+
+    display: flex;
+
+    flex-direction: column;
+
+    box-sizing: border-box;
+
+}
+
+.assistant-header {
+
+    position: relative;
+
+    width: 100%;
+
+    height: 140px;
+
+    min-height: 140px;
+
+    flex: 0 0 140px;
+
+    background: #DFE6E9;
+
+    border-radius: 24px 24px 50px 50px;
+
+    box-shadow:
+
+        4px 4px 8px #C4C4C4,
+
+        -4px -4px 8px #FFFFFF;
+
+}
+
+/* CLOSE BUTTON:
+
+   Forced inside the top-right marked area.
+
+   !important prevents any old/global close-button CSS from moving it. */
+
+.assistant-popup .assistant-header .assistant-close-button {
+
+    position: absolute !important;
+
+    top: 18px !important;
+
+    right: 18px !important;
+
+    bottom: auto !important;
+
+    left: auto !important;
+
+    width: 42px !important;
+
+    height: 42px !important;
+
+    min-width: 42px !important;
+
+    min-height: 42px !important;
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+    transform: none !important;
+
+    border: 0 !important;
+
+    border-radius: 50% !important;
+
+    background: #DFE6E9 !important;
+
+    box-shadow:
+
+        -4px -4px 8px rgba(255, 255, 255, 0.95),
+
+        4px 4px 8px rgba(196, 196, 196, 0.85) !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    cursor: pointer !important;
+
+    z-index: 20 !important;
+
+    transition: box-shadow 180ms ease !important;
+
+}
+
+.assistant-popup .assistant-header .assistant-close-button:hover,
+
+.assistant-popup .assistant-header .assistant-close-button:focus-visible {
+
+    box-shadow:
+
+        inset -4px -4px 8px rgba(255, 255, 255, 0.95),
+
+        inset 4px 4px 8px rgba(196, 196, 196, 0.85) !important;
+
+    outline: none !important;
+
+}
+
+.assistant-close-icon {
+
+    width: 18px;
+
+    height: 18px;
+
+    fill: none;
+
+    stroke: #31344B;
+
+    stroke-width: 2;
+
+    stroke-linecap: round;
+
+}
+
+.assistant-brand-logo {
+
+    position: absolute;
+
+    top: 12px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 130px;
+
+    height: 45px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.assistant-brand-logo img {
+
+    width: 130px;
+
+    height: 45px;
+
+    object-fit: contain;
+
+    display: block;
+
+}
+
+.assistant-header-content {
+
+    position: absolute;
+
+    left: 32px;
+
+    bottom: 16px;
+
+    width: 347px;
+
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 19px;
+
+}
+
+.assistant-logo {
+
+    width: 52px;
+
+    height: 53px;
+
+    position: relative;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.assistant-main-bot {
+
+    width: 52px !important;
+
+    height: 52px !important;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+}
+
+.assistant-details {
+
+    width: 300px;
+
+    height: 55px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    gap: 10px;
+
+}
+
+.assistant-title-wrapper {
+
+    width: 300px;
+
+    height: 33px;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.assistant-title {
+
+    width: 264px;
+
+    height: 33px;
+
+    margin: 0;
+
+    font-family: "Segoe UI", sans-serif;
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    line-height: 40px;
+
+    letter-spacing: 0.03em;
+
+    text-transform: capitalize;
+
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.assistant-status {
+
+    width: 58px;
+
+    height: 12px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 4px;
+
+}
+
+.status-dot {
+
+    width: 10px;
+
+    height: 10px;
+
+    background: #2A7308;
+
+    border-radius: 50%;
+
+    flex-shrink: 0;
+
+}
+
+.status-text {
+
+    width: 44px;
+
+    height: 12px;
+
+    font-family: "Segoe UI", sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    line-height: 12px;
+
+    letter-spacing: 0.03em;
+
+    text-transform: capitalize;
+
+    text-align: center;
+
+    color: #2A7308;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.assistant-body {
+
+    width: calc(100% - 48px);
+
+    height: auto;
+
+    min-height: 620px;
+
+    margin: 24px;
+
+    background: #DFE6E9;
+
+    border-radius: 16px;
+
+    box-shadow:
+
+        4px 4px 8px 0 #C4C4C4,
+
+        -4px -4px 8px 0 #FFFFFF;
+
+    display: flex;
+
+    flex-direction: column;
+
+    position: relative;
+
+    /* Let content expand. Popup owns the only scrollbar. */
+
+    overflow: visible;
+
+    flex-shrink: 0;
+
+    box-sizing: border-box;
+
+}
+
+.assistant-content {
+
+    width: calc(100% - 48px);
+
+    height: auto;
+
+    min-height: 351px;
+
+    margin: 24px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 32px;
+
+    flex-shrink: 0;
+
+}
+
+.welcome-section {
+
+    width: 100%;
+
+    height: 91px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 24px;
+
+    flex-shrink: 0;
+
+}
+
+.welcome-card {
+
+    width: 274px;
+
+    height: 91px;
+
+    border-radius: 50px;
+
+    background: #DFE6E9;
+
+    box-shadow:
+
+        inset 4px 4px 4px #C4C4C4,
+
+        inset -4px -4px 4px rgba(255, 255, 255, 0.8);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-shrink: 0;
+
+}
+
+.welcome-content {
+
+    width: 212px;
+
+    height: 66px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    gap: 8px;
+
+}
+
+.welcome-title-row {
+
+    width: 212px;
+
+    height: 32px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+}
+
+.welcome-icon {
+
+    width: 32px;
+
+    height: 32px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.welcome-icon svg {
+
+    width: 32px;
+
+    height: 32px;
+
+    display: block;
+
+}
+
+.welcome-title {
+
+    width: 152px;
+
+    height: 26px;
+
+    margin: 0;
+
+    font-family: "Segoe UI", sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    line-height: 26px;
+
+    letter-spacing: 0.03em;
+
+    text-transform: capitalize;
+
+    text-align: center;
+
+    color: #31344B;
+
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.welcome-subtitle {
+
+    width: 212px;
+
+    height: 26px;
+
+    margin: 0;
+
+    font-family: "Segoe UI", sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 26px;
+
+    letter-spacing: 0.03em;
+
+    text-transform: capitalize;
+
+    text-align: center;
+
+    color: #2F3547;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.messages-container {
+
+    width: 100%;
+
+    height: auto;
+
+    min-height: 228px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 16px;
+
+    flex-shrink: 0;
+
+}
+
+.message-card {
+
+    width: 100%;
+
+    height: auto;
+
+    min-height: 60px;
+
+    background: #DFE6E9;
+
+    border-radius: 24px 24px 0 24px;
+
+    box-shadow:
+
+        8px 8px 16px 0 #C6C6C9,
+
+        -8px -8px 16px 0 rgba(255, 255, 255, 0.8);
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    flex-shrink: 0;
+
+}
+
+.message-content {
+
+    width: 100%;
+
+    min-height: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+}
+
+.message-avatar {
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 50%;
+
+    background: #DFE6E9;
+
+    box-shadow:
+
+        inset 4px 4px 4px rgba(196, 196, 196, 0.8),
+
+        inset -4px -4px 4px rgba(255, 255, 255, 0.8);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+}
+
+.message-avatar-image {
+
+    width: 32px !important;
+
+    height: 32px !important;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+}
+
+.message-text {
+
+    flex: 1;
+
+    width: auto;
+
+    min-width: 0;
+
+    min-height: 26px;
+
+    margin: 0;
+
+    font-family: "Segoe UI", sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 26px;
+
+    letter-spacing: 0.03em;
+
+    text-transform: capitalize;
+
+    color: #2F3547;
+
+    display: block;
+
+    overflow-wrap: anywhere;
+
+}
+
+.assistant-bottom {
+
+    width: calc(100% - 48px);
+
+    height: auto;
+
+    min-height: 114px;
+
+    margin: auto 24px 24px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+    flex-shrink: 0;
+
+}
+
+.assistant-input-container {
+
+    width: 100%;
+
+    height: 80px;
+
+    background: #DFE6E9;
+
+    border-radius: 8px;
+
+    box-shadow:
+
+        8px 8px 16px 0 #C6C6C9,
+
+        -8px -8px 16px 0 rgba(255, 255, 255, 0.8);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 16px;
+
+    box-sizing: border-box;
+
+}
+
+.assistant-input-wrapper {
+
+    width: 100%;
+
+    height: 48px;
+
+    background: #DFE6E9;
+
+    border-radius: 8px;
+
+    box-shadow:
+
+        inset 4px 4px 4px 0 #C4C4C4,
+
+        inset -4px -4px 4px 0 #FFFFFF;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 8px;
+
+    gap: 8px;
+
+    box-sizing: border-box;
+
+}
+
+.assistant-input {
+
+    flex: 1;
+
+    min-width: 0;
+
+    height: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    padding: 0 8px;
+
+    font-family: "Segoe UI", sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 26px;
+
+    letter-spacing: 0.03em;
+
+    color: #2F3547;
+
+}
+
+.assistant-input::placeholder {
+
+    color: #B7B7B7;
+
+}
+
+.assistant-send-button {
+
+    width: 32px;
+
+    height: 32px;
+
+    flex: 0 0 32px;
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+
+    border-radius: 4px;
+
+    background: #DFE6E9;
+
+    box-shadow:
+
+        4px 4px 4px 0 #C4C4C4,
+
+        -4px -4px 4px 0 rgba(255, 255, 255, 0.6);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 0;
+
+    transition:
+
+        transform 180ms ease,
+
+        box-shadow 180ms ease;
+
+}
+
+.assistant-send-button:hover {
+
+    transform: scale(1.05);
+
+}
+
+.assistant-send-button:active {
+
+    box-shadow:
+
+        inset 3px 3px 4px rgba(196, 196, 196, 0.8),
+
+        inset -3px -3px 4px rgba(255, 255, 255, 0.8);
+
+}
+
+.send-icon {
+
+    width: 22px;
+
+    height: 22px;
+
+    display: block;
+
+}
+
+.assistant-send-button svg {
+
+    width: 22px;
+
+    height: 22px;
+
+}
+
+.assistant-footer {
+
+    width: 183px;
+
+    height: 20px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-family: "Segoe UI", sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    line-height: 20px;
+
+    letter-spacing: 0.03em;
+
+    text-transform: capitalize;
+
+}
+
+.footer-text {
+
+    color: #31344B;
+
+    padding-right: 3px;
+
+}
+
+.footer-brand {
+
+    color: #2D4CC8;
+
+}
+
+/* Keep the same design on small screens while fitting the viewport. */
+
+@media (max-width: 560px) {
+
+    .assistant-overlay {
+
+        padding: 10px;
+
+    }
+
+    .assistant-popup {
+
+        width: min(528px, calc(100vw - 20px));
+
+        min-height: min(808px, calc(100dvh - 20px));
+
+        max-height: calc(100dvh - 20px);
+
+    }
+
+    .assistant-header-content {
+
+        left: 20px;
+
+        width: calc(100% - 84px);
+
+    }
+
+    .assistant-title-wrapper,
+
+    .assistant-details {
+
+        width: 100%;
+
+    }
+
+    .assistant-title {
+
+        width: 100%;
+
+        font-size: 22px;
+
+    }
+
+    .assistant-body {
+
+        width: calc(100% - 28px);
+
+        margin: 14px;
+
+        min-height: 620px;
+
+    }
+
+    .assistant-content,
+
+    .assistant-bottom {
+
+        width: calc(100% - 28px);
+
+        margin-left: 14px;
+
+        margin-right: 14px;
+
+    }
+
+    .assistant-content {
+
+        margin-top: 18px;
+
+    }
+
+    .assistant-bottom {
+
+        margin-bottom: 18px;
+
+    }
+
+    .welcome-card {
+
+        width: min(274px, 100%);
+
+    }
+
+    .message-text {
+
+        font-size: 15px;
+
+        line-height: 24px;
+
+    }
+
+}
+
+/* =========================================================
+
+   STRAY CLOSE "X" FIX ONLY
+
+   Hide any assistant close button that exists outside the
+
+   actual assistant popup. Keep the real close button visible
+
+   only while the popup itself exists.
+
+   ========================================================= */
+
+.assistant-close-button {
+
+    display: none !important;
+
+}
+
+.assistant-popup .assistant-close-button {
+
+    display: flex !important;
+
+}
+
+/* Extra guard for any old/detached close control left by a wrapper */
+
+body:not(:has(.assistant-popup)) .assistant-close-button,
+
+body:not(:has(.assistant-popup)) .assistant-close-icon {
+
+    display: none !important;
+
+    visibility: hidden !important;
+
+    opacity: 0 !important;
+
+    pointer-events: none !important;
+
+}
+
+
+/* Neumorphic scrollbar: the popup is the only scrollable container. */
+.assistant-popup {
+  scrollbar-width: thin;
+  scrollbar-color: #b8c5d0 #dfe6e9;
+  scrollbar-gutter: stable;
+}
+
+.assistant-popup::-webkit-scrollbar {
+  width: 10px;
+}
+
+.assistant-popup::-webkit-scrollbar-track {
+  background: #dfe6e9;
+  border-radius: 16px;
+  box-shadow: inset 3px 3px 6px #c6c9cf,
+              inset -3px -3px 6px #ffffff;
+}
+
+.assistant-popup::-webkit-scrollbar-thumb {
+  background: linear-gradient(145deg, #eaf0f3, #bac7d3);
+  border-radius: 16px;
+  border: 2px solid #dfe6e9;
+  box-shadow: 2px 2px 5px #b3bcc5,
+              -2px -2px 5px #ffffff;
+}
+
+.assistant-popup::-webkit-scrollbar-thumb:hover {
+  background: #aebdca;
+}
+
+/* Send button: becomes available for a nonempty organization name. */
+.assistant-popup .assistant-send-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  transform: none;
+  box-shadow: inset 2px 2px 4px #c6c9cf,
+              inset -2px -2px 4px #ffffff;
+}
+
+.assistant-popup .assistant-send-button:disabled:hover {
+  transform: none;
+}
+
+.assistant-popup .assistant-send-button:not(:disabled):focus-visible {
+  outline: 2px solid #2d4cc8;
+  outline-offset: 3px;
+}
+
+/* Conversation cards follow the existing message styling. */
+.assistant-conversation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.assistant-user-message {
+  align-self: flex-end;
+  max-width: 85%;
+  padding: 12px 16px;
+  border-radius: 20px 20px 4px 20px;
+  background: #dfe6e9;
+  color: #31344b;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  box-shadow: 4px 4px 8px #c6c9cf,
+              -4px -4px 8px #ffffff;
+}
+
+.assistant-reply-card {
+  align-self: flex-start;
+  width: 100%;
+}

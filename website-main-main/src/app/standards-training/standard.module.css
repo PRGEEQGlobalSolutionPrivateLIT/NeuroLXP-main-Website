@@ -1,0 +1,6537 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* HOME PAGE ALIGNMENT — 22 September 2026
+   Full replacement: existing selectors and artwork retained below.
+   The final scoped section owns typography, controls and content layout.
+   Keep the same module import filename in your application.
+   Uses the same Inter font import as the supplied home stylesheet. */
+
+.standardsTraining {
+  width: 100%;
+  height: 3552px;
+  position: relative;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  text-align: left;
+  font-size: 36px;
+  color: #31344b;
+  font-family: "Segoe UI", "Inter";
+  zoom: 0.97;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.frameParent {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 720px);
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px #c6c6c9;
+  background-color: #dfe6e9;
+  width: 1440px;
+  height: 80px;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: "Segoe UI", "Inter";
+}
+.frameChild {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: 1096px;
+  width: 132px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frameGroup {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  width: 1376px;
+  height: 45px;
+  flex-shrink: 0;
+}
+.logo01SynapseSpark1Parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.logo01SynapseSpark1Icon {
+  height: 45px;
+  width: 120px;
+  position: relative;
+  object-fit: cover;
+}
+.frameContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.homeParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.home {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.arrowDown01Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.resourcesParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2d4cc8;
+}
+.resources {
+  position: relative;
+  line-height: 24px;
+}
+.signInHelpWrapper {
+  position: absolute;
+  top: calc(50% - 22.5px);
+  left: 1244px;
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px #c6c6c9;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  width: 132px;
+  height: 44px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter";
+}
+.signInHelp {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.frameItem {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  width: 1429px;
+  height: 592.4px;
+  flex-shrink: 0;
+}
+.frameInner {
+  position: absolute;
+  top: 76px;
+  left: 4px;
+  width: 1436px;
+  height: 839px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv {
+  position: absolute;
+  top: 32px;
+  left: 80px;
+  background-color: #dfe6e9;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #2f3547;
+  font-family: "Segoe UI", "Inter";
+}
+.resourcesWrapper {
+  display: flex;
+  align-items: center;
+}
+.useCases {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+}
+.arrowRightDoubleGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #243fa8;
+}
+.frameParent2 {
+  position: absolute;
+  top: 88px;
+  left: 80px;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  font-size: 48px;
+}
+.frameParent3 {
+  align-self: stretch;
+  height: 614px;
+  position: relative;
+  box-shadow:
+    -4px -4px 4px #fff inset,
+    4px 4px 4px rgba(196, 196, 196, 0.8) inset;
+  border-radius: 32px;
+  background-color: #dfe6e9;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image21Parent {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  box-shadow:
+    4px 4px 4px #c4c4c4,
+    -4px -4px 4px rgba(255, 255, 255, 0.6);
+  border-radius: 16px 100px 100px 16px;
+  background-color: #dfe6e9;
+  width: 608px;
+  height: 550px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image21 {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 1216px;
+  height: 737px;
+  flex-shrink: 0;
+}
+.groupYoungBusinesspeopleUsi {
+  position: absolute;
+  top: calc(50% - 277px);
+  left: calc(50% - 332px);
+  width: 1216px;
+  height: 555px;
+  flex-shrink: 0;
+}
+.frameParent4 {
+  position: absolute;
+  top: calc(50% - 213px);
+  left: 50px;
+  width: 508px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 45px;
+  flex-shrink: 0;
+}
+.frameParent5 {
+  align-self: stretch;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.frameParent6 {
+  align-self: stretch;
+  height: 202px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
+.frameIcon {
+  width: 256.5px;
+  height: 50.2px;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.95),
+    inset 4px 4px 4px rgba(198, 198, 201, 0.85);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #2d4cc8;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.buildIndustryReadyLearningContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+}
+.build {
+  line-height: 60px;
+}
+.industryReady {
+  color: #2d4cc8;
+  line-height: 60px;
+}
+.improveLearningQuality {
+  width: 521px;
+  height: 85px;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameChild2 {
+  width: 220px;
+  height: 60px;
+  border-radius: 50px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d4cc8;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.image20 {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 640px);
+  width: 1280px;
+  height: 800px;
+  flex-shrink: 0;
+}
+.frameParent7 {
+  position: absolute;
+  top: 68px;
+  left: 739px;
+  width: 491px;
+  height: 481px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 32px;
+  color: #bf1869;
+}
+.outcomeBasedLearningWrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50px;
+  border: 2px dashed #bf1869;
+  box-sizing: border-box;
+  width: 491px;
+  height: 106px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+.outcomeBasedLearning {
+  height: 42px;
+  width: 427px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 42px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.facultyDevelopmentWrapper {
+  position: absolute;
+  top: 188px;
+  left: 0px;
+  border-radius: 50px;
+  border: 2px dashed #2d4cc8;
+  box-sizing: border-box;
+  width: 491px;
+  height: 106px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  color: #2d4cc8;
+}
+.facultyDevelopment {
+  height: 42px;
+  width: 404px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 42px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.accreditationReadyWrapper {
+  position: absolute;
+  top: 375px;
+  left: 0px;
+  border-radius: 50px;
+  border: 2px dashed #67096e;
+  box-sizing: border-box;
+  width: 491px;
+  height: 106px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  color: #67096e;
+}
+.arrowDownBigIcon {
+  position: absolute;
+  top: 118px;
+  left: 217px;
+  width: 58px;
+  height: 58px;
+}
+.arrowDownBigIcon2 {
+  position: absolute;
+  top: 306px;
+  left: 217px;
+  width: 57px;
+  height: 57px;
+}
+.frameParent8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  font-size: 36px;
+}
+.whyStandardsTrainingParent {
+  width: 999px;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.whyStandardsTraining {
+  width: 883px;
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 50px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.createAConsistent {
+  width: 787px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  color: #2f3547;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent9 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 80px;
+  text-align: left;
+  font-size: 24px;
+}
+.frameParent10 {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.frameParent11 {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.frameChild3 {
+  height: 70.1px;
+  width: 70.1px;
+  position: relative;
+}
+.alignWithIndustry {
+  height: 37px;
+  width: 375px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.improveLearningOutcomes {
+  height: 37px;
+  width: 360px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.supportAccreditationAnd {
+  height: 37px;
+  width: 514px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.scaleFutureReadyLearning {
+  height: 37px;
+  width: 344px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 36px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.standardsTrainingChild {
+  position: absolute;
+  top: 1186.11px;
+  left: calc(50% - 720px);
+  background: linear-gradient(90deg, #bf1869, #2d4cc8);
+  width: 1440px;
+  height: 5px;
+  overflow: hidden;
+}
+.frameParent16 {
+  position: absolute;
+  top: 1255.11px;
+  left: 82px;
+  display: flex;
+  align-items: center;
+  gap: 138px;
+}
+.frameParent17 {
+  width: 583px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.frameParent18 {
+  align-self: stretch;
+  height: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.frameChild7 {
+  width: 149.7px;
+  height: 50.1px;
+  position: relative;
+  border-radius: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.benefitsOfEmployee {
+  width: 593px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.organizationsCanAchieve {
+  align-self: stretch;
+  height: 81px;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent19 {
+  width: 555px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 32px;
+  font-size: 28px;
+  color: #bf1869;
+}
+.frameParent20 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.frameChild8 {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  flex-shrink: 0;
+}
+.standardisedCurriculumParent {
+  height: 86px;
+  width: 456px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+}
+.standardisedCurriculum {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.alignLearningWith {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  color: #2f3547;
+  flex-shrink: 0;
+}
+.frameParent21 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  color: #2d4cc8;
+}
+.frameParent22 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  color: #67096e;
+}
+.frameParent23 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  color: #2a7308;
+}
+.frameParent24 {
+  position: absolute;
+  top: 1791px;
+  left: 80px;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+.frameParent25 {
+  width: 1103px;
+  height: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.turnStandardsIntoLearningEParent {
+  width: 999px;
+  height: 171px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.turnStandardsIntoContainer {
+  width: 893px;
+  height: 50px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 50px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.turnStandardsInto {
+  line-height: 50px;
+}
+.learningExcellence {
+  color: #2d4cc8;
+  line-height: 50px;
+}
+.neurolxpHelpsInstitutions {
+  width: 714px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  color: #2f3547;
+  display: inline-block;
+}
+.frameParent26 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  text-align: left;
+  font-size: 22px;
+}
+.frameParent27 {
+  height: 470px;
+  width: 400px;
+  position: relative;
+}
+.frameWrapper2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 470px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 401px;
+  height: 470px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 400px;
+  height: 470px;
+  border-radius: 20px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c6c6c6;
+}
+.frameParent28 {
+  position: absolute;
+  top: 212px;
+  left: 32px;
+  width: 283px;
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.frameParent29 {
+  width: 283px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+.frameChild13 {
+  height: 44px;
+  width: 44px;
+  position: relative;
+}
+.structuredLearning {
+  position: relative;
+  font-family: "Segoe UI", "Inter";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+.frameChild15 {
+  height: 44px;
+  width: 44px;
+  position: relative;
+  flex-shrink: 0;
+}
+.transparentAssessments {
+  position: relative;
+  font-family: "Segoe UI", "Inter";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  flex-shrink: 0;
+}
+.frameWrapper3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 54px;
+  color: #000;
+  font-family: "Segoe UI", "Inter";
+}
+.frameWrapper4 {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.vectorParent {
+  align-self: stretch;
+  height: 192px;
+  position: relative;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  /* left: calc(50% - 200px + 0.5px); */
+  width: 400px;
+  height: 192px;
+  border-radius: 20px;
+  background: #dfe6e9;
+  clip-path: polygon(0 0, 100% 0, 100% 56%, 50% 100%, 0 56%);
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px #c4c4c4;
+  filter: drop-shadow(0 7px 7px rgba(196, 196, 196, 0.75)) drop-shadow(0 -3px 4px rgba(255, 255, 255, 0.6));
+  z-index: 2;
+}
+.frameParent33 {
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 158px + 0.5px);
+  width: 316px;
+  height: 111px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  z-index: 3;
+}
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.b {
+  position: relative;
+  font-family: "Segoe UI", "Inter";
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0.03em;
+  background: linear-gradient(180deg, #bf1869 0%, #590b31 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.forLearners {
+  align-self: stretch;
+  position: relative;
+  font-size: 28px;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: "Segoe UI", "Inter";
+  text-align: center;
+  color: #000;
+}
+.frameWrapper6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 54px;
+  color: #000;
+  font-family: "Segoe UI", "Inter";
+}
+.frameWrapper7 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.vectorGroup {
+  align-self: stretch;
+  height: 192px;
+  position: relative;
+}
+.peopleTakingPartBusinessEv {
+  position: absolute;
+  top: 2648.52px;
+  left: 93px;
+  width: 1216px;
+  height: 555px;
+}
+.image212 {
+  position: absolute;
+  top: 2650px;
+  left: 93px;
+  width: 1216px;
+  height: 737px;
+}
+.groupYoungBusinesspeopleUsi2 {
+  position: absolute;
+  top: 2649px;
+  left: calc(50% - 627px);
+  width: 1216px;
+  height: 555px;
+}
+.standardsTrainingItem {
+  position: absolute;
+  top: 2658px;
+  left: 672px;
+  width: 637px;
+  height: 543px;
+}
+.image202 {
+  position: absolute;
+  top: 2619px;
+  left: calc(50% - 645px);
+  width: 1280px;
+  height: 800px;
+}
+.frameParent48 {
+  position: absolute;
+  top: 2619px;
+  left: 77px;
+  width: 1286px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+.frameParent49 {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.frameWrapper11 {
+  align-self: stretch;
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buildAFutureReadyLearningParent {
+  width: 999px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.frameWrapper12 {
+  width: 220px;
+  height: 60px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameChild29 {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 50px;
+  background-color: #dfe6e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #2d4cc8;
+  white-space: nowrap;
+}
+.ellipseImageFrame {
+  position: relative;
+  width: 1286px;
+  height: 540px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipseBg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  z-index: 1;
+}
+
+.frameChild30 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  z-index: 2;
+}
+
+.iconCircle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.iconCircleInner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c6c6c9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconPink {
+  background: #bf1869;
+}
+.iconBlue {
+  background: #2d4cc8;
+}
+.iconPurple {
+  background: #67096e;
+}
+.iconGreen {
+  background: #2a7308;
+}
+.iconCircleInner img {
+  width: 34px;
+  height: 34px;
+}
+
+.benefitsBadge {
+  width: 149.7px;
+  height: 50px;
+  border-radius: 28px;
+  background: #dfe6e9;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(198, 198, 201, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.benefitsBadge span {
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  color: #2d4cc8;
+}
+.benefitIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.benefitIcon img {
+  width: 46px !important;
+  height: 46px !important;
+  object-fit: contain;
+}
+
+.checkIconCircle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow:
+    4px 4px 4px #c6c6c9,
+    -4px -4px 4px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.checkIconCircle img {
+  width: 24px !important;
+  height: 24px !important;
+  object-fit: contain;
+  display: block;
+}
+
+/* FINAL FUTURE-READY SECTION — PNG REFERENCE MATCH */
+.frameParent48 {
+  position: absolute;
+  top: 2619px;
+  left: 50%;
+  width: 1286px;
+  max-width: calc(100% - 48px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  text-align: center;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+}
+
+.frameParent49 {
+  width: 100%;
+  max-width: 999px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+.frameWrapper11 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buildAFutureReadyLearningParent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.frameParent48 .turnStandardsIntoContainer {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #31344b;
+  text-align: center;
+}
+
+.frameParent48 .neurolxpHelpsInstitutions {
+  width: 760px;
+  max-width: 100%;
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  text-align: center;
+}
+
+.frameWrapper12 {
+  width: 220px;
+  height: 60px;
+  margin: 0;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frameChild29 {
+  width: 100%;
+  height: 60px;
+  border-radius: 50px;
+  background: #dfe6e9;
+  box-shadow:
+    -4px -4px 4px #fff,
+    4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #2d4cc8;
+  white-space: nowrap;
+}
+
+.ellipseImageFrame {
+  position: relative;
+  width: 1286px;
+  height: 540px;
+  max-width: 100%;
+  margin-top: 2px;
+  overflow: visible;
+  flex-shrink: 0;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  isolation: isolate;
+}
+
+.ellipseBg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 58px);
+  height: calc(100% - 54px);
+  max-width: none;
+  transform: translate(-50%, -48%);
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  z-index: 1;
+}
+
+.frameChild30 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  z-index: 2;
+  pointer-events: none;
+}
+
+
+
+
+
+/* FINAL ELLIPSE BACKGROUND + VISIBLE ROUND FRAME */
+.frameParent48 {
+  background: #dfe6e9;
+}
+
+.ellipseImageFrame {
+  position: relative;
+  width: 1286px;
+  height: 540px;
+  max-width: 100%;
+  overflow: visible;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #dfe6e9;
+  isolation: isolate;
+}
+
+/* Outer white rounded border visible like the reference PNG */
+.ellipseImageFrame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #f7fafb;
+  box-shadow:
+    -4px -4px 4px rgba(255, 255, 255, 0.95),
+    4px 4px 4px rgba(196, 196, 196, 0.9);
+  z-index: 0;
+}
+
+/* Soft patterned/light-grey inner ring */
+.ellipseImageFrame::after {
+  content: "";
+  position: absolute;
+  inset: 17px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 8px 8px, rgba(196, 196, 196, 0.2) 2px, transparent 2.5px) 0 0 / 18px 18px,
+    #e7edef;
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.95),
+    inset 4px 4px 4px rgba(196, 196, 196, 0.65);
+  z-index: 1;
+}
+
+/* Main bg.png photo stays inside the round frame */
+.ellipseBg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 72px);
+  height: calc(100% - 72px);
+  max-width: none;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  z-index: 2;
+}
+
+/* ellipse.png remains as the top decorative frame */
+.frameChild30 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Keep the full round shape visible on tablet and mobile */
+
+
+
+
+/* BENEFIT CARDS — SVG BOX REPLACEMENT */
+.frameParent27 {
+  position: relative;
+  width: 400px;
+  height: 470px;
+  overflow: visible;
+  isolation: isolate;
+}
+
+.frameParent27::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  width: 424px;
+  height: 494px;
+  background-image: url("/assets/stdimages/standards-benefit-card.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.frameParent27 .rectangleDiv,
+.frameParent27 .rectangleIcon {
+  display: none !important;
+}
+
+.frameParent27 .frameWrapper2,
+.frameParent27 .frameWrapper3,
+.frameParent27 .frameWrapper6 {
+  z-index: 1;
+}
+
+.frameParent27 .frameParent28 {
+  top: 212px;
+  left: 32px;
+  z-index: 2;
+}
+
+.frameParent27 .frameParent33 {
+  top: 24px;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   BFSI-STYLE NORMAL DOCUMENT FLOW
+   Existing colours, typography, shadows, card sizes and visual treatments
+   are preserved. Only positioning and responsive flow are normalised.
+   ========================================================================== */
+
+.standardsTraining {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding: 32px 0 72px;
+  background-color: #dfe6e9;
+  overflow-x: hidden;
+  overflow-y: visible;
+  text-align: left;
+  font-family: "Segoe UI", "Inter";
+  zoom: 1;
+  box-sizing: border-box;
+}
+
+/* Breadcrumb */
+.standardsTraining > .frameDiv {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: min(1280px, calc(100% - 48px));
+  min-height: 24px;
+  margin: 0 auto 32px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+/* Main hero + why section wrapper */
+.standardsTraining > .frameParent2 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: min(1280px, calc(100% - 48px));
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 80px;
+  font-size: 48px;
+  box-sizing: border-box;
+}
+
+/* Hero frame */
+.standardsTraining > .frameParent2 > .frameParent3 {
+  width: 100%;
+  height: 614px;
+  position: relative;
+  flex: none;
+  overflow: hidden;
+}
+
+/* Hero image/content area remains visually identical inside its own frame. */
+.standardsTraining .image21Parent {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* Keep existing hero decorative artwork scoped inside the hero only. */
+.standardsTraining .image21,
+.standardsTraining .groupYoungBusinesspeopleUsi,
+.standardsTraining .image20 {
+  pointer-events: none;
+}
+
+/* Why Standards section */
+.standardsTraining > .frameParent2 > .frameParent8 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.standardsTraining .whyStandardsTrainingParent {
+  width: min(999px, 100%);
+  height: auto;
+}
+
+.standardsTraining .whyStandardsTraining,
+.standardsTraining .createAConsistent {
+  width: 100%;
+  height: auto;
+}
+
+.standardsTraining .frameParent9 {
+  width: 100%;
+  justify-content: center;
+}
+
+.standardsTraining .frameParent10 {
+  width: min(600px, 100%);
+}
+
+.standardsTraining .frameParent11 {
+  width: 100%;
+}
+
+/* Divider */
+.standardsTraining > .standardsTrainingChild {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: 5px;
+  margin: 64px 0;
+  flex: none;
+}
+
+/* Benefits section */
+.standardsTraining > .frameParent16 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: min(1276px, calc(100% - 48px));
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  box-sizing: border-box;
+}
+
+.standardsTraining > .frameParent16 > .resourcesWrapper {
+  flex: 1 1 560px;
+  min-width: 0;
+}
+
+.standardsTraining .frameParent17 {
+  width: 100%;
+}
+
+.standardsTraining .frameParent18 {
+  height: auto;
+}
+
+.standardsTraining .benefitsOfEmployee,
+.standardsTraining .organizationsCanAchieve {
+  width: 100%;
+  height: auto;
+}
+
+.standardsTraining .frameParent19 {
+  flex: 1 1 555px;
+  width: auto;
+  min-width: 0;
+}
+
+.standardsTraining .frameParent20,
+.standardsTraining .frameParent21,
+.standardsTraining .frameParent22,
+.standardsTraining .frameParent23 {
+  width: 100%;
+}
+
+.standardsTraining .standardisedCurriculumParent {
+  width: calc(100% - 116px);
+  height: auto;
+}
+
+.standardsTraining .standardisedCurriculum,
+.standardsTraining .alignLearningWith {
+  height: auto;
+}
+
+/* Learners / Institutions / Faculty cards section */
+.standardsTraining > .frameParent24 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: min(1280px, calc(100% - 48px));
+  margin: 96px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  box-sizing: border-box;
+}
+
+.standardsTraining .frameParent25 {
+  width: min(1103px, 100%);
+  height: auto;
+}
+
+.standardsTraining .turnStandardsIntoLearningEParent {
+  width: min(999px, 100%);
+  height: auto;
+}
+
+.standardsTraining .turnStandardsIntoContainer,
+.standardsTraining .neurolxpHelpsInstitutions {
+  width: 100%;
+  height: auto;
+}
+
+.standardsTraining .frameParent26 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 400px));
+  align-items: stretch;
+  justify-content: center;
+  gap: 40px;
+}
+
+.standardsTraining .frameParent27 {
+  position: relative;
+  width: 400px;
+  height: 470px;
+  margin: 0;
+}
+
+/* The supplied SVG remains the single card background. */
+.standardsTraining .frameParent27::before {
+  top: -12px;
+  left: -12px;
+}
+
+/* Remove old empty absolute artwork that sat behind the final section. */
+.standardsTraining > .peopleTakingPartBusinessEv,
+.standardsTraining > .image212,
+.standardsTraining > .groupYoungBusinesspeopleUsi2,
+.standardsTraining > .image202 {
+  display: none;
+}
+
+/* Final CTA section */
+.standardsTraining > .frameParent48 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: min(1286px, calc(100% - 48px));
+  max-width: none;
+  margin: 96px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  text-align: center;
+  transform: none;
+  box-sizing: border-box;
+}
+
+.standardsTraining .frameParent49 {
+  width: min(999px, 100%);
+}
+
+.standardsTraining .buildAFutureReadyLearningParent {
+  width: 100%;
+}
+
+.standardsTraining .ellipseImageFrame {
+  width: 100%;
+  max-width: 1286px;
+  height: auto;
+  aspect-ratio: 1286 / 540;
+}
+
+/* Prevent fixed-width text from overflowing while retaining desktop sizing. */
+.standardsTraining .buildIndustryReadyLearningContainer,
+.standardsTraining .improveLearningQuality,
+.standardsTraining .alignWithIndustry,
+.standardsTraining .improveLearningOutcomes,
+.standardsTraining .supportAccreditationAnd,
+.standardsTraining .scaleFutureReadyLearning {
+  max-width: 100%;
+}
+
+/* ==========================================================================
+   TABLET
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   MOBILE / SMALL TABLET
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   SMALL MOBILE
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   FINAL CENTERING + NO-OVERLAP CORRECTIONS
+   These rules only correct alignment, intrinsic sizing and flow.
+   Colours, shadows, typography and visual treatments remain unchanged.
+   ========================================================================== */
+
+.standardsTraining,
+.standardsTraining * {
+  box-sizing: border-box;
+}
+
+.standardsTraining > section,
+.standardsTraining > div,
+.standardsTraining > nav {
+  flex-shrink: 0;
+}
+
+/* Keep every primary section centered on the page. */
+.standardsTraining > .frameDiv,
+.standardsTraining > .frameParent2,
+.standardsTraining > .frameParent16,
+.standardsTraining > .frameParent24,
+.standardsTraining > .frameParent48 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Breadcrumb remains aligned with the content container. */
+.standardsTraining > .frameDiv {
+  justify-content: flex-start;
+}
+
+/* Hero container and inner content */
+.standardsTraining > .frameParent2,
+.standardsTraining > .frameParent2 > .frameParent3,
+.standardsTraining > .frameParent2 > .frameParent8 {
+  max-width: 1280px;
+}
+
+.standardsTraining > .frameParent2 > .frameParent3 {
+  margin: 0 auto;
+}
+
+.standardsTraining .image21Parent {
+  left: 0 !important;
+  top: 0 !important;
+}
+
+/* Center the Why Standards heading and feature rows. */
+.standardsTraining .whyStandardsTrainingParent {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.standardsTraining .frameParent9 {
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.standardsTraining .frameParent10 {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.standardsTraining .frameParent11 {
+  min-width: 0;
+}
+
+.standardsTraining .alignWithIndustry,
+.standardsTraining .improveLearningOutcomes,
+.standardsTraining .supportAccreditationAnd,
+.standardsTraining .scaleFutureReadyLearning {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Benefits content — remove fixed heights so text cannot collide. */
+.standardsTraining > .frameParent16 {
+  align-items: center;
+}
+
+.standardsTraining .frameParent17,
+.standardsTraining .frameParent18 {
+  height: auto !important;
+}
+
+.standardsTraining .benefitsOfEmployee {
+  display: block;
+  margin: 0;
+}
+
+.standardsTraining .organizationsCanAchieve {
+  display: block;
+  margin: 0;
+}
+
+.standardsTraining .frameParent19 {
+  justify-content: center;
+}
+
+.standardsTraining .frameParent20,
+.standardsTraining .frameParent21,
+.standardsTraining .frameParent22,
+.standardsTraining .frameParent23 {
+  min-height: 86px;
+}
+
+.standardsTraining .standardisedCurriculumParent {
+  min-width: 0;
+}
+
+.standardsTraining .standardisedCurriculum,
+.standardsTraining .alignLearningWith {
+  overflow-wrap: anywhere;
+}
+
+/* Three SVG cards */
+.standardsTraining .frameParent25,
+.standardsTraining .turnStandardsIntoLearningEParent {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.standardsTraining .frameParent26 {
+  margin: 0 auto;
+  align-items: start;
+}
+
+.standardsTraining .frameParent27 {
+  flex: none;
+  overflow: visible;
+}
+
+.standardsTraining .frameParent27::before {
+  display: block;
+}
+
+/* Ensure all content remains above the SVG card background. */
+.standardsTraining .frameParent27 > * {
+  position: relative;
+  z-index: 2;
+}
+
+.standardsTraining .frameParent27 .frameWrapper2,
+.standardsTraining .frameParent27 .frameWrapper3,
+.standardsTraining .frameParent27 .frameWrapper6 {
+  position: absolute;
+}
+
+/* Final CTA */
+.standardsTraining > .frameParent48,
+.standardsTraining .frameParent49,
+.standardsTraining .frameWrapper11,
+.standardsTraining .buildAFutureReadyLearningParent {
+  height: auto !important;
+}
+
+.standardsTraining > .frameParent48 {
+  overflow: visible;
+}
+
+.standardsTraining .ellipseImageFrame {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+}
+
+/* ==========================================================================
+   TABLET CENTERING
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   MOBILE CENTERING + OVERLAP PREVENTION
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   SMALL MOBILE
+   ========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+   FINAL HERO RESPONSIVE FIX
+   Desktop design above 768px is unchanged.
+   ========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+   DESKTOP HERO RESTORE
+   Restores the original desktop hero composition shown in the reference PNG.
+   Tablet/mobile rules at 768px and below remain unchanged.
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   ACCESSIBILITY FIXES
+   No visual layout or desktop/mobile design changes.
+   ========================================================================== */
+
+/* Do not make <main> a keyboard-inaccessible scrolling container. */
+.standardsTraining {
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+
+/* Keyboard bypass method */
+.skipLink {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 10000;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #31344b;
+  color: #ffffff;
+  font-family: "Segoe UI", "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+  transform: translateY(-180%);
+  transition: transform 0.2s ease;
+}
+
+.skipLink:focus {
+  transform: translateY(0);
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+/* Allow the skip-link target to receive programmatic keyboard focus. */
+#main-content:focus {
+  outline: none;
+}
+
+/* Preserve the exact appearance after changing bold text to heading elements. */
+.buildIndustryReadyLearningContainer,
+.whyStandardsTraining,
+.benefitsOfEmployee,
+.turnStandardsIntoContainer {
+  margin: 0;
+}
+
+/* CENTER LEARNERS / INSTITUTIONS / FACULTY CARDS */
+
+
+/* ==========================================================================\n   FINAL FLUID RESPONSIVE SYSTEM — NO DEVICE-SPECIFIC MEDIA QUERIES\n   Existing visual design/effects are preserved. Only layout, spacing, sizing,\n   wrapping, and typography responsiveness are normalized.\n   ========================================================================== */
+
+.standardsTraining {
+  --std-page-gutter: clamp(12px, 3.2vw, 48px);
+  --std-section-gap: clamp(44px, 6.5vw, 96px);
+  --std-inner-gap: clamp(18px, 3vw, 40px);
+  --std-card-radius: clamp(18px, 2.2vw, 32px);
+}
+
+.standardsTraining {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: clamp(18px, 2.2vw, 32px) 0 clamp(56px, 6vw, 88px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  overflow-x: hidden;
+  overflow-y: visible;
+  box-sizing: border-box;
+  zoom: 1;
+}
+
+.standardsTraining > .frameDiv,
+.standardsTraining > .frameParent2,
+.standardsTraining > .frameParent16,
+.standardsTraining > .frameParent24,
+.standardsTraining > .frameParent48 {
+  width: min(1280px, calc(100% - (2 * var(--std-page-gutter))));
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Breadcrumb */
+.standardsTraining > .frameDiv {
+  position: relative;
+  inset: auto;
+  min-height: 24px;
+  margin: 0 auto clamp(20px, 2.5vw, 32px);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: transparent;
+  font-size: clamp(12px, 1.1vw, 16px);
+  line-height: 1.5;
+}
+
+/* Main hero + Why Standards wrapper */
+.standardsTraining > .frameParent2 {
+  position: relative;
+  inset: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--std-section-gap);
+  font-size: clamp(30px, 3.35vw, 48px);
+}
+
+/* Hero card */
+.standardsTraining > .frameParent2 > .frameParent3 {
+  width: 100%;
+  height: auto;
+  min-height: clamp(620px, 62vw, 720px);
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+  align-items: stretch;
+  gap: clamp(22px, 3vw, 40px);
+  padding: clamp(16px, 2.2vw, 32px);
+  overflow: hidden;
+  border-radius: var(--std-card-radius);
+  box-sizing: border-box;
+}
+
+.standardsTraining .image21Parent {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: 100%;
+  min-height: clamp(500px, 48vw, 550px);
+  margin: 0;
+  overflow: hidden;
+  border-radius: clamp(16px, 5vw, 100px);
+}
+
+.standardsTraining .frameParent4 {
+  position: relative;
+  inset: auto;
+  width: min(100%, 540px);
+  height: auto;
+  margin: clamp(24px, 4vw, 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: clamp(24px, 3vw, 45px);
+  z-index: 3;
+}
+
+.standardsTraining .frameParent5,
+.standardsTraining .frameParent6 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(20px, 2.5vw, 32px);
+}
+
+.standardsTraining .frameIcon {
+  width: fit-content;
+  max-width: 100%;
+  min-height: clamp(44px, 3.5vw, 50px);
+  height: auto;
+  padding: 8px clamp(18px, 2vw, 24px);
+  font-size: clamp(18px, 1.7vw, 24px);
+  line-height: 1.25;
+  white-space: normal;
+  text-align: center;
+}
+
+.standardsTraining .buildIndustryReadyLearningContainer {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-size: clamp(30px, 3.35vw, 48px);
+  line-height: 1.25;
+}
+
+.standardsTraining .build,
+.standardsTraining .industryReady {
+  line-height: inherit;
+}
+
+.standardsTraining .improveLearningQuality {
+  width: 100%;
+  height: auto;
+  font-size: clamp(19px, 1.95vw, 28px);
+  line-height: 1.45;
+}
+
+.standardsTraining .frameChild2 {
+  width: clamp(180px, 15.3vw, 220px);
+  height: clamp(52px, 4.2vw, 60px);
+  font-size: clamp(18px, 1.4vw, 20px);
+}
+
+/* Right-side hero flow becomes self-sizing and naturally stacks when needed. */
+.standardsTraining .frameParent7 {
+  position: relative;
+  inset: auto;
+  width: min(100%, 491px);
+  height: auto;
+  margin: clamp(24px, 4vw, 50px) auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: clamp(22px, 3vw, 40px);
+  font-size: clamp(22px, 2.2vw, 32px);
+}
+
+.standardsTraining .outcomeBasedLearningWrapper,
+.standardsTraining .facultyDevelopmentWrapper,
+.standardsTraining .accreditationReadyWrapper {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  min-height: clamp(82px, 7.4vw, 106px);
+  height: auto;
+  padding: clamp(20px, 2.2vw, 32px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.standardsTraining .outcomeBasedLearning,
+.standardsTraining .facultyDevelopment {
+  width: 100%;
+  height: auto;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.standardsTraining .arrowDownBigIcon,
+.standardsTraining .arrowDownBigIcon2 {
+  position: relative;
+  inset: auto;
+  width: clamp(42px, 4vw, 58px);
+  height: clamp(42px, 4vw, 58px);
+  align-self: center;
+}
+
+/* Why Standards */
+.standardsTraining > .frameParent2 > .frameParent8 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(30px, 4vw, 50px);
+}
+
+.standardsTraining .whyStandardsTrainingParent {
+  width: min(999px, 100%);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(16px, 2vw, 24px);
+}
+
+.standardsTraining .whyStandardsTraining {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-size: clamp(30px, 2.5vw, 36px);
+  line-height: 1.35;
+  text-align: center;
+}
+
+.standardsTraining .createAConsistent {
+  width: min(787px, 100%);
+  height: auto;
+  font-size: clamp(19px, 1.7vw, 24px);
+  line-height: 1.45;
+  text-align: center;
+}
+
+.standardsTraining .frameParent9 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+  align-items: start;
+  justify-content: center;
+  gap: clamp(20px, 4vw, 80px);
+  font-size: clamp(19px, 1.7vw, 24px);
+}
+
+.standardsTraining .frameParent10 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: clamp(20px, 2.4vw, 32px);
+}
+
+.standardsTraining .frameParent11 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(14px, 1.5vw, 16px);
+}
+
+.standardsTraining .alignWithIndustry,
+.standardsTraining .improveLearningOutcomes,
+.standardsTraining .supportAccreditationAnd,
+.standardsTraining .scaleFutureReadyLearning {
+  width: 100%;
+  height: auto;
+  line-height: 1.5;
+  white-space: normal;
+}
+
+/* Divider */
+.standardsTraining > .standardsTrainingChild {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  max-width: 1440px;
+  height: 5px;
+  margin: var(--std-section-gap) 0;
+  flex: none;
+}
+
+/* Benefits */
+.standardsTraining > .frameParent16 {
+  position: relative;
+  inset: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr));
+  align-items: center;
+  gap: clamp(40px, 7vw, 100px);
+}
+
+.standardsTraining > .frameParent16 > .resourcesWrapper,
+.standardsTraining .frameParent19 {
+  width: 100%;
+  min-width: 0;
+}
+
+.standardsTraining .frameParent17,
+.standardsTraining .frameParent18 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(18px, 2vw, 24px);
+}
+
+.standardsTraining .benefitsBadge {
+  width: fit-content;
+  min-width: clamp(130px, 10.4vw, 150px);
+  height: clamp(46px, 3.5vw, 50px);
+  padding: 0 clamp(18px, 1.5vw, 22px);
+  box-sizing: border-box;
+}
+
+.standardsTraining .benefitsBadge span {
+  font-size: clamp(18px, 1.7vw, 24px);
+}
+
+.standardsTraining .benefitsOfEmployee {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-size: clamp(30px, 2.5vw, 36px);
+  line-height: 1.38;
+}
+
+.standardsTraining .organizationsCanAchieve {
+  width: 100%;
+  height: auto;
+  font-size: clamp(19px, 1.95vw, 28px);
+  line-height: 1.45;
+}
+
+.standardsTraining .frameParent19 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: clamp(22px, 2.2vw, 32px);
+  font-size: clamp(20px, 1.95vw, 28px);
+}
+
+.standardsTraining .frameParent20,
+.standardsTraining .frameParent21,
+.standardsTraining .frameParent22,
+.standardsTraining .frameParent23 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(18px, 2.5vw, 36px);
+}
+
+.standardsTraining .standardisedCurriculumParent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(8px, 1.1vw, 16px);
+}
+
+.standardsTraining .standardisedCurriculum {
+  width: 100%;
+  height: auto;
+  font-size: clamp(20px, 1.95vw, 28px);
+  line-height: 1.4;
+}
+
+.standardsTraining .alignLearningWith {
+  width: 100%;
+  height: auto;
+  font-size: clamp(17px, 1.4vw, 20px);
+  line-height: 1.5;
+}
+
+/* Learners / Institutions / Faculty cards */
+.standardsTraining > .frameParent24 {
+  position: relative;
+  inset: auto;
+  margin: var(--std-section-gap) auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(34px, 4vw, 50px);
+}
+
+.standardsTraining .frameParent25,
+.standardsTraining .turnStandardsIntoLearningEParent {
+  width: min(1103px, 100%);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(18px, 2vw, 24px);
+}
+
+.standardsTraining .turnStandardsIntoContainer {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-size: clamp(30px, 2.5vw, 36px);
+  line-height: 1.4;
+  text-align: center;
+}
+
+.standardsTraining .turnStandardsInto,
+.standardsTraining .learningExcellence {
+  line-height: inherit;
+}
+
+.standardsTraining .neurolxpHelpsInstitutions {
+  width: min(760px, 100%);
+  height: auto;
+  font-size: clamp(19px, 1.95vw, 28px);
+  line-height: 1.45;
+  text-align: center;
+}
+
+.standardsTraining .frameParent26 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 400px));
+  justify-content: center;
+  align-items: stretch;
+  gap: clamp(24px, 3vw, 40px);
+  font-size: clamp(18px, 1.5vw, 22px);
+}
+
+.standardsTraining .frameParent27 {
+  position: relative;
+  width: min(100%, 400px);
+  height: auto;
+  min-height: clamp(420px, 36vw, 470px);
+  margin: 0 auto;
+}
+
+.standardsTraining .frameWrapper2,
+.standardsTraining .rectangleParent,
+.standardsTraining .rectangleDiv {
+  width: 100%;
+  height: 100%;
+}
+
+.standardsTraining .frameParent28 {
+  width: calc(100% - 64px);
+  height: auto;
+  left: 32px;
+  bottom: 34px;
+  top: auto;
+  gap: clamp(12px, 1.1vw, 16px);
+}
+
+.standardsTraining .frameParent29 {
+  width: 100%;
+  height: auto;
+  min-height: 44px;
+}
+
+.standardsTraining .structuredLearning,
+.standardsTraining .transparentAssessments {
+  font-size: clamp(18px, 1.5vw, 22px);
+  line-height: 1.5;
+}
+
+.standardsTraining .frameWrapper3,
+.standardsTraining .frameWrapper6 {
+  width: 100%;
+  height: clamp(160px, 14vw, 192px);
+}
+
+.standardsTraining .rectangleIcon,
+.standardsTraining .vectorParent,
+.standardsTraining .vectorGroup {
+  width: 100%;
+  height: 100%;
+}
+
+.standardsTraining .frameParent33 {
+  width: calc(100% - 84px);
+  left: 42px;
+  height: auto;
+}
+
+.standardsTraining .b {
+  font-size: clamp(42px, 3.75vw, 54px);
+  line-height: 1.15;
+}
+
+.standardsTraining .forLearners {
+  font-size: clamp(22px, 1.95vw, 28px);
+  line-height: 1.4;
+}
+
+/* Remove unused absolute decorative artwork behind final CTA. */
+.standardsTraining > .peopleTakingPartBusinessEv,
+.standardsTraining > .image212,
+.standardsTraining > .groupYoungBusinesspeopleUsi2,
+.standardsTraining > .image202 {
+  display: none;
+}
+
+/* Final CTA */
+.standardsTraining > .frameParent48 {
+  position: relative;
+  inset: auto;
+  margin: var(--std-section-gap) auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(24px, 2.5vw, 36px);
+  text-align: center;
+  transform: none;
+}
+
+.standardsTraining .frameParent49,
+.standardsTraining .buildAFutureReadyLearningParent {
+  width: min(999px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(20px, 2.5vw, 36px);
+}
+
+.standardsTraining .frameParent48 .turnStandardsIntoContainer {
+  width: 100%;
+  font-size: clamp(30px, 3.35vw, 48px);
+  line-height: 1.25;
+}
+
+.standardsTraining .frameParent48 .neurolxpHelpsInstitutions {
+  width: min(760px, 100%);
+  font-size: clamp(19px, 1.95vw, 28px);
+  line-height: 1.45;
+}
+
+.standardsTraining .frameWrapper12 {
+  width: clamp(180px, 15.3vw, 220px);
+  height: clamp(52px, 4.2vw, 60px);
+}
+
+.standardsTraining .frameChild29 {
+  height: 100%;
+  font-size: clamp(18px, 1.7vw, 24px);
+}
+
+.standardsTraining .ellipseImageFrame {
+  position: relative;
+  width: 100%;
+  max-width: 1286px;
+  height: auto;
+  aspect-ratio: 1286 / 540;
+  margin-top: 2px;
+}
+
+/* Global safety for flex/grid children and text wrapping. */
+.standardsTraining *,
+.standardsTraining *::before,
+.standardsTraining *::after {
+  box-sizing: border-box;
+}
+
+.standardsTraining h1,
+.standardsTraining h2,
+.standardsTraining p,
+.standardsTraining div,
+.standardsTraining span,
+.standardsTraining b {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+/* =========================================================
+   FINAL HERO RIGHT-SIDE STACK + COMPACT FLUID HEIGHT
+   Fluid responsive only — no device-specific media queries.
+   Preserves all existing colors, shadows, dashed borders,
+   typography, badge, button, and overall visual effects.
+   ========================================================= */
+
+/* Compact the full hero card and remove excess vertical space */
+.standardsTraining > .frameParent2 > .frameParent3 {
+  height: auto !important;
+  min-height: 0 !important;
+  padding: clamp(22px, 2.4vw, 32px) !important;
+
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)) !important;
+  align-items: stretch !important;
+  gap: clamp(28px, 4vw, 56px) !important;
+
+  overflow: visible !important;
+}
+
+/* Left hero panel remains visually identical, only gains fluid sizing */
+.standardsTraining .image21Parent {
+  position: relative !important;
+  inset: auto !important;
+
+  width: 100% !important;
+  height: auto !important;
+  min-height: clamp(420px, 43vw, 550px) !important;
+
+  margin: 0 !important;
+}
+
+/* Keep text/button content comfortably inside the left panel */
+.standardsTraining .frameParent4 {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: min(100%, 508px) !important;
+  height: auto !important;
+
+  margin: clamp(34px, 4vw, 50px) !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+
+  gap: clamp(24px, 3vw, 38px) !important;
+}
+
+.standardsTraining .frameParent5,
+.standardsTraining .frameParent6 {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.standardsTraining .frameParent5 {
+  gap: clamp(22px, 2.5vw, 32px) !important;
+}
+
+.standardsTraining .frameParent6 {
+  gap: clamp(20px, 2.5vw, 32px) !important;
+}
+
+
+/* ---------------------------------------------------------
+   RIGHT-SIDE FLOW
+   Outcome-Based Learning
+          ↓
+   Faculty Development
+          ↓
+   Accreditation Ready
+   --------------------------------------------------------- */
+.standardsTraining .frameParent7 {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: min(100%, 491px) !important;
+  height: auto !important;
+  min-height: 0 !important;
+
+  margin: auto !important;
+
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  grid-template-rows:
+    auto
+    clamp(34px, 4vw, 52px)
+    auto
+    clamp(34px, 4vw, 52px)
+    auto !important;
+
+  align-items: center !important;
+  justify-items: center !important;
+
+  row-gap: clamp(8px, 1.2vw, 14px) !important;
+
+  text-align: center !important;
+}
+
+/* Reset old absolute positioning on the three dashed boxes */
+.standardsTraining .outcomeBasedLearningWrapper,
+.standardsTraining .facultyDevelopmentWrapper,
+.standardsTraining .accreditationReadyWrapper {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: 100% !important;
+  max-width: 491px !important;
+
+  height: auto !important;
+  min-height: clamp(78px, 8vw, 106px) !important;
+
+  margin: 0 !important;
+  padding: clamp(18px, 2.2vw, 28px) clamp(22px, 2.5vw, 32px) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  box-sizing: border-box !important;
+}
+
+.standardsTraining .outcomeBasedLearningWrapper {
+  grid-row: 1 !important;
+}
+
+.standardsTraining .facultyDevelopmentWrapper {
+  grid-row: 3 !important;
+}
+
+.standardsTraining .accreditationReadyWrapper {
+  grid-row: 5 !important;
+}
+
+/* Keep text naturally centered and wrapping only when needed */
+.standardsTraining .outcomeBasedLearning,
+.standardsTraining .facultyDevelopment {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  height: auto !important;
+
+  margin: 0 !important;
+
+  display: block !important;
+
+  line-height: 1.28 !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
+
+.standardsTraining .facultyDevelopment br {
+  display: none !important;
+}
+
+
+/* Put the two arrows directly between their related boxes */
+.standardsTraining .arrowDownBigIcon,
+.standardsTraining .arrowDownBigIcon2 {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: clamp(30px, 3.4vw, 42px) !important;
+  height: clamp(30px, 3.4vw, 42px) !important;
+
+  margin: 0 !important;
+
+  object-fit: contain !important;
+
+  justify-self: center !important;
+  align-self: center !important;
+}
+
+.standardsTraining .arrowDownBigIcon {
+  grid-row: 2 !important;
+}
+
+.standardsTraining .arrowDownBigIcon2 {
+  grid-row: 4 !important;
+}
+
+
+/* Reduce the spacing below this hero before Why Standards Training */
+.standardsTraining > .frameParent2 {
+  gap: clamp(44px, 5vw, 68px) !important;
+}
+
+
+/* Keep overall hero typography fluid without changing its visual hierarchy */
+.standardsTraining .buildIndustryReadyLearningContainer {
+  font-size: clamp(30px, 3.35vw, 48px) !important;
+  line-height: 1.22 !important;
+}
+
+.standardsTraining .build,
+.standardsTraining .industryReady {
+  line-height: inherit !important;
+}
+
+.standardsTraining .improveLearningQuality {
+  width: 100% !important;
+  max-width: 521px !important;
+
+  height: auto !important;
+
+  font-size: clamp(18px, 1.95vw, 28px) !important;
+  line-height: 1.45 !important;
+}
+
+
+/* Prevent hidden decorative hero layers from forcing height */
+.standardsTraining .image20 {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* =========================================================
+   FINAL STANDARDS HERO FLOW — TSX-BASED DOWN ARROWS
+   Matches reference:
+   Outcome-Based Learning
+           ↓
+   Faculty Development
+           ↓
+   Accreditation Ready
+
+   Fluid sizing only. No device-specific media query required.
+   ========================================================= */
+
+/* Compact the hero while keeping the existing visual design */
+.standardsTraining > .frameParent2 > .frameParent3 {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: clamp(22px, 2.35vw, 32px) !important;
+
+  display: grid !important;
+  grid-template-columns:
+    repeat(auto-fit, minmax(min(100%, 420px), 1fr)) !important;
+  align-items: stretch !important;
+  gap: clamp(30px, 4.2vw, 58px) !important;
+
+  overflow: visible !important;
+}
+
+/* Left content card */
+.standardsTraining .image21Parent {
+  position: relative !important;
+  inset: auto !important;
+
+  width: 100% !important;
+  height: auto !important;
+  min-height: clamp(420px, 40vw, 550px) !important;
+
+  margin: 0 !important;
+}
+
+/* Keep the left content vertically balanced */
+.standardsTraining .frameParent4 {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: min(100% - clamp(36px, 6vw, 100px), 508px) !important;
+  height: auto !important;
+
+  margin:
+    clamp(34px, 4vw, 50px)
+    auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: clamp(24px, 3vw, 38px) !important;
+}
+
+.standardsTraining .frameParent5,
+.standardsTraining .frameParent6 {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.standardsTraining .frameParent5 {
+  gap: clamp(22px, 2.4vw, 32px) !important;
+}
+
+.standardsTraining .frameParent6 {
+  gap: clamp(20px, 2.4vw, 32px) !important;
+}
+
+/* Main heading/body remain fluid */
+.standardsTraining .buildIndustryReadyLearningContainer {
+  width: 100% !important;
+  height: auto !important;
+
+  margin: 0 !important;
+
+  font-size: clamp(30px, 3.25vw, 48px) !important;
+  line-height: 1.22 !important;
+}
+
+.standardsTraining .build,
+.standardsTraining .industryReady {
+  line-height: inherit !important;
+}
+
+.standardsTraining .improveLearningQuality {
+  width: 100% !important;
+  max-width: 521px !important;
+  height: auto !important;
+
+  font-size: clamp(18px, 1.9vw, 28px) !important;
+  line-height: 1.45 !important;
+}
+
+
+/* =========================================================
+   RIGHT-SIDE VERTICAL FLOW
+   ========================================================= */
+
+.standardsTraining .frameParent7 {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: min(100%, 491px) !important;
+  height: auto !important;
+  min-height: 0 !important;
+
+  margin: auto !important;
+  padding: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: clamp(10px, 1.35vw, 18px) !important;
+
+  text-align: center !important;
+}
+
+/* Dashed boxes */
+.standardsTraining .outcomeBasedLearningWrapper,
+.standardsTraining .facultyDevelopmentWrapper,
+.standardsTraining .accreditationReadyWrapper {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: 100% !important;
+  max-width: 491px !important;
+
+  height: auto !important;
+  min-height: clamp(76px, 7.4vw, 106px) !important;
+
+  margin: 0 !important;
+  padding:
+    clamp(16px, 1.9vw, 26px)
+    clamp(22px, 2.4vw, 32px) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  box-sizing: border-box !important;
+}
+
+/* Box text */
+.standardsTraining .outcomeBasedLearning,
+.standardsTraining .facultyDevelopment {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  height: auto !important;
+
+  margin: 0 !important;
+
+  display: block !important;
+
+  font-size: clamp(20px, 2.2vw, 32px) !important;
+  line-height: 1.25 !important;
+  text-align: center !important;
+  white-space: normal !important;
+}
+
+
+/* Down arrow matching the reference rather than the old horizontal SVG */
+.standardsTraining .flowArrow {
+  width: clamp(28px, 3vw, 40px) !important;
+  height: clamp(28px, 3vw, 40px) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  margin: clamp(-2px, -0.1vw, 0px) 0 !important;
+
+  font-family: "Segoe UI Symbol", "Segoe UI", "Inter", sans-serif !important;
+  font-size: clamp(30px, 3.3vw, 44px) !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+
+  color: #2f3547 !important;
+
+  text-shadow:
+    1px 1px 1px rgba(255, 255, 255, 0.85),
+    0 1px 2px rgba(49, 52, 75, 0.28) !important;
+
+  flex: 0 0 auto !important;
+}
+
+/* Old horizontal image arrows are no longer used in the updated TSX */
+.standardsTraining .arrowDownBigIcon,
+.standardsTraining .arrowDownBigIcon2 {
+  display: none !important;
+}
+
+
+/* Keep hero-to-next-section spacing balanced */
+.standardsTraining > .frameParent2 {
+  gap: clamp(44px, 5vw, 68px) !important;
+}
+
+/* =========================================================
+   FINAL RIGHT-SIDE FLOW — ARROW DESIGN ONLY
+   Do not change card size, label size, text size, spacing,
+   width, height, border, color, or any other layout/design.
+   ========================================================= */
+
+/* If the updated TSX uses .flowArrow, keep the original layout
+   and change only the visible arrow treatment. */
+.standardsTraining .flowArrow {
+  width: 44px !important;
+  height: 44px !important;
+
+  margin: 0 !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  flex: 0 0 44px !important;
+
+  font-size: 0 !important;
+  line-height: 1 !important;
+
+  color: transparent !important;
+}
+
+/* Outlined downward arrow matching the reference */
+.standardsTraining .flowArrow::before {
+  content: "⇩";
+
+  display: block !important;
+
+  font-family: "Segoe UI Symbol", "Segoe UI", "Inter", Arial, sans-serif !important;
+  font-size: 38px !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+
+  color: #edf2f4 !important;
+  -webkit-text-stroke: 1.25px #31344b;
+
+  text-shadow:
+    1px 1px 2px rgba(49, 52, 75, 0.32),
+    -1px -1px 1px rgba(255, 255, 255, 0.95) !important;
+
+  transform: translateY(-1px);
+}
+
+/* Old SVG arrows stay hidden only when the updated TSX flowArrow is used. */
+.standardsTraining .arrowDownBigIcon,
+.standardsTraining .arrowDownBigIcon2 {
+  display: none !important;
+}
+
+/* =========================================================
+   FINAL CARD SPACING + DESKTOP THREE-COLUMN FIX
+   Only affects the Learners / Institutions / Faculty cards.
+   Keeps all existing colors, shadows, typography, icons,
+   card artwork and visual effects unchanged.
+   ========================================================= */
+
+/* Keep the section itself compact and remove unnecessary empty space. */
+.standardsTraining > .frameParent24 {
+  gap: clamp(28px, 3vw, 40px) !important;
+}
+
+/* Keep the intro block height based on content only. */
+.standardsTraining .frameParent25,
+.standardsTraining .turnStandardsIntoLearningEParent {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+/* Ensure all three cards fit on one desktop row at 100% zoom.
+   1280px content width - 2 gaps = enough room for 3 fluid cards. */
+.standardsTraining .frameParent26 {
+  width: 100% !important;
+
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+
+  align-items: stretch !important;
+  justify-content: stretch !important;
+
+  gap: clamp(20px, 2.4vw, 32px) !important;
+}
+
+/* Let each card shrink fluidly instead of forcing 400px width. */
+.standardsTraining .frameParent27 {
+  width: 100% !important;
+  max-width: 400px !important;
+  min-width: 0 !important;
+
+  height: 470px !important;
+
+  margin: 0 auto !important;
+}
+
+/* Scale the decorative SVG/card background with the card width. */
+.standardsTraining .frameParent27::before {
+  left: 50% !important;
+  width: calc(100% + 24px) !important;
+  max-width: 424px !important;
+  transform: translateX(-50%) !important;
+}
+
+/* Make the internal card layers follow the fluid card width. */
+.standardsTraining .frameParent27 .frameWrapper2,
+.standardsTraining .frameParent27 .frameWrapper3,
+.standardsTraining .frameParent27 .frameWrapper6,
+.standardsTraining .frameParent27 .rectangleParent {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Keep the top number/title centered without fixed 400px dependency. */
+.standardsTraining .frameParent27 .frameWrapper4,
+.standardsTraining .frameParent27 .frameWrapper7,
+.standardsTraining .frameParent27 .vectorParent,
+.standardsTraining .frameParent27 .vectorGroup {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Keep list content aligned and remove the large unused bottom area
+   that becomes obvious on tablet/mobile. */
+.standardsTraining .frameParent27 .frameParent28 {
+  left: clamp(22px, 2.5vw, 32px) !important;
+  right: clamp(22px, 2.5vw, 32px) !important;
+
+  width: auto !important;
+  height: auto !important;
+
+  top: clamp(188px, 16vw, 212px) !important;
+
+  gap: clamp(12px, 1.4vw, 16px) !important;
+}
+
+.standardsTraining .frameParent27 .frameParent29 {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 44px !important;
+}
+
+/* Allow labels to use available card width rather than fixed 283px. */
+.standardsTraining .frameParent27 .structuredLearning,
+.standardsTraining .frameParent27 .transparentAssessments {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* ---------------------------------------------------------
+   Fluid stacking for narrower screens WITHOUT changing design.
+   Uses container space rather than browser/device dimensions.
+   --------------------------------------------------------- */
+@container (max-width: 980px) {
+  .standardsTraining .frameParent26 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@container (max-width: 640px) {
+  .standardsTraining .frameParent26 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Make the cards section a query container so the above responds
+   to actual available section width rather than device dimensions. */
+.standardsTraining > .frameParent24 {
+  container-type: inline-size;
+}
+
+/* When cards naturally become narrower, reduce only excess vertical
+   whitespace while preserving the same card artwork/effects. */
+.standardsTraining .frameParent27 {
+  min-height: 420px !important;
+}
+
+.standardsTraining .frameParent27 .frameParent28 {
+  padding-bottom: 18px !important;
+}
+
+/* =========================================================
+   FINAL DESKTOP CARD EMPTY-SPACE REDUCTION
+   Only affects the 01 / 02 / 03 cards.
+   Keeps all existing visual design and 3-column desktop layout.
+   ========================================================= */
+
+/* Reduce card height so the section ends closer to the last checklist row. */
+.standardsTraining .frameParent27 {
+  height: clamp(350px, 27vw, 385px) !important;
+  min-height: 350px !important;
+}
+
+/* Make the card background follow the reduced height. */
+.standardsTraining .frameParent27::before {
+  height: calc(100% + 24px) !important;
+}
+
+/* Internal card layers must follow the new compact height. */
+.standardsTraining .frameParent27 .frameWrapper2,
+.standardsTraining .frameParent27 .rectangleParent {
+  height: 100% !important;
+}
+
+/* Keep the number/title area in the same visual position. */
+.standardsTraining .frameParent27 .frameWrapper3,
+.standardsTraining .frameParent27 .frameWrapper6 {
+  height: 150px !important;
+}
+
+.standardsTraining .frameParent27 .frameWrapper4,
+.standardsTraining .frameParent27 .frameWrapper7,
+.standardsTraining .frameParent27 .vectorParent,
+.standardsTraining .frameParent27 .vectorGroup {
+  height: 150px !important;
+}
+
+/* Move checklist upward and let its own content determine total height. */
+.standardsTraining .frameParent27 .frameParent28 {
+  top: 170px !important;
+  bottom: auto !important;
+
+  height: auto !important;
+  min-height: 0 !important;
+
+  padding-bottom: 0 !important;
+
+  gap: 10px !important;
+}
+
+/* Keep individual rows compact but unchanged visually. */
+.standardsTraining .frameParent27 .frameParent29 {
+  min-height: 42px !important;
+  height: auto !important;
+}
+
+/* Tighten only the space after the cards section. */
+.standardsTraining > .frameParent24 {
+  gap: clamp(26px, 2.6vw, 36px) !important;
+}
+
+/* =========================================================
+   FINAL GLOBAL TYPOGRAPHY STANDARD
+   Heading: 24px mobile -> 36px desktop
+   Paragraph: 16px mobile -> 24px desktop
+   Fluid scaling only. No layout/design/effect changes.
+   ========================================================= */
+
+/* Main headings */
+.standardsTraining .buildIndustryReadyLearningContainer,
+.standardsTraining .whyStandardsTraining,
+.standardsTraining .benefitsOfEmployee,
+.standardsTraining .turnStandardsIntoContainer,
+.standardsTraining .frameParent48 .turnStandardsIntoContainer {
+  font-size: clamp(24px, 2.5vw, 36px) !important;
+  line-height: 1.3 !important;
+}
+
+/* Coloured spans inside headings inherit the same heading scale */
+.standardsTraining .build,
+.standardsTraining .industryReady,
+.standardsTraining .turnStandardsInto,
+.standardsTraining .learningExcellence {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+/* Main paragraph / description text */
+.standardsTraining .improveLearningQuality,
+.standardsTraining .createAConsistent,
+.standardsTraining .organizationsCanAchieve,
+.standardsTraining .neurolxpHelpsInstitutions,
+.standardsTraining .frameParent48 .neurolxpHelpsInstitutions {
+  font-size: clamp(16px, 1.67vw, 24px) !important;
+  line-height: 1.45 !important;
+}
+
+/* Why Standards feature text */
+.standardsTraining .alignWithIndustry,
+.standardsTraining .improveLearningOutcomes,
+.standardsTraining .supportAccreditationAnd,
+.standardsTraining .scaleFutureReadyLearning {
+  font-size: clamp(16px, 1.67vw, 24px) !important;
+  line-height: 1.4 !important;
+}
+
+/* Benefits titles */
+.standardsTraining .standardisedCurriculum {
+  font-size: clamp(16px, 1.67vw, 24px) !important;
+  line-height: 1.4 !important;
+}
+
+/* Benefits supporting description */
+.standardsTraining .alignLearningWith {
+  font-size: clamp(16px, 1.4vw, 20px) !important;
+  line-height: 1.5 !important;
+}
+
+/* 01 / 02 / 03 card checklist text */
+.standardsTraining .structuredLearning,
+.standardsTraining .transparentAssessments,
+.standardsTraining .frameParent29 {
+  font-size: clamp(16px, 1.53vw, 22px) !important;
+  line-height: 1.4 !important;
+}
+
+/* 01 / 02 / 03 card titles */
+.standardsTraining .forLearners {
+  font-size: clamp(20px, 1.95vw, 28px) !important;
+  line-height: 1.4 !important;
+}
+
+/* 01 / 02 / 03 numbers */
+.standardsTraining .frameParent27 .b {
+  font-size: clamp(24px, 2.5vw, 36px) !important;
+  line-height: 1.3 !important;
+}
+
+/* Right-side flow labels */
+.standardsTraining .outcomeBasedLearning,
+.standardsTraining .facultyDevelopment,
+.standardsTraining .accreditationReadyWrapper {
+  font-size: clamp(20px, 2.2vw, 32px) !important;
+}
+
+/* Badges / small labels */
+.standardsTraining .frameIcon,
+.standardsTraining .benefitsBadge span {
+  font-size: clamp(18px, 1.67vw, 24px) !important;
+}
+
+/* Button text */
+.standardsTraining .frameChild2,
+.standardsTraining .frameChild29 {
+  font-size: clamp(16px, 1.4vw, 20px) !important;
+}
+
+/* Breadcrumb stays intentionally smaller */
+.standardsTraining .frameDiv,
+.standardsTraining .useCases {
+  font-size: 16px !important;
+}
+
+/* Prevent fixed heights from clipping fluid text */
+.standardsTraining .buildIndustryReadyLearningContainer,
+.standardsTraining .whyStandardsTraining,
+.standardsTraining .benefitsOfEmployee,
+.standardsTraining .turnStandardsIntoContainer,
+.standardsTraining .improveLearningQuality,
+.standardsTraining .createAConsistent,
+.standardsTraining .organizationsCanAchieve,
+.standardsTraining .neurolxpHelpsInstitutions,
+.standardsTraining .alignWithIndustry,
+.standardsTraining .improveLearningOutcomes,
+.standardsTraining .supportAccreditationAnd,
+.standardsTraining .scaleFutureReadyLearning,
+.standardsTraining .standardisedCurriculum,
+.standardsTraining .alignLearningWith {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+/* Natural wrapping only */
+.standardsTraining .buildIndustryReadyLearningContainer,
+.standardsTraining .whyStandardsTraining,
+.standardsTraining .benefitsOfEmployee,
+.standardsTraining .turnStandardsIntoContainer,
+.standardsTraining .improveLearningQuality,
+.standardsTraining .createAConsistent,
+.standardsTraining .organizationsCanAchieve,
+.standardsTraining .neurolxpHelpsInstitutions {
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+}
+
+
+
+/* Book a Demo navigation — native button chrome reset only; original design preserved */
+button.frameChild2,
+button.frameChild29 {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button.frameChild2:focus,
+button.frameChild2:focus-visible,
+button.frameChild29:focus,
+button.frameChild29:focus-visible {
+  outline: 0;
+}
+
+/* =========================================================
+   01 / 02 / 03 BENEFIT CARDS — USER-SUPPLIED SVG
+   Place standards-benefit-card.svg at:
+   public/assets/stdimages/standards-benefit-card.svg
+   ========================================================= */
+.standardsTraining .frameParent27 {
+  position: relative !important;
+  isolation: isolate !important;
+  overflow: visible !important;
+}
+
+.standardsTraining .frameParent27::before {
+  content: "" !important;
+  position: absolute !important;
+  top: -12px !important;
+  left: 50% !important;
+  width: calc(100% + 24px) !important;
+  max-width: 424px !important;
+  height: calc(100% + 24px) !important;
+  background-image: url("/assets/stdimages/standards-benefit-card.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 100% 100% !important;
+  transform: translateX(-50%) !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+.standardsTraining .frameParent27 .rectangleDiv,
+.standardsTraining .frameParent27 .rectangleIcon {
+  display: none !important;
+}
+
+.standardsTraining .frameParent27 > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* =========================================================
+   01 / 02 / 03 CARDS — ALIGN TO PROVIDED PNG
+   Desktop only. Other sections unchanged.
+   ========================================================= */
+@media (min-width: 901px) {
+  .standardsTraining .frameParent26 {
+    width: 100% !important;
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 400px)) !important;
+    justify-content: space-between !important;
+    align-items: start !important;
+    gap: 24px !important;
+  }
+
+  .standardsTraining .frameParent27 {
+    position: relative !important;
+    width: 400px !important;
+    max-width: 400px !important;
+    min-width: 400px !important;
+    height: 470px !important;
+    min-height: 470px !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    isolation: isolate !important;
+  }
+
+  /* Exact supplied 424 × 494 SVG around each 400 × 470 card */
+  .standardsTraining .frameParent27::before {
+    content: "" !important;
+    position: absolute !important;
+    top: -12px !important;
+    left: -12px !important;
+    width: 424px !important;
+    max-width: none !important;
+    height: 494px !important;
+    background-image: url("/icons/standardbackground.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 424px 494px !important;
+    transform: none !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+  }
+
+  /* Hide old CSS card layers because the SVG now provides them */
+  .standardsTraining .frameParent27 .rectangleDiv,
+  .standardsTraining .frameParent27 .rectangleIcon,
+  .standardsTraining .frameParent27 > .standardBackground {
+    display: none !important;
+  }
+
+  .standardsTraining .frameParent27 .frameWrapper2,
+  .standardsTraining .frameParent27 .rectangleParent {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 400px !important;
+    height: 470px !important;
+  }
+
+  /* Top 01 / 02 / 03 heading area */
+  .standardsTraining .frameParent27 .frameWrapper3,
+  .standardsTraining .frameParent27 .frameWrapper6 {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 400px !important;
+    height: 192px !important;
+  }
+
+  .standardsTraining .frameParent27 .frameWrapper4,
+  .standardsTraining .frameParent27 .frameWrapper7,
+  .standardsTraining .frameParent27 .vectorParent,
+  .standardsTraining .frameParent27 .vectorGroup {
+    width: 400px !important;
+    height: 192px !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent33 {
+    position: absolute !important;
+    top: 24px !important;
+    left: 42px !important;
+    width: 316px !important;
+    height: 111px !important;
+    gap: 8px !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining .frameParent27 .b {
+    font-size: 54px !important;
+    line-height: 62px !important;
+  }
+
+  .standardsTraining .frameParent27 .forLearners {
+    width: 100% !important;
+    font-size: 28px !important;
+    line-height: 40px !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+
+  /* Checklist position and row spacing exactly like the PNG */
+  .standardsTraining .frameParent27 .frameParent28 {
+    position: absolute !important;
+    top: 212px !important;
+    left: 32px !important;
+    right: auto !important;
+    width: 336px !important;
+    height: 224px !important;
+    min-height: 224px !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 16px !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent29 {
+    width: 336px !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 14px !important;
+  }
+
+  .standardsTraining .frameParent27 .checkIconCircle {
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    flex: 0 0 44px !important;
+  }
+
+  .standardsTraining .frameParent27 .structuredLearning,
+  .standardsTraining .frameParent27 .transparentAssessments {
+    width: auto !important;
+    max-width: none !important;
+    height: auto !important;
+    margin: 0 !important;
+    font-size: 22px !important;
+    line-height: 36px !important;
+    white-space: nowrap !important;
+  }
+}
+
+/* =========================================================
+   WHY STANDARDS TRAINING — REQUESTED CORRECTION ONLY
+   Center the section + reduce icon/circle size.
+   ========================================================= */
+.standardsTraining .frameParent8 {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.standardsTraining .frameParent9 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-content: center !important;
+}
+
+/* Reduce only the four feature icon circles */
+.standardsTraining .frameParent9 .frameIcon,
+.standardsTraining .frameParent9 .frameChild8,
+.standardsTraining .frameParent9 .frameChild9,
+.standardsTraining .frameParent9 .frameChild10 {
+  width: 52px !important;
+  height: 52px !important;
+  min-width: 52px !important;
+  flex: 0 0 52px !important;
+  object-fit: contain !important;
+}
+
+/* =========================================================
+   WHY STANDARDS TRAINING — TRUE CENTER ALIGNMENT
+   Only this section is affected.
+   ========================================================= */
+.standardsTraining > .frameParent2 > .frameParent8 {
+  width: 100% !important;
+  max-width: 1280px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.standardsTraining .whyStandardsTrainingParent {
+  width: 100% !important;
+  max-width: 999px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.standardsTraining .whyStandardsTraining,
+.standardsTraining .createAConsistent {
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+/* Center the complete 2 × 2 feature group itself */
+.standardsTraining .frameParent9 {
+  width: fit-content !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 520px)) !important;
+  justify-content: center !important;
+  align-items: center !important;
+  column-gap: 72px !important;
+  row-gap: 30px !important;
+}
+
+/* Center each feature row inside its grid column */
+.standardsTraining .frameParent9 > * {
+  width: 100% !important;
+  justify-self: center !important;
+}
+
+/* =========================================================
+   MOBILE HERO — REQUESTED CHANGES ONLY
+   1) Remove unnecessary bottom space in the left hero card
+   2) Make Book a Demo text bold
+   ========================================================= */
+@media (max-width: 600px) {
+  .standardsTraining .image21Parent {
+    min-height: 0 !important;
+    height: auto !important;
+  }
+
+  .standardsTraining .frameParent4 {
+    margin-top: 28px !important;
+    margin-bottom: 28px !important;
+  }
+
+  .standardsTraining .frameChild2 {
+    font-weight: 700 !important;
+  }
+}
+
+/* =========================================================
+   MOBILE — WHY STANDARDS TRAINING SECTION CORRECTION ONLY
+   Fix broken text wrapping and center the four feature rows.
+   ========================================================= */
+@media (max-width: 600px) {
+  .standardsTraining > .frameParent2 > .frameParent8 {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 28px !important;
+  }
+
+  .standardsTraining .whyStandardsTrainingParent {
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 16px !important;
+  }
+
+  .standardsTraining .whyStandardsTraining,
+  .standardsTraining .createAConsistent {
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  /* Stack the four items so labels no longer break word-by-word */
+  .standardsTraining .frameParent9 {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 18px !important;
+  }
+
+  .standardsTraining .frameParent10 {
+    width: 100% !important;
+    max-width: 340px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 18px !important;
+  }
+
+  .standardsTraining .frameParent11 {
+    width: 100% !important;
+    max-width: 340px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 14px !important;
+    text-align: left !important;
+  }
+
+  .standardsTraining .frameParent11 .iconCircle {
+    width: 58px !important;
+    height: 58px !important;
+    min-width: 58px !important;
+    flex: 0 0 58px !important;
+  }
+
+  .standardsTraining .frameParent11 .iconCircleInner {
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  .standardsTraining .frameParent11 .iconCircleInner img {
+    width: 28px !important;
+    height: 28px !important;
+  }
+
+  .standardsTraining .alignWithIndustry,
+  .standardsTraining .improveLearningOutcomes,
+  .standardsTraining .supportAccreditationAnd,
+  .standardsTraining .scaleFutureReadyLearning {
+    width: auto !important;
+    max-width: calc(100% - 72px) !important;
+    height: auto !important;
+    margin: 0 !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    text-align: left !important;
+  }
+}
+
+/* =========================================================
+   MOBILE — 01 / 02 / 03 CARD SECTION CORRECTION ONLY
+   Center cards, keep the SVG fully visible, and add clean spacing.
+   ========================================================= */
+@media (max-width: 600px) {
+  .standardsTraining > .frameParent24 {
+    width: calc(100% - 32px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+  }
+
+  .standardsTraining .frameParent26 {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    justify-items: center !important;
+    align-items: start !important;
+    gap: 32px !important;
+  }
+
+  .standardsTraining .frameParent27 {
+    width: min(340px, calc(100vw - 48px)) !important;
+    max-width: 340px !important;
+    min-width: 0 !important;
+    height: 400px !important;
+    min-height: 400px !important;
+    margin: 0 auto !important;
+    overflow: visible !important;
+  }
+
+  .standardsTraining .frameParent27::before {
+    top: -10px !important;
+    left: 50% !important;
+    width: calc(100% + 20px) !important;
+    max-width: 360px !important;
+    height: calc(100% + 20px) !important;
+    background-image: url("/icons/standardbackground.svg") !important;
+    background-size: 100% 100% !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .standardsTraining .frameParent27 .frameWrapper2,
+  .standardsTraining .frameParent27 .rectangleParent {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .standardsTraining .frameParent27 .frameWrapper3,
+  .standardsTraining .frameParent27 .frameWrapper6,
+  .standardsTraining .frameParent27 .frameWrapper4,
+  .standardsTraining .frameParent27 .frameWrapper7,
+  .standardsTraining .frameParent27 .vectorParent,
+  .standardsTraining .frameParent27 .vectorGroup {
+    width: 100% !important;
+    height: 160px !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent33 {
+    top: 18px !important;
+    left: 50% !important;
+    width: calc(100% - 48px) !important;
+    height: auto !important;
+    transform: translateX(-50%) !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining .frameParent27 .b {
+    font-size: 42px !important;
+    line-height: 50px !important;
+  }
+
+  .standardsTraining .frameParent27 .forLearners {
+    width: 100% !important;
+    font-size: 22px !important;
+    line-height: 30px !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent28 {
+    top: 170px !important;
+    left: 24px !important;
+    right: 24px !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    gap: 12px !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent29 {
+    width: 100% !important;
+    min-height: 44px !important;
+    height: 44px !important;
+    gap: 12px !important;
+  }
+
+  .standardsTraining .frameParent27 .structuredLearning,
+  .standardsTraining .frameParent27 .transparentAssessments {
+    width: auto !important;
+    max-width: calc(100% - 56px) !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    white-space: nowrap !important;
+  }
+}
+
+/* =========================================================
+   MOBILE — REMOVE DUPLICATE CARD BACKGROUND LAYER
+   Use the SVG already added in TSX only.
+   ========================================================= */
+@media (max-width: 600px) {
+  .standardsTraining .frameParent27::before {
+    display: none !important;
+  }
+
+  .standardsTraining .frameParent27 > .standardBackground {
+    display: block !important;
+    position: absolute !important;
+    top: -10px !important;
+    left: 50% !important;
+    width: calc(100% + 20px) !important;
+    max-width: 360px !important;
+    height: calc(100% + 20px) !important;
+    transform: translateX(-50%) !important;
+    object-fit: fill !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .standardsTraining .frameParent27 > *:not(.standardBackground) {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+/* =========================================================
+   MOBILE — CARD TITLE / NUMBER VISIBILITY FIX ONLY
+   Keep the single SVG background, but restore the 01/02/03
+   and For Learners/Institutions/Faculty content above it.
+   ========================================================= */
+@media (max-width: 600px) {
+  /* Do not let the generic child rule change absolute positioning */
+  .standardsTraining .frameParent27 > *:not(.standardBackground) {
+    z-index: 2 !important;
+  }
+
+  .standardsTraining .frameParent27 .frameWrapper3,
+  .standardsTraining .frameParent27 .frameWrapper6 {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 160px !important;
+    z-index: 3 !important;
+  }
+
+  .standardsTraining .frameParent27 .frameWrapper4,
+  .standardsTraining .frameParent27 .frameWrapper7,
+  .standardsTraining .frameParent27 .vectorParent,
+  .standardsTraining .frameParent27 .vectorGroup {
+    position: relative !important;
+    width: 100% !important;
+    height: 160px !important;
+    z-index: 3 !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent33 {
+    position: absolute !important;
+    top: 18px !important;
+    left: 50% !important;
+    width: calc(100% - 48px) !important;
+    height: auto !important;
+    transform: translateX(-50%) !important;
+    z-index: 4 !important;
+  }
+
+  .standardsTraining .frameParent27 .wrapper,
+  .standardsTraining .frameParent27 .b,
+  .standardsTraining .frameParent27 .forLearners {
+    position: relative !important;
+    z-index: 5 !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent28 {
+    position: absolute !important;
+    top: 170px !important;
+    left: 24px !important;
+    right: 24px !important;
+    width: auto !important;
+    z-index: 3 !important;
+  }
+}
+
+/* =========================================================
+   MOBILE HERO — CENTER CONTENT ONLY
+   Keeps desktop/tablet unchanged.
+   ========================================================= */
+@media (max-width: 600px) {
+  .standardsTraining .image21Parent {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining .frameParent4 {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining .frameWrapper1,
+  .standardsTraining .standardsTrainingWrapper,
+  .standardsTraining .buildIndustryReadyLearningWrapper,
+  .standardsTraining .improveLearningQualityOutcoWrapper {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining .standardsTraining1,
+  .standardsTraining .buildIndustryReady,
+  .standardsTraining .improveLearningQuality {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining .frameChild2 {
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* =========================================================
+   MOBILE BENEFITS — OVERLAP FIX
+   Removes the bad negative spacing and keeps this section
+   directly below the divider without overlapping Why Standards.
+   ========================================================= */
+@media (max-width: 600px) {
+  .standardsTraining > .standardsTrainingChild {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .standardsTraining > .frameParent16 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+
+    width: calc(100% - 32px) !important;
+    max-width: 360px !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+
+    gap: 24px !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .standardsTraining > .frameParent16 > .resourcesWrapper {
+    flex: none !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+  }
+
+  .standardsTraining .frameParent17,
+  .standardsTraining .frameParent18 {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+  }
+
+  .standardsTraining .frameParent19 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+
+    flex: none !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* =========================================================
+   MOBILE HERO — CENTER ALIGNMENT ONLY
+   No spacing, sizing, shadow, or desktop/tablet changes.
+   ========================================================= */
+@media (max-width: 600px) {
+  .standardsTraining .frameParent4,
+  .standardsTraining .frameParent5,
+  .standardsTraining .frameParent6 {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining .frameIcon,
+  .standardsTraining .buildIndustryReadyLearningContainer,
+  .standardsTraining .improveLearningQuality,
+  .standardsTraining .frameChild2 {
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+}
+
+
+/* =========================================================
+   BUTTON INSET HOVER — REQUESTED ONLY
+   ========================================================= */
+.signInHelpWrapper,
+button.frameChild2,
+button.frameChild29 {
+  cursor: pointer;
+  transition:
+    box-shadow 180ms ease,
+    transform 180ms ease,
+    color 180ms ease !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .signInHelpWrapper:hover,
+  button.frameChild2:hover,
+  button.frameChild29:hover {
+    box-shadow:
+      inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196, 196, 196, 0.82) !important;
+    transform: translateY(1px) !important;
+  }
+}
+
+.signInHelpWrapper:active,
+button.frameChild2:active,
+button.frameChild29:active {
+  box-shadow:
+    inset -3px -3px 4px #ffffff,
+    inset 4px 4px 5px rgba(191, 194, 196, 0.9) !important;
+  transform: translateY(2px) !important;
+}
+
+.signInHelpWrapper:focus-visible,
+button.frameChild2:focus-visible,
+button.frameChild29:focus-visible {
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.82) !important;
+  outline: none !important;
+}
+
+/* Fallback-font safety for the existing buttons only.
+   Keeps their current dimensions/design and prevents text clipping. */
+.signInHelpWrapper,
+button.frameChild2,
+button.frameChild29 {
+  font-family: "Segoe UI", "Inter" !important;
+}
+
+.signInHelpWrapper *,
+button.frameChild2 *,
+button.frameChild29 * {
+  font-family: inherit !important;
+}
+
+
+/* =========================================================
+   MOBILE ONLY — 01 / 02 / 03 CARD CONTENT OVERLAP FIX
+   Keeps the card design/background unchanged.
+   ========================================================= */
+@media (max-width: 600px) {
+
+  /* Lift the checklist slightly so the final row stays
+     completely inside each card. */
+  .standardsTraining .frameParent27 .frameParent28 {
+    top: 148px !important;
+    gap: 8px !important;
+  }
+
+  /* Keep every checklist row compact and uniform. */
+  .standardsTraining .frameParent27 .frameParent29 {
+    height: 42px !important;
+    min-height: 42px !important;
+    gap: 12px !important;
+    align-items: center !important;
+  }
+
+  /* Prevent the label itself from creating extra vertical height. */
+  .standardsTraining .frameParent27 .structuredLearning,
+  .standardsTraining .frameParent27 .transparentAssessments {
+    height: auto !important;
+    min-height: 0 !important;
+    line-height: 22px !important;
+    margin: 0 !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE ONLY — 01 / 02 / 03 CARD VERTICAL GAP FIX
+   Only removes the extra empty space between cards.
+   Card artwork, size, text, icons and colors stay unchanged.
+   ========================================================= */
+@media (max-width: 600px) {
+
+  .standardsTraining .frameParent26 {
+    gap: 12px !important;
+  }
+
+  /* The mobile card wrapper reserves more height than the
+     visible SVG card. Collapse only that unused bottom space. */
+  .standardsTraining .frameParent27:not(:last-child) {
+    margin-bottom: -58px !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE ONLY — FIX TEXT OVERLAP INSIDE 01 / 02 / 03 CARDS
+   No visual redesign.
+   ========================================================= */
+@media (max-width: 600px) {
+
+  /* Keep the checklist safely BELOW the card heading area. */
+  .standardsTraining .frameParent27 .frameParent28 {
+    top: 172px !important;
+    left: 24px !important;
+    right: 24px !important;
+    width: auto !important;
+    height: auto !important;
+    gap: 8px !important;
+    padding: 0 !important;
+  }
+
+  /* Give every checklist row its own fixed vertical space. */
+  .standardsTraining .frameParent27 .frameParent29 {
+    width: 100% !important;
+    height: 42px !important;
+    min-height: 42px !important;
+    max-height: 42px !important;
+    gap: 12px !important;
+    align-items: center !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Keep checklist labels from touching neighbouring rows. */
+  .standardsTraining .frameParent27 .structuredLearning,
+  .standardsTraining .frameParent27 .transparentAssessments {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 16px !important;
+    line-height: 22px !important;
+
+    white-space: nowrap !important;
+    overflow: visible !important;
+  }
+
+  /* Remove the previous negative card margin that could make
+     one card's content visually run into the next card. */
+  .standardsTraining .frameParent27:not(:last-child) {
+    margin-bottom: 0 !important;
+  }
+
+  .standardsTraining .frameParent26 {
+    gap: 18px !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE ONLY — ACTUAL 01 / 02 / 03 TEXT OVERLAP FIX
+   Moves only the number/title block fully inside the card.
+   ========================================================= */
+@media (max-width: 600px) {
+
+  .standardsTraining .frameParent27 .frameParent33 {
+    top: 32px !important;
+  }
+
+  .standardsTraining .frameParent27 .b {
+    margin: 0 !important;
+    line-height: 46px !important;
+  }
+
+  .standardsTraining .frameParent27 .forLearners {
+    margin: 0 !important;
+    line-height: 28px !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE ONLY — FINAL 01 / 02 / 03 CARD FIT FIX
+   Extend the card slightly so ALL text stays inside cleanly.
+   No design/color/icon changes.
+   ========================================================= */
+@media (max-width: 600px) {
+
+  /* Give the mobile card enough vertical room. */
+  .standardsTraining .frameParent27 {
+    height: 430px !important;
+    min-height: 430px !important;
+  }
+
+  /* Make the existing SVG/card background follow the new height. */
+  .standardsTraining .frameParent27 > .standardBackground {
+    height: calc(100% + 20px) !important;
+  }
+
+  .standardsTraining .frameParent27 .frameWrapper2,
+  .standardsTraining .frameParent27 .rectangleParent {
+    height: 100% !important;
+  }
+
+  /* Keep 01 / 02 / 03 and the title fully inside the top area. */
+  .standardsTraining .frameParent27 .frameWrapper3,
+  .standardsTraining .frameParent27 .frameWrapper6,
+  .standardsTraining .frameParent27 .frameWrapper4,
+  .standardsTraining .frameParent27 .frameWrapper7,
+  .standardsTraining .frameParent27 .vectorParent,
+  .standardsTraining .frameParent27 .vectorGroup {
+    height: 172px !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent33 {
+    top: 46px !important;
+    height: auto !important;
+    gap: 6px !important;
+  }
+
+  .standardsTraining .frameParent27 .b {
+    margin: 0 !important;
+    line-height: 44px !important;
+  }
+
+  .standardsTraining .frameParent27 .forLearners {
+    margin: 0 !important;
+    line-height: 28px !important;
+  }
+
+  /* Start the checklist below the title area with enough room
+     for all four rows inside the extended card. */
+  .standardsTraining .frameParent27 .frameParent28 {
+    top: 188px !important;
+    left: 24px !important;
+    right: 24px !important;
+    width: auto !important;
+    height: auto !important;
+    gap: 8px !important;
+    padding: 0 !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent29 {
+    width: 100% !important;
+    height: 42px !important;
+    min-height: 42px !important;
+    max-height: 42px !important;
+    gap: 12px !important;
+    align-items: center !important;
+    flex-shrink: 0 !important;
+  }
+
+  .standardsTraining .frameParent27 .structuredLearning,
+  .standardsTraining .frameParent27 .transparentAssessments {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+  }
+
+  /* Keep normal card separation — no negative overlap. */
+  .standardsTraining .frameParent27:not(:last-child) {
+    margin-bottom: 0 !important;
+  }
+
+  .standardsTraining .frameParent26 {
+    gap: 20px !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE ONLY — FINAL 01 / 02 / 03 CARD TEXT FIT
+   Fixes the actual overlap by making the content follow the
+   mobile-scaled card height. No colour/design changes.
+   ========================================================= */
+@media screen and (max-width: 600px) {
+
+  .standardsTraining .frameParent26 {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+    justify-items: center !important;
+    gap: 22px !important;
+  }
+
+  /* Keep the same card proportion on mobile instead of reserving
+     a tall wrapper while the visible SVG stays much shorter. */
+  .standardsTraining .frameParent27 {
+    width: min(296px, calc(100vw - 24px)) !important;
+    max-width: 296px !important;
+    min-width: 0 !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 400 / 470 !important;
+
+    margin: 0 auto !important;
+    overflow: visible !important;
+    position: relative !important;
+  }
+
+  /* Force the supplied SVG to occupy the complete mobile card.
+     This removes the mismatch between wrapper height and visible card. */
+  .standardsTraining .frameParent27 > .standardBackground {
+    display: block !important;
+    position: absolute !important;
+
+    top: 0 !important;
+    left: 0 !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 100% !important;
+
+    height: 100% !important;
+    max-height: none !important;
+    min-height: 100% !important;
+
+    margin: 0 !important;
+
+    object-fit: fill !important;
+    object-position: center !important;
+
+    transform: none !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .standardsTraining .frameParent27::before {
+    display: none !important;
+  }
+
+  .standardsTraining .frameParent27 .frameWrapper2,
+  .standardsTraining .frameParent27 .rectangleParent {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* Mobile-scaled top number/title area */
+  .standardsTraining .frameParent27 .frameWrapper3,
+  .standardsTraining .frameParent27 .frameWrapper6,
+  .standardsTraining .frameParent27 .frameWrapper4,
+  .standardsTraining .frameParent27 .frameWrapper7,
+  .standardsTraining .frameParent27 .vectorParent,
+  .standardsTraining .frameParent27 .vectorGroup {
+    width: 100% !important;
+    height: 142px !important;
+    min-height: 142px !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent33 {
+    position: absolute !important;
+    top: 14px !important;
+    left: 50% !important;
+
+    width: calc(100% - 36px) !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    gap: 4px !important;
+
+    transform: translateX(-50%) !important;
+
+    align-items: center !important;
+    text-align: center !important;
+
+    z-index: 4 !important;
+  }
+
+  .standardsTraining .frameParent27 .b {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 40px !important;
+    line-height: 42px !important;
+
+    flex-shrink: 0 !important;
+  }
+
+  .standardsTraining .frameParent27 .forLearners {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 20px !important;
+    line-height: 26px !important;
+
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+
+  /* Checklist is positioned to fit completely inside the
+     actual visible SVG card — including the last row. */
+  .standardsTraining .frameParent27 .frameParent28 {
+    position: absolute !important;
+
+    top: 150px !important;
+    left: 18px !important;
+    right: 14px !important;
+
+    width: auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+
+    gap: 6px !important;
+
+    z-index: 4 !important;
+  }
+
+  .standardsTraining .frameParent27 .frameParent29 {
+    width: 100% !important;
+
+    height: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 10px !important;
+
+    flex: 0 0 38px !important;
+  }
+
+  .standardsTraining .frameParent27 .checkIconCircle,
+  .standardsTraining .frameParent27 .frameChild13,
+  .standardsTraining .frameParent27 .frameChild15 {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+
+    flex: 0 0 38px !important;
+  }
+
+  .standardsTraining .frameParent27 .structuredLearning,
+  .standardsTraining .frameParent27 .transparentAssessments {
+    width: auto !important;
+    max-width: calc(100% - 48px) !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 16px !important;
+    line-height: 22px !important;
+
+    white-space: nowrap !important;
+    overflow: visible !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+  /* Explicitly cancel the old mobile negative-margin experiments. */
+  .standardsTraining .frameParent27:not(:last-child) {
+    margin-bottom: 0 !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE ONLY — CENTER BENEFITS SECTION
+   Only alignment is changed. Design/sizes/colors stay same.
+   ========================================================= */
+@media screen and (max-width: 600px) {
+
+  .standardsTraining > .frameParent16 {
+    width: calc(100% - 24px) !important;
+    max-width: 320px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining > .frameParent16 > .resourcesWrapper {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .standardsTraining .frameParent17,
+  .standardsTraining .frameParent18 {
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining .benefitsBadge {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .standardsTraining .benefitsOfEmployee,
+  .standardsTraining .organizationsCanAchieve {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .standardsTraining .frameParent19 {
+    width: 100% !important;
+    max-width: 300px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+  }
+
+  .standardsTraining .frameParent20,
+  .standardsTraining .frameParent21,
+  .standardsTraining .frameParent22,
+  .standardsTraining .frameParent23 {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    grid-template-columns: 70px minmax(0, 1fr) !important;
+    justify-content: center !important;
+  }
+
+  .standardsTraining .standardisedCurriculumParent {
+    width: 100% !important;
+    min-width: 0 !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+}
+
+
+
+/* =====================================================================
+   HOME PAGE ALIGNMENT
+   Scoped specificity intentionally wins over the supplied legacy overrides.
+   No viewport zoom, fixed text heights, or translated section spacing.
+   64px section rhythm / 48px on phones; 24px content gaps / 16px on phones.
+   ===================================================================== */
+
+.standardsTraining.standardsTraining.standardsTraining {
+  --page-font: "Segoe UI", "Inter", sans-serif !important;
+  --page-bg: #dfe6e9 !important;
+  --page-blue: #2d4cc8 !important;
+  --page-raised: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9 !important;
+  --page-inset: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196,196,196,.8) !important;
+  --page-section-gap: 64px !important;
+  --page-content-gap: 24px !important;
+  --page-heading: 36px !important;
+  --page-body: 24px !important;
+  --page-badge: 24px !important;
+  --page-button: 24px !important;
+  --page-icon: 70px !important;
+  --page-inner-icon: 52px !important;
+  --page-panel-padding: 32px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  zoom: 1 !important;
+  padding: 0 24px 48px !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 0 !important;
+  font-family: var(--page-font) !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  background: var(--page-bg) !important;
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining *,
+.standardsTraining.standardsTraining.standardsTraining *::before,
+.standardsTraining.standardsTraining.standardsTraining *::after {
+  box-sizing: border-box !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining :where(h1,h2,h3,h4,p,a,button,input,textarea,select,span,div,li,strong,b) {
+  font-family: var(--page-font) !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining :where(img,svg,video) {
+  max-width: 100% !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent2,
+.standardsTraining.standardsTraining.standardsTraining .frameParent16,
+.standardsTraining.standardsTraining.standardsTraining .frameParent24,
+.standardsTraining.standardsTraining.standardsTraining .frameParent48,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 1280px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: var(--page-section-gap) auto 0 !important;
+  transform: none !important;
+  translate: none !important;
+  aspect-ratio: auto !important;
+  flex-shrink: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv {
+  margin: 24px auto 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: wrap !important;
+  column-gap: 8px !important;
+  row-gap: 4px !important;
+  padding: 0 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  white-space: normal !important;
+  overflow: visible !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .resourcesWrapper,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .arrowRightDoubleGroup {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .useCases,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .resources,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv a,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv span {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .breadcrumbArrow,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv img,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv svg {
+  width: 16px !important;
+  height: 16px !important;
+  flex: 0 0 16px !important;
+  object-fit: contain !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv a {
+  color: var(--page-blue) !important;
+  text-decoration: none !important;
+  text-underline-offset: 3px !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv a:hover {
+  text-decoration: underline !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent2 {
+  margin-top: 24px !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameIcon,
+.standardsTraining.standardsTraining.standardsTraining .benefitsBadge {
+  position: relative !important;
+  inset: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: auto !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 56px !important;
+  margin: 0 !important;
+  padding: 12px 36px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: var(--page-bg) !important;
+  box-shadow: var(--page-inset) !important;
+  font-family: var(--page-font) !important;
+  font-size: var(--page-badge) !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: .03em !important;
+  color: var(--page-blue) !important;
+  white-space: normal !important;
+  text-align: center !important;
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  flex-shrink: 0 !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameChild2,
+.standardsTraining.standardsTraining.standardsTraining .frameChild29 {
+  position: relative !important;
+  inset: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  width: fit-content !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 48px !important;
+  padding: 16px 32px !important;
+  margin: 0 !important;
+  appearance: none !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  background: var(--page-bg) !important;
+  box-shadow: var(--page-raised) !important;
+  font-family: var(--page-font) !important;
+  font-size: var(--page-button) !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: .02em !important;
+  color: var(--page-blue) !important;
+  text-decoration: none !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  transform: none !important;
+  touch-action: manipulation !important;
+  transition: box-shadow .2s ease !important;
+  overflow: visible !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.standardsTraining.standardsTraining.standardsTraining .frameChild2:hover,
+.standardsTraining.standardsTraining.standardsTraining .frameChild29:hover {
+  box-shadow: var(--page-inset) !important;
+  transform: none !important;
+}
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameChild2:active,
+.standardsTraining.standardsTraining.standardsTraining .frameChild29:active {
+  box-shadow: var(--page-inset) !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameChild2:focus-visible,
+.standardsTraining.standardsTraining.standardsTraining .frameChild29:focus-visible,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv a:focus-visible {
+  outline: 3px solid var(--page-blue) !important;
+  outline-offset: 4px !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .buildIndustryReadyLearningContainer,
+.standardsTraining.standardsTraining.standardsTraining .whyStandardsTraining,
+.standardsTraining.standardsTraining.standardsTraining .benefitsOfEmployee,
+.standardsTraining.standardsTraining.standardsTraining .turnStandardsIntoContainer {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  font-size: var(--page-heading) !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: .03em !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  text-wrap: balance !important;
+  overflow: visible !important;
+  display: block !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .buildIndustryReadyLearningContainer :where(span,strong,b),
+.standardsTraining.standardsTraining.standardsTraining .whyStandardsTraining :where(span,strong,b),
+.standardsTraining.standardsTraining.standardsTraining .benefitsOfEmployee :where(span,strong,b),
+.standardsTraining.standardsTraining.standardsTraining .turnStandardsIntoContainer :where(span,strong,b) {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .improveLearningQuality,
+.standardsTraining.standardsTraining.standardsTraining .createAConsistent,
+.standardsTraining.standardsTraining.standardsTraining .organizationsCanAchieve,
+.standardsTraining.standardsTraining.standardsTraining .neurolxpHelpsInstitutions {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  font-size: var(--page-body) !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  letter-spacing: .03em !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  overflow: visible !important;
+  display: block !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .alignWithIndustry,
+.standardsTraining.standardsTraining.standardsTraining .improveLearningOutcomes,
+.standardsTraining.standardsTraining.standardsTraining .supportAccreditationAnd,
+.standardsTraining.standardsTraining.standardsTraining .scaleFutureReadyLearning {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  font-size: min(var(--page-body), 5cqi) !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
+  white-space: nowrap !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  text-align: left !important;
+  flex: 1 1 0 !important;
+  display: block !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .benefitIconOuter,
+.standardsTraining.standardsTraining.standardsTraining .benefitIconCircle {
+  width: var(--page-icon) !important;
+  height: var(--page-icon) !important;
+  min-width: var(--page-icon) !important;
+  flex: 0 0 var(--page-icon) !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .benefitIconInner {
+  width: var(--page-inner-icon) !important;
+  height: var(--page-inner-icon) !important;
+  min-width: var(--page-inner-icon) !important;
+  flex: 0 0 var(--page-inner-icon) !important;
+}
+
+@media (max-width: 1023.98px) {
+.standardsTraining.standardsTraining.standardsTraining {
+  --page-heading: 32px !important;
+  --page-body: 20px !important;
+  --page-button: 20px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining {
+  --page-section-gap: 48px !important;
+  --page-content-gap: 16px !important;
+  --page-heading: 24px !important;
+  --page-body: 16px !important;
+  --page-badge: 20px !important;
+  --page-button: 18px !important;
+  --page-icon: 56px !important;
+  --page-inner-icon: 40px !important;
+  --page-panel-padding: 16px !important;
+  padding: 0 16px 32px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameDiv {
+  font-size: 14px !important;
+  line-height: 22px !important;
+  margin-top: 16px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent2 {
+  margin-top: 16px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameIcon,
+.standardsTraining.standardsTraining.standardsTraining .benefitsBadge {
+  min-height: 48px !important;
+  padding: 10px 26px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameChild2,
+.standardsTraining.standardsTraining.standardsTraining .frameChild29 {
+  padding: 14px 24px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .benefitIcon,
+.standardsTraining.standardsTraining.standardsTraining .benefitIconImage {
+  width: 28px !important;
+  height: 28px !important;
+}
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent2 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-section-gap) !important;
+  align-items: stretch !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent2 {
+  margin: 24px auto 0 !important;
+  max-width: 1280px !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent3 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: hidden !important;
+  display: grid !important;
+  grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+  align-items: center !important;
+  gap: 32px !important;
+  padding: var(--page-panel-padding) !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .image21Parent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: hidden !important;
+  padding: var(--page-panel-padding) !important;
+  isolation: isolate !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .image21,
+.standardsTraining.standardsTraining.standardsTraining .groupYoungBusinesspeopleUsi,
+.standardsTraining.standardsTraining.standardsTraining .image20 {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  pointer-events: none !important;
+  z-index: -1 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent4,
+.standardsTraining.standardsTraining.standardsTraining .frameParent5,
+.standardsTraining.standardsTraining.standardsTraining .frameParent6 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  z-index: 1 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .build,
+.standardsTraining.standardsTraining.standardsTraining .industryReady,
+.standardsTraining.standardsTraining.standardsTraining .turnStandardsInto,
+.standardsTraining.standardsTraining.standardsTraining .learningExcellence {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .benefitsBadge span {
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameChild2 > span,
+.standardsTraining.standardsTraining.standardsTraining .frameChild29 > span {
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .outcomeBasedLearningWrapper,
+.standardsTraining.standardsTraining.standardsTraining .facultyDevelopmentWrapper,
+.standardsTraining.standardsTraining.standardsTraining .accreditationReadyWrapper {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 24px !important;
+  text-align: center !important;
+  font-size: var(--page-body) !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .outcomeBasedLearning,
+.standardsTraining.standardsTraining.standardsTraining .facultyDevelopment {
+  width: 100% !important;
+  height: auto !important;
+  font-size: var(--page-body) !important;
+  line-height: 1.4 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .arrowDownBigIcon,
+.standardsTraining.standardsTraining.standardsTraining .arrowDownBigIcon2 {
+  position: relative !important;
+  inset: auto !important;
+  width: 40px !important;
+  height: 40px !important;
+  margin: 0 auto !important;
+  transform: none !important;
+  flex: 0 0 40px !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .outcomeBasedLearningWrapper {
+  order: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .arrowDownBigIcon {
+  order: 1 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .facultyDevelopmentWrapper {
+  order: 2 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .arrowDownBigIcon2 {
+  order: 3 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .accreditationReadyWrapper {
+  order: 4 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent8 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 32px !important;
+  align-items: center !important;
+  padding: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .whyStandardsTrainingParent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent9 {
+  display: grid !important;
+  width: 100% !important;
+  max-width: 1120px !important;
+  grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+  gap: 24px !important;
+  margin: 0 auto !important;
+  justify-content: center !important;
+  align-items: start !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent10 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+  flex: initial !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent11 {
+  container-type: inline-size;
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: grid !important;
+  grid-template-columns: var(--page-icon) minmax(0,1fr) !important;
+  gap: 16px !important;
+  align-items: center !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .iconCircle,
+.standardsTraining.standardsTraining.standardsTraining .benefitIcon,
+.standardsTraining.standardsTraining.standardsTraining .frameParent9 .frameIcon,
+.standardsTraining.standardsTraining.standardsTraining .frameParent9 .frameChild3,
+.standardsTraining.standardsTraining.standardsTraining .frameParent9 .frameChild8,
+.standardsTraining.standardsTraining.standardsTraining .frameParent9 .frameChild9,
+.standardsTraining.standardsTraining.standardsTraining .frameParent9 .frameChild10 {
+  width: var(--page-icon) !important;
+  height: var(--page-icon) !important;
+  min-width: var(--page-icon) !important;
+  min-height: var(--page-icon) !important;
+  max-width: var(--page-icon) !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  flex: 0 0 var(--page-icon) !important;
+  margin: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .iconCircleInner {
+  width: var(--page-inner-icon) !important;
+  height: var(--page-inner-icon) !important;
+  flex: 0 0 var(--page-inner-icon) !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .standardsTrainingChild {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 1280px !important;
+  height: 4px !important;
+  margin: 32px auto !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent16 {
+  display: grid !important;
+  grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+  gap: 48px !important;
+  align-items: center !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent16 > .resourcesWrapper {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex: initial !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent17,
+.standardsTraining.standardsTraining.standardsTraining .frameParent18 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent19 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+  flex: initial !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent20,
+.standardsTraining.standardsTraining.standardsTraining .frameParent21,
+.standardsTraining.standardsTraining.standardsTraining .frameParent22,
+.standardsTraining.standardsTraining.standardsTraining .frameParent23 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: grid !important;
+  grid-template-columns: var(--page-icon) minmax(0,1fr) !important;
+  gap: 16px !important;
+  align-items: center !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .standardisedCurriculumParent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .standardisedCurriculum {
+  width: 100% !important;
+  height: auto !important;
+  font-size: var(--page-body) !important;
+  line-height: 1.4 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .alignLearningWith {
+  width: 100% !important;
+  height: auto !important;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent24,
+.standardsTraining.standardsTraining.standardsTraining .frameParent25,
+.standardsTraining.standardsTraining.standardsTraining .turnStandardsIntoLearningEParent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent24 {
+  margin: var(--page-section-gap) auto 0 !important;
+  max-width: 1280px !important;
+  gap: 32px !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent26 {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: repeat(3,minmax(0,1fr)) !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+  justify-items: stretch !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: grid !important;
+  grid-template-columns: minmax(0,1fr) !important;
+  grid-template-rows: auto 1fr !important;
+  align-content: start !important;
+  isolation: isolate !important;
+  padding: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27:not(:last-child) {
+  margin-bottom: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameWrapper2,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .rectangleParent {
+  display: contents !important;
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  inset: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameWrapper3,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameWrapper6 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  display: block !important;
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  margin: 0 !important;
+  padding: 24px 20px 64px !important;
+  z-index: 2 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameWrapper4,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameWrapper7,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .vectorParent,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .vectorGroup,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameParent33 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  transform: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameParent33 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .b {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 36px !important;
+  line-height: 1.2 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .forLearners {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  font-size: 24px !important;
+  line-height: 1.3 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameParent28 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 24px 32px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  grid-column: 1 !important;
+  grid-row: 2 !important;
+  transform: none !important;
+  z-index: 2 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameParent29 {
+  position: relative !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 44px !important;
+  max-height: none !important;
+  display: grid !important;
+  grid-template-columns: 40px minmax(0,1fr) !important;
+  gap: 12px !important;
+  align-items: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .structuredLearning,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .transparentAssessments {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .checkIconCircle,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameChild13,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .frameChild15 {
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  flex: 0 0 40px !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27::before {
+  position: absolute !important;
+  inset: -12px !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+  transform: none !important;
+  z-index: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 > .standardBackground {
+  position: absolute !important;
+  inset: 0 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: 100% !important;
+  max-height: none !important;
+  object-fit: fill !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent27:has(> .standardBackground)::before {
+  display: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent48,
+.standardsTraining.standardsTraining.standardsTraining .frameParent49,
+.standardsTraining.standardsTraining.standardsTraining .frameWrapper11,
+.standardsTraining.standardsTraining.standardsTraining .buildAFutureReadyLearningParent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent48 {
+  margin: var(--page-section-gap) auto 0 !important;
+  max-width: 1280px !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameWrapper12 {
+  width: fit-content !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  border-radius: 8px !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .ellipseImageFrame {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  aspect-ratio: 1286 / 540 !important;
+  margin: 8px auto 0 !important;
+}
+
+@media (max-width: 1023.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent3,
+.standardsTraining.standardsTraining.standardsTraining .frameParent16 {
+  grid-template-columns: minmax(0,1fr) !important;
+  gap: 32px !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent4,
+.standardsTraining.standardsTraining.standardsTraining .frameParent5,
+.standardsTraining.standardsTraining.standardsTraining .frameParent6,
+.standardsTraining.standardsTraining.standardsTraining .frameParent17,
+.standardsTraining.standardsTraining.standardsTraining .frameParent18 {
+  align-items: center !important;
+  text-align: center !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 {
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent19 {
+  max-width: 640px !important;
+  margin: 0 auto !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent26 {
+  grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent2 {
+  margin-top: 16px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent9,
+.standardsTraining.standardsTraining.standardsTraining .frameParent26 {
+  grid-template-columns: minmax(0,1fr) !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 {
+  max-width: 440px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .forLearners {
+  font-size: 20px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .structuredLearning,
+.standardsTraining.standardsTraining.standardsTraining .frameParent27 .transparentAssessments,
+.standardsTraining.standardsTraining.standardsTraining .alignLearningWith {
+  font-size: 16px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .benefitIcon img {
+  width: 32px !important;
+  height: 32px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent27::before {
+  display: block !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent27:has(> .standardBackground)::before {
+  display: none !important;
+}
+}
+
+@media (prefers-reduced-motion: reduce) {
+.standardsTraining.standardsTraining.standardsTraining *,
+.standardsTraining.standardsTraining.standardsTraining *::before,
+.standardsTraining.standardsTraining.standardsTraining *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+}
+
+
+
+/* EMPLOYEE INDUCTION REFERENCE MATCH — 22 September 2026
+   Breadcrumb values copied from the supplied Employee Induction stylesheet.
+   Desktop right-hand sections finish 80px from the relevant outer border. */
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 1280px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: 24px auto 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: wrap !important;
+  column-gap: 8px !important;
+  row-gap: 4px !important;
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: normal !important;
+  color: #2f3547 !important;
+  background: #dfe6e9 !important;
+  box-shadow: none !important;
+  white-space: normal !important;
+  overflow: visible !important;
+  transform: none !important;
+  translate: none !important;
+  flex-shrink: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .resourcesWrapper,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .arrowRightDoubleGroup {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  width: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: 400 !important;
+  line-height: inherit !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .arrowRightDoubleGroup {
+  color: #243fa8 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .useCases,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .resources,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv a,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv span {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: 400 !important;
+  line-height: inherit !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-shadow: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .useCases {
+  letter-spacing: 0.02em !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv a {
+  color: #2d4cc8 !important;
+  text-decoration: none !important;
+  text-underline-offset: 3px !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv .breadcrumbArrow,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv img,
+.standardsTraining.standardsTraining.standardsTraining .frameDiv svg {
+  width: 16px !important;
+  height: 16px !important;
+  flex: 0 0 16px !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv a:hover {
+  text-decoration: underline !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameDiv a:focus-visible {
+  outline: 3px solid #2d4cc8 !important;
+  outline-offset: 4px !important;
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameDiv {
+  font-size: 14px !important;
+  line-height: 22px !important;
+  margin-top: 16px !important;
+}
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent2 {
+  margin-top: 24px !important;
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent2 {
+  margin-top: 16px !important;
+}
+}
+
+/* Root already contributes 24px horizontal padding on desktop.
+   The extra 56px at each side puts the section edge exactly 80px from the page edge. */
+@media (min-width: 1024px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent16 {
+  width: calc(100% - 112px) !important;
+  max-width: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) max-content !important;
+  gap: clamp(32px, 4vw, 64px) !important;
+  align-items: center !important;
+}
+}
+
+@media (min-width: 1024px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent16 .frameParent19 {
+  width: max-content !important;
+  max-width: min(520px, 48vw) !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  justify-self: end !important;
+  align-self: center !important;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent16 {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr) !important;
+  gap: 32px !important;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent16 .frameParent19 {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+}
+
+/* Assign all five flow items explicit grid rows. The nth-child selectors
+     also handle JSX that reuses arrowDownBigIcon for both arrow images. */
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 {
+  position: relative !important;
+  inset: auto !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  grid-template-rows: auto 40px auto 40px auto !important;
+  grid-auto-flow: row !important;
+  row-gap: 16px !important;
+  column-gap: 0 !important;
+  align-content: center !important;
+  align-items: center !important;
+  justify-items: center !important;
+  width: 100% !important;
+  max-width: 491px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 .outcomeBasedLearningWrapper {
+  position: relative !important;
+  inset: auto !important;
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  order: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 80px !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 .facultyDevelopmentWrapper {
+  position: relative !important;
+  inset: auto !important;
+  grid-column: 1 !important;
+  grid-row: 3 !important;
+  order: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 80px !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 .accreditationReadyWrapper {
+  position: relative !important;
+  inset: auto !important;
+  grid-column: 1 !important;
+  grid-row: 5 !important;
+  order: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 80px !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 :is(.arrowDownBigIcon, .arrowDownBigIcon2) {
+  position: relative !important;
+  inset: auto !important;
+  display: block !important;
+  grid-column: 1 !important;
+  grid-row: 2 !important;
+  order: 0 !important;
+  width: 40px !important;
+  height: 40px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  justify-self: center !important;
+  align-self: center !important;
+  object-fit: contain !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 .arrowDownBigIcon2 {
+  grid-row: 4 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 > :is(.arrowDownBigIcon, .arrowDownBigIcon2):nth-child(1 of :is(.arrowDownBigIcon, .arrowDownBigIcon2)) {
+  grid-row: 2 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 > :is(.arrowDownBigIcon, .arrowDownBigIcon2):nth-child(2 of :is(.arrowDownBigIcon, .arrowDownBigIcon2)) {
+  grid-row: 4 !important;
+}
+
+/* Hero inset is measured from the outer hero card border, not the page edge. */
+@media (min-width: 1024px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent3 {
+  padding-left: 32px !important;
+  padding-right: 80px !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 491px) !important;
+  column-gap: 32px !important;
+}
+}
+
+@media (min-width: 1024px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 {
+  justify-self: end !important;
+  margin: 0 !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 {
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 {
+  grid-template-rows: auto 32px auto 32px auto !important;
+  row-gap: 12px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.standardsTraining.standardsTraining.standardsTraining .frameParent7 :is(.arrowDownBigIcon, .arrowDownBigIcon2) {
+  width: 32px !important;
+  height: 32px !important;
+}
+}
+
+
+/* Breadcrumbs matched to the corrected Employee Induction page. */
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining {
+  --matched-breadcrumb-width: min(100vw, 1280px);
+}
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) {
+  position: relative !important;
+  inset: auto !important;
+  box-sizing: border-box !important;
+  width: var(--matched-breadcrumb-width) !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  align-self: center !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+  padding: 12px 20px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  font-family: "Segoe UI", "Inter" !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  letter-spacing: 0.02em !important;
+  color: #2f3547 !important;
+  text-align: left !important;
+  white-space: nowrap !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+  translate: none !important;
+  overflow-x: auto !important;
+  scrollbar-width: none;
+}
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"])::-webkit-scrollbar { display: none; }
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(ol, ul, .resourcesWrapper, .arrowRightDoubleGroup, li) {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  flex-shrink: 0 !important;
+  gap: 8px !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  font: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button, span, b, strong, .useCases, .resources, .home) {
+  font-family: "Segoe UI", "Inter" !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  white-space: nowrap !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  text-shadow: none !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button) {
+  display: inline-flex !important;
+  align-items: center !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  text-underline-offset: 4px !important;
+  cursor: pointer !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, strong, [aria-current="page"], li:last-child) {
+  color: #243fa8 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  flex-shrink: 0 !important;
+  white-space: nowrap !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(img, svg, .breadcrumbArrow, .arrowRightDoubleIcon, .arrowRightDoubleIcon2, .arrowDown01Icon) {
+  display: block !important;
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  flex: 0 0 16px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+  transform: none !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button):hover { text-decoration: underline !important; }
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button):focus-visible {
+  outline: 3px solid #2d4cc8 !important;
+  outline-offset: 3px !important;
+}
+
+@media (min-width: 768px) {
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) { padding-top: 32px !important; }
+}
+
+@media (min-width: 1280px) {
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) { padding-inline: 80px !important; }
+}
+
+@media (min-width: 1440px) {
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining { --matched-breadcrumb-width: min(100vw, 1440px); }
+}
+
+@media (max-width: 480px) {
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) { font-size: 12px !important; line-height: 18px !important; }
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, strong, [aria-current="page"], li:last-child) {
+    font-weight: 700 !important;
+  }
+}
+
+/* Current breadcrumb: the screenshot uses #243fa8 with bold text.
+   Set the label itself as well as nested text, overriding inherited colors. */
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) > :last-child:not(img, svg, ol, ul),
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, [aria-current="page"], strong, li:last-child),
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) > :last-child:not(img, svg, ol, ul) :is(a, button, span, div, b, strong),
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, [aria-current="page"], strong, li:last-child) :is(a, button, span, div, b, strong) {
+  color: #243fa8 !important;
+  -webkit-text-fill-color: #243fa8 !important;
+  font-weight: 700 !important;
+  text-shadow: none !important;
+}
+
+/* Same breadcrumb alignment as Customer Training. */
+@media (min-width: 768px) {
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) {
+    transform: translateX(-16px) !important;
+  }
+}
+
+
+/* Shared audience cards. Heading and checklist use normal document flow;
+   the decorative header stretches with its own content, not the full card. */
+.audienceCards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 24px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+}
+
+.audienceCard {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 6px #ffffff, 4px 4px 6px #c6c6c9;
+}
+
+.audienceCardHeader {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 24px 16px 48px;
+  text-align: center;
+}
+
+.audienceHeaderShape {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 2px rgba(196, 196, 201, 0.35));
+}
+
+.audienceHeaderShape path {
+  fill: #dfe6e9;
+  stroke: #ffffff;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.audienceNumber {
+  display: block;
+  margin: 0;
+  color: #a82360;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.03em;
+}
+
+.audienceTitle {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.audienceChecklist {
+  display: grid;
+  grid-auto-rows: minmax(48px, auto);
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 20px 24px 24px;
+}
+
+.audienceChecklistRow {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  color: #31344b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.audienceChecklistRow > span:last-child {
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.audienceCheck {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: -3px -3px 5px #ffffff, 3px 3px 5px #c6c6c9;
+}
+
+.audienceCheck img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .audienceCards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .audienceCard:last-child {
+    grid-column: 1 / -1;
+    width: calc((100% - 24px) / 2);
+    justify-self: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .audienceCards {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    max-width: 440px;
+    margin-inline: auto;
+  }
+
+  .audienceChecklist {
+    padding-inline: 20px;
+  }
+}
+
+/* Give the Benefits description a wider left column for two readable lines. */
+@media (min-width: 1024px) {
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining .frameParent16 {
+    grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr) !important;
+    column-gap: 32px !important;
+  }
+
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining .frameParent16 .frameParent19 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining .organizationsCanAchieve {
+  width: 100% !important;
+  max-width: 46ch !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin-block: 0 !important;
+  padding: 0 !important;
+  white-space: normal !important;
+  text-wrap: balance !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  line-height: 1.5 !important;
+}
+
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining .organizationsCanAchieve br:last-child,
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining .organizationsCanAchieve br:has(+ br:last-child) {
+  display: none !important;
+}
+
+
+/* Talk to Our Expert — section-specific anchor, Benefits only. */
+.standardsTraining .frameParent16 .benefitsExpertSlot {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  left: auto !important;
+  display: block;
+  width: max-content;
+  height: auto;
+  z-index: 20;
+}
+
+@media (max-width: 767.98px) {
+  .standardsTraining .frameParent16 .benefitsExpertSlot {
+    top: -20px !important;
+    right: 0 !important;
+  }
+}
+
+/* Mobile breadcrumb - equal font size */
+@media (max-width: 767px) {
+  .frameDiv,
+  .frameDiv .useCases,
+  .frameDiv b,
+  .frameDiv div {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .frameDiv .useCases {
+    font-weight: inherit;
+  }
+}
+
+/* FINAL MOBILE BREADCRUMB FONT SIZE FIX — all three labels */
+@media (max-width: 767px) {
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining .frameDiv,
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining .frameDiv .resourcesWrapper,
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining .frameDiv .homeParent,
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining .frameDiv .arrowRightDoubleGroup,
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining .frameDiv .useCases,
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining .frameDiv .useCases:is(b),
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining .frameDiv :is(a, span, b, strong, div):not(.arrowDown01Icon) {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+}
+/* Mobile - move breadcrumbs slightly left */
+@media (max-width: 767px) {
+  .standardsTraining > .frameDiv {
+    width: calc(100% - 32px) !important;
+    margin-left: 12px !important;
+    margin-right: auto !important;
+    justify-content: flex-start !important;
+  }
+}
+/* FINAL BREADCRUMB LEFT ALIGNMENT — desktop and mobile only */
+/* Match the existing high-specificity breadcrumb selector. */
+.standardsTraining.standardsTraining.standardsTraining.standardsTraining > .frameDiv {
+  transform: translateX(-32px) !important;
+}
+
+@media (max-width: 767.98px) {
+  .standardsTraining.standardsTraining.standardsTraining.standardsTraining > .frameDiv {
+    transform: translateX(-12px) !important;
+    padding-left: 16px !important;
+  }
+}

@@ -1,0 +1,6661 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* HOME PAGE ALIGNMENT — 22 September 2026
+   Full replacement: existing selectors and artwork retained below.
+   The final scoped section owns typography, controls and content layout.
+   Keep the same module import filename in your application.
+   Uses the same Inter font import as the supplied home stylesheet. */
+
+	.customerTraining {
+		width: 100%;
+		height: 4246px;
+		position: relative;
+		background-color: #dfe6e9;
+		overflow: hidden;
+		text-align: left;
+		font-size: 36px;
+		color: #31344b;
+		font-family: 'Segoe UI', 'Inter';
+	}
+	.frameParent {
+		position: absolute;
+		top: 0px;
+		left: calc(50% - 720px);
+		box-shadow:-4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+		background-color: #dfe6e9;
+		width: 1440px;
+		height: 80px;
+		overflow: hidden;
+		font-size: 16px;
+		font-family: 'Segoe UI', 'Inter';
+	}
+	.frameChild {
+		position: absolute;
+		top: calc(50% - 22px);
+		left: 1096px;
+		width: 132px;
+		height: 44px;
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.frameGroup {
+		position: absolute;
+		top: 18px;
+		left: 32px;
+		width: 1376px;
+		height: 45px;
+		flex-shrink: 0;
+	}
+	.logo01SynapseSpark1Parent {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		display: flex;
+		align-items: center;
+		gap: 130px;
+	}
+	.logo01SynapseSpark1Icon {
+		height: 45px;
+		width: 120px;
+		position: relative;
+		object-fit: cover;
+	}
+	.frameContainer {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+	}
+	.homeParent {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+	.home {
+		position: relative;
+		line-height: 24px;
+		font-weight: 600;
+	}
+	.arrowDown01Icon {
+		height: 16px;
+		width: 16px;
+		position: relative;
+	}
+	.resourcesParent {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		color: #2d4cc8;
+	}
+	.resources {
+		position: relative;
+		line-height: 24px;
+	}
+	.signInHelpWrapper {
+		position: absolute;
+		top: calc(50% - 22.5px);
+		left: 1244px;
+		box-shadow:-4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+		border-radius: 32px;
+		background-color: #dfe6e9;
+		width: 132px;
+		height: 44px;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 16px 32px;
+		box-sizing: border-box;
+		text-align: center;
+		color: #2d4cc8;
+		font-family: 'Segoe UI', 'Inter';
+	}
+	.signInHelp {
+		position: relative;
+		letter-spacing: 0.02em;
+		line-height: 28px;
+		font-weight: 600;
+		flex-shrink: 0;
+	}
+	.frameItem {
+		position: absolute;
+		top: 6px;
+		left: 11px;
+		width: 1429px;
+		height: 592.4px;
+		flex-shrink: 0;
+	}
+	.frameInner {
+		position: absolute;
+		top: 76px;
+		left: 4px;
+		width: 1436px;
+		height: 839px;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+	.frameDiv {
+		position: absolute;
+		top: 112px;
+		left: 80px;
+		background-color: #dfe6e9;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		font-size: 16px;
+		color: #2f3547;
+		font-family: 'Segoe UI', 'Inter';
+	}
+	.resourcesWrapper {
+		display: flex;
+		align-items: center;
+	}
+	.useCases {
+		position: relative;
+		letter-spacing: 0.02em;
+		line-height: 24px;
+	}
+	.arrowRightDoubleGroup {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		color: #243fa8;
+	}
+	.frameParent2 {
+		position: absolute;
+		top: 168px;
+		left: 80px;
+		width: 1280px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 64px;
+		text-align: center;
+	}
+	.vectorParent {
+		align-self: stretch;
+		height: 450px;
+		position: relative;
+	}
+	.polygonIcon {
+		position: absolute;
+		top: 0px;
+		left: calc(50% - 640px);
+		width: 1280px;
+		height: 450px;
+		object-fit: cover;
+	}
+	.frameWrapper {
+		position: absolute;
+		top: calc(50% - 161px);
+		left: 89px;
+		width: 1103px;
+		height: 322px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.frameParent3 {
+		width: 100%;
+		height: 322px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 50px;
+		max-width: 100%;
+	}
+	.frameParent4 {
+		align-self: stretch;
+		height: 212px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 24px;
+	}
+	.frameIcon {
+		width: 268.7px;
+		height: 50.2px;
+		position: relative;
+		border-radius: 28px;
+		object-fit: contain;
+	}
+	.turnProductKnowledgeIntoCuParent {
+		width: 999px;
+		height: 114px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 24px;
+	}
+	.turnProductKnowledgeContainer {
+		width: 883px;
+		height: 50px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 50px;
+		text-transform: capitalize;
+		display: inline-block;
+		flex-shrink: 0;
+	}
+	.turnProductKnowledge {
+		line-height: 50px;
+		text-transform: none;
+	}
+	.customerSuccess {
+		color: #2d4cc8;
+		line-height: 50px;
+	}
+	.neurolxpDeliversScalable {
+		width: 714px;
+		position: relative;
+		font-size: 24px;
+		letter-spacing: 0.03em;
+		line-height: 32px;
+		color: #2f3547;
+		display: inline-block;
+		flex-shrink: 0;
+	}
+	.frameWrapper2 {
+		width: 220px;
+		border-radius: 50px;
+		display: flex;
+		align-items: center;
+	}
+	.frameChild2 {
+		height: 60.2px;
+		width: 100%;
+		position: relative;
+		box-shadow:-4px -4px 4px #fff, 4px 4px 4px rgba(196, 196, 196, 0.8);
+		border-radius: 50px;
+		object-fit: contain;
+	}
+	.frameParent5 {
+		width: 1198px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 28px;
+		font-size: 48px;
+		color: #2f3547;
+	}
+	.frameWrapper3 {
+		align-self: stretch;
+		height: 72px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.empowerCustomersDriveAdoptWrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px;
+		flex-shrink: 0;
+	}
+	.empowerCustomersDrive {
+		height: 72px;
+		width: 1191px;
+		position: relative;
+		line-height: 60px;
+		text-transform: capitalize;
+		display: inline-block;
+		background: linear-gradient(90deg, #bf1869 14.9%, #2d4cc8 56.25%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		flex-shrink: 0;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.neurolxpDeliversSelfService {
+		align-self: stretch;
+		position: relative;
+		font-size: 28px;
+		line-height: 46px;
+	}
+	.image20Parent {
+		position: absolute;
+		top: 929px;
+		left: calc(50% - 640px);
+		box-shadow:-4px -4px 4px #fff inset, 4px 4px 4px rgba(196, 196, 196, 0.8) inset;
+		border-radius: 32px;
+		background-color: #dfe6e9;
+		width: 1280px;
+		height: 1146px;
+		overflow: hidden;
+		text-align: center;
+	}
+	.image20 {
+		position: absolute;
+		top: 0px;
+		left: calc(50% - 625px);
+		width: 1280px;
+		height: 800px;
+		flex-shrink: 0;
+	}
+	.frameParent6 {
+		position: absolute;
+		top: 0px;
+		left: calc(50% - 570px);
+		width: 1140px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 64px;
+		flex-shrink: 0;
+	}
+	.frameWrapper4 {
+		width: 1111px;
+		height: 312px;
+		position: relative;
+		box-shadow:-4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+		border-radius: 0px 0px 100px 100px;
+		background-color: #dfe6e9;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+	.frameWrapper5 {
+		position: absolute;
+		top: calc(50% - 106px);
+		left: calc(50% - 551.5px);
+		width: 1103px;
+		height: 212px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.frameParent7 {
+		width: 100%;
+		height: 212px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 50px;
+		max-width: 100%;
+	}
+	.frameParent8 {
+		align-self: stretch;
+		height: 212px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 24px;
+		flex-shrink: 0;
+	}
+	.frameChild4 {
+		width: 220px;
+		height: 60.2px;
+		border-radius: 50px;
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.frameParent9 {
+		align-self: stretch;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 50px;
+		font-size: 16px;
+		color: #2d4cc8;
+	}
+	.frameParent10 {
+		align-self: stretch;
+		display: flex;
+		align-items: center;
+		gap: 250px;
+	}
+	.frameParent11 {
+		width: 440px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 50px;
+	}
+	.frameParent12 {
+		align-self: stretch;
+		height: 200px;
+		position: relative;
+		box-shadow:4px 4px 4px #c4c4c4, -4px -4px 4px #fff;
+		border-radius: 32px;
+		background-color: #dfe6e9;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+	.frameChild5 {
+		position: absolute;
+		top: calc(50% - 53px);
+		left: -14px;
+		border-radius: 32px;
+		background-color: #2d4cc8;
+		width: 44px;
+		height: 107px;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+	.frameParent13 {
+		position: absolute;
+		top: calc(50% - 68px);
+		left: calc(50% - 170px);
+		width: 340px;
+		height: 136px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+		flex-shrink: 0;
+	}
+	.challenge1Parent {
+		align-self: stretch;
+		height: 66px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+		flex-shrink: 0;
+	}
+	.challenge1 {
+		width: 121px;
+		height: 24px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 24px;
+		text-transform: uppercase;
+		display: inline-block;
+		flex-shrink: 0;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.simplifyProducts {
+		width: 295px;
+		height: 32px;
+		position: relative;
+		font-size: 24px;
+		letter-spacing: 0.03em;
+		line-height: 32px;
+		display: inline-block;
+		color: #31344b;
+		flex-shrink: 0;
+	}
+	.helpCustomersLearn {
+		width: 307px;
+		height: 56px;
+		position: relative;
+		font-size: 18px;
+		letter-spacing: 0.03em;
+		line-height: 28px;
+		color: #2f3547;
+		display: inline-block;
+		flex-shrink: 0;
+	}
+	.frameParent14 {
+		align-self: stretch;
+		height: 200px;
+		position: relative;
+		box-shadow:4px 4px 4px #c4c4c4, -4px -4px 4px #fff;
+		border-radius: 32px;
+		background-color: #dfe6e9;
+		overflow: hidden;
+		flex-shrink: 0;
+		color: #67096e;
+	}
+	.frameChild6 {
+		position: absolute;
+		top: calc(50% - 53px);
+		left: -14px;
+		border-radius: 32px;
+		background-color: #67096e;
+		width: 44px;
+		height: 107px;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+	.frameParent16 {
+		width: 444px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 50px;
+		color: #bf1869;
+	}
+	.frameChild7 {
+		position: absolute;
+		top: calc(50% - 53px);
+		left: -14px;
+		border-radius: 32px;
+		background-color: #bf1869;
+		width: 44px;
+		height: 107px;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+	.frameParent19 {
+		align-self: stretch;
+		height: 200px;
+		position: relative;
+		box-shadow:4px 4px 4px #c4c4c4, -4px -4px 4px #fff;
+		border-radius: 32px;
+		background-color: #dfe6e9;
+		overflow: hidden;
+		flex-shrink: 0;
+		color: #2a7308;
+	}
+	.frameChild8 {
+		position: absolute;
+		top: calc(50% - 53px);
+		left: -14px;
+		border-radius: 32px;
+		background-color: #2a7308;
+		width: 44px;
+		height: 107px;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+	.frameParent21 {
+		width: 440px;
+		height: 200px;
+		position: relative;
+		box-shadow:4px 4px 4px #c4c4c4, -4px -4px 4px #fff;
+		border-radius: 32px;
+		background-color: #dfe6e9;
+		overflow: hidden;
+		flex-shrink: 0;
+		color: #907507;
+	}
+	.frameChild9 {
+		position: absolute;
+		top: calc(50% - 53px);
+		left: -14px;
+		border-radius: 32px;
+		background-color: #907507;
+		width: 44px;
+		height: 107px;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+
+	.frameParent23 {
+		position: absolute;
+		top: 2139px;
+		left: calc(50% - 640px);
+		width: 1280px;
+		height: 530px;
+		display: flex;
+		align-items: center;
+		gap: 257px;
+	}
+	.frameParent24 {
+		width: 593px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 24px;
+	}
+	.frameParent25 {
+		align-self: stretch;
+		height: 164px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 24px;
+	}
+	.frameChild10 {
+		width: 149.7px;
+		height: 50.1px;
+		position: relative;
+		border-radius: 28px;
+		object-fit: contain;
+		flex-shrink: 0;
+	}
+	.benefitsOfCustomer {
+		width: 593px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 50px;
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.improveProductAdoption {
+		width: 566px;
+		height: 81px;
+		position: relative;
+		font-size: 28px;
+		letter-spacing: 0.03em;
+		line-height: 40px;
+		color: #2f3547;
+		display: inline-block;
+		flex-shrink: 0;
+	}
+	.frameParent26 {
+		width: 429px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 22px;
+		font-size: 24px;
+	}
+	.frameParent27 {
+		align-self: stretch;
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+	.frameChild11 {
+		height: 70.1px;
+		width: 70.1px;
+		position: relative;
+		flex-shrink: 0;
+	}
+	.increaseProductUsage {
+		height: 37px;
+		width: 426px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 36px;
+		font-weight: 600;
+		display: inline-block;
+		flex-shrink: 0;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.frameParent28 {
+		align-self: stretch;
+		height: 70px;
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+	.frameChild12 {
+		height: 70.1px;
+		width: 70.1px;
+		position: relative;
+	}
+	.lowerSupportRequests {
+		height: 37px;
+		width: 343px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 36px;
+		font-weight: 600;
+		display: inline-block;
+		flex-shrink: 0;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.trainAtScale {
+		height: 37px;
+		width: 313px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 36px;
+		font-weight: 600;
+		display: inline-block;
+		flex-shrink: 0;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.unlockProductValue {
+		height: 37px;
+		width: 429px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 36px;
+		font-weight: 600;
+		display: inline-block;
+		flex-shrink: 0;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.measureLearning {
+		height: 37px;
+		width: 438px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 36px;
+		font-weight: 600;
+		display: inline-block;
+		flex-shrink: 0;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.strengthenEngagement {
+		height: 37px;
+		width: 445px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 36px;
+		font-weight: 600;
+		display: inline-block;
+		flex-shrink: 0;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.frameParent33 {
+		position: absolute;
+		bottom: -0.17px;
+		left: calc(50% - 720px);
+		width: 1440px;
+		height: 501px;
+		font-size: 26px;
+		color: #2f3547;
+	}
+	.frameParent34 {
+		position: absolute;
+		bottom: -0.02px;
+		left: calc(50% - 720px);
+		box-shadow:-4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+		background-color: #dfe6e9;
+		width: 1440px;
+		height: 459px;
+		overflow: hidden;
+	}
+	.frameParent35 {
+		position: absolute;
+		top: 49.81px;
+		left: 53.96px;
+		width: 1339.5px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 24px;
+	}
+	.frameParent36 {
+		align-self: stretch;
+		display: flex;
+		align-items: flex-start;
+		gap: 35px;
+	}
+	.frameParent37 {
+		width: 676px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 24px;
+		flex-shrink: 0;
+	}
+	.logo01SynapseSpark1Group {
+		width: 577px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+	}
+	.logo01SynapseSpark1Icon2 {
+		width: 299px;
+		height: 112px;
+		position: relative;
+		object-fit: cover;
+		flex-shrink: 0;
+	}
+	.frameParent38 {
+		display: flex;
+		align-items: center;
+		gap: 14px;
+		flex-shrink: 0;
+	}
+	.onePlatformParent {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+	.onePlatform {
+		position: relative;
+		letter-spacing: -0.03em;
+		line-height: 34px;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	.sparklesIcon {
+		height: 23px;
+		width: 23px;
+		position: relative;
+	}
+	.prgeeqGlobalSolutionsPrivatParent {
+		width: 459px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 4px;
+		font-size: 16px;
+	}
+	.prgeeqGlobalSolutions {
+		align-self: stretch;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 24px;
+	}
+	.prestigeAtlanta1012Container {
+		align-self: stretch;
+		height: 77px;
+		position: relative;
+		line-height: 24px;
+		display: flex;
+		align-items: flex-end;
+		flex-shrink: 0;
+	}
+	.blankLine {
+		line-height: 24px;
+	}
+	.frameParent39 {
+		width: 631px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		gap: 24px;
+		flex-shrink: 0;
+		font-size: 22px;
+		color: #2d4cc8;
+	}
+	.frameParent40 {
+		width: 619px;
+		display: flex;
+		align-items: flex-start;
+		gap: 32px;
+	}
+	.aboutUsParent {
+		width: 123px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+	}
+	.aboutUs {
+		width: 93px;
+		position: relative;
+		letter-spacing: -0.03em;
+		line-height: 30px;
+		display: flex;
+		align-items: center;
+	}
+	.ourMissionParent {
+		align-self: stretch;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+		font-size: 20px;
+		color: #2f3547;
+	}
+	.ourMission {
+		align-self: stretch;
+		height: 26px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 28px;
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.quickLinksParent {
+		width: 207px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+	}
+	.quickLinks {
+		align-self: stretch;
+		height: 26px;
+		position: relative;
+		letter-spacing: -0.03em;
+		line-height: 30px;
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.neurolxpParent {
+		height: 181px;
+		width: 205px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+	}
+	.neurolxp {
+		align-self: stretch;
+		height: 26px;
+		position: relative;
+		letter-spacing: -0.03em;
+		line-height: 30px;
+		display: flex;
+		white-space: pre-wrap;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.ourCustomersGroup {
+		width: 221px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+		flex-shrink: 0;
+		font-size: 20px;
+		color: #2f3547;
+	}
+	.smartContentCreation {
+		width: 229px;
+		height: 26px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 28px;
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.frameParent41 {
+		width: 392.4px;
+		height: 80.1px;
+		display: flex;
+		align-items: center;
+		gap: 24px;
+	}
+	.frameChild17 {
+		height: 80.1px;
+		width: 80.1px;
+		position: relative;
+	}
+	.copyright2026 {
+		align-self: stretch;
+		height: 47px;
+		position: relative;
+		font-size: 16px;
+		letter-spacing: -0.03em;
+		line-height: 56px;
+		font-weight: 600;
+		color: #2d4cc8;
+		text-align: center;
+		display: inline-block;
+		flex-shrink: 0;
+	}
+	.frameWrapper6 {
+		position: absolute;
+		bottom: 0px;
+		left: calc(50% - 720px);
+		box-shadow:-4px -4px 4px #fff inset, 4px 4px 4px #c4c4c4 inset;
+		background-color: #dfe6e9;
+		width: 1440px;
+		height: 459px;
+		overflow: hidden;
+	}
+	.frameParent46 {
+		width: 631px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		position: relative;
+		isolation: isolate;
+		gap: 24px;
+		flex-shrink: 0;
+		font-size: 22px;
+		color: #2d4cc8;
+	}
+	.frameParent47 {
+		width: 619px;
+		display: flex;
+		align-items: flex-start;
+		gap: 32px;
+		z-index: 0;
+		flex-shrink: 0;
+	}
+	.ourMissionGroup {
+		align-self: stretch;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+		font-size: 18px;
+		color: #2f3547;
+	}
+	.neurolxpGroup {
+		display: flex;
+		align-items: flex-start;
+		flex-shrink: 0;
+	}
+	.neurolxp2 {
+		height: 26px;
+		width: 103px;
+		position: relative;
+		letter-spacing: -0.03em;
+		line-height: 30px;
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.neurolxpTxt {
+		width: 100%;
+		white-space: pre-wrap;
+	}
+	.neurolxp3 {
+		line-height: 30px;
+	}
+	.span {
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.tm {
+		height: 17px;
+		width: 23px;
+		position: relative;
+		font-size: 12px;
+		letter-spacing: -0.03em;
+		line-height: 30px;
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.ourCustomersContainer {
+		width: 221px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+		flex-shrink: 0;
+		font-size: 18px;
+		color: #2f3547;
+	}
+	.frameParent49 {
+		width: 392.4px;
+		height: 80.1px;
+		margin: 0 !important;
+		position: absolute;
+		top: 217.19px;
+		left: 135.04px;
+		display: flex;
+		align-items: center;
+		gap: 24px;
+		z-index: 1;
+		flex-shrink: 0;
+	}
+	.frameChild21 {
+		height: 80.1px;
+		width: 80.1px;
+		position: relative;
+		flex-shrink: 0;
+	}
+	.frameChild26 {
+		position: absolute;
+		top: 0px;
+		left: calc(50% - 30.07px);
+		border-radius: 32px;
+		width: 59.1px;
+		height: 92px;
+		object-fit: contain;
+	}
+	.frameParent50 {
+		position: absolute;
+		top: 2765px;
+		left: 169px;
+		width: 1103px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 64px;
+		text-align: center;
+	}
+	.frameParent51 {
+		align-self: stretch;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 50px;
+	}
+	.frameChild27 {
+		width: 330.6px;
+		height: 50.3px;
+		position: relative;
+		border-radius: 28px;
+		object-fit: contain;
+	}
+	.turnCustomerEducationContainer {
+		width: 893px;
+		height: 50px;
+		position: relative;
+		letter-spacing: 0.03em;
+		line-height: 50px;
+		text-transform: capitalize;
+		display: inline-block;
+		flex-shrink: 0;
+	}
+	.frameChild29 {
+		width: 935px;
+		height: 498px;
+		position: relative;
+		object-fit: cover;
+	}
+
+
+	.customerTraining {
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	background-color: #dfe6e9;
+	overflow-x: hidden;
+	overflow-y: visible;
+	box-sizing: border-box;
+	}
+
+	.frameParent {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 100%;
+	max-width: 1440px;
+	height: 80px;
+	margin: 0 auto;
+	flex: 0 0 auto;
+	}
+
+	.frameDiv {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 1280px;
+	max-width: calc(100% - 160px);
+	min-height: 24px;
+	margin: 32px auto 0;
+	flex: 0 0 auto;
+	}
+
+	.frameParent2 {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 1280px;
+	max-width: calc(100% - 160px);
+	margin: 32px auto 0;
+	flex: 0 0 auto;
+	}
+
+
+
+	.image20Parent {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 1280px;
+	max-width: calc(100% - 160px);
+	height: 1146px;
+	margin: 64px auto 0;
+	flex: 0 0 auto;
+	}
+
+	.frameParent23 {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 1280px;
+	max-width: calc(100% - 160px);
+	height: 530px;
+	margin: 64px auto 0;
+	flex: 0 0 auto;
+	}
+
+	.frameParent50 {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 1280px;
+	max-width: calc(100% - 160px);
+	margin: 64px auto 0;
+	flex: 0 0 auto;
+	}
+
+	.frameParent33 {
+	position: relative;
+	bottom: auto;
+	left: auto;
+	width: 100%;
+	max-width: 1440px;
+	height: 501px;
+	margin: 64px auto 0;
+	flex: 0 0 auto;
+	}
+
+	@media (max-width: 1180px) {
+	.frameDiv,
+	.frameParent2,
+	.image20Parent,
+	.frameParent23,
+	.frameParent50 {
+		max-width: calc(100% - 80px);
+	}
+	}
+
+	@media (max-width: 900px) {
+	.frameDiv,
+	.frameParent2,
+	.image20Parent,
+	.frameParent23,
+	.frameParent50 {
+		max-width: calc(100% - 48px);
+	}
+	}
+
+	@media (max-width: 600px) {
+	.frameDiv,
+	.frameParent2,
+	.image20Parent,
+	.frameParent23,
+	.frameParent50 {
+		max-width: calc(100% - 32px);
+	}
+	}
+
+	/* CUSTOMER TRAINING HERO — PNG MATCH */
+	.frameParent2 > .vectorParent {
+	width: 100%;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	isolation: isolate;
+	}
+
+	.frameParent2 > .vectorParent .polygonIcon {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	}
+
+	.frameParent2 > .vectorParent .frameWrapper {
+	position: relative;
+	inset: auto;
+	width: min(1103px, calc(100% - 80px));
+	height: auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.frameParent2 > .vectorParent .frameParent3 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 48px;
+	}
+
+	.frameParent2 > .vectorParent .frameParent4 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+	}
+
+	.frameParent2 > .vectorParent .frameIcon {
+	width: auto;
+	min-width: 268px;
+	height: 50px;
+	padding: 0 30px;
+	border-radius: 28px;
+	background: #dfe6e9;
+	box-shadow:inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	color: #2d4cc8;
+	font-family: 'Segoe UI', 'Inter';
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	white-space: nowrap;
+	}
+
+	.frameParent2 > .vectorParent .turnProductKnowledgeIntoCuParent {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+	}
+
+	.frameParent2 > .vectorParent .turnProductKnowledgeContainer {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	color: #31344b;
+	font-family: 'Segoe UI', 'Inter';
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	text-align: center;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
+	}
+
+	.frameParent2 > .vectorParent .turnProductKnowledge,
+	.frameParent2 > .vectorParent .customerSuccess {
+	line-height: inherit;
+	}
+
+	.frameParent2 > .vectorParent .neurolxpDeliversScalable {
+	width: min(714px, 100%);
+	margin: 0;
+	color: #2f3547;
+	font-family: 'Segoe UI', 'Inter';
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	text-align: center;
+	}
+
+	.frameParent2 > .vectorParent .frameWrapper2 {
+	width: 220px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	}
+
+	.frameParent2 > .vectorParent .frameChild2 {
+	width: 100%;
+	height: 60px;
+	border: 0;
+	border-radius: 50px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px #fff, 4px 4px 4px rgba(196, 196, 196, 0.8);
+	color: #2d4cc8;
+	font-family: 'Segoe UI', 'Inter';
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 700;
+	cursor: pointer;
+	}
+
+	@media (max-width: 1024px) {
+	.frameParent2 > .vectorParent {
+		height: 420px;
+	}
+
+	.frameParent2 > .vectorParent .frameWrapper {
+		width: min(900px, calc(100% - 64px));
+	}
+
+	.frameParent2 > .vectorParent .turnProductKnowledgeContainer {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.frameParent2 > .vectorParent .neurolxpDeliversScalable {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	}
+
+	@media (max-width: 768px) {
+	.frameParent2 > .vectorParent {
+		height: 500px;
+	}
+
+	.frameParent2 > .vectorParent .frameWrapper {
+		width: calc(100% - 48px);
+	}
+
+	.frameParent2 > .vectorParent .frameParent3 {
+		gap: 32px;
+	}
+
+	.frameParent2 > .vectorParent .frameParent4,
+	.frameParent2 > .vectorParent .turnProductKnowledgeIntoCuParent {
+		gap: 24px;
+	}
+
+	.frameParent2 > .vectorParent .frameIcon {
+		min-width: 0;
+		height: 48px;
+		padding: 0 24px;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.frameParent2 > .vectorParent .turnProductKnowledgeContainer {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.frameParent2 > .vectorParent .neurolxpDeliversScalable {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	}
+
+	@media (max-width: 480px) {
+	.frameParent2 > .vectorParent {
+		height: 540px;
+	}
+
+	.frameParent2 > .vectorParent .frameWrapper {
+		width: calc(100% - 32px);
+	}
+
+	.frameParent2 > .vectorParent .turnProductKnowledgeContainer {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.frameParent2 > .vectorParent .neurolxpDeliversScalable {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.frameParent2 > .vectorParent .frameWrapper2 {
+		width: min(220px, 100%);
+	}
+
+	.frameParent2 > .vectorParent .frameChild2 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	}
+
+
+	/* Exact Customer Training hero SVG */
+	.vectorParent {
+	position: relative;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1280 / 450;
+	overflow: visible;
+	}
+
+	.polygonIcon {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	max-width: none;
+	object-fit: fill;
+	display: block;
+	transform: none;
+	background: none;
+	clip-path: none;
+	border-radius: 0;
+	box-shadow:none;
+	pointer-events: none;
+	user-select: none;
+	}
+
+	@media (max-width: 900px) {
+	.vectorParent {
+		min-height: 420px;
+		aspect-ratio: auto;
+	}
+
+	.polygonIcon {
+		object-fit: fill;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.vectorParent {
+		min-height: 470px;
+	}
+	}
+
+	@media (max-width: 360px) {
+	.vectorParent {
+		min-height: 500px;
+	}
+	}
+
+
+	.customerTrainingChild {
+	position: relative;
+	top: auto;
+	left: 50%;
+	width: 100vw;
+	max-width: 1440px;
+	height: 5px;
+	margin: 64px 0 0;
+	display: block;
+	object-fit: fill;
+	transform: translateX(-50%);
+	overflow: visible;
+	flex: 0 0 auto;
+	}
+
+	/* Customer Training challenge section alignment */
+	.image20Parent {
+	background-color: #dfe6e9;
+	background-image: none;
+	}
+
+	.image20 {
+	display: none;
+	}
+
+	.frameWrapper4 {
+	background-color: #dfe6e9;
+	}
+
+	.frameParent9 {
+	width: 100%;
+	box-sizing: border-box;
+	}
+
+	@media (max-width: 1024px) {
+	.customerTrainingChild {
+		margin-top: 48px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.customerTrainingChild {
+		margin-top: 48px;
+	}
+	}
+
+	/* Final Customer Training picture-perfect section correction */
+	.frameParent2 > .frameParent5 {
+	width: 1198px;
+	max-width: 100%;
+	margin: 64px auto 0;
+	align-items: center;
+	text-align: center;
+	}
+
+	.frameParent2 > .frameParent5 .frameWrapper3,
+	.frameParent2 > .frameParent5 .empowerCustomersDriveAdoptWrapper {
+	width: 100%;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+	white-space: nowrap;
+	}
+
+	.frameParent2 > .frameParent5 .neurolxpDeliversSelfService {
+	width: 100%;
+	margin: 0;
+	font-size: 28px;
+	line-height: 46px;
+	text-align: center;
+	}
+
+	.customerTrainingChild {
+	position: relative;
+	top: auto;
+	left: 50%;
+	width: 100vw;
+	max-width: 1440px;
+	height: 5px;
+	margin: 64px 0 0;
+	display: block;
+	object-fit: fill;
+	transform: translateX(-50%);
+	overflow: visible;
+	flex: 0 0 auto;
+	}
+
+	.image20Parent {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 1280px;
+	max-width: calc(100% - 160px);
+	height: 850px;
+	margin: 64px auto 0;
+	padding: 64px 70px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 32px;
+	background: #dfe6e9;
+	box-shadow:inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	text-align: center;
+	}
+
+	.image20,
+	.image20Parent .frameWrapper4 {
+	display: none !important;
+	}
+
+	.image20Parent .frameParent6 {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0;
+	}
+
+	.image20Parent .frameParent9 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+	}
+
+	.image20Parent .frameParent10 {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 250px;
+	}
+
+	.image20Parent .frameParent11,
+	.image20Parent .frameParent16 {
+	width: 440px;
+	max-width: calc(50% - 125px);
+	}
+
+	.image20Parent .frameParent21 {
+	width: 440px;
+	max-width: 100%;
+	}
+
+	@media (max-width: 1180px) {
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+		font-size: 40px;
+		line-height: 52px;
+		white-space: normal;
+	}
+
+	.image20Parent {
+		max-width: calc(100% - 80px);
+		height: auto;
+		min-height: 850px;
+		padding: 56px 48px;
+	}
+
+	.image20Parent .frameParent10 {
+		gap: 80px;
+	}
+
+	.image20Parent .frameParent11,
+	.image20Parent .frameParent16 {
+		max-width: calc(50% - 40px);
+	}
+	}
+
+	@media (max-width: 900px) {
+	.frameParent2 > .frameParent5 {
+		margin-top: 48px;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.frameParent2 > .frameParent5 .neurolxpDeliversSelfService {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.customerTrainingChild {
+		margin-top: 48px;
+	}
+
+	.image20Parent {
+		max-width: calc(100% - 48px);
+		min-height: 0;
+		padding: 48px 32px;
+	}
+
+	.image20Parent .frameParent9,
+	.image20Parent .frameParent10 {
+		gap: 32px;
+	}
+
+	.image20Parent .frameParent10 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.image20Parent .frameParent11,
+	.image20Parent .frameParent16,
+	.image20Parent .frameParent21 {
+		width: min(440px, 100%);
+		max-width: 100%;
+		align-items: stretch;
+		gap: 32px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.frameParent2 > .frameParent5 .neurolxpDeliversSelfService {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.image20Parent {
+		max-width: calc(100% - 32px);
+		margin-top: 48px;
+		padding: 40px 16px;
+		border-radius: 24px;
+	}
+
+	.image20Parent .frameParent9,
+	.image20Parent .frameParent10,
+	.image20Parent .frameParent11,
+	.image20Parent .frameParent16 {
+		gap: 24px;
+	}
+	}
+	/* CUSTOMER TRAINING CHALLENGE SECTION — FINAL RESPONSIVE OVERRIDE */
+
+	.image20Parent {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	max-width: none;
+	height: auto;
+	min-height: 0;
+	margin: 64px auto 0;
+	padding: 0 70px 64px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 32px;
+	background: #dfe6e9;
+	box-shadow:inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	text-align: center;
+	}
+
+	.image20 {
+	display: none;
+	}
+
+	.image20Parent .frameParent6 {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+	}
+
+	.image20Parent .frameWrapper4 {
+	display: flex !important;
+	position: relative;
+	inset: auto;
+	width: calc(100% - 29px);
+	max-width: 1111px;
+	min-height: 312px;
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	border-radius: 0 0 100px 100px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4;
+	}
+
+	.image20Parent .frameWrapper5 {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	height: auto;
+	padding: 48px 40px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.image20Parent .frameParent7,
+	.image20Parent .frameParent8 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+
+	.image20Parent .frameParent7 {
+	gap: 0;
+	}
+
+	.image20Parent .frameParent8 {
+	gap: 24px;
+	}
+
+	.image20Parent .frameIcon {
+	width: auto;
+	min-width: 268px;
+	height: 50px;
+	padding: 0 28px;
+	box-sizing: border-box;
+	border-radius: 28px;
+	background: #dfe6e9;
+	box-shadow:inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	color: #2d4cc8;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	}
+
+	.image20Parent .turnProductKnowledgeIntoCuParent {
+	width: 100%;
+	height: auto;
+	gap: 24px;
+	}
+
+	.image20Parent .turnProductKnowledgeContainer {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	font-family: "Segoe UI", "Inter";
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-align: center;
+	}
+
+	.image20Parent .turnProductKnowledge,
+	.image20Parent .customerSuccess {
+	line-height: inherit;
+	}
+
+	.image20Parent .neurolxpDeliversScalable {
+	width: min(714px, 100%);
+	height: auto;
+	margin: 0;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.03em;
+	text-align: center;
+	}
+
+	.image20Parent .frameChild4 {
+	display: none;
+	}
+
+	.image20Parent .frameParent9 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+	}
+
+	.image20Parent .frameParent10 {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 440px));
+	justify-content: space-between;
+	align-items: start;
+	gap: 50px 40px;
+	}
+
+	.image20Parent .frameParent11,
+	.image20Parent .frameParent16 {
+	width: 100%;
+	max-width: 440px;
+	display: contents;
+	}
+
+	.image20Parent .frameParent12,
+	.image20Parent .frameParent14,
+	.image20Parent .frameParent19,
+	.image20Parent .frameParent21 {
+	width: 100%;
+	min-height: 200px;
+	height: auto;
+	position: relative;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 32px;
+	background: #dfe6e9;
+	box-shadow:4px 4px 4px #c4c4c4,
+		-4px -4px 4px #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.image20Parent .frameParent12:nth-child(1) {
+	grid-column: 1;
+	}
+
+	.image20Parent .frameParent14 {
+	grid-column: 1;
+	}
+
+	.image20Parent .frameParent19 {
+	grid-column: 2;
+	}
+
+	.image20Parent .frameParent21 {
+	grid-column: 1 / -1;
+	justify-self: center;
+	max-width: 440px;
+	}
+
+	.image20Parent .frameChild5,
+	.image20Parent .frameChild6,
+	.image20Parent .frameChild7,
+	.image20Parent .frameChild8,
+	.image20Parent .frameChild9 {
+	position: absolute;
+	top: 50%;
+	left: -14px;
+	width: 44px;
+	height: 107px;
+	border-radius: 32px;
+	transform: translateY(-50%);
+	}
+
+	.image20Parent .frameParent13 {
+	position: relative;
+	inset: auto;
+	width: min(340px, calc(100% - 72px));
+	height: auto;
+	min-height: 136px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	}
+
+	.image20Parent .challenge1Parent {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+	}
+
+	.image20Parent .challenge1 {
+	width: auto;
+	height: auto;
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+	.image20Parent .simplifyProducts {
+	width: 100%;
+	height: auto;
+	font-size: 24px;
+	line-height: 32px;
+	}
+
+	.image20Parent .helpCustomersLearn {
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	line-height: 28px;
+	}
+
+	@media (max-width: 1180px) {
+	.image20Parent {
+		width: calc(100% - 80px);
+		padding: 0 48px 56px;
+	}
+
+	.image20Parent .frameParent10 {
+		gap: 40px;
+	}
+	}
+
+	@media (max-width: 900px) {
+	.image20Parent {
+		width: calc(100% - 48px);
+		margin-top: 48px;
+		padding: 0 32px 48px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		width: 100%;
+		min-height: 300px;
+		border-radius: 0 0 72px 72px;
+	}
+
+	.image20Parent .frameWrapper5 {
+		padding: 40px 28px;
+	}
+
+	.image20Parent .frameIcon {
+		min-width: 0;
+		height: 48px;
+		padding: 0 24px;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.image20Parent .turnProductKnowledgeContainer {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.image20Parent .neurolxpDeliversScalable {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.image20Parent .frameParent10 {
+		grid-template-columns: minmax(0, 440px);
+		justify-content: center;
+		gap: 32px;
+	}
+
+	.image20Parent .frameParent12,
+	.image20Parent .frameParent14,
+	.image20Parent .frameParent19,
+	.image20Parent .frameParent21 {
+		grid-column: 1;
+		max-width: 440px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.image20Parent {
+		width: calc(100% - 32px);
+		padding: 0 16px 40px;
+		border-radius: 24px;
+	}
+
+	.image20Parent .frameParent6 {
+		gap: 40px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 280px;
+		border-radius: 0 0 48px 48px;
+	}
+
+	.image20Parent .frameWrapper5 {
+		padding: 32px 18px;
+	}
+
+	.image20Parent .frameParent8,
+	.image20Parent .turnProductKnowledgeIntoCuParent {
+		gap: 18px;
+	}
+
+	.image20Parent .frameIcon {
+		height: 44px;
+		padding: 0 20px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.image20Parent .turnProductKnowledgeContainer {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.image20Parent .neurolxpDeliversScalable {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.image20Parent .frameParent9,
+	.image20Parent .frameParent10 {
+		gap: 24px;
+	}
+
+	.image20Parent .frameParent12,
+	.image20Parent .frameParent14,
+	.image20Parent .frameParent19,
+	.image20Parent .frameParent21 {
+		min-height: 180px;
+		border-radius: 24px;
+	}
+
+	.image20Parent .frameParent13 {
+		width: calc(100% - 56px);
+		gap: 12px;
+	}
+
+	.image20Parent .challenge1Parent {
+		gap: 8px;
+	}
+
+	.image20Parent .challenge1 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.image20Parent .simplifyProducts {
+		font-size: 21px;
+		line-height: 28px;
+	}
+
+	.image20Parent .helpCustomersLearn {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.image20Parent .frameChild5,
+	.image20Parent .frameChild6,
+	.image20Parent .frameChild7,
+	.image20Parent .frameChild8,
+	.image20Parent .frameChild9 {
+		left: -12px;
+		width: 38px;
+		height: 96px;
+	}
+	}
+	/* CUSTOMER TRAINING PNG MATCH — TOP NEUMORPHIC PANEL + CARD ORDER */
+
+	.image20Parent {
+	padding-top: 0;
+	}
+
+	.image20Parent .frameWrapper4 {
+	display: flex !important;
+	width: calc(100% - 29px);
+	max-width: 1111px;
+	min-height: 312px;
+	margin: 0 auto;
+	border-radius: 0 0 100px 100px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px rgba(255, 255, 255, 0.98),
+		4px 4px 4px rgba(174, 181, 184, 0.72);
+	overflow: hidden;
+	}
+
+	.image20Parent .frameWrapper5 {
+	width: 100%;
+	min-height: 312px;
+	padding: 50px 40px 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.image20Parent .frameIcon {
+	background: #dfe6e9;
+	box-shadow:inset 4px 4px 4px rgba(181, 188, 191, 0.72),
+		inset -4px -4px 4px rgba(255, 255, 255, 0.98);
+	}
+
+	.image20Parent .turnProductKnowledgeContainer {
+	text-shadow: none;
+	}
+
+	.image20Parent .frameParent10 {
+	grid-template-columns: repeat(2, minmax(0, 440px));
+	grid-template-areas:
+		"challenge1 challenge2"
+		"challenge3 challenge4";
+	}
+
+	.image20Parent .frameParent11,
+	.image20Parent .frameParent16 {
+	display: contents;
+	}
+
+	.image20Parent .frameParent11 > .frameParent12 {
+	grid-area: challenge1;
+	}
+
+	.image20Parent .frameParent16 > .frameParent12 {
+	grid-area: challenge2;
+	}
+
+	.image20Parent .frameParent11 > .frameParent14 {
+	grid-area: challenge3;
+	}
+
+	.image20Parent .frameParent16 > .frameParent19 {
+	grid-area: challenge4;
+	}
+
+	.image20Parent .frameParent21 {
+	margin-top: 0;
+	}
+
+	.image20Parent .frameParent12,
+	.image20Parent .frameParent14,
+	.image20Parent .frameParent19,
+	.image20Parent .frameParent21 {
+	box-shadow:-4px -4px 4px rgba(255, 255, 255, 0.98),
+		4px 4px 4px rgba(174, 181, 184, 0.72);
+	}
+
+	@media (max-width: 900px) {
+	.image20Parent .frameParent10 {
+		grid-template-columns: minmax(0, 440px);
+		grid-template-areas:
+		"challenge1"
+		"challenge2"
+		"challenge3"
+		"challenge4";
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 300px;
+		border-radius: 0 0 72px 72px;
+	}
+
+	.image20Parent .frameWrapper5 {
+		min-height: 300px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.image20Parent .frameWrapper4 {
+		min-height: 290px;
+		border-radius: 0 0 48px 48px;
+	}
+
+	.image20Parent .frameWrapper5 {
+		min-height: 290px;
+		padding: 34px 18px 30px;
+	}
+	}
+	/* CUSTOMER TRAINING — FIGMA TOP-CORNER MATCH */
+
+	.image20Parent {
+	border-radius: 32px;
+	}
+
+	.image20Parent .frameWrapper4 {
+	width: calc(100% - 29px);
+	max-width: 1111px;
+	margin: 0 auto;
+	border-radius: 32px 32px 100px 100px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px rgba(255, 255, 255, 0.98),
+		4px 4px 4px rgba(174, 181, 184, 0.72);
+	}
+
+	@media (max-width: 900px) {
+	.image20Parent .frameWrapper4 {
+		border-radius: 28px 28px 72px 72px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.image20Parent {
+		border-radius: 24px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		border-radius: 22px 22px 48px 48px;
+	}
+	}
+	/* CUSTOMER TRAINING BENEFITS SECTION — PNG MATCH */
+
+	.frameParent23 {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	max-width: none;
+	height: auto;
+	min-height: 530px;
+	margin: 64px auto 0;
+	display: grid;
+	grid-template-columns: minmax(0, 593px) minmax(360px, 429px);
+	align-items: center;
+	justify-content: space-between;
+	gap: 80px;
+	box-sizing: border-box;
+	font-family: "Segoe UI", "Inter";
+	}
+
+	.frameParent24 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 32px;
+	}
+
+	.frameParent25 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 28px;
+	}
+
+	.benefitsBadge {
+	min-width: 150px;
+	height: 50px;
+	padding: 0 28px;
+	box-sizing: border-box;
+	border-radius: 28px;
+	background: #dfe6e9;
+	box-shadow:inset 4px 4px 4px rgba(196, 196, 196, 0.72),
+		inset -4px -4px 4px rgba(255, 255, 255, 0.98);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #2d4cc8;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	}
+
+	.benefitsOfCustomer {
+	width: 100%;
+	margin: 0;
+	color: #31344b;
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-align: left;
+	}
+
+	.improveProductAdoption {
+	width: min(566px, 100%);
+	height: auto;
+	margin: 0;
+	color: #2f3547;
+	font-size: 28px;
+	line-height: 40px;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	text-align: left;
+	}
+
+	.frameParent26 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 22px;
+	}
+
+	.frameParent27,
+	.frameParent28 {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	}
+
+	.benefitIconOuter {
+	width: 70px;
+	height: 70px;
+	flex: 0 0 70px;
+	border-radius: 50%;
+	background: #dfe6e9;
+	box-shadow:inset 4px 4px 4px rgba(196, 196, 196, 0.78),
+		inset -4px -4px 4px rgba(255, 255, 255, 1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.benefitIconInner {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background: #eef3f5;
+	box-shadow:-4px -4px 4px rgba(255, 255, 255, 0.98),
+		4px 4px 4px rgba(176, 183, 186, 0.72);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.benefitIcon {
+	width: 34px;
+	height: 34px;
+	object-fit: contain;
+	display: block;
+	}
+
+	.increaseProductUsage,
+	.lowerSupportRequests,
+	.trainAtScale,
+	.unlockProductValue,
+	.measureLearning,
+	.strengthenEngagement {
+	width: auto;
+	height: auto;
+	margin: 0;
+	color: #31344b;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+	white-space: nowrap;
+	}
+
+	@media (max-width: 1180px) {
+	.frameParent23 {
+		width: calc(100% - 80px);
+		grid-template-columns: minmax(0, 1fr) minmax(340px, 429px);
+		gap: 56px;
+	}
+
+	.benefitsOfCustomer {
+		font-size: 34px;
+		line-height: 46px;
+	}
+
+	.improveProductAdoption {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	}
+
+	@media (max-width: 900px) {
+	.frameParent23 {
+		width: calc(100% - 48px);
+		min-height: 0;
+		margin-top: 48px;
+		grid-template-columns: 1fr;
+		gap: 48px;
+	}
+
+	.frameParent24 {
+		align-items: center;
+		text-align: center;
+	}
+
+	.frameParent25 {
+		align-items: center;
+	}
+
+	.benefitsOfCustomer,
+	.improveProductAdoption {
+		text-align: center;
+	}
+
+	.frameParent26 {
+		width: min(520px, 100%);
+		margin: 0 auto;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.frameParent23 {
+		width: calc(100% - 32px);
+		gap: 40px;
+	}
+
+	.benefitsBadge {
+		min-width: 132px;
+		height: 46px;
+		padding: 0 22px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.benefitsOfCustomer {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.improveProductAdoption {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.frameParent26 {
+		gap: 18px;
+	}
+
+	.frameParent27,
+	.frameParent28 {
+		height: 62px;
+		gap: 16px;
+	}
+
+	.benefitIconOuter {
+		width: 62px;
+		height: 62px;
+		flex-basis: 62px;
+	}
+
+	.benefitIconInner {
+		width: 46px;
+		height: 46px;
+	}
+
+	.benefitIcon {
+		width: 30px;
+		height: 30px;
+	}
+
+	.increaseProductUsage,
+	.lowerSupportRequests,
+	.trainAtScale,
+	.unlockProductValue,
+	.measureLearning,
+	.strengthenEngagement {
+		font-size: 18px;
+		line-height: 26px;
+		white-space: normal;
+	}
+	}
+	/* FINAL NORMAL-FLOW FIX — BENEFITS, CTA AND FOOTER */
+
+	.customerTraining {
+	height: auto;
+	min-height: 100vh;
+	overflow-x: hidden;
+	overflow-y: visible;
+	}
+
+	.frameParent23,
+	.frameParent50,
+	.frameParent33 {
+	position: relative;
+	inset: auto;
+	flex: 0 0 auto;
+	z-index: auto;
+	}
+
+	/* Benefits section stays above the CTA */
+	.frameParent23 {
+	width: min(1280px, calc(100% - 160px));
+	max-width: none;
+	height: auto;
+	min-height: 530px;
+	margin: 64px auto 0;
+	}
+
+	/* Final customer-success section */
+	.frameParent50 {
+	width: min(1103px, calc(100% - 160px));
+	max-width: none;
+	height: auto;
+	margin: 80px auto 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+	text-align: center;
+	box-sizing: border-box;
+	}
+
+	.frameParent50 .frameParent51 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 48px;
+	}
+
+	.frameParent50 .frameParent4 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 28px;
+	}
+
+	.frameParent50 .frameChild27 {
+	width: auto;
+	min-width: 330px;
+	height: 50px;
+	padding: 0 30px;
+	box-sizing: border-box;
+	border-radius: 28px;
+	background: #dfe6e9;
+	box-shadow:inset 4px 4px 4px rgba(196, 196, 196, 0.72),
+		inset -4px -4px 4px rgba(255, 255, 255, 0.98);
+	object-fit: contain;
+	}
+
+	.frameParent50 .turnProductKnowledgeIntoCuParent {
+	width: 100%;
+	max-width: 999px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 28px;
+	}
+
+	.frameParent50 .turnCustomerEducationContainer {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	color: #31344b;
+	font-family: "Segoe UI", "Inter";
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-align: center;
+	text-transform: capitalize;
+	}
+
+	.frameParent50 .neurolxpDeliversScalable {
+	width: min(760px, 100%);
+	height: auto;
+	margin: 0;
+	color: #2f3547;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	text-align: center;
+	}
+
+	.frameParent50 .frameWrapper2 {
+	width: 220px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.frameParent50 .frameChild2 {
+	width: 220px;
+	height: 60px;
+	border-radius: 50px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px rgba(255, 255, 255, 0.98),
+		4px 4px 4px rgba(196, 196, 196, 0.82);
+	object-fit: contain;
+	}
+
+	.frameParent50 .frameChild29 {
+	position: relative;
+	inset: auto;
+	width: min(935px, 100%);
+	height: auto;
+	aspect-ratio: 935 / 498;
+	display: block;
+	object-fit: cover;
+	border-radius: 72px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px rgba(255, 255, 255, 0.98),
+		4px 4px 4px rgba(196, 196, 196, 0.86);
+	overflow: hidden;
+	}
+
+	/* Decorative separator before footer */
+	.frameChild26 {
+	position: relative;
+	inset: auto;
+	width: 59px;
+	height: 92px;
+	margin: 64px auto 0;
+	display: block;
+	object-fit: contain;
+	}
+
+	/* Footer comes after all page sections */
+	.frameParent33 {
+	width: 100%;
+	max-width: 1440px;
+	height: 501px;
+	margin: 64px auto 0;
+	order: initial;
+	}
+
+	@media (max-width: 1180px) {
+	.frameParent23,
+	.frameParent50 {
+		width: calc(100% - 80px);
+	}
+
+	.frameParent50 .turnCustomerEducationContainer {
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	.frameParent50 .neurolxpDeliversScalable {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	}
+
+	@media (max-width: 900px) {
+	.frameParent23,
+	.frameParent50 {
+		width: calc(100% - 48px);
+	}
+
+	.frameParent50 {
+		margin-top: 64px;
+		gap: 48px;
+	}
+
+	.frameParent50 .frameChild29 {
+		border-radius: 48px;
+	}
+
+	.frameParent33 {
+		margin-top: 48px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.frameParent23,
+	.frameParent50 {
+		width: calc(100% - 32px);
+	}
+
+	.frameParent50 {
+		margin-top: 48px;
+		gap: 40px;
+	}
+
+	.frameParent50 .frameParent51 {
+		gap: 36px;
+	}
+
+	.frameParent50 .frameChild27 {
+		min-width: 0;
+		width: min(280px, 100%);
+		height: 46px;
+	}
+
+	.frameParent50 .turnCustomerEducationContainer {
+		font-size: 26px;
+		line-height: 34px;
+	}
+
+	.frameParent50 .neurolxpDeliversScalable {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.frameParent50 .frameChild29 {
+		border-radius: 32px;
+	}
+
+	.frameChild26 {
+		margin-top: 48px;
+	}
+
+	.frameParent33 {
+		height: auto;
+		min-height: 501px;
+	}
+	}
+	/* FINAL CTA TEXT VISIBILITY + REMOVE EMPTY BACKGROUND RECTANGLES */
+
+	.frameParent50 .frameParent51,
+	.frameParent50 .frameParent4,
+	.frameParent50 .turnProductKnowledgeIntoCuParent {
+	overflow: visible;
+	}
+
+	.frameParent50 .frameChild27 {
+	width: auto;
+	min-width: 330px;
+	height: 50px;
+	padding: 0 30px;
+	margin: 0;
+	border: 0;
+	border-radius: 28px;
+	background: #dfe6e9;
+	box-shadow:inset 4px 4px 4px rgba(196, 196, 196, 0.72),
+		inset -4px -4px 4px rgba(255, 255, 255, 0.98);
+	color: #2d4cc8;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	object-fit: unset;
+	overflow: visible;
+	white-space: nowrap;
+	}
+
+	.frameParent50 .frameChild27::before,
+	.frameParent50 .frameChild27::after {
+	content: none;
+	display: none;
+	}
+
+	.frameParent50 .frameChild2 {
+	width: 220px;
+	height: 60px;
+	padding: 0 24px;
+	border: 0;
+	border-radius: 50px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px rgba(255, 255, 255, 0.98),
+		4px 4px 4px rgba(196, 196, 196, 0.82);
+	color: #2d4cc8;
+	font-family: "Segoe UI", "Inter";
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 700;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	object-fit: unset;
+	overflow: visible;
+	cursor: pointer;
+	white-space: nowrap;
+	}
+
+	.frameParent50 .frameChild2::before,
+	.frameParent50 .frameChild2::after {
+	content: none;
+	display: none;
+	}
+
+	.frameParent50 .turnCustomerEducationContainer,
+	.frameParent50 .neurolxpDeliversScalable {
+	position: relative;
+	z-index: 2;
+	overflow: visible;
+	color: #31344b;
+	}
+
+	.frameParent50 .customerSuccess {
+	color: #2d4cc8;
+	}
+
+	.frameParent50 .frameChild29 {
+	background: transparent;
+	}
+
+	@media (max-width: 600px) {
+	.frameParent50 .frameChild27 {
+		min-width: 0;
+		width: min(280px, 100%);
+		height: 46px;
+		padding: 0 20px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.frameParent50 .frameChild2 {
+		width: min(220px, 100%);
+		height: 54px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	}
+	/* FINAL IMAGE FIX — REMOVE THE WHITE/GRAY RECTANGLE AROUND THE PNG */
+
+	.frameParent50 {
+	background: transparent;
+	box-shadow:none;
+	border: 0;
+	}
+
+	.frameParent50 .frameParent51 {
+	background: transparent;
+	box-shadow:none;
+	border: 0;
+	}
+
+	.frameParent50 .frameChild29 {
+	position: relative;
+	inset: auto;
+	width: min(935px, 100%);
+	height: auto;
+	aspect-ratio: 935 / 498;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	object-fit: cover;
+
+	background: transparent !important;
+	border: 0 !important;
+	outline: 0;
+	box-shadow:none !important;
+
+	border-radius: 0;
+	overflow: visible;
+	}
+
+	/* Prevent a Next.js image wrapper or nearby container from creating a panel */
+	.frameParent50 > span,
+	.frameParent50 .frameChild29Wrapper,
+	.frameParent50 .imageWrapper {
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	border: 0;
+	box-shadow:none;
+	}
+
+	@media (max-width: 900px) {
+	.frameParent50 .frameChild29 {
+		border-radius: 0;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.frameParent50 .frameChild29 {
+		border-radius: 0;
+	}
+	}
+	/* FINAL TOP CHALLENGE SECTION FIX */
+
+	.customerTraining {
+	height: auto;
+	min-height: 100vh;
+	overflow-x: hidden;
+	overflow-y: visible;
+	}
+
+	/* Move the two intro lines upward and keep them visible above the divider */
+	.frameParent2 {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: min(1280px, calc(100% - 160px));
+	margin: 88px auto 0;
+	gap: 38px;
+	}
+
+	.frameParent5 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	gap: 8px;
+	text-align: center;
+	}
+
+	.frameWrapper3 {
+	width: 100%;
+	height: auto;
+	align-items: center;
+	}
+
+	.empowerCustomersDriveAdoptWrapper {
+	width: 100%;
+	padding: 0;
+	}
+
+	.empowerCustomersDrive {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	font-size: 36px;
+	line-height: 48px;
+	}
+
+	.neurolxpDeliversSelfService {
+	width: 100%;
+	margin: 0;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	}
+
+	.customerTrainingChild {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	height: 5px;
+	margin: 0;
+	display: block;
+	}
+
+	/* Keep the outer section top border and inset shadow visible */
+	.image20Parent {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	height: auto;
+	margin: 64px auto 0;
+	padding: 20px 70px 64px;
+	overflow: hidden;
+	border-radius: 32px;
+	background: #dfe6e9;
+	box-shadow:inset 0 10px 16px rgba(255, 255, 255, 0.98),
+		inset 10px 0 16px rgba(255, 255, 255, 0.72),
+		inset 0 -10px 16px rgba(196, 196, 196, 0.68),
+		inset -10px 0 16px rgba(196, 196, 196, 0.52);
+	box-sizing: border-box;
+	}
+
+	.image20Parent::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: inherit;
+	pointer-events: none;
+	z-index: 5;
+	border-top: 2px solid rgba(255, 255, 255, 0.9);
+	box-shadow:inset 0 8px 12px rgba(255, 255, 255, 0.85),
+		inset 0 -8px 12px rgba(196, 196, 196, 0.45);
+	}
+
+	.image20Parent > * {
+	position: relative;
+	z-index: 2;
+	}
+
+	.image20Parent .frameParent6 {
+	width: 100%;
+	position: relative;
+	inset: auto;
+	}
+
+	/* Make the hidden Customer Training badge text visible */
+	.image20Parent .frameIcon {
+	width: auto;
+	min-width: 268px;
+	height: 50px;
+	padding: 0 28px;
+	border-radius: 28px;
+	background: #dfe6e9;
+	box-shadow:inset 4px 4px 4px rgba(196, 196, 196, 0.72),
+		inset -4px -4px 4px rgba(255, 255, 255, 0.98);
+	color: #2d4cc8;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	object-fit: unset;
+	overflow: visible;
+	}
+
+	/* Keep top edge of the inner hero visible */
+	.image20Parent .frameWrapper4 {
+	margin-top: 0;
+	border-radius: 32px 32px 100px 100px;
+	box-shadow:-4px -4px 4px rgba(255, 255, 255, 0.98),
+		4px 4px 4px rgba(174, 181, 184, 0.72);
+	}
+
+	@media (max-width: 1180px) {
+	.frameParent2,
+	.image20Parent {
+		width: calc(100% - 80px);
+	}
+	}
+
+	@media (max-width: 900px) {
+	.frameParent2,
+	.image20Parent {
+		width: calc(100% - 48px);
+	}
+
+	.image20Parent {
+		padding: 16px 32px 48px;
+	}
+
+	.empowerCustomersDrive {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.frameParent2,
+	.image20Parent {
+		width: calc(100% - 32px);
+	}
+
+	.frameParent2 {
+		margin-top: 56px;
+		gap: 28px;
+	}
+
+	.image20Parent {
+		margin-top: 40px;
+		padding: 12px 16px 40px;
+		border-radius: 24px;
+	}
+
+	.image20Parent .frameIcon {
+		min-width: 0;
+		height: 44px;
+		padding: 0 20px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.empowerCustomersDrive {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.neurolxpDeliversSelfService {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	}
+	/* FINAL FIGMA MATCH — FULL INNER SHADOW + TOP LINE ALIGNMENT */
+
+	.customerTraining {
+	height: auto;
+	min-height: 100vh;
+	overflow-x: hidden;
+	overflow-y: visible;
+	}
+
+	/* Move the two intro lines upward and keep the divider aligned */
+	.frameParent2 > .frameParent5 {
+	margin-top: 28px;
+	gap: 10px;
+	}
+
+	.frameParent2 > .frameParent5 .frameWrapper3 {
+	height: auto;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDriveAdoptWrapper {
+	padding: 0;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+	margin: 0;
+	height: auto;
+	line-height: 52px;
+	}
+
+	.frameParent2 > .frameParent5 .neurolxpDeliversSelfService {
+	margin: 0;
+	line-height: 34px;
+	}
+
+	.customerTrainingChild {
+	width: 100%;
+	max-width: none;
+	height: 5px;
+	margin: 18px 0 0;
+	left: auto;
+	transform: none;
+	object-fit: fill;
+	}
+
+	/* Full inner shadow around the complete challenge rectangle */
+	.image20Parent {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	height: auto;
+	min-height: 1146px;
+	margin: 0 auto;
+	padding: 28px 70px 64px;
+	box-sizing: border-box;
+	overflow: hidden;
+	isolation: isolate;
+	border-radius: 32px;
+	background: #dfe6e9;
+	box-shadow:inset 4px 4px 4px rgba(196, 196, 196, 0.72),
+		inset -4px -4px 4px rgba(255, 255, 255, 0.98);
+	}
+
+	.image20Parent::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: inherit;
+	pointer-events: none;
+	z-index: 5;
+	box-shadow:inset 0 10px 16px rgba(255, 255, 255, 0.98),
+		inset 10px 0 16px rgba(255, 255, 255, 0.72),
+		inset 0 -10px 16px rgba(196, 196, 196, 0.62),
+		inset -10px 0 16px rgba(196, 196, 196, 0.48);
+	}
+
+	.image20Parent > * {
+	position: relative;
+	z-index: 2;
+	}
+
+	/* Keep the top hero panel visible and aligned */
+	.image20Parent .frameWrapper4 {
+	display: flex !important;
+	width: min(1111px, 100%);
+	min-height: 312px;
+	margin: 0 auto;
+	border-radius: 32px 32px 100px 100px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px rgba(255, 255, 255, 0.98),
+		4px 4px 4px rgba(174, 181, 184, 0.72);
+	overflow: hidden;
+	}
+
+	.image20Parent .frameParent6 {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+	}
+
+	/* Make sure the Customer Training badge text is visible */
+	.image20Parent .frameIcon {
+	width: auto;
+	min-width: 268px;
+	height: 50px;
+	padding: 0 28px;
+	border-radius: 28px;
+	background: #dfe6e9;
+	box-shadow:inset 4px 4px 4px rgba(196, 196, 196, 0.72),
+		inset -4px -4px 4px rgba(255, 255, 255, 0.98);
+	color: #2d4cc8;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	overflow: visible;
+	}
+
+	@media (max-width: 1180px) {
+	.image20Parent {
+		width: calc(100% - 80px);
+		padding: 24px 48px 56px;
+	}
+	}
+
+	@media (max-width: 900px) {
+	.frameParent2 > .frameParent5 {
+		margin-top: 20px;
+	}
+
+	.customerTrainingChild {
+		margin-top: 14px;
+	}
+
+	.image20Parent {
+		width: calc(100% - 48px);
+		min-height: 0;
+		padding: 20px 32px 48px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 300px;
+		border-radius: 28px 28px 72px 72px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.image20Parent {
+		width: calc(100% - 32px);
+		padding: 16px 16px 40px;
+		border-radius: 24px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 290px;
+		border-radius: 22px 22px 48px 48px;
+	}
+
+	.image20Parent .frameIcon {
+		min-width: 0;
+		height: 44px;
+		padding: 0 20px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	}
+	/* FINAL EXACT INNER SHADOW + TOP SPACING OVERRIDE */
+
+	.frameParent2 > .frameParent5 {
+	width: 1198px;
+	max-width: 100%;
+	margin: 8px auto 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+	text-align: center;
+	}
+
+	.frameParent2 > .frameParent5 .frameWrapper3 {
+	width: 100%;
+	height: auto;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDriveAdoptWrapper {
+	width: 100%;
+	padding: 0;
+	justify-content: center;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	line-height: 52px;
+	}
+
+	.frameParent2 > .frameParent5 .neurolxpDeliversSelfService {
+	width: 100%;
+	margin: 0;
+	line-height: 34px;
+	text-align: center;
+	}
+
+	.customerTrainingChild {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	max-width: none;
+	height: 5px;
+	margin: 10px auto 0;
+	display: block;
+	object-fit: fill;
+	transform: none;
+	}
+
+	.image20Parent {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	height: auto;
+	min-height: 1146px;
+	margin: 20px auto 0;
+	padding: 24px 70px 64px;
+	box-sizing: border-box;
+	border-radius: 32px;
+	background: #dfe6e9;
+	overflow: visible;
+	box-shadow:inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px #c4c4c4;
+	}
+
+	.image20Parent::before {
+	content: none;
+	display: none;
+	}
+
+	.image20Parent .frameParent6 {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	height: auto;
+	margin-top: -40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 36px;
+	}
+
+	.image20Parent .frameWrapper4 {
+	display: flex !important;
+	width: min(1111px, 100%);
+	min-height: 312px;
+	margin: 0 auto;
+	border-radius: 0 0 100px 100px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4;
+	overflow: visible;
+	}
+
+	@media (max-width: 1180px) {
+	.image20Parent {
+		width: calc(100% - 80px);
+		padding: 24px 48px 56px;
+	}
+	}
+
+	@media (max-width: 900px) {
+	.frameParent2 > .frameParent5 {
+		margin-top: 6px;
+		gap: 10px;
+	}
+
+	.customerTrainingChild {
+		margin-top: 8px;
+	}
+
+	.image20Parent {
+		width: calc(100% - 48px);
+		min-height: 0;
+		padding: 20px 32px 48px;
+	}
+
+	.image20Parent .frameParent6 {
+		margin-top: -28px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 300px;
+		border-radius: 0 0 72px 72px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.image20Parent {
+		width: calc(100% - 32px);
+		padding: 16px 16px 40px;
+		border-radius: 24px;
+	}
+
+	.image20Parent .frameParent6 {
+		margin-top: -20px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 290px;
+		border-radius: 0 0 48px 48px;
+	}
+	}
+	/* FINAL PAGE SPACING — FIGMA REFERENCE MATCH */
+
+	.customerTraining {
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	overflow-x: hidden;
+	overflow-y: visible;
+	background: #dfe6e9;
+	box-sizing: border-box;
+	}
+
+	/* Header and breadcrumb */
+	.frameParent {
+	flex: 0 0 auto;
+	margin: 0 auto;
+	}
+
+	.frameDiv {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	min-height: 24px;
+	margin: 32px auto 0;
+	}
+
+	/* Hero + intro copy */
+	.frameParent2 {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	margin: 32px auto 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+	}
+
+	.frameParent2 > .vectorParent {
+	flex: 0 0 auto;
+	width: 100%;
+	margin: 0;
+	}
+
+	.frameParent2 > .frameParent5 {
+	width: min(1198px, 100%);
+	min-height: 146px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 28px;
+	text-align: center;
+	}
+
+	.frameParent2 > .frameParent5 .frameWrapper3 {
+	width: 100%;
+	height: 72px;
+	min-height: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDriveAdoptWrapper {
+	width: 100%;
+	height: 72px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+	}
+
+	.frameParent2 > .frameParent5 .neurolxpDeliversSelfService {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	font-size: 28px;
+	line-height: 46px;
+	text-align: center;
+	}
+
+	/* Divider: 36px below the intro group */
+	.customerTrainingChild {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	max-width: 1440px;
+	height: 5px;
+	margin: 36px auto 0;
+	display: block;
+	object-fit: fill;
+	transform: none;
+	flex: 0 0 auto;
+	}
+
+	/* Challenge section: 60px below divider */
+	.image20Parent {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	height: auto;
+	min-height: 1146px;
+	margin: 60px auto 0;
+	padding: 0 70px 70px;
+	box-sizing: border-box;
+	border-radius: 32px;
+	background: #dfe6e9;
+	overflow: hidden;
+	box-shadow:inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	}
+
+	.image20Parent::before {
+	content: none;
+	}
+
+	.image20Parent .frameParent6 {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+	}
+
+	.image20Parent .frameWrapper4 {
+	display: flex !important;
+	width: min(1111px, 100%);
+	min-height: 312px;
+	margin: 0 auto;
+	border-radius: 0 0 100px 100px;
+	background: #dfe6e9;
+	box-shadow:-4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4;
+	overflow: hidden;
+	}
+
+	.image20Parent .frameParent9 {
+	width: 100%;
+	margin: 0;
+	gap: 50px;
+	}
+
+	/* Benefits section: 64px below challenge */
+	.frameParent23 {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	height: auto;
+	min-height: 530px;
+	margin: 64px auto 0;
+	box-sizing: border-box;
+	}
+
+	/* Final CTA: 96px below benefits */
+	.frameParent50 {
+	position: relative;
+	inset: auto;
+	width: min(1103px, calc(100% - 160px));
+	height: auto;
+	margin: 96px auto 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+	text-align: center;
+	box-sizing: border-box;
+	}
+
+	.frameParent50 .frameParent51 {
+	width: 100%;
+	margin: 0;
+	gap: 50px;
+	}
+
+	.frameParent50 .frameChild29 {
+	width: min(935px, 100%);
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	}
+
+	/* Footer spacing */
+	.frameChild26 {
+	position: relative;
+	inset: auto;
+	width: 59px;
+	height: 92px;
+	margin: 64px auto 0;
+	display: block;
+	}
+
+	.frameParent33 {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	max-width: 1440px;
+	height: 501px;
+	margin: 0 auto;
+	flex: 0 0 auto;
+	}
+
+	/* Tablet */
+	@media (max-width: 1180px) {
+	.frameDiv,
+	.frameParent2,
+	.image20Parent,
+	.frameParent23,
+	.frameParent50 {
+		width: calc(100% - 80px);
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+		font-size: 40px;
+		line-height: 52px;
+	}
+
+	.image20Parent {
+		min-height: 0;
+		padding: 0 48px 56px;
+	}
+
+	.frameParent50 {
+		margin-top: 80px;
+	}
+	}
+
+	/* Small tablet */
+	@media (max-width: 900px) {
+	.frameDiv,
+	.frameParent2,
+	.image20Parent,
+	.frameParent23,
+	.frameParent50 {
+		width: calc(100% - 48px);
+	}
+
+	.frameParent2 {
+		gap: 48px;
+	}
+
+	.frameParent2 > .frameParent5 {
+		min-height: 0;
+		gap: 20px;
+	}
+
+	.frameParent2 > .frameParent5 .frameWrapper3,
+	.frameParent2 > .frameParent5 .empowerCustomersDriveAdoptWrapper {
+		height: auto;
+		min-height: 0;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.frameParent2 > .frameParent5 .neurolxpDeliversSelfService {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.customerTrainingChild {
+		margin-top: 32px;
+	}
+
+	.image20Parent {
+		margin-top: 48px;
+		padding: 0 32px 48px;
+	}
+
+	.image20Parent .frameParent6 {
+		gap: 48px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 300px;
+		border-radius: 0 0 72px 72px;
+	}
+
+	.frameParent23 {
+		margin-top: 56px;
+	}
+
+	.frameParent50 {
+		margin-top: 64px;
+	}
+
+	.frameChild26 {
+		margin-top: 48px;
+	}
+	}
+
+	/* Mobile */
+	@media (max-width: 600px) {
+	.frameDiv,
+	.frameParent2,
+	.image20Parent,
+	.frameParent23,
+	.frameParent50 {
+		width: calc(100% - 32px);
+	}
+
+	.frameParent2 {
+		margin-top: 24px;
+		gap: 40px;
+	}
+
+	.frameParent2 > .frameParent5 {
+		gap: 16px;
+	}
+
+	.frameParent2 > .frameParent5 .empowerCustomersDrive {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.frameParent2 > .frameParent5 .neurolxpDeliversSelfService {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.customerTrainingChild {
+		margin-top: 24px;
+	}
+
+	.image20Parent {
+		margin-top: 40px;
+		padding: 0 16px 40px;
+		border-radius: 24px;
+	}
+
+	.image20Parent .frameParent6 {
+		gap: 40px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 290px;
+		border-radius: 0 0 48px 48px;
+	}
+
+	.frameParent23 {
+		margin-top: 48px;
+	}
+
+	.frameParent50 {
+		margin-top: 48px;
+		gap: 40px;
+	}
+
+	.frameChild26 {
+		margin-top: 40px;
+	}
+
+	.frameParent33 {
+		height: auto;
+		min-height: 501px;
+	}
+	}
+
+	/* FINAL HANGING TOP INNER-SHADOW FIX */
+
+	.image20Parent {
+	position: relative;
+	inset: auto;
+	width: min(1280px, calc(100% - 160px));
+	height: auto;
+	min-height: 1146px;
+	margin: 60px auto 0;
+	padding: 0 70px 70px;
+	box-sizing: border-box;
+	border-radius: 32px;
+	background: #dfe6e9;
+	overflow: visible !important;
+	box-shadow:inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	}
+
+	.image20Parent::before {
+	content: none !important;
+	display: none !important;
+	}
+
+	.image20Parent .frameParent6 {
+	position: relative;
+	inset: auto;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+	overflow: visible !important;
+	}
+
+	.image20Parent .frameWrapper4 {
+	position: relative;
+	display: flex !important;
+	width: min(1111px, 100%);
+	min-height: 312px;
+	margin: -22px auto 0;
+	border-radius: 0 0 100px 100px;
+	background: #dfe6e9;
+	overflow: visible !important;
+	z-index: 10;
+	box-shadow:inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	}
+
+	.image20Parent .frameWrapper4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -22px;
+	height: 22px;
+	border-radius: 100px 100px 0 0;
+	background: #dfe6e9;
+	pointer-events: none;
+	box-shadow:inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	}
+
+	.image20Parent .frameWrapper4 > * {
+	position: relative;
+	z-index: 2;
+	}
+
+	@media (max-width: 1180px) {
+	.image20Parent {
+		width: calc(100% - 80px);
+		padding: 0 48px 56px;
+	}
+	}
+
+	@media (max-width: 900px) {
+	.image20Parent {
+		width: calc(100% - 48px);
+		min-height: 0;
+		margin-top: 48px;
+		padding: 0 32px 48px;
+	}
+
+	.image20Parent .frameParent6 {
+		gap: 48px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 300px;
+		margin-top: -18px;
+		border-radius: 0 0 72px 72px;
+	}
+
+	.image20Parent .frameWrapper4::before {
+		top: -18px;
+		height: 18px;
+		border-radius: 72px 72px 0 0;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.image20Parent {
+		width: calc(100% - 32px);
+		margin-top: 40px;
+		padding: 0 16px 40px;
+		border-radius: 24px;
+	}
+
+	.image20Parent .frameParent6 {
+		gap: 40px;
+	}
+
+	.image20Parent .frameWrapper4 {
+		min-height: 290px;
+		margin-top: -14px;
+		border-radius: 0 0 48px 48px;
+	}
+
+	.image20Parent .frameWrapper4::before {
+		top: -14px;
+		height: 14px;
+		border-radius: 48px 48px 0 0;
+	}
+	}
+
+	/* FINAL ATTACHED TOP PANEL FIX */
+
+	.image20Parent {
+	position: relative;
+	overflow: hidden !important;
+	padding-top: 0 !important;
+	box-shadow:inset -4px -4px 4px #ffffff,
+		inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+	}
+
+	.image20Parent .frameParent6 {
+	margin-top: 0 !important;
+	padding-top: 0;
+	overflow: visible;
+	}
+
+	.image20Parent .frameWrapper4 {
+	position: relative;
+	width: min(1111px, 100%);
+	min-height: 312px;
+	margin: 0 auto !important;
+	border-radius: 0 0 100px 100px;
+	background: #dfe6e9;
+	overflow: hidden !important;
+	box-shadow:-4px -4px 4px #ffffff,
+		4px 4px 4px #c4c4c4;
+	}
+
+	.image20Parent .frameWrapper4::before {
+	content: none !important;
+	display: none !important;
+	}
+
+	@media (max-width: 900px) {
+	.image20Parent .frameWrapper4 {
+		margin-top: 0 !important;
+		border-radius: 0 0 72px 72px;
+	}
+	}
+
+	@media (max-width: 600px) {
+	.image20Parent .frameWrapper4 {
+		margin-top: 0 !important;
+		border-radius: 0 0 48px 48px;
+	}
+	}
+
+/* HEADER AND FOOTER REMOVED — BREADCRUMB ARROWS */
+
+.frameParent,
+.frameParent33,
+.frameChild26 {
+  display: none !important;
+}
+
+.customerTraining {
+  height: auto;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.frameDiv {
+  position: relative;
+  inset: auto;
+  width: min(1280px, calc(100% - 160px));
+  min-height: 24px;
+  margin: 32px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #dfe6e9;
+  font-family: "Segoe UI", "Inter";
+}
+
+.breadcrumbArrow {
+  width: 16px;
+  height: 16px;
+  display: block;
+  flex: 0 0 16px;
+  object-fit: contain;
+}
+
+.frameParent2 {
+  margin-top: 32px;
+}
+
+.frameParent50 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1180px) {
+  .frameDiv {
+    width: calc(100% - 80px);
+  }
+}
+
+@media (max-width: 900px) {
+  .frameDiv {
+    width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 600px) {
+  .frameDiv {
+    width: calc(100% - 32px);
+    margin-top: 24px;
+    gap: 6px;
+    flex-wrap: wrap;
+    white-space: normal;
+  }
+
+  .breadcrumbArrow {
+    width: 14px;
+    height: 14px;
+    flex-basis: 14px;
+  }
+}
+
+
+
+/* ===== FINAL ICON CIRCLE COLOUR OVERRIDE ===== */
+/* Add this at the very end so it overrides earlier rules */
+
+.frameChild11,
+.frameChild12,
+.frameChild13,
+.frameChild14,
+.frameChild15,
+.frameChild16{
+    background:#DFE6E9 !important;
+    border-radius:50%;
+    box-shadow:inset -4px -4px 4px #FFFFFF,
+        inset 4px 4px 4px rgba(196,196,196,.80) !important;
+}
+
+/* Inner circle behind icon */
+.frameChild11 img,
+.frameChild12 img,
+.frameChild13 img,
+.frameChild14 img,
+.frameChild15 img,
+.frameChild16 img,
+.frameChild11 > *,
+.frameChild12 > *,
+.frameChild13 > *,
+.frameChild14 > *,
+.frameChild15 > *,
+.frameChild16 > *{
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    background:#DFE6E9 !important;
+    box-shadow:-4px -4px 4px #FFFFFF,
+        4px 4px 4px rgba(196,196,196,.80) !important;
+}
+
+/* Generic wrappers used for icon circles */
+.iconOuterCircle{
+    background:#DFE6E9 !important;
+    box-shadow:inset -4px -4px 4px #FFFFFF,
+        inset 4px 4px 4px rgba(196,196,196,.80) !important;
+}
+
+.iconInnerCircle{
+    background:#DFE6E9 !important;
+    box-shadow:-4px -4px 4px #FFFFFF,
+        4px 4px 4px rgba(196,196,196,.80) !important;
+}
+
+/* FINAL BENEFIT ICON CIRCLE COLOUR FIX */
+
+.frameParent23 .benefitIconOuter {
+  width: 70px;
+  height: 70px;
+  flex: 0 0 70px;
+  border-radius: 50%;
+  background-color: #DFE6E9 !important;
+  background-image: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:inset -4px -4px 4px #FFFFFF,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.80);
+}
+
+.frameParent23 .benefitIconInner {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 52px;
+  border-radius: 50%;
+  background-color: #DFE6E9 !important;
+  background-image: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:-4px -4px 4px #FFFFFF,
+    4px 4px 4px rgba(196, 196, 196, 0.80);
+}
+
+.frameParent23 .benefitIcon {
+  width: 30px;
+  height: 30px;
+  display: block;
+  object-fit: contain;
+  background: transparent !important;
+  box-shadow:none !important;
+  border-radius: 0;
+}
+
+/* MOBILE VIEW SPACING FIX — DESKTOP/TABLET UNCHANGED */
+@media (max-width: 600px) {
+  .frameDiv {
+    margin-top: 20px;
+    min-height: 24px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .frameParent2 {
+    margin-top: 20px;
+    gap: 28px;
+  }
+
+  .frameParent2 > .vectorParent,
+  .vectorParent {
+    height: 410px !important;
+    min-height: 410px !important;
+    aspect-ratio: auto !important;
+  }
+
+  .frameParent2 > .vectorParent .frameWrapper {
+    width: calc(100% - 24px);
+  }
+
+  .frameParent2 > .vectorParent .frameParent3 {
+    gap: 24px;
+  }
+
+  .frameParent2 > .vectorParent .frameParent4 {
+    gap: 16px;
+  }
+
+  .frameParent2 > .vectorParent .turnProductKnowledgeIntoCuParent {
+    gap: 16px;
+  }
+
+  .frameParent2 > .vectorParent .frameIcon {
+    height: 46px;
+    padding: 0 20px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .frameParent2 > .vectorParent .turnProductKnowledgeContainer {
+    font-size: 23px;
+    line-height: 31px;
+  }
+
+  .frameParent2 > .vectorParent .neurolxpDeliversScalable {
+    width: min(330px, 100%);
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .frameParent2 > .vectorParent .frameWrapper2 {
+    width: 220px;
+    height: 58px;
+  }
+
+  .frameParent2 > .vectorParent .frameChild2 {
+    height: 58px;
+  }
+
+  .frameParent2 > .frameParent5 {
+    gap: 12px;
+  }
+
+  .frameParent2 > .frameParent5 .empowerCustomersDrive {
+    font-size: 23px;
+    line-height: 31px;
+  }
+
+  .frameParent2 > .frameParent5 .neurolxpDeliversSelfService {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .customerTrainingChild {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .frameParent2 > .vectorParent,
+  .vectorParent {
+    height: 430px !important;
+    min-height: 430px !important;
+  }
+
+  .frameParent2 > .vectorParent .turnProductKnowledgeContainer {
+    font-size: 21px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 768px) {
+  .frameParent2 {
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .frameParent2 > .vectorParent,
+  .vectorParent {
+    width: 100%;
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+    padding: 20px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    background: transparent;
+    box-sizing: border-box;
+  }
+
+  .frameParent2 > .vectorParent .polygonIcon,
+  .vectorParent > .polygonIcon {
+    display: none !important;
+  }
+
+  .frameParent2 > .vectorParent .frameWrapper {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: auto;
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .frameParent2 > .vectorParent .frameParent3 {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .frameParent2 > .vectorParent .frameParent4 {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .frameParent2 > .vectorParent .turnProductKnowledgeIntoCuParent {
+    width: 100%;
+    height: auto;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .frameParent2 > .vectorParent .frameIcon {
+    width: auto;
+    min-width: 220px;
+    max-width: 100%;
+    height: 46px;
+    padding: 0 22px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 28px;
+    box-sizing: border-box;
+  }
+
+  .frameParent2 > .vectorParent .turnProductKnowledgeContainer {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .frameParent2 > .vectorParent .neurolxpDeliversScalable {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .frameParent2 > .vectorParent .frameWrapper2 {
+    width: 200px;
+    height: 52px;
+    margin: 6px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .frameParent2 > .vectorParent .frameChild2 {
+    width: 100%;
+    height: 52px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .frameParent2 > .frameParent5 {
+    margin-top: 28px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .frameParent2 > .vectorParent,
+  .vectorParent {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .frameParent2 > .vectorParent .turnProductKnowledgeContainer {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 380px) {
+  .frameParent2 > .vectorParent,
+  .vectorParent {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .frameParent2 > .vectorParent .turnProductKnowledgeContainer {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+/* Accessibility contrast corrections */
+.frameParent12 .challenge1 {
+  color: #1e3a8a !important;
+}
+
+.frameParent14 .challenge1 {
+  color: #5b005f !important;
+}
+
+.frameParent19 .challenge1 {
+  color: #8f1453 !important;
+}
+
+.frameParent21 .challenge1 {
+  color: #6a5500 !important;
+}
+
+.frameParent12 .simplifyProducts,
+.frameParent14 .simplifyProducts,
+.frameParent19 .simplifyProducts,
+.frameParent21 .simplifyProducts {
+  color: #1f2937 !important;
+}
+
+.frameParent12 .helpCustomersLearn,
+.frameParent14 .helpCustomersLearn,
+.frameParent19 .helpCustomersLearn,
+.frameParent21 .helpCustomersLearn {
+  color: #374151 !important;
+}
+
+/* =========================================================
+   FINAL CUSTOMER TRAINING DIVIDER
+   Keeps the existing TSX/Image and guarantees the separator
+   remains visible between the intro text and training section.
+   ========================================================= */
+.customerTrainingChild {
+  position: relative !important;
+  inset: auto !important;
+  left: auto !important;
+  right: auto !important;
+
+  width: 100% !important;
+  max-width: 1440px !important;
+  height: 3px !important;
+  min-height: 3px !important;
+
+  margin: clamp(24px, 2.5vw, 36px) auto 0 !important;
+  padding: 0 !important;
+
+  display: block !important;
+  flex: 0 0 3px !important;
+
+  object-fit: fill !important;
+  transform: none !important;
+  overflow: visible !important;
+
+  /* Fallback/visual reinforcement matching the original divider */
+  background: linear-gradient(
+    90deg,
+    #bf1869 0%,
+    #bf1869 18%,
+    #7d2a99 48%,
+    #2d4cc8 100%
+  ) !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow:none !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 5 !important;
+}
+
+/* =========================================================
+   FINAL CUSTOMER TRAINING HEADER PANEL ALIGNMENT
+   Matches the reference:
+   - panel begins exactly at the outer card top edge
+   - equal left/right inset
+   - no floating rectangular area above the card
+   - original shadows, colors and rounded bottom shape retained
+   ========================================================= */
+
+.image20Parent {
+  position: relative !important;
+  overflow: hidden !important;
+  padding-top: 0 !important;
+}
+
+.image20Parent .frameParent6 {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: 100% !important;
+  height: auto !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/* Header panel sits directly on the top border of the main card */
+.image20Parent .frameWrapper4 {
+  display: flex !important;
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: calc(100% - 48px) !important;
+  max-width: 1111px !important;
+
+  height: auto !important;
+  min-height: 312px !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  flex: 0 0 auto !important;
+
+  border-radius: 0 0 100px 100px !important;
+  background-color: #dfe6e9 !important;
+
+  box-shadow:-4px -4px 4px #ffffff,
+    4px 4px 4px #c4c4c4 !important;
+
+  overflow: hidden !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  z-index: 2 !important;
+}
+
+/* Center the existing title content inside the attached panel */
+.image20Parent .frameWrapper5 {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: min(1103px, calc(100% - 48px)) !important;
+  height: auto !important;
+  min-height: 212px !important;
+
+  margin: 0 auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Prevent inherited absolute sizing from shifting the panel content */
+.image20Parent .frameParent7,
+.image20Parent .frameParent8 {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .image20Parent .frameWrapper4 {
+    width: calc(100% - 32px) !important;
+    max-width: none !important;
+    min-height: 300px !important;
+    margin: 0 auto !important;
+    border-radius: 0 0 72px 72px !important;
+  }
+
+  .image20Parent .frameWrapper5 {
+    width: calc(100% - 40px) !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .image20Parent .frameWrapper4 {
+    width: calc(100% - 20px) !important;
+    min-height: 290px !important;
+    margin: 0 auto !important;
+    border-radius: 0 0 48px 48px !important;
+  }
+
+  .image20Parent .frameWrapper5 {
+    width: calc(100% - 28px) !important;
+  }
+}
+
+/* =========================================================
+   FINAL CUSTOMER TRAINING BENEFITS RESPONSIVE FIX
+   Only affects the Benefits section.
+   Keeps existing colors, shadows, icons and visual effects.
+   ========================================================= */
+
+.frameParent23 {
+  box-sizing: border-box;
+}
+
+.frameParent23 .frameParent24,
+.frameParent23 .frameParent25,
+.frameParent23 .frameParent26 {
+  min-width: 0;
+}
+
+.frameParent23 .benefitsOfCustomer,
+.frameParent23 .improveProductAdoption,
+.frameParent23 .increaseProductUsage,
+.frameParent23 .lowerSupportRequests,
+.frameParent23 .trainAtScale,
+.frameParent23 .unlockProductValue,
+.frameParent23 .measureLearning,
+.frameParent23 .strengthenEngagement {
+  max-width: 100%;
+  height: auto;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+/* Tablet and smaller */
+@media (max-width: 900px) {
+  .frameParent23 {
+    width: calc(100% - 48px) !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 48px auto 0 !important;
+    padding: clamp(28px, 5vw, 44px) clamp(24px, 5vw, 40px) !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    gap: clamp(36px, 6vw, 48px) !important;
+
+    overflow: visible !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent23 .frameParent24 {
+    width: 100% !important;
+    max-width: 620px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    gap: clamp(20px, 4vw, 28px) !important;
+
+    text-align: center !important;
+  }
+
+  .frameParent23 .frameParent25 {
+    width: 100% !important;
+    height: auto !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    gap: clamp(20px, 4vw, 28px) !important;
+  }
+
+  .frameParent23 .benefitsOfCustomer {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+
+    font-size: clamp(28px, 5vw, 34px) !important;
+    line-height: 1.32 !important;
+
+    text-align: center !important;
+  }
+
+  .frameParent23 .improveProductAdoption {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+
+    font-size: clamp(18px, 3.4vw, 22px) !important;
+    line-height: 1.5 !important;
+
+    text-align: center !important;
+  }
+
+  .frameParent23 .frameParent26 {
+    width: min(520px, 100%) !important;
+    max-width: 100% !important;
+
+    margin: 0 auto !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+
+    gap: clamp(18px, 3.5vw, 22px) !important;
+  }
+
+  .frameParent23 .frameParent27,
+  .frameParent23 .frameParent28 {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 70px !important;
+
+    display: grid !important;
+    grid-template-columns: 70px minmax(0, 1fr) !important;
+    align-items: center !important;
+
+    gap: clamp(14px, 3vw, 20px) !important;
+  }
+
+  .frameParent23 .benefitIconOuter {
+    width: 70px !important;
+    height: 70px !important;
+    min-width: 70px !important;
+    flex: none !important;
+  }
+
+  .frameParent23 .benefitIconInner {
+    width: 52px !important;
+    height: 52px !important;
+  }
+
+  .frameParent23 .increaseProductUsage,
+  .frameParent23 .lowerSupportRequests,
+  .frameParent23 .trainAtScale,
+  .frameParent23 .unlockProductValue,
+  .frameParent23 .measureLearning,
+  .frameParent23 .strengthenEngagement {
+    width: 100% !important;
+    height: auto !important;
+
+    margin: 0 !important;
+
+    font-size: clamp(17px, 3vw, 21px) !important;
+    line-height: 1.45 !important;
+
+    text-align: left !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .frameParent23 {
+    width: calc(100% - 24px) !important;
+
+    margin-top: 40px !important;
+    padding: 28px 18px 32px !important;
+
+    gap: 34px !important;
+  }
+
+  .frameParent23 .frameParent24 {
+    gap: 22px !important;
+  }
+
+  .frameParent23 .frameParent25 {
+    gap: 20px !important;
+  }
+
+  .frameParent23 .benefitsBadge {
+    min-width: 132px !important;
+    width: auto !important;
+    max-width: 100% !important;
+
+    height: 46px !important;
+
+    padding: 0 22px !important;
+
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+
+  .frameParent23 .benefitsOfCustomer {
+    font-size: clamp(26px, 7.2vw, 30px) !important;
+    line-height: 1.3 !important;
+  }
+
+  .frameParent23 .improveProductAdoption {
+    font-size: clamp(16px, 4.8vw, 19px) !important;
+    line-height: 1.5 !important;
+  }
+
+  .frameParent23 .frameParent26 {
+    width: 100% !important;
+    gap: 18px !important;
+  }
+
+  .frameParent23 .frameParent27,
+  .frameParent23 .frameParent28 {
+    grid-template-columns: 62px minmax(0, 1fr) !important;
+
+    min-height: 62px !important;
+
+    gap: 14px !important;
+  }
+
+  .frameParent23 .benefitIconOuter {
+    width: 62px !important;
+    height: 62px !important;
+    min-width: 62px !important;
+  }
+
+  .frameParent23 .benefitIconInner {
+    width: 46px !important;
+    height: 46px !important;
+  }
+
+  .frameParent23 .benefitIcon {
+    max-width: 32px !important;
+    max-height: 32px !important;
+  }
+
+  .frameParent23 .increaseProductUsage,
+  .frameParent23 .lowerSupportRequests,
+  .frameParent23 .trainAtScale,
+  .frameParent23 .unlockProductValue,
+  .frameParent23 .measureLearning,
+  .frameParent23 .strengthenEngagement {
+    font-size: clamp(16px, 4.6vw, 18px) !important;
+    line-height: 1.4 !important;
+  }
+}
+
+/* Very narrow phones */
+@media (max-width: 380px) {
+  .frameParent23 {
+    width: calc(100% - 16px) !important;
+    padding: 24px 14px 28px !important;
+  }
+
+  .frameParent23 .frameParent27,
+  .frameParent23 .frameParent28 {
+    grid-template-columns: 56px minmax(0, 1fr) !important;
+    gap: 12px !important;
+  }
+
+  .frameParent23 .benefitIconOuter {
+    width: 56px !important;
+    height: 56px !important;
+    min-width: 56px !important;
+  }
+
+  .frameParent23 .benefitIconInner {
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  .frameParent23 .benefitIcon {
+    max-width: 28px !important;
+    max-height: 28px !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE CHALLENGE CARD SPACING + HEADER CONTENT POSITION
+   Only affects:
+   1) Challenge-card spacing on tablet/mobile
+   2) Customer Training badge/title/description position
+   All existing colors, shadows, borders, typography and effects retained.
+   ========================================================= */
+
+/* Move the Customer Training label/title/description slightly upward */
+.image20Parent .frameWrapper5 {
+  transform: translateY(-14px) !important;
+}
+
+@media (max-width: 900px) {
+  .image20Parent .frameWrapper5 {
+    transform: translateY(-12px) !important;
+  }
+
+  /* Clean vertical spacing between challenge cards */
+  .image20Parent .frameParent9 {
+    gap: 34px !important;
+  }
+
+  .image20Parent .frameParent10 {
+    gap: 34px !important;
+  }
+
+  .image20Parent .frameParent11,
+  .image20Parent .frameParent16 {
+    gap: 34px !important;
+  }
+
+  .image20Parent .frameParent12,
+  .image20Parent .frameParent14,
+  .image20Parent .frameParent19,
+  .image20Parent .frameParent21 {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .image20Parent .frameWrapper5 {
+    transform: translateY(-10px) !important;
+  }
+
+  .image20Parent .frameParent9 {
+    gap: 28px !important;
+  }
+
+  .image20Parent .frameParent10 {
+    gap: 28px !important;
+  }
+
+  .image20Parent .frameParent11,
+  .image20Parent .frameParent16 {
+    gap: 28px !important;
+  }
+
+  /* Keep every challenge card evenly separated on mobile */
+  .image20Parent .frameParent12,
+  .image20Parent .frameParent14,
+  .image20Parent .frameParent19,
+  .image20Parent .frameParent21 {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* =========================================================
+   FINAL CUSTOMER TRAINING TOP PANEL — REFERENCE RESPONSIVE MATCH
+   Only corrects the attached Customer Training header panel.
+   Keeps all existing colors, shadows, borders and other sections unchanged.
+   ========================================================= */
+
+/* Keep the inner header attached exactly to the main card top */
+.image20Parent {
+  padding-top: 0 !important;
+  overflow: hidden !important;
+}
+
+.image20Parent .frameParent6 {
+  margin: 0 !important;
+  padding: 0 !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+/*
+  Original design proportion:
+  1111px wide × 312px high.
+  Using aspect-ratio makes the same shape scale correctly
+  instead of keeping a fixed 290–312px height on small screens.
+*/
+.image20Parent .frameWrapper4 {
+  display: flex !important;
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: calc(100% - 48px) !important;
+  max-width: 1111px !important;
+
+  height: auto !important;
+  min-height: 0 !important;
+  aspect-ratio: 1111 / 312 !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  flex: 0 0 auto !important;
+
+  border-radius: 0 0 100px 100px !important;
+  background: #dfe6e9 !important;
+
+  box-shadow:-4px -4px 4px #ffffff,
+    4px 4px 4px #c4c4c4 !important;
+
+  overflow: hidden !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Remove old pseudo top extension from earlier CSS blocks */
+.image20Parent .frameWrapper4::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* Scale the content with the panel instead of using fixed 212/290px heights */
+.image20Parent .frameWrapper5 {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+
+  width: min(1103px, calc(100% - 48px)) !important;
+  height: auto !important;
+  min-height: 0 !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  transform: translateY(-2%) !important;
+}
+
+/* Let the content group use natural proportional spacing */
+.image20Parent .frameParent7,
+.image20Parent .frameParent8 {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+}
+
+.image20Parent .frameParent7 {
+  gap: clamp(12px, 3.9vw, 50px) !important;
+}
+
+.image20Parent .frameParent8 {
+  gap: clamp(8px, 1.9vw, 24px) !important;
+}
+
+/* Customer Training badge inside the attached panel */
+.image20Parent .frameIcon {
+  width: auto !important;
+  min-width: clamp(110px, 17.2vw, 220px) !important;
+  height: clamp(28px, 4.7vw, 60px) !important;
+
+  padding: 0 clamp(12px, 2.3vw, 30px) !important;
+
+  font-size: clamp(10px, 1.7vw, 22px) !important;
+  line-height: 1.2 !important;
+
+  border-radius: 50px !important;
+}
+
+/* Main heading */
+.image20Parent .turnProductKnowledgeContainer {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+
+  font-size: clamp(12px, 2.8vw, 36px) !important;
+  line-height: 1.35 !important;
+
+  text-align: center !important;
+}
+
+/* Description */
+.image20Parent .neurolxpDeliversScalable {
+  width: min(714px, 92%) !important;
+  height: auto !important;
+  margin: 0 auto !important;
+
+  font-size: clamp(8px, 1.9vw, 24px) !important;
+  line-height: 1.35 !important;
+
+  text-align: center !important;
+}
+
+/* Keep challenge area close to the attached header, as in the reference */
+.image20Parent .frameParent6 {
+  gap: clamp(24px, 5vw, 64px) !important;
+}
+
+
+/* =========================
+   TABLET
+   ========================= */
+@media (max-width: 900px) {
+  .image20Parent .frameWrapper4 {
+    width: calc(100% - 32px) !important;
+    max-width: none !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 1111 / 312 !important;
+
+    margin: 0 auto !important;
+
+    border-radius: 0 0 72px 72px !important;
+  }
+
+  .image20Parent .frameWrapper5 {
+    width: calc(100% - 36px) !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    transform: translateY(-2%) !important;
+  }
+
+  .image20Parent .frameParent6 {
+    gap: clamp(24px, 4vw, 36px) !important;
+  }
+
+  .image20Parent .frameParent7 {
+    gap: clamp(10px, 3vw, 24px) !important;
+  }
+
+  .image20Parent .frameParent8 {
+    gap: clamp(6px, 2vw, 16px) !important;
+  }
+
+  .image20Parent .frameIcon {
+    min-width: clamp(96px, 18vw, 170px) !important;
+    height: clamp(26px, 5vw, 44px) !important;
+
+    padding: 0 clamp(10px, 2.5vw, 20px) !important;
+
+    font-size: clamp(9px, 1.9vw, 16px) !important;
+  }
+
+  .image20Parent .turnProductKnowledgeContainer {
+    font-size: clamp(11px, 2.8vw, 24px) !important;
+    line-height: 1.3 !important;
+  }
+
+  .image20Parent .neurolxpDeliversScalable {
+    font-size: clamp(7px, 1.8vw, 16px) !important;
+    line-height: 1.35 !important;
+  }
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+@media (max-width: 600px) {
+  .image20Parent .frameWrapper4 {
+    width: calc(100% - 20px) !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 1111 / 312 !important;
+
+    margin: 0 auto !important;
+
+    border-radius: 0 0 48px 48px !important;
+  }
+
+  .image20Parent .frameWrapper5 {
+    width: calc(100% - 24px) !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    padding: 0 !important;
+
+    transform: translateY(-2%) !important;
+  }
+
+  .image20Parent .frameParent6 {
+    gap: 24px !important;
+  }
+
+  .image20Parent .frameParent7 {
+    gap: clamp(8px, 3vw, 14px) !important;
+  }
+
+  .image20Parent .frameParent8 {
+    gap: clamp(5px, 2vw, 9px) !important;
+  }
+
+  .image20Parent .frameIcon {
+    min-width: clamp(88px, 29vw, 130px) !important;
+    height: clamp(24px, 8vw, 34px) !important;
+
+    padding: 0 12px !important;
+
+    font-size: clamp(8px, 2.8vw, 12px) !important;
+    line-height: 1 !important;
+  }
+
+  .image20Parent .turnProductKnowledgeContainer {
+    font-size: clamp(11px, 3.7vw, 16px) !important;
+    line-height: 1.25 !important;
+  }
+
+  .image20Parent .neurolxpDeliversScalable {
+    width: 88% !important;
+
+    font-size: clamp(7px, 2.5vw, 11px) !important;
+    line-height: 1.35 !important;
+  }
+
+  /* Keep the challenge cards directly below the panel */
+  .image20Parent .frameParent9 {
+    gap: 24px !important;
+  }
+
+  .image20Parent .frameParent10 {
+    gap: 24px !important;
+  }
+
+  .image20Parent .frameParent11,
+  .image20Parent .frameParent16 {
+    gap: 24px !important;
+  }
+}
+
+
+/* Very narrow phones */
+@media (max-width: 380px) {
+  .image20Parent .frameWrapper4 {
+    width: calc(100% - 16px) !important;
+    border-radius: 0 0 42px 42px !important;
+  }
+
+  .image20Parent .frameWrapper5 {
+    width: calc(100% - 20px) !important;
+  }
+
+  .image20Parent .frameParent6 {
+    gap: 20px !important;
+  }
+}
+
+/* =========================================================
+   FINAL MAIN CARD TOP EDGE — VISIBLE REFERENCE MATCH
+   Adds the actual horizontal top edge of the OUTER card.
+   No TSX change required.
+   ========================================================= */
+
+.image20Parent {
+  position: relative !important;
+  overflow: hidden !important;
+
+  /* Preserve the existing recessed neumorphic card effect */
+  box-shadow:inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8),
+    inset 0 7px 10px rgba(196, 196, 196, 0.42) !important;
+}
+
+/*
+  This is the missing OUTER-card horizontal top edge.
+  It is intentionally above the inner Customer Training panel,
+  exactly like the supplied reference.
+*/
+.image20Parent::before {
+  content: "" !important;
+  display: block !important;
+
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+
+  width: 100% !important;
+  height: 3px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  background: rgba(196, 196, 196, 0.72) !important;
+
+  box-shadow:0 1px 3px rgba(196, 196, 196, 0.55),
+    0 -1px 2px rgba(255, 255, 255, 0.88) !important;
+
+  border: 0 !important;
+  border-radius: 32px 32px 0 0 !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  pointer-events: none !important;
+  z-index: 999 !important;
+}
+
+/* Keep the attached inner panel below the visible outer-card edge */
+.image20Parent .frameParent6,
+.image20Parent .frameWrapper4 {
+  z-index: 2 !important;
+}
+
+
+/* Tablet */
+@media (max-width: 900px) {
+  .image20Parent {
+    box-shadow:inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196, 196, 196, 0.76),
+      inset 0 6px 9px rgba(196, 196, 196, 0.40) !important;
+  }
+
+  .image20Parent::before {
+    height: 2px !important;
+    border-radius: 26px 26px 0 0 !important;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+  .image20Parent {
+    box-shadow:inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196, 196, 196, 0.72),
+      inset 0 5px 8px rgba(196, 196, 196, 0.38) !important;
+  }
+
+  .image20Parent::before {
+    height: 2px !important;
+    border-radius: 22px 22px 0 0 !important;
+  }
+}
+
+/* =========================================================
+   FINAL CTA — MOVE UP AND KEEP CLEAR OF SHARED FOOTER
+   Only spacing/position is adjusted. No visual design changes.
+   ========================================================= */
+.frameParent50 {
+  transform: translateY(-80px) !important;
+  margin-bottom: 80px !important;
+}
+
+@media (max-width: 900px) {
+  .frameParent50 {
+    transform: translateY(-56px) !important;
+    margin-bottom: 56px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .frameParent50 {
+    transform: translateY(-40px) !important;
+    margin-bottom: 40px !important;
+  }
+}
+
+.frameParent2 > .vectorParent .frameChild2,
+.frameParent50 .frameChild2 {
+  transition: box-shadow 0.2s ease;
+}
+
+.frameParent2 > .vectorParent .frameChild2:hover {
+  box-shadow:
+    inset -4px -4px 4px #fff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+}
+
+.frameParent50 .frameChild2:hover {
+  box-shadow:
+    inset -4px -4px 4px rgba(255, 255, 255, 0.98),
+    inset 4px 4px 4px rgba(196, 196, 196, 0.82);
+}
+
+/* =========================================================
+   MOBILE — FIX THE TWO RED-MARKED SPACING AREAS
+   1) Reduce space between hero Book a Demo and Empower section
+   2) Give Customer Training challenge header enough height
+   Desktop/tablet design remains unchanged.
+   ========================================================= */
+@media (max-width: 600px) {
+  /* Red mark 1: remove the oversized blank area below Book a Demo */
+  .frameParent2 {
+    gap: 12px !important;
+  }
+
+  .frameParent2 > .frameParent5 {
+    margin-top: 0 !important;
+  }
+
+  /* Red mark 2: prevent the Customer Training panel text from being cramped/clipped */
+  .image20Parent .frameWrapper4 {
+    aspect-ratio: auto !important;
+    min-height: 240px !important;
+  }
+
+  .image20Parent .frameWrapper5 {
+    min-height: 240px !important;
+    transform: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .image20Parent .frameParent7,
+  .image20Parent .frameParent8 {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+}
+
+/* =========================================================
+   MOBILE — CUSTOMER TRAINING PANEL FONT SIZE INCREASE ONLY
+   ========================================================= */
+@media (max-width: 600px) {
+  .image20Parent .frameIcon {
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+
+  .image20Parent .turnProductKnowledgeContainer {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  .image20Parent .neurolxpDeliversScalable {
+    font-size: 13px !important;
+    line-height: 1.45 !important;
+  }
+}
+
+/* =========================================================
+   MOBILE BENEFITS — HEADING 2 LINES + REDUCED SECTION SPACING
+   Mobile only. Desktop/tablet unchanged.
+   ========================================================= */
+@media (max-width: 600px) {
+  .frameParent23 {
+    margin-top: 24px !important;
+    padding: 20px 18px 24px !important;
+    gap: 22px !important;
+  }
+
+  .frameParent23 .frameParent24 {
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 16px !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .frameParent23 .frameParent25 {
+    width: 100% !important;
+    gap: 18px !important;
+    align-items: center !important;
+  }
+
+  .frameParent23 .benefitsOfCustomer {
+    width: min(360px, 100%) !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+    font-size: 28px !important;
+    line-height: 1.35 !important;
+    text-align: center !important;
+  }
+
+  .frameParent23 .improveProductAdoption {
+    width: min(360px, 100%) !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  .frameParent23 .frameParent26 {
+    margin-top: 4px !important;
+    gap: 14px !important;
+  }
+
+  .frameParent23 .frameParent27,
+  .frameParent23 .frameParent28 {
+    min-height: 62px !important;
+    gap: 14px !important;
+  }
+}
+
+/* MOBILE BENEFITS HEADING — FORCE EXACTLY TWO LINES */
+@media (max-width: 600px) {
+  .frameParent23 .benefitsOfCustomer {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 27px !important;
+    line-height: 1.35 !important;
+    white-space: normal !important;
+    text-align: center !important;
+  }
+
+  .frameParent23 .benefitsOfCustomer br {
+    display: block !important;
+  }
+}
+
+/* =========================================================
+   MOBILE FINAL CTA — REMOVE UNNECESSARY VERTICAL SPACING ONLY
+   ========================================================= */
+@media (max-width: 600px) {
+  .frameParent50 {
+    min-height: 0 !important;
+    height: auto !important;
+    padding-top: 20px !important;
+    padding-bottom: 24px !important;
+    gap: 18px !important;
+  }
+
+  .frameParent50 .frameParent51 {
+    gap: 14px !important;
+    margin: 0 !important;
+  }
+
+  .frameParent50 .frameParent52 {
+    gap: 14px !important;
+    margin: 0 !important;
+  }
+
+  .frameParent50 .turnCustomerEducation {
+    margin: 0 !important;
+  }
+
+  .frameParent50 .neurolxpDrivesCustomer {
+    margin: 0 !important;
+  }
+
+  .frameParent50 .frameWrapper11 {
+    margin-top: 6px !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .frameParent2 > .frameParent5 .frameWrapper3,
+  .frameParent2 > .frameParent5 .empowerCustomersDriveAdoptWrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+    box-sizing: border-box !important;
+  }
+
+  .frameParent2 > .frameParent5 .empowerCustomersDrive {
+    width: calc(100% - 16px) !important;
+    max-width: calc(100% - 16px) !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* =====================================================================
+   HOME PAGE ALIGNMENT
+   Scoped specificity intentionally wins over the supplied legacy overrides.
+   No viewport zoom, fixed text heights, or translated section spacing.
+   64px section rhythm / 48px on phones; 24px content gaps / 16px on phones.
+   ===================================================================== */
+
+.customerTraining.customerTraining {
+  --page-font: "Segoe UI", "Inter", sans-serif !important;
+  --page-bg: #dfe6e9 !important;
+  --page-blue: #2d4cc8 !important;
+  --page-raised: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9 !important;
+  --page-inset: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196,196,196,.8) !important;
+  --page-section-gap: 64px !important;
+  --page-content-gap: 24px !important;
+  --page-heading: 36px !important;
+  --page-body: 24px !important;
+  --page-badge: 24px !important;
+  --page-button: 24px !important;
+  --page-icon: 70px !important;
+  --page-inner-icon: 52px !important;
+  --page-panel-padding: 32px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  zoom: 1 !important;
+  padding: 0 24px 48px !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 0 !important;
+  font-family: var(--page-font) !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  background: var(--page-bg) !important;
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+
+.customerTraining.customerTraining *,
+.customerTraining.customerTraining *::before,
+.customerTraining.customerTraining *::after {
+  box-sizing: border-box !important;
+}
+
+.customerTraining.customerTraining :where(h1,h2,h3,h4,p,a,button,input,textarea,select,span,div,li,strong,b) {
+  font-family: var(--page-font) !important;
+}
+
+.customerTraining.customerTraining :where(img,svg,video) {
+  max-width: 100% !important;
+}
+
+.customerTraining.customerTraining .frameParent2,
+.customerTraining.customerTraining .image20Parent,
+.customerTraining.customerTraining .frameParent23,
+.customerTraining.customerTraining .frameParent50,
+.customerTraining.customerTraining .frameDiv {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 1280px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: var(--page-section-gap) auto 0 !important;
+  transform: none !important;
+  translate: none !important;
+  aspect-ratio: auto !important;
+  flex-shrink: 0 !important;
+}
+
+.customerTraining.customerTraining .frameDiv {
+  margin: 24px auto 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: wrap !important;
+  column-gap: 8px !important;
+  row-gap: 4px !important;
+  padding: 0 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  white-space: normal !important;
+  overflow: visible !important;
+}
+
+.customerTraining.customerTraining .frameDiv .resourcesWrapper,
+.customerTraining.customerTraining .frameDiv .arrowRightDoubleGroup {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.customerTraining.customerTraining .frameDiv .useCases,
+.customerTraining.customerTraining .frameDiv .resources,
+.customerTraining.customerTraining .frameDiv a,
+.customerTraining.customerTraining .frameDiv span {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+}
+
+.customerTraining.customerTraining .frameDiv .breadcrumbArrow,
+.customerTraining.customerTraining .frameDiv img,
+.customerTraining.customerTraining .frameDiv svg {
+  width: 16px !important;
+  height: 16px !important;
+  flex: 0 0 16px !important;
+  object-fit: contain !important;
+}
+
+.customerTraining.customerTraining .frameDiv a {
+  color: var(--page-blue) !important;
+  text-decoration: none !important;
+  text-underline-offset: 3px !important;
+}
+
+.customerTraining.customerTraining .frameDiv a:hover {
+  text-decoration: underline !important;
+}
+
+.customerTraining.customerTraining .frameParent2 {
+  margin-top: 24px !important;
+}
+
+.customerTraining.customerTraining .frameIcon,
+.customerTraining.customerTraining .frameChild10,
+.customerTraining.customerTraining .frameChild27 {
+  position: relative !important;
+  inset: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: auto !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 56px !important;
+  margin: 0 !important;
+  padding: 12px 36px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: var(--page-bg) !important;
+  box-shadow: var(--page-inset) !important;
+  font-family: var(--page-font) !important;
+  font-size: var(--page-badge) !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: .03em !important;
+  color: var(--page-blue) !important;
+  white-space: normal !important;
+  text-align: center !important;
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  flex-shrink: 0 !important;
+  transform: none !important;
+}
+
+.customerTraining.customerTraining .frameChild2 {
+  position: relative !important;
+  inset: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  width: fit-content !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 48px !important;
+  padding: 16px 32px !important;
+  margin: 0 !important;
+  appearance: none !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  background: var(--page-bg) !important;
+  box-shadow: var(--page-raised) !important;
+  font-family: var(--page-font) !important;
+  font-size: var(--page-button) !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: .02em !important;
+  color: var(--page-blue) !important;
+  text-decoration: none !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  transform: none !important;
+  touch-action: manipulation !important;
+  transition: box-shadow .2s ease !important;
+  overflow: visible !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.customerTraining.customerTraining .frameChild2:hover {
+  box-shadow: var(--page-inset) !important;
+  transform: none !important;
+}
+}
+
+.customerTraining.customerTraining .frameChild2:active {
+  box-shadow: var(--page-inset) !important;
+  transform: none !important;
+}
+
+.customerTraining.customerTraining .frameChild2:focus-visible,
+.customerTraining.customerTraining .frameDiv a:focus-visible {
+  outline: 3px solid var(--page-blue) !important;
+  outline-offset: 4px !important;
+  transform: none !important;
+}
+
+.customerTraining.customerTraining .turnProductKnowledgeContainer,
+.customerTraining.customerTraining .empowerCustomersDrive,
+.customerTraining.customerTraining .benefitsOfCustomer,
+.customerTraining.customerTraining .turnCustomerEducationContainer,
+.customerTraining.customerTraining .turnCustomerEducation {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  font-size: var(--page-heading) !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: .03em !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  text-wrap: balance !important;
+  overflow: visible !important;
+  display: block !important;
+}
+
+.customerTraining.customerTraining .turnProductKnowledgeContainer :where(span,strong,b),
+.customerTraining.customerTraining .empowerCustomersDrive :where(span,strong,b),
+.customerTraining.customerTraining .benefitsOfCustomer :where(span,strong,b),
+.customerTraining.customerTraining .turnCustomerEducationContainer :where(span,strong,b),
+.customerTraining.customerTraining .turnCustomerEducation :where(span,strong,b) {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+.customerTraining.customerTraining .neurolxpDeliversScalable,
+.customerTraining.customerTraining .neurolxpDeliversSelfService,
+.customerTraining.customerTraining .improveProductAdoption,
+.customerTraining.customerTraining .neurolxpDrivesCustomer {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  font-size: var(--page-body) !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  letter-spacing: .03em !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  overflow: visible !important;
+  display: block !important;
+}
+
+.customerTraining.customerTraining .increaseProductUsage,
+.customerTraining.customerTraining .lowerSupportRequests,
+.customerTraining.customerTraining .trainAtScale,
+.customerTraining.customerTraining .unlockProductValue,
+.customerTraining.customerTraining .measureLearning,
+.customerTraining.customerTraining .strengthenEngagement {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  font-size: var(--page-body) !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  text-align: left !important;
+  flex: 1 1 0 !important;
+  display: block !important;
+}
+
+.customerTraining.customerTraining .benefitIconOuter,
+.customerTraining.customerTraining .benefitIconCircle {
+  width: var(--page-icon) !important;
+  height: var(--page-icon) !important;
+  min-width: var(--page-icon) !important;
+  flex: 0 0 var(--page-icon) !important;
+}
+
+.customerTraining.customerTraining .benefitIconInner {
+  width: var(--page-inner-icon) !important;
+  height: var(--page-inner-icon) !important;
+  min-width: var(--page-inner-icon) !important;
+  flex: 0 0 var(--page-inner-icon) !important;
+}
+
+@media (max-width: 1023.98px) {
+.customerTraining.customerTraining {
+  --page-heading: 32px !important;
+  --page-body: 20px !important;
+  --page-button: 20px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining {
+  --page-section-gap: 48px !important;
+  --page-content-gap: 16px !important;
+  --page-heading: 24px !important;
+  --page-body: 16px !important;
+  --page-badge: 20px !important;
+  --page-button: 18px !important;
+  --page-icon: 56px !important;
+  --page-inner-icon: 40px !important;
+  --page-panel-padding: 16px !important;
+  padding: 0 16px 32px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .frameDiv {
+  font-size: 14px !important;
+  line-height: 22px !important;
+  margin-top: 16px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .frameParent2 {
+  margin-top: 16px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .frameIcon,
+.customerTraining.customerTraining .frameChild10,
+.customerTraining.customerTraining .frameChild27 {
+  min-height: 48px !important;
+  padding: 10px 26px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .frameChild2 {
+  padding: 14px 24px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .benefitIcon,
+.customerTraining.customerTraining .benefitIconImage {
+  width: 28px !important;
+  height: 28px !important;
+}
+}
+
+.customerTraining.customerTraining .frameParent2 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-section-gap) !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+.customerTraining.customerTraining .vectorParent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  padding: var(--page-panel-padding) !important;
+  isolation: isolate !important;
+}
+
+.customerTraining.customerTraining .polygonIcon {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: fill !important;
+  z-index: -1 !important;
+  pointer-events: none !important;
+}
+
+.customerTraining.customerTraining .frameWrapper,
+.customerTraining.customerTraining .frameParent3,
+.customerTraining.customerTraining .frameParent4,
+.customerTraining.customerTraining .turnProductKnowledgeIntoCuParent,
+.customerTraining.customerTraining .frameParent5,
+.customerTraining.customerTraining .frameParent24,
+.customerTraining.customerTraining .frameParent25,
+.customerTraining.customerTraining .frameParent51,
+.customerTraining.customerTraining .frameParent52 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.customerTraining.customerTraining .frameWrapper3,
+.customerTraining.customerTraining .empowerCustomersDriveAdoptWrapper {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  padding: 0 !important;
+}
+
+.customerTraining.customerTraining .frameWrapper2,
+.customerTraining.customerTraining .frameWrapper11 {
+  position: relative !important;
+  inset: auto !important;
+  width: fit-content !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 8px !important;
+  transform: none !important;
+}
+
+.customerTraining.customerTraining .customerTrainingChild {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 1280px !important;
+  height: 4px !important;
+  margin: 32px auto 0 !important;
+  transform: none !important;
+}
+
+.customerTraining.customerTraining .image20Parent {
+  padding: 0 var(--page-panel-padding) var(--page-panel-padding) !important;
+  overflow: hidden !important;
+}
+
+.customerTraining.customerTraining .frameParent6 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 32px !important;
+  align-items: center !important;
+}
+
+.customerTraining.customerTraining .frameWrapper4 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  padding: 0 !important;
+  border-radius: 0 0 64px 64px !important;
+}
+
+.customerTraining.customerTraining .frameWrapper5 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  padding: 32px var(--page-panel-padding) !important;
+}
+
+.customerTraining.customerTraining .frameParent7,
+.customerTraining.customerTraining .frameParent8 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  align-items: center !important;
+}
+
+.customerTraining.customerTraining .frameParent9 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+  align-items: center !important;
+}
+
+.customerTraining.customerTraining .frameParent10 {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: grid !important;
+  grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+  grid-template-areas: "challenge1 challenge2" "challenge3 challenge4" !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+}
+
+.customerTraining.customerTraining .frameParent11,
+.customerTraining.customerTraining .frameParent16 {
+  display: contents !important;
+}
+
+.customerTraining.customerTraining .frameParent12,
+.customerTraining.customerTraining .frameParent14,
+.customerTraining.customerTraining .frameParent19,
+.customerTraining.customerTraining .frameParent21 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 200px !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 24px 36px !important;
+  grid-area: auto !important;
+  grid-column: auto !important;
+  grid-row: auto !important;
+}
+
+.customerTraining.customerTraining .frameParent21 {
+  width: 100% !important;
+  max-width: calc((100% - 24px) / 2) !important;
+  align-self: center !important;
+}
+
+.customerTraining.customerTraining .frameParent13,
+.customerTraining.customerTraining .challenge1Parent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.customerTraining.customerTraining .challenge1 {
+  width: auto !important;
+  height: auto !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+}
+
+.customerTraining.customerTraining .simplifyProducts {
+  width: 100% !important;
+  height: auto !important;
+  font-size: 24px !important;
+  line-height: 1.3 !important;
+  font-weight: 600 !important;
+  white-space: normal !important;
+  text-align: center !important;
+}
+
+.customerTraining.customerTraining .helpCustomersLearn {
+  width: 100% !important;
+  height: auto !important;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+  text-align: center !important;
+}
+
+.customerTraining.customerTraining .frameParent23 {
+  display: grid !important;
+  grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+  gap: 48px !important;
+  align-items: center !important;
+  padding: 0 !important;
+}
+
+.customerTraining.customerTraining .frameParent24,
+.customerTraining.customerTraining .frameParent25 {
+  align-items: flex-start !important;
+  text-align: left !important;
+}
+
+.customerTraining.customerTraining .frameParent26 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+}
+
+.customerTraining.customerTraining .frameParent27,
+.customerTraining.customerTraining .frameParent28 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: grid !important;
+  grid-template-columns: var(--page-icon) minmax(0,1fr) !important;
+  align-items: center !important;
+  gap: 16px !important;
+}
+
+.customerTraining.customerTraining .frameParent50 {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  transform: none !important;
+  translate: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--page-content-gap) !important;
+  padding: 0 !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.customerTraining.customerTraining .frameParent50 {
+  margin: var(--page-section-gap) auto 0 !important;
+}
+
+.customerTraining.customerTraining .frameChild29 {
+  width: min(935px,100%) !important;
+  height: auto !important;
+  max-width: 100% !important;
+  margin: 8px auto 0 !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 1023.98px) {
+.customerTraining.customerTraining .frameParent23 {
+  grid-template-columns: minmax(0,1fr) !important;
+  gap: 32px !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.customerTraining.customerTraining .frameParent24,
+.customerTraining.customerTraining .frameParent25 {
+  align-items: center !important;
+  text-align: center !important;
+}
+}
+
+@media (max-width: 1023.98px) {
+.customerTraining.customerTraining .frameParent26 {
+  max-width: 620px !important;
+  margin: 0 auto !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .frameParent10 {
+  grid-template-columns: minmax(0,1fr) !important;
+  grid-template-areas: "challenge1" "challenge2" "challenge3" "challenge4" !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .frameParent12,
+.customerTraining.customerTraining .frameParent14,
+.customerTraining.customerTraining .frameParent19,
+.customerTraining.customerTraining .frameParent21 {
+  grid-area: auto !important;
+  grid-column: auto !important;
+  grid-row: auto !important;
+  max-width: 100% !important;
+  min-height: 0 !important;
+  padding: 24px 32px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .frameWrapper4 {
+  border-radius: 0 0 32px 32px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .frameWrapper5 {
+  padding: 24px 8px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .simplifyProducts {
+  font-size: 20px !important;
+}
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .helpCustomersLearn {
+  font-size: 16px !important;
+}
+}
+
+.customerTraining.customerTraining .frameParent2 {
+  margin-top: 24px !important;
+}
+
+@media (max-width: 767.98px) {
+.customerTraining.customerTraining .frameParent2 {
+  margin-top: 16px !important;
+}
+}
+
+.customerTraining.customerTraining .frameParent11 > .frameParent12 {
+  grid-area: challenge1 !important;
+}
+
+.customerTraining.customerTraining .frameParent16 > .frameParent12 {
+  grid-area: challenge2 !important;
+}
+
+.customerTraining.customerTraining .frameParent11 > .frameParent14 {
+  grid-area: challenge3 !important;
+}
+
+.customerTraining.customerTraining .frameParent16 > .frameParent19 {
+  grid-area: challenge4 !important;
+}
+
+.customerTraining.customerTraining img.frameIcon,
+.customerTraining.customerTraining img.frameChild10,
+.customerTraining.customerTraining img.frameChild27,
+.customerTraining.customerTraining img.frameChild2 {
+  width: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+.customerTraining.customerTraining *,
+.customerTraining.customerTraining *::before,
+.customerTraining.customerTraining *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+}
+
+/* Breadcrumbs matched to the supplied Goals and Tracking stylesheet. */
+.customerTraining.customerTraining.customerTraining {
+  --matched-breadcrumb-width: min(100vw, 1280px);
+}
+
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) {
+  position: relative !important;
+  inset: auto !important;
+  box-sizing: border-box !important;
+  width: var(--matched-breadcrumb-width) !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  align-self: center !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+  padding: 12px 20px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  font-family: "Segoe UI", "Inter" !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  letter-spacing: 0.02em !important;
+  color: #2f3547 !important;
+  text-align: left !important;
+  white-space: nowrap !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+  translate: none !important;
+  overflow-x: auto !important;
+  scrollbar-width: none;
+}
+
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"])::-webkit-scrollbar { display: none; }
+
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(ol, ul, .resourcesWrapper, .arrowRightDoubleGroup, li) {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  flex-shrink: 0 !important;
+  gap: 8px !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  font: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+}
+
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button, span, b, strong, .useCases, .resources, .home) {
+  font-family: "Segoe UI", "Inter" !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  white-space: nowrap !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  text-shadow: none !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button) {
+  display: inline-flex !important;
+  align-items: center !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  text-underline-offset: 4px !important;
+  cursor: pointer !important;
+}
+
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, strong, [aria-current="page"], li:last-child) {
+  color: #243fa8 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  flex-shrink: 0 !important;
+  white-space: nowrap !important;
+}
+
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(img, svg, .breadcrumbArrow, .arrowRightDoubleIcon, .arrowRightDoubleIcon2, .arrowDown01Icon) {
+  display: block !important;
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  flex: 0 0 16px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+  transform: none !important;
+}
+
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button):hover { text-decoration: underline !important; }
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(a, button):focus-visible {
+  outline: 3px solid #2d4cc8 !important;
+  outline-offset: 3px !important;
+}
+
+@media (min-width: 768px) {
+  .customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) { padding-top: 32px !important; }
+}
+
+@media (min-width: 1280px) {
+  .customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) { padding-inline: 80px !important; }
+}
+
+@media (min-width: 1440px) {
+  .customerTraining.customerTraining.customerTraining { --matched-breadcrumb-width: min(100vw, 1440px); }
+}
+
+@media (max-width: 480px) {
+  .customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) { font-size: 12px !important; line-height: 18px !important; }
+  .customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, strong, [aria-current="page"], li:last-child) {
+    font-weight: 700 !important;
+  }
+}
+
+/* Current breadcrumb: the screenshot uses #243fa8 with bold text.
+   Set the label itself as well as nested text, overriding inherited colors. */
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) > :last-child:not(img, svg, ol, ul),
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, [aria-current="page"], strong, li:last-child),
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) > :last-child:not(img, svg, ol, ul) :is(a, button, span, div, b, strong),
+.customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) :is(.arrowRightDoubleGroup, [aria-current="page"], strong, li:last-child) :is(a, button, span, div, b, strong) {
+  color: #243fa8 !important;
+  -webkit-text-fill-color: #243fa8 !important;
+  font-weight: 700 !important;
+  text-shadow: none !important;
+}
+
+/* Requested position adjustment: move the complete benefits list. */
+@media (min-width: 1024px) {
+  .frameParent26.frameParent26.frameParent26.frameParent26 {
+    position: relative !important;
+    left: 64px !important;
+    right: auto !important;
+    width: calc(100% - 64px) !important;
+    max-width: calc(100% - 64px) !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    transform: none !important;
+    translate: none !important;
+  }
+}
+
+/* Move the breadcrumb row slightly left on desktop and tablet. */
+@media (min-width: 768px) {
+  .customerTraining.customerTraining.customerTraining :is(.frameDiv, .breadcrumb, .breadcrumbs, [aria-label="Breadcrumb"], [aria-label="Breadcrumbs"]) {
+    transform: translateX(-16px) !important;
+  }
+}
+
+
+/* Existing expert launcher slot, aligned with the Benefits section. */
+.customerTraining :global(.customerTrainingFix_expertButtonSlot) {
+  position: absolute;
+  top: 20%;
+  right: 16px;
+  bottom: auto;
+  left: auto;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-50%);
+  z-index: 20;
+  pointer-events: auto;
+}
+@media (max-width: 1100px) {
+  .customerTraining :global(.customerTrainingFix_expertButtonSlot) { right: 12px; }
+}
+@media (max-width: 767px) {
+  .customerTraining :global(.customerTrainingFix_expertButtonSlot) {
+    top: 20%;
+    right: 8px;
+  }
+}
+
+
+/* Customer Training challenge cards: enlarge numbers 1–5 only. */
+.customerTraining.customerTraining .image20Parent .challenge1 {
+  font-size: 35px !important;
+  line-height: 1.2 !important;
+}
+
+.customerTraining {
+  padding-bottom: 80px !important;
+  box-sizing: border-box;
+}
+/* Desktop and tablet */
+.customerTraining {
+  padding-bottom: 80px !important;
+  box-sizing: border-box;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .customerTraining {
+    padding-bottom: 100px !important;
+  }
+}

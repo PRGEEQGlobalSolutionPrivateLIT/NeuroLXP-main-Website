@@ -1,0 +1,227 @@
+/* ==========================================================================
+   TALK TO YOUR EXPERT — EXACT BOOK A DEMO BUTTON STYLE
+   --------------------------------------------------------------------------
+   Applies the same floating position, size, spacing, shadows, icon sizing,
+   responsive behavior and modal-hide behavior as .book-demo-fab.
+   ========================================================================== */
+
+.talk-to-expert-fab,
+.talk-to-expert-fab--embedded {
+  position: fixed !important;
+  right: 32px !important;
+  bottom: 32px !important;
+  top: auto !important;
+  left: auto !important;
+
+  z-index: 9999 !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+
+  gap: 16px !important;
+  padding: 12px !important;
+
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+
+  background: #dfe6e9 !important;
+  border: none !important;
+  border-radius: 100px !important;
+
+  box-shadow:
+    -4px -4px 4px #ffffff,
+    4px 4px 4px #c6c6c9 !important;
+
+  cursor: pointer !important;
+
+  transform: none !important;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    opacity 0.3s ease !important;
+}
+
+.talk-to-expert-fab:hover,
+.talk-to-expert-fab--embedded:hover {
+  transform: translateY(-4px) !important;
+}
+
+.talk-to-expert-fab:focus-visible,
+.talk-to-expert-fab--embedded:focus-visible {
+  outline: 3px solid #2d4cc8 !important;
+  outline-offset: 3px !important;
+}
+
+body.modal-open .talk-to-expert-fab,
+body.modal-open .talk-to-expert-fab--embedded {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Icon ring — same as Book a Demo */
+.talk-to-expert-fab .talk-to-expert-fab-icon-ring,
+.talk-to-expert-fab--embedded .talk-to-expert-fab-icon-ring {
+  flex-shrink: 0 !important;
+
+  width: 60px !important;
+  min-width: 60px !important;
+  height: 60px !important;
+  min-height: 60px !important;
+
+  border-radius: 50% !important;
+  background: #dfe6e9 !important;
+
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Inner icon circle — same as Book a Demo */
+.talk-to-expert-fab .talk-to-expert-fab-icon-circle,
+.talk-to-expert-fab--embedded .talk-to-expert-fab-icon-circle {
+  width: 40px !important;
+  min-width: 40px !important;
+  height: 40px !important;
+  min-height: 40px !important;
+
+  border-radius: 50% !important;
+  background: #dfe6e9 !important;
+
+  box-shadow:
+    4px 4px 4px #c6c6c9,
+    -4px -4px 4px #ffffff !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  color: #2d4cc8 !important;
+}
+
+/* Icon — same as Book a Demo */
+.talk-to-expert-fab .talk-to-expert-fab-icon,
+.talk-to-expert-fab--embedded .talk-to-expert-fab-icon {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+/* Label — same as Book a Demo */
+.talk-to-expert-fab .talk-to-expert-fab-label,
+.talk-to-expert-fab--embedded .talk-to-expert-fab-label {
+  position: static !important;
+
+  width: auto !important;
+  height: auto !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: visible !important;
+  clip: auto !important;
+
+  font-family: "Segoe UI", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  letter-spacing: 0.02em !important;
+
+  color: #31344b !important;
+  white-space: nowrap !important;
+}
+
+/* The old page slot must not reposition the fixed button. */
+.learning-modules-expert-button-slot {
+  position: static !important;
+  inset: auto !important;
+
+  width: 0 !important;
+  height: 0 !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  pointer-events: none !important;
+}
+
+.learning-modules-expert-button-slot .talk-to-expert-fab,
+.learning-modules-expert-button-slot .talk-to-expert-fab--embedded {
+  pointer-events: auto !important;
+}
+
+/* ==========================================================================
+   TABLET / MOBILE — EXACT BOOK A DEMO RESPONSIVE VALUES
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .talk-to-expert-fab,
+  .talk-to-expert-fab--embedded {
+    position: fixed !important;
+
+    right: 20px !important;
+    bottom: 20px !important;
+
+    z-index: 9999 !important;
+
+    gap: 12px !important;
+    padding: 8px 20px 8px 8px !important;
+  }
+
+  .talk-to-expert-fab .talk-to-expert-fab-icon-ring,
+  .talk-to-expert-fab--embedded .talk-to-expert-fab-icon-ring {
+    width: 48px !important;
+    min-width: 48px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+  }
+
+  .talk-to-expert-fab .talk-to-expert-fab-icon-circle,
+  .talk-to-expert-fab--embedded .talk-to-expert-fab-icon-circle {
+    width: 34px !important;
+    min-width: 34px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+  }
+
+  .talk-to-expert-fab .talk-to-expert-fab-icon,
+  .talk-to-expert-fab--embedded .talk-to-expert-fab-icon {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  .talk-to-expert-fab .talk-to-expert-fab-label,
+  .talk-to-expert-fab--embedded .talk-to-expert-fab-label {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .talk-to-expert-fab,
+  .talk-to-expert-fab--embedded {
+    position: fixed !important;
+
+    right: 16px !important;
+    bottom: 16px !important;
+
+    z-index: 9999 !important;
+
+    padding: 6px !important;
+    gap: 0 !important;
+  }
+
+  .talk-to-expert-fab .talk-to-expert-fab-label,
+  .talk-to-expert-fab--embedded .talk-to-expert-fab-label {
+    display: none !important;
+  }
+}

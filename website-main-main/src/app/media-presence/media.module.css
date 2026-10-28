@@ -1,0 +1,5516 @@
+
+.mediaPresence {
+  	width: 100%;
+  	height: 2720px;
+  	position: relative;
+	transform: translateY(-12px);
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 48px;
+  	color: #31344b;
+  	font-family: "Segoe UI", "Inter";
+    zoom: 0.89;
+}
+.mediaPresenceChild {
+  	position: absolute;
+  	top: -755px;
+  	left: calc(50% - 742px);
+  	width: 1487px;
+  	height: 1389px;
+  	flex-shrink: 0;
+}
+.mediaPresenceInner {
+	position: absolute;
+	top: 90px;
+	left: calc(50% - 551px);
+	width: 1103px;
+	height: 322px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-shrink: 0;
+	font-size: 36px;
+	z-index: 2;
+}
+.frameParent {
+  	width: 100%;
+  	height: 322px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 36px;
+  	max-width: 100%;
+}
+.frameGroup {
+  	align-self: stretch;
+  	height: 212px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 16px;
+}
+.frameChild {
+  	width: 239.1px;
+  	height: 50.2px;
+  	position: relative;
+  	border-radius: 28px;
+  	object-fit: contain;
+}
+.recognizedInnovationInDigitParent {
+  	width: 999px;
+  	height: 114px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 16px;
+}
+.recognizedInnovationIn {
+  	width: 883px;
+  	height: 50px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	text-transform: capitalize;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.neurolxpIsDriving {
+  	width: 615px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameWrapper {
+  	width: 220px;
+  	border-radius: 50px;
+  	display: flex;
+  	align-items: center;
+}
+.frameItem {
+  	height: 60.2px;
+  	width: 100%;
+  	position: relative;
+  	box-shadow: -4px -4px 8px #fff, 4px 4px 8px rgba(196, 196, 196, 0.8);
+  	border-radius: 50px;
+  	object-fit: contain;
+	
+}
+.frameContainer {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 720px);
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 80px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	text-align: left;
+  	font-size: 16px;
+  	font-family: "Segoe UI", "Inter";
+}
+.frameInner {
+  	position: absolute;
+  	top: calc(50% - 22px);
+  	left: 1096px;
+  	width: 132px;
+  	height: 44px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.frameDiv {
+  	position: absolute;
+  	top: 18px;
+  	left: 32px;
+  	width: 1376px;
+  	height: 45px;
+  	flex-shrink: 0;
+	font-family: "Segoe UI", "Inter";
+}
+.logo01SynapseSpark1Parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	gap: 130px;
+}
+.logo01SynapseSpark1Icon {
+  	height: 45px;
+  	width: 120px;
+  	position: relative;
+  	object-fit: cover;
+}
+.frameParent2 {
+  	display: flex;
+  	align-items: center;
+  	gap: 30px;
+}
+.homeParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.home {
+  	position: relative;
+  	line-height: 24px;
+  	font-weight: 600;
+}
+.arrowDown01Icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.resourcesParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #2d4cc8;
+}
+.resources {
+  	position: relative;
+  	line-height: 24px;
+}
+.signInHelpWrapper {
+  	position: absolute;
+  	top: calc(50% - 22.5px);
+  	left: 1244px;
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 132px;
+  	height: 44px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 32px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	color: #2d4cc8;
+  	font-family: "Segoe UI", "Inter";
+}
+.signInHelp {
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.rectangleIcon {
+  	position: absolute;
+  	top: 6px;
+  	left: 11px;
+  	width: 1429px;
+  	height: 592.4px;
+  	flex-shrink: 0;
+}
+.frameChild2 {
+  	position: absolute;
+  	top: 76px;
+  	left: 4px;
+  	width: 1436px;
+  	height: 839px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.frameParent3 {
+  	position: absolute;
+  	top: 72px;
+  	left: 80px;
+  	background-color: #dfe6e9;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	flex-shrink: 0;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #2f3547;
+  	font-family: "Segoe UI", "Inter";
+}
+.resourcesWrapper {
+  	display: flex;
+  	align-items: center;
+}
+.resources2 {
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 24px;
+}
+.arrowRightDoubleParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #243fa8;
+}
+.frameParent4 {
+  	position: absolute;
+  	top: 400px;
+  	left: calc(50% - 576px);
+  	width: 1152px;
+  	height: 541px;
+  	flex-shrink: 0;
+}
+.frameWrapper2 {
+  	position: absolute;
+  	top: 22px;
+  	left: 0px;
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c4c4c4;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	width: 300px;
+  	height: 300px;
+  	overflow: hidden;
+}
+.frameIcon {
+  	position: absolute;
+  	top: 16px;
+  	left: 16px;
+  	border-radius: 24px;
+  	width: 268px;
+  	height: 268px;
+  	object-fit: cover;
+}
+.frameWrapper3 {
+  	position: absolute;
+  	top: 166px;
+  	left: 364px;
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c4c4c4;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	width: 400px;
+  	height: 400px;
+  	overflow: hidden;
+}
+.frameChild3 {
+  	position: absolute;
+  	top: 16px;
+  	left: 16px;
+  	border-radius: 24px;
+  	width: 368px;
+  	height: 368px;
+  	object-fit: cover;
+}
+.frameWrapper4 {
+  	position: absolute;
+  	top: 22px;
+  	left: 828px;
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c4c4c4;
+  	border-radius: 24px;
+  	background-color: #dfe6e9;
+  	width: 300px;
+  	height: 300px;
+  	overflow: hidden;
+}
+.frameParent5 {
+  	position: absolute;
+  	top: 1005px;
+  	left: calc(50% - 465px);
+  	width: 930px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 44px;
+  	flex-shrink: 0;
+  	color: #2f3547;
+}
+.frameWrapper5 {
+  	align-self: stretch;
+  	height: 138px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.frameParent6 {
+  	width: 100%;
+  	height: 212px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 50px;
+  	max-width: 100%;
+  	flex-shrink: 0;
+}
+.frameWrapper6 {
+  	align-self: stretch;
+  	height: 156px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.shapingTheFutureOfLearningParent {
+  	width: 999px;
+  	height: 114px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+  	flex-shrink: 0;
+}
+.shapingTheFuture {
+  	width: 883px;
+  	height: 50px;
+  	position: relative;
+  	line-height: 60px;
+  	text-transform: capitalize;
+  	display: inline-block;
+  	background: linear-gradient(90deg, #bf1869 14.9%, #2d4cc8 56.25%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	flex-shrink: 0;
+}
+.neurolxpDeliversScalable {
+  	width: 714px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.03em;
+  	line-height: 32px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameChild5 {
+  	width: 220px;
+  	height: 60.2px;
+  	border-radius: 50px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.rectangleParent {
+  	width: 935px;
+  	height: 395px;
+  	position: relative;
+  	flex-shrink: 0;
+  	font-size: 36px;
+  	color: #bf1869;
+}
+.frameChild6 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c4c4c4;
+  	border-radius: 32px;
+  	width: 935px;
+  	height: 395px;
+}
+.innovateInspireLeadWrapper {
+  	position: absolute;
+  	top: calc(50% - 164.73px);
+  	left: calc(50% - 219.5px);
+  	height: 330px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+.innovateInspireLead {
+  	width: 439px;
+  	height: 63px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameParent7 {
+  	position: absolute;
+  	top: 119.77px;
+  	left: calc(50% - 422.5px);
+  	width: 846px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 16px;
+  	font-size: 24px;
+  	color: #31344b;
+}
+.frameParent8 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 46px;
+}
+.frameParent9 {
+  	width: 400px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.frameWrapper7 {
+  	width: 400px;
+  	height: 70px;
+  	box-shadow: -4px -4px 8px #fff inset, 4px 4px 8px rgba(196, 196, 196, 0.8) inset;
+  	border-radius: 30px;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 20px 14px;
+  	box-sizing: border-box;
+  	position: relative;
+  	isolation: isolate;
+}
+.brainCircuitParent {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: calc(50% - 16.47px);
+  	left: 33.96px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+  	transform:  rotate(-0.1deg);
+  	transform-origin: 0 0;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.brainCircuitIcon {
+  	height: 32px;
+  	width: 32px;
+  	position: relative;
+  	transform:  rotate(0.1deg);
+}
+.aiPoweredLearning {
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	font-weight: 600;
+}
+.frameWrapper8 {
+  	width: 400px;
+  	height: 70px;
+  	box-shadow: -4px -4px 8px #fff inset, 4px 4px 8px rgba(196, 196, 196, 0.8) inset;
+  	border-radius: 30px;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 0px 14px;
+  	box-sizing: border-box;
+  	position: relative;
+  	isolation: isolate;
+}
+.globe02Parent {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: calc(50% - 16.48px);
+  	left: 33.96px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+  	transform:  rotate(-0.1deg);
+  	transform-origin: 0 0;
+  	z-index: 0;
+}
+.target02Parent {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: calc(50% - 16.49px);
+  	left: 33.96px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+  	transform:  rotate(-0.1deg);
+  	transform-origin: 0 0;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.studentParent {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: calc(50% - 16.48px);
+  	left: 33.96px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+  	transform:  rotate(-0.1deg);
+  	transform-origin: 0 0;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.refresh03Parent {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: calc(50% - 16.46px);
+  	left: 33.96px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+  	transform:  rotate(-0.1deg);
+  	transform-origin: 0 0;
+  	z-index: 0;
+}
+.frameParent17 {
+  	position: absolute;
+  	top: 1678px;
+  	left: calc(50% - 640px);
+  	width: 1280px;
+  	display: flex;
+  	align-items: center;
+  	gap: 116px;
+  	flex-shrink: 0;
+  	text-align: left;
+  	font-size: 36px;
+}
+.frameWrapper19 {
+  	width: 522px;
+  	display: flex;
+  	align-items: center;
+}
+.frameParent18 {
+  	width: 522px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 24px;
+}
+.partnershipsCollaborationWrapper{
+  width:auto;
+  display:block;
+  margin-bottom:24px;
+}
+.partnershipsCollaboration{
+  margin:0;
+  display:block;
+  white-space:nowrap;
+  font-family: "Segoe UI", "Inter";
+  font-size:36px;
+  font-weight:700;
+  line-height:50px;
+  letter-spacing:0.03em;
+  color:#31344B;
+}
+.collaboratingWithInstitution {
+  	width: 486px;
+  	height: 81px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameParent19 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 40px;
+  	text-align: center;
+  	font-size: 24px;
+}
+.frameParent20 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 40px;
+}
+.frameParent21 {
+  	height: 158px;
+  	width: 300px;
+  	position: relative;
+}
+.frameChild9 {
+  	position: absolute;
+  	top: 0px;
+  	left: -1px;
+  	box-shadow: 10px 10px 20px #c4c4c4, -10px -10px 20px #fff;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 300px;
+  	height: 161px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.frameParent22 {
+  	position: absolute;
+  	top: calc(50% - 57px);
+  	left: calc(50% - 92px);
+  	width: 184px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 8px;
+  	flex-shrink: 0;
+}
+.frameChild10 {
+  	width: 70.1px;
+  	height: 70.1px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.higherEducation {
+  	width: 206px;
+  	position: relative;
+  	line-height: 36px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameParent24 {
+  	position: absolute;
+  	top: calc(50% - 57.03px);
+  	left: calc(50% - 109px);
+  	width: 219px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 8px;
+  	flex-shrink: 0;
+}
+.corporateLearning {
+  	width: 226px;
+  	position: relative;
+  	line-height: 36px;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameChild14 {
+  	width: 70.1px;
+  	height: 70.1px;
+  	position: relative;
+}
+.workforceSkills {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 36px;
+}
+.frameParent29 {
+  	position: absolute;
+  	top: calc(50% - 57px);
+  	left: calc(50% - 121px);
+  	width: 242px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 8px;
+  	flex-shrink: 0;
+}
+.professionalTraining {
+  	width: 240px;
+  	position: relative;
+  	line-height: 36px;
+  	display: inline-block;
+}
+.frameParent30 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 720px);
+  	width: 1440px;
+  	height: 501px;
+  	flex-shrink: 0;
+  	text-align: left;
+  	font-size: 26px;
+  	color: #2f3547;
+}
+.frameParent31 {
+  	position: absolute;
+  	bottom: -0.02px;
+  	left: calc(50% - 720px);
+  	box-shadow: -10px -10px 20px #fff inset, 8px 8px 16px #c4c4c4 inset;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 459px;
+  	overflow: hidden;
+}
+.frameParent32 {
+  	position: absolute;
+  	top: 49.81px;
+  	left: 53.96px;
+  	width: 1339.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+}
+.frameParent33 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 35px;
+}
+.frameParent34 {
+  	width: 676px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 24px;
+  	flex-shrink: 0;
+}
+.logo01SynapseSpark1Group {
+  	width: 577px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.logo01SynapseSpark1Icon2 {
+  	width: 299px;
+  	height: 112px;
+  	position: relative;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.frameParent35 {
+  	display: flex;
+  	align-items: center;
+  	gap: 14px;
+  	flex-shrink: 0;
+}
+.onePlatformParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.onePlatform {
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 34px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sparklesIcon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.prgeeqGlobalSolutionsPrivatParent {
+  	width: 459px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+  	font-size: 16px;
+}
+.prgeeqGlobalSolutions {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 24px;
+}
+.prestigeAtlanta1012Container {
+  	align-self: stretch;
+  	height: 77px;
+  	position: relative;
+  	line-height: 24px;
+  	display: flex;
+  	align-items: flex-end;
+  	flex-shrink: 0;
+}
+.blankLine {
+  	line-height: 24px;
+}
+.frameParent36 {
+  	width: 631px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	gap: 24px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #2d4cc8;
+}
+.frameParent37 {
+  	width: 619px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.aboutUsParent {
+  	width: 123px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.aboutUs {
+  	width: 93px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+}
+.ourMissionParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+.ourMission {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.quickLinksParent {
+  	width: 207px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.quickLinks {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.neurolxpParent {
+  	height: 181px;
+  	width: 205px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.neurolxp {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	white-space: pre-wrap;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.ourCustomersGroup {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+.smartContentCreation {
+  	width: 229px;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.frameParent38 {
+  	width: 392.4px;
+  	height: 80.1px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+}
+.frameChild17 {
+  	height: 80.1px;
+  	width: 80.1px;
+  	position: relative;
+}
+.copyright2026 {
+  	align-self: stretch;
+  	height: 47px;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: -0.03em;
+  	line-height: 56px;
+  	font-weight: 600;
+  	color: #2d4cc8;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameWrapper20 {
+  	position: absolute;
+  	bottom: 0.02px;
+  	left: calc(50% - 720px);
+  	box-shadow: -8px -8px 16px #fff inset, 10px 10px 10px #c4c4c4 inset;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 459px;
+  	overflow: hidden;
+}
+.frameParent43 {
+  	width: 631px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 24px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #2d4cc8;
+}
+.frameParent44 {
+  	width: 619px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.ourMissionGroup {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+.neurolxpGroup {
+  	display: flex;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+}
+.neurolxp2 {
+  	height: 26px;
+  	width: 103px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.neurolxpTxt {
+  	width: 100%;
+  	white-space: pre-wrap;
+}
+.neurolxp3 {
+  	line-height: 30px;
+}
+.span {
+  	font-size: 12px;
+  	line-height: 30px;
+}
+.tm {
+  	height: 17px;
+  	width: 23px;
+  	position: relative;
+  	font-size: 12px;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.ourCustomersContainer {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+.frameParent46 {
+  	width: 392.4px;
+  	height: 80.1px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 217.19px;
+  	left: 135.04px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
+.frameChild21 {
+  	height: 80.1px;
+  	width: 80.1px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.frameChild26 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 30.07px);
+  	border-radius: 32px;
+  	width: 59.1px;
+  	height: 92px;
+  	object-fit: contain;
+}
+.image20Parent {
+  position: absolute;
+  top: 2130px;
+  left: 50%;
+  width: 1280px;
+  height: 492px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: 200px 200px 8px 8px;
+  background-color: #dfe6e9;
+  box-shadow: inset -8px -8px 16px #fff,
+    inset 8px 8px 16px rgba(196, 196, 196, 0.8);
+  transform: translateX(-50%);
+  }
+.image20{
+position:absolute;
+top:24px;
+left:24px;
+width:1232px;
+height:444px;
+background:transparent;
+border-radius:180px 180px 8px 8px;
+overflow:hidden;
+}
+.image20 svg{
+width:100%;
+height:100%;
+display:block;
+}
+.frameWrapper21 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 1232px;
+  height: 444px;
+  overflow: hidden;
+  border-radius: 180px 180px 8px 8px;
+  background: transparent;
+}
+.frameChild27 {
+  	position: absolute;
+  	top: 340px;
+  	left: 537px;
+  	border-radius: 50px;
+  	width: 220px;
+  	height: 60.2px;
+  	display: flex;
+  	align-items: center;
+}
+.frameParent47 {
+  position: absolute;
+  top: 48px;
+  left: 129px;
+  width: 1022px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  flex-shrink: 0;
+}
+.frameParent48 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.frameChild28 {
+  width: 156.6px;
+  height: 50.1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 28px;
+  background-color: #dfe6e9;
+  box-shadow: inset -4px -4px 8px #fff, inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  flex-shrink: 0;
+}
+.drivingTheFutureOfLearningParent {
+  width: 1040px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.drivingTheFuture {
+  align-self: stretch;
+  margin: 0;
+  position: relative;
+  font-family: "Segoe UI", "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  color: #31344b;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.neurolxpEmpowersOrganization {
+  width: 662px;
+  margin: 0;
+  position: relative;
+  font-family: "Segoe UI", "Inter";
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 40px;
+  color: #2f3547;
+  text-align: center;
+}
+.frameChild29 {
+  width: 220px;
+  height: 60.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #dfe6e9;
+  box-shadow: -4px -4px 8px #fff, 4px 4px 8px rgba(196, 196, 196, 0.8);
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+
+
+.mediaBadge{
+width:220px;
+height:60px;
+border-radius:32px;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:-8px -8px 16px #ffffff,8px 8px 16px rgba(196,196,196,.8) ;
+background:#dfe6e9;
+font: 600 24px "Segoe UI", "Inter";
+color:#2d4cc8;
+transform: translatey(25);
+}
+
+.recognizedInnovationInDigitParent{
+align-items:center;
+display:flex;
+flex-direction:column;
+}
+
+
+
+
+.bookDemoText{
+  font-family: "Segoe UI", "Inter";
+  font-size:24px;
+  font-weight:600;
+  line-height:32px;
+  color:#2D4CC8;
+  margin-top:24px;
+  display:block;
+  text-align:center;
+}
+
+.partnershipIconShell {
+  width: 70.05px;
+  height: 70.05px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  flex-grow: 0;
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 8px #fff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+  transform: rotate(0.05deg);
+}
+
+.partnershipIconCore {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 8px 8px 16px #c6c6c9, -8px -8px 16px #fff;
+}
+
+.partnershipIconShellPink .partnershipIconCore {
+  background: #bf1869;
+}
+
+.partnershipIconShellOrange .partnershipIconCore {
+  background: #c84d08;
+}
+
+.partnershipIconShellPurple .partnershipIconCore {
+  background: #67013a;
+}
+
+.partnershipIconShellBrown .partnershipIconCore {
+  background: #5a372f;
+}
+
+.partnershipIconImage {
+  width: 34px;
+  height: 34px;
+  display: block;
+  object-fit: contain;
+  transform: rotate(0.05deg);
+}
+
+
+
+.mediaPresence {
+  position: relative;
+  isolation: isolate;
+}
+
+.mediaPresenceChild {
+  position: absolute;
+  top: -755px;
+  left: 50%;
+  width: 1503px;
+  height: 1405px;
+  max-width: none;
+  display: block;
+  object-fit: contain;
+  transform: translateX(-50%);
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+.mediaPresenceInner,
+.mediaPresence > .frameParent3,
+.mediaPresence > .frameParent4 {
+  z-index: 2;
+}
+
+.mediaPresenceInner {
+  position: absolute;
+}
+
+.mediaPresence > .frameParent3,
+.mediaPresence > .frameParent4 {
+  position: absolute;
+}
+
+@media (max-width: 1200px) {
+  .mediaPresenceChild {
+    width: 1503px;
+    height: 1405px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mediaPresenceChild {
+    top: -720px;
+    left: 50%;
+    width: 1320px;
+    height: auto;
+  }
+}
+
+
+
+.mediaPresenceChild {
+  top: -270px !important;
+  left: 50% !important;
+  width: 1503px !important;
+  height: auto !important;
+  aspect-ratio: 1440 / 634;
+  max-width: none !important;
+  object-fit: contain !important;
+  transform: translateX(-50%) !important;
+  z-index: 0;
+}
+
+
+.mediaPresenceInner,
+.mediaPresence > .frameParent3,
+.mediaPresence > .frameParent4 {
+  z-index: 2;
+}
+
+
+.mediaPresence > .frameParent4 {
+  top: 400px;
+}
+
+@media (max-width: 1200px) {
+  .mediaPresenceChild {
+    top: -250px !important;
+    width: 1450px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mediaPresenceChild {
+    top: -180px !important;
+    width: 1120px !important;
+  }
+}
+
+
+
+
+.mediaPresenceChild {
+  top: -270px !important;
+  left: 50% !important;
+  width: 1440px !important;
+  height: auto !important;
+  max-width: calc(100% - 48px) !important;
+  aspect-ratio: 1440 / 634;
+  object-fit: fill !important;
+  transform: translateX(-50%) !important;
+  z-index: 0;
+}
+
+
+.mediaPresenceInner,
+.mediaPresence > .frameParent3,
+.mediaPresence > .frameParent4 {
+  z-index: 2;
+}
+
+
+.mediaDemoButton {
+  width: 220px;
+  height: 60px;
+  padding: 0 24px;
+  border: 0;
+  border-radius: 50px;
+  background: #DFE6E9;
+  color: #2D4CC8;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow:
+    -4px -4px 8px #FFFFFF,
+    4px 4px 8px rgba(196, 196, 196, 0.80);
+}
+
+.mediaDemoButton:hover {
+  transform: translateY(-2px);
+}
+
+.mediaDemoButton:focus-visible {
+  outline: 2px solid #2D4CC8;
+  outline-offset: 4px;
+}
+
+
+.frameWrapper .frameItem,
+.bookDemoText {
+  display: none !important;
+}
+
+
+.mediaPresenceInner .frameWrapper {
+  width: 220px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.image20Parent .mediaDemoButton {
+  margin-top: 0;
+}
+
+@media (max-width: 1200px) {
+  .mediaPresenceChild {
+    width: 1360px !important;
+    max-width: calc(100% - 40px) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mediaPresenceChild {
+    top: -180px !important;
+    width: 1080px !important;
+    max-width: calc(100% - 24px) !important;
+  }
+
+  .mediaDemoButton {
+    width: 190px;
+    height: 54px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+
+
+.mediaPresence > .frameParent5 {
+  position: absolute;
+  top: 1005px;
+  left: 50%;
+  width: 935px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+  color: #2F3547;
+  box-sizing: border-box;
+}
+
+.mediaPresence > .frameParent5 .frameWrapper5 {
+  width: 100%;
+  height: auto;
+}
+
+.mediaPresence > .frameParent5 .frameParent6 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.mediaPresence > .frameParent5 .frameWrapper6 {
+  width: 100%;
+  height: auto;
+}
+
+.mediaPresence > .frameParent5 .shapingTheFutureOfLearningParent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.mediaPresence > .frameParent5 .shapingTheFuture {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background: linear-gradient(90deg, #BF1869 14.9%, #2D4CC8 56.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mediaPresence > .frameParent5 .neurolxpDeliversScalable {
+  width: 714px;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #2F3547;
+  text-align: center;
+}
+
+.mediaPresence > .frameParent5 .frameChild5 {
+  display: none;
+}
+
+.mediaPresence > .frameParent5 .rectangleParent {
+  position: relative;
+  width: 935px;
+  height: 395px;
+  box-sizing: border-box;
+  flex: none;
+}
+
+.mediaPresence > .frameParent5 .frameChild6 {
+  position: absolute;
+  inset: 0;
+  width: 935px;
+  height: 395px;
+  border-radius: 32px;
+  background: #DFE6E9;
+  box-shadow:
+    -8px -8px 16px #FFFFFF,
+    8px 8px 16px #C4C4C4;
+}
+
+.mediaPresence > .frameParent5 .innovateInspireLeadWrapper {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mediaPresence > .frameParent5 .innovateInspireLead {
+  width: auto;
+  height: auto;
+  margin: 0;
+  color: #BF1869;
+  font-family: "Segoe UI", "Inter";
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.mediaPresence > .frameParent5 .frameParent7 {
+  position: absolute;
+  top: 119px;
+  left: 45px;
+  width: 845px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.mediaPresence > .frameParent5 .frameParent8 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 46px;
+}
+
+.mediaPresence > .frameParent5 .frameParent9 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mediaPresence > .frameParent5 .frameWrapper7,
+.mediaPresence > .frameParent5 .frameWrapper8 {
+  position: relative;
+  width: 400px;
+  height: 70px;
+  padding: 0;
+  border-radius: 30px;
+  background: #DFE6E9;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow:
+    inset -4px -4px 8px #FFFFFF,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.80);
+}
+
+.mediaPresence > .frameParent5 .brainCircuitParent,
+.mediaPresence > .frameParent5 .globe02Parent,
+.mediaPresence > .frameParent5 .target02Parent,
+.mediaPresence > .frameParent5 .studentParent,
+.mediaPresence > .frameParent5 .refresh03Parent {
+  position: absolute;
+  top: 50%;
+  left: 34px;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  transform: translateY(-50%);
+}
+
+.mediaPresence > .frameParent5 .brainCircuitIcon {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  object-fit: contain;
+  transform: none;
+}
+
+.mediaPresence > .frameParent5 .aiPoweredLearning {
+  font-family: "Segoe UI", "Inter";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #31344B;
+  white-space: nowrap;
+}
+
+.mediaPresence > .frameParent5 > .rectangleParent > .frameParent7 > .frameWrapper8 {
+  width: 400px;
+}
+
+@media (max-width: 1100px) {
+  .mediaPresence > .frameParent5 {
+    width: calc(100% - 80px);
+  }
+
+  .mediaPresence > .frameParent5 .rectangleParent,
+  .mediaPresence > .frameParent5 .frameChild6 {
+    width: 100%;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent7 {
+    left: 5%;
+    width: 90%;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent8 {
+    gap: 24px;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent9,
+  .mediaPresence > .frameParent5 .frameWrapper7,
+  .mediaPresence > .frameParent5 .frameWrapper8 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mediaPresence > .frameParent5 {
+    width: calc(100% - 32px);
+    gap: 32px;
+  }
+
+  .mediaPresence > .frameParent5 .shapingTheFuture {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .mediaPresence > .frameParent5 .neurolxpDeliversScalable {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .mediaPresence > .frameParent5 .rectangleParent {
+    height: auto;
+    min-height: 560px;
+  }
+
+  .mediaPresence > .frameParent5 .frameChild6 {
+    height: 100%;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent7 {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: calc(100% - 32px);
+    margin: 110px auto 24px;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent8 {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent9,
+  .mediaPresence > .frameParent5 .frameWrapper7,
+  .mediaPresence > .frameParent5 .frameWrapper8,
+  .mediaPresence > .frameParent5 > .rectangleParent > .frameParent7 > .frameWrapper8 {
+    width: 100%;
+  }
+
+  .mediaPresence > .frameParent5 .aiPoweredLearning {
+    font-size: 18px;
+    white-space: normal;
+  }
+}
+
+
+
+.mediaPresence {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.mediaPresenceChild {
+  position: absolute !important;
+  width: 1487px !important;
+  height: 1389px !important;
+  left: calc(50% - 743.5px + 1.5px) !important;
+  top: -755px !important;
+  border-radius: 50% !important;
+  background: #DFE6E9 !important;
+  background-image: none !important;
+  box-shadow:
+    inset -8px -8px 16px #FFFFFF,
+    inset 8px 8px 16px #C4C4C4 !important;
+  transform: none !important;
+  max-width: none !important;
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+.mediaPresenceInner,
+.mediaPresence > .frameParent3,
+.mediaPresence > .frameParent4 {
+  z-index: 2;
+}
+
+@media (max-width: 1200px) {
+  .mediaPresenceChild {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .mediaPresenceChild {
+    width: 1180px !important;
+    height: 1102px !important;
+    top: -610px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+
+
+.mediaPresenceInner{height:auto !important;}
+.frameParent{gap:36px !important;}
+.frameGroup{height:auto !important;gap:16px !important;}
+.recognizedInnovationIn{
+  height:auto !important;
+  line-height:60px !important;
+  white-space:normal;
+}
+.recognizedInnovationInDigitParent{gap:16px !important;}
+.neurolxpIsDriving{
+  margin-top:0 !important;
+}
+
+
+
+.mediaPresenceInner .frameGroup {
+  height: auto !important;
+  min-height: 0 !important;
+  gap: 24px !important;
+}
+
+.mediaPresenceInner .mediaBadge {
+  transform: none !important;
+  margin: 0 0 10px !important;
+  flex: 0 0 auto;
+}
+
+.mediaPresenceInner .recognizedInnovationInDigitParent {
+  height: auto !important;
+  min-height: 0 !important;
+  gap: 18px !important;
+}
+
+.mediaPresenceInner .recognizedInnovationIn {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  line-height: 1.25 !important;
+}
+
+.mediaPresenceInner .neurolxpIsDriving {
+  height: auto !important;
+  margin: 0 !important;
+  line-height: 32px !important;
+}
+
+.mediaPresenceInner .frameParent {
+  height: auto !important;
+  gap: 34px !important;
+}
+
+
+
+@media (max-width: 1024px) {
+  .mediaPresence {
+    width: 100%;
+    height: auto !important;
+    min-height: 100vh;
+    padding: 24px 24px 56px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    transform: none !important;
+    zoom: 1 !important;
+    box-sizing: border-box;
+  }
+
+  .mediaPresenceChild {
+    position: absolute !important;
+    top: -170px !important;
+    left: 50% !important;
+    width: 1180px !important;
+    max-width: none !important;
+    height: auto !important;
+    transform: translateX(-50%) !important;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .mediaPresence > .frameParent3 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    order: 0;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px 8px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  .mediaPresenceInner {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100%;
+    max-width: 900px;
+    height: auto !important;
+    margin: 0 auto;
+    transform: none !important;
+    order: 1;
+    z-index: 2;
+  }
+
+  .mediaPresenceInner .frameParent,
+  .mediaPresenceInner .frameGroup,
+  .mediaPresenceInner .recognizedInnovationInDigitParent {
+    width: 100%;
+    height: auto !important;
+  }
+
+  .mediaPresenceInner .frameParent {
+    gap: 30px;
+  }
+
+  .mediaPresenceInner .frameGroup {
+    gap: 16px;
+  }
+
+  .mediaPresenceInner .recognizedInnovationIn {
+    width: 100%;
+    height: auto !important;
+    margin: 0;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .mediaPresenceInner .neurolxpIsDriving {
+    width: min(615px, 100%);
+    height: auto !important;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .mediaPresenceInner .frameWrapper {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  
+  .mediaPresence > .frameParent4 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100%;
+    max-width: 620px;
+    height: auto !important;
+    margin: 0 auto;
+    transform: none !important;
+    order: 2;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+    z-index: 2;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper3,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: min(100%, 420px) !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1;
+    flex: none;
+    margin: 0 auto;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    width: min(100%, 340px) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameIcon,
+  .mediaPresence > .frameParent4 .frameChild3 {
+    position: absolute !important;
+    inset: 16px !important;
+    width: calc(100% - 32px) !important;
+    height: calc(100% - 32px) !important;
+    object-fit: cover;
+  }
+
+  .mediaPresence > .frameParent5 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: 935px;
+    margin: 0 auto;
+    transform: none !important;
+    order: 3;
+    z-index: 2;
+  }
+
+  .mediaPresence > .frameParent5 .rectangleParent {
+    width: 100% !important;
+  }
+
+  .mediaPresence > .frameParent17 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto !important;
+    transform: none !important;
+    order: 4;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .mediaPresence > .frameParent17 .frameWrapper19,
+  .mediaPresence > .frameParent17 .frameParent18,
+  .mediaPresence > .frameParent17 .frameParent19 {
+    width: 100%;
+    max-width: 720px;
+    align-items: center;
+  }
+
+  .partnershipsCollaborationWrapper,
+  .partnershipsCollaboration,
+  .collaboratingWithInstitution {
+    width: 100%;
+    height: auto !important;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent20 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 300px));
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent21 {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .image20Parent {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100%;
+    max-width: 920px;
+    height: auto !important;
+    min-height: 500px;
+    margin: 0 auto;
+    transform: none !important;
+    order: 5;
+    z-index: 2;
+  }
+
+  .image20,
+  .frameWrapper21 {
+    width: calc(100% - 48px);
+  }
+
+  .frameParent47 {
+    left: 50%;
+    width: calc(100% - 96px);
+    transform: translateX(-50%);
+  }
+
+  .drivingTheFutureOfLearningParent {
+    width: 100%;
+  }
+
+  .frameParent30,
+  .frameWrapper20 {
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    order: 6;
+  }
+}
+
+@media (max-width: 768px) {
+  .mediaPresence {
+    padding: 20px 16px 48px;
+    gap: 40px;
+  }
+
+  .mediaPresenceChild {
+    top: -120px !important;
+    width: 920px !important;
+  }
+
+  .mediaPresenceInner {
+    max-width: 680px;
+  }
+
+  .mediaPresenceInner .recognizedInnovationIn {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .mediaPresenceInner .neurolxpIsDriving {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .mediaPresence > .frameParent4 {
+    max-width: 520px;
+    gap: 24px;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    width: min(100%, 300px) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper3 {
+    width: min(100%, 360px) !important;
+  }
+
+  .mediaPresence > .frameParent5 .shapingTheFuture {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .mediaPresence > .frameParent5 .neurolxpDeliversScalable {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent20 {
+    grid-template-columns: minmax(0, 300px);
+  }
+
+  .image20Parent {
+    min-height: 520px;
+    border-radius: 100px 100px 8px 8px;
+  }
+
+  .image20,
+  .frameWrapper21 {
+    border-radius: 88px 88px 8px 8px;
+  }
+
+  .drivingTheFuture {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .neurolxpEmpowersOrganization {
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mediaPresence {
+    padding-inline: 14px;
+    gap: 34px;
+  }
+
+  .mediaPresence > .frameParent3 {
+    font-size: 13px;
+  }
+
+  .mediaPresenceInner .frameParent {
+    gap: 22px;
+  }
+
+  .mediaPresenceInner .mediaBadge,
+  .mediaPresenceInner .frameChild {
+    width: auto;
+    min-width: 190px;
+    max-width: 100%;
+    height: 48px;
+  }
+
+  .mediaPresenceInner .recognizedInnovationIn {
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .mediaPresenceInner .neurolxpIsDriving {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mediaPresenceInner .mediaDemoButton {
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .mediaPresence > .frameParent4 {
+    width: 100%;
+    max-width: 360px;
+    gap: 20px;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    width: min(100%, 260px) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper3 {
+    width: min(100%, 300px) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameIcon,
+  .mediaPresence > .frameParent4 .frameChild3 {
+    inset: 12px !important;
+    width: calc(100% - 24px) !important;
+    height: calc(100% - 24px) !important;
+  }
+
+  .mediaPresence > .frameParent5 {
+    gap: 28px;
+  }
+
+  .mediaPresence > .frameParent5 .shapingTheFuture {
+    font-size: 27px;
+    line-height: 35px;
+  }
+
+  .mediaPresence > .frameParent5 .neurolxpDeliversScalable {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mediaPresence > .frameParent5 .rectangleParent {
+    min-height: 560px;
+  }
+
+  .partnershipsCollaboration {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .collaboratingWithInstitution {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .image20Parent {
+    min-height: 500px;
+    border-radius: 68px 68px 8px 8px;
+  }
+
+  .image20,
+  .frameWrapper21 {
+    top: 14px;
+    left: 14px;
+    width: calc(100% - 28px);
+    height: calc(100% - 28px);
+    border-radius: 56px 56px 8px 8px;
+  }
+
+  .frameParent47 {
+    top: 30px;
+    width: calc(100% - 44px);
+    gap: 20px;
+  }
+
+  .drivingTheFuture {
+    font-size: 27px;
+    line-height: 35px;
+  }
+
+  .neurolxpEmpowersOrganization {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  
+  .mediaPresenceChild {
+    display: none !important;
+  }
+
+  .mediaPresence {
+    gap: 40px !important;
+  }
+
+  .mediaPresenceInner {
+    padding-top: 8px;
+  }
+
+  .mediaPresenceInner .frameParent,
+  .mediaPresenceInner .frameGroup,
+  .mediaPresenceInner .recognizedInnovationInDigitParent {
+    overflow: visible;
+  }
+
+  
+  .mediaPresence > .frameParent5 .rectangleParent {
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 34px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    overflow: visible;
+    box-sizing: border-box;
+  }
+
+  .mediaPresence > .frameParent5 .frameChild6 {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .mediaPresence > .frameParent5 .innovateInspireLeadWrapper {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100%;
+    height: auto;
+    order: 0;
+  }
+
+  .mediaPresence > .frameParent5 .innovateInspireLead {
+    width: 100%;
+    height: auto;
+    line-height: 1.25;
+    white-space: normal;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent7 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+    order: 1;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent8 {
+    width: 100%;
+  }
+
+  
+  .mediaPresence > .frameParent17 .frameParent19 {
+    gap: 22px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent20 {
+    margin: 0 !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent21 {
+    margin: 0 !important;
+  }
+
+  
+  .image20Parent .image20,
+  .image20Parent .frameWrapper21 {
+    background: transparent !important;
+  }
+
+  .image20Parent .image20 > *,
+  .image20Parent .frameWrapper21 > svg,
+  .image20Parent .frameWrapper21 > img {
+    display: none !important;
+  }
+
+  .image20Parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 38px 30px;
+    box-sizing: border-box;
+  }
+
+  .image20Parent .frameParent47 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    transform: none !important;
+    gap: 24px;
+  }
+
+  .image20Parent .drivingTheFutureOfLearningParent {
+    gap: 20px;
+  }
+
+  .image20Parent .frameChild27 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 220px;
+    height: 60px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .mediaPresence {
+    gap: 34px !important;
+  }
+
+  .mediaPresence > .frameParent3 {
+    margin-bottom: 2px;
+  }
+
+  .mediaPresenceInner {
+    margin-top: 0;
+  }
+
+  .mediaPresenceInner .frameParent {
+    gap: 24px !important;
+  }
+
+  .mediaPresenceInner .frameGroup {
+    gap: 14px !important;
+  }
+
+  .mediaPresenceInner .recognizedInnovationInDigitParent {
+    gap: 14px !important;
+  }
+
+  .mediaPresenceInner .frameWrapper {
+    margin-top: 2px;
+  }
+
+  .mediaPresence > .frameParent4 {
+    gap: 20px !important;
+  }
+
+  .mediaPresence > .frameParent5 {
+    gap: 24px !important;
+  }
+
+  .mediaPresence > .frameParent5 .rectangleParent {
+    padding: 30px 16px 24px;
+    gap: 24px;
+    border-radius: 32px;
+  }
+
+  .mediaPresence > .frameParent5 .innovateInspireLead {
+    font-size: 28px !important;
+    line-height: 36px !important;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent8 {
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent9,
+  .mediaPresence > .frameParent5 .frameWrapper7,
+  .mediaPresence > .frameParent5 .frameWrapper8 {
+    width: 100% !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameWrapper7,
+  .mediaPresence > .frameParent5 .frameWrapper8 {
+    min-height: 68px;
+    height: auto !important;
+    padding: 12px 18px;
+  }
+
+  .mediaPresence > .frameParent5 .brainCircuitParent,
+  .mediaPresence > .frameParent5 .globe02Parent,
+  .mediaPresence > .frameParent5 .target02Parent,
+  .mediaPresence > .frameParent5 .studentParent,
+  .mediaPresence > .frameParent5 .refresh03Parent {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    width: 100%;
+    min-height: 44px;
+    margin: 0 !important;
+  }
+
+  .mediaPresence > .frameParent17 {
+    gap: 28px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent19 {
+    gap: 18px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent20 {
+    gap: 18px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent21 {
+    height: 162px;
+  }
+
+  .image20Parent {
+    min-height: 0 !important;
+    padding: 34px 18px 38px;
+    border-radius: 72px 72px 8px 8px;
+  }
+
+  .image20Parent .frameParent47 {
+    gap: 22px;
+  }
+
+  .image20Parent .frameChild28 {
+    margin: 0 auto;
+  }
+
+  .image20Parent .drivingTheFuture {
+    margin: 0;
+  }
+
+  .image20Parent .neurolxpEmpowersOrganization {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .mediaPresence {
+    padding-top: 18px !important;
+  }
+
+  .mediaPresenceInner .recognizedInnovationIn {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .mediaPresenceInner .neurolxpIsDriving {
+    max-width: 360px;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    width: min(100%, 250px) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper3 {
+    width: min(100%, 280px) !important;
+  }
+
+  .mediaPresence > .frameParent5 .shapingTheFuture {
+    font-size: 26px !important;
+    line-height: 34px !important;
+  }
+
+  .mediaPresence > .frameParent5 .innovateInspireLead {
+    font-size: 26px !important;
+    line-height: 34px !important;
+  }
+
+  .mediaPresence > .frameParent5 .aiPoweredLearning {
+    font-size: 18px !important;
+    line-height: 25px !important;
+  }
+
+  .partnershipsCollaboration {
+    font-size: 27px !important;
+    line-height: 35px !important;
+  }
+
+  .image20Parent {
+    padding: 30px 14px 34px;
+  }
+
+  .image20Parent .drivingTheFuture {
+    font-size: 27px !important;
+    line-height: 35px !important;
+  }
+
+  .image20Parent .neurolxpEmpowersOrganization {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .image20Parent .frameChild27,
+  .image20Parent .mediaDemoButton {
+    width: 190px;
+    height: 52px;
+  }
+}
+
+
+/* =========================================================
+   FINAL TOP-HERO CORRECTION
+   Restores Image-1 composition while retaining all later
+   section designs/effects.
+   ========================================================= */
+
+/* Keep the page's existing visual language */
+.mediaPresence {
+  width: 100%;
+  position: relative;
+  background-color: #dfe6e9;
+  overflow-x: hidden;
+}
+
+/* Decorative top background remains behind the content */
+.mediaPresenceChild {
+  position: absolute !important;
+  top: -270px !important;
+  left: 50% !important;
+  width: max(1440px, 100%) !important;
+  height: auto !important;
+  max-width: none !important;
+  object-fit: fill !important;
+  transform: translateX(-50%) !important;
+  z-index: 0 !important;
+  pointer-events: none;
+}
+
+/* Breadcrumb: top-left, as in Image 1 */
+.mediaPresence > .frameParent3 {
+  position: absolute !important;
+  top: clamp(34px, 3.6vw, 72px) !important;
+  left: clamp(24px, 5.55vw, 80px) !important;
+  right: auto !important;
+  width: auto !important;
+  max-width: calc(100% - 48px);
+  margin: 0 !important;
+  transform: none !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px !important;
+  z-index: 4 !important;
+}
+
+/* Main hero content stays above breadcrumb/images and keeps Image-1 spacing */
+.mediaPresenceInner {
+  position: absolute !important;
+  top: clamp(82px, 6.25vw, 90px) !important;
+  left: 50% !important;
+  width: min(1103px, calc(100% - 48px)) !important;
+  height: auto !important;
+  margin: 0 !important;
+  transform: translateX(-50%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  z-index: 3 !important;
+}
+
+.mediaPresenceInner .frameParent {
+  width: 100% !important;
+  height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: clamp(24px, 2.5vw, 36px) !important;
+}
+
+.mediaPresenceInner .frameGroup {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: clamp(14px, 1.12vw, 16px) !important;
+}
+
+/* Retain the original badge design */
+.mediaPresenceInner .mediaBadge {
+  width: 220px !important;
+  height: 60px !important;
+  margin: 0 !important;
+  transform: none !important;
+  flex: 0 0 auto;
+}
+
+/* Agreed typography: H 24→36, P 16→24 */
+.mediaPresenceInner .recognizedInnovationInDigitParent {
+  width: min(999px, 100%) !important;
+  height: auto !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: clamp(12px, 1.12vw, 16px) !important;
+}
+
+.mediaPresenceInner .recognizedInnovationIn {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  font-size: clamp(24px, 2.5vw, 36px) !important;
+  line-height: 1.35 !important;
+  white-space: normal !important;
+  text-align: center !important;
+}
+
+.mediaPresenceInner .neurolxpIsDriving {
+  width: min(615px, 100%) !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  font-size: clamp(16px, 1.67vw, 24px) !important;
+  line-height: 1.35 !important;
+  text-align: center !important;
+}
+
+/* Keep Book a Demo directly below the hero copy */
+.mediaPresenceInner .frameWrapper {
+  width: 220px !important;
+  height: 60px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Restore Image-1 three-image composition on desktop.
+   Widths become fluid but the design/order is unchanged. */
+.mediaPresence > .frameParent4 {
+  position: absolute !important;
+  top: clamp(390px, 27.8vw, 400px) !important;
+  left: 50% !important;
+  width: min(1152px, calc(100% - 64px)) !important;
+  height: clamp(430px, 37.6vw, 541px) !important;
+  margin: 0 !important;
+  transform: translateX(-50%) !important;
+  display: block !important;
+  z-index: 2 !important;
+}
+
+/* Side image */
+.mediaPresence > .frameParent4 .frameWrapper2 {
+  position: absolute !important;
+  top: 22px !important;
+  left: 0 !important;
+  width: clamp(220px, 20.83vw, 300px) !important;
+  height: clamp(220px, 20.83vw, 300px) !important;
+  margin: 0 !important;
+  aspect-ratio: 1 / 1;
+}
+
+/* Center image */
+.mediaPresence > .frameParent4 .frameWrapper3 {
+  position: absolute !important;
+  top: clamp(118px, 11.53vw, 166px) !important;
+  left: 50% !important;
+  width: clamp(300px, 27.78vw, 400px) !important;
+  height: clamp(300px, 27.78vw, 400px) !important;
+  margin: 0 !important;
+  transform: translateX(-50%) !important;
+  aspect-ratio: 1 / 1;
+}
+
+/* Right image */
+.mediaPresence > .frameParent4 .frameWrapper4 {
+  position: absolute !important;
+  top: 22px !important;
+  left: auto !important;
+  right: 0 !important;
+  width: clamp(220px, 20.83vw, 300px) !important;
+  height: clamp(220px, 20.83vw, 300px) !important;
+  margin: 0 !important;
+  aspect-ratio: 1 / 1;
+}
+
+/* Images remain fully contained inside their existing cards */
+.mediaPresence > .frameParent4 .frameIcon,
+.mediaPresence > .frameParent4 .frameChild3 {
+  position: absolute !important;
+  inset: 16px !important;
+  width: calc(100% - 32px) !important;
+  height: calc(100% - 32px) !important;
+  object-fit: cover !important;
+}
+
+/* Prevent the top section from creating the large blank area seen in Image 2.
+   This only controls the first visual block; later sections keep their own rules. */
+.mediaPresence > .frameParent5 {
+  top: 1005px;
+}
+
+/* Book-a-demo hover: preserve existing neumorphic design */
+.mediaDemoButton {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mediaDemoButton:hover {
+  transform: translateY(-2px);
+}
+
+.mediaDemoButton:active {
+  transform: translateY(1px);
+}
+
+/* =========================================================
+   FINAL MEDIA HERO — MATCH REFERENCE IMAGE 2
+   CSS ONLY. No TSX change required.
+   Scope: top hero + 3-image composition only.
+   All later sections remain unchanged.
+   ========================================================= */
+
+/* Keep the original page visual design */
+.mediaPresence {
+  position: relative !important;
+  width: 100% !important;
+  background: #dfe6e9 !important;
+  overflow-x: hidden !important;
+}
+
+/* Deeper curved hero background, matching the reference */
+.mediaPresenceChild {
+  position: absolute !important;
+  top: clamp(-110px, -7vw, -70px) !important;
+  left: 50% !important;
+
+  width: max(1440px, 100%) !important;
+  height: auto !important;
+  aspect-ratio: 1440 / 634 !important;
+
+  max-width: none !important;
+
+  object-fit: fill !important;
+  object-position: center top !important;
+
+  transform: translateX(-50%) !important;
+
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+
+/* Breadcrumb stays in the upper-left */
+.mediaPresence > .frameParent3 {
+  position: absolute !important;
+
+  top: clamp(30px, 2.8vw, 40px) !important;
+  left: clamp(28px, 5.25vw, 72px) !important;
+
+  width: auto !important;
+  max-width: calc(100% - 56px) !important;
+
+  margin: 0 !important;
+
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+
+  gap: 8px !important;
+
+  z-index: 5 !important;
+}
+
+
+/* Centered hero content */
+.mediaPresenceInner {
+  position: absolute !important;
+
+  top: clamp(82px, 6.5vw, 96px) !important;
+  left: 50% !important;
+
+  width: min(1103px, calc(100% - 56px)) !important;
+  height: auto !important;
+
+  margin: 0 !important;
+
+  transform: translateX(-50%) !important;
+
+  z-index: 4 !important;
+}
+
+
+.mediaPresenceInner .frameParent {
+  width: 100% !important;
+  height: auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  gap: clamp(34px, 3vw, 42px) !important;
+}
+
+
+.mediaPresenceInner .frameGroup {
+  width: 100% !important;
+  height: auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  gap: clamp(26px, 2.2vw, 32px) !important;
+}
+
+
+/* Media Presence badge — retain original look */
+.mediaPresenceInner .mediaBadge {
+  width: 220px !important;
+  height: 60px !important;
+
+  margin: 0 !important;
+
+  transform: none !important;
+
+  flex: 0 0 auto !important;
+}
+
+
+/* Heading + paragraph */
+.mediaPresenceInner .recognizedInnovationInDigitParent {
+  width: min(999px, 100%) !important;
+  height: auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  gap: clamp(20px, 1.8vw, 26px) !important;
+}
+
+
+.mediaPresenceInner .recognizedInnovationIn {
+  width: 100% !important;
+  height: auto !important;
+
+  margin: 0 !important;
+
+  font-size: clamp(24px, 2.5vw, 36px) !important;
+  line-height: 1.35 !important;
+
+  text-align: center !important;
+  white-space: normal !important;
+}
+
+
+.mediaPresenceInner .neurolxpIsDriving {
+  width: min(650px, 100%) !important;
+  height: auto !important;
+
+  margin: 0 auto !important;
+
+  font-size: clamp(16px, 1.67vw, 24px) !important;
+  line-height: 1.35 !important;
+
+  text-align: center !important;
+}
+
+
+/* Book a Demo */
+.mediaPresenceInner .frameWrapper {
+  width: 220px !important;
+  height: 60px !important;
+
+  margin: 0 auto !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+.mediaPresenceInner .mediaDemoButton {
+  width: 220px !important;
+  height: 60px !important;
+
+  margin: 0 !important;
+}
+
+
+/* =========================================================
+   THREE-IMAGE COMPOSITION
+   Preserve reference design:
+   left small / center larger and lower / right small
+   ========================================================= */
+
+.mediaPresence > .frameParent4 {
+  position: absolute !important;
+
+  top: clamp(322px, 27vw, 390px) !important;
+  left: 50% !important;
+
+  width: min(1152px, calc(100% - 64px)) !important;
+  height: clamp(470px, 39vw, 560px) !important;
+
+  margin: 0 !important;
+
+  transform: translateX(-50%) !important;
+
+  display: block !important;
+
+  z-index: 3 !important;
+}
+
+
+/* Left image card */
+.mediaPresence > .frameParent4 .frameWrapper2 {
+  position: absolute !important;
+
+  top: 0 !important;
+  left: 0 !important;
+
+  width: clamp(240px, 20.83vw, 300px) !important;
+  height: clamp(240px, 20.83vw, 300px) !important;
+
+  margin: 0 !important;
+
+  aspect-ratio: 1 / 1 !important;
+}
+
+
+/* Center image card */
+.mediaPresence > .frameParent4 .frameWrapper3 {
+  position: absolute !important;
+
+  top: clamp(130px, 10vw, 145px) !important;
+  left: 50% !important;
+
+  width: clamp(320px, 27.78vw, 400px) !important;
+  height: clamp(320px, 27.78vw, 400px) !important;
+
+  margin: 0 !important;
+
+  transform: translateX(-50%) !important;
+
+  aspect-ratio: 1 / 1 !important;
+}
+
+
+/* Right image card */
+.mediaPresence > .frameParent4 .frameWrapper4 {
+  position: absolute !important;
+
+  top: 0 !important;
+  left: auto !important;
+  right: 0 !important;
+
+  width: clamp(240px, 20.83vw, 300px) !important;
+  height: clamp(240px, 20.83vw, 300px) !important;
+
+  margin: 0 !important;
+
+  aspect-ratio: 1 / 1 !important;
+}
+
+
+/* Preserve existing image-card appearance and crop */
+.mediaPresence > .frameParent4 .frameIcon,
+.mediaPresence > .frameParent4 .frameChild3 {
+  position: absolute !important;
+
+  inset: 16px !important;
+
+  width: calc(100% - 32px) !important;
+  height: calc(100% - 32px) !important;
+
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+
+/* Do not disturb the next section */
+.mediaPresence > .frameParent5 {
+  top: 1005px !important;
+}
+
+
+/* Existing button hover in/out */
+.mediaDemoButton {
+  transition:
+    transform 0.24s ease,
+    box-shadow 0.24s ease !important;
+}
+
+.mediaDemoButton:hover {
+  transform: translateY(-3px) !important;
+}
+
+.mediaDemoButton:active {
+  transform: translateY(1px) !important;
+}
+
+/* =========================================================
+   FINAL MEDIA PRESENCE HERO MATCH
+   Target: reference Image 1
+   Only the top hero + 3-image composition is overridden.
+   All other section layouts/design effects remain unchanged.
+   ========================================================= */
+
+/* Page shell */
+.mediaPresence {
+  position: relative !important;
+  width: 100% !important;
+  background-color: #dfe6e9 !important;
+  overflow-x: hidden !important;
+}
+
+
+/* ---------------------------------------------------------
+   CURVED HERO BACKGROUND
+   Move it upward so only the lower arc is visible,
+   matching the reference instead of showing a full oval.
+   --------------------------------------------------------- */
+.mediaPresenceChild {
+  position: absolute !important;
+
+  top: clamp(-290px, -20vw, -220px) !important;
+  left: 50% !important;
+
+  width: max(1520px, 112%) !important;
+  height: clamp(730px, 54vw, 790px) !important;
+
+  max-width: none !important;
+
+  object-fit: fill !important;
+  object-position: center top !important;
+
+  transform: translateX(-50%) !important;
+
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+
+/* ---------------------------------------------------------
+   BREADCRUMB
+   Keep top-left like the target.
+   --------------------------------------------------------- */
+.mediaPresence > .frameParent3 {
+  position: absolute !important;
+
+  top: clamp(32px, 2.8vw, 40px) !important;
+  left: clamp(32px, 5.3vw, 76px) !important;
+
+  right: auto !important;
+
+  width: auto !important;
+  max-width: calc(100% - 64px) !important;
+
+  height: auto !important;
+
+  margin: 0 !important;
+
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+
+  gap: 8px !important;
+
+  transform: none !important;
+
+  z-index: 5 !important;
+}
+
+
+/* ---------------------------------------------------------
+   HERO CONTENT
+   --------------------------------------------------------- */
+.mediaPresenceInner {
+  position: absolute !important;
+
+  top: clamp(84px, 6.2vw, 92px) !important;
+  left: 50% !important;
+
+  width: min(1103px, calc(100% - 56px)) !important;
+  height: auto !important;
+
+  margin: 0 !important;
+
+  transform: translateX(-50%) !important;
+
+  z-index: 4 !important;
+}
+
+
+.mediaPresenceInner .frameParent {
+  width: 100% !important;
+  height: auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  gap: clamp(28px, 2.5vw, 36px) !important;
+}
+
+
+.mediaPresenceInner .frameGroup {
+  width: 100% !important;
+  height: auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  gap: clamp(26px, 2.2vw, 32px) !important;
+}
+
+
+/* ---------------------------------------------------------
+   MEDIA PRESENCE BADGE
+   Keep existing design unchanged.
+   --------------------------------------------------------- */
+.mediaPresenceInner .mediaBadge {
+  width: 220px !important;
+  height: 60px !important;
+
+  margin: 0 !important;
+
+  transform: none !important;
+
+  flex: 0 0 auto !important;
+}
+
+
+/* ---------------------------------------------------------
+   HEADING + DESCRIPTION
+   Agreed typography:
+   H = 24px -> 36px
+   P = 16px -> 24px
+   --------------------------------------------------------- */
+.mediaPresenceInner .recognizedInnovationInDigitParent {
+  width: min(999px, 100%) !important;
+  height: auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  gap: clamp(18px, 1.6vw, 24px) !important;
+}
+
+
+.mediaPresenceInner .recognizedInnovationIn {
+  width: 100% !important;
+  height: auto !important;
+
+  margin: 0 !important;
+
+  font-size: clamp(24px, 2.5vw, 36px) !important;
+  line-height: 1.3 !important;
+
+  text-align: center !important;
+  white-space: normal !important;
+}
+
+
+.mediaPresenceInner .neurolxpIsDriving {
+  width: min(650px, 100%) !important;
+  height: auto !important;
+
+  margin: 0 auto !important;
+
+  font-size: clamp(16px, 1.67vw, 24px) !important;
+  line-height: 1.35 !important;
+
+  text-align: center !important;
+}
+
+
+/* ---------------------------------------------------------
+   BOOK A DEMO
+   --------------------------------------------------------- */
+.mediaPresenceInner .frameWrapper {
+  width: 220px !important;
+  height: 60px !important;
+
+  margin: 0 auto !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+.mediaPresenceInner .mediaDemoButton {
+  width: 220px !important;
+  height: 60px !important;
+
+  margin: 0 !important;
+
+  transition:
+    transform 0.24s ease,
+    box-shadow 0.24s ease !important;
+}
+
+
+.mediaPresenceInner .mediaDemoButton:hover {
+  transform: translateY(-3px) !important;
+}
+
+
+.mediaPresenceInner .mediaDemoButton:active {
+  transform: translateY(1px) !important;
+}
+
+
+/* =========================================================
+   THREE-IMAGE SECTION
+   Target layout:
+   small-left / larger-lower-center / small-right
+   ========================================================= */
+.mediaPresence > .frameParent4 {
+  position: absolute !important;
+
+  top: clamp(322px, 27.5vw, 396px) !important;
+  left: 50% !important;
+
+  width: min(1152px, calc(100% - 64px)) !important;
+  height: clamp(500px, 39vw, 560px) !important;
+
+  margin: 0 !important;
+
+  display: block !important;
+
+  transform: translateX(-50%) !important;
+
+  z-index: 3 !important;
+}
+
+
+/* Left image card */
+.mediaPresence > .frameParent4 .frameWrapper2 {
+  position: absolute !important;
+
+  top: 0 !important;
+  left: 0 !important;
+
+  width: clamp(250px, 20.83vw, 300px) !important;
+  height: clamp(250px, 20.83vw, 300px) !important;
+
+  margin: 0 !important;
+
+  aspect-ratio: 1 / 1 !important;
+}
+
+
+/* Center image card */
+.mediaPresence > .frameParent4 .frameWrapper3 {
+  position: absolute !important;
+
+  top: clamp(138px, 10.4vw, 150px) !important;
+  left: 50% !important;
+
+  width: clamp(340px, 27.78vw, 400px) !important;
+  height: clamp(340px, 27.78vw, 400px) !important;
+
+  margin: 0 !important;
+
+  transform: translateX(-50%) !important;
+
+  aspect-ratio: 1 / 1 !important;
+}
+
+
+/* Right image card */
+.mediaPresence > .frameParent4 .frameWrapper4 {
+  position: absolute !important;
+
+  top: 0 !important;
+
+  left: auto !important;
+  right: 0 !important;
+
+  width: clamp(250px, 20.83vw, 300px) !important;
+  height: clamp(250px, 20.83vw, 300px) !important;
+
+  margin: 0 !important;
+
+  aspect-ratio: 1 / 1 !important;
+}
+
+
+/* Keep image/card appearance unchanged */
+.mediaPresence > .frameParent4 .frameIcon,
+.mediaPresence > .frameParent4 .frameChild3 {
+  position: absolute !important;
+
+  inset: 16px !important;
+
+  width: calc(100% - 32px) !important;
+  height: calc(100% - 32px) !important;
+
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+
+/* ---------------------------------------------------------
+   NEXT SECTION
+   Do not alter later layouts.
+   --------------------------------------------------------- */
+.mediaPresence > .frameParent5 {
+  top: 1005px !important;
+}
+
+/* =========================================================
+   FINAL MICRO-ADJUSTMENT ONLY
+   1. Bring the hero curve slightly more down
+   2. Move only the center image slightly up
+   No other design/layout changes.
+   ========================================================= */
+
+.mediaPresenceChild {
+  top: -190px !important;
+}
+
+.mediaPresence > .frameParent4 .frameWrapper3 {
+  top: 125px !important;
+}
+
+
+/* =========================================================
+   FINAL SPACING ADJUSTMENT ONLY
+   Reduce the gap between the three-image section and
+   "Shaping The Future Of Learning".
+   ========================================================= */
+.mediaPresence > .frameParent5 {
+  top: 920px !important;
+}
+
+/* =========================================================
+   FINAL SECTION-SPACING CORRECTION
+   Keeps the current hero/curve/images unchanged.
+
+   The "Shaping The Future Of Learning" section was moved
+   upward by 85px (1005px -> 920px). To avoid creating a new
+   85px empty gap after that section, the following major
+   sections are shifted upward by the SAME 85px.
+
+   No card design, typography, shadow, color, radius,
+   image size, hover effect, or internal layout is changed.
+   ========================================================= */
+
+/* Current desired position for Shaping The Future */
+.mediaPresence > .frameParent5 {
+  top: 920px !important;
+}
+
+/* Preserve the original spacing from Shaping section
+   to Partnerships by moving Partnerships up equally. */
+.mediaPresence > .frameParent17 {
+  top: 1593px !important; /* 1678px - 85px */
+}
+
+/* Preserve the original spacing from Partnerships
+   to the final CTA by moving CTA up equally. */
+.mediaPresence > .image20Parent {
+  top: 2045px !important; /* 2130px - 85px */
+}
+
+/* Reduce the page canvas by the same amount so the footer,
+   which is bottom-positioned, keeps its original spacing. */
+.mediaPresence {
+  height: 2635px !important; /* 2720px - 85px */
+}
+
+/* =========================================================
+   RESPONSIVE ALIGNMENT FIX — HERO IMAGES + SHAPING SECTION
+   Scope is intentionally limited to the two sections that
+   break on tablet/mobile.
+   Desktop design/effects remain unchanged.
+   ========================================================= */
+
+/* ---------- TABLET / NARROW DESKTOP ---------- */
+@media (max-width: 1024px) {
+
+  /* Keep page width contained */
+  .mediaPresence {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  /* HERO THREE-IMAGE GROUP:
+     preserve same visual order but scale cleanly */
+  .mediaPresence > .frameParent4 {
+    left: 50% !important;
+    width: min(92vw, 900px) !important;
+    height: clamp(430px, 62vw, 560px) !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    width: clamp(210px, 28vw, 280px) !important;
+    height: clamp(210px, 28vw, 280px) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2 {
+    left: 0 !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    left: auto !important;
+    right: 0 !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper3 {
+    left: 50% !important;
+    top: clamp(118px, 15vw, 145px) !important;
+    width: clamp(290px, 38vw, 370px) !important;
+    height: clamp(290px, 38vw, 370px) !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2 .frameIcon,
+  .mediaPresence > .frameParent4 .frameWrapper4 .frameIcon,
+  .mediaPresence > .frameParent4 .frameWrapper3 .frameChild3 {
+    inset: 16px !important;
+    width: calc(100% - 32px) !important;
+    height: calc(100% - 32px) !important;
+    object-fit: cover !important;
+  }
+
+  /* SHAPING THE FUTURE:
+     remove fixed inner offsets that create overflow/gaps */
+  .mediaPresence > .frameParent5 {
+    width: min(92vw, 935px) !important;
+  }
+
+  .mediaPresence > .frameParent5 .rectangleParent {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 430px !important;
+    padding: 34px 28px !important;
+    box-sizing: border-box !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameChild6 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .mediaPresence > .frameParent5 .innovateInspireLeadWrapper {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 0 26px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent7 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent8 {
+    width: 100% !important;
+    gap: 18px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent9 {
+    width: 100% !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameWrapper7,
+  .mediaPresence > .frameParent5 .frameWrapper8,
+  .mediaPresence > .frameParent5 > .rectangleParent > .frameParent7 > .frameWrapper8 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+
+/* ---------- PHONE ---------- */
+@media (max-width: 767px) {
+
+  /* HERO:
+     stack the 3 cards cleanly instead of overlapping */
+  .mediaPresence > .frameParent4 {
+    position: absolute !important;
+    left: 50% !important;
+    width: calc(100% - 32px) !important;
+    height: auto !important;
+    min-height: 940px !important;
+    transform: translateX(-50%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 22px !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper3,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    margin: 0 !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    width: min(82vw, 300px) !important;
+    height: min(82vw, 300px) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper3 {
+    width: min(90vw, 360px) !important;
+    height: min(90vw, 360px) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2 .frameIcon,
+  .mediaPresence > .frameParent4 .frameWrapper4 .frameIcon,
+  .mediaPresence > .frameParent4 .frameWrapper3 .frameChild3 {
+    top: 16px !important;
+    left: 16px !important;
+    width: calc(100% - 32px) !important;
+    height: calc(100% - 32px) !important;
+    object-fit: cover !important;
+  }
+
+  /* Move the next section down only enough to clear
+     the stacked image group; no giant blank canvas */
+  .mediaPresence > .frameParent5 {
+    top: 1460px !important;
+    width: calc(100% - 28px) !important;
+    gap: 28px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameWrapper5,
+  .mediaPresence > .frameParent5 .frameParent6,
+  .mediaPresence > .frameParent5 .frameWrapper6,
+  .mediaPresence > .frameParent5 .shapingTheFutureOfLearningParent {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .mediaPresence > .frameParent5 .shapingTheFutureOfLearningParent {
+    gap: 14px !important;
+  }
+
+  .mediaPresence > .frameParent5 .shapingTheFuture,
+  .mediaPresence > .frameParent5 .neurolxpDeliversScalable {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Feature card: natural document flow, no absolute
+     children causing huge empty areas */
+  .mediaPresence > .frameParent5 .rectangleParent {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 28px 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameChild6 {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .mediaPresence > .frameParent5 .innovateInspireLeadWrapper {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 0 22px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent7 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+    gap: 14px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent8 {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent9 {
+    width: 100% !important;
+    gap: 14px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameWrapper7,
+  .mediaPresence > .frameParent5 .frameWrapper8,
+  .mediaPresence > .frameParent5 > .rectangleParent > .frameParent7 > .frameWrapper8 {
+    position: relative !important;
+    width: 100% !important;
+    height: 66px !important;
+    max-width: 100% !important;
+  }
+
+  .mediaPresence > .frameParent5 .brainCircuitParent,
+  .mediaPresence > .frameParent5 .globe02Parent,
+  .mediaPresence > .frameParent5 .target02Parent,
+  .mediaPresence > .frameParent5 .studentParent,
+  .mediaPresence > .frameParent5 .refresh03Parent {
+    left: 18px !important;
+    right: 18px !important;
+    gap: 14px !important;
+  }
+
+  .mediaPresence > .frameParent5 .aiPoweredLearning {
+    white-space: normal !important;
+  }
+
+  /* Because the mobile hero is taller, shift only the
+     sections after it so they do not overlap or leave gaps. */
+  .mediaPresence > .frameParent17 {
+    top: 2200px !important;
+  }
+
+  .mediaPresence > .image20Parent {
+    top: 2940px !important;
+  }
+
+  .mediaPresence {
+    height: 3520px !important;
+  }
+}
+
+
+/* ---------- VERY NARROW PHONES ---------- */
+@media (max-width: 420px) {
+  .mediaPresence > .frameParent4 {
+    width: calc(100% - 20px) !important;
+  }
+
+  .mediaPresence > .frameParent5 {
+    width: calc(100% - 20px) !important;
+  }
+
+  .mediaPresence > .frameParent5 .rectangleParent {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  .mediaPresence > .frameParent5 .brainCircuitParent,
+  .mediaPresence > .frameParent5 .globe02Parent,
+  .mediaPresence > .frameParent5 .target02Parent,
+  .mediaPresence > .frameParent5 .studentParent,
+  .mediaPresence > .frameParent5 .refresh03Parent {
+    left: 14px !important;
+    right: 14px !important;
+  }
+}
+
+/* =========================================================
+   FINAL TABLET + MOBILE FLOW FIX
+   This block intentionally comes LAST so it overrides the
+   conflicting responsive rules above.
+
+   Desktop (>1024px) is untouched.
+
+   Fixes:
+   - hero image overlap
+   - spacing between all major sections
+   - Shaping card overflow
+   - Partnerships overflow
+   - CTA / last section disappearing
+   - fixed page-height clipping
+   ========================================================= */
+
+@media (max-width: 1024px) {
+
+  /* -------------------------------------------------------
+     PAGE: use natural vertical flow
+     ------------------------------------------------------- */
+  .mediaPresence {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 100vh !important;
+
+    padding: 24px clamp(16px, 3vw, 28px) 48px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    gap: clamp(34px, 5vw, 52px) !important;
+
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+
+    transform: none !important;
+    zoom: 1 !important;
+
+    box-sizing: border-box !important;
+  }
+
+  /* Decorative hero curve must not create layout space */
+  .mediaPresenceChild {
+    position: absolute !important;
+    top: -150px !important;
+    left: 50% !important;
+
+    width: 1180px !important;
+    max-width: none !important;
+    height: auto !important;
+
+    transform: translateX(-50%) !important;
+
+    pointer-events: none !important;
+    z-index: 0 !important;
+  }
+
+  /* -------------------------------------------------------
+     BREADCRUMB
+     ------------------------------------------------------- */
+  .mediaPresence > .frameParent3 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+
+    width: min(100%, 920px) !important;
+    height: auto !important;
+
+    margin: 0 auto !important;
+
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+
+    gap: 6px 8px !important;
+
+    transform: none !important;
+
+    order: 0 !important;
+    z-index: 3 !important;
+  }
+
+  /* -------------------------------------------------------
+     HERO TEXT / BUTTON
+     ------------------------------------------------------- */
+  .mediaPresenceInner {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+
+    width: min(100%, 900px) !important;
+    height: auto !important;
+
+    margin: 0 auto !important;
+
+    transform: none !important;
+
+    order: 1 !important;
+    z-index: 3 !important;
+  }
+
+  .mediaPresenceInner .frameParent,
+  .mediaPresenceInner .frameGroup,
+  .mediaPresenceInner .recognizedInnovationInDigitParent {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .mediaPresenceInner .frameParent {
+    gap: 28px !important;
+  }
+
+  .mediaPresenceInner .frameGroup {
+    gap: 16px !important;
+  }
+
+  .mediaPresenceInner .recognizedInnovationInDigitParent {
+    gap: 16px !important;
+  }
+
+  .mediaPresenceInner .recognizedInnovationIn,
+  .mediaPresenceInner .neurolxpIsDriving {
+    width: min(100%, 760px) !important;
+    height: auto !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    white-space: normal !important;
+    text-align: center !important;
+  }
+
+  .mediaPresenceInner .frameWrapper {
+    margin: 0 auto !important;
+  }
+
+  /* -------------------------------------------------------
+     THREE IMAGE SECTION — TABLET
+     Left + right on row 1, center on row 2.
+     No absolute card positioning.
+     ------------------------------------------------------- */
+  .mediaPresence > .frameParent4 {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+
+    width: min(100%, 760px) !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 auto !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-areas:
+      "left right"
+      "center center" !important;
+
+    align-items: start !important;
+    justify-items: center !important;
+
+    column-gap: clamp(18px, 4vw, 34px) !important;
+    row-gap: clamp(22px, 4vw, 34px) !important;
+
+    transform: none !important;
+
+    order: 2 !important;
+    z-index: 3 !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2 {
+    grid-area: left !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper3 {
+    grid-area: center !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    grid-area: right !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper3,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+
+    margin: 0 !important;
+
+    transform: none !important;
+
+    aspect-ratio: 1 / 1 !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    width: min(100%, 300px) !important;
+    height: auto !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper3 {
+    width: min(100%, 380px) !important;
+    height: auto !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameIcon,
+  .mediaPresence > .frameParent4 .frameChild3 {
+    position: absolute !important;
+
+    top: 16px !important;
+    left: 16px !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: calc(100% - 32px) !important;
+    height: calc(100% - 32px) !important;
+
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+
+  /* -------------------------------------------------------
+     SHAPING THE FUTURE
+     ------------------------------------------------------- */
+  .mediaPresence > .frameParent5 {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+
+    width: min(100%, 935px) !important;
+    height: auto !important;
+
+    margin: 0 auto !important;
+
+    transform: none !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    gap: 28px !important;
+
+    order: 3 !important;
+    z-index: 3 !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameWrapper5,
+  .mediaPresence > .frameParent5 .frameParent6,
+  .mediaPresence > .frameParent5 .frameWrapper6,
+  .mediaPresence > .frameParent5 .shapingTheFutureOfLearningParent {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .mediaPresence > .frameParent5 .shapingTheFutureOfLearningParent {
+    gap: 16px !important;
+  }
+
+  .mediaPresence > .frameParent5 .shapingTheFuture,
+  .mediaPresence > .frameParent5 .neurolxpDeliversScalable {
+    width: min(100%, 760px) !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+
+  /* Main neumorphic feature card */
+  .mediaPresence > .frameParent5 .rectangleParent {
+    position: relative !important;
+
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    padding: 34px 28px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    gap: 26px !important;
+
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameChild6 {
+    position: absolute !important;
+
+    inset: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .mediaPresence > .frameParent5 .innovateInspireLeadWrapper {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    margin: 0 !important;
+  }
+
+  .mediaPresence > .frameParent5 .innovateInspireLead {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    white-space: normal !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent7 {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    margin: 0 !important;
+
+    gap: 16px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent8 {
+    width: 100% !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+    gap: 16px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent9 {
+    width: 100% !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 16px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameWrapper7,
+  .mediaPresence > .frameParent5 .frameWrapper8,
+  .mediaPresence > .frameParent5 > .rectangleParent > .frameParent7 > .frameWrapper8 {
+    position: relative !important;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    min-height: 68px !important;
+    height: auto !important;
+
+    padding: 12px 18px !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .mediaPresence > .frameParent5 .brainCircuitParent,
+  .mediaPresence > .frameParent5 .globe02Parent,
+  .mediaPresence > .frameParent5 .target02Parent,
+  .mediaPresence > .frameParent5 .studentParent,
+  .mediaPresence > .frameParent5 .refresh03Parent {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+
+    transform: none !important;
+
+    gap: 16px !important;
+  }
+
+  .mediaPresence > .frameParent5 .aiPoweredLearning {
+    white-space: normal !important;
+  }
+
+  /* -------------------------------------------------------
+     PARTNERSHIPS
+     ------------------------------------------------------- */
+  .mediaPresence > .frameParent17 {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+
+    width: min(100%, 920px) !important;
+    height: auto !important;
+
+    margin: 0 auto !important;
+
+    transform: none !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    gap: 32px !important;
+
+    text-align: center !important;
+
+    order: 4 !important;
+    z-index: 3 !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameWrapper19,
+  .mediaPresence > .frameParent17 .frameParent18,
+  .mediaPresence > .frameParent17 .frameParent19 {
+    width: 100% !important;
+    max-width: 720px !important;
+    align-items: center !important;
+  }
+
+  .partnershipsCollaborationWrapper,
+  .partnershipsCollaboration,
+  .collaboratingWithInstitution {
+    width: 100% !important;
+    height: auto !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    white-space: normal !important;
+    text-align: center !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent20 {
+    width: 100% !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 300px)) !important;
+
+    justify-content: center !important;
+
+    gap: 20px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent21 {
+    width: 100% !important;
+    max-width: 300px !important;
+
+    margin: 0 auto !important;
+  }
+
+  /* -------------------------------------------------------
+     FINAL CTA — always visible in normal flow
+     ------------------------------------------------------- */
+  .mediaPresence > .image20Parent,
+  .image20Parent {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: min(100%, 920px) !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 auto !important;
+
+    padding: 38px 30px !important;
+
+    transform: none !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+
+    order: 5 !important;
+    z-index: 3 !important;
+  }
+
+  .image20Parent .image20,
+  .image20Parent .frameWrapper21 {
+    background: transparent !important;
+  }
+
+  .image20Parent .frameParent47 {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+
+    width: 100% !important;
+
+    transform: none !important;
+
+    gap: 24px !important;
+  }
+
+  .image20Parent .drivingTheFutureOfLearningParent {
+    width: 100% !important;
+    gap: 18px !important;
+  }
+
+  .image20Parent .frameChild27 {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+
+    margin: 0 auto !important;
+  }
+
+  /* -------------------------------------------------------
+     FOOTER / LAST BLOCK
+     Keep it in flow so it cannot be clipped.
+     ------------------------------------------------------- */
+  .mediaPresence > .frameParent30,
+  .mediaPresence > .frameWrapper20,
+  .frameParent30,
+  .frameWrapper20 {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: 100% !important;
+    max-width: 1440px !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 0 auto !important;
+
+    transform: none !important;
+
+    order: 6 !important;
+
+    overflow: visible !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+@media (max-width: 767px) {
+
+  .mediaPresence {
+    padding: 18px 14px 36px !important;
+    gap: 32px !important;
+  }
+
+  .mediaPresenceChild {
+    top: -100px !important;
+    width: 900px !important;
+  }
+
+  /* Hero typography stays readable */
+  .mediaPresenceInner .recognizedInnovationIn {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .mediaPresenceInner .neurolxpIsDriving {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  /* Images: one clean column, no overlap */
+  .mediaPresence > .frameParent4 {
+    width: min(100%, 380px) !important;
+
+    grid-template-columns: 1fr !important;
+    grid-template-areas:
+      "left"
+      "center"
+      "right" !important;
+
+    row-gap: 20px !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence > .frameParent4 .frameWrapper4 {
+    width: min(82vw, 280px) !important;
+  }
+
+  .mediaPresence > .frameParent4 .frameWrapper3 {
+    width: min(88vw, 320px) !important;
+  }
+
+  /* Shaping title/text */
+  .mediaPresence > .frameParent5 {
+    gap: 22px !important;
+  }
+
+  .mediaPresence > .frameParent5 .shapingTheFuture {
+    font-size: 26px !important;
+    line-height: 34px !important;
+  }
+
+  .mediaPresence > .frameParent5 .neurolxpDeliversScalable {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .mediaPresence > .frameParent5 .rectangleParent {
+    padding: 28px 14px !important;
+    gap: 22px !important;
+  }
+
+  .mediaPresence > .frameParent5 .innovateInspireLead {
+    font-size: 26px !important;
+    line-height: 34px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent8 {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameParent9 {
+    gap: 14px !important;
+  }
+
+  .mediaPresence > .frameParent5 .frameWrapper7,
+  .mediaPresence > .frameParent5 .frameWrapper8,
+  .mediaPresence > .frameParent5 > .rectangleParent > .frameParent7 > .frameWrapper8 {
+    min-height: 64px !important;
+    padding: 10px 14px !important;
+  }
+
+  .mediaPresence > .frameParent5 .brainCircuitParent,
+  .mediaPresence > .frameParent5 .globe02Parent,
+  .mediaPresence > .frameParent5 .target02Parent,
+  .mediaPresence > .frameParent5 .studentParent,
+  .mediaPresence > .frameParent5 .refresh03Parent {
+    gap: 12px !important;
+  }
+
+  .mediaPresence > .frameParent5 .aiPoweredLearning {
+    font-size: 18px !important;
+    line-height: 25px !important;
+  }
+
+  /* Partnerships one column */
+  .mediaPresence > .frameParent17 {
+    gap: 24px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent20 {
+    grid-template-columns: minmax(0, 300px) !important;
+    gap: 16px !important;
+  }
+
+  .partnershipsCollaboration {
+    font-size: 27px !important;
+    line-height: 35px !important;
+  }
+
+  /* CTA */
+  .mediaPresence > .image20Parent,
+  .image20Parent {
+    width: 100% !important;
+
+    padding: 30px 16px 34px !important;
+
+    border-radius: 72px 72px 8px 8px !important;
+  }
+
+  .image20Parent .drivingTheFuture {
+    font-size: 27px !important;
+    line-height: 35px !important;
+  }
+
+  .image20Parent .neurolxpEmpowersOrganization {
+    width: 100% !important;
+
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .image20Parent .frameChild27,
+  .image20Parent .mediaDemoButton {
+    width: 190px !important;
+    height: 52px !important;
+  }
+
+  /* Footer remains visible */
+  .mediaPresence > .frameParent30,
+  .mediaPresence > .frameWrapper20,
+  .frameParent30,
+  .frameWrapper20 {
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+}
+
+
+/* =========================================================
+   VERY NARROW PHONES
+   ========================================================= */
+@media (max-width: 420px) {
+
+  .mediaPresence {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .mediaPresence > .frameParent4 {
+    width: 100% !important;
+  }
+
+  .mediaPresence > .frameParent5 {
+    width: 100% !important;
+  }
+
+  .mediaPresence > .frameParent5 .rectangleParent {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .mediaPresence > .frameParent17 {
+    width: 100% !important;
+  }
+
+  .mediaPresence > .image20Parent,
+  .image20Parent {
+    width: 100% !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE PARTNERSHIP SPACING ADJUSTMENT
+   Only reduces the empty space above the partnership cards
+   and keeps a small, consistent gap between the cards.
+   No desktop/tablet/other-section styles are changed.
+   ========================================================= */
+@media (max-width: 767px) {
+
+  /* Reduce space between partnership intro text and cards */
+  .mediaPresence > .frameParent17 {
+    gap: 12px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameWrapper19,
+  .mediaPresence > .frameParent17 .frameParent18 {
+    margin-bottom: 0 !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent19 {
+    gap: 10px !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* Small spacing between partnership card rows */
+  .mediaPresence > .frameParent17 .frameParent20 {
+    gap: 10px !important;
+    margin-top: 0 !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent21 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE COLLABORATION SPACING FIX
+   Mobile only. Desktop/tablet styles remain unchanged.
+   ========================================================= */
+@media (max-width: 767px) {
+
+  /* Collaboration section: remove the large space between
+     the intro copy and the first card. */
+  .mediaPresence > .frameParent17 {
+    gap: 14px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameWrapper19 {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent18 {
+    width: 100% !important;
+    gap: 8px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mediaPresence > .frameParent17 .partnershipsCollaborationWrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mediaPresence > .frameParent17 .partnershipsCollaboration {
+    margin: 0 !important;
+  }
+
+  .mediaPresence > .frameParent17 .collaboratingWithInstitution {
+    margin: 0 !important;
+  }
+
+  /* Card group starts immediately after the intro area. */
+  .mediaPresence > .frameParent17 .frameParent19 {
+    width: 100% !important;
+    gap: 12px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Each row becomes a single-column mobile stack with
+     a consistent 12px gap between cards. */
+  .mediaPresence > .frameParent17 .frameParent20 {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 300px) !important;
+    justify-content: center !important;
+    align-items: start !important;
+    gap: 12px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent21 {
+    width: 100% !important;
+    max-width: 300px !important;
+    margin: 0 !important;
+  }
+}
+
+/* =========================================================
+   MOBILE ONLY — COLLABORATION CARD POSITION FIX
+   Keep heading + description exactly where they are.
+   Pull ONLY the cards upward to remove the visible blank area.
+   Desktop and tablet are untouched.
+   ========================================================= */
+@media (max-width: 767px) {
+
+  /* Do not add extra spacing on the collaboration parent */
+  .mediaPresence > .frameParent17 {
+    gap: 0 !important;
+  }
+
+  /* Keep intro content exactly in its current position */
+  .mediaPresence > .frameParent17 .frameWrapper19,
+  .mediaPresence > .frameParent17 .frameParent18 {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Remove inherited bottom spacing under the title */
+  .mediaPresence > .frameParent17 .partnershipsCollaborationWrapper {
+    margin-bottom: 10px !important;
+  }
+
+  /* THIS is the actual visual correction:
+     move the whole card block upward on mobile */
+  .mediaPresence > .frameParent17 .frameParent19 {
+    position: relative !important;
+    top: auto !important;
+
+    width: 100% !important;
+
+    margin: -72px 0 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+    gap: 12px !important;
+
+    transform: none !important;
+  }
+
+  /* Each card row */
+  .mediaPresence > .frameParent17 .frameParent20 {
+    width: 100% !important;
+
+    display: grid !important;
+    grid-template-columns: minmax(0, 300px) !important;
+
+    justify-content: center !important;
+    align-items: start !important;
+
+    gap: 12px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Individual cards */
+  .mediaPresence > .frameParent17 .frameParent21 {
+    width: min(100%, 300px) !important;
+    max-width: 300px !important;
+
+    margin: 0 auto !important;
+  }
+}
+
+/* =========================================================
+   FINAL MOBILE ONLY — ADD VISIBLE SPACE BETWEEN CARDS
+   Keeps the fixed top spacing exactly as-is.
+   Only adds separation between individual collaboration cards.
+   ========================================================= */
+@media (max-width: 767px) {
+
+  .mediaPresence > .frameParent17 .frameParent19 {
+    gap: 16px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent20 {
+    gap: 16px !important;
+    row-gap: 16px !important;
+  }
+
+  /* Covers cards that are siblings inside the same row */
+  .mediaPresence > .frameParent17 .frameParent20 > * + * {
+    margin-top: 16px !important;
+  }
+
+  /* Covers separate card rows */
+  .mediaPresence > .frameParent17 .frameParent20 + .frameParent20 {
+    margin-top: 16px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent21 {
+    margin-bottom: 0 !important;
+  }
+}
+
+
+/* =========================================================
+   BUTTON HOVER ONLY + INTER FALLBACK
+   No sizing, spacing, positioning or layout changes.
+   ========================================================= */
+
+.signInHelpWrapper,
+.mediaDemoButton,
+.frameChild29 {
+  cursor: pointer !important;
+  transition:
+    box-shadow 180ms ease,
+    transform 180ms ease !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .signInHelpWrapper:hover,
+  .mediaDemoButton:hover,
+  .frameChild29:hover {
+    box-shadow:
+      inset -4px -4px 8px #ffffff,
+      inset 4px 4px 8px rgba(196, 196, 196, 0.80) !important;
+    transform: translateY(1px) !important;
+  }
+}
+
+.signInHelpWrapper:active,
+.mediaDemoButton:active,
+.frameChild29:active {
+  box-shadow:
+    inset -3px -3px 6px #ffffff,
+    inset 4px 4px 7px rgba(191, 194, 196, 0.90) !important;
+  transform: translateY(2px) !important;
+}
+
+.signInHelpWrapper:focus-visible,
+.mediaDemoButton:focus-visible,
+.frameChild29:focus-visible {
+  box-shadow:
+    inset -4px -4px 8px #ffffff,
+    inset 4px 4px 8px rgba(196, 196, 196, 0.80) !important;
+}
+
+/* Keep the requested font stack on button text as well. */
+.signInHelpWrapper,
+.signInHelpWrapper *,
+.mediaDemoButton,
+.mediaDemoButton *,
+.frameChild29,
+.frameChild29 * {
+  font-family: "Segoe UI", "Inter" !important;
+}
+
+
+/* =========================================================
+   MOBILE ONLY — PARTNERSHIP CARD TEXT OVERLAP FIX
+   Keeps the same card design; only gives wrapped titles room.
+   ========================================================= */
+@media screen and (max-width: 767px) {
+
+  .mediaPresence > .frameParent17 .frameParent21 {
+    height: 180px !important;
+    min-height: 180px !important;
+  }
+
+  .mediaPresence > .frameParent17 .frameParent21 .frameChild9 {
+    height: 180px !important;
+  }
+
+  /* Center each icon + title group by its ACTUAL content height.
+     This prevents two-line titles from dropping outside the card. */
+  .mediaPresence > .frameParent17 .frameParent21 > :not(.frameChild9) {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+
+  .mediaPresence > .frameParent17 .higherEducation,
+  .mediaPresence > .frameParent17 .corporateLearning,
+  .mediaPresence > .frameParent17 .workforceSkills,
+  .mediaPresence > .frameParent17 .professionalTraining {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 !important;
+    overflow: visible !important;
+  }
+}
+
+
+
+/* =========================================================
+   BADGES, BUTTONS AND TEXT SELECTION ONLY
+   Keep all existing section geometry, artwork and spacing.
+   ========================================================= */
+
+/* Real HTML text, including labels inside links and buttons. */
+.mediaPresence,
+.mediaPresence * {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  user-select: text !important;
+}
+
+/* Match the previous pages' inset pill badges.
+   Existing badge widths, heights, margins and padding are retained. */
+.mediaPresence .mediaPresenceInner .mediaBadge,
+.mediaPresence .image20Parent .frameChild28 {
+  border-radius: 28px !important;
+  background-color: #dfe6e9 !important;
+  color: #2d4cc8 !important;
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196,196,196,.8) !important;
+  font-family: "Segoe UI", Inter, Arial, sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+  text-align: center !important;
+}
+
+/* Match the previous pages' raised buttons and 8px corners.
+   Dimensions and placement continue to use the existing responsive rules. */
+.mediaPresence .signInHelpWrapper,
+.mediaPresence .mediaDemoButton,
+.mediaPresence .frameChild29 {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0 !important;
+  border-radius: 8px !important;
+  background-color: #dfe6e9 !important;
+  color: #2d4cc8 !important;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9 !important;
+  font-family: "Segoe UI", Inter, Arial, sans-serif !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: box-shadow 180ms ease !important;
+}
+.mediaPresence .mediaDemoButton,
+.mediaPresence .frameChild29 {
+  font-size: 24px !important;
+  line-height: 32px !important;
+}
+.mediaPresence .signInHelpWrapper {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+.mediaPresence .signInHelpWrapper *,
+.mediaPresence .mediaDemoButton *,
+.mediaPresence .frameChild29 * {
+  font-family: "Segoe UI", Inter, Arial, sans-serif !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+/* Strong enough to override the earlier hero hover rules. */
+@media (hover: hover) and (pointer: fine) {
+  .mediaPresence .signInHelpWrapper:hover,
+  .mediaPresence .mediaDemoButton:hover,
+  .mediaPresence .frameChild29:hover {
+    box-shadow:
+      inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196,196,196,.8) !important;
+    transform: none !important;
+  }
+}
+.mediaPresence .signInHelpWrapper:active,
+.mediaPresence .mediaDemoButton:active,
+.mediaPresence .frameChild29:active {
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196,196,196,.8) !important;
+  transform: none !important;
+}
+.mediaPresence .signInHelpWrapper:focus-visible,
+.mediaPresence .mediaDemoButton:focus-visible,
+.mediaPresence .frameChild29:focus-visible {
+  outline: 3px solid #2d4cc8 !important;
+  outline-offset: 4px !important;
+}
+@media (max-width: 767px) {
+  .mediaPresence .mediaPresenceInner .mediaBadge,
+  .mediaPresence .image20Parent .frameChild28,
+  .mediaPresence .mediaDemoButton,
+  .mediaPresence .frameChild29 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mediaPresence .signInHelpWrapper,
+  .mediaPresence .mediaDemoButton,
+  .mediaPresence .frameChild29 { transition: none !important; }
+}
+
+
+/* PARTNERSHIPS ONLY: compact intro and fully contained two-line labels. */
+.mediaPresence > .frameParent17 .frameWrapper19,
+.mediaPresence > .frameParent17 .frameParent18 {
+  height: auto !important;
+  min-height: 0 !important;
+}
+.mediaPresence > .frameParent17 .frameParent18 {
+  gap: 12px !important;
+}
+.mediaPresence > .frameParent17 .partnershipsCollaborationWrapper {
+  height: auto !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.mediaPresence > .frameParent17 .partnershipsCollaboration,
+.mediaPresence > .frameParent17 .collaboratingWithInstitution {
+  height: auto !important;
+  min-height: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Lay out the icon and label together instead of using a fixed top offset.
+   70px icon + 8px gap + 56px label + 24px padding fits the card. */
+.mediaPresence > .frameParent17 .frameParent21 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  height: auto !important;
+  min-height: 160px !important;
+  padding: 12px !important;
+}
+.mediaPresence > .frameParent17 .frameParent21 .frameChild9 {
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: none;
+}
+.mediaPresence > .frameParent17 .frameParent21 > :not(.frameChild9) {
+  position: relative !important;
+  inset: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+}
+.mediaPresence > .frameParent17 .higherEducation,
+.mediaPresence > .frameParent17 .corporateLearning,
+.mediaPresence > .frameParent17 .workforceSkills,
+.mediaPresence > .frameParent17 .professionalTraining {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 12ch !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 56px !important;
+  max-height: none !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  align-self: center !important;
+  font-size: 24px !important;
+  line-height: 28px !important;
+  text-align: center !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  overflow: visible !important;
+}
+
+@media (max-width: 767px) {
+  .mediaPresence > .frameParent17 { gap: 24px !important; }
+  /* The compact intro no longer needs the old -72px overlap compensation. */
+  .mediaPresence > .frameParent17 .frameParent19 {
+    margin-top: 0 !important;
+  }
+  .mediaPresence > .frameParent17 .higherEducation,
+  .mediaPresence > .frameParent17 .corporateLearning,
+  .mediaPresence > .frameParent17 .workforceSkills,
+  .mediaPresence > .frameParent17 .professionalTraining {
+    font-size: 20px !important;
+    line-height: 26px !important;
+    min-height: 52px !important;
+  }
+}
+.mediaPresence > .frameParent17 .frameParent21 .workforceSkills {
+  width: min-content !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+}
+
+/* Main heading sizes and last-word colour. Card labels and badges retain
+   their own typography and colours. */
+.mediaPresence.mediaPresence :is(.recognizedInnovationIn, .shapingTheFuture, .partnershipsCollaboration, .drivingTheFuture, .innovateInspireLead) {
+  font-size: 36px !important;
+  line-height: 44px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
+
+.mediaPresence.mediaPresence :is(h1, h2) {
+  color: #31344b !important;
+  background: none !important;
+  -webkit-text-fill-color: currentColor !important;
+  text-shadow: none !important;
+}
+
+.mediaPresence.mediaPresence :is(h1, h2) > .headingLastWord {
+  color: #2d4cc8 !important;
+  -webkit-text-fill-color: #2d4cc8 !important;
+  font: inherit !important;
+  white-space: nowrap;
+}
+
+/* Let the partnership intro use its text height, without empty line breaks. */
+.mediaPresence > .frameParent17 .collaboratingWithInstitution {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .mediaPresence.mediaPresence {
+    padding: 16px 16px 48px !important;
+    gap: 0 !important;
+  }
+
+  .mediaPresence.mediaPresence :is(.recognizedInnovationIn, .shapingTheFuture, .partnershipsCollaboration, .drivingTheFuture, .innovateInspireLead) {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .mediaPresence.mediaPresence > .mediaPresenceInner {
+    margin: 16px auto 0 !important;
+  }
+
+  .mediaPresence.mediaPresence > :is(.frameParent4, .frameParent5, .frameParent17, .image20Parent) {
+    margin: 48px auto 0 !important;
+  }
+
+  .mediaPresence.mediaPresence :is(.recognizedInnovationInDigitParent, .shapingTheFutureOfLearningParent, .frameParent18, .drivingTheFutureOfLearningParent) {
+    gap: 12px !important;
+    min-width: 0 !important;
+  }
+
+  .mediaPresence.mediaPresence :is(.neurolxpIsDriving, .neurolxpDeliversScalable, .collaboratingWithInstitution, .neurolxpEmpowersOrganization) {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent17 .frameParent19 {
+    display: grid !important;
+    grid-template-columns: minmax(0, 300px) !important;
+    justify-content: center !important;
+    gap: 16px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent17 .frameParent20 {
+    display: contents !important;
+    margin: 0 !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent17 .frameParent21 {
+    margin: 0 !important;
+  }
+}
+
+/* Buttons keep their labels together at every viewport width. */
+.mediaPresence.mediaPresence .mediaDemoButton {
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  padding-inline: 16px !important;
+  max-width: 100% !important;
+}
+
+/* Each feature label can grow vertically within its pill. */
+.mediaPresence.mediaPresence .aiPoweredLearning {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  white-space: normal !important;
+  overflow-wrap: normal !important;
+}
+
+@media (min-width: 1025px) {
+  .mediaPresence.mediaPresence {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0 !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 1440px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 auto !important;
+    padding: 32px clamp(24px, 5.55vw, 80px) 48px !important;
+    zoom: 1 !important;
+    transform: none !important;
+  }
+
+  .mediaPresence.mediaPresence > :is(.frameParent3, .mediaPresenceInner, .frameParent4, .frameParent5, .frameParent17, .image20Parent) {
+    position: relative !important;
+    inset: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 48px auto 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent3 {
+    order: 0 !important;
+    margin: 0 !important;
+  }
+
+  .mediaPresence.mediaPresence > .mediaPresenceInner {
+    order: 1 !important;
+    max-width: 1103px !important;
+    margin-top: 24px !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent4 {
+    order: 2 !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 300px) minmax(0, 400px) minmax(0, 300px) !important;
+    gap: 32px !important;
+    justify-content: center !important;
+    align-items: start !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent4 :is(.frameWrapper2, .frameWrapper3, .frameWrapper4) {
+    position: relative !important;
+    inset: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    aspect-ratio: 1 !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent4 .frameWrapper3 {
+    margin-top: 125px !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent5 {
+    order: 3 !important;
+    max-width: 935px !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent17 {
+    order: 4 !important;
+    gap: 40px !important;
+  }
+
+  .mediaPresence.mediaPresence > .image20Parent {
+    order: 5 !important;
+    box-sizing: border-box !important;
+    padding: 48px 32px !important;
+  }
+
+  .mediaPresence.mediaPresence .image20Parent .frameParent47 {
+    position: relative !important;
+    inset: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent5 :is(.frameWrapper7, .frameWrapper8) {
+    height: auto !important;
+    min-height: 68px !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .mediaPresence.mediaPresence > .frameParent17 {
+    display: grid !important;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr) !important;
+    align-items: center !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent17 :is(.frameWrapper19, .frameParent18, .frameParent19, .collaboratingWithInstitution) {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent17 .frameParent20 {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    width: 100% !important;
+    gap: 24px !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent17 .frameParent21 {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+
+.mediaPresence.mediaPresence .image20Parent :is(.frameParent48, .drivingTheFutureOfLearningParent) {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+}
+
+/* Bottom edge only: keep the left dotted/edge line identical to the right side. */
+.image20Parent,
+.image20Parent .image20,
+.image20Parent .frameWrapper21 {
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+.trademark {
+  display: inline-block;
+  font-size: 10.8px !important;
+  line-height: px !important;
+  font-weight: 600;
+  margin-left: 2px;
+  position: relative;
+  top: -4px;
+  color: #2D4CC8;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+/* Mobile-only precision fixes. All original section positions and layout retained. */
+@media screen and (max-width: 767px) {
+  /* Breadcrumb: one aligned row without changing its section position. */
+  .mediaPresence.mediaPresence > .frameParent3 {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 8px !important;
+    text-align: left !important;
+  }
+  .mediaPresence.mediaPresence > .frameParent3 .resourcesWrapper,
+  .mediaPresence.mediaPresence > .frameParent3 .arrowRightDoubleParent {
+    display: inline-flex !important;
+    align-items: center !important;
+    flex-shrink: 0 !important;
+    gap: 8px !important;
+  }
+  .mediaPresence.mediaPresence > .frameParent3 .resources2 {
+    white-space: nowrap !important;
+    line-height: 24px !important;
+  }
+  .mediaPresence.mediaPresence > .frameParent3 .arrowDown01Icon {
+    flex: 0 0 16px !important;
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  /* Preserve existing card grid and card dimensions; only prevent label wrapping. */
+  .mediaPresence.mediaPresence > .frameParent17 .frameParent21 :is(
+    .higherEducation, .corporateLearning, .workforceSkills, .professionalTraining
+  ) {
+    width: max-content !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    white-space: nowrap !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    font-size: clamp(14px, 4.3vw, 18px) !important;
+    line-height: 26px !important;
+    text-align: center !important;
+  }
+  .mediaPresence.mediaPresence > .frameParent17 .frameParent19 {
+    row-gap: 12px !important;
+  }
+
+  /* Keep the existing final section and artwork in place; align its dotted SVG. */
+  .mediaPresence.mediaPresence > .image20Parent .image20 {
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+  .mediaPresence.mediaPresence > .image20Parent .image20 svg {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: visible !important;
+  }
+}
+
+
+/* Targeted mobile corrections: breadcrumbs and final dotted outline only. */
+@media screen and (max-width: 767px) {
+  .mediaPresence.mediaPresence > .frameParent3 {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 4px !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 6px !important;
+    text-align: left !important;
+  }
+  .mediaPresence.mediaPresence > .frameParent3 .resourcesWrapper,
+  .mediaPresence.mediaPresence > .frameParent3 .arrowRightDoubleParent {
+    display: inline-flex !important;
+    flex: 0 1 auto !important;
+    min-width: 0 !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 6px !important;
+  }
+  .mediaPresence.mediaPresence > .frameParent3 .resources2 {
+    display: inline-block !important;
+    width: auto !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+    white-space: nowrap !important;
+  }
+  .mediaPresence.mediaPresence > .frameParent3 .arrowDown01Icon {
+    position: static !important;
+    flex: 0 0 14px !important;
+    width: 14px !important;
+    height: 14px !important;
+    margin: 0 !important;
+  }
+  /* The original SVG uses a 1232px-wide drawing. Scale its full
+     outline to the mobile card instead of cropping the right edge. */
+  .mediaPresence.mediaPresence > .image20Parent .image20 {
+    position: absolute !important;
+    inset: 10px !important;
+    width: calc(100% - 20px) !important;
+    height: calc(100% - 20px) !important;
+    border-radius: inherit !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+  }
+  .mediaPresence.mediaPresence > .image20Parent .image20 svg {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    overflow: visible !important;
+  }
+}
+@media (max-width: 767px) {
+  .frameParent19 {
+    gap: 20px;
+  }
+
+  .frameParent20 {
+    gap: 20px;
+  }
+}
+/* Focused visual corrections for the final CTA and mobile partnership cards. */
+.mediaPresence.mediaPresence > .image20Parent {
+  isolation: isolate;
+}
+.mediaPresence.mediaPresence > .image20Parent .image20 {
+  display: none !important;
+}
+.mediaPresence.mediaPresence > .image20Parent::before {
+  content: "";
+  position: absolute;
+  inset: 24px;
+  border: 2px dashed #bf1869;
+  border-radius: 180px 180px 8px 8px;
+  pointer-events: none;
+  box-sizing: border-box;
+  /* Keep the decorative outline above the card bottom, like the original artwork. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 85%, transparent 98%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 85%, transparent 98%);
+  z-index: 0;
+}
+.mediaPresence.mediaPresence > .image20Parent .frameParent47 {
+  z-index: 1;
+}
+@media (max-width: 767px) {
+  .mediaPresence.mediaPresence > .frameParent17 .frameParent19 {
+    row-gap: 24px !important;
+  }
+  .mediaPresence.mediaPresence > .image20Parent {
+    overflow: hidden !important;
+  }
+  .mediaPresence.mediaPresence > .image20Parent::before {
+    inset: 12px;
+    border-radius: 60px 60px 8px 8px;
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 82%, transparent 96%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 82%, transparent 96%);
+  }
+  .mediaPresence.mediaPresence > .image20Parent .frameParent47 {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding-inline: 8px !important;
+  }
+  .mediaPresence.mediaPresence > .image20Parent .drivingTheFuture,
+  .mediaPresence.mediaPresence > .image20Parent .neurolxpEmpowersOrganization {
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+    text-align: center !important;
+  }
+}
+
+
+/* Expert launcher: Shaping the Future of Learning only. */
+.mediaPresence > .frameParent5 {
+  position: relative;
+}
+.mediaPresence > .frameParent5 .shapingExpertSlot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 64px;
+  height: 64px;
+  z-index: 15;
+}
+@media (max-width: 768px) {
+  .mediaPresence > .frameParent5 .shapingExpertSlot {
+    top: 700px;
+    right: 0;
+    width: 48px;
+    height: 48px;
+  }
+}
+/* FIX: All 3 hero images equal size on mobile only */
+@media (max-width: 767px) {
+
+  .mediaPresence.mediaPresence > .frameParent4 .frameWrapper2,
+  .mediaPresence.mediaPresence > .frameParent4 .frameWrapper3,
+  .mediaPresence.mediaPresence > .frameParent4 .frameWrapper4 {
+    width: min(82vw, 280px) !important;
+    max-width: 280px !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1 !important;
+    min-height: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .mediaPresence.mediaPresence > .frameParent4 .frameIcon,
+  .mediaPresence.mediaPresence > .frameParent4 .frameChild3 {
+    position: absolute !important;
+    top: 16px !important;
+    left: 16px !important;
+    width: calc(100% - 32px) !important;
+    height: calc(100% - 32px) !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+}
+
+/* Last section — raise TM slightly */
+.image20Parent .trademark {
+  position: relative !important;
+  top: -7px !important;
+  vertical-align: super !important;
+  font-size: 11px !important;
+  line-height: 0 !important;
+}

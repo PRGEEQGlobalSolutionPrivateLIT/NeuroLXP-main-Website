@@ -1,0 +1,5117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Complete replacement stylesheet. Replace the previous file in full.
+   Design: original colours, shadows, shapes and component states.
+   Font: Segoe UI first, with Inter as the secondary font.
+   Layout: shared fluid sizing, followed by four width breakpoints.
+   Keep the app's carousel and accordion JavaScript unchanged.
+   Learning Odyssey is grouped in the matching page.tsx heading. */
+
+:global(html) {
+  background-color: #dfe6e9 !important;
+  min-height: 100%;
+}
+
+:global(body) {
+  background-color: #dfe6e9 !important;
+  min-height: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+button:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+a:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+.hero-dot:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+
+.hero-nav-button:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+
+.odyssey-toggle-button:focus-visible .odyssey-toggle-pill {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 3px;
+}
+
+.learning-modules-nav-button:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 4px;
+}
+
+.testimonials-nav-button:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 4px;
+}
+
+.faq-item-header:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: -3px;
+  border-radius: 16px;
+}
+
+.get-in-touch-button:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 3px;
+}
+
+.odyssey-demo-button:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 3px;
+}
+
+.hero-section {
+  width: 100%;
+  padding: 22px 16px;
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+  padding-bottom: 12px;
+}
+
+.hero-frame {
+  width: 100%;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #5b58581a, 4px 4px 4px #c6c6c9;
+  border-radius: 24px;
+  box-sizing: border-box;
+  max-width: 1160px;
+  padding: 22px;
+  min-width: 0;
+}
+
+.hero-image-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1208 / 628;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 420px;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  z-index: 0;
+}
+
+.hero-slide-active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.hero-slide-image {
+  object-fit: cover;
+  object-position: 50% 17%;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.hero-slide:nth-child(2) .hero-slide-image {
+  object-position: 50% 56%;
+}
+
+.hero-slide:nth-child(8) .hero-slide-image {
+  object-position: 50% 10%;
+}
+
+/* Preserve the top of both photos and retain the rightward shift. */
+.hero-slide:nth-child(1) .hero-slide-image {
+  object-position: 50% 0%;
+  transform: translate(3%, 6px) scale(1.06);
+  transform-origin: center top;
+}
+
+.hero-slide:nth-child(7) .hero-slide-image {
+  object-position: 50% 0%;
+  transform: translate(3%, 12px) scale(1.06);
+  transform-origin: center top;
+}
+
+.hero-slide:nth-child(4) .hero-slide-image {
+  /* Preserve the top of the photo so the rear learner's head stays visible. */
+  object-position: 50% 0%;
+}
+
+.hero-slide:nth-child(5) .hero-slide-image {
+  object-position: 50% 46%;
+}
+
+.hero-slide-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0;
+  max-width: 100%;
+}
+
+.hero-video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 50%;
+  background: #dfe6e9;
+  color: #2d4cc8;
+  box-shadow: 2px 2px 4px #c4c4c4, -2px -2px 4px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.hero-video-play-icon { width: 24px; height: 24px; }
+
+.hero-caption-stage {
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  justify-items: center;
+  gap: 16px;
+  height: auto;
+  min-height: 95px;
+  padding-top: 24px;
+}
+
+.hero-caption {
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  pointer-events: none;
+  top: 24px;
+  transform: none;
+  position: relative;
+  inset: auto;
+  grid-area: 1 / 1;
+  width: 100%;
+  padding-top: 0;
+}
+
+.hero-caption-active {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+.hero-heading {
+  padding: 0 24px;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #31344b;
+  text-align: center;
+  width: 100%;
+  text-shadow: none;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0;
+  white-space: normal;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+/* Explicit caption breaks are used only on mobile. */
+.hero-mobile-break {
+  display: none;
+}
+
+.hero-dots {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 1.5vw, 24px);
+  top: 80px;
+  left: 50%;
+  margin: 0;
+  position: relative;
+  inset: auto;
+  transform: none;
+  grid-area: 2 / 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: auto;
+  min-height: 15px;
+}
+
+.hero-dot {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.3s ease;
+}
+
+.hero-dot::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #cecdcd;
+  transition: width 0.3s ease, background 0.3s ease, border-radius 0.3s ease;
+}
+
+.hero-dot-active {
+  width: 48px;
+}
+
+.hero-dot-active::after {
+  width: 50px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #162562 12.5%, #2d4cc8 66.35%);
+}
+
+.hero-nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px rgba(198, 198, 201, 0.25), -4px -4px 4px rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.hero-nav-button-prev {
+  left: 32px;
+}
+
+.hero-nav-button-next {
+  right: 32px;
+}
+
+.hero-nav-icon {
+  width: 24px;
+  height: 24px;
+  color: #31344b;
+}
+
+.odyssey-section {
+  width: 100%;
+  max-width: 1285px;
+  margin: 0 auto;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-block: 32px;
+  padding-inline: 16px;
+  margin-block: 0;
+  margin-inline: auto;
+}
+
+.odyssey-heading-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  max-width: 1152px;
+  min-width: 0;
+}
+
+.odyssey-heading {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+
+.odyssey-heading-accent {
+  color: #2d4cc8;
+}
+
+.odyssey-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  margin: 0px 81px;
+}
+
+.odyssey-demo-button {
+  padding: 16px 32px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #2d4cc8;
+  margin-bottom: 48px;
+  transition: box-shadow 0.2s ease;
+}
+
+.odyssey-demo-button:hover,
+.odyssey-demo-button:active {
+  box-shadow:
+    inset -4px -4px 4px #ffffff,
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+}
+
+.odyssey-grid {
+  width: 100%;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.odyssey-card {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 28px;
+  padding: 16px 16.53px 15.71px 16.24px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  min-width: 0;
+  height: auto;
+}
+
+.odyssey-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #dfe6e9;
+  border-style: solid;
+  border-width: 6px 0 3px 0;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px 12px;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+  min-width: 0;
+  min-height: 0;
+}
+
+.odyssey-card-bar {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  max-width: 182px;
+  height: 15px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px 32px 0 0;
+}
+
+.odyssey-card-icon-ring {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.odyssey-card-icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px #c6c6c9, -4px -4px 4px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+}
+
+.odyssey-card-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.odyssey-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.odyssey-card-title {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.odyssey-card-description {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2f3547;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.odyssey-extra-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.45s ease;
+}
+
+.odyssey-extra-open {
+  grid-template-rows: 1fr;
+}
+
+.odyssey-extra-inner {
+  overflow: hidden;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.odyssey-extra-open .odyssey-extra-inner {
+  padding-top: 24px;
+}
+
+.odyssey-toggle-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.odyssey-toggle-pill {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 56px 0 24px;
+  background: #dfe6e9;
+  border-left: 8px solid #2d4cc8;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #ffffff;
+  border-radius: 32px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.odyssey-toggle-label {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #2f3547;
+  white-space: normal;
+}
+
+.odyssey-toggle-badge {
+  width: 64px;
+  height: 88px;
+  margin-left: -52px;
+  border-radius: 32px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.odyssey-toggle-badge-inner {
+  width: 48px;
+  height: 64px;
+  border-radius: 22px;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.odyssey-toggle-icon {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.3s ease;
+}
+
+.odyssey-toggle-icon-flipped {
+  transform: rotate(180deg);
+}
+
+.platform-overview-section {
+  width: 100%;
+  padding: 32px 16px;
+  display: flex;
+  justify-content: center;
+  scroll-margin-top: 96px;
+  margin-top: 24px;
+  padding-block: 32px;
+  padding-inline: 16px;
+  margin-block: 0;
+}
+
+.platform-overview-inner {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+  justify-self: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.platform-overview-media {
+  flex-shrink: 0;
+  width: 500px;
+  max-width: 100%;
+}
+
+.platform-overview-media-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -4px 4px rgba(97, 95, 95, 0.5);
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+}
+
+.platform-overview-image {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.platform-overview-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.platform-overview-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background: rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.platform-overview-play-icon {
+  width: 44px;
+  height: 44px;
+  color: #ffffff;
+}
+
+.platform-overview-content {
+  flex: 1;
+  width: 100%;
+  max-width: 680px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  justify-self: start;
+  align-self: center;
+  gap: 0;
+  min-width: 0;
+}
+
+.platform-overview-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 56px;
+  padding: 12px 36px;
+  border-radius: 999px;
+  font-size: 24px;
+  line-height: 1.3;
+  white-space: nowrap;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  align-self: flex-start;
+  margin: 0 0 24px;
+}
+
+.platform-overview-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  padding: 0;
+  text-align: left;
+  align-self: flex-start;
+  font-size: 36px;
+  line-height: 1.28;
+  white-space: normal;
+  margin: 0 0 16px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.platform-overview-heading span {
+  color: #31344b !important;
+}
+
+.platform-hex-grid {
+  width: 100%;
+  max-width: 650px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  column-gap: 44px;
+  row-gap: 12px;
+  justify-content: start;
+  align-items: start;
+  margin-top: 0;
+  grid-template-columns: repeat(2, minmax(0, 285px));
+}
+
+.platform-hex-card {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  max-width: 285px;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 285 / 168;
+}
+
+.platform-hex-icon-ring {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.platform-hex-icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: inset 4px 4px 4px #c4c4c4, inset -4px -4px 4px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.platform-hex-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.platform-hex-back {
+  position: absolute;
+  left: 0;
+  overflow: visible;
+  z-index: 1;
+  top: 19.047619%;
+  width: 100%;
+  height: 69.047619%;
+}
+
+.platform-hex-front {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #dfe6e9;
+  filter: drop-shadow(-4px -4px 4px #ffffff) drop-shadow(4px 4px 4px #c4c4c4);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 35.714286%;
+  width: 98.947368%;
+  height: 59.52381%;
+}
+
+.platform-hex-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.platform-hex-front-shape {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: visible;
+  z-index: 2;
+  top: 35.714286%;
+  width: 98.947368%;
+  height: 59.52381%;
+}
+
+.platform-hex-front-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 35.714286%;
+  width: 98.947368%;
+  height: 59.52381%;
+}
+
+.platform-hex-back-outline {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  overflow: visible;
+  pointer-events: none;
+  top: 19.047619%;
+  width: 100%;
+  height: 69.047619%;
+}
+
+.platform-hex-front-outline {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  overflow: visible;
+  pointer-events: none;
+  top: 35.714286%;
+  width: 98.947368%;
+  height: 59.52381%;
+}
+
+.platform-hex-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  padding: 0 12px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 235px;
+  min-width: 0;
+}
+
+.platform-hex-label {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.platform-hex-description {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: #31344b;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.platform-purpose-section {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 46px;
+  margin-top: 24px;
+  padding-block: 32px;
+  padding-inline: 16px;
+  margin-block: 0;
+  margin-inline: auto;
+}
+
+.platform-purpose-heading {
+  margin: 0;
+  width: 100%;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #000000;
+  text-shadow: none;
+}
+
+.platform-purpose-pillars {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  min-width: 0;
+}
+
+.platform-purpose-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.platform-purpose-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.purpose-pill {
+  width: 400px;
+  max-width: 100%;
+  min-height: 114px;
+  background: #dfe6e9;
+  border-style: solid;
+  border-width: 0 4px;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.3s ease, border-width 0.3s ease, box-shadow 0.3s ease;
+  min-width: 0;
+}
+
+.purpose-pill-line {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: clamp(16px, 1.6vw, 24px);
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.purpose-pill-highlight {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: clamp(16px, 1.6vw, 24px);
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.meet-neurolxp-section {
+  width: 100%;
+  background-color: #dfe6e9;
+  padding: 32px 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  padding-block: 32px;
+  padding-inline: 16px;
+  margin-block: 0;
+}
+
+.meet-neurolxp-frame {
+  background: #dfe6e9 !important;
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+  border-radius: 32px;
+  padding: 32px;
+  box-sizing: border-box;
+  height: auto;
+  aspect-ratio: 1280 / 800;
+}
+
+.meet-neurolxp-frame::before {
+  background: transparent !important;
+  content: "";
+  position: absolute;
+  inset: 32px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px rgba(255, 255, 255, 0.6) !important;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.meet-neurolxp-image {
+  border-radius: 16px;
+  object-fit: cover;
+  object-position: 50% 0%;
+  max-width: 100%;
+}
+
+.why-choose-badge sup {
+  font-weight: 400;
+}
+
+.meet-neurolxp-overlay {
+  background: #dfe6e9 !important;
+  position: absolute;
+  inset: 32px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #ffffff !important;
+  z-index: 1;
+}
+
+.meet-neurolxp-text {
+  background: transparent !important;
+  position: absolute;
+  width: 574px;
+  max-width: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 3;
+  margin-top: 32px;
+  margin-left: 50px;
+  gap: 0;
+}
+
+.meet-neurolxp-badge {
+  background: #dfe6e9 !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 56px;
+  padding: 12px 36px;
+  border-radius: 999px;
+  font-size: 24px;
+  line-height: 1.3;
+  white-space: nowrap;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  margin: 0 0 24px;
+  align-self: flex-start;
+}
+
+.meet-neurolxp-badge sup {
+  font-weight: 400;
+}
+
+.meet-neurolxp-heading {
+  background: transparent !important;
+  max-width: 583px;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: clamp(24px, 2.8vw, 36px);
+  line-height: 1.22;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  text-shadow: none;
+  margin: 0 0 16px;
+}
+
+.meet-neurolxp-subtext {
+  background: transparent !important;
+  max-width: 315px;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: clamp(16px, 1.6vw, 24px);
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  text-shadow: none;
+  margin: 0;
+}
+
+.why-choose-section {
+  position: relative;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  overflow: hidden;
+  padding-block: 32px;
+  padding-inline: 16px;
+  margin-block: 0;
+}
+
+.why-choose-blob {
+  position: absolute;
+  max-width: none;
+  max-height: none;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  z-index: 0;
+  height: 380px;
+  /* Centre behind the body, allowing for the badge and its following gap. */
+  top: calc(50% + 20px);
+  transform: translateY(-50%);
+  border-radius: 0 260px 260px 0;
+  left: calc(50% - 908px);
+  /* Shorter desktop shape removes the unused space after the text. */
+  width: 650px;
+}
+
+.why-choose-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  min-width: 0;
+}
+
+.why-choose-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 56px;
+  padding: 12px 36px;
+  border-radius: 999px;
+  font-size: 24px;
+  line-height: 1.3;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+}
+
+.why-choose-body {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.why-choose-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  flex: 0 1 400px;
+  max-width: 400px;
+  gap: 20px;
+  align-items: flex-start;
+  /* Pull the complete text design closer to the left page border. */
+  transform: translateX(-78px);
+  align-self: center;
+  min-width: 0;
+}
+
+.why-choose-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  font-size: 36px;
+  line-height: 1.2;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.why-choose-heading-accent {
+  color: #2d4cc8;
+}
+
+.why-choose-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  width: 360px;
+  margin: 0;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.4;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.why-choose-subtext-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.platform-overview-heading sup {
+  font-weight: 400;
+}
+
+.why-choose-grid {
+  flex: 0 1 626px;
+  max-width: 660px;
+  display: grid;
+  gap: 48px;
+  justify-items: center;
+  min-width: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* Every row uses the tallest card, including the single-column layout. */
+  grid-auto-rows: 1fr;
+  align-items: stretch;
+}
+
+.why-choose-card {
+  width: 100%;
+  max-width: 301px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.why-choose-icon-ring {
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1;
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  margin-bottom: -32px;
+  flex-shrink: 0;
+}
+
+.why-choose-icon-circle {
+  width: 60px;
+  height: 60px;
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  border-radius: 50%;
+  box-shadow: 3px 3px 4px rgba(198, 198, 201, 0.55), -3px -3px 4px rgba(255, 255, 255, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-choose-icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #31344b;
+}
+
+.why-choose-oval {
+  position: relative;
+  z-index: 1;
+  width: 107%;
+  /* Keep the oval size; widen its text area for both Segoe UI and Inter. */
+  padding: 44px 20px 32px;
+  border-radius: 50%;
+  background: #dfe6e9;
+  border: 1px solid var(--dash-color);
+  box-shadow: -4px -4px 4px rgba(255, 255, 255, 0.8), 4px 4px 4px #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  height: auto;
+  /* Fill the shared row height without fixing or clipping the text height. */
+  flex: 1 0 auto;
+}
+
+.why-choose-card-title {
+  margin: 0;
+  width: 100%;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.why-choose-card-description {
+  margin: 0;
+  width: 100%;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.57;
+  letter-spacing: 0.01em;
+  color: #000000;
+  text-align: center;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  /* Reserve two lines using the current font size and responsive line-height. */
+  min-height: 2lh;
+  /* Preserve the intentional two-line descriptions supplied by the component. */
+  white-space: pre-line;
+}
+
+.why-choose-card-content {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 46%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+  z-index: 2;
+}
+
+.learning-modules-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 8px;
+  padding: 12px 16px 10px;
+  gap: 0;
+  padding-bottom: 12px;
+  padding-block: 32px;
+  padding-inline: 16px;
+  margin-block: 0;
+}
+
+.learning-modules-heading-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1170px;
+  gap: 0;
+  min-width: 0;
+}
+
+.smv-badge sup {
+  font-weight: 400;
+}
+
+.learning-modules-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 56px;
+  padding: 12px 36px;
+  border-radius: 999px;
+  font-size: 24px;
+  line-height: 1.3;
+  white-space: nowrap;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+  margin: 0 0 16px;
+}
+
+.learning-modules-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  margin: 0 0 24px;
+}
+
+.learning-modules-heading-accent sup {
+  font-weight: 400;
+}
+
+.learning-modules-heading-accent {
+  color: #2d4cc8;
+}
+
+.learning-modules-subtext {
+  max-width: 890px;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  margin: 0 0 16px;
+}
+
+.learning-modules-viewport {
+  width: 100%;
+  max-width: 1280px;
+  overflow: hidden;
+  display: flex;
+  height: auto;
+  min-height: 365px;
+  align-items: center;
+}
+
+.learning-modules-track {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  width: max-content;
+  transition: transform 0.5s ease;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.learning-module-card {
+  position: relative;
+  flex-shrink: 0;
+  width: 352px;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #ffffff;
+  border-radius: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.5s ease, height 0.5s ease;
+  padding: 18px 20px 14px;
+  gap: 8px;
+  height: auto;
+  min-height: 285px;
+}
+
+.learning-module-card-featured {
+  width: 500px;
+  padding: 18px 22px 14px;
+  gap: 8px;
+  position: relative;
+  z-index: 10;
+  box-shadow: 4px 4px 8px rgba(196, 196, 196, 0.95), -4px -4px 8px rgba(255, 255, 255, 0.95);
+  height: auto;
+  min-height: 345px;
+}
+
+.learning-module-image-frame {
+  position: relative;
+  width: 100%;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  flex-shrink: 0;
+  transition: height 0.5s ease;
+  height: 135px;
+}
+
+.learning-module-card-featured .learning-module-image-frame {
+  height: 205px;
+}
+
+.learning-module-image {
+  object-fit: cover;
+  object-position: 50% 0%;
+  max-width: 100%;
+}
+
+.learning-module-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.learning-module-title {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  margin: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.learning-module-description-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  transition: height 0.5s ease;
+  min-height: 0;
+  overflow: visible;
+  flex-shrink: 0;
+  height: auto;
+}
+
+.learning-module-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #2f3547;
+  margin: 0;
+  line-height: 1.35;
+  max-width: 100%;
+}
+
+.learning-module-card-featured .learning-module-description-wrapper {
+  min-height: 0;
+  overflow: visible;
+  flex-shrink: 0;
+  height: auto;
+}
+
+.learning-module-description-expanded {
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  max-width: 100%;
+}
+
+.learning-modules-nav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 100px;
+  padding: 4px;
+  margin-top: 16px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.learning-modules-nav-button {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px #c6c6c9, -4px -4px 4px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learning-modules-nav-icon {
+  width: 30px;
+  height: 30px;
+  color: #31344b;
+}
+
+.testimonials-section {
+  width: 100%;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  overflow: hidden;
+  margin-top: 24px;
+  padding-block: 32px;
+  padding-inline: 16px;
+  margin-block: 0;
+}
+
+.testimonials-heading-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  max-width: 882px;
+  min-width: 0;
+}
+
+.testimonials-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 56px;
+  padding: 12px 36px;
+  border-radius: 999px;
+  font-size: 24px;
+  line-height: 1.3;
+  white-space: nowrap;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+}
+
+.testimonials-heading {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: #31344b;
+}
+
+.testimonials-heading-accent {
+  color: #2d4cc8;
+}
+
+.testimonials-subtext {
+  margin: 0;
+  max-width: 704px;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.43;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+}
+
+.testimonials-viewport {
+  width: 100%;
+  max-width: 1440px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: auto;
+  min-height: 300px;
+  padding-block: 12px;
+}
+
+.testimonials-track {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: max-content;
+  transition: transform 0.5s ease;
+}
+
+.testimonial-card-wrapper {
+  position: relative;
+  flex-shrink: 0;
+  width: 513px;
+  height: auto;
+  min-height: 250px;
+}
+
+.testimonial-photo-frame {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 154px;
+  height: 218px;
+  padding: 6px;
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.8), inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.testimonial-photo-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.testimonial-photo {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.testimonial-card-wrapper[data-testimonial-id="4"] .testimonial-photo {
+  transform: scale(1.4);
+}
+
+.testimonial-card-wrapper[data-testimonial-id="3"] .testimonial-photo {
+  object-position: 50% 28% !important;
+}
+
+.testimonial-card {
+  right: 0;
+  top: 0;
+  width: 458px;
+  background: #dfe6e9;
+  border-right-style: solid;
+  border-right-width: 6px;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #ffffff;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 24px 32px 24px 140px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  height: auto;
+  min-height: 250px;
+  margin-left: auto;
+}
+
+.testimonial-rating-badge {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 28px;
+}
+
+.testimonial-rating-number {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.testimonial-rating-star {
+  width: 16px;
+  height: 16px;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  min-width: 0;
+}
+
+.testimonial-person {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.testimonial-name {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.testimonial-role {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.57;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.testimonial-underline {
+  width: 182px;
+  height: 10px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  max-width: 100%;
+}
+
+.testimonial-quote {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2f3547;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.testimonials-nav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 100px;
+  padding: 4px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.testimonials-nav-button {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px #c6c6c9, -4px -4px 4px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials-nav-icon {
+  width: 30px;
+  height: 30px;
+  color: #31344b;
+}
+
+.faq-section {
+  width: 100%;
+  padding: 32px 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  padding-block: 32px;
+  padding-inline: 16px;
+  margin-block: 0;
+}
+
+.faq-card {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  min-height: 562px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 24px;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.faq-background-image {
+  position: absolute;
+  inset: -10%;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.faq-background-photo {
+  object-fit: cover;
+}
+
+.faq-content {
+  position: relative;
+  z-index: 1;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 432px) minmax(0, 1fr);
+}
+
+.faq-left {
+  flex: 0 0 432px;
+  max-width: 432px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  position: sticky;
+  top: 60px;
+  min-width: 0;
+}
+
+.faq-heading {
+  margin: 0;
+  width: 100%;
+  font-family: "Segoe UI", "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  text-shadow: none;
+}
+
+.faq-heading-accent {
+  color: #2d4cc8;
+  font-family: "Segoe UI", "Inter";
+  font-style: normal;
+}
+
+.faq-illustration {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 432 / 274;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.faq-illustration-image {
+  object-fit: contain;
+  transform: scale(1.35);
+  transform-origin: center;
+}
+
+.faq-right {
+  flex: 1 1 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+.faq-item {
+  width: 100%;
+}
+
+.faq-item-heading {
+  margin: 0;
+}
+
+.faq-item-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 20px 14px 0px;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #ffffff;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.faq-item-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.faq-item-triangle {
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-left: 13px solid;
+  flex-shrink: 0;
+}
+
+.faq-item-number {
+  font-family: "Segoe UI", "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  flex-shrink: 0;
+}
+
+.faq-item-divider {
+  width: 4px;
+  height: 50px;
+  border-radius: 32px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+
+.faq-item-title {
+  font-family: "Segoe UI", "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #000000;
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.faq-mobile-break {
+  display: none;
+}
+
+.faq-item-toggle {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-item-toggle-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.faq-item-answer-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s ease;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 0 0 16px 16px;
+}
+
+.faq-item-answer-open {
+  grid-template-rows: 1fr;
+  margin-top: -14px;
+}
+
+.faq-item-answer-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.faq-item-answer {
+  margin: 0;
+  padding: 24px;
+  font-family: "Segoe UI", "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  overflow-wrap: break-word;
+}
+
+.get-in-touch-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+  margin-bottom: -32px;
+}
+
+.get-in-touch-blob {
+  position: absolute;
+  width: 598px;
+  height: 1028px;
+  top: -81px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 1000px;
+  transform: rotate(-71.27deg);
+  z-index: 0;
+  left: -134px;
+  display: none;
+}
+
+.get-in-touch-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 72px;
+  flex-wrap: nowrap;
+  min-width: 0;
+  margin-inline: auto;
+}
+
+.get-in-touch-text {
+  flex: 0 1 500px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  transform: translate(24px, -18px);
+  min-width: 0;
+}
+
+.get-in-touch-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 56px;
+  padding: 12px 36px;
+  border-radius: 999px;
+  font-size: 24px;
+  line-height: 1.3;
+  white-space: nowrap;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+}
+
+.get-in-touch-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.get-in-touch-heading {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  max-width: 100%;
+}
+
+.get-in-touch-heading-accent {
+  color: #2d4cc8;
+}
+
+.get-in-touch-subtext {
+  margin: 0;
+  width: 440px;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.29;
+  letter-spacing: 0.03em;
+  color: #2f3547;
+  white-space: normal;
+  max-width: 100%;
+}
+
+.get-in-touch-subtext::before {
+  content: none;
+  display: none;
+}
+
+.get-in-touch-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 32px;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  max-width: 100%;
+  margin-top: 12px;
+}
+
+.get-in-touch-button-label {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #2d4cc8;
+}
+
+.get-in-touch-button-icon {
+  width: 24px;
+  height: 24px;
+  color: #2d4cc8;
+}
+
+.get-in-touch-media {
+  position: relative;
+  flex: 0 0 520px;
+  width: 520px;
+  max-width: 520px;
+  aspect-ratio: 677 / 906;
+}
+
+.get-in-touch-frame {
+  display: none; /* Remove the decorative pink background frame. */
+  position: absolute;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 0.86 / 1;
+  left: -10%;
+  top: 15%;
+  background: #dfe6e9;
+  border: 8px solid #bf1869;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 16px;
+  box-sizing: border-box;
+  z-index: 0;
+  transform: rotate(-34deg);
+}
+
+.get-in-touch-photo-wrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  left: -8%;
+  transform: scale(0.95);
+  transform-origin: center bottom;
+}
+
+.get-in-touch-photo-wrapper img {
+  width: 100%;
+}
+
+.get-in-touch-photo {
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%;
+}
+
+.smv-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-margin-top: 96px;
+  padding-top: 18px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px 16px 14px;
+  gap: 0;
+  box-sizing: border-box;
+  padding-bottom: 24px;
+  padding-block: 32px;
+  padding-inline: 16px;
+  margin-block: 0;
+  margin-inline: auto;
+}
+
+.smv-heading-block {
+  width: 100%;
+  max-width: 1171px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  text-align: center;
+  min-width: 0;
+}
+
+.smv-badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  min-height: 56px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-radius: 999px;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #2d4cc8;
+  margin: 0 0 24px;
+  padding: 12px 36px;
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.smv-badge sup {
+  font-size: 0.6em;
+  line-height: 0;
+  vertical-align: super;
+}
+
+.smv-badge-tm {
+  display: inline-block;
+  font-size: 0.45em;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: super;
+  margin-left: 2px;
+  letter-spacing: 0;
+}
+
+.smv-heading {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #31344b;
+  margin: 0 0 16px;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.smv-subtext {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin: 0 0 24px;
+  max-width: 1049px;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.smv-cards {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-top: 22px;
+}
+
+.smv-card {
+  position: relative;
+  flex: 1 1 0;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px #c4c4c4;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  padding-top: 68px;
+  padding-bottom: 20px;
+  min-height: 0;
+  max-width: 400px;
+  padding: 68px 22px 16px;
+  gap: 8px;
+  border-radius: 46px 0 46px 46px;
+  min-width: 0;
+  height: auto;
+}
+
+.smv-card-icon-ring {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100px;
+  background: #dfe6e9;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  width: 74px;
+  height: 74px;
+  top: -22px;
+}
+
+.smv-card-icon-circle {
+  border-radius: 50%;
+  background: #dfe6e9;
+  border: 1px solid;
+  box-shadow: 4px 4px 4px #c6c6c9, -4px -4px 4px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 54px;
+  height: 54px;
+}
+
+.smv-card-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.smv-card-underline {
+  position: relative;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  width: 175px;
+  height: 8px;
+  max-width: 80%;
+  flex-shrink: 0;
+}
+
+.smv-card-underline-dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  top: -3px;
+}
+
+.smv-card-title {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-shadow: none;
+  font-size: 26px;
+  line-height: 1.15;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.smv-card-description {
+  margin: 0;
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.3;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.smv-card-image-frame {
+  position: relative;
+  overflow: hidden;
+  border: 12px solid #dfe6e9;
+  box-sizing: border-box;
+  box-shadow: -4px -4px 6px #ffffff, 5px 5px 8px rgba(196, 196, 196, 0.9);
+  width: 100%;
+  max-width: 340px;
+  height: 180px;
+  aspect-ratio: auto;
+  border-width: 10px;
+  border-radius: 20px;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.smv-card-image {
+  transition: transform 0.4s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.smv-stats {
+  width: 100%;
+  background: #dfe6e9;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c4c4c4;
+  border-radius: 100px;
+  padding: 19px;
+  box-sizing: border-box;
+  margin-top: 24px;
+}
+
+.smv-stats-inner {
+  width: 100%;
+  background: #dfe6e9;
+  box-shadow: 4px 4px 4px #ffffff, inset 4px 4px 4px #c4c4c4;
+  border-radius: 100px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.smv-stat {
+  flex: 1 1 260px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-radius: 14px;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  min-height: 86px;
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  min-width: 0;
+}
+
+.smv-stat:first-child {
+  border-radius: 50px 14px 14px 50px;
+}
+
+.smv-stat:last-child {
+  border-radius: 14px 50px 50px 14px;
+}
+
+.smv-stat-icon-ring {
+  flex-shrink: 0;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  border: 2px dashed;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.smv-stat-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.smv-stat-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.smv-stat-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.smv-stat-value {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+  text-shadow: none;
+  overflow-wrap: break-word;
+}
+
+.smv-stat-label {
+  font-family: "Segoe UI", "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: #000000;
+  overflow-wrap: break-word;
+}
+
+:global(.book-demo-button) {
+  position: fixed !important;
+  right: 24px !important;
+  bottom: 24px !important;
+  z-index: 1000 !important;
+}
+
+:global(.bookDemoButton) {
+  position: fixed !important;
+  right: 24px !important;
+  bottom: 24px !important;
+  z-index: 1000 !important;
+}
+
+:global(.floating-book-demo) {
+  position: fixed !important;
+  right: 24px !important;
+  bottom: 24px !important;
+  z-index: 1000 !important;
+}
+
+:global(.floatingBookDemo) {
+  position: fixed !important;
+  right: 24px !important;
+  bottom: 24px !important;
+  z-index: 1000 !important;
+}
+
+.why-choose-title {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 1.22;
+}
+
+.why-choose-description {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 1.45;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.platform-hex-grid > :nth-child(1) {
+  transform: none;
+}
+
+.platform-hex-grid > :nth-child(2) {
+  transform: none;
+}
+
+.platform-hex-grid > :nth-child(3) {
+  transform: none;
+}
+
+.platform-hex-grid > :nth-child(4) {
+  transform: none;
+}
+
+.platform-hex-grid > :nth-child(5) {
+  transform: none;
+}
+
+.platform-hex-grid > :nth-child(6) {
+  transform: none;
+}
+
+:where(.hero-section, .odyssey-section, .smv-section, .platform-overview-section, .platform-purpose-section, .meet-neurolxp-section, .why-choose-section, .learning-modules-section, .testimonials-section, .faq-section, .get-in-touch-section) {
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Inter";
+}
+
+:where(.hero-section, .odyssey-section, .smv-section, .platform-overview-section, .platform-purpose-section, .meet-neurolxp-section, .why-choose-section, .learning-modules-section, .testimonials-section, .faq-section, .get-in-touch-section) * {
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Inter";
+}
+
+.platform-overview-media-frame > iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* =====================================================================
+   Responsive layout
+   1280px and above: the centred desktop design defined above.
+   1024â€“1279px: compact laptops and landscape tablets.
+   768â€“1023px: tablets; large two-column sections stack.
+   600â€“767px: wide phones and small tablets.
+   Below 600px: narrow phones; content determines card height.
+   Rules accumulate from wide to narrow, including fractional widths.
+   No device model, screen height, page zoom or fixed carousel offset.
+   ===================================================================== */
+
+@media (width < 1280px) {
+  .hero-image-stage {
+    height: auto;
+    aspect-ratio: 1116 / 420;
+  }
+  .hero-heading {
+    font-size: clamp(28px, 2.8vw, 36px);
+  }
+  .hero-heading, .odyssey-heading, .platform-overview-heading,
+  .platform-purpose-heading, .why-choose-heading, .learning-modules-heading,
+  .testimonials-heading, .faq-heading, .get-in-touch-heading {
+    text-wrap: balance;
+  }
+  .odyssey-subtext {
+    margin-inline: auto;
+    max-width: 1000px;
+    font-size: clamp(18px, 1.9vw, 24px);
+  }
+  .odyssey-card {
+    aspect-ratio: auto;
+    min-height: 300px;
+    padding: 14px;
+  }
+  .odyssey-card-inner {
+    gap: 16px;
+    padding: 20px 10px 24px;
+  }
+  .odyssey-card-icon-ring { width: 68px; height: 68px; }
+  .odyssey-card-icon-circle { width: 52px; height: 52px; }
+  .odyssey-card-title { font-size: 18px; line-height: 1.35; }
+  .odyssey-card-description { font-size: 15px; line-height: 1.5; }
+
+  .platform-overview-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+    gap: 32px;
+  }
+  .platform-overview-media, .platform-overview-content {
+    width: 100%;
+    min-width: 0;
+  }
+  .platform-overview-tag, .platform-overview-heading {
+    max-width: 100%;
+  }
+  .platform-overview-heading {
+    font-size: clamp(28px, 2.7vw, 34px);
+  }
+  .platform-hex-grid {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 300px));
+    column-gap: 24px;
+    row-gap: 20px;
+  }
+  .platform-hex-card { max-width: 300px; }
+  .platform-hex-label { font-size: 20px; line-height: 1.2; }
+  .platform-hex-description { font-size: 16px; line-height: 1.45; font-weight: 500; }
+  .platform-hex-text { max-width: 252px; gap: 4px; }
+
+  .platform-purpose-bottom { justify-content: center; }
+  .purpose-pill { flex: 0 1 400px; }
+
+  .meet-neurolxp-text {
+    width: 52%;
+    max-width: calc(100% - 96px);
+    margin-left: 32px;
+    margin-top: 24px;
+  }
+  .meet-neurolxp-heading { font-size: clamp(26px, 2.8vw, 36px); }
+
+  .why-choose-body {
+    display: grid;
+    grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
+    align-items: center;
+    gap: 32px;
+  }
+  .why-choose-text {
+    width: 100%;
+    max-width: 430px;
+    padding: 0;
+    transform: none;
+    gap: 24px;
+  }
+  .why-choose-subtext { width: 100%; }
+  .why-choose-grid { width: 100%; gap: 32px 24px; }
+  .why-choose-oval { width: 100%; padding: 44px 20px 26px; }
+  .why-choose-card-title { font-size: 21px; line-height: 1.3; }
+  .why-choose-card-description { font-size: 16px; line-height: 1.5; }
+  .why-choose-blob {
+    left: -120px;
+    width: calc(40% + 80px);
+    top: calc(50% + 40px);
+  }
+
+  .smv-card { padding-inline: 18px; }
+  .smv-card-image-frame {
+    height: clamp(132px, 14vw, 180px);
+  }
+  .smv-stat { flex-basis: 220px; padding-inline: 16px; }
+  .smv-stat-value { font-size: 26px; }
+  .smv-stat-label { font-size: 16px; }
+
+  .faq-content { grid-template-columns: minmax(0, 0.35fr) minmax(0, 0.65fr); }
+  .faq-item-header { gap: 12px; padding-right: 14px; }
+  .faq-item-toggle { width: 48px; height: 48px; }
+
+  .get-in-touch-section { padding-inline: 24px; }
+  .get-in-touch-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 32px;
+  }
+  .get-in-touch-text { width: 100%; transform: none; }
+  .get-in-touch-media {
+    width: calc(100% - 48px);
+    max-width: 440px;
+    margin-inline: auto;
+  }
+  .get-in-touch-frame { transform: rotate(-34deg); }
+}
+
+/* Keep the overview and introduction within a normal desktop viewport. */
+@media (min-width: 1024px) {
+  .platform-overview-section,
+  .meet-neurolxp-section {
+    padding-block: 24px;
+  }
+  .platform-overview-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 500px) minmax(0, 650px);
+    column-gap: clamp(48px, 5vw, 72px);
+    align-items: center;
+    justify-content: center;
+  }
+  .platform-overview-media {
+    width: 100%;
+    max-width: min(500px, calc(100svh - 96px));
+    justify-self: center;
+  }
+  .platform-overview-content {
+    /* Keep the overview cards wide enough for every description to stay inside. */
+    --overview-card-width: clamp(270px, 21vw, 305px);
+    --overview-column-gap: clamp(24px, 2.2vw, 32px);
+    /* Match the left edge of the centred, two-column card grid. */
+    --overview-content-inset: max(0px, calc(50% - var(--overview-card-width) - var(--overview-column-gap) / 2));
+    --overview-icon-size: clamp(36px, 6svh, 46px);
+    width: 100%;
+    max-width: 680px;
+  }
+  .platform-overview-tag {
+    margin-bottom: 16px;
+    margin-inline-start: var(--overview-content-inset);
+  }
+  .platform-overview-heading {
+    width: calc(100% - var(--overview-content-inset));
+    max-width: 100%;
+    margin-bottom: 16px;
+    margin-inline-start: var(--overview-content-inset);
+    line-height: 1.22;
+  }
+  .platform-hex-grid {
+    grid-template-columns: repeat(2, minmax(0, var(--overview-card-width)));
+    column-gap: var(--overview-column-gap);
+    row-gap: clamp(8px, 1.2svh, 12px);
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+  }
+  .platform-hex-card { max-width: var(--overview-card-width); }
+  .platform-hex-icon-ring {
+    width: var(--overview-icon-size);
+    height: var(--overview-icon-size);
+  }
+  .platform-hex-icon-circle {
+    width: calc(var(--overview-icon-size) - 8px);
+    height: calc(var(--overview-icon-size) - 8px);
+  }
+  .platform-hex-icon {
+    width: calc(var(--overview-icon-size) - 18px);
+    height: calc(var(--overview-icon-size) - 18px);
+  }
+  .platform-hex-text {
+    max-width: calc(100% - 32px);
+    gap: 4px;
+  }
+  .platform-hex-description {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+  }
+
+  .meet-neurolxp-frame {
+    aspect-ratio: 1280 / 680;
+    min-height: 460px;
+    max-height: calc(100svh - 64px);
+  }
+  .meet-neurolxp-text {
+    /* Keep the copy in the photograph's clear upper-left area. */
+    top: clamp(48px, 6svh, 64px);
+    left: clamp(48px, 5vw, 64px);
+    width: min(360px, 31%);
+    max-width: calc(100% - 112px);
+    margin: 0;
+  }
+  .meet-neurolxp-heading {
+    width: 100%;
+    max-width: 100%;
+    text-wrap: balance;
+    overflow-wrap: break-word;
+  }
+  .meet-neurolxp-badge {
+    max-width: 100%;
+  }
+  .why-choose-heading {
+    max-width: 340px;
+  }
+  .why-choose-subtext,
+  .why-choose-text .why-choose-description {
+    /* Leave room before the rounded end of the background shape. */
+    max-width: 330px;
+  }
+}
+
+@media (width < 1024px) {
+  .hero-frame { padding: 18px; }
+  .hero-image-stage { aspect-ratio: 16 / 7; }
+  .hero-heading { font-size: clamp(24px, 3.5vw, 32px); line-height: 1.25; }
+  .hero-caption-stage { padding-top: 20px; gap: 16px; min-height: 0; }
+  .hero-nav-button-prev { left: 16px; }
+  .hero-nav-button-next { right: 16px; }
+
+  .odyssey-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .odyssey-card { min-height: 280px; }
+  .odyssey-heading-block { width: 100%; }
+  .odyssey-heading, .platform-purpose-heading, .learning-modules-heading,
+  .testimonials-heading, .faq-heading { font-size: 30px; line-height: 1.25; }
+  .odyssey-subtext, .learning-modules-subtext, .testimonials-subtext {
+    width: 100%;
+    max-width: 42rem;
+    font-size: 20px;
+    line-height: 1.45;
+  }
+  .odyssey-demo-button { margin-bottom: 24px; font-size: 20px; }
+
+  .platform-overview-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .platform-overview-media { max-width: 440px; }
+  .platform-overview-content {
+    flex: none;
+    max-width: 650px;
+    align-items: center;
+  }
+  .platform-overview-tag, .platform-overview-heading {
+    align-self: center;
+    text-align: center;
+  }
+  .platform-overview-heading { font-size: 30px; }
+  .platform-hex-grid { justify-content: center; }
+
+  .meet-neurolxp-frame {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    aspect-ratio: auto;
+    padding: 24px;
+    gap: 24px;
+  }
+  .meet-neurolxp-frame::before { content: none; }
+  .meet-neurolxp-overlay {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 7;
+    overflow: hidden;
+  }
+  .meet-neurolxp-text {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+  }
+  .meet-neurolxp-heading, .meet-neurolxp-subtext { max-width: 36rem; }
+  .meet-neurolxp-subtext { font-size: 20px; line-height: 1.45; }
+
+  .why-choose-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .why-choose-content { align-items: center; }
+  .why-choose-text {
+    flex: none;
+    max-width: 36rem;
+    align-items: center;
+    text-align: center;
+  }
+  .why-choose-heading, .why-choose-subtext, .why-choose-description {
+    text-align: center;
+    margin-inline: auto;
+  }
+  .why-choose-heading { font-size: 30px; }
+  .why-choose-grid {
+    flex: none;
+    max-width: 660px;
+    gap: 32px;
+  }
+  .why-choose-blob { display: none; }
+
+  .smv-heading { font-size: 30px; line-height: 38px; }
+  .smv-subtext { font-size: 20px; line-height: 1.45; }
+  .smv-cards { flex-wrap: wrap; gap: 48px 24px; }
+  .smv-card { flex: 0 1 calc((100% - 24px) / 2); }
+  .smv-card-image-frame { height: 180px; }
+  .smv-stats, .smv-stats-inner { border-radius: 32px; }
+  .smv-stats-inner {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .smv-stat, .smv-stat:first-child, .smv-stat:last-child {
+    border-radius: 14px;
+  }
+
+  .learning-module-card { width: 300px; }
+  .learning-module-card-featured { width: 400px; }
+  .learning-module-title { font-size: 22px; }
+  .learning-module-description { font-size: 16px; line-height: 1.45; }
+  .learning-modules-track { gap: 24px; }
+
+  .faq-card { min-height: 0; }
+  .faq-content { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .faq-left {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    gap: 24px;
+  }
+  .faq-illustration { width: min(100%, 360px); }
+  .faq-right { width: 100%; }
+
+  .get-in-touch-frame {
+    width: 94%;
+    height: 88%;
+    aspect-ratio: auto;
+    left: -3%;
+    top: 8%;
+    transform: rotate(-12deg);
+  }
+  .get-in-touch-heading { font-size: 30px; }
+  .get-in-touch-badge { font-size: 20px; }
+  .get-in-touch-copy { gap: 24px; }
+  .get-in-touch-subtext { font-size: 20px; line-height: 1.45; }
+  .get-in-touch-button { padding: 14px 24px; }
+  .get-in-touch-button-label { font-size: 20px; }
+}
+
+
+/* Desktop only: slightly reduce the final Get in Touch section.
+   Mobile/tablet styles below are unchanged. */
+@media (min-width: 1024px) {
+  .get-in-touch-section {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .get-in-touch-content {
+    gap: 20px;
+  }
+
+  .get-in-touch-copy {
+    gap: 14px;
+  }
+
+  .get-in-touch-media {
+    max-width: 430px;
+  }
+}
+
+
+@media (width < 768px) {
+  .hero-section { padding: 16px; }
+  .hero-frame {
+    --hero-caption-size: clamp(17px, 5.6vw, 20px);
+    padding: 12px 4px 8px;
+    border-radius: 18px;
+  }
+  .hero-image-stage {
+    height: auto;
+    aspect-ratio: 16 / 10;
+  }
+  .hero-heading {
+    width: 100%;
+    max-width: 32rem;
+    margin-inline: auto;
+    padding-inline: 8px;
+    font-size: var(--hero-caption-size);
+    line-height: 1.25;
+    max-height: none;
+    display: block;
+    -webkit-line-clamp: none;
+    line-clamp: none;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+  }
+  /* Reserve the tallest full caption so dots stay below it as slides change. */
+  .hero-caption-stage {
+    min-height: 0;
+    padding: 12px 0 0;
+    gap: 8px;
+  }
+  .hero-caption {
+    top: 0;
+    height: auto;
+    min-height: calc(var(--hero-caption-size) * 2.5);
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+  }
+  .hero-dots {
+    top: 0;
+    margin: 0;
+    gap: clamp(2px, 1vw, 7px);
+    min-height: 24px;
+  }
+  /* Every hero slide uses an explicit two-line caption on mobile. */
+  .hero-heading .hero-mobile-break {
+    display: inline;
+  }
+  .hero-dot { width: 24px; height: 24px; min-width: 24px; }
+  .hero-dot::after { width: 8px; height: 8px; }
+  .hero-dot-active { width: 32px; }
+  .hero-dot-active::after { width: 20px; }
+  /* Hero arrows are hidden on mobile; swipe navigation remains available. */
+  .hero-nav-button {
+    display: none;
+  }
+
+  .odyssey-section, .smv-section, .platform-overview-section,
+  .platform-purpose-section, .meet-neurolxp-section, .why-choose-section,
+  .learning-modules-section, .testimonials-section, .faq-section {
+    padding-block: 24px;
+    padding-inline: 16px;
+  }
+  .odyssey-heading, .smv-heading, .platform-overview-heading,
+  .platform-purpose-heading, .meet-neurolxp-heading, .why-choose-heading,
+  .learning-modules-heading, .testimonials-heading, .faq-heading,
+  .get-in-touch-heading {
+    width: 100%;
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 1.3;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+  .smv-section .smv-heading {
+    font-size: clamp(20px, 6vw, 24px);
+    line-height: calc(clamp(20px, 6vw, 24px) + 8px);
+    font-weight: 700;
+  }
+  .smv-heading-lead,
+  .smv-heading-vision {
+    display: block;
+    white-space: nowrap;
+  }
+  .odyssey-subtext, .smv-subtext, .meet-neurolxp-subtext,
+  .why-choose-subtext, .learning-modules-subtext, .testimonials-subtext {
+    width: 100%;
+    max-width: 36rem;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+
+  /* Keep this paragraph at the normal mobile paragraph size (16px), but
+     allow it to use the phone's inner padding so the requested copy stays
+     on exactly three lines instead of wrapping the first line again. */
+  .why-choose-text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .why-choose-subtext {
+    width: calc(100vw - 16px);
+    max-width: calc(100vw - 16px);
+    margin-inline: auto;
+    letter-spacing: 0.01em;
+  }
+
+  .why-choose-subtext-line {
+    display: block;
+    white-space: nowrap;
+  }
+  .smv-badge, .platform-overview-tag, .meet-neurolxp-badge,
+  .why-choose-badge, .learning-modules-badge, .testimonials-badge,
+  .get-in-touch-badge {
+    align-self: center;
+    width: fit-content;
+    max-width: 100%;
+    min-height: 48px;
+    padding: 10px 26px;
+    border-radius: 999px;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .odyssey-heading-block { gap: 16px; }
+  .odyssey-heading { font-size: clamp(22px, 6vw, 24px); }
+  .odyssey-heading-accent {
+    display: inline-block;
+    color: #2d4cc8;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .odyssey-demo-button { margin-bottom: 8px; padding: 14px 24px; font-size: 18px; }
+  .odyssey-grid, .odyssey-extra-inner { gap: 24px; }
+  .odyssey-card-inner { gap: 16px; }
+  .odyssey-toggle-pill { height: auto; min-height: 52px; padding: 12px 56px 12px 20px; }
+  .odyssey-toggle-label { font-size: 16px; }
+  .odyssey-toggle-badge { width: 56px; height: 72px; }
+  .odyssey-toggle-badge-inner { width: 42px; height: 54px; }
+  .odyssey-toggle-icon { width: 38px; height: 38px; }
+
+  .platform-overview-inner { gap: 24px; }
+  .platform-overview-media { width: 100%; max-width: 440px; }
+  .platform-overview-content { max-width: 640px; }
+  .platform-overview-tag { margin-bottom: 16px; }
+  .platform-overview-heading { margin-bottom: 24px; }
+  .platform-overview-play-button { width: 64px; height: 64px; }
+  .platform-overview-play-icon { width: 30px; height: 30px; }
+  .platform-hex-grid {
+    grid-template-columns: repeat(2, minmax(0, 280px));
+    justify-content: center;
+    justify-items: center;
+    gap: 24px;
+  }
+  .platform-hex-card { max-width: 280px; aspect-ratio: 280 / 170; }
+  .platform-hex-text { max-width: 235px; }
+  .platform-hex-description { font-size: 16px; line-height: 1.45; font-weight: 500; }
+
+  .platform-purpose-section { gap: 24px; }
+  .platform-purpose-pillars { gap: 24px; }
+  .platform-purpose-bottom { gap: 24px; }
+  .purpose-pill { width: 100%; max-width: 360px; min-height: 96px; }
+  .purpose-pill-line, .purpose-pill-highlight { font-size: 18px; }
+
+  .meet-neurolxp-frame { padding: 16px; border-radius: 24px; }
+  .meet-neurolxp-overlay { aspect-ratio: 4 / 3; }
+  .meet-neurolxp-badge { margin-bottom: 16px; }
+  .meet-neurolxp-heading { margin-bottom: 16px; }
+
+  .why-choose-content { gap: 24px; }
+  .why-choose-text { gap: 16px; }
+  .why-choose-body { gap: 32px; }
+  .why-choose-grid {
+    grid-template-columns: repeat(2, minmax(0, 280px));
+    justify-content: center;
+    gap: 32px 24px;
+  }
+  .why-choose-card { width: 100%; max-width: 280px; }
+  .why-choose-icon-ring { width: 64px; height: 64px; margin-bottom: -30px; }
+  .why-choose-icon-circle { width: 48px; height: 48px; }
+  .why-choose-icon { width: 28px; height: 28px; }
+  .why-choose-card-title { font-size: 20px; line-height: 1.3; }
+  .why-choose-card-description { font-size: 14px; line-height: 1.45; }
+
+  .smv-cards { flex-direction: column; align-items: center; gap: 48px; }
+  .smv-card {
+    flex: none;
+    width: 100%;
+    max-width: 400px;
+    padding: 68px 20px 20px;
+    gap: 10px;
+  }
+  .smv-card-title { font-size: 26px; line-height: 1.25; }
+  .smv-card-description { font-size: 16px; line-height: 1.5; }
+  .smv-card-image-frame {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 348 / 210;
+    margin-top: 8px;
+  }
+  .smv-stats { padding: 12px; }
+  .smv-stats-inner { padding: 12px; gap: 16px; }
+  .smv-stat { padding: 12px; gap: 12px; }
+  .smv-stat-icon-ring { width: 48px; height: 48px; }
+  .smv-stat-value { font-size: 24px; }
+
+  .learning-modules-viewport { min-height: 0; }
+  .learning-modules-track { gap: 24px; padding-block: 12px; }
+  .learning-module-card, .learning-module-card-featured {
+    width: min(320px, calc(100vw - 48px));
+    height: auto;
+    min-height: 300px;
+    padding: 18px;
+    gap: 12px;
+  }
+  .learning-module-image-frame,
+  .learning-module-card-featured .learning-module-image-frame {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+  .learning-module-title { font-size: 20px; line-height: 1.3; }
+  .learning-module-description { font-size: 15px; line-height: 1.45; }
+  .learning-module-text { gap: 8px; }
+  .learning-modules-nav, .testimonials-nav { gap: 48px; margin-top: 16px; }
+  .learning-modules-nav-button, .testimonials-nav-button { width: 48px; height: 48px; }
+  .learning-modules-nav-icon, .testimonials-nav-icon { width: 26px; height: 26px; }
+
+  .testimonials-section { gap: 16px; }
+  .testimonials-viewport { min-height: 0; }
+  .testimonials-track { gap: 24px; }
+  /* Mobile reference: portrait and identity above a full-width quote. */
+  .testimonial-card-wrapper {
+    --testimonial-padding: clamp(16px, 4vw, 24px);
+    --testimonial-avatar-size: clamp(48px, 14vw, 76px);
+    --testimonial-column-gap: clamp(12px, 3vw, 16px);
+    --testimonial-row-gap: clamp(8px, 2vw, 12px);
+    width: min(480px, calc(100vw - 48px));
+    height: auto;
+    min-height: 0;
+  }
+  .testimonial-card {
+    width: 100%;
+    min-height: 0;
+    height: auto;
+    margin: 0;
+    padding: var(--testimonial-padding);
+    align-items: flex-start;
+  }
+  .testimonial-photo-frame {
+    left: var(--testimonial-padding);
+    top: var(--testimonial-padding);
+    width: var(--testimonial-avatar-size);
+    height: var(--testimonial-avatar-size);
+    padding: 0;
+    transform: none;
+    border-radius: 50%;
+    background: #d9d9d9;
+    box-shadow: none;
+  }
+  .testimonial-photo-inner { border-radius: inherit; }
+  .testimonial-content {
+    display: grid;
+    grid-template-columns: var(--testimonial-avatar-size) minmax(0, 1fr);
+    gap: var(--testimonial-row-gap) var(--testimonial-column-gap);
+    align-items: start;
+  }
+  .testimonial-person {
+    grid-column: 2;
+    min-width: 0;
+    min-height: calc(var(--testimonial-avatar-size) - var(--testimonial-row-gap) - 8px);
+    gap: 4px;
+  }
+  .testimonial-name {
+    padding-right: 48px;
+    font-family: "Segoe UI", "Inter";
+    font-size: clamp(16px, 4.4vw, 20px);
+    line-height: 1.4;
+  }
+  .testimonial-role {
+    font-family: "Segoe UI", "Inter";
+    font-size: clamp(14px, 3.7vw, 16px);
+    line-height: 1.5;
+  }
+  .testimonial-underline {
+    grid-column: 2;
+    width: min(182px, 100%);
+    height: 8px;
+  }
+  .testimonial-quote {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-top: var(--testimonial-row-gap);
+    font-family: "Segoe UI", "Inter";
+    font-size: clamp(15px, 3.7vw, 16px);
+    line-height: 1.55;
+  }
+  .testimonial-rating-badge {
+    top: var(--testimonial-padding);
+    right: var(--testimonial-padding);
+    gap: 3px;
+    padding: 4px 8px;
+  }
+  .testimonial-rating-number {
+    font-family: "Segoe UI", "Inter";
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .testimonial-rating-star { width: 14px; height: 14px; }
+  .testimonial-card-wrapper .testimonial-photo { object-position: 50% 20%; }
+  /* Janoah: mask the portrait as a complete circle and crop out its pale left strip. */
+  .testimonial-card-wrapper[data-testimonial-id="5"] .testimonial-photo-frame,
+  .testimonial-card-wrapper[data-testimonial-id="5"] .testimonial-photo-inner {
+    border-radius: 50%;
+    overflow: hidden;
+    clip-path: circle(50% at 50% 50%);
+  }
+  .testimonial-card-wrapper[data-testimonial-id="5"] .testimonial-photo {
+    object-fit: cover;
+    object-position: 50% 20%;
+    transform: scale(1.35);
+    transform-origin: 50% 0%;
+  }
+  .testimonial-card-wrapper[data-testimonial-id="4"] .testimonial-photo {
+    object-position: center;
+    transform: none;
+  }
+
+  .faq-card { padding: 16px; }
+  .faq-content { gap: 24px; }
+  .faq-left { gap: 16px; }
+  .faq-illustration { max-width: 300px; }
+  .faq-right { gap: 18px; }
+  /* Narrow the complete FAQ card, including its expanded answer, on phones.
+     Keep the original height, padding, typography and spacing between cards. */
+  .faq-section .faq-item {
+    width: calc(100% - 35px);
+    max-width: 337px;
+    align-self: center;
+  }
+  /* Keep every + icon in the same right-side column. Increase only the inner
+     right padding by another 12px; card width and outer spacing stay unchanged. */
+  .faq-item-header { gap: 8px; padding: 14px 27px 14px 12px; min-height: 88px; flex-wrap: nowrap; }
+  .faq-item-header-left { min-width: 0; gap: 8px; }
+  .faq-item-triangle { display: none; }
+  .faq-item-number { font-size: clamp(20px, 5.6vw, 24px); }
+  .faq-item-divider { width: 4px; height: 28px; }
+  .faq-item-title {
+    flex: 1;
+    width: auto;
+    min-width: 0;
+    font-size: clamp(16px, 4.5vw, 18px);
+    line-height: 1.4;
+    padding-inline-start: 6px;
+  }
+  .faq-item-title .faq-mobile-break { display: inline; }
+  .faq-item-toggle { flex: 0 0 44px; width: 44px; height: 44px; }
+  .faq-item-toggle-icon { width: 20px; height: 20px; }
+  .faq-item-answer {
+    padding: 20px 16px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .get-in-touch-section {
+    --contact-footer-overlap: 48px;
+    margin-bottom: calc(-1 * var(--contact-footer-overlap));
+    padding: 24px 16px 0;
+    z-index: 0;
+  }
+  .get-in-touch-frame { transform: translateY(28px) rotate(-12deg); }
+  .home-footer {
+    position: relative;
+    z-index: 1;
+    background: #dfe6e9;
+  }
+  .get-in-touch-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .get-in-touch-text {
+    flex: none;
+    width: 100%;
+    max-width: 36rem;
+    align-items: center;
+    text-align: center;
+  }
+  .get-in-touch-copy { align-items: center; gap: 16px; }
+  .get-in-touch-subtext {
+    width: 100%;
+    max-width: 30rem;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .get-in-touch-subtext::before { content: none; display: none; }
+  .get-in-touch-button { padding: 14px 24px; }
+  .get-in-touch-button-label { font-size: 18px; }
+  .get-in-touch-button-icon { width: 20px; height: 20px; }
+  .get-in-touch-media {
+    flex: none;
+    width: calc(100% - 48px);
+    max-width: 320px;
+    aspect-ratio: 2 / 3;
+    transform: translateX(12px);
+  }
+  /* Stop the portrait at the footer edge; only the frame continues below. */
+  .get-in-touch-photo-wrapper {
+    bottom: var(--contact-footer-overlap);
+    transform: none;
+  }
+  .get-in-touch-photo {
+    object-fit: contain;
+    object-position: center bottom;
+  }
+}
+
+@media (width < 600px) {
+  .hero-heading { max-width: 280px; }
+  .odyssey-grid { grid-template-columns: minmax(0, 360px); justify-content: center; }
+  .odyssey-card { width: 100%; min-height: 280px; }
+  .odyssey-card-inner { padding-inline: 16px; }
+  .odyssey-card-title { font-size: 20px; }
+  .odyssey-card-description { font-size: 16px; }
+  .platform-overview-media { max-width: 360px; }
+  .platform-hex-grid { grid-template-columns: minmax(0, 280px); }
+  .platform-hex-card { max-width: 280px; aspect-ratio: 280 / 170; }
+  .platform-hex-text { max-width: 235px; }
+  .platform-hex-label { font-size: 20px; }
+  .platform-hex-description { font-size: 16px; line-height: 1.45; font-weight: 500; }
+  .platform-overview-play-button { width: 56px; height: 56px; }
+  .purpose-pill { max-width: 320px; padding: 16px; }
+  .why-choose-grid { grid-template-columns: minmax(0, 280px); gap: 40px; }
+  .smv-stats-inner { grid-template-columns: minmax(0, 1fr); }
+  .smv-stat { width: 100%; }
+  .learning-module-title { font-size: 18px; }
+  .learning-module-description { font-size: 14px; }
+  .get-in-touch-media { max-width: 280px; }
+
+  /* Keep number, divider, question and toggle aligned in one row. */
+  .faq-section { padding-inline: 8px; }
+  .faq-card { padding: 16px 6px; }
+  .faq-left { padding-inline: 10px; }
+  .faq-right { gap: 16px; }
+  .faq-item-header {
+    display: grid;
+    grid-template-columns: max-content 3px minmax(0, 1fr) 32px;
+    grid-template-rows: auto;
+    gap: 6px;
+    align-items: center;
+    min-height: 88px;
+    padding: 14px 23px 14px 8px;
+  }
+  .faq-item-header-left { display: contents; }
+  .faq-item-number {
+    grid-column: 1;
+    grid-row: 1;
+    letter-spacing: 0;
+    font-variant-numeric: tabular-nums;
+  }
+  .faq-item-divider {
+    grid-column: 2;
+    grid-row: 1;
+    width: 3px;
+    height: 24px;
+  }
+  .faq-item-title {
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+    text-align: left;
+    line-height: 1.3;
+    letter-spacing: 0;
+    word-break: normal;
+    overflow-wrap: break-word;
+    hyphens: none;
+  }
+  /* The whole header button remains the tap target. */
+  .faq-item-toggle {
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: end;
+    width: 32px;
+    height: 32px;
+  }
+  .faq-item-toggle-icon { width: 18px; height: 18px; }
+  :global(.book-demo-button), :global(.bookDemoButton),
+  :global(.floating-book-demo), :global(.floatingBookDemo) {
+    right: 16px !important;
+    bottom: 16px !important;
+    max-width: calc(100vw - 32px);
+  }
+}
+
+/* Pointer behaviour is independent of viewport size. */
+@media (hover: hover) and (pointer: fine) {
+  /* Keep the normal lift hover, but prevent bottom-edge hover flicker/jumping.
+     The transparent guard fills the exact gap created by translateY(). */
+  .odyssey-card,
+  .purpose-pill {
+    position: relative;
+  }
+
+  .odyssey-card:hover {
+    transform: translateY(-8px);
+  }
+
+  .odyssey-card:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    height: 8px;
+    background: transparent;
+    pointer-events: auto;
+  }
+
+  .odyssey-card:hover .odyssey-card-inner {
+    box-shadow: 4px 4px 4px #c4c4c4, -4px -4px 4px #ffffff;
+  }
+
+  .odyssey-card:hover .odyssey-card-icon-circle {
+    transform: scale(1.08);
+    box-shadow: 4px 4px 4px #c6c6c9, -4px -4px 4px #ffffff;
+  }
+
+  .purpose-pill:hover {
+    transform: translateY(-6px);
+    border-width: 0 10px;
+    box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  }
+
+  .purpose-pill:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 6px;
+    background: transparent;
+    pointer-events: auto;
+  }
+
+  /* Why Choose cards keep the same position and icon size when hovered. */
+  .get-in-touch-button:hover {
+    box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px #c6c6c9;
+  }
+}
+
+/* Preserve reduced-motion support on every device. */
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide, .hero-caption, .hero-dot, .hero-dot::after,
+  .odyssey-card, .odyssey-card-inner, .odyssey-card-icon-circle,
+  .odyssey-toggle-icon, .odyssey-extra-wrapper, .purpose-pill,
+  .why-choose-card, .why-choose-icon-circle, .learning-modules-track,
+  .learning-module-card, .learning-module-image-frame,
+  .learning-module-description-wrapper, .testimonials-track,
+  .faq-item-answer-wrapper, .smv-card, .smv-card-icon-circle, .smv-card-image {
+    transition: none;
+    animation: none;
+  }
+  .odyssey-card:hover, .odyssey-card:hover .odyssey-card-icon-circle,
+  .purpose-pill:hover, .why-choose-card:hover,
+  .why-choose-card:hover .why-choose-icon-circle {
+    transform: none;
+  }
+}
+.why-choose-subtext sup,
+.why-choose-description sup {
+  font-size: 0.55em;
+  line-height: 0;
+  vertical-align: super;
+}
+
+/* ==========================================================================
+   FINAL — TALK TO OUR EXPERT ROUND IMAGE BUTTON ONLY
+   The popup remains at page level; only its trigger is placed in this slot.
+   ========================================================================== */
+
+.learning-modules-expert-button-slot {
+  position: absolute;
+
+  /* Exact requested area: empty right-side band between
+     Learning Modules and Testimonials. */
+  right: clamp(28px, 5vw, 72px);
+  bottom: 26px;
+
+  z-index: 12;
+  width: 76px;
+  height: 76px;
+
+  display: grid;
+  place-items: center;
+}
+
+.learning-modules-expert-button-slot > .get-in-touch-expert-button {
+  position: relative !important;
+  inset: auto !important;
+  width: 76px !important;
+  min-width: 76px !important;
+  max-width: 76px !important;
+  height: 76px !important;
+  min-height: 76px !important;
+  max-height: 76px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 0 !important;
+  display: grid !important;
+  place-items: center !important;
+  flex: 0 0 76px !important;
+  transform: none !important;
+  border-radius: 50% !important;
+  background: #dfe6e9 !important;
+  box-shadow: -6px -6px 12px #ffffff, 6px 6px 12px rgba(198, 198, 201, 0.9) !important;
+  z-index: 1 !important;
+}
+
+.learning-modules-expert-button-slot
+  > .get-in-touch-expert-button
+  > span:first-child {
+  width: 58px !important;
+  min-width: 58px !important;
+  height: 58px !important;
+  min-height: 58px !important;
+  margin: 0 !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 50% !important;
+}
+
+.learning-modules-expert-button-slot
+  > .get-in-touch-expert-button
+  > span:first-child
+  > span {
+  width: 42px !important;
+  min-width: 42px !important;
+  height: 42px !important;
+  min-height: 42px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 50% !important;
+}
+
+.learning-modules-expert-button-slot
+  > .get-in-touch-expert-button
+  > span:first-child
+  svg {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.learning-modules-expert-button-slot
+  > .get-in-touch-expert-button
+  > span:last-child {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+@media (width < 1024px) {
+  .learning-modules-expert-button-slot {
+    right: 24px;
+    bottom: 24px;
+    width: 68px;
+    height: 68px;
+  }
+
+  .learning-modules-expert-button-slot > .get-in-touch-expert-button {
+    width: 68px !important;
+    min-width: 68px !important;
+    max-width: 68px !important;
+    height: 68px !important;
+    min-height: 68px !important;
+    max-height: 68px !important;
+    flex-basis: 68px !important;
+  }
+}
+
+@media (width < 600px) {
+  .learning-modules-expert-button-slot {
+    right: 12px;
+    bottom: 18px;
+    width: 64px;
+    height: 64px;
+    z-index: 12;
+  }
+
+  .learning-modules-expert-button-slot > .get-in-touch-expert-button {
+    width: 64px !important;
+    min-width: 64px !important;
+    max-width: 64px !important;
+    height: 64px !important;
+    min-height: 64px !important;
+    max-height: 64px !important;
+    flex-basis: 64px !important;
+  }
+}
+  .learning-modules-expert-button-slot > .get-in-touch-expert-button {
+    width: 64px !important;
+    min-width: 64px !important;
+    max-width: 64px !important;
+    height: 64px !important;
+    min-height: 64px !important;
+    max-height: 64px !important;
+    flex-basis: 64px !important;
+  }
+
+
+.learning-modules-heading-accent sup {
+  position: relative;
+  top: -0.12em;
+  line-height: 0;
+}
+
+/* Desktop: keep the original frame and photo sizes, rotation and vertical
+   placement. Move only the frame left when its rotated right corner needs room.
+   The 24% allowance covers the extra horizontal reach from the -34deg rotation. */
+@media (min-width: 1024px) {
+  .get-in-touch-frame {
+    /* Outside gutter of the existing centred, max-1280px content container. */
+    --contact-frame-outer-gutter: max(0px, calc(50vw - 640px));
+    left: min(-10%, calc(var(--contact-frame-outer-gutter) - 32px - 24%));
+  }
+}
+
+@media (1024px <= width < 1280px) {
+  .get-in-touch-frame {
+    /* Existing 24px section padding plus the centred image-column gutter. */
+    --contact-frame-outer-gutter: max(48px, calc(25vw - 216px));
+  }
+}
+@media (min-width: 1024px) {
+  .meet-neurolxp-text {
+    width: min(680px, 52vw);
+  }
+
+  .meet-neurolxp-heading {
+    text-wrap: wrap;
+  }
+}
+
+@media (min-width: 1280px) {
+  .why-choose-text {
+    transform: translateX(
+      clamp(-114px, calc(565px - 50vw), -78px)
+    );
+  }
+}
+
+/* ==========================================================================
+   FINAL INTERACTION FIXES
+   - The scroll-to-top control remains fixed and above the footer.
+   - An open modal hides the control completely so it cannot cover the form.
+   - Mobile carousels keep their JS arrow/autoplay transform while also
+     supporting native finger swiping.
+   ========================================================================== */
+
+/* Keep the footer scroll control above ordinary footer content but below the
+   application's modal layer. Do not change its original position, display or
+   visibility; the component remains responsible for those states. */
+:global(button[class*="scroll-top-button"]) {
+  /* Keep only the outer footer chevron button in its existing position.
+     The original Footer component continues to control the chevron/icon design. */
+  translate: none !important;
+  z-index: 2 !important;
+}
+
+@media (width < 768px) {
+  /*
+     MOBILE — UNIFORM CIRCULAR FINGER SCROLL
+     - Native horizontal hand/finger scrolling.
+     - Every flex item has exactly the same width.
+     - Mandatory center snapping means every swipe finishes on a full card.
+     - Full clone sets on both ends are invisibly normalized by HomePage.tsx.
+     - Desktop translateX animation is completely disabled on mobile.
+  */
+  .hero-image-stage {
+    display: flex !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    touch-action: pan-x pan-y;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: auto;
+    scrollbar-width: none;
+  }
+
+  .hero-image-stage::-webkit-scrollbar { display: none; }
+
+  .hero-slide,
+  .hero-slide-active {
+    position: relative !important;
+    inset: auto !important;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
+    transition: none !important;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .hero-slide-image,
+  .hero-slide-video {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+
+  .learning-modules-viewport,
+  .testimonials-viewport {
+    width: 100%;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    -webkit-overflow-scrolling: touch;
+
+    overscroll-behavior-x: contain;
+    overscroll-behavior-y: auto;
+
+    touch-action: pan-x pan-y;
+
+    scroll-snap-type: x mandatory;
+
+    /* IMPORTANT:
+       keep the circular clone reset instant/invisible.
+       Arrow/autoplay movement still uses behavior:"smooth" directly in TSX. */
+    scroll-behavior: auto;
+
+    scrollbar-width: none;
+
+    user-select: text;
+    -webkit-user-select: text;
+    -webkit-touch-callout: default;
+  }
+
+  .learning-modules-viewport::-webkit-scrollbar,
+  .testimonials-viewport::-webkit-scrollbar {
+    display: none;
+  }
+
+  .learning-modules-track,
+  .testimonials-track {
+    transform: none !important;
+    transition: none !important;
+
+    display: flex;
+    align-items: stretch;
+
+    width: max-content;
+    max-width: none;
+
+    flex-wrap: nowrap;
+  }
+
+  /* Learning Modules: wrapper AND card use the exact same fixed width.
+     The active/featured card is not allowed to change width on mobile. */
+  .learning-modules-track > div {
+    --learning-card-mobile-width: min(320px, calc(100vw - 48px));
+
+    flex: 0 0 var(--learning-card-mobile-width);
+    width: var(--learning-card-mobile-width);
+    min-width: var(--learning-card-mobile-width);
+    max-width: var(--learning-card-mobile-width);
+
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+  }
+
+  .learning-module-card,
+  .learning-module-card-featured {
+    --learning-card-mobile-width: min(320px, calc(100vw - 48px));
+
+    flex: none !important;
+
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+
+    height: auto;
+    min-height: 300px;
+
+    padding: 18px;
+    gap: 12px;
+
+    transition:
+      box-shadow 0.25s ease,
+      height 0.25s ease !important;
+  }
+
+  .learning-module-image-frame,
+  .learning-module-card-featured .learning-module-image-frame {
+    width: 100%;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+
+    transition: none !important;
+  }
+
+  /* Testimonials: outer mapped wrapper AND visual card wrapper share one
+     identical mobile width, so sliding never changes spacing. */
+  .testimonials-track > div {
+    --testimonial-card-mobile-width: min(480px, calc(100vw - 48px));
+
+    flex: 0 0 var(--testimonial-card-mobile-width);
+    width: var(--testimonial-card-mobile-width);
+    min-width: var(--testimonial-card-mobile-width);
+    max-width: var(--testimonial-card-mobile-width);
+
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+  }
+
+  .testimonial-card-wrapper {
+    --testimonial-card-mobile-width: min(480px, calc(100vw - 48px));
+
+    flex: none !important;
+
+    display: flex;
+
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+
+    min-height: 250px;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    min-width: 0;
+
+    height: 100%;
+    min-height: 250px;
+  }
+
+  .learning-modules-viewport img,
+  .testimonials-viewport img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+
+  .learning-modules-nav-button,
+  .testimonials-nav-button {
+    touch-action: manipulation;
+  }
+}
+
+/* Structural fallback for the centred chevron shown in the screenshots. It is
+   rendered by the footer, so its layer must remain below dialogs without any
+   modal-open selector. This also means closing Contact Us cannot leave an
+   invisible blocker behind. */
+.home-footer button,
+.home-footer [role="button"],
+:global(footer) button,
+:global(footer) [role="button"] {
+  z-index: 5 !important;
+}
+
+/* Restore the chevron to the original top-centre footer position and allow its
+   upper half to remain visible outside the footer boundary. These rules affect
+   only the footer/chevron placement; every modal and carousel fix above stays
+   unchanged. */
+.home-footer,
+:global(footer) {
+  position: relative;
+  overflow: visible !important;
+}
+
+.home-footer > button[aria-label*="top" i],
+.home-footer > [role="button"][aria-label*="top" i],
+.home-footer > button:has([class*="chevron" i]),
+:global(footer) > button[aria-label*="top" i],
+:global(footer) > [role="button"][aria-label*="top" i],
+:global(footer) > button:has([class*="chevron" i]) {
+  translate: none !important;
+  z-index: 2 !important;
+}
+
+/* ==========================================================================
+   CONTACT US — TRUE POPUP MODAL
+   Uses the same neumorphic close-button treatment as Book a Demo.
+   The form itself is unchanged; only its presentation is converted to a
+   centered popup mounted above the page.
+   ========================================================================== */
+
+.contact-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10020;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  padding: 16px;
+  box-sizing: border-box;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  background: rgba(49, 52, 75, 0.55);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.contact-modal-dialog {
+  position: relative;
+
+  width: min(760px, calc(100vw - 32px));
+  max-width: 760px;
+
+  max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px);
+
+  margin: auto;
+  box-sizing: border-box;
+
+  border-radius: 18px;
+  background: #dfe6e9;
+
+  box-shadow:
+    12px 12px 24px rgba(30, 36, 50, 0.35),
+    -8px -8px 18px rgba(255, 255, 255, 0.18);
+
+  overflow: visible;
+  outline: none;
+}
+
+.contact-modal-scroll {
+  position: relative;
+
+  width: 100%;
+  max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px);
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  border-radius: 18px;
+  box-sizing: border-box;
+
+  scrollbar-width: thin;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Keep the embedded Contact Us page inside the popup instead of letting its
+   page wrapper behave like a separate full-screen page. */
+.contact-modal-scroll > * {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 0 !important;
+  height: auto !important;
+
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* The modal supplies the close control. Hide an embedded Contact Us close
+   control if that component already contains one, so only one X is visible. */
+.contact-modal-scroll :global(button[class*="contactCloseButton"]) {
+  display: none !important;
+}
+
+/* Same close-button visual language as the Book a Demo popup. */
+.contact-modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  width: 32px;
+  height: 32px;
+
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  background: #dfe6e9;
+
+  box-shadow:
+    4px 4px 8px rgba(166, 174, 178, 0.72),
+    -4px -4px 8px rgba(255, 255, 255, 0.68);
+
+  z-index: 10022;
+}
+
+.contact-modal-close:hover {
+  box-shadow:
+    inset 3px 3px 6px rgba(166, 174, 178, 0.72),
+    inset -3px -3px 6px rgba(255, 255, 255, 0.78);
+}
+
+.contact-modal-close:active {
+  box-shadow:
+    inset 4px 4px 8px rgba(166, 174, 178, 0.78),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.82);
+}
+
+.contact-modal-close:focus-visible {
+  outline: 3px solid #2d4cc8;
+  outline-offset: 2px;
+}
+
+.contact-modal-close-icon {
+  display: block;
+
+  width: 18px;
+  height: 18px;
+
+  color: #31344b;
+  pointer-events: none;
+}
+
+@media (width < 768px) {
+  .contact-modal-overlay {
+    align-items: center;
+    padding: 10px;
+  }
+
+  .contact-modal-dialog {
+    width: min(100%, calc(100vw - 20px));
+
+    max-height: calc(100vh - 20px);
+    max-height: calc(100dvh - 20px);
+
+    border-radius: 16px;
+  }
+
+  .contact-modal-scroll {
+    max-height: calc(100vh - 20px);
+    max-height: calc(100dvh - 20px);
+
+    border-radius: 16px;
+  }
+
+  .contact-modal-close {
+    top: 8px;
+    right: 8px;
+
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (width < 480px) {
+  .contact-modal-overlay {
+    padding: 6px;
+  }
+
+  .contact-modal-dialog {
+    width: calc(100vw - 12px);
+
+    max-height: calc(100vh - 12px);
+    max-height: calc(100dvh - 12px);
+
+    border-radius: 14px;
+  }
+
+  .contact-modal-scroll {
+    max-height: calc(100vh - 12px);
+    max-height: calc(100dvh - 12px);
+
+    border-radius: 14px;
+  }
+}
+
+/* Allow selecting page text, including badges and button labels.
+   Keep image dragging and inactive carousel pointer behavior unchanged. */
+:is(
+  .hero-section,
+  .odyssey-section,
+  .platform-overview-section,
+  .platform-purpose-section,
+  .meet-neurolxp-section,
+  .why-choose-section,
+  .learning-modules-section,
+  .testimonials-section,
+  .faq-section,
+  .get-in-touch-section,
+  .smv-section,
+  .home-footer,
+  .contact-modal-overlay
+),
+:is(
+  .hero-section,
+  .odyssey-section,
+  .platform-overview-section,
+  .platform-purpose-section,
+  .meet-neurolxp-section,
+  .why-choose-section,
+  .learning-modules-section,
+  .testimonials-section,
+  .faq-section,
+  .get-in-touch-section,
+  .smv-section,
+  .home-footer,
+  .contact-modal-overlay
+) :not(img, svg, svg *) {
+  -webkit-user-select: text !important;
+  user-select: text !important;
+  -webkit-touch-callout: default;
+}
+
+/* Adjust only the three marked desktop gaps. */
+@media (min-width: 1024px) {
+  /* Book a Demo to the learning cards: 32px including the section gap. */
+  .odyssey-demo-button {
+    margin-bottom: 16px;
+  }
+
+  /* View More to About NeuroLXP: 32px across the two sections. */
+  .odyssey-section {
+    padding-bottom: 16px;
+  }
+
+  .smv-section {
+    padding-top: 16px;
+  }
+
+  /* More room between the image cards and the statistics bar. */
+  .smv-stats {
+    margin-top: 40px;
+  }
+}
+
+/* Widen the left learning panel and align its copy within the added space. */
+@media (min-width: 1280px) {
+  .why-choose-blob {
+    width: 750px;
+  }
+
+  .why-choose-text {
+    transform: translateX(
+      clamp(-90px, calc(589px - 50vw), -54px)
+    );
+  }
+
+  .why-choose-subtext {
+    width: 100%;
+  }
+}
+
+/* Reduce the gap between the learning carousel controls and Testimonials. */
+@media (min-width: 1024px) {
+  .learning-modules-section {
+    padding-bottom: 16px;
+  }
+
+  .testimonials-section {
+    padding-top: 16px;
+  }
+}
+
+/* Bring the final contact section closer to the FAQ section. */
+.faq-section {
+  padding-bottom: 16px;
+}
+
+/* Compact contact layout: the portrait now occupies its visible space. */
+@media (min-width: 1024px) {
+  .get-in-touch-section {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 8px 24px 0;
+  }
+
+  .get-in-touch-content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 1120px;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .get-in-touch-text {
+    width: 100%;
+    max-width: 500px;
+    transform: translateY(-48px);
+  }
+
+  .get-in-touch-copy {
+    gap: 24px;
+  }
+
+  .get-in-touch-media {
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 677 / 906;
+    margin: 0;
+    justify-self: center;
+  }
+
+  .get-in-touch-photo-wrapper {
+    inset: 0;
+    transform: none;
+  }
+
+  .get-in-touch-photo {
+    object-fit: contain;
+    object-position: center bottom;
+  }
+}
+
+@media (width < 768px) {
+  .get-in-touch-section {
+    padding-top: 8px;
+  }
+}
+
+/* Keep the six platform descriptions centered in two balanced lines. */
+.platform-hex-description {
+  width: 10em;
+  max-width: 100%;
+  min-height: 2lh;
+  margin-inline: auto;
+  white-space: normal;
+  text-align: center;
+  text-wrap: balance;
+}
+
+
+/* Give the learning copy enough width to use the rounded panel.
+   Let the existing wording wrap naturally within that width. */
+@media (min-width: 1024px) {
+  .why-choose-blob {
+    height: 230px;
+    top: calc(50% + 40px);
+  }
+
+  .why-choose-text {
+    flex-basis: clamp(400px, calc(50vw - 240px), 440px);
+    max-width: clamp(400px, calc(50vw - 240px), 440px);
+    gap: 16px;
+  }
+
+  .why-choose-subtext {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(20px, 1.72vw, 24px);
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    white-space: normal;
+    text-wrap: wrap;
+  }
+
+  .why-choose-subtext-line {
+    display: inline;
+    white-space: normal;
+  }
+
+  /* JSX can render adjacent spans without a separating space. */
+  .why-choose-subtext-line:not(:last-child)::after {
+    content: " ";
+  }
+}
+
+@media (1024px <= width < 1280px) {
+  .why-choose-text {
+    /* Leave 32px before the rounded edge at compact desktop widths. */
+    max-width: min(100%, calc(40vw - 88px));
+  }
+}
+
+@media (width < 768px) {
+
+  .why-choose-subtext {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .why-choose-subtext-line {
+    white-space: normal;
+  }
+}
+
+/* Restore equal breathing space only inside Transforming Digital Learning.
+   The background follows the text height, including wrapped lines. */
+@media (min-width: 1024px) {
+  .why-choose-blob {
+    display: none;
+  }
+
+  .why-choose-text {
+    position: relative;
+    isolation: isolate;
+    padding-block: 24px;
+  }
+
+  .why-choose-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    right: -48px;
+    z-index: -1;
+    pointer-events: none;
+    background: #dfe6e9;
+    border-radius: 0 260px 260px 0;
+    box-shadow: inset -4px -4px 4px #ffffff,
+      inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  }
+
+  .why-choose-heading,
+  .why-choose-subtext {
+    margin-block: 0;
+  }
+}
+
+
+/* TM only: smaller and bold; preserve existing position and spacing. */
+.smv-badge sup,
+.smv-badge-tm,
+.platform-overview-tag sup,
+.platform-overview-heading sup,
+.meet-neurolxp-badge sup,
+.why-choose-badge sup,
+.why-choose-subtext sup,
+.why-choose-description sup,
+.learning-modules-badge sup,
+.learning-modules-heading-accent sup,
+.testimonials-badge sup,
+.get-in-touch-badge sup {
+  font-size: 0.45em;
+  font-weight: 700;
+}
+/* Figma image placement: center the complete artwork at the frame bottom.
+   The small top inset matches the reference while retaining the existing
+   card dimensions, frame, typography and carousel behaviour.
+   !important on the fill geometry also supports Next.js Image fill styles. */
+.learning-module-image[alt*="Smart Onboarding" i],
+.learning-module-image[alt*="Standards Training" i] {
+  position: absolute;
+  inset: 6% 0 0 !important;
+  width: 100% !important;
+  height: 94% !important;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom !important;
+  transform: none;
+  transform-origin: center bottom;
+}
+
+
+/* Homepage only: place the fixed expert button in the marked right-side gap.
+   The marker class does not change the main element's layout or dimensions.
+   :has also reaches the shared launcher rendered outside this page. */
+:global(body):has(.home-expert-placement) {
+  --expert-attention-display: block;
+}
+
+@media (min-width: 1024px) {
+  :global(body):has(.home-expert-placement) {
+    --expert-button-right: 112px;
+  }
+}
+
+/* =========================================================
+   NeuroLXP TM — exact raised trademark placement
+   Keeps all existing badge/layout styling unchanged.
+   ========================================================= */
+.smv-badge-tm {
+  display: inline-block !important;
+  position: relative !important;
+  top: -0.72em !important;
+  vertical-align: baseline !important;
+  margin-left: 1px !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+  font-size: 0.42em !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+  white-space: nowrap !important;
+}
+
+/* =========================================================
+   MOBILE ONLY — hide carousel previous/next arrow controls
+   Desktop and tablet remain unchanged.
+   ========================================================= */
+@media (max-width: 767px) {
+  .hero-nav-button,
+  .learning-modules-nav-button,
+  .testimonials-nav-button {
+    display: none !important;
+  }
+}
+
+/* Mobile: completely remove carousel arrow controls and their leftover dots */
+@media (max-width: 767px) {
+  .hero-nav-button,
+  .hero-nav-button-prev,
+  .hero-nav-button-next,
+  .learning-modules-nav-button,
+  .testimonials-nav-button {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .hero-nav-button::before,
+  .hero-nav-button::after,
+  .learning-modules-nav-button::before,
+  .learning-modules-nav-button::after,
+  .testimonials-nav-button::before,
+  .testimonials-nav-button::after {
+    display: none !important;
+    content: none !important;
+  }
+}
+
+/* MOBILE FINAL: remove carousel navigation controls completely */
+@media screen and (max-width: 767px) {
+  .learning-modules-nav,
+  .testimonials-nav {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+  }
+
+  .learning-modules-nav-button,
+  .testimonials-nav-button,
+  .learning-modules-nav-icon,
+  .testimonials-nav-icon {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .learning-modules-nav::before,
+  .learning-modules-nav::after,
+  .testimonials-nav::before,
+  .testimonials-nav::after {
+    display: none !important;
+    content: none !important;
+  }
+}
+
+/* =========================================================
+   MOBILE — keep the Talk to Our Expert launcher below the
+   Learning Modules cards so it never overlaps a card.
+   Desktop and tablet remain unchanged.
+   ========================================================= */
+@media screen and (max-width: 767px) {
+  .learning-modules-section {
+    /* Reserve a clean row below the cards for the floating expert launcher. */
+    padding-bottom: 88px !important;
+  }
+
+  .learning-modules-expert-button-slot {
+    right: 14px !important;
+    bottom: 12px !important;
+    width: 56px !important;
+    height: 56px !important;
+    z-index: 12 !important;
+  }
+
+  .learning-modules-expert-button-slot > .get-in-touch-expert-button {
+    width: 56px !important;
+    min-width: 56px !important;
+    max-width: 56px !important;
+    height: 56px !important;
+    min-height: 56px !important;
+    max-height: 56px !important;
+    flex-basis: 56px !important;
+    margin: 0 !important;
+  }
+
+  .learning-modules-expert-button-slot
+    > .get-in-touch-expert-button
+    > span:first-child {
+    width: 46px !important;
+    min-width: 46px !important;
+    height: 46px !important;
+    min-height: 46px !important;
+  }
+
+  .learning-modules-expert-button-slot
+    > .get-in-touch-expert-button
+    > span:first-child
+    > span {
+    width: 34px !important;
+    min-width: 34px !important;
+    height: 34px !important;
+    min-height: 34px !important;
+  }
+
+  .learning-modules-expert-button-slot
+    > .get-in-touch-expert-button
+    > span:first-child
+    svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  /* Keep Testimonials clearly below the reserved launcher row. */
+  .testimonials-section {
+    padding-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faq-item-title {
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+    overflow-wrap: normal !important;
+    font-size: 15px !important;
+  }
+}
+
+/* MOBILE FAQ — keep question text on one line */
+@media screen and (max-width: 767px) {
+  .faq-item-header {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .faq-item-number {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+  }
+
+  .faq-item-title {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+    overflow-wrap: normal !important;
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+  }
+
+  .faq-item-toggle,
+  .faq-item-icon,
+  .faq-item-button {
+    flex: 0 0 auto !important;
+  }
+}
+
+/* MOBILE FAQ FINAL — force every FAQ question onto one line */
+@media screen and (max-width: 767px) {
+  .faq-item-header {
+    display: grid !important;
+    grid-template-columns: auto auto minmax(0, 1fr) 36px !important;
+    align-items: center !important;
+    column-gap: 6px !important;
+    padding: 12px 14px 12px 8px !important;
+    min-height: 78px !important;
+  }
+
+  .faq-item-header-left {
+    display: contents !important;
+  }
+
+  .faq-item-triangle {
+    display: none !important;
+  }
+
+  .faq-item-number {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    font-size: 20px !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+  }
+
+  .faq-item-divider {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    width: 3px !important;
+    height: 26px !important;
+    margin: 0 2px !important;
+  }
+
+  .faq-item-title {
+    grid-column: 3 !important;
+    grid-row: 1 !important;
+    width: auto !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 14px !important;
+    line-height: 1.15 !important;
+    letter-spacing: 0 !important;
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+  }
+
+  /* Critical: TSX has an explicit <br>; hide it on mobile. */
+  .faq-item-title .faq-mobile-break,
+  .faq-mobile-break {
+    display: none !important;
+  }
+
+  .faq-item-toggle {
+    grid-column: 4 !important;
+    grid-row: 1 !important;
+    justify-self: end !important;
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    flex: none !important;
+  }
+
+  .faq-item-toggle-icon {
+    width: 18px !important;
+    height: 18px !important;
+  }
+}
+
+
+/* CAROUSEL ARROWS — interaction fix only */
+.learning-modules-nav,
+.learning-modules-nav-button,
+.learning-modules-nav-icon,
+.testimonials-nav,
+.testimonials-nav-button,
+.testimonials-nav-icon {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.learning-modules-nav-button,
+.testimonials-nav-button {
+  touch-action: manipulation;
+}
+
+
+/* FAQ FULL-CARD CLICK TARGET — interaction only */
+.faq-item-heading {
+  position: relative;
+}
+
+.faq-item-header {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
+}
+
+.faq-item-header-left,
+.faq-item-triangle,
+.faq-item-number,
+.faq-item-divider,
+.faq-item-title,
+.faq-item-toggle,
+.faq-item-toggle-icon {
+  pointer-events: none;
+}
+
+/* MOBILE FINAL — compact Learning Modules/Testimonial gap + responsive FAQ wrapping */
+@media screen and (max-width: 767px) {
+  /*
+    The previous mobile rule reserved 88px under Learning Modules for the
+    expert button. Keep only the space actually needed by the 56px button.
+  */
+  .learning-modules-section {
+    padding-bottom: 58px !important;
+  }
+
+  .learning-modules-expert-button-slot {
+    bottom: 2px !important;
+  }
+
+  /* Pull Testimonials up without changing its badge/card styling. */
+  .testimonials-section {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /*
+    FAQ: keep number/divider/toggle fixed and let only the question use the
+    remaining width. Short questions stay on one line; longer questions wrap
+    naturally to line two instead of being clipped.
+  */
+  .faq-item-header {
+    display: grid !important;
+    grid-template-columns: auto auto minmax(0, 1fr) 34px !important;
+    align-items: center !important;
+    column-gap: 6px !important;
+    padding: 12px 14px 12px 8px !important;
+    min-height: 78px !important;
+  }
+
+  .faq-item-header-left {
+    display: contents !important;
+  }
+
+  .faq-item-number {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    white-space: nowrap !important;
+  }
+
+  .faq-item-divider {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+  }
+
+  .faq-item-title {
+    grid-column: 3 !important;
+    grid-row: 1 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 14px !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0 !important;
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    hyphens: none !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  /* Do not force the old authored mobile break; wrapping follows real space. */
+  .faq-item-title .faq-mobile-break,
+  .faq-mobile-break {
+    display: none !important;
+  }
+
+  .faq-item-toggle {
+    grid-column: 4 !important;
+    grid-row: 1 !important;
+    justify-self: end !important;
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    flex: none !important;
+  }
+}
+
+.mobile-one-break {
+  display: inline;
+}
+
+@media (max-width: 767px) {
+  .mobile-one-break {
+    display: block;
+  }
+}
+
+/* Desktop only */
+@media (min-width: 1024px) {
+  .get-in-touch-text {
+    gap: 32px;
+  }
+
+  .get-in-touch-copy {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+/* Immersive Learning only: reduce artwork width and height.
+   Target the rendered image by its alt text, so no TSX class change is needed.
+   This also works with Next.js <Image fill /> positioning. */
+.learning-module-image-frame img[alt="Immersive Learning"],
+.learning-module-image-frame img.immersiveLearningImage {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 150% !important;
+  height: 130% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 1% !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  transform: none !important;
+  margin: 0 !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .learning-module-image-frame img[alt="Immersive Learning"],
+  .learning-module-image-frame img.immersiveLearningImage {
+    padding: 14% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .learning-module-image-frame img[alt="Immersive Learning"],
+  .learning-module-image-frame img.immersiveLearningImage {
+    padding: 15% !important;
+  }
+}
+
+
+
+.platform-overview-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 30px;
+  background: #000000;
+}
+
+.platform-overview-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border: none;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .platform-overview-video {
+    width: 180%;
+    height: 180%;
+  }
+}
+
+@media (max-width: 767px) {
+  .platform-overview-frame {
+    border-radius: 20px;
+  }
+
+  .platform-overview-video {
+    width: 180%;
+    height: 180%;
+  }
+}

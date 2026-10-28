@@ -1,0 +1,3134 @@
+.team-page {
+
+  --team-bg: #dfe6e9;
+
+  --team-primary: #2d4cc8;
+
+  --team-primary-dark: #243fa8;
+
+  --team-dark: #31344b;
+
+  --team-text: #2f3547;
+
+  --team-raised: -8px -8px 16px #ffffff, 8px 8px 16px #c6c6c9;
+
+  --team-raised-strong: 10px 10px 20px #c4c4c4, -10px -10px 20px #ffffff;
+
+  --team-inset: -4px -4px 8px #ffffff, 4px 4px 8px rgba(196, 196, 196, 0.8);
+
+  --team-inset-deep: inset -8px -8px 16px #ffffff, inset 8px 8px 16px rgba(196, 196, 196, 0.8);
+
+  background: var(--team-bg);
+
+  color: var(--team-dark);
+
+  font-family:
+
+    "Segoe UI",
+
+    -apple-system,
+
+    BlinkMacSystemFont,
+
+    sans-serif;
+
+  overflow-x: hidden;
+
+}
+
+.team-page * {
+
+  box-sizing: border-box;
+
+}
+
+.team-page a {
+
+  color: inherit;
+
+  text-decoration: none;
+
+}
+
+.team-page a:focus-visible,
+
+.team-page button:focus-visible {
+
+  outline: 2px solid var(--team-primary);
+
+  outline-offset: 2px;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .team-page * {
+
+    transition: none !important;
+
+    animation: none !important;
+
+  }
+
+}
+
+.team-breadcrumb {
+
+  max-width: 1440px;
+
+  margin: 0 auto;
+
+  padding: 20px 24px 0;
+
+}
+
+.team-breadcrumb ol {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  font-size: 14px;
+
+  line-height: 22px;
+
+  letter-spacing: 0.02em;
+
+  color: var(--team-text);
+
+  flex-wrap: wrap;
+
+}
+
+.team-breadcrumb li[aria-current="page"] {
+
+  font-weight: 700;
+
+  color: var(--team-primary-dark);
+
+}
+
+.team-breadcrumb-sep {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.team-hero {
+
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 40px 24px 0;
+
+  text-align: center;
+
+}
+
+.team-eyebrow {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 8px 24px;
+
+  border-radius: 28px;
+
+  background: var(--team-bg);
+
+  box-shadow: var(--team-inset);
+
+  color: var(--team-primary);
+
+  font-weight: 600;
+
+  font-size: 16px;
+
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  text-transform: capitalize;
+
+}
+
+.team-hero-title {
+
+  margin: 12px 0 0;
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  line-height: 32px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-dark);
+
+}
+
+.team-hero-desc {
+
+  margin: 12px 0 0;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-text);
+
+}
+
+.team-hero-pills {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 16px;
+
+  margin-top: 24px;
+
+}
+
+.team-hero-pill {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-width: 140px;
+
+  height: 56px;
+
+  padding: 0 28px;
+
+  background: var(--team-bg);
+
+  border-width: 0 4px;
+
+  border-style: solid;
+
+  border-radius: 200px;
+
+  box-shadow: var(--team-raised);
+
+  font-weight: 700;
+
+  font-size: 16px;
+
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-dark);
+
+}
+
+.team-founder {
+
+  max-width: 1280px;
+
+  margin: 48px auto 0;
+
+  padding: 0 24px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 32px;
+
+}
+
+.team-founder-photo {
+
+  position: relative;
+
+  width: 100%;
+
+  aspect-ratio: 608 / 603;
+
+  border-radius: 24px;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+}
+
+.team-founder-photo img {
+
+  object-fit: cover;
+
+}
+
+.team-founder-content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 16px;
+
+}
+
+.team-eyebrow--inline {
+
+  text-transform: none;
+
+}
+
+.team-founder-name {
+
+  margin: 0;
+
+  font-size: 32px;
+
+  font-weight: 700;
+
+  line-height: 38px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-dark);
+
+}
+
+.team-founder-role {
+
+  margin: 0;
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-primary);
+
+}
+
+.team-founder-tagline {
+
+  margin: 0;
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-text);
+
+}
+
+.team-founder-desc {
+
+  margin: 0;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-text);
+
+}
+
+.team-linkedin-btn {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-top: 8px;
+
+  padding: 14px 24px;
+
+  background: var(--team-bg);
+
+  border-radius: 32px;
+
+  box-shadow: var(--team-raised);
+
+  font-weight: 600;
+
+  font-size: 16px;
+
+  line-height: 24px;
+
+  color: var(--team-primary);
+
+  transition:
+
+    transform 0.2s ease,
+
+    box-shadow 0.2s ease;
+
+    border: none;
+
+}
+
+.team-linkedin-btn:hover {
+
+  transform: translateY(-2px);
+
+  box-shadow:
+
+    -10px -10px 18px #ffffff,
+
+    10px 10px 18px #c6c6c9;
+
+}
+
+.team-values {
+
+  max-width: 1280px;
+
+  margin: 48px auto 0;
+
+  padding: 0 24px;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 16px;
+
+}
+
+/* ==========================================================
+
+   VALUE CARD - REFERENCE NEUMORPHIC BORDER STYLE
+
+   \========================================================== */
+
+.team-value-card {
+
+    background: var(--team-bg);
+
+    border-radius: 28px;
+
+    /* remove normal border */
+
+    border: none;
+
+    /* outer raised card */
+
+    box-shadow:
+
+        10px 10px 22px rgba(190,190,194,0.75),
+
+        -10px -10px 22px rgba(255,255,255,0.95),
+
+        inset 0 0 0 14px rgba(255,255,255,0.55);
+
+    padding: 38px 30px;
+
+    min-height: 190px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+/* inner surface effect */
+
+.team-value-card::before {
+
+    content:"";
+
+    position:absolute;
+
+    inset:14px;
+
+    border-radius:18px;
+
+    background:var(--team-bg);
+
+    box-shadow:
+
+        inset 6px 6px 12px rgba(190,190,194,0.35),
+
+        inset -6px -6px 12px rgba(255,255,255,0.85);
+
+    z-index:0;
+
+}
+
+/* keep text above inner layer */
+
+.team-value-card h3,
+
+.team-value-card p {
+
+    position:relative;
+
+    z-index:1;
+
+}
+
+/* Heading */
+
+.team-value-title {
+
+    font-family:
+
+        "Segoe UI",
+
+        "Inter",
+
+        sans-serif;
+
+    font-size:24px;
+
+    line-height:32px;
+
+    font-weight:700;
+
+    text-align:center;
+
+}
+
+/* Description */
+
+.team-value-desc {
+
+    font-family:
+
+        "Segoe UI",
+
+        "Inter",
+
+        sans-serif;
+
+    font-size:20px;
+
+    line-height:28px;
+
+    text-align:center;
+
+}
+
+/* Mobile */
+
+@media(max-width:767px){
+
+    .team-value-card {
+
+        min-height:150px;
+
+        padding:30px 20px;
+
+        border-radius:24px;
+
+    }
+
+    .team-value-card::before {
+
+        inset:12px;
+
+        border-radius:16px;
+
+    }
+
+    .team-value-title {
+
+        font-size:18px;
+
+        line-height:26px;
+
+    }
+
+    .team-value-desc {
+
+        font-size:14px;
+
+        line-height:22px;
+
+    }
+
+}
+
+.team-value-title {
+
+  margin: 0;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  line-height: 26px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-primary);
+
+}
+
+.team-value-desc {
+
+  margin: 0;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 22px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-text);
+
+}
+
+/* ==========================================================
+
+   GROUP IMAGE FRAME - REDUCED HEIGHT
+
+   \========================================================== */
+
+.team-group-photo {
+
+  max-width: 1280px;
+
+  margin: 48px auto 0;
+
+  padding: 0 24px;
+
+}
+
+.team-group-photo-frame {
+
+  position: relative;
+
+  width: 100%;
+
+  height: 420px;
+
+  border-radius: 32px;
+
+  background: var(--team-bg);
+
+  box-shadow: var(--team-inset-deep);
+
+  overflow: hidden;
+
+}
+
+.team-group-photo-inner {
+
+  position: absolute;
+
+  inset: 16px;
+
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  box-shadow: var(--team-raised-strong);
+
+}
+
+.team-group-photo-inner img {
+
+  width:100%;
+
+  height:100%;
+
+  object-fit:cover;
+
+}
+
+.team-section-title {
+
+  margin: 0 auto;
+
+  max-width: 900px;
+
+  text-align: center;
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  line-height: 32px;
+
+  letter-spacing: 0.03em;
+
+  text-transform: capitalize;
+
+  color: var(--team-dark);
+
+}
+
+.team-grid-section {
+
+  max-width: 1280px;
+
+  margin: 48px auto 0;
+
+  padding: 0 24px;
+
+}
+
+.team-grid {
+
+  margin-top: 24px;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 16px;
+
+}
+
+.team-card {
+
+  background: var(--team-bg);
+
+  border-radius: 16px;
+
+  box-shadow: var(--team-raised-strong);
+
+  padding: 24px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  text-align: center;
+
+  gap: 8px;
+
+}
+
+.team-avatar {
+
+  position: relative;
+
+  width: 110px;
+
+  height: 110px;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+
+  background: var(--team-bg);
+
+  box-shadow: var(--team-inset);
+
+  margin-bottom: 8px;
+
+}
+
+.team-avatar img {
+
+  object-fit: cover;
+
+}
+
+.team-card-name {
+
+  margin: 0;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  line-height: 26px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-primary);
+
+}
+
+.team-card-role {
+
+  margin: 0;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-dark);
+
+}
+
+.team-card-blurb {
+
+  margin: 0;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 22px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-text);
+
+}
+
+.team-bring {
+
+  max-width: 1180px;
+
+  margin: 48px auto 0;
+
+  padding: 0 24px;
+
+  justify-self: center;
+
+}
+
+.team-bring-grid {
+
+  margin-top: 24px;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 24px;
+
+}
+
+.team-bring-item {
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 16px;
+
+}
+
+.team-bring-icon {
+
+  flex: none;
+
+  width: 56px;
+
+  height: 56px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: var(--team-bg);
+
+  box-shadow: var(--team-inset);
+
+}
+
+.team-bring-icon svg {
+
+  width: 26px;
+
+  height: 26px;
+
+}
+
+.team-bring-copy h3 {
+
+  margin: 0 0 8px;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  line-height: 26px;
+
+  letter-spacing: 0.03em;
+
+}
+
+.team-bring-copy p {
+
+  margin: 0;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-dark);
+
+}
+
+.team-how {
+
+  max-width: 900px;
+
+  margin: 48px auto 0;
+
+  padding: 0 24px 48px;
+
+  justify-self: center;
+
+}
+
+.team-how-grid {
+
+  margin-top: 50px;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 60px;
+
+}
+
+.team-how-card {
+
+  background: var(--team-bg);
+
+  box-shadow: var(--team-inset);
+
+  text-align: center;
+
+  border-radius: 24px 24px 100px 100px;
+
+  padding: 40px 24px 20px;
+
+  position: relative;
+
+  width: 330px;
+
+  height: 132px;
+
+}
+
+.team-how-icon {
+
+  position: absolute;
+
+  top: -28px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 56px;
+
+  height: 56px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: #dfe6e9;
+
+  box-shadow: var(--team-raised-strong);
+
+  border: 2px solid;
+
+}
+
+.team-how-icon svg {
+
+  width: 26px;
+
+  height: 26px;
+
+}
+
+.team-how-card h3 {
+
+  margin: 0 0 8px;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  line-height: 26px;
+
+  letter-spacing: 0.03em;
+
+}
+
+.team-how-card p {
+
+  margin: 0;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  line-height: 22px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-dark);
+
+}
+
+@media (min-width: 768px) {
+
+  .team-hero {
+
+    max-width: 700px;
+
+    padding-top: 56px;
+
+  }
+
+  .team-hero-title {
+
+    font-size: 36px;
+
+    line-height: 44px;
+
+  }
+
+  .team-hero-desc {
+
+    font-size: 24px;
+
+    line-height: 32px;
+
+  }
+
+  .team-founder {
+
+    flex-direction: row;
+
+    align-items: center;
+
+    margin-top: 64px;
+
+  }
+
+  .team-founder-photo {
+
+    flex: 0 0 45%;
+
+  }
+
+  .team-founder-content {
+
+    flex: 1;
+
+  }
+
+  .team-founder-name {
+
+    font-size: 40px;
+
+    line-height: 46px;
+
+  }
+
+  .team-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .team-bring-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 40px;
+
+  }
+
+  .team-how-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .team-section-title {
+
+    font-size: 24px;
+
+    line-height: 44px;
+
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .team-founder-photo {
+
+    flex: 0 0 460px;
+
+  }
+
+  .team-hero {
+
+    max-width: 900px;
+
+  }
+
+  .team-values {
+
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+  .team-grid {
+
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  .team-hero {
+
+    max-width: 1052px;
+
+    padding-top: 64px;
+
+  }
+
+  .team-eyebrow {
+
+    font-size: 24px;
+
+    line-height: 32px;
+
+    padding: 12px 32px;
+
+  }
+
+  .team-hero-pills {
+
+    gap: 32px;
+
+    margin-top: 32px;
+
+  }
+
+  .team-hero-pill {
+
+    width: 300px;
+
+    height: 90px;
+
+  }
+
+  .team-founder-photo {
+
+    flex: 0 0 608px;
+
+  }
+
+  .team-founder-name {
+
+    font-size: 48px;
+
+    line-height: 50px;
+
+  }
+
+  .team-founder-role,
+
+  .team-founder-tagline {
+
+    font-size: 28px;
+
+    line-height: 40px;
+
+  }
+
+  .team-founder-desc {
+
+    font-size: 24px;
+
+    line-height: 32px;
+
+  }
+
+  .team-linkedin-btn {
+
+    padding: 16px 32px;
+
+    font-size: 24px;
+
+    line-height: 32px;
+
+  }
+
+  .team-values {
+
+    gap: 32px;
+
+  }
+
+  .team-value-title {
+
+    font-size: 24px;
+
+    line-height: 32px;
+
+  }
+
+  .team-value-desc {
+
+    font-size: 20px;
+
+    line-height: 28px;
+
+  }
+
+  .team-section-title {
+
+    font-size: 36px;
+
+    line-height: 70px;
+
+  }
+
+  .team-how .team-section-title {
+
+    font-size: 36px;
+
+    line-height: 74px;
+
+  }
+
+  .team-grid {
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 32px;
+
+  }
+
+  .team-avatar {
+
+    width: 147px;
+
+    height: 147px;
+
+  }
+
+  .team-card-name,
+
+  .team-card-blurb {
+
+    font-size: 20px;
+
+    line-height: 28px;
+
+  }
+
+  .team-card-role {
+
+    font-size: 18px;
+
+    line-height: 26px;
+
+  }
+
+  .team-bring-item h3 {
+
+    font-size: 24px;
+
+    line-height: 36px;
+
+  }
+
+  .team-bring-item p {
+
+    font-size: 20px;
+
+    line-height: 28px;
+
+  }
+
+  .team-how-card h3 {
+
+    font-size: 28px;
+
+    line-height: 42px;
+
+  }
+
+  .team-how-card p {
+
+    font-size: 20px;
+
+    line-height: 28px;
+
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+  .team-breadcrumb,
+
+  .team-founder,
+
+  .team-values,
+
+  .team-group-photo,
+
+  .team-grid-section,
+
+  .team-bring,
+
+  .team-how {
+
+    padding-left: 80px;
+
+    padding-right: 80px;
+
+  }
+
+}
+
+@media (min-width: 2560px) {
+
+  .team-page {
+
+    font-size: 1.15em;
+
+  }
+
+}
+
+/* Value cards - no image layout */
+
+.team-value-title {
+
+  margin: 0;
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+
+  font-size: 24px;
+
+  line-height: 32px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-primary);
+
+}
+
+.team-value-desc {
+
+  margin: 0;
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+
+  font-size: 20px;
+
+  line-height: 28px;
+
+  font-weight: 400;
+
+  letter-spacing: 0.03em;
+
+  color: var(--team-text);
+
+}
+
+@media(max-width:767px){
+
+  .team-values{
+
+    grid-template-columns:1fr;
+
+    gap:16px;
+
+    padding:0 20px;
+
+  }
+
+  .team-value-card{
+
+    min-height:120px;
+
+    padding:20px;
+
+    border-radius:20px;
+
+  }
+
+  .team-value-title{
+
+    font-size:18px;
+
+    line-height:26px;
+
+  }
+
+  .team-value-desc{
+
+    font-size:14px;
+
+    line-height:22px;
+
+  }
+
+}
+
+/* ==========================================================
+
+   VALUE CARDS - CENTER ALIGN + REFERENCE BORDER STYLE
+
+   \========================================================== */
+
+.team-values {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 28px;
+
+}
+
+.team-value-card {
+
+  background: var(--team-bg);
+
+  border-radius: 26px;
+
+  /* reference neumorphic raised border */
+
+  border: 1px solid rgba(255,255,255,0.75);
+
+  box-shadow:
+
+    8px 8px 18px rgba(198,198,201,0.65),
+
+    -8px -8px 18px rgba(255,255,255,0.95);
+
+  padding: 28px 24px;
+
+  min-height: 150px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:center;
+
+  align-items:center;
+
+  text-align:center;
+
+  gap:10px;
+
+}
+
+/* Heading center */
+
+.team-value-title {
+
+  width:100%;
+
+  margin:0;
+
+  text-align:center;
+
+  font-family:"Segoe UI","Inter",sans-serif;
+
+  font-size:24px;
+
+  line-height:1.3;
+
+  font-weight:700;
+
+}
+
+/* Description center */
+
+.team-value-desc {
+
+  width:100%;
+
+  margin:0;
+
+  text-align:center;
+
+  font-family:"Segoe UI","Inter",sans-serif;
+
+  font-size:20px;
+
+  line-height:1.4;
+
+}
+
+/* Tablet */
+
+@media(max-width:1024px){
+
+  .team-values{
+
+    grid-template-columns:repeat(2,minmax(0,1fr));
+
+    gap:24px;
+
+  }
+
+}
+
+/* Mobile */
+
+@media(max-width:767px){
+
+  .team-values{
+
+    grid-template-columns:1fr;
+
+    gap:18px;
+
+    padding-inline:20px;
+
+  }
+
+  .team-value-card{
+
+    min-height:130px;
+
+    padding:22px 18px;
+
+    border-radius:22px;
+
+  }
+
+  .team-value-title{
+
+    font-size:18px;
+
+    line-height:26px;
+
+  }
+
+  .team-value-desc{
+
+    font-size:14px;
+
+    line-height:22px;
+
+  }
+
+}
+
+/* ==========================================================
+
+   FINAL VALUE CARD - REFERENCE INNER SHADOW BORDER
+
+   Overrides previous value card styles
+
+   \========================================================== */
+
+.team-value-card {
+
+  background: var(--team-bg);
+
+  border: none;
+
+  border-radius: 28px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 38px 30px;
+
+  min-height: 190px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  box-shadow:
+
+    10px 10px 22px rgba(196,196,196,0.45),
+
+    -10px -10px 22px rgba(255,255,255,0.95);
+
+}
+
+/* Inner recessed border only */
+
+.team-value-card::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 14px;
+
+  border-radius: 20px;
+
+  background: var(--team-bg);
+
+  box-shadow:
+
+    inset 6px 6px 14px rgba(196,196,196,0.55),
+
+    inset -6px -6px 14px rgba(255,255,255,0.95);
+
+  z-index: 0;
+
+}
+
+.team-value-card h3,
+
+.team-value-card p {
+
+  position: relative;
+
+  z-index: 1;
+
+}
+
+/* Keep typography */
+
+.team-value-title {
+
+  margin: 0 0 14px;
+
+  font-family:
+
+    "Segoe UI",
+
+    "Inter",
+
+    sans-serif;
+
+  font-size: 24px;
+
+  line-height: 32px;
+
+  font-weight: 700;
+
+  text-align: center;
+
+  color: var(--team-primary);
+
+}
+
+.team-value-desc {
+
+  margin: 0;
+
+  font-family:
+
+    "Segoe UI",
+
+    "Inter",
+
+    sans-serif;
+
+  font-size: 20px;
+
+  line-height: 28px;
+
+  font-weight: 400;
+
+  text-align: center;
+
+  color: var(--team-text);
+
+}
+
+@media(max-width:767px){
+
+  .team-value-card {
+
+    min-height:150px;
+
+    padding:28px 20px;
+
+    border-radius:24px;
+
+  }
+
+  .team-value-card::before {
+
+    inset:12px;
+
+    border-radius:18px;
+
+  }
+
+  .team-value-title {
+
+    font-size:18px;
+
+    line-height:26px;
+
+  }
+
+  .team-value-desc {
+
+    font-size:14px;
+
+    line-height:22px;
+
+  }
+
+}
+
+/* ==========================================================
+
+   FOUNDER SECTION - TABLET & MOBILE ORDER FIX
+
+   Order:
+
+   Label
+
+   Image
+
+   Name
+
+   Role
+
+   Tagline
+
+   Description
+
+   Button
+
+   \========================================================== */
+
+@media (max-width:1024px){
+
+  .team-founder{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:28px;
+
+    padding:0 24px;
+
+  }
+
+  /*
+
+     Make content children participate
+
+     in parent ordering
+
+  */
+
+  .team-founder-content{
+
+    display:contents;
+
+  }
+
+  /* 1. Label */
+
+  .team-eyebrow--inline{
+
+    order:1;
+
+    align-self:center;
+
+    margin-bottom:4px;
+
+  }
+
+  /* 2. Image */
+
+  .team-founder-photo{
+
+    order:2;
+
+    width:100%;
+
+    max-width:520px;
+
+    aspect-ratio:1 / 1;
+
+  }
+
+  /* 3. Name */
+
+  .team-founder-name{
+
+    order:3;
+
+    width:100%;
+
+    text-align:center;
+
+  }
+
+  /* 4. Role */
+
+  .team-founder-role{
+
+    order:4;
+
+    width:100%;
+
+    text-align:center;
+
+  }
+
+  /* 5. Tagline */
+
+  .team-founder-tagline{
+
+    order:5;
+
+    width:100%;
+
+    text-align:center;
+
+  }
+
+  /* 6. Description */
+
+  .team-founder-desc{
+
+    order:6;
+
+    width:100%;
+
+    text-align:center;
+
+  }
+
+  /* 7. Button */
+
+  .team-linkedin-btn{
+
+    order:7;
+
+    align-self:center;
+
+  }
+
+}
+
+/* ==========================================================
+
+   MOBILE SPECIFIC
+
+   \========================================================== */
+
+@media(max-width:767px){
+
+  .team-founder{
+
+    padding:0 20px;
+
+    gap:22px;
+
+    margin-top:32px;
+
+  }
+
+  .team-eyebrow--inline{
+
+    font-size:18px;
+
+    line-height:26px;
+
+    padding:10px 24px;
+
+  }
+
+  .team-founder-photo{
+
+    width:100%;
+
+    max-width:360px;
+
+    aspect-ratio:1 / 1;
+
+    border-radius:24px;
+
+  }
+
+  .team-founder-name{
+
+    font-size:32px;
+
+    line-height:40px;
+
+  }
+
+  .team-founder-role{
+
+    font-size:20px;
+
+    line-height:28px;
+
+  }
+
+  .team-founder-tagline{
+
+    font-size:20px;
+
+    line-height:28px;
+
+  }
+
+  .team-founder-desc{
+
+    font-size:16px;
+
+    line-height:26px;
+
+  }
+
+  .team-linkedin-btn{
+
+    font-size:18px;
+
+    padding:14px 28px;
+
+  }
+
+}
+
+/* ==========================================================
+
+   LINKEDIN BUTTON - CLEAN HOVER IN / OUT EFFECT
+
+   SINGLE VERSION ONLY
+
+   \========================================================== */
+
+.team-linkedin-btn {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  margin-top: 8px;
+
+  padding: 16px 32px;
+
+  background: var(--team-bg);
+
+  border: none;
+
+  border-radius: 32px;
+
+  cursor: pointer;
+
+  font-family:
+
+    "Segoe UI",
+
+    "Inter",
+
+    sans-serif;
+
+  font-size: 24px;
+
+  line-height: 32px;
+
+  font-weight: 600;
+
+  color: var(--team-primary);
+
+  /* Normal OUT / Raised state */
+
+  box-shadow:
+
+    -8px -8px 16px #ffffff,
+
+    8px 8px 16px #c6c6c9;
+
+  transform: translateY(0);
+
+  transition:
+
+    transform .35s ease,
+
+    box-shadow .35s ease;
+
+}
+
+/* Hover IN */
+
+.team-linkedin-btn:hover {
+
+  transform: translateY(-4px);
+
+  box-shadow:
+
+    -14px -14px 24px #ffffff,
+
+    14px 14px 24px #c6c6c9;
+
+}
+
+/* Remove click movement */
+
+.team-linkedin-btn:active {
+
+  transform: translateY(0);
+
+}
+
+/* ==========================================================
+
+   TEAM CARD LINKEDIN ICON
+
+   NEUMORPHIC CIRCLE STYLE
+
+   \========================================================== */
+
+.team-card-linkedin {
+
+    width:58px;
+
+    height:58px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-top:18px;
+
+    border-radius:50%;
+
+    background:var(--team-bg);
+
+    color:var(--team-primary);
+
+    box-shadow:
+
+        -6px -6px 14px #ffffff,
+
+        6px 6px 14px #c6c6c9;
+
+    transition:
+
+        transform .35s ease,
+
+        box-shadow .35s ease;
+
+}
+
+/* LinkedIn icon */
+
+.team-card-linkedin svg {
+
+    width:30px;
+
+    height:30px;
+
+    stroke:var(--team-primary);
+
+}
+
+/* Hover IN */
+
+.team-card-linkedin:hover {
+
+    transform:translateY(-4px);
+
+    box-shadow:
+
+        -10px -10px 20px #ffffff,
+
+        10px 10px 20px #c6c6c9;
+
+}
+
+/* Hover OUT */
+
+.team-card-linkedin {
+
+    transition:
+
+        transform .35s ease,
+
+        box-shadow .35s ease;
+
+}
+
+@media(max-width:767px){
+
+    .team-card-linkedin {
+
+        width:48px;
+
+        height:48px;
+
+    }
+
+    .team-card-linkedin svg {
+
+        width:24px;
+
+        height:24px;
+
+    }
+
+}
+
+/* ==========================================================================
+
+   FOUNDER SECTION — IMAGE BACKGROUND REMOVED + IMAGE/HEADINGS ALIGNMENT FIX
+
+   Scoped only to the founder block shown in the supplied screenshot.
+
+   \========================================================================== */
+
+.team-founder {
+
+  align-items: center;
+
+}
+
+.team-founder-photo {
+
+  background: transparent !important;
+
+  border-radius: 0 !important;
+
+  overflow: visible !important;
+
+  box-shadow: none !important;
+
+}
+
+.team-founder-photo img {
+
+  width: 100% !important;
+
+  height: 100% !important;
+
+  object-fit: contain !important;
+
+  object-position: center !important;
+
+}
+
+.team-founder-content {
+
+  min-width: 0;
+
+}
+
+.team-eyebrow--inline,
+
+.team-founder-name,
+
+.team-founder-role,
+
+.team-founder-tagline,
+
+.team-founder-desc {
+
+  max-width: 100%;
+
+}
+
+.team-founder-name,
+
+.team-founder-role,
+
+.team-founder-tagline,
+
+.team-founder-desc {
+
+  overflow: visible !important;
+
+  white-space: normal !important;
+
+  word-break: normal !important;
+
+  overflow-wrap: normal !important;
+
+}
+
+/* Desktop — preserve the existing desktop design/sizing, only correct alignment */
+
+@media (min-width: 1025px) {
+
+  .team-founder {
+
+    display: grid !important;
+
+    grid-template-columns: minmax(0, 608px) minmax(0, 1fr) !important;
+
+    column-gap: 32px !important;
+
+    align-items: center !important;
+
+  }
+
+  .team-founder-photo {
+
+    width: 100% !important;
+
+    max-width: 608px !important;
+
+    aspect-ratio: 608 / 603 !important;
+
+    flex: none !important;
+
+  }
+
+  .team-founder-content {
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    align-items: flex-start !important;
+
+  }
+
+  .team-eyebrow--inline {
+
+    width: fit-content !important;
+
+    max-width: 100% !important;
+
+  }
+
+  .team-founder-name,
+
+  .team-founder-role,
+
+  .team-founder-tagline,
+
+  .team-founder-desc {
+
+    width: 100% !important;
+
+    text-align: left !important;
+
+  }
+
+}
+
+/* Tablet — label, image and every heading remain fully visible and centered */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .team-founder {
+
+    width: 100% !important;
+
+    max-width: 760px !important;
+
+    margin-inline: auto !important;
+
+    padding-inline: 24px !important;
+
+  }
+
+  .team-founder-photo {
+
+    width: min(100%, 560px) !important;
+
+    max-width: 560px !important;
+
+    aspect-ratio: 608 / 603 !important;
+
+  }
+
+  .team-founder-content {
+
+    width: 100% !important;
+
+  }
+
+  .team-eyebrow--inline {
+
+    width: fit-content !important;
+
+    max-width: calc(100% - 24px) !important;
+
+    text-align: center !important;
+
+  }
+
+  .team-founder-name,
+
+  .team-founder-role,
+
+  .team-founder-tagline,
+
+  .team-founder-desc {
+
+    width: 100% !important;
+
+    max-width: 680px !important;
+
+    margin-inline: auto !important;
+
+    text-align: center !important;
+
+  }
+
+}
+
+/* Mobile — no cropped image, no cut headings */
+
+@media (max-width: 767px) {
+
+  .team-founder {
+
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    padding-inline: 20px !important;
+
+  }
+
+  .team-founder-photo {
+
+    width: 100% !important;
+
+    max-width: 380px !important;
+
+    height: auto !important;
+
+    aspect-ratio: 608 / 603 !important;
+
+  }
+
+  .team-founder-photo img {
+
+    object-fit: contain !important;
+
+    object-position: center !important;
+
+  }
+
+  .team-founder-content {
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+  }
+
+  .team-eyebrow--inline {
+
+    width: fit-content !important;
+
+    max-width: 100% !important;
+
+    margin-inline: auto !important;
+
+    padding-inline: 18px !important;
+
+    white-space: normal !important;
+
+    text-align: center !important;
+
+  }
+
+  .team-founder-name,
+
+  .team-founder-role,
+
+  .team-founder-tagline,
+
+  .team-founder-desc {
+
+    width: 100% !important;
+
+    max-width: 100% !important;
+
+    margin-inline: auto !important;
+
+    text-align: center !important;
+
+    overflow: visible !important;
+
+  }
+
+}
+
+/* ==========================================================================
+
+   GROUP PHOTO — FULL IMAGE VISIBLE, NO TOP/BOTTOM CROP
+
+   Only the group-photo section is corrected.
+
+   \========================================================================== */
+
+.team-group-photo-frame {
+
+  width: 100% !important;
+
+  height: auto !important;
+
+  min-height: 0 !important;
+
+  aspect-ratio: 1104 / 388 !important;
+
+  overflow: visible !important;
+
+}
+
+.team-group-photo-inner {
+
+  position: absolute !important;
+
+  inset: 16px !important;
+
+  overflow: hidden !important;
+
+}
+
+.team-group-photo-inner img {
+
+  width: 100% !important;
+
+  height: 100% !important;
+
+  object-fit: contain !important;
+
+  object-position: center center !important;
+
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .team-group-photo {
+
+    padding-inline: 24px !important;
+
+  }
+
+  .team-group-photo-frame {
+
+    aspect-ratio: 1104 / 388 !important;
+
+  }
+
+  .team-group-photo-inner {
+
+    inset: 12px !important;
+
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+  .team-group-photo {
+
+    width: 100% !important;
+
+    padding-inline: 20px !important;
+
+  }
+
+  .team-group-photo-frame {
+
+    width: 100% !important;
+
+    height: auto !important;
+
+    aspect-ratio: 1104 / 388 !important;
+
+    border-radius: 22px !important;
+
+  }
+
+  .team-group-photo-inner {
+
+    inset: 8px !important;
+
+    border-radius: 14px !important;
+
+  }
+
+  .team-group-photo-inner img {
+
+    object-fit: contain !important;
+
+    object-position: center center !important;
+
+  }
+
+}
+
+/* Requested corrections: shared badges and founder LinkedIn hover only. */
+
+.team-page .team-eyebrow {
+
+  justify-content: center;
+
+  padding-inline: 20px;
+
+  border-radius: 28px;
+
+  background: var(--team-bg);
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  font-family: "Segoe UI", Inter, Arial, sans-serif;
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 32px;
+
+  color: var(--team-primary);
+
+  text-align: center;
+
+}
+
+@media (max-width: 768px) {
+
+  .team-page .team-eyebrow {
+
+    font-size: 18px;
+
+    line-height: 26px;
+
+  }
+
+}
+
+.team-page .team-founder .team-linkedin-btn {
+
+  color: var(--team-primary);
+
+  cursor: pointer;
+
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9;
+
+  transform: none;
+
+  transition: box-shadow 180ms ease;
+
+}
+
+.team-page .team-founder .team-linkedin-btn:hover,
+
+.team-page .team-founder .team-linkedin-btn:focus-visible,
+
+.team-page .team-founder .team-linkedin-btn:active {
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  transform: none;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .team-page .team-founder .team-linkedin-btn {
+
+    transition: none;
+
+  }
+
+}
+
+/* Requested heading accent: only the final word of main headings */
+
+.team-heading-accent {
+
+  color: var(--team-primary);
+
+}
+
+/* Keep every team-card subtext on exactly two intentional lines */
+
+.team-card-blurb {
+
+  white-space: pre-line;
+
+  min-height: 44px;
+
+}
+
+@media (min-width: 1280px) {
+
+  .team-card-blurb {
+
+    min-height: 56px;
+
+  }
+
+}
+
+/* =========================================================
+
+   REQUESTED TEAM PAGE REFINEMENTS
+
+   ========================================================= */
+
+/* Keep "Meet The People Behind The Platform" on one line on desktop. */
+
+@media (min-width: 768px) {
+
+  .team-section-title--people {
+
+    max-width: none;
+
+    white-space: nowrap;
+
+  }
+
+}
+
+/* Only these two section headings use the blue neumorphic badge style. */
+
+.team-section-badge {
+
+  width: fit-content;
+
+  max-width: calc(100% - 32px);
+
+  padding: 10px 28px;
+
+  border-radius: 28px;
+
+  background: var(--team-bg);
+
+  box-shadow: var(--team-inset);
+
+  color: var(--team-primary);
+
+  line-height: 1.3 !important;
+
+  text-transform: none;
+
+}
+
+.team-section-badge .team-heading-accent {
+
+  color: var(--team-primary);
+
+}
+
+/* TM beside NeuroLXP. */
+
+.team-tm {
+
+  position: relative;
+
+  top: -0.72em;
+
+  margin-left: 3px;
+
+  font-size: 0.32em;
+
+  font-weight: 800;
+
+  line-height: 1;
+
+  letter-spacing: 0;
+
+  color: inherit;
+
+}
+
+.team-tm--badge {
+
+  top: -0.62em;
+
+  font-size: 0.42em;
+
+}
+
+/* Increase text only inside the three hero cards on desktop. */
+
+@media (min-width: 768px) {
+
+  .team-hero-pill {
+
+    font-size: 24px;
+
+    line-height: 32px;
+
+  }
+
+}
+
+/* Match the visual style of the "Our Team" inset badge only.
+
+   Alignment/position is intentionally untouched. */
+
+.team-section-badge {
+
+  width: fit-content;
+
+  max-width: 100%;
+
+  padding: 8px 24px;
+
+  border-radius: 28px;
+
+  background: var(--team-bg);
+
+  box-shadow: var(--team-inset);
+
+  color: var(--team-primary);
+
+  font-size: 16px !important;
+
+  font-weight: 600;
+
+  line-height: 24px !important;
+
+  letter-spacing: 0.03em;
+
+  text-transform: capitalize;
+
+  transform: none !important;
+
+  transition: none !important;
+
+  filter: none !important;
+
+}
+
+.team-section-badge:hover,
+
+.team-section-badge:focus,
+
+.team-section-badge:focus-visible,
+
+.team-section-badge:active {
+
+  background: var(--team-bg);
+
+  box-shadow: var(--team-inset);
+
+  color: var(--team-primary);
+
+  transform: none !important;
+
+  filter: none !important;
+
+}
+
+@media (min-width: 1280px) {
+
+  .team-section-badge {
+
+    padding: 12px 32px;
+
+    font-size: 24px !important;
+
+    line-height: 32px !important;
+
+  }
+
+}
+
+/* FINAL FIX: use the exact real inset shadow from the "Our Team" badge.
+
+   No alignment or positioning changes. */
+
+.team-page .team-section-badge {
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+}
+
+.team-page .team-section-badge:hover,
+
+.team-page .team-section-badge:focus,
+
+.team-page .team-section-badge:focus-visible,
+
+.team-page .team-section-badge:active {
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+  transform: none !important;
+
+  filter: none !important;
+
+}
+
+
+
+/* Expert button anchor only: does not alter the How We Work layout. */
+.team-page .team-how {
+  position: relative;
+}
+
+.team-page .team-expert-button-slot {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  width: 0;
+  height: 0;
+  z-index: 20;
+}
+
+@media (max-width: 767px) {
+  .team-page .team-expert-button-slot {
+    top: -48px;
+    right: 80px;
+  }
+}
+/* OUR TEAM BREADCRUMB */
+
+.team-page .frameDiv {
+  position: relative;
+  width: min(1280px, calc(100% - 48px));
+  min-height: 24px;
+  margin: 0 auto 32px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  background: #dfe6e9;
+  color: #2f3547;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+.team-page .resourcesWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.team-page .resources2 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2f3547;
+}
+
+.team-page .arrowRightDoubleParent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #243fa8;
+}
+
+.team-page .arrowRightDoubleParent .resources2 {
+  color: #243fa8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.team-page .arrowDown01Icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .team-page .frameDiv {
+    width: calc(100% - 48px);
+    margin: 0 auto 32px;
+    white-space: nowrap;
+  }
+}
+/* OUR TEAM BREADCRUMB - FINAL FIX */
+
+.team-page .team-breadcrumb {
+  width: min(1280px, calc(100% - 48px));
+  max-width: 1280px;
+  margin: 0 auto 32px;
+  padding: 0;
+  min-height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+
+  background: transparent;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+.team-page .team-breadcrumb-parent {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2f3547;
+}
+
+.team-page .team-breadcrumb-current {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #243fa8;
+}
+
+.team-page .team-breadcrumb-current img {
+  display: block;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.team-page .team-breadcrumb-current strong {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #243fa8;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .team-page .team-breadcrumb {
+    width: calc(100% - 48px);
+    margin: 0 auto 32px;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .team-page .team-breadcrumb-parent,
+  .team-page .team-breadcrumb-current,
+  .team-page .team-breadcrumb-current strong {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/* Breadcrumb top spacing */
+.team-page .team-breadcrumb {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .team-page .team-breadcrumb {
+    margin-top: 16px;
+  }
+}
+
+/* HOW WE WORK - RESPONSIVE FIX */
+
+.team-page .team-how {
+  width: 100%;
+  max-width: 1000px;
+  margin: 48px auto 0;
+  padding: 0 24px 60px;
+  box-sizing: border-box;
+}
+
+.team-page .team-how-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-items: center;
+  align-items: stretch;
+  gap: 64px 32px;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.team-page .team-how-card {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  min-height: 160px;
+  padding: 48px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.team-page .team-how-icon {
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.team-page .team-how-card h3 {
+  margin: 0 0 8px;
+  overflow-wrap: break-word;
+}
+
+.team-page .team-how-card p {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+/* TABLET */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .team-page .team-how {
+    padding: 0 24px 56px;
+  }
+
+  .team-page .team-how-grid {
+    gap: 60px 24px;
+  }
+
+  .team-page .team-how-card {
+    min-height: 150px;
+    padding: 44px 16px 20px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+  .team-page .team-how {
+    width: 100%;
+    margin: 40px auto 0;
+    padding: 0 20px 48px;
+  }
+
+  .team-page .team-how-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 52px;
+    margin-top: 60px;
+  }
+
+  .team-page .team-how-card {
+    width: 100%;
+    max-width: 380px;
+    min-height: 135px;
+    padding: 40px 16px 20px;
+    margin: 0 auto;
+  }
+
+  .team-page .team-how-card h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .team-page .team-how-card p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

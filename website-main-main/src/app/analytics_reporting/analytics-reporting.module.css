@@ -1,0 +1,5748 @@
+/* Analytics & Reporting — complete replacement stylesheet.
+
+
+
+   Uses the final gamification reference tokens and existing class names.
+
+
+
+   Replace the old module; do not append this file to its legacy overrides.
+
+
+
+   Section heights follow content. Only decorative layers are absolute.
+
+
+
+   Screenshot repair: constrained hero, tighter report copy, selectable text,
+
+
+
+   and content-based CTA sizing with the original oval artwork retained.
+
+
+
+   For exact two-line card labels, use these JSX text children:
+
+
+
+     Monitor learner<br />progress
+
+
+
+     Spot knowledge<br />gaps
+
+
+
+     Track<br />Engagement
+
+
+
+     Analyse<br />Performance
+
+
+
+     Improve<br />Curriculum
+
+
+
+   Keep each existing label class; no line-clamp or text clipping is used.
+
+
+
+   Inter must already be loaded by the app on devices without Segoe UI. */
+
+
+
+
+
+
+
+.analyticsReporting {
+
+
+
+  --page-gutter: clamp(16px, 3.75vw, 48px);
+
+
+
+  --section-space: 64px;
+
+
+
+  --section-gap: 32px;
+
+
+
+  --heading-size: 36px;
+
+
+
+  --heading-leading: 1.35;
+
+
+
+  --body-size: 24px;
+
+
+
+  --label-size: 22px;
+
+
+
+  --badge-size: 24px;
+
+
+
+  --badge-height: 56px;
+
+
+
+  --badge-padding: 12px 36px;
+
+
+
+  --button-size: 24px;
+
+
+
+  --button-height: 60px;
+
+
+
+  --button-padding: 16px 28px;
+
+
+
+  --button-leading: 1.2;
+
+
+
+  --panel-padding: 32px;
+
+
+
+  --icon-size: 64px;
+
+
+
+  --report-icon-size: 96px;
+
+
+
+  --neu-bg: #dfe6e9;
+
+
+
+  --neu-raised: -4px -4px 4px #fff, 4px 4px 4px #c4c4c4;
+
+
+
+  --neu-inset: inset -4px -4px 4px #fff, inset 4px 4px 4px rgba(196, 196, 196, .8);
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: center;
+
+
+
+  gap: 0;
+
+
+
+  width: 100%;
+
+
+
+  max-width: 100%;
+
+
+
+  min-width: 0;
+
+
+
+  height: auto;
+
+
+
+  margin: 0 auto;
+
+
+
+  padding: 0 0 48px;
+
+
+
+  box-sizing: border-box;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  color: #31344b;
+
+
+
+  font-family: "Inter", "Segoe UI";
+
+
+
+  font-size: 20px;
+
+
+
+  line-height: 1.5;
+
+
+
+  text-align: center;
+
+
+
+  overflow-wrap: anywhere;
+
+
+
+  /* Contain decorative paint without creating a horizontal scroll container. */
+
+
+
+  overflow-x: clip;
+
+
+
+}
+
+
+
+
+
+
+
+.analyticsReporting *,
+
+
+
+.analyticsReporting *::before,
+
+
+
+.analyticsReporting *::after { box-sizing: border-box; }
+
+
+
+.analyticsReporting,
+
+
+
+.analyticsReporting * {
+
+
+
+  font-family: "Inter", "Segoe UI";
+
+
+
+  -webkit-user-select: text;
+
+
+
+  user-select: text;
+
+
+
+}
+
+
+
+.analyticsReporting ::selection {
+
+
+
+  background: #c2d0ff;
+
+
+
+  color: #172651;
+
+
+
+  -webkit-text-fill-color: #172651;
+
+
+
+}
+
+
+
+.analyticsReporting :where(div, section, article, nav, figure) { min-width: 0; }
+
+
+
+.analyticsReporting :where(h1, h2, h3, p, figure) { margin: 0; }
+
+
+
+.analyticsReporting :where(img, svg, video, canvas) { max-width: 100%; }
+
+
+
+.analyticsReporting :where(button, a) { -webkit-tap-highlight-color: transparent; }
+
+
+
+.analyticsReporting :where(a, button, [tabindex]):focus-visible {
+
+
+
+  outline: 3px solid #2d4cc8;
+
+
+
+  outline-offset: 4px;
+
+
+
+}
+
+
+
+
+
+
+
+/* The uploaded page already delegates its header/footer to the shared layout. */
+
+
+
+.frameParent,
+
+
+
+.frameParent59,
+
+
+
+.frameItem,
+
+
+
+.rectangle,
+
+
+
+.image20,
+
+
+
+.image204 { display: none; }
+
+
+
+
+
+
+
+/* Breadcrumb: reference placement, including its 1280px/1440px shell changes. */
+
+
+
+.frameDiv {
+
+
+
+  order: 1;
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  flex-wrap: wrap;
+
+
+
+  align-items: center;
+
+
+
+  justify-content: flex-start;
+
+
+
+  gap: 8px;
+
+
+
+  width: min(100%, 1280px);
+
+
+
+  height: auto;
+
+
+
+  margin: 0 auto 24px;
+
+
+
+  padding: 32px 20px 0;
+
+
+
+  color: #2f3547;
+
+
+
+  font-size: 14px;
+
+
+
+  font-weight: 400;
+
+
+
+  line-height: 20px;
+
+
+
+  letter-spacing: .02em;
+
+
+
+  text-align: left;
+
+
+
+}
+
+
+
+.frameDiv .featuresWrapper,
+
+
+
+.frameDiv .homeParent,
+
+
+
+.frameDiv .arrowRightDoubleGroup {
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  flex: 0 1 auto;
+
+
+
+  min-width: 0;
+
+
+
+  max-width: 100%;
+
+
+
+  gap: 8px;
+
+
+
+}
+
+
+
+.frameDiv .home,
+
+
+
+.frameDiv .features,
+
+
+
+.frameDiv .learningEcoSystem {
+
+
+
+  margin: 0;
+
+
+
+  padding: 0;
+
+
+
+  font: inherit;
+
+
+
+  color: inherit;
+
+
+
+  white-space: normal;
+
+
+
+  text-decoration: none;
+
+
+
+}
+
+
+
+.frameDiv .arrowRightDoubleGroup { color: #243fa8; }
+
+
+
+.frameDiv .arrowRightDoubleGroup .learningEcoSystem {
+
+
+
+  font-size: 14px;
+
+
+
+  font-weight: 700;
+
+
+
+  line-height: 24px;
+
+
+
+}
+
+
+
+.frameDiv .arrowDown01Icon,
+
+
+
+.frameDiv .breadcrumbDoubleArrow {
+
+
+
+  display: block;
+
+
+
+  width: 16px;
+
+
+
+  height: 16px;
+
+
+
+  flex: 0 0 16px;
+
+
+
+  object-fit: contain;
+
+
+
+  align-self: center;
+
+
+
+}
+
+
+
+
+
+
+
+/* Shared section shell and original content order. */
+
+
+
+.analyticsReporting > .frameParent12,
+
+
+
+.analyticsReporting > .frameParent2,
+
+
+
+.analyticsReporting > .analyticsReportingInner,
+
+
+
+.analyticsReporting > .frameParent30,
+
+
+
+.analyticsReporting > .analyticsReportingChild,
+
+
+
+.analyticsReporting > .frameParent46,
+
+
+
+.analyticsReporting > .frameParent50,
+
+
+
+.analyticsReporting > .ellipseParent {
+
+
+
+  position: relative;
+
+
+
+  width: min(1280px, calc(100% - 2 * var(--page-gutter)));
+
+
+
+  max-width: 1280px;
+
+
+
+  min-width: 0;
+
+
+
+  height: auto;
+
+
+
+  margin: var(--section-space) auto 0;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.analyticsReporting > .frameParent12 { order: 2; margin-top: 0; }
+
+
+
+.analyticsReporting > .frameParent2 { order: 3; }
+
+
+
+.analyticsReporting > .analyticsReportingInner { order: 4; }
+
+
+
+.analyticsReporting > .frameParent30 { order: 5; }
+
+
+
+.analyticsReporting > .analyticsReportingChild { order: 6; }
+
+
+
+.analyticsReporting > .frameParent46 { order: 7; }
+
+
+
+.analyticsReporting > .frameParent50 { order: 8; }
+
+
+
+.analyticsReporting > .ellipseParent { order: 9; margin-top: 48px; }
+
+
+
+
+
+
+
+/* Content wrappers: one sizing rule, with no fixed text heights or offsets. */
+
+
+
+.frameParent12, .frameParent13, .frameWrapper, .frameParent14,
+
+
+
+.turnLearningDataIntoActionParent, .frameParent2, .frameParent3,
+
+
+
+.transformLearningDataIntoMParent, .frameParent4, .frameParent16,
+
+
+
+.frameParent17, .frameParent18, .learnersTrackedWrapper,
+
+
+
+.learningProgramsParent, .frameParent19, .frameParent21,
+
+
+
+.frameParent22, .frameParent23, .frameParent30, .frameParent31,
+
+
+
+.reportsThatDriveBetterDeciParent, .frameParent32, .frameParent33,
+
+
+
+.frameParent44, .frameParent45, .frameParent46, .frameWrapper16,
+
+
+
+.turnDataIntoBetterOutcomesParent, .frameParent47, .frameParent50,
+
+
+
+.frameParent56, .frameParent58, .frameWrapper17, .frameWrapper18,
+
+
+
+.frameWrapper19, .makeEveryLearningDecisionSParent {
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: center;
+
+
+
+  width: 100%;
+
+
+
+  max-width: 100%;
+
+
+
+  min-width: 0;
+
+
+
+  height: auto;
+
+
+
+  gap: 24px;
+
+
+
+}
+
+
+
+.frameParent12, .frameParent2, .frameParent30,
+
+
+
+.frameParent46, .frameParent50 { gap: var(--section-gap); }
+
+
+
+.turnLearningDataIntoActionParent { max-width: 100%; gap: 12px; }
+
+
+
+.transformLearningDataIntoMParent { max-width: 1028px; gap: 16px; }
+
+
+
+.reportsThatDriveBetterDeciParent { max-width: 976px; gap: 12px; }
+
+
+
+.turnDataIntoBetterOutcomesParent { max-width: 1000px; gap: 16px; }
+
+
+
+.frameParent14 { gap: 16px; }
+
+
+
+.frameParent12 .frameParent13 { gap: 20px; }
+
+
+
+.analyticsReporting > .frameParent12,
+
+
+
+.analyticsReporting > .frameParent30 { gap: 24px; }
+
+
+
+.frameParent12 .frameParent13,
+
+
+
+.frameParent12 .frameWrapper,
+
+
+
+.frameParent12 .frameParent14 {
+
+
+
+  width: 100%;
+
+
+
+  min-width: 0;
+
+
+
+  max-width: 100%;
+
+
+
+  align-self: stretch;
+
+
+
+}
+
+
+
+.frameParent12 .turnLearningDataIntoActionParent,
+
+
+
+.frameParent30 .reportsThatDriveBetterDeciParent {
+
+
+
+  height: auto;
+
+
+
+  min-height: 0;
+
+
+
+  flex: none;
+
+
+
+  margin: 0 auto;
+
+
+
+  transform: none;
+
+
+
+}
+
+
+
+.frameParent30 .frameParent31 { gap: 16px; }
+
+
+
+
+
+
+
+/* Remove only blank spacing within the two screenshot copy sections. */
+
+
+
+.frameParent12 .turnLearningDataContainer,
+
+
+
+.frameParent12 .neurolxpsLearningAnalytics,
+
+
+
+.frameParent30 .reportsThatDrive,
+
+
+
+.frameParent30 .createDetailedCustomizable {
+
+
+
+  height: auto;
+
+
+
+  min-height: 0;
+
+
+
+  margin-block: 0;
+
+
+
+  padding-block: 0;
+
+
+
+  flex: none;
+
+
+
+}
+
+
+
+.frameParent12 .blankLine,
+
+
+
+.frameParent30 .blankLine,
+
+
+
+.ellipseParent .blankLine,
+
+
+
+.frameParent12 br + br,
+
+
+
+.frameParent30 br + br,
+
+
+
+.ellipseParent br + br { display: none; }
+
+
+
+
+
+
+
+/* Section typography matches the final gamification cascade. */
+
+
+
+.transformLearningData,
+
+
+
+.turnLearningDataContainer,
+
+
+
+.oneDashboardFull,
+
+
+
+.reportsThatDrive,
+
+
+
+.identifyLearningGaps,
+
+
+
+.turnDataIntoContainer,
+
+
+
+.makeEveryLearning {
+
+
+
+  display: block;
+
+
+
+  width: 100%;
+
+
+
+  height: auto;
+
+
+
+  margin: 0;
+
+
+
+  color: #31344b;
+
+
+
+  font-size: var(--heading-size);
+
+
+
+  font-weight: 700;
+
+
+
+  line-height: var(--heading-leading);
+
+
+
+  letter-spacing: .01em;
+
+
+
+  text-wrap: balance;
+
+
+
+}
+
+
+
+.turnLearningData, .actionableInsights, .span { line-height: inherit; }
+
+
+
+.actionableInsights { color: #2d4cc8; }
+
+
+
+.neurolxpTurnsLearning,
+
+
+
+.neurolxpsLearningAnalytics,
+
+
+
+.getRealTimeInsights,
+
+
+
+.createDetailedCustomizable,
+
+
+
+.aiAnalyticsSpot,
+
+
+
+.builtForEvery,
+
+
+
+.goBeyondBasic {
+
+
+
+  display: block;
+
+
+
+  width: 100%;
+
+
+
+  height: auto;
+
+
+
+  margin: 0;
+
+
+
+  color: #2f3547;
+
+
+
+  font-size: var(--body-size);
+
+
+
+  font-weight: 400;
+
+
+
+  line-height: 1.5;
+
+
+
+  letter-spacing: .02em;
+
+
+
+}
+
+
+
+.builtForEvery { max-width: 900px; }
+
+
+
+.neurolxpsLearningAnalytics,
+
+
+
+.createDetailedCustomizable {
+
+
+
+  max-inline-size: 68ch;
+
+
+
+  min-inline-size: 0;
+
+
+
+  margin-inline: auto;
+
+
+
+  text-align: center;
+
+
+
+  text-wrap: pretty;
+
+
+
+  white-space: normal;
+
+
+
+  overflow-wrap: break-word;
+
+
+
+}
+
+
+
+
+
+
+
+/* All six text badges share the reference's inset pill treatment. */
+
+
+
+.frameInner, .frameChild14, .frameChild21,
+
+
+
+.frameChild28, .frameChild35, .frameChild50 {
+
+
+
+  position: relative;
+
+
+
+  display: inline-flex;
+
+
+
+  align-items: center;
+
+
+
+  justify-content: center;
+
+
+
+  flex: 0 0 auto;
+
+
+
+  width: fit-content;
+
+
+
+  max-width: 100%;
+
+
+
+  min-width: 0;
+
+
+
+  height: auto;
+
+
+
+  min-height: var(--badge-height);
+
+
+
+  margin: 0;
+
+
+
+  padding: var(--badge-padding);
+
+
+
+  border: 0;
+
+
+
+  border-radius: 999px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-inset);
+
+
+
+  color: #2d4cc8;
+
+
+
+  font-family: inherit;
+
+
+
+  font-size: var(--badge-size);
+
+
+
+  font-weight: 600;
+
+
+
+  line-height: 1.3;
+
+
+
+  letter-spacing: .03em;
+
+
+
+  text-align: center;
+
+
+
+  white-space: normal;
+
+
+
+  overflow-wrap: anywhere;
+
+
+
+}
+
+
+
+
+
+
+
+/* Primary and closing CTA. Text may wrap instead of forcing page overflow. */
+
+
+
+.frameChild15, .frameChild51 {
+
+
+
+  position: relative;
+
+
+
+  display: inline-flex;
+
+
+
+  align-items: center;
+
+
+
+  justify-content: center;
+
+
+
+  flex: 0 1 auto;
+
+
+
+  width: auto;
+
+
+
+  max-width: 100%;
+
+
+
+  min-width: 0;
+
+
+
+  min-height: var(--button-height);
+
+
+
+  height: auto;
+
+
+
+  margin: 0;
+
+
+
+  padding: var(--button-padding);
+
+
+
+  border: 0;
+
+
+
+  border-radius: 8px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+
+
+
+  color: #2d4cc8;
+
+
+
+  font-family: inherit;
+
+
+
+  font-size: var(--button-size);
+
+
+
+  font-weight: 600;
+
+
+
+  line-height: var(--button-leading);
+
+
+
+  letter-spacing: .02em;
+
+
+
+  text-align: center;
+
+
+
+  text-decoration: none;
+
+
+
+  white-space: normal;
+
+
+
+  cursor: pointer;
+
+
+
+  transition: box-shadow .2s ease;
+
+
+
+}
+
+
+
+.frameChild15:active, .frameChild51:active { box-shadow: var(--neu-inset); }
+
+
+
+.frameWrapper20 {
+
+
+
+  display: flex;
+
+
+
+  justify-content: center;
+
+
+
+  width: 100%;
+
+
+
+  min-width: 0;
+
+
+
+}
+
+
+
+
+
+
+
+/* Learning analytics: metric cards and program progress. */
+
+
+
+.frameParent15 {
+
+
+
+  display: grid;
+
+
+
+  grid-template-columns: minmax(0, 420fr) minmax(0, 776fr);
+
+
+
+  align-items: stretch;
+
+
+
+  gap: 36px;
+
+
+
+  width: 100%;
+
+
+
+}
+
+
+
+.frameParent16 { justify-content: stretch; gap: 24px; }
+
+
+
+.rectangleParent4, .rectangleParent5 {
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  justify-content: center;
+
+
+
+  flex: 1;
+
+
+
+  width: 100%;
+
+
+
+  min-height: 180px;
+
+
+
+  padding: 28px 20px;
+
+
+
+  color: #2d4cc8;
+
+
+
+}
+
+
+
+.rectangleParent5 { color: #2a7308; }
+
+
+
+.frameChild16 {
+
+
+
+  position: absolute;
+
+
+
+  inset: 0;
+
+
+
+  border-radius: 24px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-raised);
+
+
+
+  pointer-events: none;
+
+
+
+}
+
+
+
+.frameParent17, .frameParent18 { gap: 16px; }
+
+
+
+.k, .b {
+
+
+
+  width: 100%;
+
+
+
+  margin: 0;
+
+
+
+  font-size: 48px;
+
+
+
+  font-weight: 700;
+
+
+
+  line-height: 1.2;
+
+
+
+  font-variant-numeric: tabular-nums;
+
+
+
+}
+
+
+
+.learnersTrackedWrapper { gap: 0; }
+
+
+
+.learnersTracked, .reportsAccuracy {
+
+
+
+  color: #31344b;
+
+
+
+  font-size: var(--label-size);
+
+
+
+  font-weight: 600;
+
+
+
+  line-height: 1.4;
+
+
+
+}
+
+
+
+.frameWrapper2 {
+
+
+
+  width: 100%;
+
+
+
+  min-width: 0;
+
+
+
+  padding: var(--panel-padding);
+
+
+
+  border-radius: 24px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-raised);
+
+
+
+}
+
+
+
+.learningPrograms { font-size: 28px; font-weight: 700; line-height: 1.3; }
+
+
+
+.frameParent19 { align-items: stretch; gap: 24px; text-align: left; }
+
+
+
+.engagementParent {
+
+
+
+  position: relative;
+
+
+
+  display: grid;
+
+
+
+  grid-template-columns: minmax(0, 1fr) auto;
+
+
+
+  align-items: baseline;
+
+
+
+  width: 100%;
+
+
+
+  gap: 10px 12px;
+
+
+
+}
+
+
+
+.engagement { grid-column: 1; grid-row: 1; font-size: 20px; font-weight: 600; }
+
+
+
+.b2 {
+
+
+
+  grid-column: 2;
+
+
+
+  grid-row: 1;
+
+
+
+  margin: 0;
+
+
+
+  color: #2d4cc8;
+
+
+
+  font-size: 20px;
+
+
+
+  font-weight: 700;
+
+
+
+  line-height: 1.5;
+
+
+
+  font-variant-numeric: tabular-nums;
+
+
+
+}
+
+
+
+.rectangleParent6 {
+
+
+
+  grid-column: 1 / -1;
+
+
+
+  grid-row: 2;
+
+
+
+  position: relative;
+
+
+
+  width: 100%;
+
+
+
+  height: 32px;
+
+
+
+  padding: 6px;
+
+
+
+  border-radius: 50px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-inset);
+
+
+
+  overflow: hidden;
+
+
+
+}
+
+
+
+.frameChild18, .frameChild19, .frameChild20 {
+
+
+
+  height: 100%;
+
+
+
+  max-width: 100%;
+
+
+
+  border-radius: 100px;
+
+
+
+  box-shadow: var(--neu-raised);
+
+
+
+  transform-origin: left center;
+
+
+
+}
+
+
+
+/* Preserve the final supplied progress percentages; JS can set inline widths. */
+
+
+
+.frameChild18 { width: 86%; background: #2d4cc8; }
+
+
+
+.frameChild19 { width: 74%; background: #c05512; }
+
+
+
+.frameChild20 { width: 91%; background: #67096e; }
+
+
+
+.frameParent15.is-loading .frameChild18,
+
+
+
+.frameParent15.is-loading .frameChild19,
+
+
+
+.frameParent15.is-loading .frameChild20 {
+
+
+
+  animation: learningProgramLoad 1.8s cubic-bezier(.22, 1, .36, 1) both;
+
+
+
+}
+
+
+
+.frameParent15.is-loading .frameChild18 { animation-delay: .15s; }
+
+
+
+.frameParent15.is-loading .frameChild19 { animation-delay: .45s; }
+
+
+
+.frameParent15.is-loading .frameChild20 { animation-delay: .75s; }
+
+
+
+@keyframes learningProgramLoad { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+
+
+
+
+
+
+/* Why analytics matters: cards size from content, with decorative backplates. */
+
+
+
+.frameParent5, .frameParent9 {
+
+
+
+  display: flex;
+
+
+
+  flex-wrap: wrap;
+
+
+
+  justify-content: center;
+
+
+
+  align-items: stretch;
+
+
+
+  width: 100%;
+
+
+
+  gap: 32px;
+
+
+
+}
+
+
+
+.rectangleParent {
+
+
+
+  position: relative;
+
+
+
+  display: grid;
+
+
+
+  place-items: center;
+
+
+
+  flex: 0 1 calc((100% - 64px) / 3);
+
+
+
+  min-width: 0;
+
+
+
+  max-width: 350px;
+
+
+
+  min-height: 280px;
+
+
+
+  padding: 36px 24px;
+
+
+
+}
+
+
+
+.rectangleDiv, .frameChild2, .frameChild5, .frameChild8, .frameChild11 {
+
+
+
+  position: absolute;
+
+
+
+  inset: 0;
+
+
+
+  width: 100%;
+
+
+
+  height: 100%;
+
+
+
+  border-radius: 40px;
+
+
+
+  border-block: 5px solid #67096e;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-raised);
+
+
+
+  pointer-events: none;
+
+
+
+}
+
+
+
+.frameChild2 { border-block-color: #c05512; }
+
+
+
+.frameChild5 { border-block-color: #046f73; }
+
+
+
+.frameChild8 { border-block-color: #2d4cc8; }
+
+
+
+.frameChild11 { border-block-color: #bf1869; }
+
+
+
+.ellipseDiv {
+
+
+
+  position: absolute;
+
+
+
+  inset: 24px;
+
+
+
+  border-radius: 50%;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-inset);
+
+
+
+  pointer-events: none;
+
+
+
+}
+
+
+
+.frameParent6, .frameParent7, .frameParent8, .frameParent10, .frameParent11 {
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: center;
+
+
+
+  justify-content: center;
+
+
+
+  gap: 16px;
+
+
+
+  width: 100%;
+
+
+
+  max-width: 210px;
+
+
+
+  height: auto;
+
+
+
+  z-index: 1;
+
+
+
+}
+
+
+
+.monitorLearnerProgress, .spotKnowledgeGaps,
+
+
+
+.trackEngagement, .improveCurriculum {
+
+
+
+  width: 100%;
+
+
+
+  max-inline-size: 15ch;
+
+
+
+  height: auto;
+
+
+
+  min-block-size: 2.8em;
+
+
+
+  margin: 0 auto;
+
+
+
+  font-size: var(--label-size);
+
+
+
+  font-weight: 600;
+
+
+
+  line-height: 1.4;
+
+
+
+  text-align: center;
+
+
+
+  text-wrap: balance;
+
+
+
+  white-space: normal;
+
+
+
+  overflow-wrap: normal;
+
+
+
+  word-break: normal;
+
+
+
+}
+
+
+
+.trackEngagement { max-inline-size: 11ch; }
+
+
+
+.improveCurriculum { max-inline-size: 12ch; }
+
+
+
+/* Optional explicit line spans are supported without clipping longer text. */
+
+
+
+.labelLine { display: block; }
+
+
+
+.analyticsIconCircle, .dashboardIconCircle {
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  justify-content: center;
+
+
+
+  width: var(--icon-size);
+
+
+
+  height: var(--icon-size);
+
+
+
+  flex: 0 0 var(--icon-size);
+
+
+
+  border-radius: 50%;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-inset);
+
+
+
+}
+
+
+
+.analyticsIconCircle::before, .dashboardIconCircle::before {
+
+
+
+  content: "";
+
+
+
+  position: absolute;
+
+
+
+  inset: 8px;
+
+
+
+  border-radius: inherit;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-raised);
+
+
+
+}
+
+
+
+.analyticsCardIcon, .dashboardListIcon {
+
+
+
+  position: relative;
+
+
+
+  z-index: 1;
+
+
+
+  display: block;
+
+
+
+  width: 32px;
+
+
+
+  height: 32px;
+
+
+
+  object-fit: contain;
+
+
+
+}
+
+
+
+.frameIcon, .frameChild4, .frameChild22, .frameChild23 {
+
+
+
+  display: block;
+
+
+
+  width: var(--icon-size);
+
+
+
+  height: var(--icon-size);
+
+
+
+  flex: 0 0 var(--icon-size);
+
+
+
+  object-fit: contain;
+
+
+
+}
+
+
+
+
+
+
+
+/* Total learning visibility. */
+
+
+
+.analyticsReportingInner {
+
+
+
+  padding: var(--panel-padding);
+
+
+
+  border-radius: 32px;
+
+
+
+  background: var(--neu-bg) url("/images/analyticframe.webp") center / 100% 100% no-repeat;
+
+
+
+  box-shadow: var(--neu-inset);
+
+
+
+  text-align: left;
+
+
+
+}
+
+
+
+.frameParent20 {
+
+
+
+  display: grid;
+
+
+
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+
+
+
+  align-items: center;
+
+
+
+  width: 100%;
+
+
+
+  gap: 40px;
+
+
+
+}
+
+
+
+.frameParent21, .frameParent22 { align-items: flex-start; }
+
+
+
+.frameParent22 { gap: 20px; }
+
+
+
+.frameParent23 { align-items: stretch; gap: 20px; }
+
+
+
+.frameParent24, .frameParent25 {
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  width: 100%;
+
+
+
+  gap: 20px;
+
+
+
+  text-align: left;
+
+
+
+}
+
+
+
+.learnerActivity, .courseCompletion, .timeSpentLearning,
+
+
+
+.assessmentPerformance, .discussionParticipation, .gamificationProgress {
+
+
+
+  flex: 1;
+
+
+
+  min-width: 0;
+
+
+
+  margin: 0;
+
+
+
+  font-size: var(--label-size);
+
+
+
+  font-weight: 600;
+
+
+
+  line-height: 1.4;
+
+
+
+  white-space: normal;
+
+
+
+}
+
+
+
+
+
+
+
+/* Smarter learning reports: text stays in flow beside an inset icon space. */
+
+
+
+.frameParent32, .frameParent33 { gap: 28px; }
+
+
+
+.frameParent34 {
+
+
+
+  display: grid;
+
+
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+
+
+  align-items: stretch;
+
+
+
+  gap: 28px;
+
+
+
+  width: 100%;
+
+
+
+}
+
+
+
+.frameParent35 {
+
+
+
+  position: relative;
+
+
+
+  width: 100%;
+
+
+
+  min-height: var(--report-icon-size);
+
+
+
+}
+
+
+
+.frameWrapper3, .frameWrapper4, .image20Parent {
+
+
+
+  position: relative;
+
+
+
+  width: 100%;
+
+
+
+  min-height: var(--report-icon-size);
+
+
+
+  height: 100%;
+
+
+
+  border-radius: 100px;
+
+
+
+}
+
+
+
+.frameWrapper3 { background: var(--neu-bg); box-shadow: var(--neu-inset); }
+
+
+
+.image20Parent { display: flex; align-items: center; }
+
+
+
+.learnerPerformance {
+
+
+
+  width: 100%;
+
+
+
+  min-width: 0;
+
+
+
+  margin: 0;
+
+
+
+  padding: 20px 24px 20px calc(var(--report-icon-size) + 20px);
+
+
+
+  color: #31344b;
+
+
+
+  font-size: var(--label-size);
+
+
+
+  font-weight: 600;
+
+
+
+  line-height: 1.4;
+
+
+
+  text-align: left;
+
+
+
+}
+
+
+
+.reportIconCircle, .frameChild29 {
+
+
+
+  position: absolute;
+
+
+
+  top: 50%;
+
+
+
+  left: 0;
+
+
+
+  transform: translateY(-50%);
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  justify-content: center;
+
+
+
+  width: var(--report-icon-size);
+
+
+
+  height: var(--report-icon-size);
+
+
+
+  border-radius: 50%;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-raised);
+
+
+
+  z-index: 1;
+
+
+
+  object-fit: contain;
+
+
+
+}
+
+
+
+.reportCardIcon { width: 40px; height: 40px; object-fit: contain; }
+
+
+
+
+
+
+
+/* Identify learning gaps: text and photograph are separate grid items. */
+
+
+
+.analyticsReportingChild { text-align: left; }
+
+
+
+.frameWrapper15 {
+
+
+
+  position: relative;
+
+
+
+  width: 100%;
+
+
+
+  padding: 24px;
+
+
+
+  border-radius: 32px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-raised);
+
+
+
+}
+
+
+
+.frameParent43 {
+
+
+
+  position: relative;
+
+
+
+  display: grid;
+
+
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+
+
+  align-items: center;
+
+
+
+  gap: 28px;
+
+
+
+  width: 100%;
+
+
+
+  padding: var(--panel-padding);
+
+
+
+  border-radius: 8px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-inset);
+
+
+
+}
+
+
+
+.frameParent44, .frameParent45 { align-items: flex-start; gap: 20px; }
+
+
+
+.maleCoworkersDoingPaperworkIcon {
+
+
+
+  display: block;
+
+
+
+  align-self: end;
+
+
+
+  width: 100%;
+
+
+
+  max-width: 100%;
+
+
+
+  height: auto;
+
+
+
+  object-fit: contain;
+
+
+
+  object-position: center bottom;
+
+
+
+}
+
+
+
+
+
+
+
+/* Better outcomes: each card's text determines its height. */
+
+
+
+.frameParent47 { gap: 24px; }
+
+
+
+.frameParent48 {
+
+
+
+  display: flex;
+
+
+
+  flex-wrap: wrap;
+
+
+
+  justify-content: center;
+
+
+
+  align-items: stretch;
+
+
+
+  gap: 24px;
+
+
+
+  width: 100%;
+
+
+
+}
+
+
+
+.rectangleParent9 {
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  align-items: stretch;
+
+
+
+  flex: 1 1 300px;
+
+
+
+  max-width: 400px;
+
+
+
+  min-width: 0;
+
+
+
+  min-height: 120px;
+
+
+
+  padding: 16px;
+
+
+
+  border-radius: 16px;
+
+
+
+}
+
+
+
+.frameChild36 { display: none; }
+
+
+
+.frameChild37, .frameChild39 {
+
+
+
+  position: absolute;
+
+
+
+  inset: 16px;
+
+
+
+  border-radius: 16px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: -4px -4px 6px #fff, 4px 4px 6px rgba(190,196,200,.7);
+
+
+
+  pointer-events: none;
+
+
+
+}
+
+
+
+.checkmarkSquare04Parent {
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  width: 100%;
+
+
+
+  gap: 12px;
+
+
+
+  padding: 16px;
+
+
+
+  text-align: left;
+
+
+
+}
+
+
+
+.checkmarkSquare04Icon { width: 32px; height: 32px; flex: 0 0 32px; object-fit: contain; }
+
+
+
+.improveCourseAnd, .strengthenTeachingStrategies,
+
+
+
+.increaseOverallLearner, .boostCourseCompletion {
+
+
+
+  flex: 1;
+
+
+
+  min-width: 0;
+
+
+
+  margin: 0;
+
+
+
+  font-size: 20px;
+
+
+
+  font-weight: 600;
+
+
+
+  line-height: 28px;
+
+
+
+}
+
+
+
+
+
+
+
+/* Analytics at scale. */
+
+
+
+.frameParent51 {
+
+
+
+  display: grid;
+
+
+
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+
+
+  gap: 24px;
+
+
+
+  width: 100%;
+
+
+
+}
+
+
+
+.frameParent52, .frameParent53 {
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  width: 100%;
+
+
+
+  min-height: 150px;
+
+
+
+  padding: 16px;
+
+
+
+}
+
+
+
+.frameChild46, .frameChild47 {
+
+
+
+  position: absolute;
+
+
+
+  inset: 0;
+
+
+
+  border-radius: 32px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-raised);
+
+
+
+  pointer-events: none;
+
+
+
+}
+
+
+
+.universitiesWrapper, .schoolsWrapper,
+
+
+
+.corporateTrainingWrapper, .edtechProvidersWrapper {
+
+
+
+  position: relative;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  justify-content: center;
+
+
+
+  width: 100%;
+
+
+
+  min-width: 0;
+
+
+
+  padding: 20px 12px;
+
+
+
+  border-radius: 16px;
+
+
+
+  background: var(--neu-bg);
+
+
+
+  box-shadow: var(--neu-inset);
+
+
+
+}
+
+
+
+.universities, .schools, .corporateTraining, .edtechProviders {
+
+
+
+  width: 100%;
+
+
+
+  font-size: var(--label-size);
+
+
+
+  font-weight: 600;
+
+
+
+  line-height: 1.4;
+
+
+
+  text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+/* Closing call to action: background stretches around the content. */
+
+
+
+.ellipseParent {
+
+
+
+  isolation: isolate;
+
+
+
+  padding: 48px 32px;
+
+
+
+}
+
+
+
+.ellipseIcon {
+
+
+
+  position: absolute;
+
+
+
+  inset: 0;
+
+
+
+  display: block;
+
+
+
+  width: 100%;
+
+
+
+  height: 100%;
+
+
+
+  object-fit: fill;
+
+
+
+  pointer-events: none;
+
+
+
+  z-index: -1;
+
+
+
+}
+
+
+
+.frameParent56 { max-width: 1000px; margin: 0 auto; gap: 24px; }
+
+
+
+.frameParent58, .makeEveryLearningDecisionSParent { gap: 20px; }
+
+
+
+.smarterAnalyticsBetterLearWrapper { width: 100%; }
+
+
+
+.smarterAnalyticsBetterContainer {
+
+
+
+  display: block;
+
+
+
+  max-inline-size: 100%;
+
+
+
+  width: 100%;
+
+
+
+  margin: 0 auto;
+
+
+
+  font-size: var(--heading-size);
+
+
+
+  font-weight: 700;
+
+
+
+  line-height: 1.35;
+
+
+
+  text-wrap: balance;
+
+
+
+}
+
+
+
+.ellipseParent .frameParent56,
+
+
+
+.ellipseParent .frameParent58,
+
+
+
+.ellipseParent .frameWrapper17,
+
+
+
+.ellipseParent .frameWrapper18,
+
+
+
+.ellipseParent .frameWrapper19,
+
+
+
+.ellipseParent .makeEveryLearningDecisionSParent {
+
+
+
+  position: relative;
+
+
+
+  inset: auto;
+
+
+
+  height: auto;
+
+
+
+  min-height: 0;
+
+
+
+  flex: none;
+
+
+
+  transform: none;
+
+
+
+  overflow: visible;
+
+
+
+}
+
+
+
+.ellipseParent .goBeyondBasic { max-inline-size: 60ch; }
+
+
+
+.ellipseParent .smarterAnalyticsBetterLearWrapper { padding: 0; }
+
+
+
+.smarterAnalyticsBetter {
+
+
+
+  color: #2d4cc8;
+
+
+
+  background: linear-gradient(90deg, #bf1869, #2d4cc8);
+
+
+
+  background-clip: text;
+
+
+
+  -webkit-background-clip: text;
+
+
+
+  -webkit-text-fill-color: transparent;
+
+
+
+  line-height: inherit;
+
+
+
+}
+
+
+
+.skipLink {
+
+
+
+  position: absolute;
+
+
+
+  top: 8px;
+
+
+
+  left: 16px;
+
+
+
+  z-index: 20;
+
+
+
+  max-width: calc(100% - 32px);
+
+
+
+  padding: 12px 18px;
+
+
+
+  border-radius: 8px;
+
+
+
+  background: #fff;
+
+
+
+  color: #243fa8;
+
+
+
+  font-size: 16px;
+
+
+
+  transform: translateY(-200%);
+
+
+
+}
+
+
+
+.skipLink:focus { transform: none; }
+
+
+
+
+
+
+
+.frameParent26 { gap: 12px; }
+
+
+
+.frameParent28 { gap: 24px; }
+
+
+
+.frameParent29, .frameParent36 { gap: 32px; }
+
+
+
+
+
+
+
+/* Retained class exports for the already-hidden local header/footer. */
+
+
+
+.frameChild {
+
+
+
+  position: absolute;
+
+
+
+  top: calc(50% - 22px);
+
+
+
+  left: 1096px;
+
+
+
+  width: 132px;
+
+
+
+  height: 44px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.frameGroup {
+
+
+
+  position: absolute;
+
+
+
+  top: 18px;
+
+
+
+  left: 32px;
+
+
+
+  width: 1376px;
+
+
+
+  height: 45px;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.logo01SynapseSpark1Parent {
+
+
+
+  position: absolute;
+
+
+
+  top: 0px;
+
+
+
+  left: 0px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  gap: 130px;
+
+
+
+}
+
+
+
+.logo01SynapseSpark1Icon {
+
+
+
+  height: 45px;
+
+
+
+  width: 120px;
+
+
+
+  position: relative;
+
+
+
+  object-fit: cover;
+
+
+
+}
+
+
+
+.frameContainer {
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  gap: 30px;
+
+
+
+}
+
+
+
+.featuresParent {
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  gap: 8px;
+
+
+
+  color: #2d4cc8;
+
+
+
+}
+
+
+
+.signInHelpWrapper {
+
+
+
+  position: absolute;
+
+
+
+  top: calc(50% - 22.5px);
+
+
+
+  left: 1244px;
+
+
+
+  box-shadow:-4px -4px 4px #fff,
+
+
+
+    4px 4px 4px #c6c6c9;
+
+
+
+  border-radius: 32px;
+
+
+
+  background-color: #dfe6e9;
+
+
+
+  width: 132px;
+
+
+
+  height: 44px;
+
+
+
+  overflow: hidden;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  justify-content: center;
+
+
+
+  padding: 16px 32px;
+
+
+
+  box-sizing: border-box;
+
+
+
+  text-align: center;
+
+
+
+  color: #2d4cc8;
+
+
+
+  font-family: "Segoe UI", "Inter";
+
+
+
+}
+
+
+
+.signInHelp {
+
+
+
+  width: 97px;
+
+
+
+  position: relative;
+
+
+
+  letter-spacing: 0.02em;
+
+
+
+  line-height: 28px;
+
+
+
+  font-weight: 600;
+
+
+
+  display: flex;
+
+
+
+  align-items: flex-end;
+
+
+
+  justify-content: center;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.frameParent60 {
+
+
+
+  position: absolute;
+
+
+
+  bottom: -0.01px;
+
+
+
+  left: calc(50% - 720px);
+
+
+
+  box-shadow:-4px -4px 4px #fff inset,
+
+
+
+    4px 4px 4px #c4c4c4 inset;
+
+
+
+  background-color: #dfe6e9;
+
+
+
+  width: 1440px;
+
+
+
+  height: 459px;
+
+
+
+  overflow: hidden;
+
+
+
+}
+
+
+
+.frameParent61 {
+
+
+
+  position: absolute;
+
+
+
+  top: 49.81px;
+
+
+
+  left: 53.96px;
+
+
+
+  width: 1339.5px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: center;
+
+
+
+  gap: 24px;
+
+
+
+}
+
+
+
+.frameParent62 {
+
+
+
+  align-self: stretch;
+
+
+
+  display: flex;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 35px;
+
+
+
+}
+
+
+
+.frameParent63 {
+
+
+
+  width: 676px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 24px;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.logo01SynapseSpark1Group {
+
+
+
+  width: 577px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 20px;
+
+
+
+}
+
+
+
+.logo01SynapseSpark1Icon2 {
+
+
+
+  width: 299px;
+
+
+
+  height: 112px;
+
+
+
+  position: relative;
+
+
+
+  object-fit: cover;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.frameParent64 {
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  gap: 14px;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.onePlatformParent {
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  gap: 10px;
+
+
+
+}
+
+
+
+.onePlatform {
+
+
+
+  position: relative;
+
+
+
+  letter-spacing: -0.03em;
+
+
+
+  line-height: 34px;
+
+
+
+  text-shadow: none;
+
+
+
+}
+
+
+
+.sparklesIcon {
+
+
+
+  height: 23px;
+
+
+
+  width: 23px;
+
+
+
+  position: relative;
+
+
+
+}
+
+
+
+.prgeeqGlobalSolutionsPrivatParent {
+
+
+
+  width: 459px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 4px;
+
+
+
+  font-size: 16px;
+
+
+
+}
+
+
+
+.prgeeqGlobalSolutions {
+
+
+
+  align-self: stretch;
+
+
+
+  position: relative;
+
+
+
+  letter-spacing: 0.03em;
+
+
+
+  line-height: 24px;
+
+
+
+}
+
+
+
+.prestigeAtlanta1012Container {
+
+
+
+  align-self: stretch;
+
+
+
+  height: 77px;
+
+
+
+  position: relative;
+
+
+
+  line-height: 24px;
+
+
+
+  display: flex;
+
+
+
+  align-items: flex-end;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.blankLine {
+
+
+
+  line-height: 24px;
+
+
+
+}
+
+
+
+.frameParent65 {
+
+
+
+  width: 631px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-end;
+
+
+
+  gap: 24px;
+
+
+
+  flex-shrink: 0;
+
+
+
+  font-size: 22px;
+
+
+
+  color: #2d4cc8;
+
+
+
+}
+
+
+
+.frameParent66 {
+
+
+
+  width: 619px;
+
+
+
+  display: flex;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 32px;
+
+
+
+}
+
+
+
+.aboutUsParent {
+
+
+
+  width: 123px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 20px;
+
+
+
+}
+
+
+
+.aboutUs {
+
+
+
+  width: 93px;
+
+
+
+  position: relative;
+
+
+
+  letter-spacing: -0.03em;
+
+
+
+  line-height: 30px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+}
+
+
+
+.ourMissionParent {
+
+
+
+  align-self: stretch;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 15px;
+
+
+
+  font-size: 20px;
+
+
+
+  color: #2f3547;
+
+
+
+}
+
+
+
+.ourMission {
+
+
+
+  align-self: stretch;
+
+
+
+  height: 26px;
+
+
+
+  position: relative;
+
+
+
+  letter-spacing: 0.03em;
+
+
+
+  line-height: 28px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.quickLinksParent {
+
+
+
+  width: 207px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 20px;
+
+
+
+}
+
+
+
+.quickLinks {
+
+
+
+  align-self: stretch;
+
+
+
+  height: 26px;
+
+
+
+  position: relative;
+
+
+
+  letter-spacing: -0.03em;
+
+
+
+  line-height: 30px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.neurolxpParent {
+
+
+
+  height: 181px;
+
+
+
+  width: 205px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 20px;
+
+
+
+}
+
+
+
+.neurolxp {
+
+
+
+  align-self: stretch;
+
+
+
+  height: 26px;
+
+
+
+  position: relative;
+
+
+
+  letter-spacing: -0.03em;
+
+
+
+  line-height: 30px;
+
+
+
+  display: flex;
+
+
+
+  white-space: pre-wrap;
+
+
+
+  align-items: center;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.ourCustomersGroup {
+
+
+
+  width: 221px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 15px;
+
+
+
+  flex-shrink: 0;
+
+
+
+  font-size: 20px;
+
+
+
+  color: #2f3547;
+
+
+
+}
+
+
+
+.smartContentCreation {
+
+
+
+  width: 229px;
+
+
+
+  height: 26px;
+
+
+
+  position: relative;
+
+
+
+  letter-spacing: 0.03em;
+
+
+
+  line-height: 28px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.frameParent67 {
+
+
+
+  width: 392.4px;
+
+
+
+  height: 80.1px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  gap: 24px;
+
+
+
+}
+
+
+
+.frameChild52 {
+
+
+
+  height: 80.1px;
+
+
+
+  width: 80.1px;
+
+
+
+  position: relative;
+
+
+
+}
+
+
+
+.copyright2026 {
+
+
+
+  align-self: stretch;
+
+
+
+  height: 47px;
+
+
+
+  position: relative;
+
+
+
+  font-size: 16px;
+
+
+
+  letter-spacing: -0.03em;
+
+
+
+  line-height: 56px;
+
+
+
+  font-weight: 600;
+
+
+
+  color: #2d4cc8;
+
+
+
+  text-align: center;
+
+
+
+  display: inline-block;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.frameWrapper21 {
+
+
+
+  position: absolute;
+
+
+
+  bottom: 0px;
+
+
+
+  left: calc(50% - 720px);
+
+
+
+  box-shadow:-4px -4px 4px #fff inset,
+
+
+
+    4px 4px 4px #c4c4c4 inset;
+
+
+
+  background-color: #dfe6e9;
+
+
+
+  width: 1440px;
+
+
+
+  height: 459px;
+
+
+
+  overflow: hidden;
+
+
+
+}
+
+
+
+.frameParent72 {
+
+
+
+  width: 631px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-end;
+
+
+
+  position: relative;
+
+
+
+  isolation: isolate;
+
+
+
+  gap: 24px;
+
+
+
+  flex-shrink: 0;
+
+
+
+  font-size: 22px;
+
+
+
+  color: #2d4cc8;
+
+
+
+}
+
+
+
+.frameParent73 {
+
+
+
+  width: 619px;
+
+
+
+  display: flex;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 32px;
+
+
+
+  z-index: 0;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.ourMissionGroup {
+
+
+
+  align-self: stretch;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 15px;
+
+
+
+  font-size: 18px;
+
+
+
+  color: #2f3547;
+
+
+
+}
+
+
+
+.neurolxpGroup {
+
+
+
+  display: flex;
+
+
+
+  align-items: flex-start;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.neurolxp2 {
+
+
+
+  height: 26px;
+
+
+
+  width: 103px;
+
+
+
+  position: relative;
+
+
+
+  letter-spacing: -0.03em;
+
+
+
+  line-height: 30px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.neurolxpTxt {
+
+
+
+  width: 100%;
+
+
+
+  white-space: pre-wrap;
+
+
+
+}
+
+
+
+.neurolxp3 {
+
+
+
+  line-height: 30px;
+
+
+
+}
+
+
+
+.span2 {
+
+
+
+  font-size: 12px;
+
+
+
+  line-height: 30px;
+
+
+
+}
+
+
+
+.tm {
+
+
+
+  height: 17px;
+
+
+
+  width: 23px;
+
+
+
+  position: relative;
+
+
+
+  font-size: 12px;
+
+
+
+  letter-spacing: -0.03em;
+
+
+
+  line-height: 30px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.ourCustomersContainer {
+
+
+
+  width: 221px;
+
+
+
+  display: flex;
+
+
+
+  flex-direction: column;
+
+
+
+  align-items: flex-start;
+
+
+
+  gap: 15px;
+
+
+
+  flex-shrink: 0;
+
+
+
+  font-size: 18px;
+
+
+
+  color: #2f3547;
+
+
+
+}
+
+
+
+.frameParent75 {
+
+
+
+  width: 392.4px;
+
+
+
+  height: 80.1px;
+
+
+
+  margin: 0 !important;
+
+
+
+  position: absolute;
+
+
+
+  top: 217.19px;
+
+
+
+  left: 135.04px;
+
+
+
+  display: flex;
+
+
+
+  align-items: center;
+
+
+
+  gap: 24px;
+
+
+
+  z-index: 1;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.frameChild56 {
+
+
+
+  height: 80.1px;
+
+
+
+  width: 80.1px;
+
+
+
+  position: relative;
+
+
+
+  flex-shrink: 0;
+
+
+
+}
+
+
+
+.frameChild61 {
+
+
+
+  position: absolute;
+
+
+
+  top: 0px;
+
+
+
+  left: calc(50% - 30.07px);
+
+
+
+  border-radius: 32px;
+
+
+
+  width: 59.1px;
+
+
+
+  height: 92px;
+
+
+
+  object-fit: contain;
+
+
+
+}
+
+
+
+
+
+
+
+/* Fresh responsive rules: one block per breakpoint, largest to smallest. */
+
+
+
+@media (min-width: 1280px) {
+
+
+
+  .frameDiv { padding-inline: 80px; }
+
+
+
+}
+
+
+
+@media (min-width: 1440px) {
+
+
+
+  .frameDiv { width: min(100%, 1440px); }
+
+
+
+}
+
+
+
+@media (max-width: 1099px) {
+
+
+
+  .analyticsReporting {
+
+
+
+    --heading-size: 30px;
+
+
+
+    --body-size: 20px;
+
+
+
+    --label-size: 18px;
+
+
+
+    --button-size: 20px;
+
+
+
+    --button-height: 52px;
+
+
+
+    --button-padding: 14px 20px;
+
+
+
+    --panel-padding: 24px;
+
+
+
+    --report-icon-size: 80px;
+
+
+
+  }
+
+
+
+  .frameParent15, .frameParent20, .frameParent43 { gap: 24px; }
+
+
+
+  .frameParent5, .frameParent9 { gap: 24px; }
+
+
+
+  .rectangleParent { flex-basis: calc((100% - 48px) / 3); padding: 28px 20px; min-height: 250px; }
+
+
+
+  .frameParent51 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+
+
+  .learnerPerformance { padding-right: 20px; }
+
+
+
+  .ellipseParent { padding: 36px 24px; }
+
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+
+
+  .analyticsReporting {
+
+
+
+    --section-space: 48px;
+
+
+
+    --section-gap: 28px;
+
+
+
+    --heading-size: 28px;
+
+
+
+    --heading-leading: 1.3;
+
+
+
+    --body-size: 18px;
+
+
+
+    --label-size: 18px;
+
+
+
+    --badge-size: 20px;
+
+
+
+    --badge-height: 48px;
+
+
+
+    --badge-padding: 10px 26px;
+
+
+
+    --button-size: 18px;
+
+
+
+    --button-height: 48px;
+
+
+
+    --button-padding: 12px 20px;
+
+
+
+    --button-leading: 24px;
+
+
+
+    --panel-padding: 24px 20px;
+
+
+
+    --icon-size: 56px;
+
+
+
+    --report-icon-size: 64px;
+
+
+
+  }
+
+
+
+  .frameDiv { padding: 12px 20px 0; gap: 6px; }
+
+
+
+  .analyticsReporting > .frameParent12,
+
+
+
+  .analyticsReporting > .frameParent30 { gap: 20px; }
+
+
+
+  .frameParent12 .frameParent13,
+
+
+
+  .frameParent12 .frameParent14,
+
+
+
+  .frameParent30 .frameParent31 { gap: 16px; }
+
+
+
+  .frameParent12 .turnLearningDataIntoActionParent,
+
+
+
+  .frameParent30 .reportsThatDriveBetterDeciParent { gap: 12px; }
+
+
+
+  .frameParent30 .createDetailedCustomizable {
+
+
+
+    width: 100%;
+
+
+
+    margin: 0;
+
+
+
+    line-height: 1.5;
+
+
+
+  }
+
+
+
+  .frameParent15, .frameParent20, .frameParent43,
+
+
+
+  .frameParent34 { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+
+
+
+  .frameParent16 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+
+
+
+  .rectangleParent4, .rectangleParent5 { min-height: 148px; padding: 20px 12px; }
+
+
+
+  .k, .b { font-size: 36px; }
+
+
+
+  .learningPrograms { font-size: 24px; }
+
+
+
+  .engagement, .b2 { font-size: 18px; }
+
+
+
+  .frameParent5, .frameParent9 { gap: 20px; }
+
+
+
+  .rectangleParent { flex-basis: calc((100% - 20px) / 2); max-width: 320px; min-height: 228px; padding: 28px 20px; }
+
+
+
+  .ellipseDiv { inset: 18px; }
+
+
+
+  .frameParent21, .frameParent22, .frameParent44, .frameParent45 { align-items: center; text-align: center; }
+
+
+
+  .frameParent23 { width: min(100%, 440px); margin: 0 auto; }
+
+
+
+  .frameParent24, .frameParent25 { gap: 16px; }
+
+
+
+  .frameWrapper3, .frameWrapper4, .image20Parent { min-height: 88px; border-radius: 44px; }
+
+
+
+  .learnerPerformance { font-size: 18px; padding: 20px 20px 20px 84px; }
+
+
+
+  .reportCardIcon { width: 32px; height: 32px; }
+
+
+
+  .frameWrapper15 { padding: 16px; border-radius: 24px; }
+
+
+
+  .maleCoworkersDoingPaperworkIcon { width: min(100%, 520px); justify-self: center; }
+
+
+
+  .rectangleParent9 { flex-basis: 100%; max-width: 100%; }
+
+
+
+  .improveCourseAnd, .strengthenTeachingStrategies,
+
+
+
+  .increaseOverallLearner, .boostCourseCompletion { font-size: 16px; line-height: 24px; }
+
+
+
+  .frameParent48 { gap: 16px; }
+
+
+
+  .frameParent51 { gap: 20px; }
+
+
+
+  .frameParent52, .frameParent53 { min-height: 128px; padding: 12px; }
+
+
+
+  .ellipseParent { padding: 20px; }
+
+
+
+  .ellipseParent .ellipseIcon { display: none; }
+
+
+
+  .ellipseParent .frameParent56,
+
+
+
+  .ellipseParent .frameParent58,
+
+
+
+  .ellipseParent .frameWrapper17,
+
+
+
+  .ellipseParent .frameWrapper18,
+
+
+
+  .ellipseParent .frameWrapper19,
+
+
+
+  .ellipseParent .makeEveryLearningDecisionSParent,
+
+
+
+  .ellipseParent .smarterAnalyticsBetterLearWrapper,
+
+
+
+  .ellipseParent .frameWrapper20 {
+
+
+
+    width: 100%;
+
+
+
+    max-width: 100%;
+
+
+
+    min-width: 0;
+
+
+
+    margin-inline: auto;
+
+
+
+    align-items: center;
+
+
+
+    text-align: center;
+
+
+
+  }
+
+
+
+  .ellipseParent .makeEveryLearning,
+
+
+
+  .ellipseParent .goBeyondBasic,
+
+
+
+  .ellipseParent .smarterAnalyticsBetterContainer {
+
+
+
+    width: 100%;
+
+
+
+    margin-inline: auto;
+
+
+
+    text-align: center;
+
+
+
+  }
+
+
+
+  .ellipseParent .smarterAnalyticsBetterContainer { text-wrap: wrap; }
+
+
+
+  .ellipseParent .frameParent56 { gap: 16px; }
+
+
+
+  .ellipseParent .frameParent58,
+
+
+
+  .ellipseParent .makeEveryLearningDecisionSParent { gap: 16px; }
+
+
+
+  .ellipseParent .goBeyondBasic { font-size: 18px; line-height: 1.5; }
+
+
+
+  .ellipseParent .frameWrapper20 { margin-top: 0; }
+
+
+
+}
+
+
+
+@media (max-width: 480px) {
+
+
+
+.frameDiv,
+.frameDiv .home,
+.frameDiv .features,
+.frameDiv .arrowRightDoubleGroup .learningEcoSystem {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.frameDiv .arrowRightDoubleGroup .learningEcoSystem {
+  font-weight: 400;
+}
+
+
+
+  .turnLearningDataContainer { font-size: 26px; }
+
+
+
+  .frameParent16, .frameParent51 { grid-template-columns: minmax(0, 1fr); }
+
+
+
+  .rectangleParent { flex-basis: 100%; }
+
+
+
+  .frameParent52, .frameParent53 { min-height: 112px; }
+
+
+
+}
+
+
+
+@media (max-width: 359px) {
+
+
+
+  .analyticsReporting { --label-size: 16px; }
+
+
+
+  .learnerPerformance { font-size: 16px; }
+
+
+
+  .checkmarkSquare04Parent { padding: 12px; }
+
+
+
+}
+
+
+
+@media (hover: hover) and (pointer: fine) {
+
+
+
+  .frameChild15:hover, .frameChild51:hover { box-shadow: var(--neu-inset); }
+
+
+
+  .rectangleParent9:hover .frameChild37,
+
+
+
+  .rectangleParent9:hover .frameChild39 { box-shadow: var(--neu-inset); }
+
+
+
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+
+
+
+  .frameParent15.is-loading .frameChild18,
+
+
+
+  .frameParent15.is-loading .frameChild19,
+
+
+
+  .frameParent15.is-loading .frameChild20 { animation: none; transform: none; }
+
+
+
+  .frameChild15, .frameChild51 { transition: none; }
+
+
+
+}
+
+
+
+/* Better Outcomes cards — center icon + text consistently. */
+
+.frameParent47 .rectangleParent9 {
+
+  justify-content: center;
+
+}
+
+
+
+.frameParent47 .checkmarkSquare04Parent {
+
+  justify-content: center;
+
+  text-align: center;
+
+}
+
+
+
+.frameParent47 .improveCourseAnd,
+
+.frameParent47 .strengthenTeachingStrategies,
+
+.frameParent47 .increaseOverallLearner,
+
+.frameParent47 .boostCourseCompletion {
+
+  flex: 0 1 auto;
+
+  text-align: center;
+
+}
+
+
+
+/* Smarter Learning Reports — reduce card width only. */
+
+@media (min-width: 768px) {
+
+  .frameParent30 .frameParent35 {
+
+    width: 72% !important;
+
+    justify-self: center !important;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  .learnerActivity {
+
+    white-space: nowrap !important;
+
+  }
+
+}
+
+
+
+/* Expert launcher: positioned independently of Better Outcomes content flow. */
+.analyticsReporting > .frameParent46 { position: relative; }
+.analyticsReporting .betterOutcomesExpertSlot {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  transform: translateY(-50%);
+  z-index: 30;
+}
+@media (max-width: 767px) {
+  .analyticsReporting .betterOutcomesExpertSlot {
+    top: 175px;
+    right: 6px;
+    transform: none;
+  }
+}

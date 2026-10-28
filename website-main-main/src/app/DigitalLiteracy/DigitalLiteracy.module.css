@@ -1,0 +1,4714 @@
+.digital-literacy {
+
+  font-family: "Segoe UI", "Inter";
+
+}
+
+/* Digital Literacy page background */
+
+.digital-literacy {
+
+  background: #dfe6e9;
+
+  min-height: 100vh;
+
+}
+
+.dl-breadcrumb {
+
+  width: 100%;
+
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 32px 16px 0;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  box-sizing: border-box;
+
+}
+
+.dl-breadcrumb-label {
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
+
+  color: #2f3547;
+
+}
+
+.dl-breadcrumb-current {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 16px;
+
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
+
+  color: #243fa8;
+
+}
+
+.dl-breadcrumb-arrow {
+
+  width: 16px;
+
+  height: 16px;
+
+}
+
+.dl-hero-section {
+
+  width: 100%;
+
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 32px 16px;
+
+  position: relative;
+
+  box-sizing: border-box;
+
+}
+
+.dl-hero-card {
+
+  position: relative;
+
+  width: 100%;
+
+  max-width: 1280px;
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  border-radius: 32px;
+
+  padding: 36px 0 0 36px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 48px;
+
+  flex-wrap: wrap;
+
+  overflow: hidden;
+
+  height: auto;
+
+}
+
+.dl-hero-content {
+
+  flex: 1 1 480px;
+
+  max-width: 698px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 32px;
+
+  margin-top: 0;
+
+  margin-bottom: 64px;
+
+  padding: 0;
+
+  align-self: flex-start;
+
+}
+
+.dl-hero-badge {
+
+  padding: 9px 24px;
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  border-radius: 28px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 600;
+
+  font-size: 20px;
+
+  letter-spacing: 0.03em;
+
+  color: #2d4cc8;
+
+}
+
+.nlxp-footer-heading-tm {
+  display: inline-block !important;
+  position: relative !important;
+  top: -12 !important;
+  vertical-align: baseline !important;
+  margin-left: 1px !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+  font-size: 0.42em !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+  white-space: nowrap !important;
+}
+
+.dl-cta-card {
+
+  padding: 32px;
+
+}
+
+.dl-hero-heading {
+
+  margin: 0;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 36px;
+
+  line-height: 1.25;
+
+  letter-spacing: 0.03em;
+
+  color: #31344b;
+
+  text-shadow: none !important;
+
+  max-width: 550px;
+
+}
+
+.dl-hero-heading-accent {
+
+  color: #2d4cc8;
+
+}
+
+.dl-hero-subtext {
+
+  margin: 0;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 400;
+
+  font-size: 24px;
+
+  line-height: 1.43;
+
+  letter-spacing: 0.03em;
+
+  color: #2f3547;
+
+  max-width: 724px;
+
+}
+
+.dl-hero-buttons {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 32px;
+
+  flex-wrap: wrap;
+
+}
+
+.dl-hero-button {
+
+  border: none;
+
+  cursor: pointer;
+
+  border-radius: 8px;
+
+  padding: 16px 32px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 600;
+
+  font-size: 22px;
+
+  letter-spacing: 0.02em;
+
+}
+
+.dl-hero-button-secondary {
+  width: fit-content;
+  min-width: 0;
+  max-width: none;
+  padding-left: 24px;
+  padding-right: 24px;
+  white-space: nowrap;
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    -4px -4px 4px #ffffff,
+
+    4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  color: #31344b;
+}
+
+.dl-hero-button-primary {
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    -4px -4px 4px #fff,
+
+    4px 4px 4px #c4c4c4cc;
+
+  color: #2d4cc8;
+
+}
+
+.dl-hero-stats {
+
+  position: absolute;
+
+  width: 100%;
+
+  max-width: 698px;
+
+  display: flex;
+
+  align-items: stretch;
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    4px 4px 4px #c4c4c4,
+
+    -4px -4px 4px #ffffff;
+
+  border-radius: 16px;
+
+  padding: 16px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  bottom: -25px;
+
+  left: 51px;
+
+}
+
+.dl-hero-stats-bg {
+
+  position: absolute;
+
+  inset: 16px;
+
+  border-radius: 8px;
+
+  overflow: hidden;
+
+  pointer-events: none;
+
+}
+
+.dl-hero-stats-bg-pink,
+
+.dl-hero-stats-bg-green {
+
+  position: absolute;
+
+  top: 0;
+
+  height: 100%;
+
+  width: 42%;
+
+}
+
+.dl-hero-stats-bg-pink {
+
+  left: 0;
+
+  background: rgba(191, 24, 105, 0.3);
+
+  clip-path: polygon(0 0, 85% 0, 65% 100%, 0 100%);
+
+}
+
+.dl-hero-stats-bg-green {
+
+  right: 0;
+
+  background: rgba(42, 115, 8, 0.3);
+
+  clip-path: polygon(35% 0, 100% 0, 100% 100%, 15% 100%);
+
+}
+
+.dl-hero-stat {
+
+  position: relative;
+
+  z-index: 1;
+
+  flex: 1 1 33%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  gap: 4px;
+
+  padding: 16px 12px;
+
+}
+
+.dl-hero-stat-pink,
+
+.dl-hero-stat-green {
+
+  align-items: center;
+
+  text-align: center;
+
+  padding-left: 24px;
+
+}
+
+.dl-hero-stat-neutral {
+
+  align-items: center;
+
+  text-align: center;
+
+}
+
+.dl-hero-stat-value {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 4px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 32px;
+
+  letter-spacing: 0.02em;
+
+  color: #ab1868;
+
+}
+
+.dl-hero-stat-neutral .dl-hero-stat-value {
+
+  color: #2d4cc8;
+
+}
+
+.dl-hero-stat-green .dl-hero-stat-value {
+
+  color: #2a7308;
+
+}
+
+.dl-hero-stat-star {
+
+  width: 22px;
+
+  height: 22px;
+
+  color: #2a7308;
+
+}
+
+.dl-hero-stat-label {
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 600;
+
+  font-size: 18px;
+
+  letter-spacing: 0.02em;
+
+  color: #2f3547;
+
+}
+
+.dl-hero-media {
+
+  position: relative;
+
+  flex: 1 1 380px;
+
+  max-width: 460px;
+
+  aspect-ratio: 460 / 587;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+.dl-hero-pattern {
+
+  position: absolute;
+
+  left: 5%;
+
+  top: -12%;
+
+  width: 125%;
+
+  height: 120%;
+
+  z-index: 0;
+
+  pointer-events: none;
+
+}
+
+.dl-hero-image-frame {
+
+  position: relative;
+
+  z-index: 1;
+
+  width: 90%;
+
+  height: 100%;
+
+  border-radius: 16px;
+
+  overflow: hidden;
+
+}
+
+.dl-hero-image {
+
+  object-fit: cover;
+
+  object-position: top center;
+
+}
+
+.dl-skill-banner-section {
+
+  width: 100%;
+
+  padding: 122px 16px 48px;
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.dl-skill-banner {
+
+  position: relative;
+
+  width: 100%;
+
+  max-width: 1280px;
+
+  aspect-ratio: 1280 / 360;
+
+}
+
+.dl-skill-banner-svg {
+
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  justify-self: center;
+
+}
+
+.dl-skill-banner-sr-text {
+
+  position: absolute;
+
+  width: 1px;
+
+  height: 1px;
+
+  padding: 0;
+
+  margin: -1px;
+
+  overflow: hidden;
+
+  clip: rect(0, 0, 0, 0);
+
+  white-space: nowrap;
+
+  border: 0;
+
+  font-size: 36px;
+
+}
+
+.dl-advantage-section {
+
+  max-width: 1280px;
+
+  justify-self: center;
+
+  padding: 32px 16px;
+
+  display: grid;
+
+  grid-template-columns: 545fr 648fr;
+
+  align-items: center;
+
+  gap: 87px;
+
+  box-sizing: border-box;
+
+  position: relative;
+
+}
+
+.dl-advantage-text {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 32px;
+
+  z-index: 1;
+
+}
+
+.dl-advantage-wedge {
+
+  display: none;
+
+}
+
+.dl-section-heading {
+
+  margin: 0;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 36px;
+
+  line-height: 1.25;
+
+  letter-spacing: 0.03em;
+
+  color: #31344b;
+
+}
+
+.dl-accelerate-heading {
+
+  color: #2f3547;
+
+  text-shadow: none !important;
+
+}
+
+.dl-advantage-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 300px);
+
+  justify-content: center;
+
+  gap: 60px;
+
+}
+
+/* NeuroLXP Advantage cards - matched to the approved reference PNG */
+
+.dl-adv-card {
+
+  position: relative;
+
+  width: 275px;
+
+  height: 275px;
+
+  max-width: none;
+
+  min-width: 0;
+
+  aspect-ratio: auto;
+
+}
+
+/* Coloured plate behind the light card */
+
+.dl-adv-card-shadow,
+
+.dl-adv-card-mirrored .dl-adv-card-shadow {
+
+  position: absolute;
+
+  width: 250px;
+
+  height: 250px;
+
+  left: 25px;
+
+  top: 0;
+
+  right: auto;
+
+  bottom: auto;
+
+  inset: auto;
+
+  border-radius: 16px;
+
+  box-shadow:
+
+    4px 4px 4px #c4c4c4,
+
+    -4px -4px 4px #ffffff;
+
+}
+
+/* Light foreground card - same geometry on all four cards */
+
+.dl-adv-card-front,
+
+.dl-adv-card-mirrored .dl-adv-card-front {
+
+  position: absolute;
+
+  width: 250px;
+
+  height: 250px;
+
+  left: 0;
+
+  top: 23px;
+
+  right: auto;
+
+  bottom: auto;
+
+  inset: auto;
+
+  background: #dfe6e9;
+
+  border-radius: 16px;
+
+  box-shadow:
+
+    -4px -4px 4px rgba(182, 179, 179, 0.2),
+
+    4px 4px 4px rgba(123, 123, 123, 0.6);
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 105px 16px 24px;
+
+  box-sizing: border-box;
+
+  overflow: visible;
+
+  transform: none;
+
+}
+
+/* Keep the reference-PNG shape stable on hover */
+
+.dl-adv-card-front::before {
+
+  content: none;
+
+}
+
+/* Number circle overlapping the top-left corner */
+
+.dl-adv-card-badge {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 80px;
+
+  height: 80px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 36px;
+
+  line-height: 1;
+
+  color: #2f3547;
+
+  letter-spacing: 0.02em;
+
+  z-index: 2;
+
+}
+
+.dl-adv-card-title {
+
+  width: 100%;
+
+  margin: 0;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 24px;
+
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #31344b;
+
+  text-align: center;
+
+}
+
+.dl-adv-card-desc {
+
+  width: 100%;
+
+  margin: 16px 0 0;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #2f3547;
+
+  text-align: center;
+
+}
+
+/* Keep each card's existing accent colour and data unchanged */
+
+.dl-advantage-grid > .dl-adv-card:nth-child(3) .dl-adv-card-desc {
+
+  color: #000000;
+
+}
+
+.dl-transform-icons {
+
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 24px 16px 64px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 24px;
+
+}
+
+.dl-transform-row {
+
+  width: 100%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+
+  gap: 24px;
+
+}
+
+.dl-pill-label {
+
+  position: relative;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 20px 56px;
+
+  background: #dfe6e9;
+
+  border: 4px dashed var(--pill-color);
+
+  border-radius: 50%;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.dl-pill-label-text {
+
+  position: relative;
+
+  z-index: 1;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: clamp(28px, 4vw, 64px);
+
+  line-height: 1.25;
+
+  letter-spacing: 0.03em;
+
+  color: var(--pill-color);
+
+  text-shadow: none !important;
+
+}
+
+.dl-accelerate-section {
+
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 32px;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  border-radius: 32px;
+
+  min-height: 0;
+
+}
+
+.dl-accelerate {
+
+  padding: 32px;
+
+  display: flex;
+
+  box-shadow:
+
+    -4px -4px 4px #fff,
+
+    4px 4px 4px #c4c4c4cc;
+
+  gap: 74px;
+
+  border-radius: 16px;
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+.dl-accelerate-media {
+
+  flex: 1 1 320px;
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.dl-accelerate-image-frame {
+
+  position: relative;
+
+  width: 100%;
+
+  aspect-ratio: 458 / 549;
+
+  border-radius: 32px;
+
+  overflow: hidden;
+
+}
+
+.dl-accelerate-image-frame::after {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.1);
+
+  pointer-events: none;
+
+}
+
+.dl-accelerate-image {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  box-sizing: border-box;
+
+}
+
+.dl-accelerate-play {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 96px;
+
+  height: 96px;
+
+  cursor: pointer;
+
+}
+
+.dl-accelerate-content {
+
+  flex: 1 1 400px;
+
+  max-width: 602px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 16px;
+
+}
+
+.dl-check-list {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+  width: 100%;
+
+}
+
+.dl-check-pill-outer {
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  border-radius: 100px;
+
+  padding: 11px;
+
+  transition: box-shadow 0.2s ease;
+
+}
+
+.dl-check-pill {
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  padding: 16px 32px;
+
+  border-radius: 100px;
+
+  box-shadow:
+
+    -4px -4px 4px #ffffff,
+
+    4px 4px 4px #c6c6c9;
+
+  background: var(--pill-bg);
+
+  transition: background 0.3s ease;
+
+}
+
+.dl-check-pill-icon {
+
+  flex-shrink: 0;
+
+  width: 33px;
+
+  height: 33px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: var(--pill-color);
+
+  transition: transform 0.3s ease;
+
+}
+
+.dl-check-pill-icon svg {
+
+  width: 16px;
+
+  height: 16px;
+
+  overflow: visible;
+
+}
+
+.dl-check-icon-check,
+
+.dl-check-icon-arrow {
+
+  transition:
+
+    opacity 0.3s ease,
+
+    transform 0.3s ease;
+
+  transform-box: fill-box;
+
+  transform-origin: center;
+
+}
+
+.dl-check-icon-arrow {
+
+  opacity: 0;
+
+  transform: rotate(-90deg);
+
+}
+
+.dl-check-pill-text {
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 600;
+
+  font-size: 20px;
+
+  color: #2f3547;
+
+}
+
+.dl-analytics-section {
+
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 50px 16px 32px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 50px;
+
+}
+
+.dl-analytics-header {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 24px;
+
+  max-width: 1100px;
+
+  text-align: center;
+
+}
+
+.dl-center {
+
+  text-align: center;
+
+}
+
+.dl-analytics-grid {
+
+  width: 100%;
+
+  max-width: 898px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 50px 100px;
+
+}
+
+.dl-analytics-card {
+
+  position: relative;
+
+  padding: 16px 32px 16px 100px;
+
+  border-radius: 1000px;
+
+}
+
+.dl-analytics-card-border {
+
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  overflow: visible;
+
+  pointer-events: none;
+
+}
+
+.dl-analytics-card-border rect {
+
+  fill: none;
+
+  stroke: var(--analytics-color);
+
+  stroke-width: 3;
+
+  stroke-dasharray: 10 8;
+
+  animation: dl-analytics-march 1s linear infinite;
+
+}
+
+@keyframes dl-analytics-march {
+
+  to {
+
+    stroke-dashoffset: -18;
+
+  }
+
+}
+
+.dl-analytics-card-icon {
+
+  position: absolute;
+
+  left: -38px;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 117px;
+
+  height: 117px;
+
+  border-radius: 50%;
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    4px 4px 4px #c6c6c9,
+
+    -4px -4px 4px #ffffff;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  transition:
+
+    left 0.3s ease,
+
+    transform 0.3s ease;
+
+}
+
+.dl-analytics-card-icon svg {
+
+  width: 60px;
+
+  height: 60px;
+
+}
+
+.dl-analytics-card-text {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+}
+
+.dl-analytics-card-value {
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 32px;
+
+}
+
+.dl-analytics-card-label {
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 20px;
+
+  letter-spacing: 0.03em;
+
+  color: #2f3547;
+
+}
+
+.dl-analytics-card-desc {
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  color: #31344b;
+
+}
+
+/* How it works cards - matched to the supplied reference PNG */
+
+.dl-howitworks-section {
+
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 34px 16px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 54px;
+
+}
+
+.dl-step-grid {
+
+  width: 100%;
+
+  max-width: 1120px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, minmax(0, 250px));
+
+  justify-content: space-between;
+
+  align-items: stretch;
+
+  gap: 36px;
+
+}
+
+.dl-step-card {
+
+  position: relative;
+
+  width: 250px;
+
+  height: 320px;
+
+  min-height: 320px;
+
+  justify-self: center;
+
+  background: #dfe6e9;
+
+  border: 0;
+
+  border-right: 4px solid var(--step-color);
+
+  border-radius: 16px 64px 64px 16px;
+
+  box-shadow:
+
+    4px 4px 4px rgba(196, 196, 196, 0.9),
+
+    -4px -4px 4px rgba(255, 255, 255, 0.95);
+
+  padding: 150px 24px 18px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  text-align: left;
+
+  transition:
+
+    transform 0.3s ease,
+
+    box-shadow 0.3s ease;
+
+}
+
+.dl-step-card::before,
+
+.dl-step-card::after {
+
+  content: none;
+
+}
+
+.dl-step-card-badge {
+
+  position: absolute;
+
+  top: 42px;
+
+  right: -1px;
+
+  width: 126px;
+
+  height: 76px;
+
+  margin: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    inset -4px -4px 4px rgba(255, 255, 255, 0.95),
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.55);
+
+  border-radius: 28px 0 0 28px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 44px;
+
+  line-height: 1;
+
+  letter-spacing: 0.01em;
+
+  color: var(--step-color);
+
+  transition:
+
+    transform 0.3s ease,
+
+    box-shadow 0.3s ease;
+
+}
+
+.dl-step-card-title {
+
+  width: 100%;
+
+  margin: 0 0 16px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 28px;
+
+  line-height: 1.2;
+
+  color: #31344b;
+
+  text-align: left;
+
+}
+
+.dl-step-card-desc {
+
+  width: 100%;
+
+  margin: 0;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 400;
+
+  font-size: 20px;
+
+  line-height: 1.45;
+
+  letter-spacing: 0;
+
+  color: #31344b;
+
+  text-align: left;
+
+}
+
+/* Keep only the first step-card description on two clean lines. */
+
+.dl-step-grid > .dl-step-card:first-child .dl-step-card-desc {
+
+  font-size: 18px;
+
+  white-space: normal;
+
+  overflow-wrap: normal;
+
+  word-break: normal;
+
+}
+
+.dl-why-section {
+
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+    padding: 60px 16px 30px;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 48px;
+
+}
+
+.dl-why-content {
+
+  flex: 1 1 400px;
+
+  max-width: 697px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 34px;
+
+}
+
+.dl-bullet-list {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 28px;
+
+  width: 100%;
+
+}
+
+.dl-bullet-item {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 600;
+
+  font-size: 20px;
+
+  color: #2f3547;
+
+}
+
+.dl-bullet-arrow {
+
+  width: 36px;
+
+  height: 36px;
+
+  flex-shrink: 0;
+
+  transition: transform 0.3s ease;
+
+}
+
+.dl-bullet-text {
+
+  position: relative;
+
+  display: inline-block;
+
+}
+
+.dl-bullet-underline {
+
+  position: absolute;
+
+  left: 0;
+
+  bottom: -4px;
+
+  width: 100%;
+
+  height: 2px;
+
+  overflow: visible;
+
+}
+
+.dl-bullet-underline line {
+
+  stroke: var(--bullet-color);
+
+  stroke-width: 2;
+
+  stroke-dasharray: 1;
+
+  stroke-dashoffset: 1;
+
+  transition: stroke-dashoffset 0.4s ease;
+
+}
+
+.dl-why-callouts {
+
+  flex: 1 1 320px;
+
+  max-width: 610px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 60px;
+
+  justify-content: center;
+
+}
+
+.dl-callout-card {
+
+  position: relative;
+
+  padding: 32px 40px;
+
+  border: 4px dashed var(--callout-color);
+
+  border-radius: 0 64px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.dl-callout-card::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: -4px;
+
+  border-radius: inherit;
+
+  opacity: 0;
+
+  transition: opacity 0.3s ease;
+
+  pointer-events: none;
+
+  z-index: 0;
+
+}
+
+.dl-callout-card::after {
+
+  content: "";
+
+  position: absolute;
+
+  inset: -4px;
+
+  border-radius: inherit;
+
+  border: 4px solid var(--callout-color);
+
+  opacity: 0;
+
+  transition: opacity 0.3s ease;
+
+  pointer-events: none;
+
+  z-index: 1;
+
+}
+
+.dl-callout-title {
+
+  position: relative;
+
+  z-index: 2;
+
+  display: inline-block;
+
+  margin: 0 0 14px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #2f3547;
+
+}
+
+.dl-callout-title::after {
+
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+
+  bottom: -6px;
+
+  width: 0;
+
+  height: 2px;
+
+  background: var(--callout-color);
+
+  transition: width 0.3s ease;
+
+}
+
+.dl-callout-desc {
+
+  position: relative;
+
+  z-index: 2;
+
+  margin: 0;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-size: 20px;
+
+  color: #31344b;
+
+}
+
+.dl-cta-section {
+
+  width: 100%;
+
+  padding: 32px 16px 64px;
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.dl-cta-card {
+
+  width: 100%;
+
+  max-width: 1280px;
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    inset -4px -4px 4px rgba(255, 255, 255, 0.5),
+
+    inset 4px 4px 4px #c4c4c4;
+
+  border-radius: 32px;
+
+  padding: 50px 32px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 36px;
+
+  text-align: center;
+
+}
+
+.dl-cta-heading {
+
+  margin: 0;
+
+  max-width: 900px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 700;
+
+  font-size: 36px;
+
+  line-height: 1.15;
+
+  letter-spacing: 0.03em;
+
+  color: #31344b;
+
+}
+
+.dl-cta-subtext {
+
+  margin: 0;
+
+  max-width: 960px;
+
+  font-family: "Segoe UI", "Inter";
+
+  font-size: 24px;
+
+  line-height: 1.43;
+
+  letter-spacing: 0.03em;
+
+  color: #000;
+
+}
+
+/* Mouse hover effects are opt-in; touch scrolling keeps cards stationary. */
+
+@media (min-width: 1024px) and (hover: hover) and (pointer: fine) {
+
+  .dl-hero-button-primary:hover,
+
+  .dl-hero-button-secondary:hover {
+
+    box-shadow:
+
+      inset -4px -4px 4px #ffffff,
+
+      inset 4px 4px 4px #c6c6c9;
+
+  }
+
+  .dl-adv-card:hover,
+
+  .dl-adv-card:hover .dl-adv-card-front,
+
+  .dl-adv-card-mirrored:hover .dl-adv-card-front {
+
+    transform: none;
+
+  }
+
+  .dl-adv-card:hover .dl-adv-card-badge {
+
+    animation: none;
+
+  }
+
+
+
+  .dl-analytics-card:hover .dl-analytics-card-icon {
+
+    transform: translateY(-50%) scale(1.05);
+
+  }
+
+  .dl-step-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow:
+
+      4px 4px 4px var(--step-glow),
+
+      -4px -4px 4px #ffffff;
+
+  }
+
+  .dl-step-card:hover::before,
+
+  .dl-step-card:hover::after {
+
+    opacity: 1;
+
+  }
+
+  .dl-step-card:hover .dl-step-card-badge {
+
+    transform: translateY(-4px) rotate(-4deg) scale(1.08);
+
+    box-shadow:
+
+      -4px -4px 4px #ffffff,
+
+      4px 4px 4px var(--step-glow);
+
+  }
+
+.dl-callout-card:hover::before,
+
+  .dl-callout-card:hover::after {
+
+    opacity: 1;
+
+  }
+
+  .dl-callout-card:hover .dl-callout-title::after {
+
+    width: 0;
+
+  }
+
+}
+
+/* Shared sizing: the page owns its gutters, and children may shrink safely. */
+
+.digital-literacy {
+
+  width: 100%;
+
+  min-width: 0;
+
+  font-family: "Segoe UI", "Inter";
+
+}
+
+.digital-literacy *,
+
+.digital-literacy *::before,
+
+.digital-literacy *::after { box-sizing: border-box; }
+
+.digital-literacy :where(h1, h2, h3, h4, p, button) { overflow-wrap: anywhere; }
+
+.digital-literacy :where(img, video) { display: block; max-width: 100%; }
+
+.dl-breadcrumb { flex-wrap: wrap; }
+
+.dl-breadcrumb-current { min-width: 0; }
+
+.dl-breadcrumb-arrow { flex-shrink: 0; }
+
+.dl-hero-content, .dl-hero-media, .dl-advantage-text, .dl-advantage-grid,
+
+.dl-accelerate-content, .dl-accelerate-media, .dl-why-content,
+
+.dl-why-callouts, .dl-analytics-card-text, .dl-check-pill-text,
+
+.dl-analytics-grid > *, .dl-step-grid > * { min-width: 0; }
+
+.dl-hero-badge { max-width: 100%; line-height: 1.4; }
+
+.dl-hero-button { min-height: 48px; max-width: 100%; line-height: 1.35; }
+
+.dl-hero-card {
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+
+  gap: clamp(24px, 3.4vw, 48px);
+
+  align-items: start;
+
+}
+
+.dl-hero-content {
+
+  margin-top: 0;
+
+  margin-bottom: 64px;
+
+  padding: 0;
+
+  align-self: start;
+
+}
+
+.dl-hero-media { width: 100%; align-self: end; justify-self: end; }
+
+.dl-hero-image-frame { position: absolute; inset: 0 5%; width: auto; height: auto; }
+
+.dl-hero-stats {
+
+  position: relative;
+
+  inset: auto;
+
+  width: min(698px, calc(100% - 72px));
+
+  margin: -64px 0 0 36px;
+
+}
+
+.dl-hero-stat { flex: 1 1 0; min-width: 0; padding-inline: 12px; }
+
+.dl-skill-banner-section { padding: 40px 16px 48px; }
+
+.dl-skill-banner-svg { max-width: 100%; }
+
+.dl-advantage-section {
+
+  width: 100%;
+
+  margin: 0 auto;
+
+  grid-template-columns: minmax(0, 1fr) minmax(0, 610px);
+
+  gap: clamp(32px, 4vw, 60px);
+
+}
+
+.dl-advantage-wedge { left: 0; max-width: 100%; }
+
+.dl-advantage-grid {
+
+  width: 100%;
+
+  grid-template-columns: repeat(2, minmax(0, 275px));
+
+  gap: 40px clamp(24px, 4vw, 60px);
+
+  align-items: stretch;
+
+  grid-auto-rows: 1fr;
+
+  justify-items: center;
+
+}
+
+/* Keep the 25px coloured offset; let text determine each row's height. */
+
+.dl-adv-card {
+
+  display: flex;
+
+  width: 100%;
+
+  max-width: 275px;
+
+  height: auto;
+
+  padding: 23px 25px 0 0;
+
+}
+
+.dl-adv-card-shadow,
+
+.dl-adv-card-mirrored .dl-adv-card-shadow {
+
+  inset: 0 0 23px 25px;
+
+  width: auto;
+
+  height: auto;
+
+}
+
+.dl-adv-card-front,
+
+.dl-adv-card-mirrored .dl-adv-card-front {
+
+  position: relative;
+
+  inset: auto;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 250px;
+
+  padding: 96px 16px 24px;
+
+  justify-content: flex-start;
+
+}
+
+.dl-adv-card-title { min-height: 56px; display: flex; align-items: center; justify-content: center; }
+
+.dl-adv-card-desc { margin-top: 12px; line-height: 1.5; }
+
+.dl-transform-icons { width: 100%; }
+
+.dl-pill-label { max-width: 100%; }
+
+.dl-accelerate-section { width: calc(100% - 32px); }
+
+.dl-accelerate {
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 458fr) minmax(0, 602fr);
+
+  align-items: center;
+
+  height: auto;
+
+  gap: clamp(24px, 5vw, 64px);
+
+}
+
+.dl-accelerate-image { position: absolute; inset: 0; }
+
+.dl-check-pill-text { line-height: 1.45; }
+
+.dl-analytics-grid {
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  padding-inline: 38px;
+
+  max-width: 974px;
+
+  align-items: stretch;
+
+}
+
+.dl-analytics-card { min-height: 144px; display: flex; align-items: center; }
+
+.dl-analytics-card-label, .dl-analytics-card-desc { line-height: 1.45; }
+
+.dl-analytics-card-value { line-height: 1.2; }
+
+.dl-step-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.dl-why-section {
+
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+
+}
+
+.dl-why-callouts { width: 100%; }
+
+.dl-bullet-item { line-height: 1.45; }
+
+.dl-bullet-item > svg { flex-shrink: 0; }
+
+.dl-callout-card {
+
+  filter: none;
+
+  background: #dfe6e9;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+
+}
+
+.dl-callout-title { display: block; line-height: 1.3; }
+
+.dl-callout-desc { line-height: 1.5; }
+
+/* Compact laptops and tablets: change columns before their content crowds. */
+
+@media (max-width: 1119px) {
+
+  .dl-advantage-section { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+
+  .dl-advantage-text { align-items: center; text-align: center; max-width: 720px; margin-inline: auto; }
+
+  .dl-advantage-wedge { display: none; }
+
+  .dl-advantage-grid { max-width: 610px; margin-inline: auto; }
+
+  .dl-step-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 800px; }
+
+  .dl-step-card { width: 250px; height: 320px; min-height: 320px; }
+
+  .dl-accelerate-section { padding: 24px; }
+
+  .dl-accelerate { padding: 24px; gap: 28px; }
+
+  .dl-check-pill { padding: 14px 20px; }
+
+  .dl-why-section { gap: 32px; }
+
+  .dl-callout-card { padding: 28px; }
+
+}
+
+@media (max-width: 1023px) {
+
+  .dl-hero-card { grid-template-columns: minmax(0, 1fr); padding: 32px 24px 0; gap: 28px; }
+
+  .dl-hero-content { align-items: center; text-align: center; width: 100%; margin: 0 auto; padding: 0; gap: 24px; }
+
+  .dl-hero-buttons { justify-content: center; gap: 20px; }
+
+  .dl-hero-media { max-width: 400px; justify-self: center; }
+
+  .dl-hero-stats { width: 100%; max-width: 698px; margin: 24px auto 0; }
+
+  .dl-hero-heading, .dl-section-heading, .dl-cta-heading { font-size: 30px; }
+
+  .dl-hero-subtext, .dl-cta-subtext { font-size: 20px; }
+
+  .dl-accelerate { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+
+  .dl-accelerate-media { width: 100%; max-width: 480px; margin-inline: auto; }
+
+  .dl-accelerate-content { align-items: center; text-align: center; width: 100%; margin-inline: auto; }
+
+  .dl-check-list { text-align: left; }
+
+  .dl-analytics-grid { gap: 36px 60px; padding-inline: 30px; }
+
+  .dl-analytics-card { padding: 20px 24px 20px 74px; }
+
+  .dl-analytics-card-icon { left: -30px; width: 88px; height: 88px; }
+
+  .dl-analytics-card-icon svg { width: 48px; height: 48px; }
+
+  .dl-analytics-card-value { font-size: 28px; }
+
+  .dl-analytics-card-label { font-size: 18px; }
+
+  .dl-why-section { grid-template-columns: minmax(0, 1fr); }
+
+  .dl-why-content { width: 100%; max-width: 720px; align-items: center; text-align: center; margin-inline: auto; }
+
+  .dl-bullet-list { max-width: 440px; margin-inline: auto; text-align: left; }
+
+  .dl-why-callouts { max-width: 610px; margin-inline: auto; gap: 28px; }
+
+}
+
+/* Phones: natural text wrapping and a full, uncropped banner background. */
+
+@media (max-width: 767px) {
+
+  .dl-breadcrumb { padding-top: 20px; }
+
+  .dl-breadcrumb-label, .dl-breadcrumb-current { font-size: 14px; line-height: 1.45; }
+
+  .dl-hero-section, .dl-advantage-section, .dl-analytics-section,
+
+  .dl-howitworks-section, .dl-why-section { padding: 28px 16px; }
+
+  .dl-hero-heading, .dl-section-heading, .dl-cta-heading { font-size: clamp(24px, 4.5vw, 28px); line-height: 1.3; }
+
+  .dl-hero-subtext, .dl-cta-subtext { font-size: 16px; line-height: 1.5; }
+
+  .dl-hero-badge { font-size: clamp(16px, 3vw, 18px); padding: 8px 18px; }
+
+  .dl-hero-card { border-radius: 24px; padding: 24px 20px 0; gap: 24px; }
+
+  .dl-hero-content { gap: 20px; }
+
+  .dl-hero-button { font-size: 18px; padding: 14px 24px; }
+
+  .dl-hero-media { max-width: 360px; }
+
+  .dl-hero-stat-value { font-size: 26px; }
+
+  .dl-hero-stat-label { font-size: 15px; line-height: 1.4; }
+
+  .dl-hero-stat { padding: 14px 8px; }
+
+  .dl-skill-banner-section { padding: 12px 16px 28px; }
+
+  .dl-skill-banner { display: grid; place-items: center; min-height: 180px; aspect-ratio: auto; padding: 40px 8%; }
+
+  .dl-skill-banner-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+  .dl-skill-banner-art-text { display: none; }
+
+  .dl-skill-banner-sr-text {
+
+    position: relative; z-index: 1;
+
+    width: 100%; height: auto; margin: 0; padding: 0;
+
+    overflow: visible; clip: auto; white-space: normal;
+
+    font-size: clamp(18px, 3.8vw, 24px); line-height: 1.4;
+
+    font-weight: 700; color: #31344b; text-align: center;
+
+    text-shadow: none !important;
+
+  }
+
+  .dl-skill-banner-sr-text > span { display: block; }
+
+  .dl-skill-banner-accent { color: #2d4cc8; font-style: normal; }
+
+  .dl-advantage-text { gap: 20px; }
+
+  .dl-adv-card-desc { font-size: 16px; line-height: 1.5; }
+
+  .dl-transform-icons { gap: 24px; padding: 28px 16px; }
+
+  .dl-transform-row { justify-content: center; gap: 24px; }
+
+  .dl-pill-label { width: min(260px, 100%); min-height: 82px; padding: 16px 24px; flex: none; }
+
+  .dl-pill-label-text { font-size: 28px; line-height: 1.25; }
+
+  .dl-accelerate-section { padding: 16px; border-radius: 24px; }
+
+  .dl-accelerate { padding: 16px; gap: 24px; }
+
+  .dl-accelerate-content { gap: 20px; }
+
+  .dl-accelerate-media { max-width: 400px; }
+
+  .dl-accelerate-image-frame { border-radius: 16px; }
+
+  .dl-check-list { gap: 16px; }
+
+  .dl-check-pill-outer { padding: 8px; }
+
+  .dl-check-pill { padding: 12px 16px; gap: 10px; }
+
+  .dl-check-pill-icon { width: 28px; height: 28px; }
+
+  .dl-check-pill-text { font-size: 16px; }
+
+  .dl-analytics-header, .dl-analytics-section, .dl-howitworks-section { gap: 24px; }
+
+  .dl-analytics-grid { grid-template-columns: minmax(0, 1fr); max-width: 520px; gap: 28px; padding-inline: 24px 0; }
+
+  .dl-analytics-card { padding: 22px 24px 22px 72px; min-height: 132px; }
+
+  .dl-analytics-card-icon { left: -24px; width: 80px; height: 80px; }
+
+  .dl-analytics-card-icon svg { width: 42px; height: 42px; }
+
+  .dl-analytics-card-value { font-size: 24px; }
+
+  .dl-analytics-card-label { font-size: 18px; }
+
+  .dl-analytics-card-desc { font-size: 15px; }
+
+  .dl-step-grid { max-width: 610px; gap: 28px; justify-content: center; }
+
+  .dl-step-card { width: 250px; height: 300px; min-height: 300px; padding: 132px 22px 18px; border-right-width: 4px; border-radius: 16px 58px 58px 16px; }
+
+  .dl-step-card-badge { top: 34px; right: -1px; width: 112px; height: 68px; font-size: 38px; }
+
+  .dl-step-card-title { font-size: 22px; margin-bottom: 12px; }
+
+  .dl-step-card-desc { font-size: 16px; line-height: 1.45; }
+
+  .dl-step-grid > .dl-step-card:first-child .dl-step-card-desc { font-size: 16px; }
+
+  .dl-why-content { gap: 24px; }
+
+  .dl-bullet-list { gap: 20px; max-width: 360px; }
+
+  .dl-bullet-item { font-size: 18px; gap: 12px; }
+
+  .dl-bullet-item > svg { width: 30px; height: 26px; }
+
+  .dl-callout-card { border-width: 3px; padding: 28px 24px; border-radius: 0 48px; }
+
+  .dl-callout-card::before, .dl-callout-card::after { inset: -3px; }
+
+  .dl-callout-title { font-size: 20px; margin-bottom: 12px; }
+
+  .dl-callout-desc { font-size: 16px; }
+
+  .dl-cta-section { padding: 28px 16px 48px; }
+
+  .dl-cta-card { padding: 28px 20px; gap: 24px; border-radius: 24px; }
+
+}
+
+@media (max-width: 639px) {
+
+  .dl-advantage-grid { grid-template-columns: minmax(0, 275px); gap: 32px; }
+
+  .dl-transform-row { flex-direction: column; align-items: center; }
+
+}
+
+@media (max-width: 599px) {
+
+  .dl-step-grid { grid-template-columns: minmax(0, 250px); max-width: 250px; }
+
+}
+
+@media (max-width: 479px) {
+
+  .dl-hero-buttons { width: 100%; flex-direction: column; gap: 16px; }
+
+  .dl-hero-button { width: 100%; max-width: 280px; }
+  .dl-hero-button-secondary {
+    width: fit-content;
+    min-width: 0;
+    max-width: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    white-space: nowrap;
+  }
+
+  .dl-hero-stats { flex-direction: column; padding: 12px; }
+
+  .dl-hero-stats-bg { display: none; }
+
+  .dl-hero-stat { flex: none; width: 100%; padding: 16px 12px; }
+
+  .dl-hero-stat-pink { background: rgba(191, 24, 105, 0.3); border-radius: 8px; }
+
+  .dl-hero-stat-green { background: rgba(42, 115, 8, 0.3); border-radius: 8px; }
+
+  .dl-accelerate { padding: 12px; }
+
+  .dl-check-pill { padding: 12px; }
+
+  .dl-check-pill-text { font-size: 15px; }
+
+}
+
+@media (max-width: 1023px), (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
+
+  .dl-analytics-card-border rect { animation: none; }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .digital-literacy *, .digital-literacy *::before, .digital-literacy *::after {
+
+    animation: none !important;
+
+    transition: none !important;
+
+  }
+
+}
+
+/* =========================================================
+
+   DESKTOP HERO HEIGHT FIX
+
+   Reduce only the empty space between buttons and stats.
+
+   ========================================================= */
+
+@media (min-width: 1024px) {
+
+  .dl-hero-card {
+
+    min-height: 0;
+
+  }
+
+  .dl-hero-content {
+
+    padding: 0;
+
+    margin-top: 0;
+
+    margin-bottom: 24px;
+
+  }
+
+  .dl-hero-media {
+
+    width: 100%;
+
+    max-width: 430px;
+
+    /* reduce image/card height */
+
+    height: 500px;
+
+    aspect-ratio: auto;
+
+    align-self: end;
+
+    justify-self: end;
+
+  }
+
+  .dl-hero-image-frame {
+
+    position: absolute;
+
+    top: 0;
+
+    right: 5%;
+
+    bottom: 0;
+
+    left: 5%;
+
+    width: auto;
+
+    height: auto;
+
+  }
+
+  .dl-hero-image {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+    object-position: center bottom;
+
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .dl-hero-content {
+
+    margin-bottom: 12px;
+
+  }
+
+  .dl-hero-media {
+
+    height: 480px;
+
+  }
+
+}
+
+/* =========================================================
+
+   FINAL MOBILE HERO PATTERN FIX
+
+   Move ONLY the blue decorative pattern away from the buttons.
+
+   Buttons, image, card size, text, spacing and all other sections
+
+   remain unchanged.
+
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+  .dl-hero-pattern {
+
+    left: 18% !important;
+
+    top: 14% !important;
+
+    width: 108% !important;
+
+    height: 96% !important;
+
+  }
+
+}
+
+/* Home-page component styles and the shared heading sizes. */
+
+.digital-literacy {
+
+  --dl-heading-size: 36px;
+
+  --dl-heading-line: 44px;
+
+  --dl-subheading-size: 24px;
+
+  --dl-subheading-line: 32px;
+
+}
+
+/* Include button labels, badge labels and inline SVG text. */
+
+.digital-literacy,
+
+.digital-literacy * {
+
+  -webkit-user-select: text !important;
+
+  user-select: text !important;
+
+  -webkit-touch-callout: default;
+
+}
+
+/* Match the home page's Book a Demo button, including both variants. */
+
+.digital-literacy :is(.dl-hero-button, .dl-hero-button-primary, .dl-hero-button-secondary) {
+
+  appearance: none;
+
+  -webkit-appearance: none;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border: 0 !important;
+
+  border-radius: 8px;
+
+  padding: 16px 32px;
+
+  background: #dfe6e9 !important;
+
+  color: #2d4cc8 !important;
+
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9;
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  letter-spacing: 0.02em;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transform: none;
+
+  transition: box-shadow 0.2s ease;
+
+}
+
+.digital-literacy :is(.dl-hero-button, .dl-hero-button-primary, .dl-hero-button-secondary):is(:hover, :active) {
+
+  box-shadow: inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  transform: none;
+
+}
+
+.digital-literacy :is(.dl-hero-button, .dl-hero-button-primary, .dl-hero-button-secondary):focus-visible {
+
+  outline: 3px solid #2d4cc8;
+
+  outline-offset: 3px;
+
+}
+
+.digital-literacy :is(.dl-hero-button, .dl-hero-button-primary, .dl-hero-button-secondary) :is(span, b, strong) {
+
+  color: inherit;
+
+  font-size: inherit;
+
+  font-weight: inherit;
+
+}
+
+/* Only the section badge uses the home-page badge treatment. */
+
+.digital-literacy .dl-hero-badge {
+
+  background: #dfe6e9 !important;
+
+  color: #2d4cc8 !important;
+
+  box-shadow: inset -4px -4px 4px #ffffff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8) !important;
+
+  filter: none !important;
+
+  text-shadow: none !important;
+
+  transform: none !important;
+
+  animation: none !important;
+
+  transition: none !important;
+
+  cursor: text;
+
+}
+
+.digital-literacy .dl-hero-badge {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  width: fit-content;
+
+  max-width: 100%;
+
+  min-width: 0;
+
+  min-height: 56px;
+
+  padding: 12px 36px;
+
+  border: 0;
+
+  border-radius: 999px;
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 1.3;
+
+  letter-spacing: 0.03em;
+
+  text-align: center;
+
+  white-space: normal;
+
+}
+
+.digital-literacy .dl-hero-badge sup {
+
+  position: relative;
+
+  top: -3px;
+
+  font-size: 0.45em;
+
+  font-weight: 700;
+
+  line-height: 0;
+
+}
+
+/* Main section headings; decorative banner typography stays original. */
+
+.digital-literacy :is(
+
+  .dl-hero-heading,
+
+  .dl-section-heading,
+
+  .dl-accelerate-heading,
+
+  .dl-cta-heading
+
+) {
+
+  font-size: var(--dl-heading-size) !important;
+
+  line-height: var(--dl-heading-line) !important;
+
+  height: auto;
+
+  white-space: normal;
+
+  overflow-wrap: normal;
+
+  word-break: normal;
+
+}
+
+/* Supporting section copy; card typography stays original. */
+
+.digital-literacy :is(
+
+  .dl-hero-subtext,
+
+  .dl-cta-subtext
+
+) {
+
+  font-size: var(--dl-subheading-size) !important;
+
+  line-height: var(--dl-subheading-line) !important;
+
+  white-space: normal;
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .digital-literacy :is(.dl-hero-button, .dl-hero-button-primary, .dl-hero-button-secondary) {
+
+    font-size: 20px;
+
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .digital-literacy {
+
+    --dl-heading-size: 24px;
+
+    --dl-heading-line: 32px;
+
+    --dl-subheading-size: 16px;
+
+    --dl-subheading-line: 24px;
+
+  }
+
+  .digital-literacy :is(.dl-hero-button, .dl-hero-button-primary, .dl-hero-button-secondary) {
+
+    padding: 14px 24px;
+
+    font-size: 18px;
+
+  }
+
+  .digital-literacy .dl-hero-badge {
+
+    min-height: 48px;
+
+    padding: 10px 26px;
+
+    font-size: 20px;
+
+  }
+
+}
+
+/* Requested text-only corrections: preserve existing card geometry and styling. */
+
+/* Include the header/footer when they sit outside the page content wrapper. */
+
+body:has(.digital-literacy),
+
+body:has(.digital-literacy) * {
+
+  -webkit-user-select: text !important;
+
+  user-select: text !important;
+
+  -webkit-touch-callout: default;
+
+}
+
+/* All four advantage headings wrap into two real, selectable text lines. */
+
+.digital-literacy .dl-adv-card-title {
+
+  width: 160px;
+
+  max-width: 100%;
+
+  min-height: 56px;
+
+  margin-inline: auto;
+
+  white-space: normal;
+
+  overflow-wrap: normal;
+
+  word-break: normal;
+
+  hyphens: none;
+
+  text-wrap: balance;
+
+}
+
+/* Page-wide text selection and flat text; keep all existing box shadows. */
+
+html:has(.digital-literacy),
+
+html:has(.digital-literacy) body,
+
+html:has(.digital-literacy) body * {
+
+  -webkit-user-select: text !important;
+
+  -moz-user-select: text !important;
+
+  user-select: text !important;
+
+  -webkit-touch-callout: default !important;
+
+  text-shadow: none !important;
+
+}
+
+html:has(.digital-literacy) body *::before,
+
+html:has(.digital-literacy) body *::after {
+
+  text-shadow: none !important;
+
+}
+
+/* Actual inline SVG text remains selectable, without a text filter shadow. */
+
+html:has(.digital-literacy) :is(svg text, svg tspan) {
+
+  pointer-events: auto !important;
+
+  -webkit-user-select: text !important;
+
+  user-select: text !important;
+
+  text-shadow: none !important;
+
+  filter: none !important;
+
+}
+
+/* Compact, centred How It Works cards — desktop, tablet and phone. */
+
+.digital-literacy .dl-step-grid {
+
+  width: 100%;
+
+  max-width: 1120px;
+
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  align-items: stretch;
+
+  justify-items: center;
+
+  gap: 24px;
+
+}
+
+.digital-literacy .dl-step-grid > .dl-step-card {
+
+  width: 100%;
+
+  max-width: 280px;
+
+  height: auto;
+
+  min-height: 218px;
+
+  max-height: none;
+
+  padding: 88px 14px 22px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+  text-align: center;
+
+  overflow: visible;
+
+  box-sizing: border-box;
+
+}
+
+.digital-literacy .dl-step-card-badge {
+
+  top: 18px;
+
+  right: 0;
+
+  width: 92px;
+
+  height: 52px;
+
+  font-size: 32px;
+
+  line-height: 1;
+
+}
+
+.digital-literacy .dl-step-card-title {
+
+  width: 100%;
+
+  margin: 0 0 10px;
+
+  font-size: 24px;
+
+  line-height: 1.25;
+
+  text-align: center;
+
+}
+
+.digital-literacy .dl-step-grid > .dl-step-card .dl-step-card-desc {
+
+  width: 100%;
+
+  max-width: 100%;
+
+  min-height: 2.8em;
+
+  height: auto;
+
+  margin: 0 auto;
+
+  font-size: 15px;
+
+  line-height: 1.4;
+
+  letter-spacing: 0;
+
+  text-align: center;
+
+  white-space: normal;
+
+  text-wrap: balance;
+
+  overflow-wrap: normal;
+
+  word-break: normal;
+
+  hyphens: none;
+
+  overflow: visible;
+
+}
+
+.digital-literacy .dl-step-grid > .dl-step-card:nth-child(1) .dl-step-card-desc { max-width: 27ch; }
+
+.digital-literacy .dl-step-grid > .dl-step-card:nth-child(2) .dl-step-card-desc { max-width: 23ch; }
+
+.digital-literacy .dl-step-grid > .dl-step-card:nth-child(3) .dl-step-card-desc { max-width: 17ch; }
+
+.digital-literacy .dl-step-grid > .dl-step-card:nth-child(4) .dl-step-card-desc { max-width: 20ch; }
+
+/* Use these spans in the supplied caption markup for both blue words. */
+
+.digital-literacy .dl-skill-banner-accent {
+
+  color: #2D4CC8;
+
+  font-style: normal;
+
+  font-weight: inherit;
+
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+
+  .digital-literacy .dl-step-grid {
+
+    max-width: 608px;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-howitworks-section {
+
+    width: 100%;
+
+    padding: 24px 16px;
+
+    gap: 24px;
+
+    box-sizing: border-box;
+
+    overflow: visible;
+
+  }
+
+  .digital-literacy .dl-step-grid {
+
+    width: 100%;
+
+    max-width: 300px;
+
+    margin-inline: auto;
+
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 18px;
+
+  }
+
+  .digital-literacy .dl-step-grid > .dl-step-card {
+
+    max-width: none;
+
+    min-height: 148px;
+
+    height: auto;
+
+    padding: 54px 16px 16px;
+
+    border-radius: 16px 42px 42px 16px;
+
+  }
+
+  .digital-literacy .dl-step-card-badge {
+
+    top: 10px;
+
+    width: 72px;
+
+    height: 36px;
+
+    font-size: 25px;
+
+    border-radius: 18px 0 0 18px;
+
+  }
+
+  .digital-literacy .dl-step-card-title {
+
+    margin-bottom: 8px;
+
+    font-size: 21px;
+
+  }
+
+  .digital-literacy .dl-step-grid > .dl-step-card .dl-step-card-desc {
+
+    font-size: 15px;
+
+    line-height: 1.4;
+
+  }
+
+  /* Remove the blue SVG shape only on mobile, keeping the real caption. */
+
+  .digital-literacy .dl-skill-banner-section {
+
+    padding: 20px 16px 24px;
+
+    box-sizing: border-box;
+
+  }
+
+  .digital-literacy .dl-skill-banner {
+
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+    min-height: 0;
+
+    aspect-ratio: auto;
+
+    padding: 0;
+
+    background: none;
+
+    box-shadow: none;
+
+    filter: none;
+
+  }
+
+  .digital-literacy .dl-skill-banner-svg,
+
+  .digital-literacy .dl-skill-banner::before,
+
+  .digital-literacy .dl-skill-banner::after {
+
+    display: none;
+
+  }
+
+  .digital-literacy .dl-skill-banner-sr-text {
+
+    position: static;
+
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+    max-width: 36ch;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    overflow: visible;
+
+    clip: auto;
+
+    clip-path: none;
+
+    white-space: normal;
+
+    text-align: center;
+
+    text-wrap: balance;
+
+    font-size: clamp(18px, 4.6vw, 22px);
+
+    line-height: 1.45;
+
+  }
+
+  .digital-literacy .dl-why-section {
+
+    width: 100%;
+
+    padding: 24px 16px;
+
+    gap: 24px;
+
+    box-sizing: border-box;
+
+  }
+
+  .digital-literacy .dl-why-content,
+
+  .digital-literacy .dl-advantage-text,
+
+  .digital-literacy .dl-accelerate-content,
+
+  .digital-literacy .dl-hero-content {
+
+    align-items: center;
+
+    text-align: center;
+
+    min-width: 0;
+
+  }
+
+  .digital-literacy .dl-why-content {
+
+    gap: 20px;
+
+    margin-inline: auto;
+
+  }
+
+  .digital-literacy .dl-bullet-list {
+
+    width: 100%;
+
+    align-items: center;
+
+    gap: 16px;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+  }
+
+  .digital-literacy .dl-bullet-item {
+
+    width: fit-content;
+
+    max-width: 100%;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    font-size: clamp(16px, 4.2vw, 20px);
+
+    line-height: 1.4;
+
+    text-align: center;
+
+  }
+
+  .digital-literacy .dl-bullet-arrow {
+
+    width: 28px;
+
+    height: 28px;
+
+  }
+
+  .digital-literacy .dl-bullet-text {
+
+    min-width: 0;
+
+    text-align: center;
+
+  }
+
+  .digital-literacy .dl-why-callouts {
+
+    width: 100%;
+
+    margin-inline: auto;
+
+    gap: 20px;
+
+  }
+
+  .digital-literacy .dl-callout-card {
+
+    padding: 22px 18px;
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+  }
+
+  .digital-literacy .dl-callout-title,
+
+  .digital-literacy .dl-callout-desc,
+
+  .digital-literacy .dl-section-heading,
+
+  .digital-literacy .dl-subtext {
+
+    text-align: center;
+
+  }
+
+  .digital-literacy .dl-callout-title { margin-bottom: 10px; }
+
+}
+
+/* Exact two-line descriptions when using the included JSX replacement. */
+
+.digital-literacy .dl-step-grid > .dl-step-card .dl-step-card-desc:has(.dl-step-line) {
+
+  max-width: 100%;
+
+}
+
+.digital-literacy .dl-step-line {
+
+  display: block;
+
+  white-space: nowrap;
+
+}
+
+/* =========================================================
+
+   HOW IT WORKS — FINAL FIX
+
+   Correct card size, spacing and number badge
+
+   ========================================================= */
+
+.digital-literacy .dl-howitworks-section {
+
+  width: 100%;
+
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding: 34px 16px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 40px;
+
+  box-sizing: border-box;
+
+}
+
+/* ---------- 4 cards row ---------- */
+
+.digital-literacy .dl-step-grid {
+
+  width: 100%;
+
+  max-width: 1120px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  gap: 24px;
+
+  align-items: stretch;
+
+  justify-items: center;
+
+}
+
+/* ---------- Card ---------- */
+
+.digital-literacy .dl-step-grid > .dl-step-card {
+
+  position: relative;
+
+  width: 100%;
+
+  max-width: 264px;
+
+  height: 190px;
+
+  min-height: 190px;
+
+  margin: 0;
+
+  padding: 68px 20px 16px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+  background: #dfe6e9;
+
+  border: 0;
+
+  border-right: 4px solid var(--step-color);
+
+  border-radius: 16px 58px 58px 16px;
+
+  box-shadow:
+
+    4px 4px 4px rgba(196, 196, 196, 0.85),
+
+    -4px -4px 4px rgba(255, 255, 255, 0.95);
+
+  text-align: center;
+
+  /* IMPORTANT:
+
+     prevents badge/shadow from breaking outside card */
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+
+  transform: none;
+
+}
+
+/* Remove unwanted decorative pseudo elements */
+
+.digital-literacy .dl-step-grid > .dl-step-card::before,
+
+.digital-literacy .dl-step-grid > .dl-step-card::after {
+
+  content: none !important;
+
+}
+
+/* ---------- Number badge ---------- */
+
+.digital-literacy .dl-step-card-badge {
+
+  position: absolute;
+
+  top: 12px;
+
+  right: 0;
+
+  width: 94px;
+
+  height: 52px;
+
+  margin: 0;
+
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: #dfe6e9;
+
+  box-shadow:
+
+    inset -4px -4px 4px rgba(255, 255, 255, 0.95),
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.55);
+
+  border-radius: 28px 0 0 28px;
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+
+  font-size: 32px;
+
+  font-weight: 700;
+
+  line-height: 1;
+
+  letter-spacing: 0;
+
+  color: var(--step-color);
+
+  z-index: 2;
+
+  /* stop old hover animation */
+
+  transform: none !important;
+
+}
+
+/* ---------- Heading ---------- */
+
+.digital-literacy .dl-step-card-title {
+
+  width: 100%;
+
+  margin: 0 0 6px;
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  line-height: 1.2;
+
+  color: #31344b;
+
+  text-align: center;
+
+}
+
+/* ---------- Description ---------- */
+
+.digital-literacy
+
+  .dl-step-grid
+
+  > .dl-step-card
+
+  .dl-step-card-desc {
+
+  width: 100%;
+
+  max-width: 220px;
+
+  margin: 0 auto;
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 1.35;
+
+  letter-spacing: 0;
+
+  color: #31344b;
+
+  text-align: center;
+
+  white-space: normal;
+
+  overflow-wrap: normal;
+
+  word-break: normal;
+
+  hyphens: none;
+
+}
+
+/* Specific text widths so wrapping looks clean */
+
+.digital-literacy
+
+  .dl-step-grid
+
+  > .dl-step-card:nth-child(1)
+
+  .dl-step-card-desc {
+
+  max-width: 215px;
+
+}
+
+.digital-literacy
+
+  .dl-step-grid
+
+  > .dl-step-card:nth-child(2)
+
+  .dl-step-card-desc {
+
+  max-width: 190px;
+
+}
+
+.digital-literacy
+
+  .dl-step-grid
+
+  > .dl-step-card:nth-child(3)
+
+  .dl-step-card-desc {
+
+  max-width: 175px;
+
+}
+
+.digital-literacy
+
+  .dl-step-grid
+
+  > .dl-step-card:nth-child(4)
+
+  .dl-step-card-desc {
+
+  max-width: 190px;
+
+}
+
+/* ---------- Do NOT move badge/card on hover ---------- */
+
+@media (hover: hover) and (pointer: fine) {
+
+  .digital-literacy .dl-step-card:hover {
+
+    transform: none !important;
+
+  }
+
+  .digital-literacy .dl-step-card:hover .dl-step-card-badge {
+
+    transform: none !important;
+
+  }
+
+}
+
+/* =========================================================
+
+   TABLET
+
+   ========================================================= */
+
+@media (min-width: 768px) and (max-width: 1119px) {
+
+  .digital-literacy .dl-step-grid {
+
+    max-width: 570px;
+
+    grid-template-columns: repeat(2, minmax(0, 264px));
+
+    justify-content: center;
+
+    gap: 24px;
+
+  }
+
+  .digital-literacy .dl-step-grid > .dl-step-card {
+
+    width: 264px;
+
+    max-width: 264px;
+
+    height: 190px;
+
+    min-height: 190px;
+
+  }
+
+}
+
+/* =========================================================
+
+   MOBILE
+
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-howitworks-section {
+
+    padding: 24px 16px;
+
+    gap: 24px;
+
+  }
+
+  .digital-literacy .dl-step-grid {
+
+    width: 100%;
+
+    max-width: 300px;
+
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 18px;
+
+    margin: 0 auto;
+
+  }
+
+  .digital-literacy .dl-step-grid > .dl-step-card {
+
+    width: 100%;
+
+    max-width: 300px;
+
+    height: 165px;
+
+    min-height: 165px;
+
+    padding: 58px 18px 14px;
+
+    border-radius: 16px 46px 46px 16px;
+
+  }
+
+  .digital-literacy .dl-step-card-badge {
+
+    top: 10px;
+
+    right: 0;
+
+    width: 82px;
+
+    height: 42px;
+
+    font-size: 27px;
+
+    border-radius: 22px 0 0 22px;
+
+  }
+
+  .digital-literacy .dl-step-card-title {
+
+    margin-bottom: 5px;
+
+    font-size: 21px;
+
+    line-height: 1.2;
+
+  }
+
+  .digital-literacy
+
+    .dl-step-grid
+
+    > .dl-step-card
+
+    .dl-step-card-desc {
+
+    max-width: 245px;
+
+    font-size: 15px;
+
+    line-height: 1.4;
+
+  }
+
+}
+
+/* your existing CSS above */
+
+/* MOBILE CARD WIDTH FIX */
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-step-grid {
+
+    width: 100%;
+
+    max-width: 270px;
+
+    grid-template-columns: 1fr;
+
+    gap: 18px;
+
+    margin: 0 auto;
+
+    justify-items: center;
+
+  }
+
+  .digital-literacy .dl-step-grid > .dl-step-card {
+
+    width: 100%;
+
+    max-width: 270px;
+
+    height: 165px;
+
+    min-height: 165px;
+
+    padding: 58px 18px 14px;
+
+    border-radius: 16px 46px 46px 16px;
+
+  }
+
+}
+
+/* =========================================================
+
+   FUTURE-READY LEARNING HEADING
+
+   ========================================================= */
+
+.digital-literacy .dl-transform-heading {
+
+  width: 100%;
+
+  margin: 0 0 24px;
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+
+  font-size: 40px;
+
+  font-weight: 700;
+
+  line-height: 1.25;
+
+  letter-spacing: 0.03em;
+
+  color: #31344b;
+
+  text-align: center;
+
+  text-shadow: none !important;
+
+}
+
+@media (max-width: 1023px) {
+
+  .digital-literacy .dl-transform-heading {
+
+    font-size: 34px;
+
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-transform-heading {
+
+    margin-bottom: 16px;
+
+    font-size: 26px;
+
+    line-height: 1.3;
+
+  }
+
+}
+
+/* Focused typography and mobile list alignment. */
+
+.digital-literacy .dl-accelerate-content {
+
+  max-width: none;
+
+}
+
+/* Give the existing 36px heading enough room without shrinking its type. */
+
+@media (min-width: 1200px) {
+
+  .digital-literacy .dl-accelerate {
+
+    grid-template-columns: minmax(220px, 0.6fr) minmax(0, 1.4fr);
+
+    gap: 32px;
+
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .digital-literacy .dl-accelerate {
+
+    grid-template-columns: minmax(0, 1fr);
+
+  }
+
+  .digital-literacy .dl-accelerate-media {
+
+    width: 100%;
+
+    max-width: 480px;
+
+    margin-inline: auto;
+
+  }
+
+  .digital-literacy .dl-accelerate-content {
+
+    align-items: center;
+
+    text-align: center;
+
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .digital-literacy .dl-accelerate-heading {
+
+    white-space: nowrap;
+
+    letter-spacing: 0;
+
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .digital-literacy .dl-insights-summary > span {
+
+    display: block;
+
+    white-space: nowrap;
+
+  }
+
+}
+
+.digital-literacy .dl-insights-summary {
+
+  width: 100%;
+
+  max-width: 1100px;
+
+  margin-inline: auto;
+
+  text-align: center;
+
+  text-wrap: initial;
+
+  letter-spacing: 0;
+
+}
+
+.digital-literacy .dl-keep-word {
+
+  display: inline-block;
+
+  white-space: nowrap;
+
+  word-break: normal;
+
+  overflow-wrap: normal;
+
+  hyphens: none;
+
+}
+
+/* Center the arrow and its label as one row; retain the original arrow. */
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-bullet-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 100%;
+
+    margin-inline: auto;
+
+    padding: 0;
+
+  }
+
+  .digital-literacy .dl-bullet-item {
+
+    display: flex;
+
+    width: fit-content;
+
+    max-width: 100%;
+
+    align-self: center;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-inline: auto;
+
+    gap: 12px;
+
+    text-align: center;
+
+  }
+
+  .digital-literacy .dl-bullet-arrow {
+
+    flex: 0 0 28px;
+
+    transform: none;
+
+  }
+
+  .digital-literacy .dl-bullet-text {
+
+    flex: 0 1 auto;
+
+    text-align: center;
+
+  }
+
+}
+
+/* Compact coloured cards: preserve type sizes and colours, with no movement. */
+
+.digital-literacy .dl-check-list {
+
+  width: 100%;
+
+  max-width: 560px;
+
+  min-width: 0;
+
+  margin-inline: auto;
+
+  align-self: center;
+
+}
+
+.digital-literacy .dl-check-pill-outer {
+
+  width: 100%;
+
+  min-width: 0;
+
+  box-sizing: border-box;
+
+  transition: box-shadow 0.2s ease;
+
+}
+
+.digital-literacy :is(.dl-check-pill-outer, .dl-check-pill,
+
+  .dl-check-pill-icon, .dl-check-icon-check, .dl-check-icon-arrow) {
+
+  animation: none !important;
+
+  transform: none !important;
+
+  translate: none !important;
+
+  rotate: none !important;
+
+  scale: none !important;
+
+}
+
+.digital-literacy .dl-check-pill {
+
+  transition: background-color 0.2s ease;
+
+}
+
+.digital-literacy .dl-check-pill-icon,
+
+.digital-literacy .dl-check-icon-check,
+
+.digital-literacy .dl-check-icon-arrow {
+
+  transition: none;
+
+}
+
+.digital-literacy .dl-check-icon-check { opacity: 1 !important; }
+
+.digital-literacy .dl-check-icon-arrow { display: none; }
+
+
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-check-list {
+
+    width: calc(100% - 16px);
+
+    max-width: 480px;
+
+  }
+
+}
+
+/* Keep the two shortened component descriptions on a single line. */
+
+.digital-literacy .dl-single-line {
+
+  white-space: nowrap;
+
+  overflow-wrap: normal;
+
+  word-break: normal;
+
+  hyphens: none;
+
+  text-wrap: nowrap;
+
+  max-width: 100%;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .digital-literacy .dl-check-pill-outer,
+
+  .digital-literacy .dl-check-pill { transition: none; }
+
+}
+
+/* Centre the entire Accelerate content group, including its heading and copy. */
+
+.digital-literacy .dl-accelerate-content {
+
+  width: 100%;
+
+  min-width: 0;
+
+  align-items: center;
+
+  text-align: center;
+
+}
+
+.digital-literacy .dl-accelerate-content > .dl-hero-badge,
+
+.digital-literacy .dl-accelerate-content > .dl-accelerate-heading {
+
+  margin-inline: auto;
+
+  max-width: 100%;
+
+  text-align: center;
+
+}
+
+.digital-literacy .dl-accelerate-content > .dl-hero-subtext {
+
+  width: 100%;
+
+  max-width: 560px;
+
+  margin-inline: auto;
+
+  text-align: center;
+
+}
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-accelerate-content > .dl-hero-subtext {
+
+    width: calc(100% - 16px);
+
+    max-width: 480px;
+
+  }
+
+}
+
+/* Mobile: centre the list as a group; keep arrows and labels left-aligned. */
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-bullet-list {
+
+    align-items: stretch;
+
+    width: max-content;
+
+    max-width: 100%;
+
+    align-self: center;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    text-align: left;
+
+  }
+
+  .digital-literacy .dl-bullet-item {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    align-self: stretch;
+
+    justify-content: flex-start;
+
+    align-items: center;
+
+    margin: 0;
+
+    text-align: left;
+
+  }
+
+  .digital-literacy .dl-bullet-arrow {
+
+    flex: 0 0 28px;
+
+    margin: 0;
+
+    transform: none;
+
+  }
+
+  .digital-literacy .dl-bullet-text {
+
+    min-width: 0;
+
+    text-align: left;
+
+  }
+
+}
+
+/* Compact mobile step cards and the spacing around the Today / Tomorrow caption. */
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-step-grid {
+
+    width: 100%;
+
+    max-width: 240px;
+
+    gap: 22px;
+
+    grid-auto-rows: 1fr;
+
+  }
+
+  .digital-literacy .dl-step-grid > .dl-step-card {
+
+    width: 100%;
+
+    max-width: 240px;
+
+    height: auto;
+
+    min-height: 136px;
+
+    padding: 48px 14px 12px;
+
+    border-radius: 16px 42px 42px 16px;
+
+  }
+
+  .digital-literacy .dl-step-card-badge {
+
+    top: 8px;
+
+    width: 72px;
+
+    height: 34px;
+
+  }
+
+  .digital-literacy .dl-step-card-title {
+
+    margin-bottom: 5px;
+
+  }
+
+  .digital-literacy .dl-step-grid > .dl-step-card .dl-step-card-desc {
+
+    max-width: 100%;
+
+    min-height: 0;
+
+    margin-block: 0;
+
+  }
+
+  .digital-literacy .dl-hero-section {
+
+    padding-bottom: 8px;
+
+  }
+
+  .digital-literacy .dl-skill-banner-section {
+
+    margin-block: 0;
+
+    padding: 12px 16px;
+
+  }
+
+  .digital-literacy .dl-skill-banner {
+
+    height: auto;
+
+    min-height: 0;
+
+    margin-block: 0;
+
+    padding-block: 0;
+
+  }
+
+  .digital-literacy .dl-skill-banner-sr-text {
+
+    margin-block: 0;
+
+    padding-block: 0;
+
+  }
+
+  .digital-literacy .dl-skill-banner-section + .dl-advantage-section {
+
+    padding-top: 12px;
+
+  }
+
+}
+
+/* Certification description: a deliberate two-line sentence on phones. */
+
+.digital-literacy .dl-certification-line {
+
+  display: inline;
+
+}
+
+@media (max-width: 767px) {
+
+  .digital-literacy .dl-certification-line {
+
+    display: block;
+
+    white-space: nowrap;
+
+  }
+
+}
+
+/* The shared round launcher belongs to this section and does not occupy flow space. */
+
+.dl-howitworks-section {
+
+  position: relative;
+
+}
+
+.dl-expert-slot {
+
+  --expert-button-size: 64px;
+
+  position: absolute;
+
+  top: 30px;
+
+  right: 24px;
+
+  width: var(--expert-button-size);
+
+  height: var(--expert-button-size);
+
+  z-index: 12;
+
+  pointer-events: none;
+
+}
+
+.dl-expert-slot > :global(button[class*="talk-to-expert-fab"]) {
+
+  position: absolute !important;
+
+  inset: 0 !important;
+
+  margin: 0 !important;
+
+  transform: none !important;
+
+  translate: none !important;
+
+  pointer-events: auto;
+
+}
+
+@media (max-width: 767px) {
+
+  .dl-expert-slot {
+
+    top: 20px;
+
+    right: 16px;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .dl-expert-slot {
+
+    --expert-button-size: 48px;
+
+    top: 24px;
+
+    right: 12px;
+
+  }
+
+}
+
+/* Same pulse and hover animation as the GenZGalaxy button. */
+
+.dl-expert-slot::after {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 2px;
+
+  z-index: 0;
+
+  border: 2px solid rgba(45, 76, 200, 0.38);
+
+  border-radius: 50%;
+
+  box-sizing: border-box;
+
+  pointer-events: none;
+
+  opacity: 0;
+
+  animation: dlExpertPulse 3s ease-out infinite;
+
+}
+
+@keyframes dlExpertPulse {
+
+  0%, 15% { transform: scale(1); opacity: 0; }
+
+  30% { opacity: 0.55; }
+
+  75%, 100% { transform: scale(1.32); opacity: 0; }
+
+}
+
+.dl-expert-slot > :global(button[class*="talk-to-expert-fab"]) {
+
+  transition: box-shadow 180ms ease, background-color 180ms ease;
+
+}
+
+.dl-expert-slot > :global(button[class*="talk-to-expert-fab"]):hover,
+
+.dl-expert-slot > :global(button[class*="talk-to-expert-fab"]):focus-visible {
+
+  box-shadow: -5px -5px 10px #ffffff,
+
+    5px 5px 10px #c6c6c9,
+
+    0 0 0 3px rgba(45, 76, 200, 0.14);
+
+}
+
+.dl-expert-slot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+
+.dl-expert-slot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+
+  transform-origin: center;
+
+  animation: dlExpertWave 600ms ease-in-out;
+
+}
+
+@keyframes dlExpertWave {
+
+  0%, 100% { transform: rotate(0deg); }
+
+  25% { transform: rotate(-12deg); }
+
+  50% { transform: rotate(10deg); }
+
+  75% { transform: rotate(-5deg); }
+
+}
+
+.dl-expert-slot > :global(button[class*="talk-to-expert-fab"]):active {
+
+  box-shadow: inset -4px -4px 8px #ffffff,
+
+    inset 4px 4px 8px #c6c6c9;
+
+}
+
+.dl-expert-slot:has(> :global(button[aria-expanded="true"]))::after {
+
+  animation: none;
+
+  opacity: 0;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .dl-expert-slot::after,
+
+  .dl-expert-slot > :global(button[class*="talk-to-expert-fab"]):hover svg,
+
+  .dl-expert-slot > :global(button[class*="talk-to-expert-fab"]):focus-visible svg {
+
+    animation: none;
+
+  }
+
+  .dl-expert-slot > :global(button[class*="talk-to-expert-fab"]) {
+
+    transition: none;
+
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .dl-adv-card-title {
+    font-size: 26px;
+  }
+}
+/* Compact How It Works cards: preserve existing colors, badge and hover design. */
+@media (min-width: 768px) {
+  .digital-literacy .dl-step-grid > .dl-step-card {
+    height: 150px;
+    min-height: 150px;
+    padding: 66px 20px 12px;
+  }
+}
+
+.dl-hero-image {
+  object-fit: cover;
+  object-position: 5% 35%;
+  transform: scale(1.12);
+}
+
+
+.dl-accelerate-video-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  overflow: hidden;
+  border-radius: 32px;
+  background: #000;
+}
+
+.dl-accelerate-video-frame .dl-accelerate-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  min-width: 0;
+  border: 0;
+  border-radius: 0;
+  display: block;
+  transform: translate(-50%, -50%) scale(1.65);
+  transform-origin: center center;
+}
+
+@media (max-width: 767px) {
+  .dl-accelerate-video-frame {
+    min-height: 350px;
+    border-radius: 24px;
+  }
+
+  .dl-accelerate-video-frame .dl-accelerate-image {
+    transform: translate(-50%, -50%) scale(1.65);
+  }
+}

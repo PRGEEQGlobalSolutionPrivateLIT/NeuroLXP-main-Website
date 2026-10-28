@@ -1,0 +1,48 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g filter="url(#outerInset)">
+    <g clip-path="url(#circleClip)">
+      <rect x="0.0546875" width="68.9901" height="68.9901" rx="34.4951" transform="rotate(0.0450251 0.0546875 0)" fill="#DFE6E9"/>
+      <g filter="url(#innerShadow)">
+        <path d="M60 34.5C60 48.5833 48.5833 60 34.5 60C20.4167 60 9 48.5833 9 34.5C9 20.4167 20.4167 9 34.5 9C48.5833 9 60 20.4167 60 34.5Z" fill="#2A7308"/>
+      </g>
+      <image href="teacher.svg" xlink:href="teacher.svg" x="19" y="19" width="32" height="32" preserveAspectRatio="xMidYMid meet"/>
+    </g>
+  </g>
+  <defs>
+    <filter id="outerInset" x="-4" y="-4" width="77.0449" height="77.043" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="4" dy="4"/>
+      <feGaussianBlur stdDeviation="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0 0.768627 0 0 0 0.8 0"/>
+      <feBlend mode="normal" in2="shape" result="innerOne"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="-4" dy="-4"/>
+      <feGaussianBlur stdDeviation="4"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+      <feBlend mode="normal" in2="innerOne" result="innerTwo"/>
+    </filter>
+    <filter id="innerShadow" x="-15" y="-15" width="99" height="99" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="-8" dy="-8"/>
+      <feGaussianBlur stdDeviation="8"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="shadowOne"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="8" dy="8"/>
+      <feGaussianBlur stdDeviation="8"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.776471 0 0 0 0 0.776471 0 0 0 0 0.788235 0 0 0 1 0"/>
+      <feBlend mode="normal" in2="shadowOne" result="shadowTwo"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="shadowTwo" result="shape"/>
+    </filter>
+    <clipPath id="circleClip">
+      <rect x="0.0546875" width="68.9901" height="68.9901" rx="34.4951" transform="rotate(0.0450251 0.0546875 0)" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>

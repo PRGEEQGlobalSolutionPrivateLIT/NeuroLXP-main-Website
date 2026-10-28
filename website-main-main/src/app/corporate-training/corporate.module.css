@@ -1,0 +1,4530 @@
+/* Corporate Training — complete replacement stylesheet.
+
+   Replace corporate.module.css with this file; do not append it.
+
+   Main section gaps: 48px on desktop and mobile. Colored accents stay inside the statistic circles.
+
+   Progress fills remain visible if the scroll animation does not activate. */
+
+.corporateTraining {
+
+  --surface: #dfe6e9;
+
+  --ink: #31344b;
+
+  --body-ink: #2f3547;
+
+  --blue: #2d4cc8;
+
+  --pink: #bf1869;
+
+  --purple: #67096e;
+
+  --orange: #c05512;
+
+  --green: #2a7308;
+
+  --teal: #046f73;
+
+  --raised: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+
+  --inset: inset -4px -4px 4px #fff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+
+  --panel-shadow: -8px -8px 16px #fff, 8px 8px 16px #c4c4c4;
+
+  --section-gap: 48px;
+
+  --content-gap: 24px;
+
+  width: min(100%, 1440px);
+
+  min-width: 0;
+
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0 auto;
+
+  padding: 32px clamp(24px, 5.55vw, 80px) 48px;
+
+  position: relative;
+
+  background: var(--surface);
+
+  display: flow-root;
+
+  color: var(--ink);
+
+  font-family: "Segoe UI", "Inter", Arial, sans-serif;
+
+  font-size: 20px;
+
+  line-height: 1.5;
+
+  overflow: visible;
+
+}
+
+.corporateTraining,
+
+.corporateTraining *,
+
+.corporateTraining *::before,
+
+.corporateTraining *::after {
+
+  box-sizing: border-box;
+
+  -webkit-user-select: text;
+
+  -moz-user-select: text;
+
+  user-select: text;
+
+}
+
+.corporateTraining * {
+
+  min-width: 0;
+
+  font-family: inherit;
+
+}
+
+.corporateTraining :is(h1, h2, h3, h4, p) {
+
+  margin: 0;
+
+}
+
+.corporateTraining :is(img, video, svg) {
+
+  max-width: 100%;
+
+}
+
+/* The route uses the shared Header/Footer. Hide duplicate exported layers. */
+
+.corporateTraining > .frameParent,
+
+.corporateTraining .frameParent58,
+
+.corporateTraining .frameParent59,
+
+.corporateTraining .frameParent60,
+
+.corporateTraining .frameParent61,
+
+.corporateTraining .frameParent62,
+
+.corporateTraining .frameParent63,
+
+.corporateTraining .frameParent64,
+
+.corporateTraining .frameParent65,
+
+.corporateTraining .frameParent66,
+
+.corporateTraining .frameParent71,
+
+.corporateTraining .frameParent72,
+
+.corporateTraining .frameParent74,
+
+.corporateTraining .frameWrapper21 {
+
+  display: none;
+
+}
+
+/* Old Figma-export decoration that previously forced page coordinates. */
+
+.corporateTraining > .rectangle2,
+
+.corporateTraining > .image202,
+
+.corporateTraining > .image207,
+
+.corporateTraining .rectangleParent > .rectangle,
+
+.corporateTraining .rectangleParent > .image20,
+
+.corporateTraining .rectangleParent > .groupMultiethnicBusinessPeo {
+
+  display: none;
+
+}
+
+/* Top shell becomes a content-sized wrapper instead of a 778px absolute layer. */
+
+.corporateTraining > .rectangleParent,
+
+.corporateTraining .rectangleParent {
+
+  position: relative;
+
+  inset: auto;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0;
+
+  padding: 0;
+
+  border-radius: 0;
+
+  background: transparent;
+
+  box-shadow: none;
+
+  overflow: visible;
+
+  transform: none;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Breadcrumbs                                                                 */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining > .frameDiv,
+
+.corporateTraining .corporateBreadcrumb,
+
+.corporateTraining .frameDiv.corporateBreadcrumb {
+
+  position: relative;
+
+  inset: auto;
+
+  z-index: auto;
+
+  display: flex;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0 0 24px;
+
+  padding: 0;
+
+  color: var(--body-ink);
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 24px;
+
+  text-align: left;
+
+  transform: none;
+
+}
+
+.corporateTraining .frameDiv :is(div, span, a, b, p),
+
+.corporateTraining .corporateBreadcrumb :is(div, span, a, b, p) {
+
+  position: static;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  width: auto;
+
+  height: auto;
+
+  margin: 0;
+
+  padding: 0;
+
+  color: inherit;
+
+  font-size: inherit;
+
+  line-height: inherit;
+
+  letter-spacing: 0;
+
+  text-decoration: none;
+
+  transform: none;
+
+}
+
+.corporateTraining .corporateBreadcrumbArrow,
+
+.corporateTraining .frameDiv :is(img, svg) {
+
+  position: static;
+
+  display: block;
+
+  flex: 0 0 16px;
+
+  width: 16px;
+
+  height: 16px;
+
+  margin: 0;
+
+  object-fit: contain;
+
+}
+
+.corporateTraining .corporateBreadcrumbCurrent,
+
+.corporateTraining .corporateBreadcrumbCurrent *,
+
+.corporateTraining .arrowRightDoubleGroup,
+
+.corporateTraining .arrowRightDoubleGroup > :last-child,
+
+.corporateTraining .frameDiv.corporateBreadcrumb > :last-child,
+
+.corporateTraining .frameDiv.corporateBreadcrumb > :last-child * {
+
+  color: var(--blue);
+
+  font-weight: 700;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Shared typography                                                           */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining :is(
+
+  .empoweringWorkforce,
+
+  .keyChallengesInContainer,
+
+  .neurolxpTransformingCorporat
+
+) {
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0;
+
+  color: var(--ink);
+
+  font-size: 36px;
+
+  font-weight: 700;
+
+  line-height: 44px;
+
+  letter-spacing: 0.03em;
+
+  text-align: center;
+
+  text-shadow: none;
+
+  white-space: normal;
+
+  overflow-wrap: break-word;
+
+}
+
+.corporateTraining .everyNeed {
+
+  color: var(--blue);
+
+  font-size: inherit;
+
+  line-height: inherit;
+
+}
+
+.corporateTraining .for,
+
+.corporateTraining .keyChallengesIn {
+
+  color: inherit;
+
+  font-size: inherit;
+
+  line-height: inherit;
+
+}
+
+.corporateTraining :is(
+
+  .buildFutureReadyWorkforces,
+
+  .neurolxpHelpsOrganizations,
+
+  .organizationsCanUse,
+
+  .buildSkilledEngaged
+
+) {
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0;
+
+  color: var(--body-ink);
+
+  font-size: 24px;
+
+  font-weight: 400;
+
+  line-height: 32px;
+
+  letter-spacing: 0.03em;
+
+  text-align: center;
+
+  white-space: normal;
+
+  overflow-wrap: break-word;
+
+}
+
+/* All intro text stacks use the same compact 12px heading/subheading rhythm. */
+
+.corporateTraining :is(
+
+  .frameWrapper,
+
+  .frameParent3,
+
+  .frameParent4,
+
+  .frameParent17,
+
+  .keyChallengesInCorporateTrParent,
+
+  .frameParent37,
+
+  .frameParent47,
+
+  .whyOrganizationsChooseNeuroParent,
+
+  .frameParent56,
+
+  .frameParent57
+
+) {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 12px;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Badges — same reference-page treatment                                     */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining :is(
+
+  .frameItem,
+
+  .frameChild15,
+
+  .frameChild21,
+
+  .frameChild28,
+
+  .frameChild36
+
+) {
+
+  position: static;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex: none;
+
+  width: fit-content;
+
+  max-width: 100%;
+
+  height: auto;
+
+  min-height: 50px;
+
+  margin: 0 0 4px;
+
+  padding: 8px 24px;
+
+  border: 0;
+
+  border-radius: 28px;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+  color: var(--blue);
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 32px;
+
+  letter-spacing: 0.02em;
+
+  text-align: center;
+
+  white-space: normal;
+
+  overflow: visible;
+
+  transform: none;
+
+  transition: none;
+
+  cursor: default;
+
+}
+
+.corporateTraining :is(
+
+  .frameItem,
+
+  .frameChild15,
+
+  .frameChild21,
+
+  .frameChild28,
+
+  .frameChild36
+
+):is(:hover, :active) {
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+  color: var(--blue);
+
+  transform: none;
+
+}
+
+.corporateTraining .frameChild36 sup {
+
+  position: relative;
+
+  top: -7px;
+
+  margin-left: 3px;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  line-height: 1;
+
+  vertical-align: baseline;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Buttons — same reference-page raised / pressed treatment                    */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining :is(
+
+  .requestDemoButton,
+
+  .frameWrapper2,
+
+  .frameWrapper20
+
+) {
+
+  appearance: none;
+
+  -webkit-appearance: none;
+
+  position: relative;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex: 0 1 auto;
+
+  width: fit-content;
+
+  min-width: min(203px, 100%);
+
+  max-width: 100%;
+
+  height: auto;
+
+  min-height: 60px;
+
+  margin: 0;
+
+  padding: 14px 32px;
+
+  border: 0;
+
+  border-radius: 8px;
+
+  background: var(--surface);
+
+  box-shadow: var(--raised);
+
+  color: var(--blue);
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 30px;
+
+  letter-spacing: 0.02em;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transform: none;
+
+  transition: box-shadow 0.22s ease;
+
+}
+
+.corporateTraining :is(
+
+  .requestDemoButton,
+
+  .frameWrapper2,
+
+  .frameWrapper20
+
+):active {
+
+  box-shadow: var(--inset);
+
+}
+
+.corporateTraining :is(
+
+  .requestDemoButton,
+
+  .frameWrapper2,
+
+  .frameWrapper20
+
+):focus-visible {
+
+  outline: 2px solid var(--blue);
+
+  outline-offset: 4px;
+
+}
+
+.corporateTraining :is(
+
+  .startLearningWrapper,
+
+  .startLearning,
+
+  .getStartedWrapper,
+
+  .getStarted
+
+) {
+
+  display: inline;
+
+  width: auto;
+
+  min-width: 0;
+
+  height: auto;
+
+  margin: 0;
+
+  color: inherit;
+
+  font: inherit;
+
+  letter-spacing: inherit;
+
+  white-space: nowrap;
+
+}
+
+@media (hover: hover) and (pointer: fine) {
+
+  .corporateTraining :is(
+
+    .requestDemoButton,
+
+    .frameWrapper2,
+
+    .frameWrapper20
+
+  ):hover {
+
+    box-shadow: var(--inset);
+
+    transform: none;
+
+  }
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Hero                                                                         */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining .businesspeopleDiscussingDigiParent {
+
+  position: relative;
+
+  inset: auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: stretch;
+
+  width: min(100%, 1153px);
+
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0 auto var(--section-gap);
+
+  padding: 0 0 32px;
+
+  border-radius: 24px;
+
+  background: var(--surface);
+
+  box-shadow: var(--panel-shadow);
+
+  overflow: hidden;
+
+  text-align: center;
+
+  transform: none;
+
+}
+
+.corporateTraining .businesspeopleDiscussingDigiIcon {
+
+  position: relative;
+
+  inset: auto;
+
+  display: block;
+
+  order: 0;
+
+  width: 100%;
+
+  height: auto;
+
+  max-height: 554px;
+
+  aspect-ratio: 1153 / 554;
+
+  border-radius: 0 0 180px 180px;
+
+  object-fit: cover;
+
+  object-position: center top;
+
+}
+
+.corporateTraining .businesspeopleDiscussingDigiParent .frameParent2,
+
+.corporateTraining .frameParent2 {
+
+  position: relative;
+
+  inset: auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  order: 1;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0;
+
+  padding: 32px 24px 0;
+
+  gap: 24px;
+
+  transform: none;
+
+}
+
+.corporateTraining .businesspeopleDiscussingDigiParent :is(
+
+  .frameWrapper,
+
+  .frameParent3,
+
+  .frameParent4
+
+) {
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 0;
+
+}
+
+.corporateTraining .frameParent5 {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 24px;
+
+  width: 100%;
+
+  margin: 0;
+
+  color: var(--blue);
+
+  text-align: center;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Main normal-flow section stack                                              */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining > .frameParent6,
+
+.corporateTraining .frameParent6 {
+
+  position: relative;
+
+  inset: auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0 auto;
+
+  padding: 0;
+
+  /* Section spacing is owned by the normal-flow rules below. */
+
+  row-gap: 0;
+
+  column-gap: 0;
+
+  justify-content: flex-start;
+
+  text-align: center;
+
+  transform: none;
+
+}
+
+.corporateTraining .frameParent6 > * {
+
+  /* Section spacing belongs to the parent gap, never child margins. */
+
+  flex: none;
+
+  margin-block: 0;
+
+}
+
+.corporateTraining .frameParent6 > :is(
+
+  .frameParent7,
+
+  .frameParent16,
+
+  .frameParent36,
+
+  .frameParent46,
+
+  .frameParent54
+
+) {
+
+  position: relative;
+
+  inset: auto;
+
+  width: min(100%, 1280px);
+
+  max-width: 100%;
+
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0 auto;
+
+  transform: none;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Statistics                                                                  */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining .frameParent7 {
+
+  display: grid;
+
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  align-items: center;
+
+  justify-items: center;
+
+  gap: 24px;
+
+}
+
+.corporateTraining :is(
+
+  .ellipseParent,
+
+  .ellipseContainer,
+
+  .ellipseParent3,
+
+  .ellipseParent5
+
+) {
+
+  position: relative;
+
+  width: min(100%, 288px);
+
+  height: auto;
+
+  aspect-ratio: 1;
+
+  color: var(--blue);
+
+}
+
+.corporateTraining .ellipseContainer { color: var(--pink); }
+
+.corporateTraining .ellipseParent3 { color: var(--purple); }
+
+.corporateTraining .ellipseParent5 { color: var(--orange); }
+
+.corporateTraining .ellipseDiv {
+
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  border-radius: 50%;
+
+  background: var(--surface);
+
+  box-shadow: var(--raised);
+
+}
+
+.corporateTraining .ellipseGroup {
+
+  position: absolute;
+
+  inset: 10%;
+
+  width: 80%;
+
+  height: 80%;
+
+}
+
+.corporateTraining .frameChild2 {
+
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  border-radius: 50%;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+}
+
+.corporateTraining .frameParent8 {
+
+  position: absolute;
+
+  top: 42%;
+
+  left: 50%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 82%;
+
+  height: auto;
+
+  gap: 8px;
+
+  text-align: center;
+
+  transform: translate(-50%, -50%);
+
+}
+
+.corporateTraining .frameParent9 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 6px;
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.corporateTraining .frameIcon {
+
+  width: 63px;
+
+  height: 63px;
+
+  flex: none;
+
+  object-fit: contain;
+
+}
+
+/* Restore the original Corporate Training statistics icon treatment:
+
+   neumorphic outer disc + colored inner disc + centered source icon. */
+
+.corporateTraining .iconBadge {
+
+  --badge-color: var(--blue);
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex: 0 0 63px;
+
+  width: 63px;
+
+  height: 63px;
+
+  min-width: 63px;
+
+  min-height: 63px;
+
+  border-radius: 50%;
+
+  background: var(--surface);
+
+  box-shadow:
+
+    -4px -4px 4px rgba(255, 255, 255, 0.95),
+
+    4px 4px 4px rgba(196, 196, 196, 0.9);
+
+  overflow: visible;
+
+  isolation: isolate;
+
+}
+
+.corporateTraining .iconBadge::before {
+
+  content: "";
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  width: 39px;
+
+  height: 39px;
+
+  border-radius: 50%;
+
+  background: var(--badge-color);
+
+  box-shadow:
+
+    inset -4px -4px 4px rgba(255, 255, 255, 0.28),
+
+    inset 4px 4px 4px rgba(0, 0, 0, 0.16);
+
+  transform: translate(-50%, -50%);
+
+  z-index: 0;
+
+}
+
+.corporateTraining .iconBadge img {
+
+  position: relative;
+
+  z-index: 1;
+
+  display: block;
+
+  width: 23px;
+
+  height: 23px;
+
+  object-fit: contain;
+
+}
+
+.corporateTraining .iconBadgeBlue {
+
+  --badge-color: #2d4cc8;
+
+}
+
+.corporateTraining .iconBadgePink {
+
+  --badge-color: #bf1869;
+
+}
+
+.corporateTraining .iconBadgePurple {
+
+  --badge-color: #67096e;
+
+}
+
+.corporateTraining .iconBadgeOrange {
+
+  --badge-color: #c05512;
+
+}
+
+.corporateTraining .iconBadgeTeal {
+
+  --badge-color: #046f73;
+
+}
+
+.corporateTraining .frameParent8 .b,
+
+.corporateTraining .b {
+
+  display: block;
+
+  width: auto;
+
+  height: auto;
+
+  margin: 0;
+
+  color: inherit;
+
+  font-size: 32px;
+
+  font-weight: 700;
+
+  line-height: 40px;
+
+  text-align: center;
+
+}
+
+.corporateTraining :is(
+
+  .enterpriseClients,
+
+  .learnersTrained,
+
+  .satisfactionRate,
+
+  .productivityBoost
+
+) {
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0;
+
+  padding: 0 6px;
+
+  color: var(--body-ink);
+
+  font-size: 18px;
+
+  font-weight: 600;
+
+  line-height: 26px;
+
+  text-align: center;
+
+  white-space: normal;
+
+}
+
+/* Keep the accent inside the inset disc, with clear space below it. */
+
+.corporateTraining :is(.ellipseParent, .ellipseContainer, .ellipseParent3, .ellipseParent5)::after {
+
+  content: "";
+
+  position: absolute;
+
+  inset: auto auto 14% 50%;
+
+  width: 24%;
+
+  height: 4%;
+
+  border-radius: 50%;
+
+  background: currentColor;
+
+  transform: translateX(-50%);
+
+  pointer-events: none;
+
+  z-index: 3;
+
+}
+
+.corporateTraining .ellipseIcon {
+
+  display: none;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Key Challenges                                                              */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining .frameParent16,
+
+.corporateTraining .frameParent36,
+
+.corporateTraining .frameParent46 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 24px;
+
+}
+
+.corporateTraining .frameParent17,
+
+.corporateTraining .frameParent37,
+
+.corporateTraining .frameParent47 {
+
+  align-items: center;
+
+  text-align: center;
+
+}
+
+.corporateTraining .frameParent18 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  gap: 24px;
+
+}
+
+.corporateTraining .corporateChallengeCards {
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  gap: 24px;
+
+}
+
+.corporateTraining .corporateChallengeRow {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  align-items: stretch;
+
+  gap: 24px;
+
+  width: 100%;
+
+}
+
+.corporateTraining .corporateChallengeRowBottom {
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  width: min(100%, 844px);
+
+  margin-inline: auto;
+
+}
+
+.corporateTraining .corporateChallengeCard {
+
+  width: 100%;
+
+  min-width: 0;
+
+  min-height: 340px;
+
+  height: auto;
+
+  border-radius: 24px 24px 50px 50px;
+
+}
+
+.corporateTraining .corporateChallengeCardSurface {
+
+  position: relative;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  height: 100%;
+
+  min-height: 340px;
+
+  padding: 0 22px 18px;
+
+  border-radius: 24px 24px 50px 50px;
+
+  background: var(--surface);
+
+  box-shadow: var(--raised);
+
+  overflow: hidden;
+
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.corporateTraining .corporateChallengeHeader {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: calc(100% + 44px);
+
+  min-height: 140px;
+
+  margin: 0 -22px;
+
+  padding: 18px 22px 14px;
+
+  gap: 10px;
+
+  border-radius: 24px 24px 24px 100px;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+}
+
+.corporateTraining .challengeIcon {
+
+  --challenge-color: var(--blue);
+
+  position: relative;
+
+  display: grid;
+
+  place-items: center;
+
+  flex: none;
+
+  width: 63px;
+
+  height: 63px;
+
+  border-radius: 50%;
+
+  background: var(--surface);
+
+  box-shadow: var(--raised);
+
+}
+
+.corporateTraining .challengeIcon::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 10px;
+
+  border-radius: 50%;
+
+  background: var(--challenge-color);
+
+  box-shadow:
+
+    inset -4px -4px 4px rgba(255, 255, 255, 0.25),
+
+    inset 4px 4px 4px rgba(0, 0, 0, 0.16);
+
+}
+
+.corporateTraining .challengeIcon img {
+
+  position: relative;
+
+  z-index: 1;
+
+  width: 27px;
+
+  height: 27px;
+
+  object-fit: contain;
+
+}
+
+.corporateTraining .challengeIcon--blue { --challenge-color: var(--blue); }
+
+.corporateTraining .challengeIcon--pink { --challenge-color: var(--pink); }
+
+.corporateTraining .challengeIcon--purple { --challenge-color: var(--purple); }
+
+.corporateTraining .challengeIcon--orange { --challenge-color: var(--orange); }
+
+.corporateTraining .challengeIcon--teal { --challenge-color: var(--teal); }
+
+.corporateTraining .corporateChallengeCard .rapidSkillChanges {
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0;
+
+  color: var(--ink);
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  line-height: 30px;
+
+  text-align: center;
+
+  white-space: normal;
+
+}
+
+.corporateTraining .corporateChallengeCard :is(
+
+  .continuousWorkforceUpskillin,
+
+  .actionableLearningInsights
+
+) {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 58px;
+
+  margin: 14px 0 8px;
+
+  padding: 0 6px;
+
+  color: var(--body-ink);
+
+  font-size: 20px;
+
+  font-weight: 400;
+
+  line-height: 28px;
+
+  text-align: center;
+
+  white-space: normal;
+
+}
+
+.corporateTraining .corporateChallengeToggle,
+
+.corporateTraining .howNeurolxpHelpsParent {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 54px;
+
+  margin-top: auto;
+
+  padding: 6px 0 0;
+
+  gap: 6px;
+
+  border: 0;
+
+  background: transparent;
+
+  color: var(--blue);
+
+  font: inherit;
+
+  cursor: pointer;
+
+}
+
+.corporateTraining .corporateChallengeToggle .howNeurolxpHelps,
+
+.corporateTraining .howNeurolxpHelps {
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0;
+
+  color: var(--blue);
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  line-height: 28px;
+
+  text-align: center;
+
+  white-space: normal;
+
+}
+
+.corporateTraining .corporateChallengeChevron {
+
+  position: relative;
+
+  display: block;
+
+  width: 32px;
+
+  height: 24px;
+
+  transition: transform 0.3s ease;
+
+}
+
+.corporateTraining .corporateChallengeChevron .corporateChevronLine {
+
+  position: absolute;
+
+  width: 12px;
+
+  height: 2px;
+
+  border-radius: 2px;
+
+  background: var(--ink);
+
+}
+
+.corporateTraining .corporateChevronLine1 {
+
+  top: 5px;
+
+  left: 5px;
+
+  transform: rotate(45deg);
+
+}
+
+.corporateTraining .corporateChevronLine2 {
+
+  top: 5px;
+
+  right: 5px;
+
+  transform: rotate(-45deg);
+
+}
+
+.corporateTraining .corporateChevronLine3 {
+
+  top: 13px;
+
+  left: 5px;
+
+  transform: rotate(45deg);
+
+}
+
+.corporateTraining .corporateChevronLine4 {
+
+  top: 13px;
+
+  right: 5px;
+
+  transform: rotate(-45deg);
+
+}
+
+.corporateTraining .corporateChallengeDropdown {
+
+  display: none;
+
+  width: 100%;
+
+  margin: 4px 0 0;
+
+  padding: 18px;
+
+  border-radius: 20px;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+  color: var(--body-ink);
+
+}
+
+.corporateTraining .corporateChallengeDropdown p {
+
+  margin: 0;
+
+  font-size: 18px;
+
+  font-weight: 600;
+
+  line-height: 28px;
+
+  text-align: center;
+
+}
+
+.corporateTraining .corporateChallengeCard.isOpen .corporateChallengeCardSurface {
+
+  height: auto;
+
+  min-height: 340px;
+
+}
+
+.corporateTraining .corporateChallengeCard.isOpen .continuousWorkforceUpskillin {
+
+  display: none;
+
+}
+
+.corporateTraining .corporateChallengeCard.isOpen .corporateChallengeToggle {
+
+  margin-top: 0;
+
+}
+
+.corporateTraining .corporateChallengeCard.isOpen .corporateChallengeChevron {
+
+  transform: rotate(180deg);
+
+}
+
+.corporateTraining .corporateChallengeCard.isOpen .corporateChallengeDropdown {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+.corporateTraining .corporateChallengeCard--blue.isOpen .corporateChallengeCardSurface {
+
+  background: #cfd8f5;
+
+}
+
+.corporateTraining .corporateChallengeCard--pink.isOpen .corporateChallengeCardSurface {
+
+  background: #f4dce8;
+
+}
+
+.corporateTraining .corporateChallengeCard--purple.isOpen .corporateChallengeCardSurface {
+
+  background: #f6d7f8;
+
+}
+
+.corporateTraining .corporateChallengeCard--orange.isOpen .corporateChallengeCardSurface {
+
+  background: #ffe2cf;
+
+}
+
+.corporateTraining .corporateChallengeCard--teal.isOpen .corporateChallengeCardSurface {
+
+  background: #c3f1f3;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Use cases                                                                   */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining .frameParent38 {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  align-items: start;
+
+  width: 100%;
+
+  gap: 28px 48px;
+
+  color: var(--ink);
+
+  text-align: left;
+
+}
+
+.corporateTraining .frameParent39,
+
+.corporateTraining .frameParent43 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  gap: 24px;
+
+}
+
+.corporateTraining :is(
+
+  .frameParent40,
+
+  .frameParent44,
+
+  .frameParent45,
+
+  .ellipseParent7
+
+) {
+
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns: 94px minmax(0, 1fr);
+
+  align-items: center;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 94px;
+
+  gap: 24px;
+
+}
+
+.corporateTraining .frameChild22.useCaseIcon,
+
+.corporateTraining .frameChild27 {
+
+  position: relative;
+
+  display: grid;
+
+  place-items: center;
+
+  width: 94px;
+
+  height: 94px;
+
+  min-width: 94px;
+
+  min-height: 94px;
+
+  border-radius: 50%;
+
+  background: var(--surface);
+
+  box-shadow:
+
+    -4px -4px 6px rgba(255, 255, 255, 0.96),
+
+    4px 4px 6px rgba(196, 196, 196, 0.88),
+
+    inset -3px -3px 5px rgba(255, 255, 255, 0.68),
+
+    inset 3px 3px 5px rgba(196, 196, 196, 0.36);
+
+  overflow: hidden;
+
+}
+
+.corporateTraining .frameChild22.useCaseIcon :is(img, svg),
+
+.corporateTraining .chatting01Icon {
+
+  position: static;
+
+  width: 44px;
+
+  height: 44px;
+
+  margin: 0;
+
+  object-fit: contain;
+
+}
+
+.corporateTraining :is(
+
+  .employeeOnboardingParent,
+
+  .complianceTrainingParent,
+
+  .leadershipDevelopmentParent,
+
+  .technicalSkillDevelopmentParent,
+
+  .customerServiceExcellenceParent
+
+) {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  justify-content: center;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 0;
+
+  gap: 6px;
+
+}
+
+.corporateTraining .frameParent36 .employeeOnboarding {
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0;
+
+  color: var(--ink);
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  line-height: 32px;
+
+  text-align: left;
+
+  white-space: normal;
+
+}
+
+.corporateTraining .frameParent36 .accelerateNewHire {
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0;
+
+  color: var(--body-ink);
+
+  font-size: 20px;
+
+  font-weight: 400;
+
+  line-height: 28px;
+
+  text-align: left;
+
+  white-space: normal;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Benefits                                                                    */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining .frameParent48 {
+
+  display: grid;
+
+  grid-template-columns: minmax(280px, 420px) minmax(0, 1fr);
+
+  align-items: stretch;
+
+  width: 100%;
+
+  gap: 32px;
+
+  color: var(--blue);
+
+}
+
+.corporateTraining .frameParent49 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: stretch;
+
+  width: 100%;
+
+  gap: 16px;
+
+}
+
+.corporateTraining :is(
+
+  .rectangleGroup,
+
+  .rectangleContainer,
+
+  .rectangleParent2
+
+) {
+
+  position: relative;
+
+  display: grid;
+
+  place-items: center;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 145px;
+
+  padding: 18px;
+
+  border-radius: 24px;
+
+  background: var(--surface);
+
+  box-shadow: var(--raised);
+
+}
+
+.corporateTraining .rectangleGroup { color: var(--blue); }
+
+.corporateTraining .rectangleContainer { color: var(--green); }
+
+.corporateTraining .rectangleParent2 { color: var(--purple); }
+
+.corporateTraining :is(
+
+  .frameParent50,
+
+  .frameParent51,
+
+  .frameParent52
+
+) {
+
+  position: static;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  height: auto;
+
+  gap: 8px;
+
+  transform: none;
+
+}
+
+.corporateTraining :is(.wrapper, .completionWrapper, .hWrapper) {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.corporateTraining :is(.b4, .b5, .h) {
+
+  display: block;
+
+  width: auto;
+
+  height: auto;
+
+  margin: 0;
+
+  color: inherit;
+
+  font-size: 32px;
+
+  font-weight: 700;
+
+  line-height: 40px;
+
+}
+
+.corporateTraining :is(.completion, .averageScore, .averageTime) {
+
+  display: block;
+
+  width: auto;
+
+  height: auto;
+
+  margin: 0;
+
+  color: var(--ink);
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  line-height: 28px;
+
+}
+
+.corporateTraining .frameWrapper19 {
+
+  position: relative;
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 480px;
+
+  padding: 28px;
+
+  border-radius: 24px;
+
+  background: var(--surface);
+
+  box-shadow: var(--raised);
+
+  overflow: hidden;
+
+  color: var(--ink);
+
+}
+
+.corporateTraining .topTrainingProgramsParent {
+
+  position: static;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  height: auto;
+
+  gap: 18px;
+
+}
+
+.corporateTraining .topTrainingPrograms {
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0;
+
+  color: var(--ink);
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  line-height: 32px;
+
+  text-align: center;
+
+}
+
+.corporateTraining .frameParent53 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: stretch;
+
+  width: 100%;
+
+  gap: 14px;
+
+  text-align: left;
+
+}
+
+.corporateTraining .leadershipDevParent {
+
+  position: relative;
+
+  min-width: 0;
+
+  height: auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  gap: 8px;
+
+}
+
+.corporateTraining .leadershipDev {
+
+  padding-right: 60px;
+
+  overflow-wrap: break-word;
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0;
+
+  color: var(--ink);
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  line-height: 28px;
+
+}
+
+.corporateTraining .rectangleParent3 {
+
+  position: relative;
+
+  width: 100%;
+
+  height: 34px;
+
+  flex: none;
+
+  border-radius: 50px;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+  overflow: visible;
+
+}
+
+.corporateTraining .rectangleParent3 :is(.rectangle3, .image203) {
+
+  display: none;
+
+}
+
+.corporateTraining .rectangleParent3 :is(
+
+  .frameChild31,
+
+  .frameChild32,
+
+  .frameChild33,
+
+  .frameChild34
+
+) {
+
+  position: absolute;
+
+  top: 7px;
+
+  left: 0;
+
+  max-width: 100%;
+
+  height: 20px;
+
+  border-radius: 100px;
+
+  box-shadow: none;
+
+  transform: scaleX(1);
+
+  transform-origin: left center;
+
+}
+
+.corporateTraining .rectangleParent3 .frameChild31 {
+
+  width: 94%;
+
+  background: var(--blue);
+
+}
+
+.corporateTraining .rectangleParent3 .frameChild32 {
+
+  width: 98%;
+
+  background: var(--orange);
+
+}
+
+.corporateTraining .rectangleParent3 .frameChild33 {
+
+  width: 78%;
+
+  background: var(--purple);
+
+}
+
+.corporateTraining .rectangleParent3 .frameChild34 {
+
+  width: 85%;
+
+  background: var(--green);
+
+}
+
+.corporateTraining .b6 {
+
+  position: absolute;
+
+  inset: 0 0 auto auto;
+
+  display: block;
+
+  width: 52px;
+
+  height: auto;
+
+  margin: 0;
+
+  color: var(--blue);
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  line-height: 28px;
+
+  text-align: right;
+
+  white-space: nowrap;
+
+  font-variant-numeric: tabular-nums;
+
+  transform: none;
+
+}
+
+/* Also support markup that places the percentage inside its track. */
+
+.corporateTraining .rectangleParent3 .b6 {
+
+  top: auto;
+
+  bottom: calc(100% + 8px);
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Final CTA                                                                   */
+
+/* -------------------------------------------------------------------------- */
+
+.corporateTraining .frameParent54 {
+
+  display: block;
+
+  padding: 24px;
+
+  border-radius: 32px;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+  overflow: hidden;
+
+  text-align: left;
+
+}
+
+.corporateTraining .peopleTakingPartBusinessEvParent {
+
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+  align-items: stretch;
+
+  width: 100%;
+
+  height: auto;
+
+  border-radius: 16px;
+
+  background: var(--surface);
+
+  box-shadow: var(--panel-shadow);
+
+  overflow: hidden;
+
+}
+
+.corporateTraining .peopleTakingPartBusinessEv,
+
+.corporateTraining .frameChild35,
+
+.corporateTraining .image21 {
+
+  display: none;
+
+}
+
+.corporateTraining .frameParent55 {
+
+  position: relative;
+
+  inset: auto;
+
+  z-index: 2;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  justify-content: center;
+
+  width: 100%;
+
+  height: auto;
+
+  padding: 32px;
+
+  gap: 24px;
+
+  text-align: left;
+
+}
+
+.corporateTraining .frameParent56,
+
+.corporateTraining .frameParent57 {
+
+  align-items: flex-start;
+
+  text-align: left;
+
+}
+
+.corporateTraining .frameParent54 .neurolxpTransformingCorporat,
+
+.corporateTraining .frameParent54 .buildSkilledEngaged {
+
+  text-align: left;
+
+}
+
+.corporateTraining .groupYoungBusinesspeopleUsi {
+
+  position: relative;
+
+  inset: auto;
+
+  z-index: 1;
+
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  min-height: 420px;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  cursor: pointer;
+
+}
+
+.corporateTraining .frameChild37,
+
+.corporateTraining .corporateVideoControl {
+
+  position: absolute;
+
+  top: 50%;
+
+  right: 25%;
+
+  left: auto;
+
+  z-index: 5;
+
+  display: grid;
+
+  place-items: center;
+
+  width: 82px;
+
+  height: 82px;
+
+  padding: 0;
+
+  border: 0;
+
+  border-radius: 50%;
+
+  background: transparent;
+
+  box-shadow: none;
+
+  cursor: pointer;
+
+  transform: translate(50%, -50%);
+
+}
+
+.corporateTraining .corporateVideoControl img {
+
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: contain;
+
+  pointer-events: none;
+
+}
+
+.corporateTraining .corporateVideoControl:focus-visible {
+
+  outline: 3px solid #fff;
+
+  outline-offset: 4px;
+
+}
+
+/* The default is visible, including when IntersectionObserver does not fire.
+
+   Animate scale only; vertical centering is handled by top: 7px above. */
+
+.corporateTraining .trainingLoadSection .trainingProgressFill {
+
+  transform: scaleX(1);
+
+  transform-origin: left center;
+
+}
+
+.corporateTraining .trainingLoadSection.isLoadingActive .trainingProgressFill {
+
+  animation: corporateProgressReveal 1.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+}
+
+@keyframes corporateProgressReveal {
+
+  from { transform: scaleX(0); }
+
+  to { transform: scaleX(1); }
+
+}
+
+/* Mouse feedback changes only the shadow, never the geometry. */
+
+@media (hover: hover) and (pointer: fine) {
+
+  .corporateTraining :is(
+
+    .corporateChallengeCardSurface,
+
+    .rectangleGroup,
+
+    .rectangleContainer,
+
+    .rectangleParent2,
+
+    .frameWrapper19
+
+  ):hover {
+
+    box-shadow: -6px -6px 12px #fff, 6px 6px 12px #c4c4c4;
+
+  }
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Tablet / small laptop                                                       */
+
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 1100px) {
+
+  .corporateTraining {
+
+    padding-inline: 32px;
+
+  }
+
+  .corporateTraining .businesspeopleDiscussingDigiParent {
+
+    width: 100%;
+
+  }
+
+  .corporateTraining .frameParent6 > .frameParent7,
+
+  .corporateTraining .frameParent7 {
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+
+  }
+
+  .corporateTraining .frameParent16,
+
+  .corporateTraining .frameParent36,
+
+  .corporateTraining .frameParent46 {
+
+    width: 100%;
+
+  }
+
+  .corporateTraining .corporateChallengeRow {
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  }
+
+  .corporateTraining .corporateChallengeRow > :last-child:nth-child(odd) {
+
+    grid-column: 1 / -1;
+
+    width: calc((100% - 24px) / 2);
+
+    justify-self: center;
+
+  }
+
+  .corporateTraining .corporateChallengeRowBottom {
+
+    width: 100%;
+
+  }
+
+  .corporateTraining .frameParent38 {
+
+    gap: 24px 32px;
+
+  }
+
+  .corporateTraining .frameParent48 {
+
+    grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.2fr);
+
+    gap: 24px;
+
+  }
+
+  .corporateTraining .frameWrapper19 {
+
+    padding: 24px;
+
+  }
+
+  .corporateTraining .peopleTakingPartBusinessEvParent {
+
+    gap: 0;
+
+  }
+
+  .corporateTraining .frameParent55 {
+
+    padding: 24px;
+
+  }
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Mobile                                                                      */
+
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  .corporateTraining .b6 {
+
+    font-size: 14px;
+
+    line-height: 24px;
+
+  }
+
+  .corporateTraining .frameParent8 {
+
+    top: 42%;
+
+    width: 100%;
+
+    gap: 4px;
+
+  }
+
+  .corporateTraining .frameParent9 {
+
+    gap: 4px;
+
+  }
+
+  .corporateTraining {
+
+    padding: 24px 20px 48px;
+
+  }
+
+  .corporateTraining > .frameDiv,
+
+  .corporateTraining .corporateBreadcrumb,
+
+  .corporateTraining .frameDiv.corporateBreadcrumb {
+
+    margin-bottom: 18px;
+
+    gap: 6px;
+
+    font-size: 14px;
+
+    line-height: 22px;
+
+  }
+
+  .corporateTraining :is(
+
+    .empoweringWorkforce,
+
+    .keyChallengesInContainer,
+
+    .neurolxpTransformingCorporat
+
+  ) {
+
+    font-size: 24px;
+
+    line-height: 32px;
+
+  }
+
+  .corporateTraining :is(
+
+    .buildFutureReadyWorkforces,
+
+    .neurolxpHelpsOrganizations,
+
+    .organizationsCanUse,
+
+    .buildSkilledEngaged
+
+  ) {
+
+    font-size: 16px;
+
+    line-height: 24px;
+
+  }
+
+  .corporateTraining :is(
+
+    .frameWrapper,
+
+    .frameParent3,
+
+    .frameParent4,
+
+    .frameParent17,
+
+    .keyChallengesInCorporateTrParent,
+
+    .frameParent37,
+
+    .frameParent47,
+
+    .whyOrganizationsChooseNeuroParent,
+
+    .frameParent56,
+
+    .frameParent57
+
+  ) {
+
+    gap: 10px;
+
+  }
+
+  .corporateTraining :is(
+
+    .frameItem,
+
+    .frameChild15,
+
+    .frameChild21,
+
+    .frameChild28,
+
+    .frameChild36
+
+  ) {
+
+    min-height: 44px;
+
+    padding: 8px 18px;
+
+    font-size: 16px;
+
+    line-height: 24px;
+
+  }
+
+  .corporateTraining :is(
+
+    .requestDemoButton,
+
+    .frameWrapper2,
+
+    .frameWrapper20
+
+  ) {
+
+    width: min(220px, 100%);
+
+    min-width: 0;
+
+    max-width: min(220px, 100%);
+
+    height: auto;
+
+    min-height: 54px;
+
+    padding: 12px 18px;
+
+    flex: 0 0 auto;
+
+    font-size: 18px;
+
+    line-height: 24px;
+
+    white-space: nowrap;
+
+  }
+
+  .corporateTraining .frameParent5 :is(
+
+    .startLearningWrapper,
+
+    .startLearning
+
+  ) {
+
+    width: 100%;
+
+    min-width: 0;
+
+    max-width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+  }
+
+  .corporateTraining .businesspeopleDiscussingDigiParent {
+
+    margin-bottom: var(--section-gap);
+
+    padding-bottom: 24px;
+
+    border-radius: 20px;
+
+  }
+
+  .corporateTraining .businesspeopleDiscussingDigiIcon {
+
+    max-height: 320px;
+
+    aspect-ratio: 16 / 9;
+
+    border-radius: 0 0 70px 70px;
+
+  }
+
+  .corporateTraining .businesspeopleDiscussingDigiParent .frameParent2,
+
+  .corporateTraining .frameParent2 {
+
+    padding: 24px 16px 0;
+
+    gap: 18px;
+
+  }
+
+  .corporateTraining .frameParent5 {
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+  }
+
+  .corporateTraining .frameParent5 > :is(
+
+    .requestDemoButton,
+
+    .frameWrapper2
+
+  ),
+
+  .corporateTraining .frameParent5 .requestDemoButton,
+
+  .corporateTraining .frameParent5 .frameWrapper2 {
+
+    width: min(220px, 100%);
+
+    min-width: 0;
+
+    max-width: min(220px, 100%);
+
+  }
+
+  .corporateTraining > .frameParent6,
+
+  .corporateTraining .frameParent6 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    row-gap: 0;
+
+    column-gap: 0;
+
+  }
+
+  .corporateTraining .frameParent6 > :is(
+
+    .frameParent7,
+
+    .frameParent16,
+
+    .frameParent36,
+
+    .frameParent46,
+
+    .frameParent54
+
+  ) {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    margin-block: 0;
+
+    margin-inline: auto;
+
+  }
+
+  .corporateTraining .frameParent6 > .frameParent7,
+
+  .corporateTraining .frameParent7 {
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    width: 100%;
+
+    max-width: 360px;
+
+    margin-inline: auto;
+
+    padding-inline: 4px;
+
+    gap: 24px 16px;
+
+  }
+
+  .corporateTraining :is(
+
+    .ellipseParent,
+
+    .ellipseContainer,
+
+    .ellipseParent3,
+
+    .ellipseParent5
+
+  ) {
+
+    width: min(100%, 180px);
+
+  }
+
+  .corporateTraining .frameIcon {
+
+    width: 46px;
+
+    height: 46px;
+
+  }
+
+  .corporateTraining .iconBadge {
+
+    flex-basis: 46px;
+
+    width: 46px;
+
+    height: 46px;
+
+    min-width: 46px;
+
+    min-height: 46px;
+
+  }
+
+  .corporateTraining .iconBadge::before {
+
+    width: 34px;
+
+    height: 34px;
+
+  }
+
+  .corporateTraining .iconBadge img {
+
+    width: 20px;
+
+    height: 20px;
+
+  }
+
+  .corporateTraining .frameParent8 .b,
+
+  .corporateTraining .b {
+
+    font-size: 24px;
+
+    line-height: 30px;
+
+  }
+
+  .corporateTraining :is(
+
+    .enterpriseClients,
+
+    .learnersTrained,
+
+    .satisfactionRate,
+
+    .productivityBoost
+
+  ) {
+
+    font-size: 14px;
+
+    line-height: 20px;
+
+  }
+
+  .corporateTraining .frameParent16,
+
+  .corporateTraining .frameParent36,
+
+  .corporateTraining .frameParent46 {
+
+    gap: 20px;
+
+  }
+
+  .corporateTraining .corporateChallengeRow,
+
+  .corporateTraining .corporateChallengeRowBottom {
+
+    grid-template-columns: minmax(0, 1fr);
+
+    width: 100%;
+
+    max-width: 440px;
+
+    margin-inline: auto;
+
+  }
+
+  .corporateTraining .corporateChallengeRow > :last-child:nth-child(odd) {
+
+    grid-column: auto;
+
+    width: 100%;
+
+  }
+
+  .corporateTraining .corporateChallengeCard {
+
+    min-height: 315px;
+
+  }
+
+  .corporateTraining .corporateChallengeCardSurface {
+
+    min-height: 315px;
+
+    padding: 0 18px 16px;
+
+  }
+
+  .corporateTraining .corporateChallengeHeader {
+
+    width: calc(100% + 36px);
+
+    min-height: 124px;
+
+    margin-inline: -18px;
+
+    padding: 14px 18px 12px;
+
+  }
+
+  .corporateTraining .challengeIcon {
+
+    width: 58px;
+
+    height: 58px;
+
+  }
+
+  .corporateTraining .corporateChallengeCard .rapidSkillChanges {
+
+    font-size: 18px;
+
+    line-height: 26px;
+
+  }
+
+  .corporateTraining .corporateChallengeCard :is(
+
+    .continuousWorkforceUpskillin,
+
+    .actionableLearningInsights
+
+  ) {
+
+    min-height: 48px;
+
+    margin: 10px 0 6px;
+
+    font-size: 16px;
+
+    line-height: 24px;
+
+  }
+
+  .corporateTraining .corporateChallengeToggle .howNeurolxpHelps,
+
+  .corporateTraining .howNeurolxpHelps,
+
+  .corporateTraining .corporateChallengeDropdown p {
+
+    font-size: 16px;
+
+    line-height: 24px;
+
+  }
+
+  .corporateTraining .frameParent38 {
+
+    grid-template-columns: minmax(0, 1fr);
+
+    width: 100%;
+
+    max-width: 100%;
+
+    margin: 0;
+
+    gap: 16px;
+
+  }
+
+  .corporateTraining .frameParent39,
+
+  .corporateTraining .frameParent43 {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    margin: 0;
+
+    gap: 16px;
+
+  }
+
+  .corporateTraining :is(
+
+    .frameParent40,
+
+    .frameParent44,
+
+    .frameParent45,
+
+    .ellipseParent7
+
+  ) {
+
+    grid-template-columns: 64px minmax(0, 1fr);
+
+    width: 100%;
+
+    max-width: 100%;
+
+    min-height: 64px;
+
+    margin: 0;
+
+    align-items: center;
+
+    column-gap: 14px;
+
+    row-gap: 0;
+
+  }
+
+  .corporateTraining .frameChild22.useCaseIcon,
+
+  .corporateTraining .frameChild27 {
+
+    width: 64px;
+
+    height: 64px;
+
+    min-width: 64px;
+
+    min-height: 64px;
+
+  }
+
+  .corporateTraining .frameChild22.useCaseIcon :is(img, svg),
+
+  .corporateTraining .chatting01Icon {
+
+    width: 32px;
+
+    height: 32px;
+
+  }
+
+  .corporateTraining :is(
+
+    .employeeOnboardingParent,
+
+    .complianceTrainingParent,
+
+    .leadershipDevelopmentParent,
+
+    .technicalSkillDevelopmentParent,
+
+    .customerServiceExcellenceParent
+
+  ) {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    min-width: 0;
+
+    gap: 4px;
+
+    overflow: visible;
+
+  }
+
+  .corporateTraining .frameParent36 .employeeOnboarding {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    font-size: 18px;
+
+    line-height: 25px;
+
+    overflow-wrap: break-word;
+
+    word-break: normal;
+
+  }
+
+  .corporateTraining .frameParent36 .accelerateNewHire {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    font-size: 16px;
+
+    line-height: 23px;
+
+    overflow-wrap: break-word;
+
+    word-break: normal;
+
+  }
+
+  .corporateTraining .frameParent48 {
+
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 24px;
+
+  }
+
+  .corporateTraining .frameParent49 {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    gap: 12px;
+
+  }
+
+  .corporateTraining :is(
+
+    .rectangleGroup,
+
+    .rectangleContainer,
+
+    .rectangleParent2
+
+  ) {
+
+    min-height: 116px;
+
+    padding: 12px 8px;
+
+  }
+
+  .corporateTraining :is(.b4, .b5, .h) {
+
+    font-size: 24px;
+
+    line-height: 30px;
+
+  }
+
+  .corporateTraining :is(.completion, .averageScore, .averageTime) {
+
+    font-size: 14px;
+
+    line-height: 20px;
+
+    text-align: center;
+
+  }
+
+  .corporateTraining .frameWrapper19 {
+
+    min-height: 0;
+
+    padding: 20px;
+
+  }
+
+  .corporateTraining .topTrainingPrograms {
+
+    font-size: 20px;
+
+    line-height: 28px;
+
+  }
+
+  .corporateTraining .leadershipDev {
+
+  padding-right: 60px;
+
+  overflow-wrap: break-word;
+
+    font-size: 16px;
+
+    line-height: 24px;
+
+  }
+
+  .corporateTraining .frameParent54 {
+
+    padding: 16px;
+
+    border-radius: 24px;
+
+  }
+
+  .corporateTraining .peopleTakingPartBusinessEvParent {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+  }
+
+  .corporateTraining .frameParent55 {
+
+    order: 0;
+
+    align-items: center;
+
+    padding: 24px 16px;
+
+    gap: 18px;
+
+    text-align: center;
+
+  }
+
+  .corporateTraining .frameParent56,
+
+  .corporateTraining .frameParent57 {
+
+    align-items: center;
+
+    text-align: center;
+
+  }
+
+  .corporateTraining .frameParent54 .neurolxpTransformingCorporat,
+
+  .corporateTraining .frameParent54 .buildSkilledEngaged {
+
+    text-align: center;
+
+  }
+
+  .corporateTraining .groupYoungBusinesspeopleUsi {
+
+    order: 1;
+
+    width: 100%;
+
+    height: auto;
+
+    min-height: 0;
+
+    aspect-ratio: 16 / 10;
+
+  }
+
+  .corporateTraining .frameChild37,
+
+  .corporateTraining .corporateVideoControl {
+
+    top: auto;
+
+    right: 50%;
+
+    bottom: 21%;
+
+    transform: translate(50%, 50%);
+
+  }
+
+  .corporateTraining :is(
+
+    .empoweringWorkforce,
+
+    .keyChallengesInContainer,
+
+    .neurolxpTransformingCorporat,
+
+    .buildFutureReadyWorkforces,
+
+    .neurolxpHelpsOrganizations,
+
+    .organizationsCanUse,
+
+    .buildSkilledEngaged
+
+  ) br {
+
+    display: none;
+
+  }
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Small phones                                                                */
+
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 480px) {
+
+  .corporateTraining {
+
+    padding-inline: 16px;
+
+  }
+
+  .corporateTraining .frameParent5 {
+
+    flex-direction: column;
+
+    align-items: center;
+
+  }
+
+  .corporateTraining .frameParent5 > :is(
+
+    .requestDemoButton,
+
+    .frameWrapper2
+
+  ),
+
+  .corporateTraining .frameParent5 .requestDemoButton,
+
+  .corporateTraining .frameParent5 .frameWrapper2,
+
+  .corporateTraining .frameWrapper20 {
+
+    width: min(210px, 100%);
+
+    min-width: 0;
+
+    max-width: min(210px, 100%);
+
+  }
+
+  .corporateTraining .frameParent6 > .frameParent7,
+
+  .corporateTraining .frameParent7 {
+
+    max-width: 360px;
+
+    padding-inline: 0;
+
+    gap: 24px 16px;
+
+  }
+
+  .corporateTraining :is(
+
+    .ellipseParent,
+
+    .ellipseContainer,
+
+    .ellipseParent3,
+
+    .ellipseParent5
+
+  ) {
+
+    width: min(100%, 164px);
+
+  }
+
+  .corporateTraining .frameParent8 {
+
+    top: 43%;
+
+    width: 100%;
+
+    gap: 2px;
+
+  }
+
+  .corporateTraining .frameParent9 {
+
+    gap: 2px;
+
+  }
+
+  .corporateTraining .frameIcon {
+
+    width: 32px;
+
+    height: 32px;
+
+  }
+
+  .corporateTraining .iconBadge {
+
+    flex-basis: 32px;
+
+    width: 32px;
+
+    height: 32px;
+
+    min-width: 32px;
+
+    min-height: 32px;
+
+  }
+
+  .corporateTraining .iconBadge::before {
+
+    width: 26px;
+
+    height: 26px;
+
+  }
+
+  .corporateTraining .iconBadge img {
+
+    width: 18px;
+
+    height: 18px;
+
+  }
+
+  .corporateTraining .frameParent8 .b,
+
+  .corporateTraining .b {
+
+    font-size: 20px;
+
+    line-height: 24px;
+
+  }
+
+  .corporateTraining :is(
+
+    .enterpriseClients,
+
+    .learnersTrained,
+
+    .satisfactionRate,
+
+    .productivityBoost
+
+  ) {
+
+    min-height: 32px;
+
+    padding-inline: 0;
+
+    font-size: 12px;
+
+    line-height: 16px;
+
+  }
+
+  .corporateTraining .frameParent49 {
+
+    grid-template-columns: minmax(0, 1fr);
+
+    max-width: 320px;
+
+    margin-inline: auto;
+
+  }
+
+  .corporateTraining :is(
+
+    .rectangleGroup,
+
+    .rectangleContainer,
+
+    .rectangleParent2
+
+  ) {
+
+    min-height: 110px;
+
+  }
+
+  .corporateTraining :is(
+
+    .frameParent40,
+
+    .frameParent44,
+
+    .frameParent45,
+
+    .ellipseParent7
+
+  ) {
+
+    grid-template-columns: 58px minmax(0, 1fr);
+
+    column-gap: 12px;
+
+  }
+
+  .corporateTraining .frameChild22.useCaseIcon,
+
+  .corporateTraining .frameChild27 {
+
+    width: 58px;
+
+    height: 58px;
+
+    min-width: 58px;
+
+    min-height: 58px;
+
+  }
+
+  .corporateTraining .frameChild22.useCaseIcon :is(img, svg),
+
+  .corporateTraining .chatting01Icon {
+
+    width: 29px;
+
+    height: 29px;
+
+  }
+
+  .corporateTraining .frameParent54 {
+
+    padding: 12px;
+
+  }
+
+  .corporateTraining .frameParent55 {
+
+    padding: 20px 12px;
+
+  }
+
+  .corporateTraining .frameWrapper20 {
+
+    width: min(100%, 210px);
+
+    min-width: 0;
+
+    max-width: 210px;
+
+  }
+
+}
+
+/* NORMAL-FLOW SECTION SPACING
+
+   Figma exports may nest later sections inside frameParent16/frameParent18.
+
+   Reset only containers that directly own a main section. A section's 48px
+
+   margin replaces its parent's gap, so gaps cannot double or collapse. */
+
+.corporateTraining :is(div, section, main):has(> :is(
+
+  .frameParent7, .frameParent16, .frameParent36, .frameParent46, .frameParent54
+
+)) {
+
+  position: relative;
+
+  inset: auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: stretch;
+
+  justify-content: flex-start;
+
+  height: auto;
+
+  min-height: 0;
+
+  row-gap: 0;
+
+  padding-block: 0;
+
+  transform: none;
+
+}
+
+.corporateTraining :is(div, section, main):has(> :is(
+
+  .frameParent7, .frameParent16, .frameParent36, .frameParent46, .frameParent54
+
+)) > * {
+
+  flex: none;
+
+  margin-block: 0;
+
+}
+
+.corporateTraining :is(div, section, main):has(> :is(
+
+  .frameParent7, .frameParent16, .frameParent36, .frameParent46, .frameParent54
+
+)) > * + * {
+
+  margin-block-start: var(--content-gap);
+
+}
+
+.corporateTraining :is(div, section, main):has(> :is(
+
+  .frameParent7, .frameParent16, .frameParent36, .frameParent46, .frameParent54
+
+)) > * + :is(
+
+  .frameParent7, .frameParent16, .frameParent36, .frameParent46, .frameParent54
+
+) {
+
+  margin-block-start: var(--section-gap);
+
+}
+
+.corporateTraining :is(
+
+  .frameParent7, .frameParent16, .frameParent36, .frameParent46, .frameParent54
+
+) {
+
+  position: relative;
+
+  inset: auto;
+
+  height: auto;
+
+  min-height: 0;
+
+  max-width: 100%;
+
+  transform: none;
+
+}
+
+@media (max-width: 768px) {
+
+  .corporateTraining {
+
+    --content-gap: 20px;
+
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .corporateTraining *,
+
+  .corporateTraining *::before,
+
+  .corporateTraining *::after {
+
+    animation: none !important;
+
+    transition: none !important;
+
+  }
+
+}
+
+/* Mobile corrections: equal CTAs, two-line statistics, compact paired
+
+   challenge cards and consistent use-case alignment. */
+
+@media (max-width: 768px) {
+
+  .corporateTraining .frameParent5 {
+
+    display: grid;
+
+    grid-template-columns: minmax(0, 1fr);
+
+    justify-items: center;
+
+    width: 100%;
+
+    gap: 12px;
+
+  }
+
+  .corporateTraining .frameParent5 > .requestDemoButton,
+
+  .corporateTraining .frameParent5 > .startLearningLink {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: min(220px, 100%);
+
+    min-width: 0;
+
+    max-width: 220px;
+
+    height: 54px;
+
+    min-height: 54px;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+
+  }
+
+  .corporateTraining .frameParent5 .startLearningLink .frameWrapper2 {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 100%;
+
+    min-width: 0;
+
+    max-width: none;
+
+    height: 54px;
+
+    min-height: 54px;
+
+    margin: 0;
+
+    padding: 12px 20px;
+
+    box-sizing: border-box;
+
+  }
+
+  .corporateTraining .frameParent5 .requestDemoButton,
+
+  .corporateTraining .frameParent5 .frameWrapper2 {
+
+    padding: 12px 20px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    line-height: 24px;
+
+    border-radius: 8px;
+
+  }
+
+  .corporateTraining :is(.enterpriseClients, .learnersTrained,
+
+    .satisfactionRate, .productivityBoost) {
+
+    display: block;
+
+    width: min-content;
+
+    min-width: 0;
+
+    max-width: 100%;
+
+    min-height: 2lh;
+
+    margin-inline: auto;
+
+    padding-inline: 0;
+
+    text-align: center;
+
+    white-space: normal;
+
+    word-break: normal;
+
+    overflow-wrap: normal;
+
+  }
+
+  .corporateTraining :is(.enterpriseClients, .learnersTrained,
+
+    .satisfactionRate, .productivityBoost) br {
+
+    display: none;
+
+  }
+
+  .corporateTraining .frameParent38 {
+
+    grid-template-columns: minmax(0, 1fr);
+
+    gap: 24px;
+
+    max-width: 540px;
+
+    margin-inline: auto;
+
+  }
+
+  .corporateTraining .frameParent39,
+
+  .corporateTraining .frameParent43 { gap: 24px; }
+
+  .corporateTraining .frameParent36 :is(
+
+    .frameParent40, .frameParent44, .frameParent45, .ellipseParent7) {
+
+    grid-template-columns: 48px minmax(0, 1fr);
+
+    align-items: start;
+
+    gap: 12px;
+
+    min-height: 0;
+
+    margin: 0;
+
+  }
+
+  .corporateTraining .frameParent36 .frameChild22.useCaseIcon,
+
+  .corporateTraining .frameParent36 .frameChild27 {
+
+    width: 48px;
+
+    height: 48px;
+
+    min-width: 48px;
+
+    min-height: 48px;
+
+    margin: 2px 0 0;
+
+    align-self: start;
+
+  }
+
+  .corporateTraining .frameParent36 .frameChild22.useCaseIcon :is(img, svg),
+
+  .corporateTraining .frameParent36 .chatting01Icon { width: 26px; height: 26px; }
+
+  .corporateTraining .frameParent36 :is(.employeeOnboardingParent,
+
+    .complianceTrainingParent, .leadershipDevelopmentParent,
+
+    .technicalSkillDevelopmentParent, .customerServiceExcellenceParent) {
+
+    align-items: flex-start;
+
+    justify-content: flex-start;
+
+    gap: 6px;
+
+    margin: 0;
+
+    text-align: left;
+
+  }
+
+  .corporateTraining .frameParent36 .employeeOnboarding {
+
+    margin: 0;
+
+    font-size: 18px;
+
+    line-height: 24px;
+
+    text-align: left;
+
+    text-wrap: balance;
+
+  }
+
+  .corporateTraining .frameParent36 .accelerateNewHire {
+
+    margin: 0;
+
+    font-size: 16px;
+
+    line-height: 24px;
+
+    text-align: left;
+
+  }
+
+}
+
+/* Mobile follow-up: tighten card copy and give use-case icons safe side space. */
+
+@media (max-width: 768px) {
+
+  .corporateTraining .corporateChallengeCard :is(
+
+    .continuousWorkforceUpskillin, .actionableLearningInsights) {
+
+    margin: 10px 0 6px;
+
+  }
+
+  .corporateTraining .corporateChallengeToggle,
+
+  .corporateTraining .corporateChallengeCard.isOpen .corporateChallengeToggle {
+
+    margin-top: 0;
+
+    padding-top: 0;
+
+  }
+
+  .corporateTraining .frameParent38 {
+
+    padding: 8px 12px 16px;
+
+    box-sizing: border-box;
+
+    gap: 28px;
+
+  }
+
+  .corporateTraining .frameParent39,
+
+  .corporateTraining .frameParent43 {
+
+    gap: 28px;
+
+  }
+
+}
+
+/* Preserve the original mobile challenge design; remove only excess height. */
+
+@media (max-width: 768px) {
+
+  .corporateTraining .corporateChallengeCard,
+
+  .corporateTraining .corporateChallengeCard .corporateChallengeCardSurface,
+
+  .corporateTraining .corporateChallengeCard.isOpen .corporateChallengeCardSurface {
+
+    height: auto;
+
+    min-height: 0;
+
+  }
+
+  .corporateTraining .corporateChallengeCard .corporateChallengeToggle {
+
+    margin-top: 0;
+
+  }
+
+}
+
+/* Narrower centered mobile cards, retaining their original styling. */
+
+@media (max-width: 768px) {
+
+  .corporateTraining .corporateChallengeRow,
+
+  .corporateTraining .corporateChallengeRowBottom {
+
+    width: 90%;
+
+    max-width: 380px;
+
+    margin-inline: auto;
+
+  }
+
+}
+
+/* Center mobile Corporate Training Use Cases text. */
+
+@media (max-width: 768px) {
+
+  .corporateTraining .frameParent36 :is(
+
+    .employeeOnboardingParent,
+
+    .complianceTrainingParent,
+
+    .leadershipDevelopmentParent,
+
+    .technicalSkillDevelopmentParent,
+
+    .customerServiceExcellenceParent
+
+  ) {
+
+    align-items: center;
+
+    text-align: center;
+
+  }
+
+  .corporateTraining .frameParent36 :is(
+
+    .employeeOnboarding,
+
+    .accelerateNewHire
+
+  ) {
+
+    text-align: center;
+
+  }
+
+}
+
+/* =========================================================
+   REQUESTED FIXES ONLY
+   1. Talk to Our Expert — Key Challenges right-side anchor
+   2. Corporate Training Use Cases — left-aligned list content
+   ========================================================= */
+
+/* Key Challenges: keep the launcher out of normal layout flow. */
+.corporateTraining .frameParent16 {
+  position: relative;
+}
+
+.corporateTraining .corporateExpertButtonSlot {
+  position: absolute;
+  top: 38%;
+  right: 16px;
+  bottom: auto;
+  left: auto;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-50%);
+  z-index: 20;
+  pointer-events: auto;
+}
+
+/* Corporate Training Use Cases: align the list content to the left. */
+.corporateTraining .frameParent36 .frameParent38,
+.corporateTraining .frameParent36 .frameParent39,
+.corporateTraining .frameParent36 .frameParent43 {
+  text-align: left;
+}
+
+.corporateTraining .frameParent36 :is(
+  .frameParent40,
+  .frameParent44,
+  .frameParent45
+) {
+  justify-items: start;
+  text-align: left;
+}
+
+.corporateTraining .frameParent36 :is(
+  .employeeOnboardingParent,
+  .complianceTrainingParent,
+  .leadershipDevelopmentParent,
+  .technicalSkillDevelopmentParent,
+  .customerServiceExcellenceParent
+) {
+  width: 100%;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.corporateTraining .frameParent36 :is(
+  .employeeOnboarding,
+  .accelerateNewHire
+) {
+  width: 100%;
+  text-align: left;
+}
+
+/* Responsive button placement only; existing section layout remains untouched. */
+@media (max-width: 1100px) {
+  .corporateTraining .corporateExpertButtonSlot {
+    top: 38%;
+    right: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .corporateTraining .corporateExpertButtonSlot {
+    top: 15px;
+    right: 1px;
+    transform: none;
+  }
+}
+
+.neuroLxpTm {
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  margin-left: 3px;
+  color: #2d4cc8;
+  font-size: 10.8px;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: baseline;
+  flex-shrink: 0;
+}
+
+/* CORPORATE TRAINING - MOBILE BADGE ALIGNMENT */
+@media screen and (max-width: 768px) {
+  .corporateTraining .frameChild28 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: fit-content !important;
+    max-width: 100% !important;
+    min-height: 44px;
+    height: auto !important;
+
+    margin: 0 auto 4px !important;
+    padding: 10px 16px !important;
+
+    text-align: center !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    white-space: normal !important;
+    word-break: normal !important;
+  }
+
+  .corporateTraining .frameChild28 > span {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .corporateTraining .frameChild28 .neuroLxpKeepTogether {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .corporateTraining .frameChild28 .neuroLxpTm {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    margin-left: 2px;
+    font-size: 9px;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+}/* Keep NeuroLXP and TM together */
+.corporateTraining .neuroLxpKeepTogether {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* Desktop and tablet TM alignment */
+.corporateTraining .neuroLxpTm {
+  display: inline-block;
+  position: relative;
+  top: -12px;
+  margin-left: 2px;
+  font-size: 0.45em;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+/* Mobile badge alignment */
+@media screen and (max-width: 768px) {
+  .corporateTraining .frameChild28 {
+    display: block !important;
+    width: fit-content !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 44px;
+
+    margin: 0 auto 4px !important;
+    padding: 10px 16px !important;
+
+    text-align: center !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+  .corporateTraining .frameChild28 .neuroLxpKeepTogether {
+    display: inline-block !important;
+    width: auto !important;
+    white-space: nowrap !important;
+    vertical-align: baseline;
+  }
+
+  /* Mobile TM alignment */
+  .corporateTraining .frameChild28 .neuroLxpTm {
+    top: -7px;
+  }
+}
+
+.corporateTraining .corporateVideoZoomWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    overflow: hidden;
+}
+
+.corporateTraining .corporateVideoZoomWrapper .groupYoungBusinesspeopleUsi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 145%;
+    min-height: 0;
+    transform: translate(-50%, -50%);
+    border: none;
+}

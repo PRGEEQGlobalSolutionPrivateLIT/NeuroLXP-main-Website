@@ -1,0 +1,3550 @@
+.helpAndSupport {
+  	width: 100%;
+  	height: 2690px;
+  	position: relative;
+  	background-color: #dfe6e9;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #31344b;
+  	font-family: "Segoe UI", "Inter";
+	zoom: 0.97;
+}
+.frameParent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 720px);
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 80px;
+  	overflow: hidden;
+  	font-family: Inter;
+}
+.frameChild {
+  	position: absolute;
+  	top: calc(50% - 22px);
+  	left: 1096px;
+  	width: 132px;
+  	height: 44px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.frameGroup {
+  	position: absolute;
+  	top: 18px;
+  	left: 32px;
+  	width: 1376px;
+  	height: 45px;
+  	flex-shrink: 0;
+}
+.logo01SynapseSpark1Parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	gap: 130px;
+}
+.logo01SynapseSpark1Icon {
+  	height: 45px;
+  	width: 120px;
+  	position: relative;
+  	object-fit: cover;
+}
+.frameContainer {
+  	display: flex;
+  	align-items: center;
+  	gap: 30px;
+}
+.homeParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.home {
+  	position: relative;
+  	line-height: 24px;
+  	font-weight: 600;
+}
+.arrowDown01Icon {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+}
+.resourcesParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #2d4cc8;
+}
+.resources {
+  	position: relative;
+  	line-height: 24px;
+}
+.signInHelpWrapper {
+  	position: absolute;
+  	top: calc(50% - 22.5px);
+  	left: 1244px;
+  	box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
+  	border-radius: 32px;
+  	background-color: #dfe6e9;
+  	width: 132px;
+  	height: 44px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 32px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	color: #2d4cc8;
+  	font-family: "Segoe UI", "Inter";
+}
+.signInHelp {
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 28px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.frameItem {
+  	position: absolute;
+  	top: 6px;
+  	left: 11px;
+  	width: 1429px;
+  	height: 592.4px;
+  	flex-shrink: 0;
+}
+.frameInner {
+  	position: absolute;
+  	top: 76px;
+  	left: 4px;
+  	width: 1436px;
+  	height: 839px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.frameDiv {
+  	position: absolute;
+  	top: 112px;
+  	left: 80px;
+  	background-color: #dfe6e9;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #2f3547;
+  	font-family: "Segoe UI", "Inter";
+}
+.resourcesWrapper {
+  	display: flex;
+  	align-items: center;
+}
+.resources2 {
+  	position: relative;
+  	letter-spacing: 0.02em;
+  	line-height: 24px;
+}
+.arrowRightDoubleParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	color: #243fa8;
+}
+.frameParent2 {
+  	position: absolute;
+  	top: 168px;
+  	left: calc(50% - 639px);
+  	display: flex;
+  	align-items: flex-end;
+  	gap: 35px;
+  	font-size: 48px;
+}
+.frameParent3 {
+  	width: 508px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 45px;
+}
+.frameParent4 {
+  	align-self: stretch;
+  	height: 320px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.frameParent5 {
+  	align-self: stretch;
+  	height: 202px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 32px;
+  	flex-shrink: 0;
+}
+.frameIcon {
+	width: 213.8px;
+	height: 50.2px;
+	position: relative;
+	border-radius: 28px;
+	background: #dfe6e9;
+	box-shadow: inset -4px -4px 8px #ffffff,
+		inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+	color: #2d4cc8;
+}
+.empoweringYouAtContainer {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+}
+.empoweringYouAt {
+  	line-height: 60px;
+}
+.everyStep {
+  	color: #2d4cc8;
+  	line-height: 60px;
+}
+.reliableSupportFor {
+  	width: 521px;
+  	height: 85px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameChild2 {
+	width: 220px;
+	height: 60px;
+	position: relative;
+	background: #dfe6e9;
+	box-shadow: -4px -4px 8px #ffffff,
+		4px 4px 8px rgba(196, 196, 196, 0.8);
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Segoe UI", "Inter";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0.02em;
+	color: #2d4cc8;
+	cursor: pointer;
+}
+.frameParent6 {
+	width: 736px;
+	height: 486px;
+	position: relative;
+	flex-shrink: 0;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.frameChild3 {
+	position: absolute;
+	inset: 0;
+	width: 736px;
+	height: 486px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 20px;
+	z-index: 0;
+	overflow: hidden;
+	box-shadow:
+		-8px -8px 16px #ffffff,
+		8px 8px 16px #c4c4c4;
+}
+
+.welcomeSign1Wrapper {
+	position: absolute;
+	top: 36px;
+	left: 36px;
+	width: 664px;
+	height: 414px;
+	padding: 2px;
+	border-radius: 82px;
+	background: linear-gradient(
+		180deg,
+		#2D4CC8 0%,
+		#BF1869 100%
+	);
+	box-sizing: border-box;
+	overflow: clip;
+	clip-path: inset(0 round 82px);
+	box-shadow:
+		-8px -8px 16px #FFFFFF,
+		8px 8px 16px #C4C4C4;
+	z-index: 2;
+}
+
+.welcomeSign1Icon {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 660px;
+	height: 410px;
+	object-fit: contain;
+	object-position: center bottom;
+	border-radius: 80px;
+	background: #DFE6E9;
+	display: block;
+	clip-path: inset(0 round 80px);
+}
+.comprehensiveSupportParent {
+  	position: absolute;
+  	top: 750px;
+  	left: 56px;
+  	width: 1280px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 50px;
+  	text-align: center;
+  	font-size: 36px;
+}
+.comprehensiveSupport {
+  	align-self: stretch;
+  	height: 50px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 50px;
+  	text-transform: capitalize;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameParent7 {
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 53px;
+}
+
+.supportCard {
+	width: 280px;
+	height: 280px;
+	position: relative;
+	flex: none;
+	background: #dfe6e9;
+	box-shadow: inset -4px -4px 8px #ffffff,
+		inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+	border-radius: 500px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.supportCardInner {
+    position: absolute;
+    left: 25px;
+    top: 18px;
+    width: 230px;
+    height: 230px;
+    background: #dfe6e9;
+    box-shadow: -10px -10px 20px #ffffff,
+        10px 10px 20px #c4c4c4;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.supportCardContent {
+    position: absolute;
+    top: 36px;
+    left: 14px;
+    width: 202px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    text-align: center;
+}
+
+.supportCardTitle {
+	width: 150px;
+	font-family: "Segoe UI", "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.03em;
+	color: #2f3547;
+}
+
+.supportCardText {
+	width: 202px;
+	font-family: "Segoe UI", "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 0.03em;
+	color: #31344b;
+}
+
+.supportCardAccent {
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 14px;
+    border-radius: 50px 50px 0 0;
+}
+
+.supportCardAccent::before,
+.supportCardAccent::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 38px;
+    height: 14px;
+    background: inherit;
+}
+
+.supportCardAccent::before {
+    left: -16px;
+    border-radius: 40px 0 40px 0;
+    transform: rotate(15deg);
+}
+
+.supportCardAccent::after {
+    right: -16px;
+    border-radius: 0 40px 0 40px;
+    transform: rotate(-15deg);
+}
+
+.supportCardPurple .supportCardAccent {
+	background: #67096e;
+}
+
+.supportCardPink .supportCardAccent {
+	background: #bf1869;
+}
+
+.supportCardGreen .supportCardAccent {
+	background: #2a7308;
+}
+
+.supportCardBlue .supportCardAccent {
+	background: #2d4cc8;
+}
+
+.helpAndSupportInner {
+	position: absolute;
+	top: 1226px;
+	left: calc(50% - 640px);
+	width: 1280px;
+	height: 514.27px;
+	padding: 50px;
+	box-sizing: border-box;
+	border-radius: 32px;
+	overflow: hidden;
+	background: url("/assets/helpimages/bg2.png") center/cover no-repeat, #dfe6e9;
+	box-shadow: inset -8px -8px 16px #ffffff,
+		inset 8px 8px 16px #c4c4c4;
+	font-size: 36px;
+}
+
+.frameParent8 {
+	width: 1180px;
+	height: 414.27px;
+	display: flex;
+	align-items: center;
+	gap: 187px;
+}
+
+.frameWrapper {
+	width: 470px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.frameParent9 {
+	width: 470px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.knowledgeResourcesWrapper {
+	width: 472px;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.knowledgeResources {
+	width: 472px;
+	font-family: "Segoe UI", "Inter";
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 50px;
+	letter-spacing: 0.03em;
+	color: #31344b;
+}
+
+.accessPracticalResources {
+	width: 470px;
+	font-family: "Segoe UI", "Inter";
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.03em;
+	color: #2f3547;
+}
+
+.frameWrapper2 {
+	width: 483px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: 24px;
+}
+
+.frameParent10 {
+	width: 483px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+}
+
+.frameParent11 {
+	width: 483px;
+	height: 70.05px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.resourceIcon {
+	width: 70.05px;
+	height: 70.05px;
+	position: relative;
+	flex: none;
+	background: #dfe6e9;
+	box-shadow: inset -4px -4px 8px #ffffff,
+		inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.resourceIconInner {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	box-shadow: 4px 4px 8px #c6c6c9,
+		-4px -4px 8px #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.resourceIconInner img {
+	width: 34px;
+	height: 34px;
+	object-fit: contain;
+	display: block;
+}
+
+.resourceIconPink .resourceIconInner {
+	background: #bf1869;
+}
+
+.resourceIconPurple .resourceIconInner {
+	background: #67096e;
+}
+
+.resourceIconBlue .resourceIconInner {
+	background: #2d4cc8;
+}
+
+.resourceIconTeal .resourceIconInner {
+	background: #046f73;
+}
+
+.resourceIconGold .resourceIconInner {
+	background: #907507;
+}
+
+.gettingStartedGuides,
+.courseCreationTutorials,
+.assessmentReporting,
+.contentManagementResources {
+	height: 37px;
+	position: relative;
+	font-family: "Segoe UI", "Inter";
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	color: #31344b;
+	display: inline-block;
+	flex-shrink: 0;
+}
+
+.gettingStartedGuides {
+	width: 458px;
+}
+
+.courseCreationTutorials {
+	width: 343px;
+}
+
+.assessmentReporting {
+	width: 462px;
+}
+
+.contentManagementResources {
+	width: 471px;
+}
+
+.helpAndSupportChild {
+  	position: absolute;
+  	top: 1836.27px;
+  	left: 206px;
+  	width: 1022px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	text-align: center;
+  	font-size: 48px;
+}
+.frameParent16 {
+  	width: 100%;
+  	height: 257.1px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 32px;
+  	max-width: 100%;
+}
+.frameChild13 {
+	width: 220px;
+	height: 60px;
+	position: relative;
+	border-radius: 40px;
+	background: #dfe6e9;
+	box-shadow: inset -4px -4px 8px #ffffff,
+		inset 4px 4px 8px rgba(196, 196, 196, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	flex-shrink: 0;
+	font-family: "Segoe UI", "Inter";
+	color: #2d4cc8;
+}
+
+.neurolxpBadgeText {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0.02em;
+}
+
+.neurolxpBadgeTm {
+	position: relative;
+	top: -8px;
+	margin-left: 2px;
+	font-size: 10px;
+	font-weight: 900;
+	line-height: 1;
+	letter-spacing: 0;
+	color: #2d4cc8;
+	flex-shrink: 0;
+}
+.supportForYourLearningEcosParent {
+  	width: 1040px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 32px;
+  	flex-shrink: 0;
+}
+.supportForYour {
+  	align-self: stretch;
+  	height: 63px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 60px;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fromOnboardingTo {
+  	width: 662px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 0.03em;
+  	line-height: 40px;
+  	color: #2f3547;
+  	display: inline-block;
+}
+.frameParent17 {
+  	position: absolute;
+  	bottom: -0.4px;
+  	left: calc(50% - 720px);
+  	width: 1440px;
+  	height: 501px;
+  	font-size: 26px;
+  	color: #2f3547;
+}
+.frameParent18 {
+  	position: absolute;
+  	bottom: -0.02px;
+  	left: calc(50% - 720px);
+  	box-shadow: -10px -10px 20px #fff inset, 8px 8px 16px #c4c4c4 inset;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 459px;
+  	overflow: hidden;
+}
+.frameParent19 {
+  	position: absolute;
+  	top: 49.81px;
+  	left: 53.96px;
+  	width: 1339.5px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+}
+.frameParent20 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 35px;
+}
+.frameParent21 {
+  	width: 676px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 24px;
+  	flex-shrink: 0;
+}
+.logo01SynapseSpark1Group {
+  	width: 577px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.logo01SynapseSpark1Icon2 {
+  	width: 299px;
+  	height: 112px;
+  	position: relative;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.frameParent22 {
+  	display: flex;
+  	align-items: center;
+  	gap: 14px;
+  	flex-shrink: 0;
+}
+.onePlatformParent {
+  	display: flex;
+  	align-items: center;
+  	gap: 10px;
+}
+.onePlatform {
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 34px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sparklesIcon {
+  	height: 23px;
+  	width: 23px;
+  	position: relative;
+}
+.prgeeqGlobalSolutionsPrivatParent {
+  	width: 459px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 4px;
+  	font-size: 16px;
+}
+.prgeeqGlobalSolutions {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 24px;
+}
+.prestigeAtlanta1012Container {
+  	align-self: stretch;
+  	height: 77px;
+  	position: relative;
+  	line-height: 24px;
+  	display: flex;
+  	align-items: flex-end;
+  	flex-shrink: 0;
+}
+.blankLine {
+  	line-height: 24px;
+}
+.frameParent23 {
+  	width: 631px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	gap: 24px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #2d4cc8;
+}
+.frameParent24 {
+  	width: 619px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+}
+.aboutUsParent {
+  	width: 123px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.aboutUs {
+  	width: 93px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+}
+.ourMissionParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+.ourMission {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.quickLinksParent {
+  	width: 207px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.quickLinks {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.neurolxpParent {
+  	height: 181px;
+  	width: 205px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 20px;
+}
+.neurolxp {
+  	align-self: stretch;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	white-space: pre-wrap;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.ourCustomersGroup {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 20px;
+  	color: #2f3547;
+}
+.smartContentCreation {
+  	width: 229px;
+  	height: 26px;
+  	position: relative;
+  	letter-spacing: 0.03em;
+  	line-height: 28px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.frameParent25 {
+  	width: 392.4px;
+  	height: 80.1px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+}
+.frameChild14 {
+  	height: 80.1px;
+  	width: 80.1px;
+  	position: relative;
+}
+.copyright2026 {
+  	align-self: stretch;
+  	height: 47px;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: -0.03em;
+  	line-height: 56px;
+  	font-weight: 600;
+  	color: #2d4cc8;
+  	text-align: center;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.frameWrapper3 {
+  	position: absolute;
+  	bottom: 0.02px;
+  	left: calc(50% - 720px);
+  	box-shadow: -8px -8px 16px #fff inset, 10px 10px 10px #c4c4c4 inset;
+  	background-color: #dfe6e9;
+  	width: 1440px;
+  	height: 459px;
+  	overflow: hidden;
+}
+.frameParent30 {
+  	width: 631px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 24px;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	color: #2d4cc8;
+}
+.frameParent31 {
+  	width: 619px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.ourMissionGroup {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+.neurolxpGroup {
+  	display: flex;
+  	align-items: flex-start;
+  	flex-shrink: 0;
+}
+.neurolxp2 {
+  	height: 26px;
+  	width: 103px;
+  	position: relative;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.neurolxpTxt {
+  	width: 100%;
+  	white-space: pre-wrap;
+}
+.neurolxp3 {
+  	line-height: 30px;
+}
+.span {
+  	font-size: 12px;
+  	line-height: 30px;
+}
+.tm {
+  	height: 17px;
+  	width: 23px;
+  	position: relative;
+  	font-size: 12px;
+  	letter-spacing: -0.03em;
+  	line-height: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex-shrink: 0;
+}
+.ourCustomersContainer {
+  	width: 221px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	flex-shrink: 0;
+  	font-size: 18px;
+  	color: #2f3547;
+}
+.frameParent33 {
+  	width: 392.4px;
+  	height: 80.1px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 217.19px;
+  	left: 135.04px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
+.frameChild18 {
+  	height: 80.1px;
+  	width: 80.1px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.frameChild23 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 30.07px);
+  	border-radius: 32px;
+  	width: 59.1px;
+  	height: 92px;
+  	object-fit: contain;
+}
+
+/* Header/footer removed */
+.frameParent{display:none;}
+.frameParent17,.frameWrapper3{display:none;}
+.frameDiv{top:32px;}
+.frameParent2{top:88px;}
+.helpAndSupport{height:2230px;}
+
+/* SUPPORT CARDS — REPLACED WITH PROVIDED SVG DESIGN */
+.supportCard {
+	width: 280px;
+	height: 280px;
+	position: relative;
+	flex: none;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 281px 281px;
+	box-shadow: none;
+	border-radius: 50%;
+	overflow: visible;
+	box-sizing: border-box;
+}
+
+.supportCardPurple {
+	background-image: url("/assets/helpimages/support-card-purple.svg");
+}
+
+.supportCardPink {
+	background-image: url("/assets/helpimages/support-card-pink.svg");
+}
+
+.supportCardGreen {
+	background-image: url("/assets/helpimages/support-card-green.svg");
+}
+
+.supportCardBlue {
+	background-image: url("/assets/helpimages/support-card-blue.svg");
+}
+
+.supportCardInner {
+	position: absolute;
+	left: 25px;
+	top: 18px;
+	width: 230px;
+	height: 230px;
+	background: transparent;
+	box-shadow: none;
+	border-radius: 50%;
+	overflow: visible;
+}
+
+.supportCardAccent {
+	display: none;
+}
+
+/* ==========================================================================
+   BFSI-STYLE NORMAL FLOW
+   Layout positioning only. Existing colours, fonts, shadows, card artwork,
+   image styling and desktop design are preserved.
+   ========================================================================== */
+
+.helpAndSupport {
+	width: 100%;
+	height: auto;
+	min-height: 2230px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 32px 0 137px;
+	background-color: #dfe6e9;
+	overflow-x: clip;
+	overflow-y: visible;
+	text-align: left;
+	font-size: 16px;
+	color: #31344b;
+	font-family: "Segoe UI", "Inter";
+	zoom: 1;
+	box-sizing: border-box;
+}
+
+/* Header and footer remain removed. */
+.frameParent,
+.frameParent17,
+.frameWrapper3 {
+	display: none;
+}
+
+/* Breadcrumb */
+.helpAndSupport > .frameDiv {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: min(1280px, calc(100% - 48px));
+	min-height: 24px;
+	margin: 0 auto 32px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	background-color: #dfe6e9;
+	color: #2f3547;
+	font-family: "Segoe UI", "Inter";
+	box-sizing: border-box;
+}
+
+/* Hero */
+.helpAndSupport > .frameParent2 {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: min(1278px, calc(100% - 48px));
+	height: 486px;
+	margin: 0 auto 176px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	gap: 35px;
+	font-size: 48px;
+	box-sizing: border-box;
+}
+
+.helpAndSupport > .frameParent2 > .frameParent3 {
+	width: 508px;
+	flex: 0 0 508px;
+}
+
+.helpAndSupport > .frameParent2 > .frameParent6 {
+	width: 736px;
+	height: 486px;
+	flex: 0 0 736px;
+}
+
+/* Comprehensive Support */
+.helpAndSupport > .comprehensiveSupportParent {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: min(1280px, calc(100% - 48px));
+	height: auto;
+	margin: 0 auto 96px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+	text-align: center;
+	font-size: 36px;
+	box-sizing: border-box;
+}
+
+.helpAndSupport > .comprehensiveSupportParent .comprehensiveSupport {
+	width: 100%;
+	height: 50px;
+	margin: 0;
+}
+
+.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 53px;
+}
+
+/* Knowledge and Resources */
+.helpAndSupport > .helpAndSupportInner {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: min(1280px, calc(100% - 48px));
+	height: 514.27px;
+	margin: 0 auto 96px;
+	padding: 50px;
+	box-sizing: border-box;
+	border-radius: 32px;
+	overflow: hidden;
+	background: url("/assets/helpimages/bg2.png") center/cover no-repeat, #dfe6e9;
+	box-shadow:
+		inset -8px -8px 16px #ffffff,
+		inset 8px 8px 16px #c4c4c4;
+	font-size: 36px;
+}
+
+.helpAndSupport > .helpAndSupportInner .frameParent8 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 187px;
+}
+
+.helpAndSupport > .helpAndSupportInner .frameWrapper {
+	width: 470px;
+	flex: 0 0 470px;
+}
+
+.helpAndSupport > .helpAndSupportInner .frameWrapper2 {
+	width: 483px;
+	flex: 0 0 483px;
+}
+
+/* Final section */
+.helpAndSupport > .helpAndSupportChild {
+	position: relative;
+	top: auto;
+	left: auto;
+	width: min(1022px, calc(100% - 48px));
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: 48px;
+	box-sizing: border-box;
+}
+
+.helpAndSupport > .helpAndSupportChild .frameParent16 {
+	width: 100%;
+	height: auto;
+	min-height: 257.1px;
+}
+
+.helpAndSupport > .helpAndSupportChild .supportForYourLearningEcosParent {
+	width: min(1040px, 100%);
+}
+
+.helpAndSupport > .helpAndSupportChild .supportForYour {
+	height: auto;
+	min-height: 63px;
+}
+
+.helpAndSupport > .helpAndSupportChild .fromOnboardingTo {
+	max-width: 100%;
+}
+
+/* ==========================================================================
+   TABLET
+   ========================================================================== */
+
+@media (max-width: 1200px) {
+	.helpAndSupport {
+		padding-inline: 0;
+	}
+
+	.helpAndSupport > .frameParent2 {
+		width: calc(100% - 64px);
+		height: auto;
+		align-items: center;
+		gap: 48px;
+	}
+
+	.helpAndSupport > .frameParent2 > .frameParent3 {
+		flex: 1 1 440px;
+		width: auto;
+		min-width: 0;
+	}
+
+	.helpAndSupport > .frameParent2 > .frameParent6 {
+		flex: 1 1 600px;
+		width: min(736px, 100%);
+		height: auto;
+		aspect-ratio: 736 / 486;
+	}
+
+	.helpAndSupport .frameChild3 {
+		width: 100%;
+		height: 100%;
+	}
+
+	.helpAndSupport .welcomeSign1Wrapper {
+		top: 7.4%;
+		left: 4.9%;
+		width: 90.2%;
+		height: 85.2%;
+	}
+
+	.helpAndSupport .welcomeSign1Icon {
+		width: calc(100% - 4px);
+		height: calc(100% - 4px);
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.helpAndSupport > .helpAndSupportInner {
+		height: auto;
+		min-height: 514.27px;
+	}
+
+	.helpAndSupport > .helpAndSupportInner .frameParent8 {
+		gap: 80px;
+	}
+
+	.helpAndSupport > .helpAndSupportInner .frameWrapper,
+	.helpAndSupport > .helpAndSupportInner .frameWrapper2 {
+		flex: 1 1 0;
+		width: auto;
+		min-width: 0;
+	}
+
+	.helpAndSupport .knowledgeResourcesWrapper,
+	.helpAndSupport .knowledgeResources,
+	.helpAndSupport .accessPracticalResources,
+	.helpAndSupport .frameParent10,
+	.helpAndSupport .frameParent11,
+	.helpAndSupport .gettingStartedGuides,
+	.helpAndSupport .courseCreationTutorials,
+	.helpAndSupport .assessmentReporting,
+	.helpAndSupport .contentManagementResources {
+		max-width: 100%;
+	}
+}
+
+/* ==========================================================================
+   MOBILE / SMALL TABLET
+   ========================================================================== */
+
+@media (max-width: 768px) {
+	.helpAndSupport {
+		min-height: 0;
+		padding: 24px 0 72px;
+	}
+
+	.helpAndSupport > .frameDiv,
+	.helpAndSupport > .frameParent2,
+	.helpAndSupport > .comprehensiveSupportParent,
+	.helpAndSupport > .helpAndSupportInner,
+	.helpAndSupport > .helpAndSupportChild {
+		width: calc(100% - 32px);
+	}
+
+	.helpAndSupport > .frameDiv {
+		margin-bottom: 32px;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.helpAndSupport > .frameParent2 {
+		margin-bottom: 96px;
+		flex-direction: column;
+		align-items: center;
+		gap: 48px;
+		font-size: 36px;
+	}
+
+	.helpAndSupport > .frameParent2 > .frameParent3 {
+		width: 100%;
+		flex: none;
+		align-items: center;
+		text-align: center;
+		gap: 32px;
+	}
+
+	.helpAndSupport .frameParent4,
+	.helpAndSupport .frameParent5 {
+		width: 100%;
+		height: auto;
+		align-items: center;
+		gap: 24px;
+	}
+
+	.helpAndSupport .empoweringYouAtContainer {
+		width: 100%;
+		text-align: center;
+		line-height: 46px;
+	}
+
+	.helpAndSupport .empoweringYouAt,
+	.helpAndSupport .everyStep {
+		line-height: 46px;
+	}
+
+	.helpAndSupport .reliableSupportFor {
+		width: min(521px, 100%);
+		height: auto;
+		font-size: 20px;
+		line-height: 30px;
+		text-align: center;
+	}
+
+	.helpAndSupport > .frameParent2 > .frameParent6 {
+		width: 100%;
+		max-width: 736px;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent {
+		margin-bottom: 80px;
+		gap: 40px;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .comprehensiveSupport {
+		height: auto;
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		display: grid;
+		grid-template-columns: repeat(2, 280px);
+		justify-content: center;
+		gap: 36px;
+	}
+
+	.helpAndSupport > .helpAndSupportInner {
+		margin-bottom: 80px;
+		padding: 40px 28px;
+	}
+
+	.helpAndSupport > .helpAndSupportInner .frameParent8 {
+		flex-direction: column;
+		align-items: center;
+		gap: 48px;
+	}
+
+	.helpAndSupport > .helpAndSupportInner .frameWrapper,
+	.helpAndSupport > .helpAndSupportInner .frameWrapper2 {
+		width: 100%;
+		flex: none;
+	}
+
+	.helpAndSupport .frameParent9,
+	.helpAndSupport .frameParent10 {
+		width: 100%;
+		align-items: center;
+	}
+
+	.helpAndSupport .knowledgeResourcesWrapper {
+		width: 100%;
+		height: auto;
+		align-items: center;
+	}
+
+	.helpAndSupport .knowledgeResources {
+		width: 100%;
+		font-size: 30px;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	.helpAndSupport .accessPracticalResources {
+		width: 100%;
+		font-size: 19px;
+		line-height: 28px;
+		text-align: center;
+	}
+
+	.helpAndSupport .frameParent11 {
+		width: 100%;
+		height: auto;
+		min-height: 70px;
+	}
+
+	.helpAndSupport .gettingStartedGuides,
+	.helpAndSupport .courseCreationTutorials,
+	.helpAndSupport .assessmentReporting,
+	.helpAndSupport .contentManagementResources {
+		width: calc(100% - 86px);
+		height: auto;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.helpAndSupport > .helpAndSupportChild {
+		font-size: 36px;
+	}
+
+	.helpAndSupport .frameParent16 {
+		gap: 28px;
+	}
+
+	.helpAndSupport .supportForYourLearningEcosParent {
+		gap: 24px;
+	}
+
+	.helpAndSupport .supportForYour {
+		font-size: 34px;
+		line-height: 44px;
+	}
+
+	.helpAndSupport .fromOnboardingTo {
+		width: 100%;
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
+
+/* ==========================================================================
+   SMALL MOBILE
+   ========================================================================== */
+
+@media (max-width: 620px) {
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: 280px;
+	}
+
+	.helpAndSupport .empoweringYouAtContainer {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.helpAndSupport .empoweringYouAt,
+	.helpAndSupport .everyStep {
+		line-height: 40px;
+	}
+
+	.helpAndSupport .frameIcon {
+		width: 200px;
+		height: 48px;
+		font-size: 21px;
+	}
+
+	.helpAndSupport .frameChild2 {
+		width: 200px;
+		height: 54px;
+		font-size: 20px;
+	}
+
+	.helpAndSupport .frameChild13 {
+		width: 190px;
+		height: 54px;
+	}
+
+	.helpAndSupport .neurolxpBadgeText {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.helpAndSupport .neurolxpBadgeTm {
+		font-size: 8px;
+		font-weight: 900;
+		line-height: 1;
+		top: -7px;
+		margin-left: 2px;
+	}
+
+	.helpAndSupport .supportForYour {
+		font-size: 28px;
+		line-height: 38px;
+	}
+}
+
+@media (max-width: 430px) {
+	.helpAndSupport > .frameDiv,
+	.helpAndSupport > .frameParent2,
+	.helpAndSupport > .comprehensiveSupportParent,
+	.helpAndSupport > .helpAndSupportInner,
+	.helpAndSupport > .helpAndSupportChild {
+		width: calc(100% - 24px);
+	}
+
+	.helpAndSupport > .helpAndSupportInner {
+		padding: 32px 18px;
+	}
+
+	.helpAndSupport .resourceIcon {
+		width: 58px;
+		height: 58px;
+	}
+
+	.helpAndSupport .resourceIconInner {
+		width: 42px;
+		height: 42px;
+	}
+
+	.helpAndSupport .resourceIconInner img {
+		width: 28px !important;
+		height: 28px !important;
+	}
+
+	.helpAndSupport .gettingStartedGuides,
+	.helpAndSupport .courseCreationTutorials,
+	.helpAndSupport .assessmentReporting,
+	.helpAndSupport .contentManagementResources {
+		width: calc(100% - 72px);
+		font-size: 17px;
+		line-height: 24px;
+	}
+}
+
+/* ==========================================================================
+   HERO IMAGE HEIGHT FIX — MOBILE ONLY
+   Keeps desktop/tablet design unchanged.
+   ========================================================================== */
+@media (max-width: 620px) {
+	.helpAndSupport > .frameParent2 > .frameParent6 {
+		width: 100%;
+		height: 330px;
+		aspect-ratio: auto;
+		flex: none;
+		overflow: hidden;
+		border-radius: 20px;
+	}
+
+	.helpAndSupport .frameChild3 {
+		width: 100%;
+		height: 330px;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.helpAndSupport .welcomeSign1Wrapper {
+		top: 16px;
+		left: 5%;
+		width: 90%;
+		height: calc(100% - 32px);
+		border-radius: 54px;
+	}
+
+	.helpAndSupport .welcomeSign1Icon {
+		width: calc(100% - 4px);
+		height: calc(100% - 4px);
+		object-fit: contain;
+		object-position: center bottom;
+		border-radius: 52px;
+	}
+}
+
+@media (max-width: 430px) {
+	.helpAndSupport > .frameParent2 > .frameParent6,
+	.helpAndSupport .frameChild3 {
+		height: 300px;
+	}
+}
+
+/* ==========================================================================
+   FINAL COMPREHENSIVE SUPPORT CARD DESIGN
+   Matches the circular neumorphic design shown in reference image 1.
+   TSX remains unchanged.
+   This block is intentionally last so it overrides the SVG-background rules.
+   ========================================================================== */
+
+.helpAndSupport > .comprehensiveSupportParent {
+	width: min(1280px, calc(100% - 48px));
+	margin: 0 auto 96px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 38px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.helpAndSupport > .comprehensiveSupportParent .comprehensiveSupport {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: #31344b;
+}
+
+.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	align-items: center;
+	justify-items: center;
+	gap: clamp(26px, 3.2vw, 44px);
+}
+
+/* Main outer circular card */
+.helpAndSupport .supportCard {
+	width: 280px;
+	height: 280px;
+	position: relative;
+	flex: none;
+
+	background: #dfe6e9 !important;
+	background-image: none !important;
+
+	border-radius: 50%;
+	overflow: hidden;
+
+	box-sizing: border-box;
+
+	box-shadow:
+		inset -5px -5px 10px rgba(255, 255, 255, 0.95),
+		inset 5px 5px 10px rgba(190, 198, 201, 0.72);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Raised inner circle */
+.helpAndSupport .supportCardInner {
+	position: relative;
+	left: auto;
+	top: auto;
+
+	width: 230px;
+	height: 230px;
+
+	background: #dfe6e9;
+
+	border-radius: 50%;
+
+	overflow: hidden;
+
+	box-shadow:
+		-10px -10px 20px rgba(255, 255, 255, 0.98),
+		10px 10px 20px rgba(190, 196, 199, 0.9);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Text area */
+.helpAndSupport .supportCardContent {
+	position: relative;
+	top: auto;
+	left: auto;
+
+	width: 202px;
+	height: auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	gap: 14px;
+
+	padding: 0 8px 22px;
+	box-sizing: border-box;
+
+	text-align: center;
+
+	z-index: 2;
+}
+
+.helpAndSupport .supportCardTitle {
+	width: 100%;
+	margin: 0;
+
+	font-family: "Segoe UI", "Inter";
+	font-style: normal;
+	font-weight: 700;
+
+	font-size: 24px;
+	line-height: 31px;
+
+	letter-spacing: 0.03em;
+
+	color: #2f3547;
+
+	text-align: center;
+}
+
+.helpAndSupport .supportCardText {
+	width: 100%;
+	margin: 0;
+
+	font-family: "Segoe UI", "Inter";
+	font-style: normal;
+	font-weight: 400;
+
+	font-size: 20px;
+	line-height: 27px;
+
+	letter-spacing: 0.02em;
+
+	color: #31344b;
+
+	text-align: center;
+}
+
+/* Bottom colored accent */
+.helpAndSupport .supportCardAccent {
+	display: block !important;
+
+	position: absolute;
+	left: 50%;
+	bottom: 13px;
+
+	transform: translateX(-50%);
+
+	width: 72px;
+	height: 13px;
+
+	border-radius: 50% 50% 42% 42% / 70% 70% 30% 30%;
+
+	z-index: 3;
+}
+
+/* Accent side petals */
+.helpAndSupport .supportCardAccent::before,
+.helpAndSupport .supportCardAccent::after {
+	content: "";
+
+	position: absolute;
+	top: -1px;
+
+	width: 38px;
+	height: 13px;
+
+	background: inherit;
+}
+
+.helpAndSupport .supportCardAccent::before {
+	left: -15px;
+	border-radius: 100% 15% 100% 15%;
+	transform: rotate(14deg);
+}
+
+.helpAndSupport .supportCardAccent::after {
+	right: -15px;
+	border-radius: 15% 100% 15% 100%;
+	transform: rotate(-14deg);
+}
+
+/* Accent colors */
+.helpAndSupport .supportCardPurple .supportCardAccent {
+	background: #67096e;
+}
+
+.helpAndSupport .supportCardPink .supportCardAccent {
+	background: #bf1869;
+}
+
+.helpAndSupport .supportCardGreen .supportCardAccent {
+	background: #2a7308;
+}
+
+.helpAndSupport .supportCardBlue .supportCardAccent {
+	background: #2d4cc8;
+}
+
+
+/* ==========================================================================
+   RESPONSIVE — COMPREHENSIVE SUPPORT ONLY
+   ========================================================================== */
+
+/* Tablet */
+@media (max-width: 1200px) {
+	.helpAndSupport > .comprehensiveSupportParent {
+		gap: 34px;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: repeat(2, 280px);
+		justify-content: center;
+		gap: 34px 48px;
+	}
+}
+
+/* Small tablet / mobile */
+@media (max-width: 768px) {
+	.helpAndSupport > .comprehensiveSupportParent {
+		margin-bottom: 72px;
+		gap: 30px;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .comprehensiveSupport {
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: repeat(2, 250px);
+		gap: 28px;
+	}
+
+	.helpAndSupport .supportCard {
+		width: 250px;
+		height: 250px;
+	}
+
+	.helpAndSupport .supportCardInner {
+		width: 208px;
+		height: 208px;
+	}
+
+	.helpAndSupport .supportCardContent {
+		width: 182px;
+		gap: 11px;
+		padding-bottom: 20px;
+	}
+
+	.helpAndSupport .supportCardTitle {
+		font-size: 21px;
+		line-height: 28px;
+	}
+
+	.helpAndSupport .supportCardText {
+		font-size: 17px;
+		line-height: 24px;
+	}
+}
+
+/* Mobile */
+@media (max-width: 620px) {
+	.helpAndSupport > .comprehensiveSupportParent {
+		width: calc(100% - 32px);
+		margin-bottom: 64px;
+		gap: 28px;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .comprehensiveSupport {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: 250px;
+		gap: 22px;
+	}
+
+	.helpAndSupport .supportCard {
+		width: 250px;
+		height: 250px;
+	}
+
+	.helpAndSupport .supportCardInner {
+		width: 208px;
+		height: 208px;
+	}
+}
+
+/* Narrow mobile */
+@media (max-width: 360px) {
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: 230px;
+	}
+
+	.helpAndSupport .supportCard {
+		width: 230px;
+		height: 230px;
+	}
+
+	.helpAndSupport .supportCardInner {
+		width: 192px;
+		height: 192px;
+	}
+
+	.helpAndSupport .supportCardContent {
+		width: 170px;
+	}
+
+	.helpAndSupport .supportCardTitle {
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+	.helpAndSupport .supportCardText {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+/* ==========================================================================
+   FINAL COMPREHENSIVE SUPPORT — IMAGE 1 PROPORTIONS
+   Only this section is adjusted.
+   ========================================================================== */
+
+.helpAndSupport > .comprehensiveSupportParent {
+	width: min(1200px, calc(100% - 48px)) !important;
+	gap: 34px !important;
+}
+
+.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+	width: 100% !important;
+	display: grid !important;
+	grid-template-columns: repeat(4, 250px) !important;
+	justify-content: space-between !important;
+	justify-items: center !important;
+	align-items: center !important;
+	gap: 0 !important;
+}
+
+/* Smaller outer circle like image 1 */
+.helpAndSupport .supportCard {
+	width: 250px !important;
+	height: 250px !important;
+
+	background: #dfe6e9 !important;
+	background-image: none !important;
+
+	border-radius: 50% !important;
+	overflow: hidden !important;
+
+	box-shadow:
+		inset -4px -4px 9px rgba(255, 255, 255, 0.96),
+		inset 4px 4px 9px rgba(191, 198, 201, 0.70) !important;
+}
+
+/* Larger inner circle relative to outer ring */
+.helpAndSupport .supportCardInner {
+	position: absolute !important;
+	left: 20px !important;
+	top: 16px !important;
+
+	width: 210px !important;
+	height: 210px !important;
+
+	background: #dfe6e9 !important;
+	border-radius: 50% !important;
+
+	box-shadow:
+		-8px -8px 16px rgba(255, 255, 255, 0.98),
+		8px 8px 16px rgba(190, 196, 199, 0.88) !important;
+
+	overflow: hidden !important;
+}
+
+/* Move content slightly upward and tighten spacing */
+.helpAndSupport .supportCardContent {
+	position: absolute !important;
+	top: 28px !important;
+	left: 14px !important;
+
+	width: 182px !important;
+	height: auto !important;
+
+	padding: 0 !important;
+
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+
+	gap: 14px !important;
+
+	text-align: center !important;
+}
+
+/* Match image 1 text proportions */
+.helpAndSupport .supportCardTitle {
+	width: 150px !important;
+
+	font-size: 21px !important;
+	line-height: 27px !important;
+	font-weight: 700 !important;
+
+	letter-spacing: 0.02em !important;
+
+	margin: 0 !important;
+}
+
+.helpAndSupport .supportCardText {
+	width: 182px !important;
+
+	font-size: 17px !important;
+	line-height: 24px !important;
+	font-weight: 400 !important;
+
+	letter-spacing: 0.02em !important;
+
+	margin: 0 !important;
+}
+
+/* Curved colored swoosh like image 1 */
+.helpAndSupport .supportCardAccent {
+	display: block !important;
+
+	position: absolute !important;
+	left: 50% !important;
+	bottom: 14px !important;
+
+	width: 64px !important;
+	height: 11px !important;
+
+	transform: translateX(-50%) !important;
+
+	border-radius: 0 0 50% 50% / 0 0 100% 100% !important;
+
+	z-index: 3 !important;
+}
+
+.helpAndSupport .supportCardAccent::before,
+.helpAndSupport .supportCardAccent::after {
+	content: "" !important;
+
+	position: absolute !important;
+	top: -2px !important;
+
+	width: 37px !important;
+	height: 11px !important;
+
+	background: inherit !important;
+}
+
+.helpAndSupport .supportCardAccent::before {
+	left: -24px !important;
+	border-radius: 100% 0 100% 0 !important;
+	transform: rotate(12deg) !important;
+}
+
+.helpAndSupport .supportCardAccent::after {
+	right: -24px !important;
+	border-radius: 0 100% 0 100% !important;
+	transform: rotate(-12deg) !important;
+}
+
+/* Keep the intended four accent colors */
+.helpAndSupport .supportCardPurple .supportCardAccent {
+	background: #67096e !important;
+}
+
+.helpAndSupport .supportCardPink .supportCardAccent {
+	background: #bf1869 !important;
+}
+
+.helpAndSupport .supportCardGreen .supportCardAccent {
+	background: #2a7308 !important;
+}
+
+.helpAndSupport .supportCardBlue .supportCardAccent {
+	background: #2d4cc8 !important;
+}
+
+
+/* TABLET */
+@media (max-width: 1200px) {
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: repeat(2, 250px) !important;
+		justify-content: center !important;
+		gap: 30px 44px !important;
+	}
+}
+
+
+/* MOBILE */
+@media (max-width: 620px) {
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: 250px !important;
+		justify-content: center !important;
+		gap: 22px !important;
+	}
+}
+
+/* ==========================================================================
+   FINAL COMPREHENSIVE SUPPORT — FULL PAGE REFERENCE MATCH
+   Only Comprehensive Support is changed.
+   TSX remains unchanged.
+   ========================================================================== */
+
+.helpAndSupport > .comprehensiveSupportParent {
+	width: min(1200px, calc(100% - 48px)) !important;
+	height: auto !important;
+	margin: 0 auto 96px !important;
+
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+
+	gap: 44px !important;
+
+	text-align: center !important;
+	box-sizing: border-box !important;
+}
+
+.helpAndSupport > .comprehensiveSupportParent .comprehensiveSupport {
+	width: 100% !important;
+	height: auto !important;
+	margin: 0 !important;
+
+	font-family: "Segoe UI", "Inter" !important;
+	font-size: 36px !important;
+	line-height: 50px !important;
+	font-weight: 700 !important;
+	letter-spacing: 0.03em !important;
+
+	color: #31344b !important;
+	text-align: center !important;
+}
+
+.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+	width: 100% !important;
+
+	display: grid !important;
+	grid-template-columns: repeat(4, 250px) !important;
+
+	align-items: center !important;
+	justify-content: space-between !important;
+	justify-items: center !important;
+
+	gap: 0 !important;
+}
+
+
+/* --------------------------------------------------------------------------
+   CARD
+   One blended neumorphic component:
+   - outer ring = recessed/inset
+   - inner surface = softly raised
+   No border and no hard second-circle separation.
+   -------------------------------------------------------------------------- */
+
+.helpAndSupport .supportCard {
+	width: 250px !important;
+	height: 250px !important;
+
+	position: relative !important;
+	flex: none !important;
+
+	background: #dfe6e9 !important;
+	background-image: none !important;
+
+	border: 0 !important;
+	border-radius: 50% !important;
+
+	overflow: hidden !important;
+	box-sizing: border-box !important;
+
+	display: block !important;
+
+	/* recessed outer rim from the reference */
+	box-shadow:
+		inset -5px -5px 11px rgba(255, 255, 255, 0.92),
+		inset 5px 5px 11px rgba(190, 197, 200, 0.52) !important;
+}
+
+
+/* Inner surface intentionally blends with the same background.
+   The shadow is soft enough that it reads as depth, not another circle. */
+.helpAndSupport .supportCardInner {
+	position: absolute !important;
+
+	left: 17px !important;
+	top: 15px !important;
+
+	width: 216px !important;
+	height: 216px !important;
+
+	background: #dfe6e9 !important;
+
+	border: 0 !important;
+	border-radius: 50% !important;
+
+	overflow: hidden !important;
+
+	box-shadow:
+		-6px -6px 13px rgba(255, 255, 255, 0.78),
+		6px 6px 13px rgba(190, 197, 200, 0.58) !important;
+}
+
+
+/* --------------------------------------------------------------------------
+   TEXT POSITION
+   -------------------------------------------------------------------------- */
+
+.helpAndSupport .supportCardContent {
+	position: absolute !important;
+
+	top: 34px !important;
+	left: 50% !important;
+
+	transform: translateX(-50%) !important;
+
+	width: 190px !important;
+	height: auto !important;
+
+	padding: 0 !important;
+	margin: 0 !important;
+
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	justify-content: flex-start !important;
+
+	gap: 16px !important;
+
+	text-align: center !important;
+
+	z-index: 2 !important;
+}
+
+.helpAndSupport .supportCardTitle {
+	width: 155px !important;
+	height: auto !important;
+
+	margin: 0 !important;
+
+	font-family: "Segoe UI", "Inter" !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+
+	font-size: 21px !important;
+	line-height: 27px !important;
+
+	letter-spacing: 0.02em !important;
+
+	color: #2f3547 !important;
+	text-align: center !important;
+}
+
+.helpAndSupport .supportCardText {
+	width: 190px !important;
+	height: auto !important;
+
+	margin: 0 !important;
+
+	font-family: "Segoe UI", "Inter" !important;
+	font-style: normal !important;
+	font-weight: 400 !important;
+
+	font-size: 17px !important;
+	line-height: 24px !important;
+
+	letter-spacing: 0.02em !important;
+
+	color: #31344b !important;
+	text-align: center !important;
+}
+
+
+/* --------------------------------------------------------------------------
+   COLORED CURVED ACCENT
+   -------------------------------------------------------------------------- */
+
+.helpAndSupport .supportCardAccent {
+	display: block !important;
+
+	position: absolute !important;
+
+	left: 50% !important;
+	bottom: 14px !important;
+
+	transform: translateX(-50%) !important;
+
+	width: 54px !important;
+	height: 9px !important;
+
+	border-radius: 0 0 50% 50% / 0 0 100% 100% !important;
+
+	z-index: 3 !important;
+}
+
+.helpAndSupport .supportCardAccent::before,
+.helpAndSupport .supportCardAccent::after {
+	content: "" !important;
+
+	position: absolute !important;
+	top: -2px !important;
+
+	width: 34px !important;
+	height: 9px !important;
+
+	background: inherit !important;
+}
+
+.helpAndSupport .supportCardAccent::before {
+	left: -22px !important;
+
+	border-radius: 100% 0 100% 0 !important;
+
+	transform: rotate(12deg) !important;
+}
+
+.helpAndSupport .supportCardAccent::after {
+	right: -22px !important;
+
+	border-radius: 0 100% 0 100% !important;
+
+	transform: rotate(-12deg) !important;
+}
+
+.helpAndSupport .supportCardPurple .supportCardAccent {
+	background: #67096e !important;
+}
+
+.helpAndSupport .supportCardPink .supportCardAccent {
+	background: #bf1869 !important;
+}
+
+.helpAndSupport .supportCardGreen .supportCardAccent {
+	background: #2a7308 !important;
+}
+
+.helpAndSupport .supportCardBlue .supportCardAccent {
+	background: #2d4cc8 !important;
+}
+
+
+/* ==========================================================================
+   RESPONSIVE — ONLY COMPREHENSIVE SUPPORT
+   ========================================================================== */
+
+/* Tablet */
+@media (max-width: 1200px) {
+	.helpAndSupport > .comprehensiveSupportParent {
+		gap: 36px !important;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: repeat(2, 250px) !important;
+
+		justify-content: center !important;
+
+		gap: 32px 48px !important;
+	}
+}
+
+
+/* Small tablet */
+@media (max-width: 768px) {
+	.helpAndSupport > .comprehensiveSupportParent {
+		width: calc(100% - 32px) !important;
+
+		margin-bottom: 72px !important;
+
+		gap: 30px !important;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .comprehensiveSupport {
+		font-size: 32px !important;
+		line-height: 42px !important;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: repeat(2, 230px) !important;
+
+		gap: 28px !important;
+	}
+
+	.helpAndSupport .supportCard {
+		width: 230px !important;
+		height: 230px !important;
+	}
+
+	.helpAndSupport .supportCardInner {
+		left: 16px !important;
+		top: 14px !important;
+
+		width: 198px !important;
+		height: 198px !important;
+	}
+
+	.helpAndSupport .supportCardContent {
+		top: 31px !important;
+
+		width: 176px !important;
+
+		gap: 13px !important;
+	}
+
+	.helpAndSupport .supportCardTitle {
+		width: 150px !important;
+
+		font-size: 20px !important;
+		line-height: 26px !important;
+	}
+
+	.helpAndSupport .supportCardText {
+		width: 176px !important;
+
+		font-size: 16px !important;
+		line-height: 22px !important;
+	}
+
+	.helpAndSupport .supportCardAccent {
+		bottom: 13px !important;
+	}
+}
+
+
+/* Mobile */
+@media (max-width: 620px) {
+	.helpAndSupport > .comprehensiveSupportParent {
+		margin-bottom: 64px !important;
+
+		gap: 28px !important;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .comprehensiveSupport {
+		font-size: 28px !important;
+		line-height: 38px !important;
+	}
+
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: 230px !important;
+
+		justify-content: center !important;
+
+		gap: 22px !important;
+	}
+}
+
+
+/* Narrow mobile */
+@media (max-width: 360px) {
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: 220px !important;
+	}
+
+	.helpAndSupport .supportCard {
+		width: 220px !important;
+		height: 220px !important;
+	}
+
+	.helpAndSupport .supportCardInner {
+		left: 15px !important;
+		top: 13px !important;
+
+		width: 190px !important;
+		height: 190px !important;
+	}
+
+	.helpAndSupport .supportCardContent {
+		top: 29px !important;
+
+		width: 170px !important;
+	}
+
+	.helpAndSupport .supportCardText {
+		width: 170px !important;
+	}
+}
+
+/* ==========================================================================
+   EXACT COMPREHENSIVE SUPPORT CARD MATCH
+   Based on supplied reference image.
+   Only this section is overridden.
+   ========================================================================== */
+
+.helpAndSupport > .comprehensiveSupportParent {
+	width: min(1200px, calc(100% - 48px)) !important;
+	margin: 0 auto 96px !important;
+	gap: 42px !important;
+}
+
+.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+	width: 100% !important;
+	display: grid !important;
+	grid-template-columns: repeat(4, 250px) !important;
+	justify-content: space-between !important;
+	justify-items: center !important;
+	align-items: center !important;
+	gap: 0 !important;
+}
+
+/* OUTER RECESSED RING */
+.helpAndSupport .supportCard {
+	width: 250px !important;
+	height: 250px !important;
+
+	position: relative !important;
+
+	background: #dfe6e9 !important;
+	background-image: none !important;
+
+	border: 0 !important;
+	border-radius: 50% !important;
+
+	overflow: hidden !important;
+
+	/* soft recessed outer bowl */
+	box-shadow:
+		inset -4px -4px 10px rgba(255, 255, 255, 0.90),
+		inset 5px 5px 12px rgba(188, 196, 200, 0.42) !important;
+}
+
+/* INNER RAISED SURFACE — nearly fills outer ring */
+.helpAndSupport .supportCardInner {
+	position: absolute !important;
+
+	left: 17px !important;
+	top: 15px !important;
+
+	width: 216px !important;
+	height: 216px !important;
+
+	background: #dfe6e9 !important;
+
+	border: 0 !important;
+	border-radius: 50% !important;
+
+	overflow: hidden !important;
+
+	/* stronger light top-left and shadow lower-right */
+	box-shadow:
+		-7px -7px 15px rgba(255, 255, 255, 0.96),
+		8px 9px 18px rgba(188, 195, 199, 0.78) !important;
+}
+
+/* CONTENT POSITION */
+.helpAndSupport .supportCardContent {
+	position: absolute !important;
+
+	top: 34px !important;
+	left: 50% !important;
+
+	transform: translateX(-50%) !important;
+
+	width: 190px !important;
+
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+
+	gap: 18px !important;
+
+	padding: 0 !important;
+	margin: 0 !important;
+
+	text-align: center !important;
+}
+
+.helpAndSupport .supportCardTitle {
+	width: 158px !important;
+	margin: 0 !important;
+
+	font-size: 21px !important;
+	line-height: 27px !important;
+	font-weight: 700 !important;
+
+	letter-spacing: 0.02em !important;
+
+	text-align: center !important;
+	color: #2f3547 !important;
+}
+
+.helpAndSupport .supportCardText {
+	width: 190px !important;
+	margin: 0 !important;
+
+	font-size: 17px !important;
+	line-height: 24px !important;
+	font-weight: 400 !important;
+
+	letter-spacing: 0.02em !important;
+
+	text-align: center !important;
+	color: #31344b !important;
+}
+
+/* SHALLOW CURVED COLOR ACCENT */
+.helpAndSupport .supportCardAccent {
+	display: block !important;
+
+	position: absolute !important;
+
+	left: 50% !important;
+	bottom: 14px !important;
+
+	transform: translateX(-50%) !important;
+
+	width: 58px !important;
+	height: 9px !important;
+
+	border-radius: 0 0 60% 60% / 0 0 100% 100% !important;
+
+	z-index: 3 !important;
+}
+
+.helpAndSupport .supportCardAccent::before,
+.helpAndSupport .supportCardAccent::after {
+	content: "" !important;
+
+	position: absolute !important;
+
+	top: -2px !important;
+
+	width: 38px !important;
+	height: 9px !important;
+
+	background: inherit !important;
+}
+
+.helpAndSupport .supportCardAccent::before {
+	left: -24px !important;
+	border-radius: 100% 0 100% 0 !important;
+	transform: rotate(12deg) !important;
+}
+
+.helpAndSupport .supportCardAccent::after {
+	right: -24px !important;
+	border-radius: 0 100% 0 100% !important;
+	transform: rotate(-12deg) !important;
+}
+
+/* COLORS */
+.helpAndSupport .supportCardPurple .supportCardAccent {
+	background: #67096e !important;
+}
+
+.helpAndSupport .supportCardPink .supportCardAccent {
+	background: #cf1766 !important;
+}
+
+.helpAndSupport .supportCardGreen .supportCardAccent {
+	background: #24720a !important;
+}
+
+.helpAndSupport .supportCardBlue .supportCardAccent {
+	background: #2d4cc8 !important;
+}
+
+/* TABLET */
+@media (max-width: 1200px) {
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: repeat(2, 250px) !important;
+		justify-content: center !important;
+		gap: 32px 48px !important;
+	}
+}
+
+/* MOBILE */
+@media (max-width: 620px) {
+	.helpAndSupport > .comprehensiveSupportParent .frameParent7 {
+		grid-template-columns: 250px !important;
+		justify-content: center !important;
+		gap: 22px !important;
+	}
+}
+
+/* ==========================================================================
+   SUPPORT CARDS — EXACT MATCH TO IMAGE 2
+   ========================================================================== */
+
+/* Outer Circular Container (Raised Neumorphic Base) */
+.supportCard {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    flex: none;
+    background: #dfe6e9;
+    /* Soft light top-left, soft shadow bottom-right */
+    box-shadow: 
+        -12px -12px 24px #ffffff,
+        12px 12px 24px rgba(180, 190, 195, 0.85);
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Inner Circular Container (Sunken Inset Neumorphic Well) */
+.supportCardInner {
+    position: relative;
+    width: 226px;
+    height: 226px;
+    background: #dfe6e9;
+    /* Inset shadow top-left, bright inner edge bottom-right */
+    box-shadow: 
+        inset 8px 8px 16px rgba(175, 185, 190, 0.85),
+        inset -8px -8px 16px #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px 16px;
+    box-sizing: border-box;
+}
+
+/* Card Content Container */
+.supportCardContent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+/* Card Title */
+.supportCardTitle {
+    width: 100%;
+    font-family: "Segoe UI", "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #2f3547;
+}
+
+/* Card Subtitle / Description */
+.supportCardText {
+    width: 100%;
+    font-family: "Segoe UI", "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #4b5168;
+    margin-top: 4px;
+}
+
+/* Bottom Accent Pill (Curved horizontal pill centered at the bottom edge) */
+.supportCardAccent {
+    width: 56px;
+    height: 12px;
+    border-radius: 12px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    flex-shrink: 0;
+}
+
+/* Accent Color Variations */
+.supportCardPurple .supportCardAccent {
+    background-color: #67096e;
+}
+
+.supportCardPink .supportCardAccent {
+    background-color: #bf1869;
+}
+
+.supportCardGreen .supportCardAccent {
+    background-color: #2a7308;
+}
+
+.supportCardBlue .supportCardAccent {
+    background-color: #2d4cc8;
+}
+
+/* ===== HELP & SUPPORT THIRD SECTION BACKGROUND FIX ===== */
+
+.helpAndSupportInner {
+  position: relative !important;
+  overflow: hidden !important;
+  isolation: isolate;
+}
+
+/* Background PNG must stay behind all content */
+.helpAndSupportBg {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: fill !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Keep ALL Knowledge & Resources content above background */
+.helpAndSupportInner .frameParent8 {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+/* Left heading/subtitle */
+.helpAndSupportInner .frameWrapper,
+.helpAndSupportInner .frameParent9,
+.helpAndSupportInner .knowledgeResourcesWrapper,
+.helpAndSupportInner .knowledgeResources,
+.helpAndSupportInner .accessPracticalResources {
+  position: relative !important;
+  z-index: 3 !important;
+}
+
+/* Right resource list */
+.helpAndSupportInner .frameWrapper2,
+.helpAndSupportInner .frameParent10,
+.helpAndSupportInner .frameParent11 {
+  position: relative !important;
+  z-index: 3 !important;
+}
+
+/* ==========================================================================
+   BOOK A DEMO — REMOVE OUTER BookDemoTrigger BUTTON WRAPPER
+   Keeps the original .frameChild2 design and navigation unchanged.
+   ========================================================================== */
+.helpAndSupport .frameParent3 > button:has(> .bookDemoVisual),
+.helpAndSupport .frameParent3 > button:has(> .frameChild2) {
+	appearance: none !important;
+	-webkit-appearance: none !important;
+	background: transparent !important;
+	border: 0 !important;
+	outline: 0 !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	color: inherit !important;
+	font: inherit !important;
+	cursor: pointer !important;
+	-webkit-tap-highlight-color: transparent !important;
+}
+
+.helpAndSupport .frameParent3 > button:has(> .bookDemoVisual):hover,
+.helpAndSupport .frameParent3 > button:has(> .bookDemoVisual):focus,
+.helpAndSupport .frameParent3 > button:has(> .bookDemoVisual):focus-visible,
+.helpAndSupport .frameParent3 > button:has(> .bookDemoVisual):active,
+.helpAndSupport .frameParent3 > button:has(> .frameChild2):hover,
+.helpAndSupport .frameParent3 > button:has(> .frameChild2):focus,
+.helpAndSupport .frameParent3 > button:has(> .frameChild2):focus-visible,
+.helpAndSupport .frameParent3 > button:has(> .frameChild2):active {
+	background: transparent !important;
+	border: 0 !important;
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+
+
+/* ========================================================================== 
+   MOBILE — REMOVE THE TWO EXTRA VERTICAL SPACES SHOWN IN SCREENSHOTS
+   1) Hero image -> Comprehensive Support
+   2) Knowledge & Resources -> final NeuroLXP section
+   ========================================================================== */
+@media (max-width: 620px) {
+  .helpAndSupport > .frameParent2 {
+    margin-bottom: 28px !important;
+  }
+
+  .helpAndSupport > .comprehensiveSupportParent {
+    margin-top: 0 !important;
+  }
+
+  .helpAndSupport > .helpAndSupportInner {
+    margin-bottom: 28px !important;
+  }
+
+  .helpAndSupport > .helpAndSupportChild {
+    margin-top: 0 !important;
+  }
+}
+
+
+/* BUTTON HOVER ONLY — NO SIZE / POSITION / COLOR / LAYOUT CHANGES */
+.signInHelpWrapper,
+.frameChild2 {
+    cursor: pointer;
+    transition: box-shadow 180ms ease !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .signInHelpWrapper:hover,
+    .helpAndSupport .frameParent3 > button:has(> .bookDemoVisual):hover > .bookDemoVisual,
+    .helpAndSupport .frameParent3 > button:has(> .frameChild2):hover > .frameChild2,
+    .frameChild2:hover {
+        box-shadow:
+            inset -4px -4px 8px #ffffff,
+            inset 4px 4px 8px rgba(196, 196, 196, 0.8) !important;
+    }
+}
+
+.signInHelpWrapper:active,
+.helpAndSupport .frameParent3 > button:has(> .bookDemoVisual):active > .bookDemoVisual,
+.helpAndSupport .frameParent3 > button:has(> .frameChild2):active > .frameChild2,
+.frameChild2:active {
+    box-shadow:
+        inset -3px -3px 6px #ffffff,
+        inset 4px 4px 7px rgba(191, 194, 196, 0.9) !important;
+}
+
+
+/* =========================================================
+   SECTION SPACING ONLY — HERO TO COMPREHENSIVE SUPPORT
+   Keep exactly 48px between these two sections.
+   No design/content/font/card/image changes.
+   ========================================================= */
+.helpAndSupport > .frameParent2 {
+    margin-bottom: 48px !important;
+}
+
+
+/* =========================================================
+   FOOTER SPACING ONLY
+   Keep exactly 48px between the final page section and footer.
+   No design/content/card/font/image changes.
+   ========================================================= */
+.helpAndSupport {
+    padding-bottom: 48px !important;
+}
+
+
+/* =========================================================
+   EXACT LAST SECTION → FOOTER GAP = 48PX
+   The extra blank space was coming from the page min-height.
+   No section/card/font/image/design changes.
+   ========================================================= */
+.helpAndSupport {
+    min-height: 0 !important;
+    padding-bottom: 48px !important;
+}
+
+.helpAndSupport > .helpAndSupportChild {
+    margin-bottom: 0 !important;
+}
+
+.frameParent6 {
+  position: relative;
+  overflow: visible;
+}
+
+.frameChild3 {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.welcomeSign1Wrapper {
+  position: absolute;
+  z-index: 2;
+  overflow: visible;
+}
+
+.welcomeSign1Icon {
+  position: relative;
+  z-index: 3;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Shared typography, controls and 48px section spacing. */
+.helpAndSupport.helpAndSupport {
+  --help-font: "Segoe UI", "Inter";
+  --help-heading-size: 36px;
+  --help-heading-line: 44px;
+  --help-body-size: 24px;
+  --help-body-line: 32px;
+  --help-control-size: 24px;
+  --help-bg: #dfe6e9;
+  --help-blue: #2d4cc8;
+  --help-raised: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+  --help-inset: inset -4px -4px 4px #fff,
+    inset 4px 4px 4px rgba(196, 196, 196, .8);
+  height: auto;
+  min-height: 0 !important;
+  padding-bottom: 48px !important;
+  gap: 0;
+  font-family: var(--help-font);
+  zoom: 1;
+}
+.helpAndSupport.helpAndSupport *,
+.helpAndSupport.helpAndSupport *::before,
+.helpAndSupport.helpAndSupport *::after { box-sizing: border-box; }
+
+/* One bottom margin per section avoids adding two adjacent gaps. */
+.helpAndSupport.helpAndSupport > :is(.frameParent2,
+  .comprehensiveSupportParent, .helpAndSupportInner, .helpAndSupportChild) {
+  position: relative !important;
+  inset: auto !important;
+  width: min(1280px, calc(100% - 48px)) !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 auto 48px !important;
+  flex-shrink: 0;
+}
+.helpAndSupport.helpAndSupport > .helpAndSupportChild {
+  max-width: 1040px;
+  margin-bottom: 0 !important;
+}
+.helpAndSupport.helpAndSupport > .comprehensiveSupportParent {
+  gap: 32px !important;
+}
+
+/* Desktop headings: 36/44, copy: 24/32. Mobile overrides are below. */
+.helpAndSupport.helpAndSupport :is(.empoweringYouAtContainer,
+  .comprehensiveSupport, .knowledgeResources, .supportForYour) {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 !important;
+  font-family: var(--help-font) !important;
+  font-size: var(--help-heading-size) !important;
+  font-weight: 700 !important;
+  line-height: var(--help-heading-line) !important;
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-wrap: balance;
+  text-shadow: none;
+}
+.helpAndSupport.helpAndSupport :is(.empoweringYouAt, .everyStep) {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+.helpAndSupport.helpAndSupport :is(.reliableSupportFor,
+  .accessPracticalResources, .fromOnboardingTo, .supportCardText,
+  .gettingStartedGuides, .courseCreationTutorials,
+  .assessmentReporting, .contentManagementResources) {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 !important;
+  font-family: var(--help-font) !important;
+  font-size: var(--help-body-size) !important;
+  line-height: var(--help-body-line) !important;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+.helpAndSupport.helpAndSupport .fromOnboardingTo { max-width: 46ch !important; text-wrap: balance; }
+
+/* Matching inset badges; labels remain selectable. */
+.helpAndSupport.helpAndSupport :is(.frameIcon, .frameChild13) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+  min-height: 56px;
+  margin: 0;
+  padding: 12px 36px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--help-bg);
+  box-shadow: var(--help-inset);
+  font-family: var(--help-font);
+  font-size: var(--help-control-size);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: .02em;
+  color: var(--help-blue);
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: break-word;
+  user-select: text;
+  transform: none;
+  filter: none;
+  transition: none;
+}
+.helpAndSupport.helpAndSupport :is(.frameIcon, .frameChild13):hover {
+  box-shadow: var(--help-inset);
+  transform: none;
+  filter: none;
+}
+.helpAndSupport.helpAndSupport .neurolxpBadgeText {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+.helpAndSupport.helpAndSupport .neurolxpBadgeTm {
+  font-family: var(--help-font);
+  font-size: 10px;
+  line-height: 1;
+  top: -.6em;
+}
+
+/* Match the previous raised buttons and inset hover/press state. */
+.helpAndSupport.helpAndSupport :is(.frameChild2, .bookDemoVisual) {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+  min-height: 48px;
+  margin: 0;
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--help-bg);
+  box-shadow: var(--help-raised);
+  font-family: var(--help-font);
+  font-size: var(--help-control-size);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: .02em;
+  color: var(--help-blue);
+  text-align: center;
+  white-space: normal;
+  text-decoration: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  transform: none;
+  filter: none;
+  transition: box-shadow 180ms ease !important;
+}
+.helpAndSupport.helpAndSupport :is(.frameChild2, .bookDemoVisual) :is(span, b, strong) {
+  font: inherit;
+  color: inherit;
+}
+.helpAndSupport.helpAndSupport .frameParent3 > button:has(> :is(.frameChild2, .bookDemoVisual)) {
+  width: fit-content;
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+  border-radius: 8px;
+  transform: none;
+}
+.helpAndSupport.helpAndSupport :is(.frameChild2, .bookDemoVisual):hover,
+.helpAndSupport.helpAndSupport :is(.frameChild2, .bookDemoVisual):active,
+.helpAndSupport.helpAndSupport .frameParent3 > button:hover > :is(.frameChild2, .bookDemoVisual),
+.helpAndSupport.helpAndSupport .frameParent3 > button:active > :is(.frameChild2, .bookDemoVisual) {
+  box-shadow: var(--help-inset) !important;
+  transform: none;
+  filter: none;
+}
+.helpAndSupport.helpAndSupport :is(.frameChild2, .bookDemoVisual):focus-visible,
+.helpAndSupport.helpAndSupport .frameParent3 > button:has(> :is(.frameChild2, .bookDemoVisual)):focus-visible {
+  outline: 3px solid var(--help-blue) !important;
+  outline-offset: 4px;
+}
+/* Avoid two surfaces if the component wraps the existing visual. */
+.helpAndSupport.helpAndSupport .bookDemoVisual:has(.frameChild2) {
+  padding: 0;
+  background: transparent;
+  box-shadow: none !important;
+}
+
+/* Text wrappers grow with the requested font sizes. */
+.helpAndSupport.helpAndSupport > .frameParent2 {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  align-items: center;
+  gap: 32px;
+}
+.helpAndSupport.helpAndSupport :is(.frameParent3, .frameParent4, .frameParent5,
+  .frameParent9, .knowledgeResourcesWrapper, .frameParent16,
+  .supportForYourLearningEcosParent) {
+  width: 100% !important;
+  max-width: 100%;
+  min-width: 0;
+  height: auto !important;
+  min-height: 0 !important;
+  flex-basis: auto !important;
+  gap: 24px;
+}
+.helpAndSupport.helpAndSupport > .frameParent2 > .frameParent6 {
+  position: relative;
+  width: 100%;
+  max-width: 736px;
+  min-width: 0;
+  height: auto;
+  aspect-ratio: 736 / 486;
+  flex-basis: auto;
+}
+.helpAndSupport.helpAndSupport .frameChild3 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.helpAndSupport.helpAndSupport .welcomeSign1Wrapper {
+  inset: 7.4% 4.9%;
+  width: auto;
+  height: auto;
+}
+.helpAndSupport.helpAndSupport .welcomeSign1Icon {
+  position: absolute;
+  inset: 2px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  object-fit: contain;
+}
+
+/* Keep the rounded support-card design while accommodating 24px copy. */
+.helpAndSupport.helpAndSupport .comprehensiveSupportParent .frameParent7 {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  justify-items: center !important;
+  align-items: stretch !important;
+  gap: 24px !important;
+}
+.helpAndSupport.helpAndSupport .supportCard {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  max-width: 300px;
+  min-width: 0;
+  height: auto !important;
+  min-height: min-content;
+  aspect-ratio: 1;
+  padding: 16px;
+}
+.helpAndSupport.helpAndSupport .supportCardInner {
+  position: relative !important;
+  inset: auto !important;
+  display: flex;
+  width: 100% !important;
+  min-width: 0;
+  height: auto !important;
+  min-height: min-content;
+  aspect-ratio: 1;
+  padding: 0;
+}
+.helpAndSupport.helpAndSupport .supportCardContent {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  min-width: 0;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 32px 20px 48px !important;
+  gap: 12px !important;
+  justify-content: center !important;
+  transform: none !important;
+}
+.helpAndSupport.helpAndSupport .supportCardTitle {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  font-family: var(--help-font) !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+.helpAndSupport.helpAndSupport .supportCardAccent { margin: 0; }
+
+/* Resource labels wrap inside their column rather than crossing it. */
+.helpAndSupport.helpAndSupport > .helpAndSupportInner { padding: 32px; }
+.helpAndSupport.helpAndSupport .helpAndSupportInner .frameParent8 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 48px;
+}
+.helpAndSupport.helpAndSupport .helpAndSupportInner :is(.frameWrapper, .frameWrapper2, .frameParent10) {
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  flex-basis: auto;
+}
+.helpAndSupport.helpAndSupport .frameParent11 {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  min-height: 70px;
+  gap: 16px;
+}
+
+@media (max-width: 1240px) {
+  .helpAndSupport.helpAndSupport .comprehensiveSupportParent .frameParent7 {
+    grid-template-columns: repeat(2, minmax(0, 300px)) !important;
+    justify-content: center !important;
+    gap: 32px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .helpAndSupport.helpAndSupport .helpAndSupportInner .frameParent8 {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+}
+@media (max-width: 900px) {
+  .helpAndSupport.helpAndSupport > .frameParent2 {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .helpAndSupport.helpAndSupport > .frameParent2 > .frameParent6 { justify-self: center; }
+}
+@media (max-width: 768px) {
+  .helpAndSupport.helpAndSupport {
+    --help-heading-size: 24px;
+    --help-heading-line: 32px;
+    --help-body-size: 16px;
+    --help-body-line: 24px;
+    --help-control-size: 16px;
+  }
+  .helpAndSupport.helpAndSupport :is(.frameIcon, .frameChild13) {
+    min-height: 44px;
+    line-height: 24px;
+  }
+  .helpAndSupport.helpAndSupport :is(.frameChild2, .bookDemoVisual) {
+    min-height: 48px;
+    padding: 12px 24px;
+    line-height: 24px;
+  }
+  .helpAndSupport.helpAndSupport > :is(.frameParent2,
+    .comprehensiveSupportParent, .helpAndSupportInner, .helpAndSupportChild) {
+    width: calc(100% - 32px) !important;
+  }
+  .helpAndSupport.helpAndSupport > .helpAndSupportInner { padding: 24px 20px; }
+  .helpAndSupport.helpAndSupport :is(.frameIcon, .frameChild13) { padding: 12px 26px; }
+  .helpAndSupport.helpAndSupport .frameParent11 {
+    grid-template-columns: 56px minmax(0, 1fr);
+    min-height: 56px;
+  }
+  .helpAndSupport.helpAndSupport .resourceIcon { width: 56px; height: 56px; }
+  .helpAndSupport.helpAndSupport .resourceIconInner { width: 42px; height: 42px; }
+  .helpAndSupport.helpAndSupport .resourceIconInner img { width: 28px; height: 28px; }
+}
+@media (max-width: 660px) {
+  .helpAndSupport.helpAndSupport .comprehensiveSupportParent .frameParent7 {
+    grid-template-columns: minmax(0, 300px) !important;
+    gap: 24px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .helpAndSupport.helpAndSupport :is(.frameChild2, .bookDemoVisual) { transition: none !important; }
+}
+
+
+/* Blue final words on the main page and section headings. */
+.helpAndSupport.helpAndSupport .everyStep {
+  color: inherit;
+}
+
+.helpAndSupport.helpAndSupport .headingAccent {
+  color: #2d4cc8;
+  -webkit-text-fill-color: currentColor;
+}
+
+/* Keep every support description centered on exactly two lines.
+   Retain the existing card typography and circular design. */
+.helpAndSupport.helpAndSupport .supportCardContent {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.helpAndSupport.helpAndSupport .supportTextLine {
+  display: block;
+  white-space: nowrap;
+}
+
+/* Mobile only: keep each Knowledge & Resources label on exactly two lines */
+.mobileResourceBreak {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.mobileResourceBreak {
+		display: block;
+	}
+}
+
+.neurolxpBadgeText {
+  position: relative;
+  display: inline-block;
+}
+
+.neurolxpBadgeTm {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1;
+  color: #2d4cc8;
+  margin-left: 2px;
+  vertical-align: super;
+  transform: translateY(3px);
+}
+
+/* NeuroLXP TM: final override of the earlier high-specificity and mobile rules. */
+.helpAndSupport.helpAndSupport .frameChild13 .neurolxpBadgeTm {
+  position: relative;
+  top: -13px;
+  transform: none;
+  vertical-align: baseline;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+}
+@media (max-width: 620px) {
+  .helpAndSupport.helpAndSupport .frameChild13 .neurolxpBadgeTm {
+    top: -8px;
+    font-weight: 400;
+    font-size: 8px;
+  }
+}
+
+
+/* Expert button portal — isolated from NeuroLXP content and section flow */
+.helpAndSupport.helpAndSupport > .helpAndSupportChild .expertButtonSlot {
+  position: absolute;
+  top: 0;
+  right: 70;
+  width: 0;
+  height: 0;
+  z-index: 20;
+}
+@media (max-width: 620px) {
+  .helpAndSupport.helpAndSupport > .helpAndSupportChild .expertButtonSlot {
+    top: -10px;
+    right: 60;
+  }
+}
+.neurolxpBadgeTm {
+  margin-left: -1px !important;
+  position: relative;
+  top: -5px;
+  font-size: 10px;
+  vertical-align: super;
+  line-height: 0;
+}

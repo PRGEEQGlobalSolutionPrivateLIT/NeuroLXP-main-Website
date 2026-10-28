@@ -1,0 +1,2798 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Retail & Healthcare — complete replacement stylesheet.
+
+   Content stays in flow. Main sections use one 48px gap at every width.
+
+   Existing component class names and interaction state classes are retained. */
+
+.retailAndHealthCare {
+
+  --surface: #dfe6e9;
+
+  --ink: #31344b;
+
+  --body-ink: #2f3547;
+
+  --blue: #2d4cc8;
+
+  --raised: -4px -4px 4px #fff, 4px 4px 4px #c6c6c9;
+
+  --inset: inset -4px -4px 4px #fff,
+
+    inset 4px 4px 4px rgba(196, 196, 196, .8);
+
+  --panel-shadow: -8px -8px 16px #fff, 8px 8px 16px #c4c4c4;
+
+  --section-gap: 48px;
+
+  width: 100%;
+
+  margin: 0;
+
+  background: var(--surface);
+
+  color: var(--ink);
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+
+  font-size: 20px;
+
+  line-height: 1.5;
+
+}
+
+.retailAndHealthCare,
+
+.retailAndHealthCare *,
+
+.retailAndHealthCare *::before,
+
+.retailAndHealthCare *::after {
+
+  box-sizing: border-box;
+
+  -webkit-user-select: text;
+
+  user-select: text;
+
+}
+
+.retailAndHealthCare * {
+
+  min-width: 0;
+
+  font-family: inherit;
+
+}
+
+.retailAndHealthCare :is(h1, h2, h3, p) { margin: 0; }
+
+.retailAndHealthCare :is(img, video) { max-width: 100%; }
+
+.retailHealthcare {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: var(--section-gap);
+
+  width: min(100%, 1440px);
+
+  margin: 0 auto;
+
+  padding: 32px clamp(24px, 5.55vw, 80px) 48px;
+
+  background: var(--surface);
+
+}
+
+.retailHealthcare > :is(
+
+  .frameDiv, .frameParent2, .retailHealthcareInner, .frameParent8,
+
+  .rectangleParent, .frameParent15, .frameParent23, .rectangleGroup,
+
+  .frameParent29, .frameParent33
+
+) {
+
+  position: relative;
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0;
+
+  flex: none;
+
+}
+
+/* These duplicate export layers were hidden in the supplied stylesheet.
+
+   The route uses its shared Header and Footer components. */
+
+.frameParent,
+
+.frameParent37,
+
+.frameParent38,
+
+.frameWrapper15,
+
+.productKnowledge2,
+
+.distributedStores2,
+
+.talentRetention2,
+
+.frameItem,
+
+.frameChild2,
+
+.frameIcon,
+
+.rectangle,
+
+.image20,
+
+.image21,
+
+.groupYoungBusinesspeopleUsi,
+
+.image203,
+
+.frameChild30,
+
+.frameChild31,
+
+.retailCardEllipse {
+
+  display: none;
+
+}
+
+/* Breadcrumbs */
+
+.frameDiv,
+
+.ourCustomersWrapper,
+
+.arrowRightDoubleGroup {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+}
+
+.frameDiv {
+
+  flex-wrap: wrap;
+
+  color: var(--body-ink);
+
+  font-size: 16px;
+
+  line-height: 24px;
+
+  text-align: left;
+
+}
+
+.frameDiv :is(div, span, a, h1, h2, h3, p, b) {
+
+  position: static;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  width: auto;
+
+  min-height: 0;
+
+  margin: 0;
+
+  padding: 0;
+
+  font-size: inherit;
+
+  font-weight: 400;
+
+  line-height: inherit;
+
+  letter-spacing: 0;
+
+  text-decoration: none;
+
+  transform: none;
+
+}
+
+.frameDiv :is(img, svg) {
+
+  display: block;
+
+  flex: none;
+
+  width: 16px;
+
+  height: 16px;
+
+  margin: 0;
+
+  object-fit: contain;
+
+}
+
+.arrowRightDoubleGroup { color: #243fa8; }
+
+.arrowDown01Icon { width: 16px; height: 16px; flex: none; }
+
+.industriesWeServe,
+
+.retailHealthcare2 { white-space: normal; }
+
+.frameDiv .retailHealthcare2,
+
+.frameDiv .retailHealthcare2 * { font-weight: 700; }
+
+.scalableLearningForContainer,
+
+.empoweringSmarterRetail,
+
+.empoweringSmarterRetail2,
+
+.benefitsForRetail,
+
+.smarterHealthcareLearning,
+
+.empoweringHealthcareOrganiza,
+
+.benefitsForHealthcare,
+
+.poweringLearningFor {
+
+  display: block;
+
+  width: 100%;
+
+  margin: 0;
+
+  text-shadow: none;
+
+  overflow-wrap: break-word;
+
+}
+
+.scalableLearningFor,
+
+.serviceDriven { font-size: inherit; line-height: inherit; }
+
+.serviceDriven { color: var(--blue); }
+
+.neurolxpEnablesSmarter,
+
+.retailTeamsNeed,
+
+.neurolxpEnablesFaster,
+
+.neurolxpEnablesSmarter2,
+
+.healthcareOrganizationsNeed,
+
+.healthcareOrganizationsNeed2,
+
+.neurolxpHelpsRetail {
+
+  display: block;
+
+  width: 100%;
+
+  margin: 0;
+
+  color: var(--body-ink);
+
+  overflow-wrap: break-word;
+
+}
+
+/* Text stacks: nested stacks do not add margins to the shared gap. */
+
+.frameWrapper,
+
+.frameParent4,
+
+.frameParent5,
+
+.frameParent9,
+
+.empoweringSmarterRetailLearParent,
+
+.frameParent14,
+
+.frameParent16,
+
+.frameParent27,
+
+.frameParent28,
+
+.frameParent30,
+
+.benefitsForHealthcareOrganiParent,
+
+.frameParent36 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 12px;
+
+  width: 100%;
+
+}
+
+.frameParent9,
+
+.empoweringSmarterRetailLearParent,
+
+.frameParent30,
+
+.benefitsForHealthcareOrganiParent {
+
+  align-items: center;
+
+  text-align: center;
+
+}
+
+.frameParent9,
+
+.frameParent30 { max-width: 1064px; margin-inline: auto; }
+
+/* Badges match the supplied reference: inset, blue, no hover movement.
+
+   Real text spans remain selectable in the same flow position. */
+
+.frameInner,
+
+.frameChild3,
+
+.frameChild7,
+
+.frameChild8,
+
+.frameChild16,
+
+.frameChild18,
+
+.frameChild32 { display: none; }
+
+.selectableBadgeText {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex: none;
+
+  width: fit-content;
+
+  max-width: 100%;
+
+  min-height: 50px;
+
+  margin: 0 0 4px;
+
+  padding: 8px 24px;
+
+  border: 0;
+
+  border-radius: 28px;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+  color: var(--blue);
+
+  text-align: center;
+
+  white-space: normal;
+
+}
+
+/* Buttons: the reference's raised surface, pressed hover and blue labels. */
+
+.requestDemoWrapper,
+
+.frameWrapper2,
+
+.frameWrapper14 {
+
+  appearance: none;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex: 0 1 auto;
+
+  width: fit-content;
+
+  min-width: min(203px, 100%);
+
+  max-width: 100%;
+
+  min-height: 60px;
+
+  margin: 0;
+
+  padding: 14px 32px;
+
+  border: 0;
+
+  border-radius: 8px;
+
+  background: var(--surface);
+
+  box-shadow: var(--raised);
+
+  color: var(--blue);
+
+  text-align: center;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition: box-shadow .22s ease;
+
+}
+
+.requestDemoWrapper:active,
+
+.frameWrapper2:active,
+
+.frameWrapper14:active { box-shadow: var(--inset); }
+
+.requestDemoWrapper:focus-visible,
+
+.frameWrapper2:focus-visible,
+
+.frameWrapper14:focus-visible,
+
+.retailLearningCard:focus-visible {
+
+  outline: 2px solid var(--blue);
+
+  outline-offset: 4px;
+
+}
+
+.requestDemo,
+
+.startLearning,
+
+.getStarted,
+
+.startLearningWrapper,
+
+.getStartedWrapper {
+
+  display: inline;
+
+  width: auto;
+
+  color: inherit;
+
+  font: inherit;
+
+  letter-spacing: inherit;
+
+}
+
+.frameParent6 {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  gap: 16px;
+
+  width: 100%;
+
+}
+
+/* Hero: two flow columns, patterned inner surface. */
+
+.frameParent2,
+
+.frameParent33 {
+
+  padding: 24px;
+
+  border-radius: 24px;
+
+  background: var(--surface);
+
+  box-shadow: var(--panel-shadow);
+
+}
+
+.smilingYoungFemaleDoctorWeParent {
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+
+  align-items: center;
+
+  gap: 24px;
+
+  padding: 32px;
+
+  border-radius: 20px;
+
+  background-color: var(--surface);
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='%23cfd7db' fill-opacity='0.46'%3E%3Crect x='27' y='20' width='6' height='20' rx='1'/%3E%3Crect x='20' y='27' width='20' height='6' rx='1'/%3E%3C/g%3E%3C/svg%3E");
+
+  background-repeat: repeat;
+
+  background-size: 60px 60px;
+
+  box-shadow: inset -8px -8px 16px #fff, inset 8px 8px 16px #c4c4c4;
+
+}
+
+.frameParent3 {
+
+  grid-column: 1;
+
+  grid-row: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 24px;
+
+}
+
+.smilingYoungFemaleDoctorWeIcon {
+
+  grid-column: 2;
+
+  grid-row: 1;
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  max-height: 540px;
+
+  object-fit: contain;
+
+  align-self: end;
+
+}
+
+/* Statistics: flexible cells; labels can wrap without clipping. */
+
+.frameParent7 {
+
+  display: grid;
+
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  gap: 24px;
+
+}
+
+.frameWrapper3 {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-height: 120px;
+
+  padding: 16px 12px;
+
+  border-radius: 24px 0 24px 0;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+  text-align: center;
+
+}
+
+.kParent,
+
+.group { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+
+.k,
+
+.b,
+
+.b2 { color: var(--blue);    }
+
+.retailLocations,
+
+.healthcareFacilities,
+
+.trainedEmployees,
+
+.averageRating { color: var(--body-ink);    }
+
+/* The rating label has an extra exported blank line. Normalize all stats. */
+
+.frameParent7 br { display: none; }
+
+.starIcon { display: none; }
+
+.b2::after { content: " ★"; color: #f4b400; font-size: 22px; }
+
+/* Retail learning cards: expansion changes the actual row height. */
+
+.frameParent8,
+
+.frameParent29 { display: flex; flex-direction: column; align-items: center; gap: 24px; }
+
+.frameParent10 {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  align-items: start;
+
+  gap: 24px;
+
+  width: 100%;
+
+}
+
+.frameWrapper7,
+
+.retailLearningCard {
+
+  width: 100%;
+
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  border-radius: 40px;
+
+  background: var(--surface);
+
+  box-shadow: var(--panel-shadow);
+
+  color: var(--ink);
+
+  font: inherit;
+
+  text-align: center;
+
+  transition: box-shadow .2s ease;
+
+}
+
+.retailLearningCard { appearance: none; cursor: pointer; }
+
+.frameParent11,
+
+.frameParent12,
+
+.frameParent13 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 16px;
+
+  width: 100%;
+
+  padding: 28px 20px;
+
+}
+
+.retailCardIcon {
+
+  position: relative;
+
+  display: grid;
+
+  place-items: center;
+
+  flex: none;
+
+  width: 100px;
+
+  height: 100px;
+
+  border-radius: 50%;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+}
+
+.retailCardIcon::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 15px;
+
+  border-radius: 50%;
+
+  background: var(--blue);
+
+  box-shadow: 8px 8px 16px #c6c6c9, -8px -8px 16px #fff;
+
+}
+
+.frameChild4,
+
+.frameChild5,
+
+.frameChild6 { position: relative; width: 40px; height: 40px; object-fit: contain; }
+
+.frameParent8 > .frameChild6 { display: none; }
+
+.retailCardChevron {
+
+  display: grid;
+
+  place-items: center;
+
+  width: 30px;
+
+  height: 24px;
+
+  color: var(--blue);
+
+  opacity: 0;
+
+  transition: opacity .2s ease, transform .2s ease;
+
+}
+
+.retailLearningCard:focus-visible .retailCardChevron,
+
+.retailLearningCard.isOpen .retailCardChevron { opacity: 1; }
+
+.retailLearningCard.isOpen .retailCardChevron { transform: rotate(180deg); }
+
+.retailCardDropdown { display: none; width: 100%; color: var(--body-ink);   }
+
+.retailLearningCard.isOpen .retailCardDropdown { display: block; }
+
+.retailLearningCard.isOpen { box-shadow: var(--inset); }
+
+.retailDropdownOpen { height: auto; }
+
+/* Image and copy panels. Only ornamental icon layers use absolute positioning. */
+
+.rectangleParent,
+
+.rectangleGroup {
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+  align-items: center;
+
+  gap: 32px;
+
+  padding: 40px;
+
+  border-radius: 40px;
+
+  background: var(--surface);
+
+}
+
+.rectangleParent {
+
+  padding: 0;
+
+  overflow: hidden;
+
+  box-shadow: inset -8px -8px 8px rgba(255,255,255,.5), inset 8px 8px 8px #c4c4c4;
+
+}
+
+.rectangleGroup { box-shadow: var(--panel-shadow); }
+
+.frameParent14,
+
+.frameParent28 { grid-column: 1; grid-row: 1; }
+
+.frameParent14 { padding: 40px 0 40px 40px; }
+
+.twoFemaleDesignersWork1Icon,
+
+.maleDoctorNursesCommunicatiIcon {
+
+  grid-column: 2;
+
+  grid-row: 1;
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  max-height: 480px;
+
+  object-fit: contain;
+
+  align-self: end;
+
+}
+
+.twoFemaleDesignersWork1Icon {
+
+  max-height: none;
+
+  border-bottom-right-radius: 40px;
+
+}
+
+/* Retail benefits */
+
+.frameParent15 {
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr);
+
+  align-items: center;
+
+  gap: 40px;
+
+}
+
+.frameParent17 { display: flex; flex-direction: column; gap: 20px; }
+
+.frameParent18,
+
+.frameParent19 {
+
+  display: grid;
+
+  grid-template-columns: 70px minmax(0, 1fr);
+
+  align-items: center;
+
+  gap: 16px;
+
+  width: 100%;
+
+}
+
+.frameParent18 > *,
+
+.frameParent19 > * { margin: 0; align-self: center; }
+
+.retailBenefitIcon,
+
+.frameChild9 { flex: none; width: 70px; height: 70px; object-fit: contain; }
+
+.retailBenefitIcon {
+
+  position: relative;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  background: var(--surface);
+
+  box-shadow: var(--inset);
+
+}
+
+.retailBenefitIcon::before {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 10px;
+
+  border-radius: 50%;
+
+  background: var(--surface);
+
+  box-shadow: var(--raised);
+
+}
+
+.retailBenefitIcon img { position: relative; width: 32px; height: 32px; object-fit: contain; }
+
+.retailBenefitBlue img { filter: brightness(0) saturate(100%) invert(31%) sepia(89%) saturate(1747%) hue-rotate(212deg) brightness(88%) contrast(91%); }
+
+.retailBenefitPink img { filter: brightness(0) saturate(100%) invert(20%) sepia(91%) saturate(3145%) hue-rotate(320deg) brightness(85%) contrast(93%); }
+
+.retailBenefitPurple img { filter: brightness(0) saturate(100%) invert(15%) sepia(73%) saturate(3532%) hue-rotate(288deg) brightness(82%) contrast(105%); }
+
+.retailBenefitOrange img { filter: brightness(0) saturate(100%) invert(38%) sepia(92%) saturate(1349%) hue-rotate(354deg) brightness(89%) contrast(93%); }
+
+.retailBenefitGold img { filter: brightness(0) saturate(100%) invert(48%) sepia(64%) saturate(787%) hue-rotate(11deg) brightness(91%) contrast(94%); }
+
+.consistentTraining,
+
+.betterCustomerExperience,
+
+.quickOnboarding,
+
+.continuousDevelopment,
+
+.performanceTracking {
+
+  position: static;
+
+  display: flex;
+
+  align-items: center;
+
+  min-height: 70px;
+
+  margin: 0;
+
+  padding: 0;
+
+  text-align: left;
+
+}
+
+/* Exported labels contain trailing <br> tags; exclude their empty lines
+
+   from the row height so the visible text centers against the icon. */
+
+.frameParent17 br { display: none; }
+
+/* Healthcare learning: a triangular card group beside the copy. */
+
+.frameParent23 {
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+
+  align-items: center;
+
+  gap: 40px;
+
+}
+
+.frameParent24 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 24px;
+
+  width: 100%;
+
+}
+
+.frameParent26 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; width: 100%; }
+
+.frameWrapper10,
+
+.rectangleParent3,
+
+.rectangleParent4 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: stretch;
+
+  gap: 20px;
+
+  width: 100%;
+
+  padding: 22px 16px 16px;
+
+  border-radius: 40px 40px 16px 16px;
+
+  background: var(--surface);
+
+  box-shadow: -8px -8px 16px rgba(255,255,255,.96), 8px 8px 16px rgba(196,196,196,.88),
+
+    inset -4px -4px 8px rgba(255,255,255,.62), inset 4px 4px 8px rgba(196,196,196,.42);
+
+  text-align: center;
+
+}
+
+.frameParent24 > :is(.frameWrapper10, .rectangleParent3, .rectangleParent4) { width: calc((100% - 24px) / 2); }
+
+.continuousMedicalEducationParent,
+
+.largeHealthcareTeamsParent { display: flex; flex-direction: column; gap: 20px; width: 100%; }
+
+.complianceAndCertification,
+
+.continuousMedicalEducation,
+
+.largeHealthcareTeams {
+
+  order: 0;
+
+  display: block;
+
+  align-self: center;
+
+  width: min(100%, 220px);
+
+  min-height: 56px;
+
+  margin: 0 auto;
+
+  padding: 0;
+
+  color: var(--ink);
+
+  text-align: center;
+
+  text-wrap: balance;
+
+}
+
+.frameChild14,
+
+.youngBusinesswomanHerColleaIcon,
+
+.frameChild15 {
+
+  order: 1;
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  aspect-ratio: 1.65;
+
+  margin-top: auto;
+
+  border-radius: 0 0 10px 10px;
+
+  object-fit: cover;
+
+}
+
+.frameChild15 { object-fit: contain; object-position: center bottom; }
+
+/* Healthcare benefits: wrapping rows, no translated cards. */
+
+.frameParent31 { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 16px; width: 100%; }
+
+.frameParent32,
+
+.vectorParent {
+
+  position: relative;
+
+  display: grid;
+
+  place-items: center;
+
+  flex: 1 1 180px;
+
+  max-width: 224px;
+
+  min-height: 160px;
+
+  padding: 32px 16px;
+
+  border-radius: 24px;
+
+  background: var(--surface);
+
+  box-shadow: var(--panel-shadow);
+
+  text-align: center;
+
+  transition: box-shadow .2s ease;
+
+}
+
+.frameChild19,
+
+.rectangleIcon,
+
+.polygonIcon,
+
+.healthArrow { display: none; }
+
+.frameParent32::after,
+
+.vectorParent::after {
+
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+
+  left: calc(50% - 10px);
+
+  border-inline: 10px solid transparent;
+
+  border-top: 20px solid var(--blue);
+
+}
+
+.frameParent31 > :nth-child(2)::after { border-top-color: #bf1869; }
+
+.frameParent31 > :nth-child(3)::after { border-top-color: #67096e; }
+
+.frameParent31 > :nth-child(4)::after { border-top-color: #9e8500; }
+
+.frameParent31 > :nth-child(5)::after { border-top-color: #c05512; }
+
+.complianceTraining,
+
+.professionalDevelopment,
+
+.betterPatientCare,
+
+.certificationTracking,
+
+.scalableProgrammes {
+
+  position: static;
+
+  display: block;
+
+  width: min(100%, 170px);
+
+  min-height: 56px;
+
+  margin: 0;
+
+  padding: 0;
+
+  text-align: center;
+
+  text-wrap: balance;
+
+}
+
+/* All five titles wrap from their words, with no trailing blank lines. */
+
+.frameParent31 br { display: none; }
+
+/* Final CTA: copy and video both establish the section height. */
+
+.image21Parent {
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+  align-items: stretch;
+
+  gap: 24px;
+
+  width: 100%;
+
+  border-radius: 16px;
+
+  background: var(--surface);
+
+}
+
+.frameParent34 {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  justify-content: center;
+
+  gap: 24px;
+
+}
+
+.image21Parent > .frameParent34,
+
+.image21Parent > .retailFinalVideoContent {
+
+  grid-column: 1;
+
+  grid-row: 1;
+
+  padding: 24px;
+
+}
+
+.retailFinalVideoContent { display: flex; flex-direction: column; justify-content: center; gap: 24px; }
+
+.retailFinalVideo,
+
+.retailFinalVideoSlide {
+
+  grid-column: 2;
+
+  grid-row: 1;
+
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  min-height: 320px;
+
+  aspect-ratio: 1;
+
+  border: 0;
+
+  border-radius: 16px;
+
+  object-fit: cover;
+
+}
+
+.retailFinalVideoSlide .retailFinalVideo { min-height: 0; }
+
+.retailVideoRevealSection.isRevealActive .retailFinalVideoContent { animation: retailContentReveal .6s ease both; }
+
+@keyframes retailContentReveal { from { opacity: 0; } to { opacity: 1; } }
+
+/* Mouse feedback keeps the control/card's hit area in place. */
+
+@media (hover: hover) and (pointer: fine) {
+
+  .requestDemoWrapper:hover,
+
+  .frameWrapper2:hover,
+
+  .frameWrapper14:hover { box-shadow: var(--inset); }
+
+  .retailLearningCard:hover,
+
+  .frameWrapper10:hover,
+
+  .frameParent32:hover,
+
+  .vectorParent:hover { box-shadow: -6px -6px 12px #fff, 6px 6px 12px #c4c4c4; }
+
+  .retailLearningCard:hover .retailCardChevron { opacity: 1; }
+
+}
+
+/* Tablet: remove narrow two-column copy panels before text becomes cramped. */
+
+@media (max-width: 1100px) {
+
+  .retailHealthcare { padding-inline: 32px; }
+
+  .smilingYoungFemaleDoctorWeParent { padding: 24px; }
+
+  .frameParent15,
+
+  .frameParent23 { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+
+  .frameParent16,
+
+  .frameParent27 { align-items: center; text-align: center; max-width: 800px; margin-inline: auto; }
+
+  .frameParent27 { grid-row: 1; }
+
+  .frameParent17 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 24px; }
+
+  .frameParent17 > :last-child:nth-child(odd) { grid-column: 1 / -1; width: calc((100% - 24px) / 2); justify-self: center; }
+
+  .frameParent24 { max-width: 680px; margin-inline: auto; }
+
+  .rectangleGroup { padding: 32px; gap: 24px; }
+
+  .rectangleParent { gap: 24px; }
+
+  .frameParent14 { padding: 32px 0 32px 32px; }
+
+  .image21Parent { gap: 16px; }
+
+  .image21Parent > .frameParent34,
+
+  .image21Parent > .retailFinalVideoContent { padding: 16px; }
+
+  .frameParent7 { gap: 16px; }
+
+}
+
+@media (max-width: 768px) {
+
+  .retailHealthcare { padding: 24px 20px 48px; }
+
+  .frameDiv { font-size: 14px; line-height: 22px; }
+
+  .frameParent2,
+
+  .frameParent33 { padding: 16px; }
+
+  .smilingYoungFemaleDoctorWeParent,
+
+  .rectangleParent,
+
+  .rectangleGroup,
+
+  .image21Parent { display: flex; flex-direction: column; align-items: stretch; gap: 24px; }
+
+  .smilingYoungFemaleDoctorWeParent,
+
+  .rectangleGroup { padding: 24px 20px; }
+
+  .frameParent14 { padding: 24px 20px 0; }
+
+  .frameParent3 { order: 0; align-items: center; text-align: center; }
+
+  .smilingYoungFemaleDoctorWeIcon,
+
+  .twoFemaleDesignersWork1Icon,
+
+  .maleDoctorNursesCommunicatiIcon { order: 1; align-self: center; max-height: 400px; }
+
+  .twoFemaleDesignersWork1Icon { max-height: none; border-radius: 0 0 40px 40px; }
+
+  .frameWrapper,
+
+  .frameParent4,
+
+  .frameParent5,
+
+  .frameParent14,
+
+  .frameParent16,
+
+  .frameParent27,
+
+  .frameParent28,
+
+  .frameParent34,
+
+  .frameParent36 { align-items: center; text-align: center; }
+
+  .selectableBadgeText { min-height: 44px; padding: 8px 18px;   }
+
+  .requestDemoWrapper,
+
+  .frameWrapper2,
+
+  .frameWrapper14 { min-width: min(190px, 100%); min-height: 54px; padding: 12px 24px;   }
+
+  .frameParent6 { justify-content: center; }
+
+  .frameParent7 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .frameParent10 { grid-template-columns: minmax(0, 1fr); max-width: 440px; margin-inline: auto; }
+
+  .frameParent17 { display: flex; flex-direction: column; width: 100%; max-width: 440px; margin-inline: auto; }
+
+  .frameParent17 > :last-child:nth-child(odd) { width: 100%; }
+
+  .consistentTraining,
+
+  .betterCustomerExperience,
+
+  .quickOnboarding,
+
+  .continuousDevelopment,
+
+  .performanceTracking { min-height: 64px;   }
+
+  .frameParent18,
+
+  .frameParent19 { grid-template-columns: 64px minmax(0, 1fr); }
+
+  .retailBenefitIcon,
+
+  .frameChild9 { width: 64px; height: 64px; }
+
+  .frameParent24 { max-width: 540px; }
+
+  .frameParent31 { gap: 20px; }
+
+  .frameParent32,
+
+  .vectorParent { flex-basis: calc(50% - 10px); max-width: 220px; }
+
+  .image21Parent > .frameParent34,
+
+  .image21Parent > .retailFinalVideoContent { order: 0; padding: 16px 8px; }
+
+  .retailFinalVideo,
+
+  .retailFinalVideoSlide { order: 1; width: 100%; height: auto; min-height: 0; aspect-ratio: 16 / 10; }
+
+  .retailVideoRevealSection.isRevealActive .retailFinalVideoContent { animation: none; }
+
+  .retailHealthcare :is(
+
+    .scalableLearningForContainer, .empoweringSmarterRetail, .empoweringSmarterRetail2,
+
+    .benefitsForRetail, .smarterHealthcareLearning, .empoweringHealthcareOrganiza,
+
+    .benefitsForHealthcare, .poweringLearningFor, .neurolxpEnablesSmarter,
+
+    .retailTeamsNeed, .neurolxpEnablesFaster, .neurolxpEnablesSmarter2,
+
+    .healthcareOrganizationsNeed, .healthcareOrganizationsNeed2, .neurolxpHelpsRetail
+
+  ) br { display: none; }
+
+}
+
+/* Small phones: controls and healthcare cards use full-width flow rows. */
+
+@media (max-width: 480px) {
+
+  .retailHealthcare { padding-inline: 16px; }
+
+  .frameParent2,
+
+  .frameParent33 { padding: 12px; }
+
+  .smilingYoungFemaleDoctorWeParent { padding: 20px 12px; }
+
+  .rectangleGroup { padding: 24px 16px; border-radius: 28px; }
+
+  .rectangleParent { border-radius: 28px; }
+
+  .frameParent14 { padding: 24px 16px 0; }
+
+  .twoFemaleDesignersWork1Icon { border-radius: 0 0 28px 28px; }
+
+  .frameParent6 { flex-direction: column; align-items: center; }
+
+  .frameParent6 > :is(.requestDemoWrapper, .frameWrapper2) { width: 100%; max-width: 280px; }
+
+  .frameParent7 { gap: 12px; }
+
+  .frameWrapper3 { padding: 14px 8px; }
+
+  .frameParent24 { max-width: 320px; }
+
+  .frameParent26 { grid-template-columns: minmax(0, 1fr); }
+
+  .frameParent24 > :is(.frameWrapper10, .rectangleParent3, .rectangleParent4) { width: 100%; }
+
+  .complianceAndCertification,
+
+  .continuousMedicalEducation,
+
+  .largeHealthcareTeams { min-height: 56px; }
+
+  .frameParent31 { flex-direction: column; align-items: center; }
+
+  .frameParent32,
+
+  .vectorParent { flex: none; width: min(100%, 240px); max-width: 100%; }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .retailAndHealthCare *,
+
+  .retailAndHealthCare *::before,
+
+  .retailAndHealthCare *::after { animation: none; transition: none; }
+
+}
+
+.mainHeadingBlue {
+
+  color: var(--blue);
+
+}
+
+/* Keep the hero phrase intact; do not allow a line break at the hyphen. */
+
+.serviceDriven {
+
+  display: inline-block;
+
+  white-space: nowrap !important;
+
+  word-break: keep-all;
+
+  hyphens: none;
+
+}
+
+/* Badges */
+
+/* Primary page buttons */
+
+.retailAndHealthCare .serviceDriven {
+
+  display: inline-block !important;
+
+  white-space: nowrap !important;
+
+  word-break: keep-all !important;
+
+  overflow-wrap: normal !important;
+
+  hyphens: none !important;
+
+}
+
+/* Move badge + heading + description + buttons together. */
+
+.retailAndHealthCare .frameParent3 {
+
+  padding-left: 20px !important;
+
+  box-sizing: border-box !important;
+
+}
+
+/* Keep the hero word together. */
+
+.retailAndHealthCare .serviceDriven {
+
+  white-space: nowrap !important;
+
+}
+
+/* Slightly smaller horizontal shift on mobile so the content stays balanced. */
+
+@media (max-width: 768px) {
+
+  .retailAndHealthCare .frameParent3 {
+
+    padding-left: 12px !important;
+
+  }
+
+}
+
+/* =========================================================
+
+   FINAL — RETAIL LEARNING CARDS ONLY
+
+   1) Smaller card height and width
+
+   2) Arrow always visible
+
+   3) Opened descriptions stay in two uniform lines
+
+   ========================================================= */
+
+.retailAndHealthCare .frameParent10 {
+
+  width: 100% !important;
+
+  max-width: 1080px !important;
+
+  margin-inline: auto !important;
+
+  gap: 20px !important;
+
+}
+
+.retailAndHealthCare .frameWrapper7,
+
+.retailAndHealthCare .retailLearningCard {
+
+  width: 100% !important;
+
+  max-width: 346px !important;
+
+  justify-self: center !important;
+
+  border-radius: 32px !important;
+
+}
+
+.retailAndHealthCare .frameParent11,
+
+.retailAndHealthCare .frameParent12,
+
+.retailAndHealthCare .frameParent13 {
+
+  gap: 10px !important;
+
+  padding: 18px 16px !important;
+
+}
+
+.retailAndHealthCare .retailCardIcon {
+
+  width: 84px !important;
+
+  height: 84px !important;
+
+}
+
+.retailAndHealthCare .retailCardIcon::before {
+
+  inset: 12px !important;
+
+}
+
+.retailAndHealthCare .retailCardChevron {
+
+  display: grid !important;
+
+  place-items: center !important;
+
+  width: 30px !important;
+
+  height: 24px !important;
+
+  margin: 0 !important;
+
+  opacity: 1 !important;
+
+  color: var(--blue) !important;
+
+}
+
+.retailAndHealthCare .retailLearningCard.isOpen .retailCardChevron {
+
+  transform: rotate(180deg) !important;
+
+}
+
+.retailAndHealthCare .retailCardDropdown {
+
+  width: 100% !important;
+
+  min-height: 56px !important;
+
+  margin: 0 !important;
+
+  text-align: center !important;
+
+}
+
+@media (max-width: 768px) {
+
+  .retailAndHealthCare .frameParent10 {
+
+    max-width: 360px !important;
+
+    gap: 18px !important;
+
+  }
+
+  .retailAndHealthCare .frameWrapper7,
+
+  .retailAndHealthCare .retailLearningCard {
+
+    max-width: 360px !important;
+
+  }
+
+  .retailAndHealthCare .frameParent11,
+
+  .retailAndHealthCare .frameParent12,
+
+  .retailAndHealthCare .frameParent13 {
+
+    gap: 10px !important;
+
+    padding: 16px 14px !important;
+
+  }
+
+  .retailAndHealthCare .retailCardIcon {
+
+    width: 76px !important;
+
+    height: 76px !important;
+
+  }
+
+  .retailAndHealthCare .retailCardDropdown {
+
+    min-height: 48px !important;
+
+  }
+
+}
+
+/* =========================================================
+
+   FINAL — RETAIL LEARNING CARD SPACING ONLY
+
+   Adds clear space from one card to the next.
+
+   ========================================================= */
+
+.retailAndHealthCare .frameParent10 {
+
+  gap: 32px !important;
+
+  column-gap: 32px !important;
+
+  row-gap: 32px !important;
+
+}
+
+@media (max-width: 768px) {
+
+  .retailAndHealthCare .frameParent10 {
+
+    gap: 24px !important;
+
+    row-gap: 24px !important;
+
+  }
+
+}
+
+/* =========================================================
+
+   FINAL — HEALTHCARE LEARNING CARDS: 2 + 1 LAYOUT
+
+   Desktop/tablet:
+
+   - first row: 2 cards
+
+   - second row: 1 centered card
+
+   Mobile:
+
+   - keep one card per row
+
+   ========================================================= */
+
+.retailAndHealthCare .frameParent24 {
+
+  display: grid !important;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+  gap: 24px !important;
+
+  width: 100% !important;
+
+  max-width: 680px !important;
+
+  margin-inline: auto !important;
+
+}
+
+.retailAndHealthCare .frameParent26 {
+
+  display: contents !important;
+
+}
+
+/* Card 1 = Compliance, Card 2 = Continuous Medical Education */
+
+.retailAndHealthCare .frameParent24 > .frameWrapper10,
+
+.retailAndHealthCare .frameParent26 > .frameWrapper10:first-child {
+
+  width: 100% !important;
+
+  max-width: none !important;
+
+  margin: 0 !important;
+
+}
+
+/* Card 3 = Large Healthcare Teams, centered on row 2 */
+
+.retailAndHealthCare .frameParent26 > .frameWrapper10:last-child {
+
+  grid-column: 1 / -1 !important;
+
+  width: calc((100% - 24px) / 2) !important;
+
+  max-width: none !important;
+
+  justify-self: center !important;
+
+  margin: 0 !important;
+
+}
+
+/* Keep future-ready together anywhere this final line wraps. */
+
+.retailAndHealthCare .futureReadyNoWrap {
+
+  white-space: nowrap !important;
+
+}
+
+@media (max-width: 768px) {
+
+  .retailAndHealthCare .frameParent24 {
+
+    grid-template-columns: 1fr !important;
+
+    max-width: 360px !important;
+
+    gap: 20px !important;
+
+  }
+
+  .retailAndHealthCare .frameParent26 > .frameWrapper10:last-child {
+
+    grid-column: 1 !important;
+
+    width: 100% !important;
+
+  }
+
+}
+
+/* =========================================================
+
+   FINAL MOBILE ONLY — RETAIL BENEFITS LIST
+
+   Fixes only the section shown in the screenshot:
+
+   - smaller, consistent font size
+
+   - smaller icons
+
+   - cleaner icon/text alignment
+
+   - tighter, uniform row spacing
+
+   ========================================================= */
+
+@media screen and (max-width: 768px) {
+
+  .retailAndHealthCare .frameParent17 {
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    width: 100% !important;
+
+    max-width: 360px !important;
+
+    margin-inline: auto !important;
+
+    gap: 14px !important;
+
+  }
+
+  .retailAndHealthCare .frameParent18,
+
+  .retailAndHealthCare .frameParent19 {
+
+    display: grid !important;
+
+    grid-template-columns: 52px minmax(0, 1fr) !important;
+
+    align-items: center !important;
+
+    gap: 14px !important;
+
+    width: 100% !important;
+
+    min-height: 56px !important;
+
+  }
+
+  .retailAndHealthCare .retailBenefitIcon {
+
+    width: 52px !important;
+
+    height: 52px !important;
+
+    justify-self: center !important;
+
+    align-self: center !important;
+
+  }
+
+  .retailAndHealthCare .retailBenefitIcon::before {
+
+    inset: 8px !important;
+
+  }
+
+  .retailAndHealthCare .retailBenefitIcon img {
+
+    width: 24px !important;
+
+    height: 24px !important;
+
+  }
+
+  .retailAndHealthCare .consistentTraining,
+
+  .retailAndHealthCare .betterCustomerExperience,
+
+  .retailAndHealthCare .quickOnboarding,
+
+  .retailAndHealthCare .continuousDevelopment,
+
+  .retailAndHealthCare .performanceTracking {
+
+    min-height: 52px !important;
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    text-align: left !important;
+
+  }
+
+}
+
+/* Typography aligned with the supplied NeuroLXP reference stylesheet.
+
+   Hero: smv-heading. Learning: learning-modules-heading/subtext.
+
+   Benefits: platform-purpose-heading. Final CTA: get-in-touch-heading.
+
+   Desktop, tablet and mobile keep the reference's distinct type scales. */
+
+.retailAndHealthCare {
+
+  font-weight: 400;
+
+  font-style: normal;
+
+}
+
+.retailAndHealthCare .scalableLearningForContainer,
+
+.retailAndHealthCare .empoweringSmarterRetail,
+
+.retailAndHealthCare .empoweringSmarterRetail2,
+
+.retailAndHealthCare .benefitsForRetail,
+
+.retailAndHealthCare .smarterHealthcareLearning,
+
+.retailAndHealthCare .empoweringHealthcareOrganiza,
+
+.retailAndHealthCare .benefitsForHealthcare,
+
+.retailAndHealthCare .poweringLearningFor {
+
+  font-size: 36px;
+
+  font-weight: 700;
+
+  line-height: 1.15;
+
+  letter-spacing: .03em;
+
+}
+
+.retailAndHealthCare .scalableLearningForContainer {
+
+  line-height: 44px;
+
+}
+
+.retailAndHealthCare .benefitsForRetail,
+
+.retailAndHealthCare .benefitsForHealthcare {
+
+  line-height: 1.33;
+
+}
+
+.retailAndHealthCare .poweringLearningFor {
+
+  line-height: 1.25;
+
+}
+
+.retailAndHealthCare .neurolxpEnablesSmarter,
+
+.retailAndHealthCare .retailTeamsNeed,
+
+.retailAndHealthCare .neurolxpEnablesFaster,
+
+.retailAndHealthCare .neurolxpEnablesSmarter2,
+
+.retailAndHealthCare .healthcareOrganizationsNeed,
+
+.retailAndHealthCare .healthcareOrganizationsNeed2,
+
+.retailAndHealthCare .neurolxpHelpsRetail {
+
+  font-size: 24px;
+
+  font-weight: 400;
+
+  line-height: 1.43;
+
+  letter-spacing: .03em;
+
+}
+
+.retailAndHealthCare .neurolxpEnablesSmarter {
+
+  line-height: 1.3;
+
+}
+
+.retailAndHealthCare .neurolxpHelpsRetail {
+
+  line-height: 1.29;
+
+}
+
+.retailAndHealthCare .selectableBadgeText {
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 1.3;
+
+  letter-spacing: .03em;
+
+}
+
+.retailAndHealthCare .requestDemoWrapper,
+
+.retailAndHealthCare .frameWrapper2,
+
+.retailAndHealthCare .frameWrapper14 {
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 1.33;
+
+  letter-spacing: .02em;
+
+}
+
+.retailAndHealthCare .talentRetention,
+
+.retailAndHealthCare .productKnowledge,
+
+.retailAndHealthCare .distributedStores {
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  line-height: 1.33;
+
+  letter-spacing: .03em;
+
+}
+
+.retailAndHealthCare .consistentTraining,
+
+.retailAndHealthCare .betterCustomerExperience,
+
+.retailAndHealthCare .quickOnboarding,
+
+.retailAndHealthCare .continuousDevelopment,
+
+.retailAndHealthCare .performanceTracking {
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  line-height: 1.33;
+
+  letter-spacing: .03em;
+
+}
+
+.retailAndHealthCare .complianceAndCertification,
+
+.retailAndHealthCare .continuousMedicalEducation,
+
+.retailAndHealthCare .largeHealthcareTeams,
+
+.retailAndHealthCare .complianceTraining,
+
+.retailAndHealthCare .professionalDevelopment,
+
+.retailAndHealthCare .betterPatientCare,
+
+.retailAndHealthCare .certificationTracking,
+
+.retailAndHealthCare .scalableProgrammes {
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  line-height: 1.4;
+
+  letter-spacing: .03em;
+
+}
+
+.retailAndHealthCare .retailCardDropdown {
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 1.35;
+
+  letter-spacing: .02em;
+
+}
+
+.retailAndHealthCare .k,
+
+.retailAndHealthCare .b,
+
+.retailAndHealthCare .b2 {
+
+  font-size: 30px;
+
+  font-weight: 700;
+
+  line-height: 1.38;
+
+  letter-spacing: .03em;
+
+}
+
+.retailAndHealthCare .retailLocations,
+
+.retailAndHealthCare .healthcareFacilities,
+
+.retailAndHealthCare .trainedEmployees,
+
+.retailAndHealthCare .averageRating {
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 1.4;
+
+  letter-spacing: .03em;
+
+}
+
+@media (width < 1280px) {
+
+.retailAndHealthCare .k,
+
+.retailAndHealthCare .b,
+
+.retailAndHealthCare .b2 {
+
+  font-size: 26px;
+
+}
+
+.retailAndHealthCare .retailLocations,
+
+.retailAndHealthCare .healthcareFacilities,
+
+.retailAndHealthCare .trainedEmployees,
+
+.retailAndHealthCare .averageRating {
+
+  font-size: 16px;
+
+}
+
+}
+
+@media (width < 1024px) {
+
+.retailAndHealthCare .scalableLearningForContainer,
+
+.retailAndHealthCare .empoweringSmarterRetail,
+
+.retailAndHealthCare .empoweringSmarterRetail2,
+
+.retailAndHealthCare .benefitsForRetail,
+
+.retailAndHealthCare .smarterHealthcareLearning,
+
+.retailAndHealthCare .empoweringHealthcareOrganiza,
+
+.retailAndHealthCare .benefitsForHealthcare,
+
+.retailAndHealthCare .poweringLearningFor {
+
+  font-size: 30px;
+
+  line-height: 1.25;
+
+}
+
+.retailAndHealthCare .neurolxpEnablesSmarter,
+
+.retailAndHealthCare .retailTeamsNeed,
+
+.retailAndHealthCare .neurolxpEnablesFaster,
+
+.retailAndHealthCare .neurolxpEnablesSmarter2,
+
+.retailAndHealthCare .healthcareOrganizationsNeed,
+
+.retailAndHealthCare .healthcareOrganizationsNeed2,
+
+.retailAndHealthCare .neurolxpHelpsRetail {
+
+  font-size: 20px;
+
+  line-height: 1.45;
+
+}
+
+.retailAndHealthCare .requestDemoWrapper,
+
+.retailAndHealthCare .frameWrapper2,
+
+.retailAndHealthCare .frameWrapper14 {
+
+  font-size: 20px;
+
+}
+
+.retailAndHealthCare .talentRetention,
+
+.retailAndHealthCare .productKnowledge,
+
+.retailAndHealthCare .distributedStores,
+
+.retailAndHealthCare .consistentTraining,
+
+.retailAndHealthCare .betterCustomerExperience,
+
+.retailAndHealthCare .quickOnboarding,
+
+.retailAndHealthCare .continuousDevelopment,
+
+.retailAndHealthCare .performanceTracking {
+
+  font-size: 22px;
+
+}
+
+.retailAndHealthCare .retailCardDropdown {
+
+  font-size: 16px;
+
+  line-height: 1.45;
+
+}
+
+}
+
+@media (width < 768px) {
+
+.retailAndHealthCare .scalableLearningForContainer,
+
+.retailAndHealthCare .empoweringSmarterRetail,
+
+.retailAndHealthCare .empoweringSmarterRetail2,
+
+.retailAndHealthCare .benefitsForRetail,
+
+.retailAndHealthCare .smarterHealthcareLearning,
+
+.retailAndHealthCare .empoweringHealthcareOrganiza,
+
+.retailAndHealthCare .benefitsForHealthcare,
+
+.retailAndHealthCare .poweringLearningFor {
+
+  font-size: 24px;
+
+  line-height: 1.3;
+
+}
+
+.retailAndHealthCare .neurolxpEnablesSmarter,
+
+.retailAndHealthCare .retailTeamsNeed,
+
+.retailAndHealthCare .neurolxpEnablesFaster,
+
+.retailAndHealthCare .neurolxpEnablesSmarter2,
+
+.retailAndHealthCare .healthcareOrganizationsNeed,
+
+.retailAndHealthCare .healthcareOrganizationsNeed2,
+
+.retailAndHealthCare .neurolxpHelpsRetail {
+
+  font-size: 16px;
+
+  line-height: 1.5;
+
+}
+
+.retailAndHealthCare .selectableBadgeText {
+
+  font-size: 20px;
+
+  line-height: 1.3;
+
+}
+
+.retailAndHealthCare .requestDemoWrapper,
+
+.retailAndHealthCare .frameWrapper2,
+
+.retailAndHealthCare .frameWrapper14 {
+
+  font-size: 18px;
+
+  line-height: 1.33;
+
+}
+
+.retailAndHealthCare .talentRetention,
+
+.retailAndHealthCare .productKnowledge,
+
+.retailAndHealthCare .distributedStores {
+
+  font-size: 20px;
+
+  line-height: 1.3;
+
+}
+
+.retailAndHealthCare .consistentTraining,
+
+.retailAndHealthCare .betterCustomerExperience,
+
+.retailAndHealthCare .quickOnboarding,
+
+.retailAndHealthCare .continuousDevelopment,
+
+.retailAndHealthCare .performanceTracking {
+
+  font-size: 18px;
+
+  line-height: 1.33;
+
+}
+
+.retailAndHealthCare .retailCardDropdown {
+
+  font-size: 15px;
+
+  line-height: 1.45;
+
+}
+
+.retailAndHealthCare .k,
+
+.retailAndHealthCare .b,
+
+.retailAndHealthCare .b2 {
+
+  font-size: 24px;
+
+}
+
+}
+
+@media (width < 600px) {
+
+.retailAndHealthCare .talentRetention,
+
+.retailAndHealthCare .productKnowledge,
+
+.retailAndHealthCare .distributedStores {
+
+  font-size: 18px;
+
+}
+
+.retailAndHealthCare .retailCardDropdown {
+
+  font-size: 14px;
+
+}
+
+}
+
+/* Set the family on actual text elements as well as the page container. */
+
+.retailAndHealthCare .scalableLearningForContainer,
+
+.retailAndHealthCare .empoweringSmarterRetail,
+
+.retailAndHealthCare .empoweringSmarterRetail2,
+
+.retailAndHealthCare .benefitsForRetail,
+
+.retailAndHealthCare .smarterHealthcareLearning,
+
+.retailAndHealthCare .empoweringHealthcareOrganiza,
+
+.retailAndHealthCare .benefitsForHealthcare,
+
+.retailAndHealthCare .poweringLearningFor,
+
+.retailAndHealthCare .neurolxpEnablesSmarter,
+
+.retailAndHealthCare .retailTeamsNeed,
+
+.retailAndHealthCare .neurolxpEnablesFaster,
+
+.retailAndHealthCare .neurolxpEnablesSmarter2,
+
+.retailAndHealthCare .healthcareOrganizationsNeed,
+
+.retailAndHealthCare .healthcareOrganizationsNeed2,
+
+.retailAndHealthCare .neurolxpHelpsRetail,
+
+.retailAndHealthCare .selectableBadgeText,
+
+.retailAndHealthCare .requestDemoWrapper,
+
+.retailAndHealthCare .frameWrapper2,
+
+.retailAndHealthCare .frameWrapper14,
+
+.retailAndHealthCare .talentRetention,
+
+.retailAndHealthCare .productKnowledge,
+
+.retailAndHealthCare .distributedStores,
+
+.retailAndHealthCare .consistentTraining,
+
+.retailAndHealthCare .betterCustomerExperience,
+
+.retailAndHealthCare .quickOnboarding,
+
+.retailAndHealthCare .continuousDevelopment,
+
+.retailAndHealthCare .performanceTracking,
+
+.retailAndHealthCare .complianceAndCertification,
+
+.retailAndHealthCare .continuousMedicalEducation,
+
+.retailAndHealthCare .largeHealthcareTeams,
+
+.retailAndHealthCare .complianceTraining,
+
+.retailAndHealthCare .professionalDevelopment,
+
+.retailAndHealthCare .betterPatientCare,
+
+.retailAndHealthCare .certificationTracking,
+
+.retailAndHealthCare .scalableProgrammes,
+
+.retailAndHealthCare .retailCardDropdown,
+
+.retailAndHealthCare .k,
+
+.retailAndHealthCare .b,
+
+.retailAndHealthCare .b2,
+
+.retailAndHealthCare .retailLocations,
+
+.retailAndHealthCare .healthcareFacilities,
+
+.retailAndHealthCare .trainedEmployees,
+
+.retailAndHealthCare .averageRating {
+
+  font-family: "Segoe UI", "Inter", sans-serif;
+
+}
+
+/* Exported inline text must share the heading/label metrics. Keep colour
+
+   accents and layout properties on these spans intact; exclude sup/sub. */
+
+.retailAndHealthCare .scalableLearningForContainer :where(span, b, strong, em, i),
+
+.retailAndHealthCare .empoweringSmarterRetail :where(span, b, strong, em, i),
+
+.retailAndHealthCare .empoweringSmarterRetail2 :where(span, b, strong, em, i),
+
+.retailAndHealthCare .benefitsForRetail :where(span, b, strong, em, i),
+
+.retailAndHealthCare .smarterHealthcareLearning :where(span, b, strong, em, i),
+
+.retailAndHealthCare .empoweringHealthcareOrganiza :where(span, b, strong, em, i),
+
+.retailAndHealthCare .benefitsForHealthcare :where(span, b, strong, em, i),
+
+.retailAndHealthCare .poweringLearningFor :where(span, b, strong, em, i),
+
+.retailAndHealthCare .selectableBadgeText :where(span, b, strong, em, i),
+
+.retailAndHealthCare .requestDemoWrapper :where(span, b, strong, em, i),
+
+.retailAndHealthCare .frameWrapper2 :where(span, b, strong, em, i),
+
+.retailAndHealthCare .frameWrapper14 :where(span, b, strong, em, i),
+
+.retailAndHealthCare .talentRetention :where(span, b, strong, em, i),
+
+.retailAndHealthCare .productKnowledge :where(span, b, strong, em, i),
+
+.retailAndHealthCare .distributedStores :where(span, b, strong, em, i),
+
+.retailAndHealthCare .consistentTraining :where(span, b, strong, em, i),
+
+.retailAndHealthCare .betterCustomerExperience :where(span, b, strong, em, i),
+
+.retailAndHealthCare .quickOnboarding :where(span, b, strong, em, i),
+
+.retailAndHealthCare .continuousDevelopment :where(span, b, strong, em, i),
+
+.retailAndHealthCare .performanceTracking :where(span, b, strong, em, i),
+
+.retailAndHealthCare .complianceAndCertification :where(span, b, strong, em, i),
+
+.retailAndHealthCare .continuousMedicalEducation :where(span, b, strong, em, i),
+
+.retailAndHealthCare .largeHealthcareTeams :where(span, b, strong, em, i),
+
+.retailAndHealthCare .complianceTraining :where(span, b, strong, em, i),
+
+.retailAndHealthCare .professionalDevelopment :where(span, b, strong, em, i),
+
+.retailAndHealthCare .betterPatientCare :where(span, b, strong, em, i),
+
+.retailAndHealthCare .certificationTracking :where(span, b, strong, em, i),
+
+.retailAndHealthCare .scalableProgrammes :where(span, b, strong, em, i),
+
+.retailAndHealthCare .k :where(span, b, strong, em, i),
+
+.retailAndHealthCare .b :where(span, b, strong, em, i),
+
+.retailAndHealthCare .b2 :where(span, b, strong, em, i),
+
+.retailAndHealthCare .retailLocations :where(span, b, strong, em, i),
+
+.retailAndHealthCare .healthcareFacilities :where(span, b, strong, em, i),
+
+.retailAndHealthCare .trainedEmployees :where(span, b, strong, em, i),
+
+.retailAndHealthCare .averageRating :where(span, b, strong, em, i) {
+
+  font-family: inherit;
+
+  font-size: inherit;
+
+  font-weight: inherit;
+
+  font-style: inherit;
+
+  line-height: inherit;
+
+  letter-spacing: inherit;
+
+}
+
+/* Body spans share body metrics; intentional bold emphasis stays bold. */
+
+.retailAndHealthCare .neurolxpEnablesSmarter :where(span),
+
+.retailAndHealthCare .retailTeamsNeed :where(span),
+
+.retailAndHealthCare .neurolxpEnablesFaster :where(span),
+
+.retailAndHealthCare .neurolxpEnablesSmarter2 :where(span),
+
+.retailAndHealthCare .healthcareOrganizationsNeed :where(span),
+
+.retailAndHealthCare .healthcareOrganizationsNeed2 :where(span),
+
+.retailAndHealthCare .neurolxpHelpsRetail :where(span),
+
+.retailAndHealthCare .retailCardDropdown :where(span) {
+
+  font-family: inherit;
+
+  font-size: inherit;
+
+  line-height: inherit;
+
+  letter-spacing: inherit;
+
+}
+
+/* =========================================================
+   TALK TO OUR EXPERT — HEALTHCARE SECTION ANCHOR
+   The slot is absolutely positioned so it does not occupy
+   a grid column or change the existing section alignment.
+   ========================================================= */
+
+.retailAndHealthCare .frameParent23 {
+  position: relative;
+}
+
+.retailAndHealthCare .expertButtonSlot {
+  position: absolute;
+  top: 0%;
+  right: 16px;
+  bottom: auto;
+  left: auto;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-50%);
+  z-index: 20;
+  pointer-events: auto;
+}
+
+@media (max-width: 1100px) {
+  .retailAndHealthCare .expertButtonSlot {
+    top: 32px;
+    right: 12px;
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .retailAndHealthCare .expertButtonSlot {
+    top: -60px;
+    right: -10px;
+  }
+}
+
+/* ==========================================
+   LABEL, HEADING & DESCRIPTION SPACING
+   Retail Excellence / Retail Benefits /
+   Healthcare Excellence / NeuroLXP
+========================================== */
+
+/* Retail Excellence – Retail section */
+.frameParent14 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+/* Retail Benefits */
+.frameParent16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+/* Retail Excellence – Healthcare section */
+.frameParent28 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+/* NeuroLXP – Final section */
+.frameParent36 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+/* Remove extra spacing from badge itself */
+.frameParent14 > .selectableBadgeText,
+.frameParent16 > .selectableBadgeText,
+.frameParent28 > .selectableBadgeText,
+.frameParent36 > .selectableBadgeText {
+  margin-bottom: 0;
+}
+/* Last section: heading to description */
+.retailFinalVideoContent .frameParent4 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* First Section – Retail & Healthcare Solutions */
+.frameParent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+/* Space between heading and description */
+.frameParent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+/* Remove extra badge spacing */
+.frameParent5 > .selectableBadgeText {
+  margin-bottom: 0;
+}
+
+.neuroLxpTM {
+  position: relative;
+  top: -7px;
+  margin-left: 2px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: baseline;
+  color: #2D4CC8;
+}
+
+
+.retailFinalVideo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+}
+
