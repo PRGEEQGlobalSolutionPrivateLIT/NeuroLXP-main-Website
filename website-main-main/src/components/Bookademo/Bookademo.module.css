@@ -7867,3 +7867,647 @@ svg
     max-width: 148px !important;
   }
 }
+
+
+/* Lead-source dropdown: reuses the existing neumorphic field design. */
+.book-demo-lead-source-dropdown {
+  width: 100%;
+  height: 54px;
+  min-height: 54px;
+}
+
+.book-demo-lead-source-dropdown .book-demo-custom-dropdown-trigger {
+  height: 100%;
+  min-height: 54px;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 16px;
+  padding-right: 36px;
+}
+
+.book-demo-modal-dialog .book-demo-lead-source-dropdown {
+  height: 36px;
+  min-height: 36px;
+}
+
+.book-demo-modal-dialog .book-demo-lead-source-dropdown .book-demo-custom-dropdown-trigger {
+  height: 36px;
+  min-height: 36px;
+  max-height: 36px;
+  font-size: 12px;
+  line-height: 17px;
+  padding-left: 9px;
+  padding-right: 29px;
+}
+
+.book-demo-modal-dialog .book-demo-lead-source-dropdown .book-demo-custom-dropdown-menu {
+  width: 100%;
+  min-width: 0;
+  max-height: 190px;
+  z-index: 10070;
+}
+
+
+/* ================================================================
+   Book a Demo: compact Organization Name + lead source below it.
+   Only the right-hand group is adjusted; left fields are unchanged.
+   ================================================================ */
+.book-demo-modal-dialog .book-demo-organization-column {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  gap: 10px !important;
+  height: auto !important;
+  align-self: start !important;
+}
+
+.book-demo-modal-dialog .book-demo-organization-column > .book-demo-field {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  flex: 0 0 auto !important;
+}
+
+.book-demo-modal-dialog .book-demo-organization-column .book-demo-input-wrap {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 42px !important;
+  min-height: 42px !important;
+  max-height: 42px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 0 10px !important;
+}
+
+.book-demo-modal-dialog .book-demo-organization-column .book-demo-input-icon {
+  align-self: center !important;
+  margin: 0 !important;
+  flex: 0 0 26px !important;
+}
+
+.book-demo-modal-dialog .book-demo-organization-column textarea.book-demo-organization-textarea {
+  display: block !important;
+  flex: 1 1 auto !important;
+  align-self: center !important;
+  width: 100% !important;
+  height: 23px !important;
+  min-height: 23px !important;
+  max-height: 23px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  resize: none !important;
+  overflow-y: auto !important;
+  font-size: 12px !important;
+  line-height: 23px !important;
+}
+
+.book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown {
+  width: 100% !important;
+  height: 42px !important;
+  min-height: 42px !important;
+}
+
+.book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown .book-demo-custom-dropdown-trigger {
+  height: 42px !important;
+  min-height: 42px !important;
+  max-height: 42px !important;
+}
+
+.book-demo-lead-source-dropdown .book-demo-custom-dropdown-option {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.book-demo-source-radio {
+  display: inline-flex;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  border: 1.5px solid #2d4cc8;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: #dfe6e9;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-demo-source-radio-checked::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #2d4cc8;
+}
+
+@media (max-width: 768px) {
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-input-wrap {
+    height: 42px !important;
+    min-height: 42px !important;
+    max-height: 42px !important;
+  }
+}
+
+/* Ensure the compact text box wins over the older full-height textarea rule. */
+.book-demo-modal-dialog
+  .book-demo-organization-column
+  textarea.book-demo-textarea.book-demo-organization-textarea {
+  height: 23px !important;
+  min-height: 23px !important;
+  max-height: 23px !important;
+  align-self: center !important;
+  padding: 0 !important;
+  line-height: 23px !important;
+}
+
+
+/* ================================================================
+   Book a Demo — right-side alignment and lead-source radio only.
+   Keep the left column, existing form structure and interactions.
+   ================================================================ */
+@media (min-width: 769px) {
+  /* Match the Full Name / Phone input heights (48px). */
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-input-wrap,
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown,
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown .book-demo-custom-dropdown-trigger {
+    height: 48px !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Make the two right-hand label/field pairs use the same rhythm as the left. */
+  .book-demo-modal-dialog .book-demo-organization-column {
+    gap: 10px !important;
+    align-self: start !important;
+  }
+
+  .book-demo-modal-dialog .book-demo-organization-column > .book-demo-field {
+    gap: 8px !important;
+    flex: 0 0 auto !important;
+    height: auto !important;
+  }
+}
+
+/* Organization name is a normal centered field, not the earlier tall text box. */
+.book-demo-modal-dialog .book-demo-organization-column .book-demo-input-wrap {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  overflow: visible !important;
+}
+
+.book-demo-modal-dialog .book-demo-organization-column .book-demo-input-icon {
+  align-self: center !important;
+  margin-top: 0 !important;
+}
+
+.book-demo-modal-dialog .book-demo-organization-column textarea.book-demo-textarea.book-demo-organization-textarea {
+  align-self: center !important;
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  height: 24px !important;
+  min-height: 24px !important;
+  max-height: 24px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 24px !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  resize: none !important;
+}
+
+/* Both right-hand fields use the same inset neumorphic surface. */
+.book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown .book-demo-custom-dropdown-trigger {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  background: #dfe6e9 !important;
+  border-radius: 5px !important;
+  box-shadow: inset 4px 4px 4px #c4c4c4,
+              inset -4px -4px 4px #ffffff !important;
+}
+
+/* Raised/recessed blue single-choice indicators in the dropdown list. */
+.book-demo-modal-dialog .book-demo-lead-source-dropdown .book-demo-custom-dropdown-option {
+  display: flex !important;
+  align-items: center !important;
+  gap: 11px !important;
+  min-height: 36px !important;
+}
+
+.book-demo-modal-dialog .book-demo-lead-source-dropdown .book-demo-source-radio {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0 0 18px !important;
+  width: 18px !important;
+  height: 18px !important;
+  border: 1px solid #2d4cc8 !important;
+  border-radius: 50% !important;
+  background: #dfe6e9 !important;
+  box-shadow: inset 2px 2px 3px rgba(196,196,196,0.85),
+              inset -2px -2px 3px rgba(255,255,255,0.95) !important;
+  box-sizing: border-box !important;
+}
+
+.book-demo-modal-dialog .book-demo-lead-source-dropdown .book-demo-source-radio-checked {
+  box-shadow: 2px 2px 3px #c4c4c4,
+              -2px -2px 3px #ffffff !important;
+}
+
+.book-demo-modal-dialog .book-demo-lead-source-dropdown .book-demo-source-radio-checked::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #2d4cc8;
+}
+
+/* On tablet/phone the right fields match the existing compact input height. */
+@media (max-width: 768px) {
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-input-wrap,
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown,
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown .book-demo-custom-dropdown-trigger {
+    height: 46px !important;
+    min-height: 46px !important;
+    max-height: 46px !important;
+  }
+
+  .book-demo-modal-dialog .book-demo-organization-column > .book-demo-field {
+    gap: 6px !important;
+    height: auto !important;
+  }
+}
+
+/* ========================================================================
+   REQUESTED ONLY — DATE/TIME FIELD HEIGHT + SOURCE BLUE HOVER
+   The date/time outer shell matches the 48px desktop input fields, while
+   its internal controls remain a single uninterrupted neumorphic field.
+   ======================================================================== */
+@media (min-width: 769px) {
+  .book-demo-modal-dialog
+    .book-demo-contact-schedule-left
+    .book-demo-datetime-row.book-demo-datetime-single-field,
+  .book-demo-modal-dialog
+    .book-demo-contact-schedule-left
+    .book-demo-datetime-single-field > .book-demo-date-wrap,
+  .book-demo-modal-dialog
+    .book-demo-contact-schedule-left
+    .book-demo-datetime-single-field .book-demo-date-trigger,
+  .book-demo-modal-dialog
+    .book-demo-contact-schedule-left
+    .book-demo-datetime-single-field > .book-demo-time-wrap,
+  .book-demo-modal-dialog
+    .book-demo-contact-schedule-left
+    .book-demo-datetime-single-field .book-demo-time-picker {
+    height: 48px !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* Keep the mobile/tablet date-time shell level with the 46px form inputs. */
+@media (max-width: 768px) {
+  .book-demo-modal-dialog
+    .book-demo-datetime-row.book-demo-datetime-single-field,
+  .book-demo-modal-dialog
+    .book-demo-datetime-single-field > .book-demo-date-wrap,
+  .book-demo-modal-dialog
+    .book-demo-datetime-single-field .book-demo-date-trigger,
+  .book-demo-modal-dialog
+    .book-demo-datetime-single-field > .book-demo-time-wrap,
+  .book-demo-modal-dialog
+    .book-demo-datetime-single-field .book-demo-time-picker {
+    height: 46px !important;
+    min-height: 46px !important;
+    max-height: 46px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* Same blue hover / keyboard-focus highlight as the other form fields. */
+@media (hover: hover) and (pointer: fine) {
+  .book-demo-modal-dialog
+    .book-demo-organization-column
+    .book-demo-lead-source-dropdown:hover
+    .book-demo-custom-dropdown-trigger {
+    outline: 1px solid #2d4cc8 !important;
+    outline-offset: 2px !important;
+  }
+}
+
+.book-demo-modal-dialog
+  .book-demo-organization-column
+  .book-demo-lead-source-dropdown:focus-within
+  .book-demo-custom-dropdown-trigger {
+  outline: 1px solid #2d4cc8 !important;
+  outline-offset: 2px !important;
+}
+
+
+/* ========================================================================== 
+   MOBILE ONLY — SOURCE DROPDOWN OPENS IN THE FORM FLOW
+   Keep the desktop dropdown unchanged. On mobile, its options expand below
+   the Source trigger, pushing Phone/Date/Message down instead of covering them.
+   ========================================================================== */
+@media (max-width: 768px) {
+  /* The lead-source field must be allowed to grow while the menu is visible. */
+  .book-demo-modal-dialog .book-demo-organization-column,
+  .book-demo-modal-dialog .book-demo-organization-column > .book-demo-field {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 46px !important;
+    max-height: none !important;
+    overflow: visible !important;
+    box-sizing: border-box !important;
+  }
+
+  /* The closed trigger retains the original 46px field size. */
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown > .book-demo-custom-dropdown-trigger {
+    flex: 0 0 46px !important;
+    width: 100% !important;
+    height: 46px !important;
+    min-height: 46px !important;
+    max-height: 46px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Override absolute / upward placement for this menu on mobile only. */
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown > .book-demo-custom-dropdown-menu,
+  .book-demo-modal-dialog .book-demo-organization-column .book-demo-lead-source-dropdown > .book-demo-custom-dropdown-menu-up {
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: min(220px, 35dvh) !important;
+    margin: 7px 0 0 !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    box-sizing: border-box !important;
+    z-index: 1 !important;
+  }
+
+  /* Other form rows remain below the expanded source options. */
+  .book-demo-modal-dialog .book-demo-contact-schedule-layout {
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
+
+/* Book a Demo success popup: 5-second display is handled by the TSX.
+   Only this notification is styled; existing form CSS above is unchanged. */
+.book-demo-success-popup {
+  position: fixed;
+  z-index: 2147483647;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(440px, calc(100vw - 32px));
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border: 0;
+  border-radius: 16px;
+  background: #dfe6e9;
+  box-shadow: -8px -8px 16px #fff, 8px 8px 16px #c6c6c9;
+  color: #31344b;
+  font-family: "Segoe UI", sans-serif;
+  overflow: visible;
+  animation: book-demo-success-appear 420ms ease-out both;
+}
+.book-demo-success-symbol {
+  position: relative;
+  isolation: isolate;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2d4cc8, #8954d7 48%, #22b88a);
+  box-shadow: 4px 4px 9px rgba(100, 104, 124, .28), -4px -4px 9px #fff;
+  animation: book-demo-success-icon-bounce 780ms cubic-bezier(.2, 1.5, .35, 1) both;
+}
+/* Radial confetti bursts from around the tick; no extra markup or libraries. */
+.book-demo-success-symbol::before,
+.book-demo-success-symbol::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(.25) rotate(0deg);
+}
+.book-demo-success-symbol::before {
+  background:
+    radial-gradient(circle, #2d4cc8 0 4px, transparent 4.5px) 50% 0 / 12px 12px no-repeat,
+    radial-gradient(circle, #bf1869 0 3px, transparent 3.5px) 100% 20% / 10px 10px no-repeat,
+    radial-gradient(circle, #22b88a 0 4px, transparent 4.5px) 100% 78% / 12px 12px no-repeat,
+    radial-gradient(circle, #c05512 0 3px, transparent 3.5px) 50% 100% / 10px 10px no-repeat,
+    radial-gradient(circle, #8954d7 0 4px, transparent 4.5px) 0 80% / 12px 12px no-repeat,
+    radial-gradient(circle, #2d4cc8 0 3px, transparent 3.5px) 0 20% / 10px 10px no-repeat;
+  animation: book-demo-success-confetti 1000ms 330ms ease-out both;
+}
+.book-demo-success-symbol::after {
+  background:
+    radial-gradient(circle, #25b68d 0 3px, transparent 3.5px) 20% 0 / 10px 10px no-repeat,
+    radial-gradient(circle, #d34f9d 0 3px, transparent 3.5px) 82% 0 / 10px 10px no-repeat,
+    radial-gradient(circle, #f2a442 0 3px, transparent 3.5px) 100% 50% / 10px 10px no-repeat,
+    radial-gradient(circle, #2d4cc8 0 3px, transparent 3.5px) 80% 100% / 10px 10px no-repeat,
+    radial-gradient(circle, #8954d7 0 3px, transparent 3.5px) 20% 100% / 10px 10px no-repeat,
+    radial-gradient(circle, #25b68d 0 3px, transparent 3.5px) 0 50% / 10px 10px no-repeat;
+  animation: book-demo-success-confetti 1050ms 460ms ease-out both;
+}
+.book-demo-success-symbol svg {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+  filter: drop-shadow(0 2px 2px rgba(49,52,75,.18));
+  animation: book-demo-success-check 520ms 390ms cubic-bezier(.2,1.6,.3,1) both;
+}
+.book-demo-success-copy { flex: 1; min-width: 0; }
+.book-demo-success-copy strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #2d4cc8;
+}
+.book-demo-success-copy p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@keyframes book-demo-success-appear {
+  from { opacity: 0; transform: translate(-50%, -14px) scale(.96); }
+  to { opacity: 1; transform: translate(-50%, 0) scale(1); }
+}
+@keyframes book-demo-success-icon-bounce {
+  0% { opacity: 0; transform: scale(.25) rotate(-28deg); }
+  60% { opacity: 1; transform: scale(1.22) rotate(7deg); }
+  80% { transform: scale(.92) rotate(-3deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+@keyframes book-demo-success-check {
+  0% { opacity: 0; transform: scale(.2) rotate(-28deg); }
+  65% { opacity: 1; transform: scale(1.25) rotate(5deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+@keyframes book-demo-success-confetti {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(.25) rotate(-18deg); }
+  28% { opacity: 1; }
+  72% { opacity: 1; }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(1.55) rotate(16deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .book-demo-success-popup,
+  .book-demo-success-symbol,
+  .book-demo-success-symbol::before,
+  .book-demo-success-symbol::after,
+  .book-demo-success-symbol svg { animation: none; }
+  .book-demo-success-symbol::before,
+  .book-demo-success-symbol::after { display: none; }
+}
+
+/* MOBILE ONLY — place Preferred Demo Date above Preferred Time.
+   Keep the desktop single-field layout and all other form styles unchanged. */
+@media (max-width: 768px) {
+  .book-demo-modal-dialog .book-demo-datetime-row.book-demo-datetime-single-field {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+    align-items: stretch !important;
+    gap: 9px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+  }
+
+  .book-demo-modal-dialog .book-demo-datetime-single-field > .book-demo-date-wrap,
+  .book-demo-modal-dialog .book-demo-datetime-single-field > .book-demo-time-wrap {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    height: 46px !important;
+    min-height: 46px !important;
+    max-height: 46px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    border: 0 !important;
+    border-radius: 8px !important;
+    background: #dfe6e9 !important;
+    box-shadow: inset -4px -4px 8px #ffffff,
+                inset 4px 4px 8px rgba(196, 196, 196, 0.8) !important;
+  }
+
+  .book-demo-modal-dialog .book-demo-datetime-single-field > .book-demo-date-wrap {
+    position: relative !important;
+  }
+
+  .book-demo-modal-dialog .book-demo-datetime-single-field .book-demo-date-trigger {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 46px !important;
+    min-height: 46px !important;
+    max-height: 46px !important;
+    padding: 0 10px !important;
+    box-sizing: border-box !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+  }
+
+  .book-demo-modal-dialog .book-demo-datetime-single-field .book-demo-date-display {
+    display: block !important;
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    width: auto !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .book-demo-modal-dialog .book-demo-datetime-single-field > .book-demo-time-wrap {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 8px !important;
+    grid-template-columns: none !important;
+    padding: 0 10px !important;
+    border-left: 0 !important;
+  }
+
+  .book-demo-modal-dialog .book-demo-datetime-single-field .book-demo-time-picker {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) 10px minmax(0, 1fr) !important;
+    align-items: center !important;
+    column-gap: 6px !important;
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 46px !important;
+    min-height: 46px !important;
+    max-height: 46px !important;
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+}
+
+/* Mobile only: breathing room around the Preferred Demo Date and Time label. */
+@media (max-width: 768px) {
+  .book-demo-modal-dialog .book-demo-field:has(> .book-demo-datetime-single-field) {
+    margin-top: 10px !important;
+    gap: 8px !important;
+  }
+}

@@ -28,11 +28,11 @@ export default function TermsAcceptanceDeclaration() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    1.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <p>
+                    <p><b>1. </b> 
                       I have carefully read, fully understood, and voluntarily
                       agree to be bound by the Terms and Conditions of{" "}
                       <strong>
@@ -48,11 +48,11 @@ export default function TermsAcceptanceDeclaration() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    2.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <p>
+                    <p><b>2. </b>
                       I acknowledge that this acceptance constitutes a{" "}
                       <strong>legally binding agreement</strong> enforceable
                       under applicable laws.
@@ -65,11 +65,11 @@ export default function TermsAcceptanceDeclaration() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    3.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <p>
+                    <p><b>3. </b>
                       I agree to comply with all obligations, restrictions, and
                       responsibilities outlined in the Terms.
                     </p>
@@ -81,11 +81,11 @@ export default function TermsAcceptanceDeclaration() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    4.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <p>I understand that:</p>
+                    <p><b>4. </b>I understand that:</p>
 
                     <ul className={styles["tad-sub-list"]}>
                       <li>
@@ -105,11 +105,11 @@ export default function TermsAcceptanceDeclaration() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    5.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <p>Payment Awareness and Risk Acknowledgment</p>
+                    <p><b>5. </b>Payment Awareness and Risk Acknowledgment</p>
 
                     <ul className={styles["tad-sub-list"]}>
                       <li>
@@ -136,11 +136,11 @@ export default function TermsAcceptanceDeclaration() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    6.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <p>Cyber Risk Acknowledgment:</p>
+                    <p><b>6. </b>Cyber Risk Acknowledgment:</p>
 
                     <ul className={styles["tad-sub-list"]}>
                       <li>
@@ -163,11 +163,11 @@ export default function TermsAcceptanceDeclaration() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    7.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <p>
+                    <p><b>7. </b>
                       I consent to electronic record-keeping of this acceptance,
                       including timestamp, IP address, and system logs, as valid
                       legal evidence.

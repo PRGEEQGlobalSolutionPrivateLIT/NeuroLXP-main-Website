@@ -2984,15 +2984,14 @@ export default function BfsiPage() {
 
 
 
-
-
-
-          <Image src="/images/business-advisor-giving-his-opinion 1.png" alt="Rupee symbol with an ascending growth chart representing BFSI training returns" fill sizes="(max-width: 1024px) 100vw, 1280px" className={styles["bfsi-stat-photo"]} style={{ objectPosition: "75% 40%" }} />
-
-
-
-
-
+<Image
+  src="/images/rupees.png"
+  alt="Future-Ready BFSI Training"
+  fill
+  priority
+  sizes="(max-width: 1024px) 100vw, 1280px"
+  className={styles["bfsi-stat-photo"]}
+/>
 
 
           <div className={styles["bfsi-stat-shadow-overlay"]} />
@@ -3098,7 +3097,7 @@ export default function BfsiPage() {
 
 
 
-            <span>Organization Benefit</span>
+            <span>Organization Benefits</span>
 
 
 
@@ -3114,7 +3113,7 @@ export default function BfsiPage() {
 
 
 
-          <h2 className={styles["bfsi-benefits-heading"]}>Benefits of NeuroLXP for BFSI <span style={{ color: "#2D4CC8" }}>Organisations</span></h2>
+          <h2 className={styles["bfsi-benefits-heading"]}>Benefits of NeuroLXP for BFSI <span style={{ color: "#2D4CC8" }}>Organization</span></h2>
 
 
 

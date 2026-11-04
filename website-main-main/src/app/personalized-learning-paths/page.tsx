@@ -576,7 +576,7 @@ const benefitTabs: BenefitTab[] = [
 
     imageStyle: "cover",
 
-    photo: "/images/handsome-male-student.webp",
+    photo: "/images/educational_institute.png",
 
     photoAlt: "Three students walking down campus steps",
 
@@ -592,7 +592,7 @@ const benefitTabs: BenefitTab[] = [
 
     imageStyle: "cover",
 
-    photo: "/images/cheerful-speaker-talking-looking-distance 1.webp",
+    photo: "/images/training_organization.png",
 
     photoAlt: "Corporate trainer presenting to a seated group in an office",
 

@@ -21,6 +21,7 @@ type BookDemoRequest = {
   demoTime: string;
   message?: string;
   consent: boolean;
+  leadSource?: string;
 };
 
 type ContactUsRequest = {
@@ -31,6 +32,7 @@ type ContactUsRequest = {
   subject: string;
   message: string;
   consent: boolean;
+  leadSource?: string;
 };
 
 type TalkToExpertRequest = {
@@ -41,6 +43,7 @@ type TalkToExpertRequest = {
   interest: string;
   query: string;
   consent: boolean;
+  leadSource?: string;
 };
 
 @Controller('email')
@@ -51,7 +54,7 @@ export class EmailController {
     private readonly emailService: EmailService,
   ) {}
 
-  // Existing Book a Demo API - unchanged
+  // Existing Book a Demo API
   @Post('book-demo')
   async submitBookDemo(
     @Body() body: BookDemoRequest,
@@ -93,6 +96,10 @@ export class EmailController {
         message:
           typeof body.message === 'string'
             ? body.message.trim()
+            : '',
+        leadSource:
+          typeof body.leadSource === 'string'
+            ? body.leadSource.trim()
             : '',
       });
 
@@ -149,6 +156,10 @@ export class EmailController {
         subject: body.subject.trim(),
         message: body.message.trim(),
         consent: body.consent,
+        leadSource:
+          typeof body.leadSource === 'string'
+            ? body.leadSource.trim()
+            : '',
       });
 
       this.logger.log(
@@ -175,7 +186,7 @@ export class EmailController {
     }
   }
 
-  // New Talk to Our Expert API
+  // Existing Talk to Our Expert API
   @Post('talk-to-expert')
   async submitTalkToExpert(
     @Body() body: TalkToExpertRequest,
@@ -213,6 +224,10 @@ export class EmailController {
         interest: body.interest.trim(),
         query: body.query.trim(),
         consent: body.consent,
+        leadSource:
+          typeof body.leadSource === 'string'
+            ? body.leadSource.trim()
+            : '',
       });
 
       this.logger.log(

@@ -461,10 +461,6 @@ const toggleFutureReadyVideo = () => {
             <div className={styles.frameParent7}>
 
               <div className={styles.idealForBadge}>Ideal For</div>
-              <div
-                className={styles.idealForExpertButtonSlot}
-                data-expert-button-slot
-              />
 
               <div className={styles.addressingKeyChallengesInEParent}>
 
@@ -714,7 +710,7 @@ const toggleFutureReadyVideo = () => {
     <iframe
         ref={futureReadyVideoRef}
         className={styles.futureReadyVideo}
-        src="https://www.youtube.com/embed/fWkMcYOd73c?autoplay=1&mute=1&loop=1&playlist=fWkMcYOd73c&playsinline=1&controls=0&enablejsapi=1"
+        src="https://www.youtube.com/embed/uNLA7vr1tTE?autoplay=1&mute=1&loop=1&playlist=uNLA7vr1tTE&playsinline=1&controls=0&enablejsapi=1"
         title="Future Ready Video"
         loading="eager"
         allow="autoplay; encrypted-media; picture-in-picture"
@@ -732,6 +728,12 @@ const toggleFutureReadyVideo = () => {
           <div className={styles.image20} />
 
         </div>
+
+        <div
+          className={styles.expertBottomAnchor}
+          data-expert-button-slot
+          aria-label="Talk to Our Expert button placement"
+        />
 
       </main>
 

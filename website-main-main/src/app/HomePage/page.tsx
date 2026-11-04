@@ -22,14 +22,14 @@ type HeroSlide = (
 ) & { mobileLines: readonly [string, string] };
 
 const heroSlides: HeroSlide[] = [
-  { id: 1, type: "image", image: "/images/brainstorm-meeting-old.webp", heading: "Empowering Lifelong Learning", mobileLines: ["Empowering", "Lifelong Learning"] },
-  { id: 2, type: "image", image: "/images/student-online-young-cute-girl-glasses-orange-sweater-studying-computer-with-headphones.webp", heading: "Built for Education That Goes Beyond Classroom", mobileLines: ["Built for Education That", "Goes Beyond Classroom"] },
+  { id: 1, type: "image", image: "/images/Copy of brainstorm-meeting.png", heading: "Empowering Lifelong Learning", mobileLines: ["Empowering", "Lifelong Learning"] },
+  { id: 2, type: "image", image: "/images/Copy of student-online-young-cute-girl-glasses-orange-sweater-studying-computer-with-headphones.png", heading: "Built for Education That Goes Beyond Classroom", mobileLines: ["Built for Education That", "Goes Beyond Classroom"] },
 { id: 3, type: "video", src: "/images/Home-spark.mp4", heading: "Every Question Leads to Growth", mobileLines: ["Every Question", "Leads to Growth"] },
-  { id: 4, type: "image", image: "/images/Organisation-old.jpeg", heading: "Beyond the Classroom, Beyond Limits", mobileLines: ["Beyond the Classroom,", "Beyond Limits"] },
-  { id: 5, type: "image", image: "/images/Gratuation-old.jpeg", heading: "Designed for Minds That Refuse to Average", mobileLines: ["Designed for Minds", "That Refuse to Average"] },
+  { id: 4, type: "image", image: "/images/Copy of business-people-using-tablet-office-4 1.png", heading: "Beyond the Classroom, Beyond Limits", mobileLines: ["Beyond the Classroom,", "Beyond Limits"] },
+  { id: 5, type: "image", image: "/images/Copy of college-graduates-smiling-camera copy.png", heading: "Designed for Minds That Refuse to Average", mobileLines: ["Designed for Minds", "That Refuse to Average"] },
   { id: 6, type: "video", src: "/images/hero-video2.mp4", heading: "Where Great Ideas Take Shape Together", mobileLines: ["Where Great Ideas", "Take Shape Together"] },
-  { id: 7, type: "image", image: "/images/group-different-people-volunteering-foodbank-old1.webp", heading: "Reimagine How the World Learns", mobileLines: ["Reimagine How", "the World Learns"] },
-  { id: 8, type: "image", image: "/images/portrait-school-girls-with-books-park-old.webp", heading: "Transform the Way the World Learns", mobileLines: ["Transform the Way", "the World Learns"] },
+  { id: 7, type: "image", image: "/images/Copy of Frame 2095588839.png", heading: "Reimagine How the World Learns", mobileLines: ["Reimagine How", "the World Learns"] },
+  { id: 8, type: "image", image: "/images/Copy of portrait-school-girls-with-books-park.png", heading: "Transform the Way the World Learns", mobileLines: ["Transform the Way", "the World Learns"] },
 ];
 
 function ChevronsLeftIcon({ className }: { className?: string }) {
@@ -510,7 +510,7 @@ const storyMissionVisionCards: StoryMissionVisionCardData[] = [
     id: 1,
     title: "Our Story",
     description: "NeuroLXP transforms learning with an intelligent platform for future ready digital skills",
-    image: "/images/interested-coworkers-with-new-project-old.webp",
+    image: "/images/Copy of finger-pointing-bulb-draw.png",
     accentColor: "#2D4CC8",
     Icon: BookOpenIcon,
   },
@@ -518,7 +518,7 @@ const storyMissionVisionCards: StoryMissionVisionCardData[] = [
     id: 2,
     title: "Our Mission",
     description: "Intelligent learning and skilling for measurable, future ready success across learners and organizations",
-    image: "/images/interested-coworkers-project-old.webp",
+    image: "/images/Copy of success-concept-target-book.png",
     accentColor: "#2A7308",
     Icon: GoalIcon,
   },
@@ -526,7 +526,7 @@ const storyMissionVisionCards: StoryMissionVisionCardData[] = [
     id: 3,
     title: "Our Vision",
     description: "A digital learning ecosystem shaping lifelong learning through innovation and inclusive growth",
-    image: "/images/coworkers-interested-old.webp",
+    image: "/images/Copy of 30747 1.png",
     accentColor: "#67096E",
     Icon: EyeIcon,
   },
@@ -622,15 +622,91 @@ function StoryMissionVision() {
 }
 
 const platformOverviewItems = [
-     { id: 1, label: "Universities", title: "Shaping future graduates", color: "#2D4CC8", Icon: GraduationCapOutlineIcon },
-  { id: 2, label: "Colleges", title: "Building career pathways", color: "#861109", Icon: UniversityIcon },
-  { id: 3, label: "Corporates", title: <>Empowering <span style={{ whiteSpace: "nowrap" }}>future-ready</span> teams</>, color: "#67096E", Icon: BuildingIcon },
-  { id: 4, label: "NGOs", title: "Driving meaningful social impact", color: "#BF1869", Icon: HandshakeIcon },
-  { id: 5, label: "Governments", title: "Future ready workforce skilling", color: "#2A7308", Icon: LandmarkIcon },
-  { id: 6, label: "Individuals", title: "Unlocking career opportunities", color: "#0B9BA0", Icon: UserIcon },
+  { id: 1, label: "Universities", color: "#2D4CC8", Icon: GraduationCapOutlineIcon },
+  { id: 2, label: "Colleges", color: "#861109", Icon: UniversityIcon },
+  { id: 3, label: "Corporates", color: "#67096E", Icon: BuildingIcon },
+  { id: 4, label: "NGOs", color: "#BF1869", Icon: HandshakeIcon },
+  { id: 5, label: "Governments", color: "#2A7308", Icon: LandmarkIcon },
+  { id: 6, label: "Individuals", color: "#0B9BA0", Icon: UserIcon },
 ];
 
+type EmbeddedYouTubePlayer = {
+  playVideo: () => void;
+  seekTo: (seconds: number, allowSeekAhead: boolean) => void;
+  mute: () => void;
+  destroy: () => void;
+};
+
+type EmbeddedYouTubeAPI = {
+  Player: new (
+    element: HTMLIFrameElement,
+    options: {
+      events: {
+        onReady: (event: { target: EmbeddedYouTubePlayer }) => void;
+        onStateChange: (event: { data: number; target: EmbeddedYouTubePlayer }) => void;
+      };
+    }
+  ) => EmbeddedYouTubePlayer;
+  PlayerState: { ENDED: number };
+};
+
 function PlatformOverview() {
+  const youtubeFrameRef = useRef<HTMLIFrameElement | null>(null);
+
+  useEffect(() => {
+    let disposed = false;
+    let player: EmbeddedYouTubePlayer | null = null;
+    const youtubeWindow = window as typeof window & {
+      YT?: EmbeddedYouTubeAPI;
+      onYouTubeIframeAPIReady?: () => void;
+    };
+    const previousReady = youtubeWindow.onYouTubeIframeAPIReady;
+
+    const initializePlayer = () => {
+      if (disposed || player || !youtubeFrameRef.current || !youtubeWindow.YT?.Player) return;
+      const api = youtubeWindow.YT;
+      player = new api.Player(youtubeFrameRef.current, {
+        events: {
+          onReady: ({ target }) => {
+            if (disposed) return;
+            target.mute();
+            target.playVideo();
+          },
+          onStateChange: ({ data, target }) => {
+            if (disposed || data !== api.PlayerState.ENDED) return;
+            // Restart the same player in place rather than reloading the iframe.
+            target.seekTo(0, true);
+            target.playVideo();
+          },
+        },
+      });
+    };
+
+    if (youtubeWindow.YT?.Player) {
+      initializePlayer();
+    } else {
+      const readyHandler = () => {
+        previousReady?.();
+        initializePlayer();
+      };
+      youtubeWindow.onYouTubeIframeAPIReady = readyHandler;
+      if (!document.querySelector('script[src="https://www.youtube.com/iframe_api"]')) {
+        const script = document.createElement("script");
+        script.src = "https://www.youtube.com/iframe_api";
+        script.async = true;
+        document.head.appendChild(script);
+      }
+    }
+
+    return () => {
+      disposed = true;
+      player?.destroy();
+      if (youtubeWindow.onYouTubeIframeAPIReady !== previousReady) {
+        youtubeWindow.onYouTubeIframeAPIReady = previousReady;
+      }
+    };
+  }, []);
+
   const sectionRef = useRef<HTMLElement | null>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -661,12 +737,13 @@ function PlatformOverview() {
 
 <div className={styles["platform-overview-frame"]}>
   <iframe
+    ref={youtubeFrameRef}
     className={styles["platform-overview-video"]}
-    src="https://www.youtube.com/embed/nCheHJs0_QI?autoplay=1&mute=1&loop=1&playlist=nCheHJs0_QI&playsinline=1&controls=0"
+    src="https://www.youtube.com/embed/nCheHJs0_QI?autoplay=1&mute=1&loop=1&playlist=nCheHJs0_QI&playsinline=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&rel=0&enablejsapi=1"
     title="Platform Overview Video"
     allow="autoplay; encrypted-media; picture-in-picture"
     referrerPolicy="strict-origin-when-cross-origin"
-    allowFullScreen
+    allowFullScreen={false}
   />
 </div>
 
@@ -728,8 +805,13 @@ function PlatformOverview() {
     </defs>
   </svg>
   {platformOverviewItems.map((item) => (
-    <PlatformHexCard key={item.id} label={item.label} title={item.title} color={item.color} Icon={item.Icon} />
-  ))}
+  <PlatformHexCard
+    key={item.id}
+    label={item.label}
+    color={item.color}
+    Icon={item.Icon}
+  />
+))}
 </div>
         </div>
       </div>
@@ -737,7 +819,7 @@ function PlatformOverview() {
   );
 }
 
-function PlatformHexCard({ label, title, color, Icon }: { label: string; title: React.ReactNode; color: string; Icon: (props: { className?: string }) => JSX.Element }) {
+function PlatformHexCard({ label, color, Icon }: { label: string;  color: string; Icon: (props: { className?: string }) => JSX.Element }) {
   return (
     <div className={styles["platform-hex-card"]}>
       <div className={styles["platform-hex-icon-ring"]} aria-hidden="true">
@@ -756,7 +838,7 @@ function PlatformHexCard({ label, title, color, Icon }: { label: string; title: 
           <span className={styles["platform-hex-label"]} style={{ color }}>
             {label}
           </span>
-          <span className={styles["platform-hex-description"]}>{title}</span>
+          {/* <span className={styles["platform-hex-description"]}>{title}</span> */}
         </div>
       </div>
     </div>
@@ -941,7 +1023,7 @@ function WhyChooseNeuroLXP() {
 const learningModuleCards = [
   {
     id: 1,
-    image: "/images/Frame 2095586554.png",
+    image: "/images/medium-shot-smiley-girl-studying-with-dictionary-laptop.png",
     title: "Blended Learning",
     description:
       "Blend online and in-person learning for flexible, engaging experiences",

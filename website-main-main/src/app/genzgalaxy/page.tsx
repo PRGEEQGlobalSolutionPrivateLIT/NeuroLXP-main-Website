@@ -946,25 +946,6 @@ const GenZgalaxy: NextPage = () => {
 
 
 
-        <div
-
-
-
-          id="genz-talk-to-expert-button-slot"
-
-
-
-          data-expert-button-slot
-
-
-
-          className={styles.sectionExpertSlot}
-
-
-
-        />
-
-
 
         <div className={styles.frameParent7}>
 
@@ -2946,13 +2927,12 @@ const GenZgalaxy: NextPage = () => {
 
 
 
-    </main>
+    
+</main>
 
 
 
       </div>
-
-
 
       <Footer />
 

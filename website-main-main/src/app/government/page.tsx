@@ -809,11 +809,6 @@ const GovernmentStateInstitutions: NextPage = () => {
           </div>
 
           <div className={styles.frameParent34}>
-            <div
-              className={styles.governmentExpertButtonSlot}
-              data-expert-button-slot
-            />
-
             <div className={styles.frameParent35}>
 
               <p className={styles.benefitsPill} data-semantic-origin="div">

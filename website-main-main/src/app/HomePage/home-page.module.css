@@ -160,7 +160,7 @@ a:focus-visible {
 }
 
 .hero-slide:nth-child(5) .hero-slide-image {
-  object-position: 50% 46%;
+  object-position: 50% 0%;
 }
 
 .hero-slide-video {
@@ -5096,6 +5096,7 @@ a:focus-visible {
   border: none;
   transform: translate(-50%, -50%);
   display: block;
+  pointer-events: none; /* Prevent clicks/hover from revealing YouTube controls */
 }
 
 @media (min-width: 768px) {

@@ -621,9 +621,10 @@
 }
 
 .bfsi-stat-photo {
-  object-fit: cover;
-  transform: scale(1.15);
-  transform-origin: 30% 20%;
+  object-fit: contain;
+  object-position: center;
+  transform: translateX(-60px) scale(0.95);
+  transform-origin: center;
   z-index: 0;
 }
 
@@ -2765,21 +2766,24 @@
     max-width: 100% !important;
   }
 
-  .bfsi-stat-photo {
-    display: block !important;
-    position: absolute !important;
-    top: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    left: auto !important;
-    width: 60% !important;
-    height: 100% !important;
-    max-width: none !important;
-    object-fit: cover !important;
-    object-position: center center !important;
-    transform: none !important;
-    transform-origin: center center !important;
-  }
+
+.bfsi-stat-photo {
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left:130 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  transform: none !important;
+  transform-origin: center !important;
+  z-index: 0;
+}
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -3869,4 +3873,42 @@
   line-height: 1;
   vertical-align: baseline;
   color: #2D4CC8;
+}
+
+/* Mobile only: position the Challenges & Solutions dropdown chevron slightly lower.
+   Preserve the existing card dimensions, shadows, open/close rotation and desktop style. */
+@media (max-width: 768px) {
+  .bfsi-challenge-chevron {
+    margin-top: -6px !important;
+    transform: translateY(-2px) !important;
+  }
+  .bfsi-challenge-chevron.open {
+    transform: translateY(-2px) rotate(180deg) !important;
+  }
+}
+@media (max-width: 420px) {
+  .bfsi-challenge-chevron {
+    margin-top: -8px !important;
+    transform: translateY(-4px) !important;
+  }
+  .bfsi-challenge-chevron.open {
+    transform: translateY(-4px) rotate(180deg) !important;
+  }
+}
+
+/* Mobile-only: equal vertical space between every Challenges & Solutions card.
+   The parent section already adds spacing between its row groups, so avoid
+   stacking an extra margin above the second and third groups. */
+@media (max-width: 768px) {
+  .bfsi-challenges-row,
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    row-gap: 28px !important;
+    gap: 28px !important;
+  }
+
+  .bfsi-challenges-row-2,
+  .bfsi-challenges-row-3 {
+    margin-top: 0 !important;
+  }
 }

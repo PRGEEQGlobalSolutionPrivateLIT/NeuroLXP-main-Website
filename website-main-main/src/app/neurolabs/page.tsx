@@ -427,15 +427,6 @@ export default function CodingLabsPage() {
 
         <section className="coding-section coding-skills">
 
-<div
-
-          id="coding-labs-talk-to-expert-button-slot"
-
-          data-expert-button-slot
-
-          className="coding-expert-slot"
-
-        />
 
           <div className="coding-skill-list">
 

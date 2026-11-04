@@ -3314,7 +3314,7 @@
   pointer-events: none !important;
 }
 
-/* Use a clean selection highlight instead of the browser grey highlight. */
+
 .whyItMatters::selection,
 .transformingLearningInto::selection,
 .rectangleParent .neurolxp::selection,
@@ -3323,9 +3323,22 @@
 .rectangleParent .rs8cs3m::selection,
 .rectangleParent .cs3::selection,
 .rectangleParent .m::selection {
-  background: rgba(45, 76, 200, 0.18);
-  color: inherit;
+  background: #2D4CC8;
+  color: #FFFFFF;
 }
+
+.whyItMatters::-moz-selection,
+.transformingLearningInto::-moz-selection,
+.rectangleParent .neurolxp::-moz-selection,
+.rectangleParent .bringingThe3rs8cs3msContainer::-moz-selection,
+.rectangleParent .bringingThe::-moz-selection,
+.rectangleParent .rs8cs3m::-moz-selection,
+.rectangleParent .cs3::-moz-selection,
+.rectangleParent .m::-moz-selection {
+  background: #2D4CC8;
+  color: #FFFFFF;
+}
+
 
 /* Mobile: keep the last-section text centered and selectable. */
 @media (max-width: 767.98px) {
@@ -3535,4 +3548,25 @@
   .neurolxp2103rs8cs3msLite .frameWrapper6 .mindset {
     text-align: left !important;
   }
+}
+
+/* Selected text only */
+.literacy-page p::selection,
+.literacy-page h1::selection,
+.literacy-page h2::selection,
+.literacy-page h3::selection,
+.literacy-page span::selection,
+.literacy-page strong::selection {
+  background: #2D4CC8;
+  color: #FFFFFF;
+}
+
+.literacy-page p::-moz-selection,
+.literacy-page h1::-moz-selection,
+.literacy-page h2::-moz-selection,
+.literacy-page h3::-moz-selection,
+.literacy-page span::-moz-selection,
+.literacy-page strong::-moz-selection {
+  background: #2D4CC8;
+  color: #FFFFFF;
 }

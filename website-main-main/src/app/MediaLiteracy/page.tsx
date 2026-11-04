@@ -566,11 +566,7 @@ const MediaLiteracy: NextPage = () => {
 
         <div className={styles.frameParent30}>
 
-      <div
-        id="media-literacy-talk-to-expert-button-slot"
-        data-expert-button-slot
-        className={styles.sectionExpertSlot}
-      />
+
 
           <div className={styles.frameParent31}>
 

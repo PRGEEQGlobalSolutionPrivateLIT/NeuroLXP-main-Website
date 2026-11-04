@@ -265,7 +265,7 @@ const CustomerTraining: NextPage = () => {
           <div className={styles.neurolxpDeliversSelfService}>NeuroLXP delivers self-service customer learning with courses, tutorials, and analytics.</div>
         </div>
       </div>
-      <Image className={`${styles.customerTrainingChild} customerTrainingFix_divider`} src="/images/customer-training-divider.svg" width={1440} height={5} sizes="100vw" alt="" aria-hidden="true" />
+      <Image className={`${styles.customerTrainingChild} customerTrainingFix_divider`} src="/images/customer-training-divider.webp" width={1440} height={5} sizes="100vw" alt="" aria-hidden="true" />
       <div className={`${styles.image20Parent} customerTrainingFix_section`}>
         <div className={`${styles.image20} customerTrainingFix_decoration`} />
         <div className={`${styles.frameParent6} customerTrainingFix_columns`}>

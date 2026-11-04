@@ -4196,3 +4196,20 @@ button.frameChild19:focus-visible {
 }
 
 
+
+/* Match Retail & Healthcare section-label typography only.
+   Keep existing card dimensions, positions, shadows and responsive layout. */
+.employeeInduction.employeeInduction .frameIcon,
+.employeeInduction.employeeInduction .frameChild12,
+.employeeInduction.employeeInduction .frameChild18 {
+  font-family: "Segoe UI", "Inter", sans-serif !important;
+  font-size: 24px !important;
+}
+@media (max-width: 767.98px) {
+  .employeeInduction.employeeInduction .frameIcon,
+  .employeeInduction.employeeInduction .frameChild12,
+  .employeeInduction.employeeInduction .frameChild18 {
+    font-family: "Segoe UI", "Inter", sans-serif !important;
+    font-size: 20px !important;
+  }
+}

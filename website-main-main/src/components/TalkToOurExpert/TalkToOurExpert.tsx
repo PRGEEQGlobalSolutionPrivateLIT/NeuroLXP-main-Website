@@ -139,6 +139,7 @@ interface FormState {
 
 
   interest: string;
+  leadSource: string;
 
 
 
@@ -175,6 +176,7 @@ interface TouchedState {
 
 
   interest: boolean;
+  leadSource: boolean;
 
 
 
@@ -193,6 +195,13 @@ interface TouchedState {
 
 
 
+
+const LEAD_SOURCE_OPTIONS = [
+  "Google", "LinkedIn", "Facebook", "Instagram", "YouTube",
+  "X (Twitter)", "WhatsApp", "Email", "Online Advertisement",
+  "Webinar", "Conference / Event", "Friend / Colleague",
+  "Business Referral", "Other",
+];
 
 const INTEREST_OPTIONS = [
 
@@ -2122,6 +2131,7 @@ export default function TalkToOurExpert({
 
 
   const interestDropdownRef = useRef<HTMLDivElement | null>(null);
+  const sourceDropdownRef = useRef<HTMLDivElement | null>(null);
 
 
 
@@ -2150,6 +2160,7 @@ export default function TalkToOurExpert({
 
 
     interest: "LXP",
+    leadSource: "",
 
 
 
@@ -2186,6 +2197,7 @@ export default function TalkToOurExpert({
 
 
     interest: false,
+    leadSource: false,
 
 
 
@@ -2214,6 +2226,7 @@ export default function TalkToOurExpert({
 
 
   const [isInterestOpen, setIsInterestOpen] = useState(false);
+  const [isSourceOpen, setIsSourceOpen] = useState(false);
 
 
 
@@ -2222,6 +2235,13 @@ export default function TalkToOurExpert({
 
 
   const [submitted, setSubmitted] = useState(false);
+
+  // Keep the success popup visible for five seconds after a successful submission.
+  useEffect(() => {
+    if (!submitted) return;
+    const timeout = window.setTimeout(() => onClose(), 5000);
+    return () => window.clearTimeout(timeout);
+  }, [submitted, onClose]);
 
 
 
@@ -2258,6 +2278,7 @@ export default function TalkToOurExpert({
 
 
         interest: "LXP",
+        leadSource: "",
 
 
 
@@ -2294,6 +2315,7 @@ export default function TalkToOurExpert({
 
 
         interest: false,
+        leadSource: false,
 
 
 
@@ -2326,9 +2348,7 @@ export default function TalkToOurExpert({
 
 
       setIsInterestOpen(false);
-
-
-
+      setIsSourceOpen(false);
       setIsPrivacyOpen(false);
 
 
@@ -2348,6 +2368,8 @@ export default function TalkToOurExpert({
 
 
 
+
+    if (submitted) return;
 
     previousActiveElement.current =
 
@@ -2453,7 +2475,7 @@ export default function TalkToOurExpert({
 
 
 
-  }, [isOpen, onClose]);
+  }, [isOpen, onClose, submitted]);
 
 
 
@@ -2506,17 +2528,15 @@ export default function TalkToOurExpert({
 
 
         !interestDropdownRef.current.contains(event.target as Node)
-
-
-
       ) {
-
-
-
         setIsInterestOpen(false);
+      }
 
-
-
+      if (
+        sourceDropdownRef.current &&
+        !sourceDropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsSourceOpen(false);
       }
 
 
@@ -2885,10 +2905,10 @@ export default function TalkToOurExpert({
 
 
 
+      leadSource: !formData.leadSource
+        ? "Please select how you heard about us."
+        : "",
       query:
-
-
-
         formData.query.trim().length === 0
 
 
@@ -2946,9 +2966,7 @@ export default function TalkToOurExpert({
 
 
     !errors.phoneNumber &&
-
-
-
+    !errors.leadSource &&
     !errors.query &&
 
 
@@ -3034,9 +3052,7 @@ export default function TalkToOurExpert({
 
 
     setIsInterestOpen(false);
-
-
-
+    setIsSourceOpen(false);
     setIsCountryOpen((open) => !open);
 
 
@@ -3054,9 +3070,7 @@ export default function TalkToOurExpert({
 
 
     setIsCountryOpen(false);
-
-
-
+    setIsSourceOpen(false);
     setIsInterestOpen((open) => !open);
 
 
@@ -3068,6 +3082,12 @@ export default function TalkToOurExpert({
 
 
 
+
+  const openSourceDropdown = () => {
+    setIsCountryOpen(false);
+    setIsInterestOpen(false);
+    setIsSourceOpen((open) => !open);
+  };
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
 
@@ -3098,9 +3118,7 @@ export default function TalkToOurExpert({
 
 
       interest: true,
-
-
-
+      leadSource: true,
       query: true,
 
 
@@ -3180,9 +3198,7 @@ export default function TalkToOurExpert({
 
 
           interest: formData.interest,
-
-
-
+          leadSource: formData.leadSource,
           query: formData.query.trim(),
 
 
@@ -3374,6 +3390,33 @@ export default function TalkToOurExpert({
 
 
 
+
+  // Show the existing success animation independently of the form modal.
+  const successPopup = (
+    <div className={styles["tte-success"]} role="status" aria-live="polite" aria-atomic="true">
+      <span className={styles["tte-success-icon"]} aria-hidden="true">
+        <span className={styles["tte-success-burst"]}>
+          {Array.from({ length: 8 }, (_, index) => (
+            <i key={index} className={styles["tte-success-particle"]} />
+          ))}
+        </span>
+        <svg viewBox="0 0 48 48" width="48" height="48" fill="none" focusable="false">
+          <defs>
+            <linearGradient id="tte-success-gradient" x1="8" y1="42" x2="42" y2="6" gradientUnits="userSpaceOnUse">
+              <stop stopColor="#2D4CC8" />
+              <stop offset="0.5" stopColor="#8954D7" />
+              <stop offset="1" stopColor="#20A87D" />
+            </linearGradient>
+          </defs>
+          <path className={styles["tte-success-tick"]} d="M11 24.5L20.5 34L38 15" stroke="url(#tte-success-gradient)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </span>
+      <span className={styles["tte-success-copy"]}>
+        <strong className={styles["tte-success-title"]}>Thank you for your submission!</strong>
+        <span className={styles["tte-success-body"]}>Your query has been submitted successfully. Our team will reach out to you soon.</span>
+      </span>
+    </div>
+  );
 
   const modalContent = (
 
@@ -3635,42 +3678,28 @@ export default function TalkToOurExpert({
 
 
 
-                <div className={styles["tte-success"]} role="status">
-
-
-
-                  <p className={styles["tte-success-title"]}>
-
-
-
-                    Thanks, {formData.fullName.split(" ")[0]}!
-
-
-
-                  </p>
-
-
-
-
-
-
-
-                  <p className={styles["tte-success-body"]}>
-
-
-
-                    Our expert has received your query and will reach out to
-
-
-
-                    you shortly.
-
-
-
-                  </p>
-
-
-
+                <div className={styles["tte-success"]} role="status" aria-live="polite" aria-atomic="true">
+                  <span className={styles["tte-success-icon"]} aria-hidden="true">
+                    <span className={styles["tte-success-burst"]}>
+                      {Array.from({ length: 8 }, (_, index) => (
+                        <i key={index} className={styles["tte-success-particle"]} />
+                      ))}
+                    </span>
+                    <svg viewBox="0 0 48 48" width="48" height="48" fill="none" focusable="false">
+                      <defs>
+                        <linearGradient id="tte-success-gradient" x1="8" y1="42" x2="42" y2="6" gradientUnits="userSpaceOnUse">
+                          <stop stopColor="#2D4CC8" />
+                          <stop offset="0.5" stopColor="#8954D7" />
+                          <stop offset="1" stopColor="#20A87D" />
+                        </linearGradient>
+                      </defs>
+                      <path className={styles["tte-success-tick"]} d="M11 24.5L20.5 34L38 15" stroke="url(#tte-success-gradient)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </span>
+                  <span className={styles["tte-success-copy"]}>
+                    <strong className={styles["tte-success-title"]}>Thank you for your submission!</strong>
+                    <span className={styles["tte-success-body"]}>Your query has been submitted successfully. Our team will reach out to you soon.</span>
+                  </span>
                 </div>
 
 
@@ -5181,6 +5210,62 @@ export default function TalkToOurExpert({
 
 
 
+                  {/* LEAD SOURCE — same neumorphic dropdown/radio treatment */}
+                  <div className={`${styles["tte-field"]} ${styles["tte-source-field"]}`} ref={sourceDropdownRef}>
+                    <span className={styles["tte-label"]} id="tte-source-label">
+                      How did you hear about us?
+                    </span>
+                    <div className={styles["tte-source-anchor"]}>
+                      <button
+                        id="tte-source-trigger"
+                        type="button"
+                        className={`${styles["tte-input-shell"]} ${styles["tte-interest-trigger"]} ${styles["tte-source-trigger"]}`}
+                        onClick={openSourceDropdown}
+                        aria-haspopup="listbox"
+                        aria-expanded={isSourceOpen}
+                        aria-controls="tte-source-listbox"
+                        aria-labelledby="tte-source-label"
+                      >
+                        <IconBubble><ClipboardIcon /></IconBubble>
+                        <span className={styles["tte-interest-value"]}>
+                          {formData.leadSource || "Select Source"}
+                        </span>
+                        <ArrowDownIcon open={isSourceOpen} />
+                      </button>
+                      {isSourceOpen && (
+                        <div id="tte-source-listbox" className={`${styles["tte-interest-panel"]} ${styles["tte-source-panel"]}`} role="listbox" aria-labelledby="tte-source-label">
+                          {LEAD_SOURCE_OPTIONS.map((option) => {
+                            const checked = formData.leadSource === option;
+                            return (
+                              <button
+                                key={option}
+                                type="button"
+                                role="option"
+                                aria-selected={checked}
+                                className={styles["tte-interest-option"]}
+                                onClick={() => {
+                                  handleFieldChange("leadSource", option);
+                                  setTouched((prev) => ({ ...prev, leadSource: true }));
+                                  setIsSourceOpen(false);
+                                }}
+                              >
+                                <span className={styles["tte-radio-bubble"]}>
+                                  {checked ? <RadioCheckedIcon /> : <RadioEmptyIcon />}
+                                </span>
+                                <span className={`${styles["tte-interest-option-label"]}${checked ? ` ${styles["tte-interest-option-label-active"]}` : ""}`}>
+                                  {option}
+                                </span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
+                    {touched.leadSource && errors.leadSource && (
+                      <span className={styles["tte-source-error"]} role="alert">{errors.leadSource}</span>
+                    )}
+                  </div>
+
                   {/* QUERY */}
 
 
@@ -6521,7 +6606,7 @@ export default function TalkToOurExpert({
 
 
 
-  return createPortal(modalContent, document.body);
+  return createPortal(submitted ? successPopup : modalContent, document.body);
 
 
 

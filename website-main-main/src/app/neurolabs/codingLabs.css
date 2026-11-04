@@ -90,15 +90,23 @@ a {
 
   min-height: 24px;
 
-  color: var(--coding-text);
+  font-family: "Segoe UI", "Inter";
+
+  font-weight: 400;
 
   font-size: 16px;
 
   line-height: 24px;
 
+  letter-spacing: 0.02em;
+
+  color: #2f3547;
+
 }
 
 .coding-breadcrumb strong {
+
+  font-weight: 700;
 
   color: #243fa8;
 
@@ -1562,7 +1570,7 @@ a {
 
   .coding-breadcrumb {
 
-    font-size: 14px;
+    font-size: 16px;
 
   }
 
@@ -2006,7 +2014,7 @@ a {
 
     gap: 6px;
 
-    font-size: 13px;
+    font-size: 16px;
 
   }
 

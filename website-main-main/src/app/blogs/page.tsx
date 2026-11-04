@@ -4,6 +4,7 @@ import styles from "./blog.module.css";
 import Header from "../../components/Header/header";
 import Footer from "../../components/Footer/footer";
 import { BookDemoTrigger } from "../../components/Bookademo/Bookademo";
+import TalkToExpertButton from "@/components/TalkToOurExpert/TalkToExpertButton";
 const Blogs: NextPage = () => {
     return (<>
       <Header />
@@ -174,7 +175,7 @@ const Blogs: NextPage = () => {
             <div className={styles.frameChild16} aria-hidden="true"/>
             <div className={styles.discoverPracticalIdeasToWrapper}>
               <b className={styles.discoverPracticalIdeas}>
-                Discover practical ideas to :
+                Discover practical ideas to:
               </b>
             </div>
             <div className={styles.frameParent12}>
@@ -295,6 +296,7 @@ const Blogs: NextPage = () => {
           </div>
         </div>
       </div>
+      <TalkToExpertButton />
       <Footer />
     </>);
 };

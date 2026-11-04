@@ -10,10 +10,10 @@
   --bg: #dfe6e9;
   --surface: #dfe6e9;
   --t-color: #4f5563;
-  --r-sm: 18px;
-  --r-xl: 40px;
-  --f-display: "Segoe UI", sans-serif;
-  --f-body: "Segoe UI", sans-serif;
+  --r-sm: 20px;
+  --r-xl: 36px;
+  --f-display: "Segoe UI", "Inter", sans-serif;
+  --f-body: "Segoe UI", "Inter", sans-serif;
 
   width: 100%;
   min-height: 100vh;
@@ -77,33 +77,46 @@
   gap: 1.1rem;
 }
 
+/* Number and sentence alignment */
 .tad-declare-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  align-items: start;
+  column-gap: 16px;
+  width: 100%;
 }
 
 .tad-declare-index {
-  padding-top: 0.15rem;
-  min-width: 1.8rem;
+  display: block;
+  width: 32px;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
   flex-shrink: 0;
   font-size: var(--r-sm);
+  line-height: 1.7;
   color: var(--t-color);
+  text-align: left;
 }
 
 .tad-declare-body {
   flex: 1;
+  width: 100%;
   min-width: 0;
-  word-break: break-word;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
   color: var(--t-color);
+  text-align: left;
 }
 
 .tad-declare-body p {
   margin: 0;
+  padding: 0;
   font-size: var(--r-sm);
   line-height: 1.7;
   color: var(--t-color);
-  padding-top: 10px;
+  text-align: left;
 }
 
 .tad-declare-body strong {
@@ -111,6 +124,7 @@
   font-weight: 700;
 }
 
+/* Sub-points */
 .tad-sub-list {
   margin: 0.9rem 0 0;
   padding: 0;
@@ -124,15 +138,17 @@
   font-size: var(--r-sm);
   line-height: 1.7;
   color: var(--t-color);
-  padding-left: 1.4rem;
+  padding-left: 20px;
   position: relative;
-  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
 }
 
 .tad-sub-list li::before {
   content: "–";
   position: absolute;
   left: 0;
+  top: 0;
   color: var(--t-color);
   font-weight: 700;
 }
@@ -149,44 +165,49 @@
 .tad-check-text {
   font-size: var(--r-sm);
   color: var(--t-color);
-  padding-left: 1.4rem;
+  padding-left: 0;
   line-height: 1.7;
   position: relative;
-  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
 }
 
 .tad-mandatory-details {
   margin-top: 30px;
   font-size: var(--r-sm);
   color: var(--t-color);
-  padding-left: 1.4rem;
+  padding-left: 0;
   line-height: 1.7;
   position: relative;
-  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
 }
 
 .tad-validity-note {
   font-size: var(--r-sm);
   color: var(--t-color);
-  padding-left: 1.4rem;
+  padding-left: 0;
   line-height: 1.7;
   position: relative;
   margin: 0;
-  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
 }
 
 .tad-email {
-  font-size: 22px;
+  font-size: var(--r-sm);
   color: var(--t-color);
-  padding-left: 1.4rem;
+  padding-left: 0;
   line-height: 1.7;
   position: relative;
   word-break: break-all;
+  text-align: left;
 }
 
+/* Tablet */
 @media (max-width: 768px) {
   .tad-root {
-    --r-sm: 16px;
+    --r-sm: 18px;
     --r-xl: 30px;
   }
 
@@ -199,18 +220,24 @@
   }
 
   .tad-declare-item {
-    gap: 1rem;
+    grid-template-columns: 26px minmax(0, 1fr);
+    column-gap: 10px;
+  }
+
+  .tad-declare-index {
+    width: 26px;
   }
 
   .tad-email {
-    font-size: 18px;
+    font-size: var(--r-sm);
   }
 }
 
+/* Mobile */
 @media (max-width: 480px) {
   .tad-root {
-    --r-sm: 14px;
-    --r-xl: 22px;
+    --r-sm: 16px;
+    --r-xl: 24px;
   }
 
   .tad-main {
@@ -222,28 +249,64 @@
   }
 
   .tad-declare-item {
-    gap: 0.65rem;
+    grid-template-columns: 22px minmax(0, 1fr);
+    column-gap: 8px;
   }
 
   .tad-declare-index {
-    min-width: 1.5rem;
-    font-size: 14px;
+    width: 22px;
+    min-width: 0;
+    font-size: var(--r-sm);
   }
 
   .tad-mandatory-label,
   .tad-check-text,
   .tad-mandatory-details,
   .tad-validity-note {
-    padding-left: 0.75rem;
+    padding-left: 0;
   }
 
   .tad-email {
-    font-size: 15px;
-    padding-left: 0.75rem;
+    font-size: var(--r-sm);
+    padding-left: 0;
   }
 
   .tad-sub-list li {
-    padding-left: 1rem;
+    padding-left: 16px;
   }
 }
 
+/* Fix numbering and sentence alignment on desktop only */
+@media (min-width: 769px) {
+  .tad-declare-item {
+    display: grid;
+    grid-template-columns: 32px minmax(0, 1fr);
+    align-items: start;
+    column-gap: 16px;
+  }
+
+  .tad-declare-index {
+    align-self: start;
+    display: block;
+    width: 32px;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    font-size: var(--r-sm);
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .tad-declare-body {
+    align-self: start;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+    text-align: left;
+  }
+
+  .tad-declare-body > p:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}

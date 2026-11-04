@@ -1017,11 +1017,6 @@ export default function CodingChallengePage() {
 
 
         <div className={styles.frameParent5}>
-        <div
-          id="coding-challenges-talk-to-expert-button-slot"
-          data-expert-button-slot
-          className={styles.codingChallengeExpertSlot}
-        />
 
 
 

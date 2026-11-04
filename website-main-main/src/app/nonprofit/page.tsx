@@ -814,14 +814,6 @@ const toggleTopVideo = () => {
 
                 <div className={styles.frameParent38}>
 
-                    <div
-
-                        className={styles.ngoExpertButtonSlot}
-
-                        data-expert-button-slot
-
-                    />
-
                     <div className={styles.frameParent39}>
 
                         <div
@@ -842,55 +834,23 @@ const toggleTopVideo = () => {
 
                                 >
 
-                                   <span
-
-  style={{
-
-    display: "inline-flex",
-
-    alignItems: "flex-start",
-
-    whiteSpace: "nowrap",
-
-  }}
-
->
-
-  <span>NeuroLXP</span>
-
+                                   <span>NeuroLXP</span>
   <sup
-
     aria-label="trademark"
-
     style={{
-
       display: "inline-block",
-
       fontSize: "10.8px",
-
-      lineHeight: "14px",
-
+      lineHeight: "6px",
       fontWeight: 700,
-
-      marginLeft: "3px",
-
+      marginLeft: "2px",
       position: "relative",
-
-      top: "-7px",
-
+      top: "-6px",
       color: "#2D4CC8",
-
-      flexShrink: 0,
-
+      whiteSpace: "nowrap",
     }}
-
   >
-
     TM
-
   </sup>
-
-</span>
 
                                 </div>
 

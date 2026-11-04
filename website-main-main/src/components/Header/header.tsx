@@ -570,8 +570,8 @@ export default function Header() {
             <Image
               src="/images/logo_01_synapse_spark.webp"
               alt="NeuroLXP"
-              width={120}
-              height={45}
+              width={190}
+              height={50}
               className="nlxp-header-logo"
               priority
             />
@@ -1431,7 +1431,7 @@ export default function Header() {
               );
             })}
 
-          <Link
+          {/* <Link
             href="/book-demo"
             className="nlxp-header-mobile-book-demo"
             onClick={() =>
@@ -1439,7 +1439,7 @@ export default function Header() {
             }
           >
             Book a Demo
-          </Link>
+          </Link> */}
 
           <div className="nlxp-header-mobile-signin-row">
             <button

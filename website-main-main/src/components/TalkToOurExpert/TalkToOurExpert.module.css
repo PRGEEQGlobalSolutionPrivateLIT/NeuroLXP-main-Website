@@ -2372,7 +2372,7 @@
   4 Select Your Interest
   5 Describe Your Query
 */
-.tte-form > .tte-field:nth-of-type(5) {
+.tte-form > .tte-field:nth-of-type(6) {
   grid-column: 1 / -1 !important;
 }
 
@@ -2655,7 +2655,7 @@
   }
 
   .tte-form > .tte-field,
-  .tte-form > .tte-field:nth-of-type(5),
+  .tte-form > .tte-field:nth-of-type(6),
   .tte-form > .tte-consent,
   .tte-form > .tte-consent + .tte-error,
   .tte-form > .tte-submit {
@@ -4081,11 +4081,11 @@
 /* Fixed to the viewport; does not change any page width or alignment. */
 .talk-to-expert-fab {
   position: fixed;
-  top: 50%;
-  right: max(var(--expert-button-right, 12px), env(safe-area-inset-right, 0px));
-  bottom: auto;
+  top: auto;
+  right: max(var(--expert-button-right, 24px), env(safe-area-inset-right, 0px));
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
   left: auto;
-  transform: translateY(-50%);
+  transform: none;
   z-index: 500;
 
   width: var(--expert-button-size, 64px);
@@ -4162,10 +4162,10 @@
 /* Page-anchored variant used only when the launcher is rendered into
    a data-expert-button-slot by TalkToExpertButton.tsx. */
 .talk-to-expert-fab-slotted {
-  position: relative !important;
+  position: fixed !important;
   top: auto !important;
-  right: auto !important;
-  bottom: auto !important;
+  right: max(var(--expert-button-right, 24px), env(safe-area-inset-right, 0px)) !important;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px)) !important;
   left: auto !important;
   transform: none !important;
 }
@@ -4174,6 +4174,14 @@
 .talk-to-expert-fab-label { display: none; }
 
 @media (max-width: 768px) {
+  .talk-to-expert-fab,
+  .talk-to-expert-fab-slotted {
+    top: auto !important;
+    right: max(16px, env(safe-area-inset-right, 0px)) !important;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px)) !important;
+    left: auto !important;
+    transform: none !important;
+  }
   .talk-to-expert-fab-icon { width: 18px; height: 18px; }
 }
 
@@ -4182,33 +4190,284 @@
 }
 
 
-/* A quiet attention cue: only the blue ring opacity changes.
-   The button stays at exactly the same position and size. */
+/* Disable the previous circular attention ring and all launcher animations. */
+.talk-to-expert-fab,
+.talk-to-expert-page-anchor .talk-to-expert-fab,
+.talk-to-expert-fab-icon-ring,
+.talk-to-expert-fab-icon-circle,
+.talk-to-expert-fab-icon {
+  animation: none !important;
+}
+
 .talk-to-expert-fab::after {
-  content: "";
-  display: var(--expert-attention-display, none);
-  position: absolute;
-  inset: 3px;
-  border: 2px solid rgba(45, 76, 200, 0.45);
+  content: none !important;
+  display: none !important;
+  animation: none !important;
+}
+
+/* Lead source — same existing neumorphic dropdown and radio design. */
+.tte-source-field { position: relative; min-width: 0; }
+.tte-source-anchor { position: relative; width: 100%; min-width: 0; }
+.tte-source-trigger { width: 100%; justify-content: flex-start; }
+.tte-source-panel { left: 0; right: 0; top: calc(100% + 6px); width: 100%; max-width: 100%; max-height: 205px; z-index: 9000; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #b7c0c5 #dfe6e9; }
+.tte-source-panel::-webkit-scrollbar { display: block; width: 8px; }
+.tte-source-panel::-webkit-scrollbar-track { background: #dfe6e9; border-radius: 8px; box-shadow: inset 2px 2px 3px #c4c4c4, inset -2px -2px 3px #fff; }
+.tte-source-panel::-webkit-scrollbar-thumb { background: #b7c0c5; border-radius: 8px; border: 2px solid #dfe6e9; }
+.tte-source-error { display: block; font-family: "Inter", sans-serif; font-size: 11px; line-height: 16px; color: #d64545; }
+.tte-source-field:has(.tte-source-panel) { z-index: 100; }
+.tte-source-trigger:hover { outline: 1px solid #2d4cc8; outline-offset: 2px; }
+.tte-source-trigger:focus-visible { outline: 2px solid #2d4cc8; outline-offset: 2px; }
+@media (min-width: 641px) { .tte-form > .tte-source-field { grid-column: 1 / -1 !important; } }
+@media (max-width: 640px) { .tte-form > .tte-source-field { grid-column: 1 !important; } }
+
+/* Text-only Contact Us-style launcher; existing positioning remains unchanged. */
+.talk-to-expert-fab {
+  width: max-content;
+  min-width: 0;
+  max-width: min(100%, 320px);
+  height: auto;
+  min-height: 56px;
+  max-height: none;
+  aspect-ratio: auto;
+  padding: 12px 32px;
+  border-radius: 8px;
+  overflow: visible;
+  white-space: nowrap;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9;
+}
+.talk-to-expert-fab-label {
+  display: inline-block;
+  line-height: 1.3;
+  color: #2d4cc8;
+}
+.talk-to-expert-fab:hover,
+.talk-to-expert-fab:active {
+  box-shadow: inset -4px -4px 4px #ffffff, inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+}
+.talk-to-expert-fab::after { display: none; }
+@media (max-width: 768px) {
+  .talk-to-expert-fab { min-height: 44px; padding: 10px 20px; font-size: 16px; }
+}
+
+/* ============================================================
+   FINAL: centered headset + text launcher, ABOVE PAGE FOOTER.
+   Does not affect the popup, fields or page-specific layout.
+   ============================================================ */
+.talk-to-expert-page-anchor {
+  position: relative;
+  isolation: isolate;
+  z-index: 10;
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 14px 16px 36px;
+  margin: 0;
+  background: #dfe6e9;
+}
+
+.talk-to-expert-page-anchor .talk-to-expert-fab {
+  position: relative !important;
+  inset: auto !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+transform: translateY(-35px) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  flex: 0 1 auto !important;
+  width: max-content !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 56px !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  margin: 0 auto !important;
+  padding: 10px 24px !important;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 10px !important;
+  background: #dfe6e9 !important;
+  box-shadow: -4px -4px 4px #ffffff, 4px 4px 4px #c6c6c9 !important;
+  color: #2d4cc8 !important;
+  font: 600 18px/1.3 "Segoe UI", "Inter", sans-serif !important;
+  white-space: nowrap;
+  text-align: center;
+  overflow: visible !important;
+  cursor: pointer;
+}
+
+.talk-to-expert-page-anchor .talk-to-expert-fab:hover,
+.talk-to-expert-page-anchor .talk-to-expert-fab:active {
+  box-shadow: inset -4px -4px 4px #ffffff,
+              inset 4px 4px 4px rgba(196,196,196,.8) !important;
+}
+
+.talk-to-expert-page-anchor .talk-to-expert-fab::after {
+  display: none !important;
+}
+
+.talk-to-expert-page-anchor .talk-to-expert-fab-icon-ring {
+  display: flex !important;
+  width: 36px !important;
+  height: 36px !important;
+  flex: 0 0 36px !important;
   border-radius: 50%;
-  box-shadow: inset 0 0 5px rgba(45, 76, 200, 0.12);
-  pointer-events: none;
-  opacity: 0;
-  animation: expert-presence 7s ease-in-out 1s 3;
 }
 
-@keyframes expert-presence {
-  0%, 65%, 100% { opacity: 0; }
-  30%, 40% { opacity: 0.6; }
+.talk-to-expert-page-anchor .talk-to-expert-fab-icon-circle {
+  display: flex !important;
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 50%;
 }
 
-.talk-to-expert-fab:hover::after,
-.talk-to-expert-fab:focus-visible::after,
-.talk-to-expert-fab[aria-expanded="true"]::after {
-  animation: none;
-  opacity: 0;
+.talk-to-expert-page-anchor .talk-to-expert-fab-icon {
+  display: block !important;
+  width: 18px !important;
+  height: 18px !important;
 }
 
+.talk-to-expert-page-anchor .talk-to-expert-fab-label {
+  display: inline !important;
+  color: #2d4cc8;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .talk-to-expert-page-anchor {
+    padding: 12px 16px 30px;
+  }
+  .talk-to-expert-page-anchor .talk-to-expert-fab {
+    min-height: 48px !important;
+    padding: 9px 16px !important;
+    gap: 9px !important;
+    font-size: 15px !important;
+  }
+  .talk-to-expert-page-anchor .talk-to-expert-fab-icon-ring {
+    width: 32px !important;
+    height: 32px !important;
+    flex-basis: 32px !important;
+  }
+}
+
+
+
+/* Mobile - move slightly down */
+@media (max-width: 768px) {
+  .talk-to-expert-page-anchor {
+    padding-top: 22px !important;
+    padding-bottom: 30px !important;
+  }
+}
+
+/* Accessibility */
 @media (prefers-reduced-motion: reduce) {
-  .talk-to-expert-fab::after { animation: none; opacity: 0; }
+  .talk-to-expert-page-anchor .talk-to-expert-fab {
+    animation: none !important;
+  }
+}
+
+/* Talk to Our Expert: five-second animated success popup only */
+.tte-success {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100100;
+  width: min(440px, calc(100vw - 32px));
+  padding: 24px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  background: #dfe6e9;
+  border: 0;
+  border-radius: 18px;
+  box-shadow: -7px -7px 15px #ffffff, 9px 9px 20px #b8c0c5;
+  animation: tte-success-enter 0.5s cubic-bezier(0.2, 1.15, 0.4, 1) both;
+}
+.tte-success-icon {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  flex: 0 0 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #dfe6e9;
+  box-shadow: 6px 6px 12px #c6c6c9, -6px -6px 12px #fff;
+  animation: tte-success-pop 0.7s 0.12s cubic-bezier(0.2, 1.5, 0.4, 1) both;
+}
+.tte-success-icon svg { position: relative; z-index: 2; }
+.tte-success-tick {
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: tte-success-draw 0.6s 0.36s ease-out forwards;
+}
+.tte-success-burst { position: absolute; inset: 0; pointer-events: none; }
+.tte-success-particle {
+  --angle: 0deg;
+  --particle-color: #2d4cc8;
+  position: absolute;
+  left: calc(50% - 4px);
+  top: calc(50% - 4px);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--particle-color);
+  opacity: 0;
+  animation: tte-success-blast 0.9s 0.42s ease-out both;
+}
+.tte-success-particle:nth-child(1) { --angle: 0deg; --particle-color: #2d4cc8; }
+.tte-success-particle:nth-child(2) { --angle: 45deg; --particle-color: #8954d7; }
+.tte-success-particle:nth-child(3) { --angle: 90deg; --particle-color: #20a87d; }
+.tte-success-particle:nth-child(4) { --angle: 135deg; --particle-color: #f29b38; }
+.tte-success-particle:nth-child(5) { --angle: 180deg; --particle-color: #e35b9b; }
+.tte-success-particle:nth-child(6) { --angle: 225deg; --particle-color: #2d4cc8; }
+.tte-success-particle:nth-child(7) { --angle: 270deg; --particle-color: #20a87d; }
+.tte-success-particle:nth-child(8) { --angle: 315deg; --particle-color: #8954d7; }
+.tte-success-copy { display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+.tte-success .tte-success-title { margin: 0; font: 700 18px/1.3 "Segoe UI", sans-serif; color: #2d4cc8; }
+.tte-success .tte-success-body { margin: 0; font: 400 13px/1.5 "Segoe UI", "Inter", sans-serif; color: #31344b; }
+@keyframes tte-success-enter {
+  from { opacity: 0; transform: translate(-50%, -12px) scale(0.92); }
+  to { opacity: 1; transform: translate(-50%, 0) scale(1); }
+}
+@keyframes tte-success-pop {
+  0% { opacity: 0; transform: scale(0.3) rotate(-12deg); }
+  65% { opacity: 1; transform: scale(1.15) rotate(5deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+@keyframes tte-success-draw { to { stroke-dashoffset: 0; } }
+@keyframes tte-success-blast {
+  0% { opacity: 0; transform: rotate(var(--angle)) translateX(0) scale(0.3); }
+  20% { opacity: 1; }
+  75% { opacity: 0.9; }
+  100% { opacity: 0; transform: rotate(var(--angle)) translateX(61px) scale(0.15); }
+}
+@media (max-width: 480px) {
+  .tte-success { top: 16px; padding: 19px 17px; gap: 15px; }
+  .tte-success-icon { width: 60px; height: 60px; flex-basis: 60px; }
+  .tte-success .tte-success-title { font-size: 16px; }
+  .tte-success .tte-success-body { font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tte-success, .tte-success-icon, .tte-success-particle, .tte-success-tick { animation: none; }
+  .tte-success-tick { stroke-dashoffset: 0; }
 }

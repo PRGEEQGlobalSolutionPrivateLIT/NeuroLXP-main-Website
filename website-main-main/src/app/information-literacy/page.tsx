@@ -461,11 +461,6 @@ const InformationLiteracy: NextPage = () => {
         </div>
       </div>
       <div className={styles.frameParent34}>
-        <div
-          id="information-literacy-talk-to-expert-button-slot"
-          data-expert-button-slot
-          className={styles.sectionExpertSlot}
-        />
         <div className={styles.frameParent20}>
           <div className={styles.frameChild21}>Learning Journey</div>
           <div className={styles.buildConfidenceThroughCritiParent}>

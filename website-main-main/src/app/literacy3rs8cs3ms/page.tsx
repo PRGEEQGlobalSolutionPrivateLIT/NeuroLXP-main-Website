@@ -91,11 +91,6 @@ const NeuroLXP2103Rs8Cs3MsLiteracy: NextPage = () => {
       </div>
 
       <div className={styles.frameParent6}>
-      <div
-        id="literacy-3rs8cs3ms-talk-to-expert-button-slot"
-        data-expert-button-slot
-        className={styles.sectionExpertSlot}
-      />
 
 
         <div className={styles.frameParent7}>

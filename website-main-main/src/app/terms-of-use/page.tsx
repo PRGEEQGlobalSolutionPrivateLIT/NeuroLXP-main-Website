@@ -27,11 +27,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    1.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>DEFINITIONS</strong>
+                    <strong>1. DEFINITIONS</strong>
                     <p>
                       “Company” refers to{" "}
                       <strong>
@@ -60,11 +60,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    2.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>ACCEPTANCE OF TERMS</strong>
+                    <strong>2. ACCEPTANCE OF TERMS</strong>
                     <p>
                       By accessing, registering, or using the Platform, the User
                       irrevocably agrees to be bound by these Terms. If the User
@@ -79,11 +79,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    3.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>ELIGIBILITY AND AUTHORITY</strong>
+                    <strong>3. ELIGIBILITY AND AUTHORITY</strong>
                     <p>The User represents that:</p>
 
                     <ul className={styles["tad-sub-list"]}>
@@ -104,11 +104,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    4.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>PERMITTED USE</strong>
+                    <strong>4. PERMITTED USE</strong>
                     <p>The User agrees to:</p>
 
                     <ul className={styles["tad-sub-list"]}>
@@ -133,11 +133,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    5.
+                  
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>PROHIBITED ACTIVITIES</strong>
+                    <strong>5. PROHIBITED ACTIVITIES</strong>
                     <p>Users shall not:</p>
 
                     <ul className={styles["tad-sub-list"]}>
@@ -158,11 +158,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    6.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>ACCOUNT SECURITY</strong>
+                    <strong>6. ACCOUNT SECURITY</strong>
 
                     <ul className={styles["tad-sub-list"]}>
                       <li>
@@ -186,14 +186,14 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    7.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>PAYMENTS AND FINANCIAL TRANSACTIONS</strong>
+                    <strong>7. PAYMENTS AND FINANCIAL TRANSACTIONS</strong>
 
                     <div className={styles["tad-sub-section"]}>
-                      <div className={styles["tad-sub-index"]}>7.1</div>
+                      <div className={styles["tad-sub-index"]}>a</div>
                       <div className={styles["tad-sub-body"]}>
                         All payments must be made only through officially
                         authorized payment channels explicitly provided by{" "}
@@ -204,7 +204,7 @@ export default function TermsAndCondition() {
                     </div>
 
                     <div className={styles["tad-sub-section"]}>
-                      <div className={styles["tad-sub-index"]}>7.2</div>
+                      <div className={styles["tad-sub-index"]}>b</div>
                       <div className={styles["tad-sub-body"]}>
                         The Company does not solicit or accept payments through
                         unofficial, unauthorized, or third-party channels.
@@ -212,7 +212,7 @@ export default function TermsAndCondition() {
                     </div>
 
                     <div className={styles["tad-sub-section"]}>
-                      <div className={styles["tad-sub-index"]}>7.3</div>
+                      <div className={styles["tad-sub-index"]}>c</div>
 
                       <div className={styles["tad-sub-body"]}>
                         User Responsibility for Payment Verification:
@@ -228,7 +228,7 @@ export default function TermsAndCondition() {
                     </div>
 
                     <div className={styles["tad-sub-section"]}>
-                      <div className={styles["tad-sub-index"]}>7.4</div>
+                      <div className={styles["tad-sub-index"]}>d</div>
 
                       <div className={styles["tad-sub-body"]}>
                         Disclaimer on Unauthorized Payment Requests — The
@@ -248,7 +248,7 @@ export default function TermsAndCondition() {
                     </div>
 
                     <div className={styles["tad-sub-section"]}>
-                      <div className={styles["tad-sub-index"]}>7.5</div>
+                      <div className={styles["tad-sub-index"]}>e</div>
 
                       <div className={styles["tad-sub-body"]}>
                         Cybersecurity and Hacking Disclaimer — In the event of
@@ -275,11 +275,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    8.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>INTELLECTUAL PROPERTY RIGHTS</strong>
+                    <strong>8. INTELLECTUAL PROPERTY RIGHTS</strong>
 
                     <ul className={styles["tad-sub-list"]}>
                       <li>
@@ -303,11 +303,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    9.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>USER-GENERATED CONTENT</strong>
+                    <strong>9. USER-GENERATED CONTENT</strong>
 
                     <ul className={styles["tad-sub-list"]}>
                       <li>Users retain ownership of submitted content</li>
@@ -329,11 +329,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    10.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>DATA PRIVACY AND SECURITY</strong>
+                    <strong>10. DATA PRIVACY AND SECURITY</strong>
 
                     <ul className={styles["tad-sub-list"]}>
                       <li>
@@ -353,11 +353,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    11.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>SERVICE AVAILABILITY</strong>
+                    <strong>11. SERVICE AVAILABILITY</strong>
 
                     <ul className={styles["tad-sub-list"]}>
                       <li>
@@ -376,11 +376,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    12.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>LIMITATION OF LIABILITY</strong>
+                    <strong>12. LIMITATION OF LIABILITY</strong>
 
                     <p>
                       To the maximum extent permitted by law, the Company shall
@@ -405,11 +405,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    13.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>INDEMNIFICATION</strong>
+                    <strong>13. INDEMNIFICATION</strong>
 
                     <p>
                       The User agrees to indemnify and hold harmless the Company
@@ -430,11 +430,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    14.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>TERMINATION</strong>
+                    <strong>14. TERMINATION</strong>
 
                     <p>
                       The Company reserves the right to suspend or terminate
@@ -454,11 +454,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    15.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>GOVERNING LAW AND JURISDICTION</strong>
+                    <strong>15. GOVERNING LAW AND JURISDICTION</strong>
 
                     <p>
                       These Terms shall be governed by the laws of India. Courts
@@ -473,11 +473,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    16.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>AMENDMENTS</strong>
+                    <strong>16. AMENDMENTS</strong>
 
                     <p>
                       The Company may revise these Terms at its sole discretion.
@@ -491,11 +491,11 @@ export default function TermsAndCondition() {
                     className={styles["tad-declare-index"]}
                     aria-hidden="true"
                   >
-                    17.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>CONTACT INFORMATION</strong>
+                    <strong>17. CONTACT INFORMATION</strong>
 
                     <p>
                       <strong>

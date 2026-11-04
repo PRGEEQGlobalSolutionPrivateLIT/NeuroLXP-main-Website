@@ -257,16 +257,9 @@ const InteractiveGamifiedLearning: NextPage = () => {
           <div className={styles.frameParent9}>
 
 
-
-            <h2 className={styles.frameChild2} style={{ margin: 0 }}>
-
-
-
-              Interactive <span className={styles.mainHeadingLastWord}>Learning</span>
-
-
-
-            </h2>
+<h2 className={styles.frameChild2} style={{ margin: 0 }}>
+  Interactive{" "}Learning
+</h2>
 
 
 

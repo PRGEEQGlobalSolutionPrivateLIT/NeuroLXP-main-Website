@@ -1049,7 +1049,7 @@ const Interconnectivity: NextPage = () => {
 
 
 
-        <button
+        {/* <button
           type="button"
           className="inter-howItWorksExpertButton"
           onClick={() => {
@@ -1070,7 +1070,7 @@ const Interconnectivity: NextPage = () => {
             <path d="M21 14v3a2 2 0 0 1-2 2h-2v-7h2a2 2 0 0 1 2 2Z" />
           </svg>
           <span>Talk to Our Expert</span>
-        </button>
+        </button> */}
         <div className="inter-frameParent24">
 
 

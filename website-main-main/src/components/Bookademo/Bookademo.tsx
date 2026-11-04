@@ -266,6 +266,23 @@ function countryFlag(iso2: string) {
     );
 }
 
+const LEAD_SOURCE_OPTIONS: NeumorphicOption[] = [
+  { value: "Google", label: "Google" },
+  { value: "LinkedIn", label: "LinkedIn" },
+  { value: "Facebook", label: "Facebook" },
+  { value: "Instagram", label: "Instagram" },
+  { value: "YouTube", label: "YouTube" },
+  { value: "X (Twitter)", label: "X (Twitter)" },
+  { value: "WhatsApp", label: "WhatsApp" },
+  { value: "Email", label: "Email" },
+  { value: "Online Advertisement", label: "Online Advertisement" },
+  { value: "Webinar", label: "Webinar" },
+  { value: "Conference / Event", label: "Conference / Event" },
+  { value: "Friend / Colleague", label: "Friend / Colleague" },
+  { value: "Business Referral", label: "Business Referral" },
+  { value: "Other", label: "Other" },
+];
+
 const countryCodeOptions = allCountries
   .map((country) => ({
     id: country.iso2,
@@ -293,10 +310,12 @@ type NeumorphicDropdownProps = {
   onBlur?: () => void;
   onOpenChange?: (open: boolean) => void;
   ariaLabel: string;
+  id?: string;
   className?: string;
   renderValue?: (option: NeumorphicOption) => ReactNode;
   searchable?: boolean;
   searchPlaceholder?: string;
+  showRadioOptions?: boolean;
 };
 
 function NeumorphicDropdown({
@@ -307,10 +326,12 @@ function NeumorphicDropdown({
   onBlur,
   onOpenChange,
   ariaLabel,
+  id,
   className = "",
   renderValue,
   searchable = false,
   searchPlaceholder = "Search",
+  showRadioOptions = false,
 }: NeumorphicDropdownProps) {
   const [open, setOpen] = useState(false);
   const [menuPlacement, setMenuPlacement] =
@@ -524,6 +545,7 @@ function NeumorphicDropdown({
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={ariaLabel}
+        id={id}
       >
         <span
           className={
@@ -624,6 +646,16 @@ function NeumorphicDropdown({
                     onBlur?.();
                   }}
                 >
+                  {showRadioOptions && (
+                    <span
+                      aria-hidden="true"
+                      className={`${styles["book-demo-source-radio"]} ${
+                        option.value === value
+                          ? styles["book-demo-source-radio-checked"]
+                          : ""
+                      }`}
+                    />
+                  )}
                   {renderValue
                     ? renderValue(option)
                     : option.label}
@@ -1616,7 +1648,7 @@ function NeumorphicCalendar({
 /* Book a Demo                                                                */
 /* -------------------------------------------------------------------------- */
 
-export default function BookADemo() {
+export default function BookADemo({ onSuccess }: { onSuccess?: () => void } = {}) {
   const [fullName, setFullName] =
     useState("");
 
@@ -1641,7 +1673,21 @@ export default function BookADemo() {
   const [message, setMessage] =
     useState("");
 
+  const [leadSource, setLeadSource] =
+    useState("");
+
   const [consent, setConsent] = useState(false);
+  const [showSubmissionSuccess, setShowSubmissionSuccess] = useState(false);
+
+  useEffect(() => {
+    if (!showSubmissionSuccess) return;
+
+    const timeout = window.setTimeout(() => {
+      setShowSubmissionSuccess(false);
+    }, 5000);
+
+    return () => window.clearTimeout(timeout);
+  }, [showSubmissionSuccess]);
 
   const [
     isPrivacyPolicyOpen,
@@ -1657,6 +1703,7 @@ export default function BookADemo() {
       phone: false,
       date: false,
       time: false,
+      leadSource: false,
     });
 
   /* ------------------------------------------------------------------------ */
@@ -1853,6 +1900,9 @@ export default function BookADemo() {
   const isMessageAtLimit =
     message.length === 250;
 
+  const isLeadSourceValid =
+    LEAD_SOURCE_OPTIONS.some((option) => option.value === leadSource);
+
   const isFormValid =
     isFullNameValid &&
     isEmailValid &&
@@ -1862,6 +1912,7 @@ export default function BookADemo() {
     isDateValid &&
     isTimeValid &&
     isMessageValid &&
+    isLeadSourceValid &&
     consent;
 
   const markTouched = (
@@ -1936,6 +1987,7 @@ export default function BookADemo() {
   const dateId = useId();
   const timeId = useId();
   const messageId = useId();
+  const leadSourceId = useId();
   const consentId = useId();
   const headingId = useId();
   const calendarPanelId = useId();
@@ -1957,6 +2009,7 @@ export default function BookADemo() {
       phone: true,
       date: true,
       time: true,
+      leadSource: true,
     });
 
     if (!isFormValid) {
@@ -1983,6 +2036,7 @@ phone: normalizedPhone,
       demoDate: dateValue,
       demoTime: timeValue,
       message: message.trim(),
+      leadSource,
       consent,
     }),
   }
@@ -2016,6 +2070,7 @@ phone: normalizedPhone,
       setDateValue("");
       setTimeValue("");
       setMessage("");
+      setLeadSource("");
       setConsent(false);
 
       setTouched({
@@ -2026,9 +2081,11 @@ phone: normalizedPhone,
         phone: false,
         date: false,
         time: false,
+        leadSource: false,
       });
 
-      window.alert("Demo request submitted successfully.");
+      setShowSubmissionSuccess(true);
+      onSuccess?.();
     } catch (error) {
       const errorMessage =
         error instanceof Error
@@ -2692,7 +2749,7 @@ phone: normalizedPhone,
                                   ? `${organizationId}-error`
                                   : undefined
                               }
-                              rows={4}
+                              rows={1}
                               required
                             />
                           </div>
@@ -2707,6 +2764,32 @@ phone: normalizedPhone,
                             </p>
                           )}
                         </div>
+
+            {/* How did you hear about us? — right column */}
+            <div className={styles["book-demo-field"]}>
+              <label htmlFor={leadSourceId} className={styles["book-demo-label"]}>
+                How did you hear about us?
+              </label>
+              <NeumorphicDropdown
+                id={leadSourceId}
+                value={leadSource}
+                placeholder="Select Source"
+                ariaLabel="How did you hear about us?"
+                options={LEAD_SOURCE_OPTIONS}
+                showRadioOptions
+                className={styles["book-demo-lead-source-dropdown"]}
+                onChange={(nextValue) => {
+                  setLeadSource(nextValue);
+                  markTouched("leadSource");
+                }}
+                onBlur={() => markTouched("leadSource")}
+              />
+              {touched.leadSource && !isLeadSourceValid && (
+                <p className={styles["book-demo-error"]} role="alert">
+                  Please select how you heard about us.
+                </p>
+              )}
+            </div>
             </div>
           </div>
 
@@ -3297,6 +3380,24 @@ phone: normalizedPhone,
           </button>
         </form>
       </div>
+      {showSubmissionSuccess && typeof document !== "undefined" &&
+        createPortal(
+          <div
+            className={styles["book-demo-success-popup"]}
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            <span className={styles["book-demo-success-symbol"]} aria-hidden="true">
+              <CheckIcon />
+            </span>
+            <div className={styles["book-demo-success-copy"]}>
+              <strong>Thank you for your submission!</strong>
+              <p>Your request has been received successfully. Our team will reach out to you soon.</p>
+            </div>
+          </div>,
+          document.body
+        )}
     </section>
   );
 }
@@ -3411,10 +3512,18 @@ function BookDemoModal({ onClose }: { onClose: () => void }) {
   const dialogRef = useRef<HTMLDivElement | null>(null);
   const closeRef = useRef(onClose);
   const [portalTarget, setPortalTarget] = useState<HTMLElement | null>(null);
+  const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
     closeRef.current = onClose;
   }, [onClose]);
+
+  // Keep the form closed while only the success popup is visible.
+  useEffect(() => {
+    if (!submitted) return;
+    const timeout = window.setTimeout(() => closeRef.current(), 5000);
+    return () => window.clearTimeout(timeout);
+  }, [submitted]);
 
   // Render outside every page section, transformed wrapper, and footer.
   // Waiting for mount keeps document access safe during Next.js rendering.
@@ -3423,7 +3532,7 @@ function BookDemoModal({ onClose }: { onClose: () => void }) {
   }, []);
 
   useEffect(() => {
-    if (!portalTarget) return;
+    if (!portalTarget || submitted) return;
 
     const previouslyFocused = document.activeElement;
     const previousBodyOverflow = document.body.style.overflow;
@@ -3473,39 +3582,61 @@ function BookDemoModal({ onClose }: { onClose: () => void }) {
         previouslyFocused.focus({ preventScroll: true });
       }
     };
-  }, [portalTarget]);
+  }, [portalTarget, submitted]);
 
   if (!portalTarget) return null;
 
+  // Swap the entire modal for the notification after successful submission.
+  // The popup lives in the document.body portal, outside the dimmed overlay.
   return createPortal(
-    <div
-      className={styles["book-demo-modal-overlay"]} data-book-demo-modal-overlay="true"
-      onMouseDown={(event) => {
-        if (event.target === event.currentTarget) closeRef.current();
-      }}
-    >
-      <style>{BOOK_DEMO_MODAL_LAYOUT}</style>
+    submitted ? (
       <div
-        className={styles["book-demo-modal-dialog"]} data-book-demo-modal-dialog="true"
-        role="dialog"
-        aria-modal="true"
-        aria-label="Book a demo"
-        ref={dialogRef}
-        tabIndex={-1}
+        className={styles["book-demo-success-popup"]}
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
       >
-        <button
-          type="button"
-          className={styles["book-demo-modal-close"]} data-book-demo-modal-close="true"
-          onClick={onClose}
-          aria-label="Close book a demo form"
-        >
-          <CloseIcon className={styles["book-demo-modal-close-icon"]} />
-        </button>
-        <div className={styles["book-demo-modal-scroll"]} data-book-demo-modal-scroll="true">
-          <BookADemo />
+        <span className={styles["book-demo-success-symbol"]} aria-hidden="true">
+          <CheckIcon />
+        </span>
+        <div className={styles["book-demo-success-copy"]}>
+          <strong>Thank you for your submission!</strong>
+          <p>Your request has been received successfully. Our team will reach out to you soon.</p>
         </div>
       </div>
-    </div>,
+    ) : (
+      <div
+        className={styles["book-demo-modal-overlay"]}
+        data-book-demo-modal-overlay="true"
+        onMouseDown={(event) => {
+          if (event.target === event.currentTarget) closeRef.current();
+        }}
+      >
+        <style>{BOOK_DEMO_MODAL_LAYOUT}</style>
+        <div
+          className={styles["book-demo-modal-dialog"]}
+          data-book-demo-modal-dialog="true"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Book a demo"
+          ref={dialogRef}
+          tabIndex={-1}
+        >
+          <button
+            type="button"
+            className={styles["book-demo-modal-close"]}
+            data-book-demo-modal-close="true"
+            onClick={onClose}
+            aria-label="Close book a demo form"
+          >
+            <CloseIcon className={styles["book-demo-modal-close-icon"]} />
+          </button>
+          <div className={styles["book-demo-modal-scroll"]} data-book-demo-modal-scroll="true">
+            <BookADemo onSuccess={() => setSubmitted(true)} />
+          </div>
+        </div>
+      </div>
+    ),
     portalTarget
   );
 }

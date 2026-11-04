@@ -37,13 +37,13 @@ export default function Footer() {
         <div className={styles["nlxp-footer-top"]}>
           <div className={styles["nlxp-footer-brand"]}>
             <div className={styles["nlxp-footer-brand-top"]}>
-              <Image
-                src="/images/logo_01_synapse_spark.webp"
-                alt="NeuroLXP"
-                width={299}
-                height={112}
-                className={styles["nlxp-footer-logo"]}
-              />
+             <Image
+  src="/images/logo_01_synapse_spark.webp"
+  alt="NeuroLXP"
+  width={299}
+  height={112}
+  className={styles["nlxp-footer-logo"]}
+/>
 
               <div className={styles["nlxp-footer-tagline"]}>
                 <span className={styles["nlxp-footer-tagline-text"]}>
@@ -221,7 +221,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61551224571706"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`${styles["nlxp-footer-social-icon"]} ${styles["nlxp-footer-social-icon--facebook"]}`}
@@ -231,7 +231,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/prgeeqglobal/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`${styles["nlxp-footer-social-icon"]} ${styles["nlxp-footer-social-icon--instagram"]}`}

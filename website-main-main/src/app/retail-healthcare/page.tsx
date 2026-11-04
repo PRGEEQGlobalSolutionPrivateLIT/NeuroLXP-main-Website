@@ -634,13 +634,7 @@ const RetailAndHealthCare: NextPage = () => {
 
         <div className={styles.frameParent23}>
 
-            <div
 
-              className={styles.expertButtonSlot}
-
-              data-expert-button-slot
-
-            />
 
           <div className={styles.frameParent24}>
 

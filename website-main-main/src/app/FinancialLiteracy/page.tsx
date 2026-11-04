@@ -948,15 +948,7 @@ export default function FinancialLiteracyPage() {
 
       <div className={styles.frameParent23}>
 
-      <div
 
-        id="financial-literacy-talk-to-expert-button-slot"
-
-        data-expert-button-slot
-
-        className={styles.sectionExpertSlot}
-
-      />
 
 
 

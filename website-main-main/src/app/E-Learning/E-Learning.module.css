@@ -2767,7 +2767,7 @@
 .eLearning > .frameParent35 {
   order: 6;
   margin-top: 96px;
-  margin-bottom: 96px;
+  margin-bottom: 0;
 }
 
 .eLearningChild,
@@ -7229,4 +7229,33 @@ body:has(.eLearning) * {
     height: 2000%;
     transform: translate(-50%, -50%);
     border: none;
+}
+
+/* E-Learning only: center the global expert launcher inside the page layout. */
+.eLearning > .expertBottomAnchor {
+  order: 7;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  min-height: 64px;
+  margin: 8px 0 12px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .eLearning > .expertBottomAnchor {
+    min-height: 60px;
+    margin: 8px 0 12px;
+  }
+}
+
+/* E-Learning: remove the horizontal divider shadow below the expert button. */
+.eLearning {
+  box-shadow: inset 4px 4px 4px rgba(196, 196, 196, 0.8);
+  border-bottom: 0;
 }

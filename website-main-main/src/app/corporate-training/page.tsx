@@ -512,10 +512,6 @@ const toggleCorporateVideo = () => {
                 </div>
 
                 <div className={styles.frameParent16}>
-                    <div
-                        className={styles.corporateExpertButtonSlot}
-                        data-expert-button-slot
-                    />
 
                     <div className={styles.frameParent17}>
 

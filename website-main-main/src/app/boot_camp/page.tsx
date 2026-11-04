@@ -491,11 +491,6 @@ const Bootcamp: NextPage = () => {
 
 
       <div className={styles.frameParent5}>
-      <div
-        id="bootcamp-talk-to-expert-button-slot"
-        data-expert-button-slot
-        className={styles.bootcampExpertSlot}
-      />
 
 
 

@@ -271,21 +271,9 @@
 
 
 .analyticsReporting ::selection {
-
-
-
-  background: #c2d0ff;
-
-
-
-  color: #172651;
-
-
-
-  -webkit-text-fill-color: #172651;
-
-
-
+  background: #2d4cc8;
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
 }
 
 

@@ -513,11 +513,6 @@ function StepCard({
 function DigitalLiteracyHowItWorks() {
   return (
     <section className={styles["dl-howitworks-section"]}>
-      <div
-        id="digital-literacy-talk-to-expert-button-slot"
-        data-expert-button-slot
-        className={styles["dl-expert-slot"]}
-      />
       <div className={styles["dl-analytics-header"]}>
         <span className={styles["dl-hero-badge"]}>How it Works</span>
         <h2 className={`${styles["dl-section-heading"]} ${styles["dl-center"]}`}>From Assessment to Mastery in Four Steps</h2>

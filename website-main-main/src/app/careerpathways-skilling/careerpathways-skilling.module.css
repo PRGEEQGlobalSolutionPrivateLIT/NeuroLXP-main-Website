@@ -4065,9 +4065,9 @@ flex-shrink:0;
 
 .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling::selection,
 .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling *::selection {
-  background:#b9caff !important;
-  color:#162562 !important;
-  -webkit-text-fill-color:#162562 !important;
+  background:#2d4cc8 !important;
+  color:#fff !important;
+  -webkit-text-fill-color:#fff !important;
   text-shadow:none !important;
 }
 
@@ -6578,7 +6578,7 @@ flex-shrink:0;
 .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem {
   gap: 5px !important;
   min-width: 0 !important;
-  font-size: clamp(10px, 1.15vw, 15px) !important;
+  font-size: clamp(16px, 1.3vw, 18px) !important;
   white-space: nowrap !important;
 }
 .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem > span {
@@ -6608,4 +6608,20 @@ flex-shrink:0;
   .careerPathwaysSkilling.careerPathwaysSkilling.careerPathwaysSkilling .learningAnalytics .trackItem {
     font-size: 16px !important;
   }
+}
+
+/* Typography-only fix: match Track labels and progress-ring captions to page text. */
+@media (min-width: 768px) {
+  .careerPathwaysSkilling .learningAnalytics .trackItem {
+    font-size: clamp(16px, 1.3vw, 18px) !important;
+  }
+  .careerPathwaysSkilling .learningAnalytics .trackItem > span {
+    font-size: inherit !important;
+  }
+}
+.careerPathwaysSkilling .technicalSkills,
+.careerPathwaysSkilling .practicalSkills,
+.careerPathwaysSkilling .careerReadiness {
+  font-size: 17px;
+  line-height: 1.3;
 }

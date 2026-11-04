@@ -28,11 +28,11 @@ export default function PrivacyPolicyAcceptance() {
               <div className={styles["tad-declare-list"]}>
                 <div className={styles["tad-declare-item"]}>
                   <div className={styles["tad-declare-index"]} aria-hidden="true">
-                    1.
+                  
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>ACKNOWLEDGMENT</strong>
+                    <strong> 1. ACKNOWLEDGMENT</strong>
                     <p>
                       I have carefully read, fully understood, and voluntarily
                       agree to be bound by the Terms and Conditions of{" "}
@@ -43,11 +43,11 @@ export default function PrivacyPolicyAcceptance() {
 
                 <div className={styles["tad-declare-item"]}>
                   <div className={styles["tad-declare-index"]} aria-hidden="true">
-                    2.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>DATA COLLECTION AND USAGE CONSENT</strong>
+                    <strong>2. DATA COLLECTION AND USAGE CONSENT</strong>
                     <p>
                       I confirm that I have read and understood the Privacy
                       Policy and agree to its terms.
@@ -64,11 +64,11 @@ export default function PrivacyPolicyAcceptance() {
 
                 <div className={styles["tad-declare-item"]}>
                   <div className={styles["tad-declare-index"]} aria-hidden="true">
-                    3.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>DATA COLLECTION AND USAGE CONSENT</strong>
+                    <strong>3. DATA COLLECTION AND USAGE CONSENT</strong>
                     <p>
                       I consent to the collection and processing of my personal
                       data, including but not limited to:
@@ -86,11 +86,11 @@ export default function PrivacyPolicyAcceptance() {
 
                 <div className={styles["tad-declare-item"]}>
                   <div className={styles["tad-declare-index"]} aria-hidden="true">
-                    4.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>DATA SECURITY DISCLAIMER</strong>
+                    <strong>4. DATA SECURITY DISCLAIMER</strong>
 
                     <ul className={styles["tad-sub-list"]}>
                       <li>
@@ -112,12 +112,12 @@ export default function PrivacyPolicyAcceptance() {
 
                 <div className={styles["tad-declare-item"]}>
                   <div className={styles["tad-declare-index"]} aria-hidden="true">
-                    5.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
                     <strong>
-                      PAYMENT AND FRAUD PREVENTION DISCLAIMER
+                     5.  PAYMENT AND FRAUD PREVENTION DISCLAIMER
                     </strong>
 
                     <ul className={styles["tad-sub-list"]}>
@@ -135,11 +135,11 @@ export default function PrivacyPolicyAcceptance() {
 
                 <div className={styles["tad-declare-item"]}>
                   <div className={styles["tad-declare-index"]} aria-hidden="true">
-                    6.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>USER RIGHTS</strong>
+                    <strong>6. USER RIGHTS</strong>
                     <p>Subject to applicable laws, I understand I may:</p>
 
                     <ul className={styles["tad-sub-list"]}>
@@ -152,11 +152,11 @@ export default function PrivacyPolicyAcceptance() {
 
                 <div className={styles["tad-declare-item"]}>
                   <div className={styles["tad-declare-index"]} aria-hidden="true">
-                    7.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>THIRD-PARTY SERVICES</strong>
+                    <strong>7. THIRD-PARTY SERVICES</strong>
                     <p>
                       I acknowledge that certain services may involve
                       third-party providers, and the Company is not responsible
@@ -167,11 +167,11 @@ export default function PrivacyPolicyAcceptance() {
 
                 <div className={styles["tad-declare-item"]}>
                   <div className={styles["tad-declare-index"]} aria-hidden="true">
-                    8.
+                    
                   </div>
 
                   <div className={styles["tad-declare-body"]}>
-                    <strong>CONSENT VALIDITY</strong>
+                    <strong>8. CONSENT VALIDITY</strong>
                     <p>This consent:</p>
 
                     <ul className={styles["tad-sub-list"]}>

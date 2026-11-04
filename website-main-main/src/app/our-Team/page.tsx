@@ -574,8 +574,7 @@ const teamMembers: {
 
 
 
-    linkedin: "https://www.linkedin.com/in/inchana-b-c/",
-
+    linkedin: "https://www.linkedin.com/in/inchana-b-c-86b29b297?utm_source=share_via&utm_content=profile&utm_medium=member_android"
 
 
   },

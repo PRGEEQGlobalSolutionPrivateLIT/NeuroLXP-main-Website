@@ -20,6 +20,7 @@ export class EmailService {
     demoDate: string;
     demoTime: string;
     message?: string;
+    leadSource?: string;
   }): Promise<void> {
     const adminEmail = process.env.ADMIN_EMAIL;
     const from = process.env.EMAIL_FROM;
@@ -41,6 +42,7 @@ export class EmailService {
         <p><strong>Phone:</strong> ${this.escapeHtml(data.countryCode || '')} ${this.escapeHtml(data.phone)}</p>
         <p><strong>Demo Date:</strong> ${this.escapeHtml(data.demoDate)}</p>
         <p><strong>Demo Time:</strong> ${this.escapeHtml(data.demoTime)}</p>
+        <p><strong>How did you hear about us?:</strong> ${this.escapeHtml(data.leadSource || 'Not provided')}</p>
         <p><strong>Message:</strong> ${this.escapeHtml(data.message || 'Not provided')}</p>
       `,
     });
@@ -62,6 +64,7 @@ export class EmailService {
     subject: string;
     message: string;
     consent: boolean;
+    leadSource?: string;
   }): Promise<void> {
     const adminEmail = process.env.ADMIN_EMAIL;
     const from = process.env.EMAIL_FROM;
@@ -82,6 +85,7 @@ export class EmailService {
         <p><strong>Email:</strong> ${this.escapeHtml(data.email)}</p>
         <p><strong>Phone:</strong> ${this.escapeHtml(data.countryCode)} ${this.escapeHtml(data.phone)}</p>
         <p><strong>Subject:</strong> ${this.escapeHtml(data.subject)}</p>
+        <p><strong>How did you hear about us?:</strong> ${this.escapeHtml(data.leadSource || 'Not provided')}</p>
         <p><strong>Message:</strong></p>
         <p>${this.escapeHtml(data.message).replace(/\r?\n/g, '<br>')}</p>
         <p><strong>Privacy Consent:</strong> ${data.consent ? 'Accepted' : 'Not accepted'}</p>
@@ -98,7 +102,7 @@ export class EmailService {
     this.logger.log('Contact Us notification email sent.');
   }
 
-  // New Talk to Our Expert email notification
+  // Existing Talk to Our Expert email notification
   async sendTalkToExpertNotification(data: {
     fullName: string;
     email: string;
@@ -107,6 +111,7 @@ export class EmailService {
     interest: string;
     query: string;
     consent: boolean;
+    leadSource?: string;
   }): Promise<void> {
     const adminEmail = process.env.ADMIN_EMAIL;
     const from = process.env.EMAIL_FROM;
@@ -142,6 +147,8 @@ export class EmailService {
         <p><strong>Phone Number:</strong> ${this.escapeHtml(data.phone)}</p>
 
         <p><strong>Area of Interest:</strong> ${this.escapeHtml(data.interest)}</p>
+
+        <p><strong>How did you hear about us?:</strong> ${this.escapeHtml(data.leadSource || 'Not provided')}</p>
 
         <p><strong>Query / Question:</strong></p>
 

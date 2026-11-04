@@ -4479,13 +4479,13 @@
 /* Selection highlight */
 
 .genzgalaxy ::selection {
-  background: rgba(45, 76, 200, 0.22);
-  color: inherit;
+  background: #2D4CC8;
+  color: #FFFFFF;
 }
 
 .genzgalaxy ::-moz-selection {
-  background: rgba(45, 76, 200, 0.22);
-  color: inherit;
+  background: #2D4CC8;
+  color: #FFFFFF;
 }
 
 
@@ -4632,10 +4632,12 @@
 .sectionExpertSlot {
   position: absolute;
   top: 96px;
-  right: -48px;
+  bottom: auto;
+  right: 8px;
+  left: auto;
   width: 64px;
   height: 64px;
-  z-index: 12;
+  z-index: 10001;
   pointer-events: none;
 }
 
@@ -4828,3 +4830,39 @@
   }
 }
 
+.genzgalaxy ::selection {
+  background: #2D4CC8;
+  color: #FFFFFF;
+}
+
+.genzgalaxy ::-moz-selection {
+  background: #2D4CC8;
+  color: #FFFFFF;
+}
+
+
+/* Page-specific placement: near the bottom-right of GenZGalaxy content,
+   not the viewport; the launcher scrolls away with this page. */
+.genzgalaxy > .sectionExpertSlot {
+  position: absolute !important;
+  top: auto !important;
+  bottom: 47px !important;
+  right: 8px !important;
+  left: auto !important;
+  transform: none !important;
+}
+
+@media (max-width: 767px) {
+  .genzgalaxy > .sectionExpertSlot {
+    bottom: 0px !important;
+    right: 16px !important;
+    width: 52px !important;
+    height: 52px !important;
+  }
+  .genzgalaxy > .sectionExpertSlot > :global(button[class*="talk-to-expert-fab"]) {
+    width: 52px !important;
+    height: 52px !important;
+    min-width: 52px !important;
+    min-height: 52px !important;
+  }
+}
