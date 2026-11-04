@@ -1,3 +1,4 @@
+
 "use client";
 
 import {
@@ -38,8 +39,9 @@ function ExpertLauncher() {
   const openExpert = useCallback(() => setIsOpen(true), []);
   const closeExpert = useCallback(() => setIsOpen(false), []);
 
-  /* Existing page visibility rules are unchanged. */
+  /* Hide the expert button on the root Home Page and existing excluded pages. */
   const hideExpertButton =
+    pathname === "/" ||
     pathname === "/HomePage" ||
     pathname.startsWith("/HomePage/") ||
     pathname === "/content_managment" ||
@@ -48,7 +50,7 @@ function ExpertLauncher() {
     pathname.startsWith("/careerpathways-skilling") ||
     pathname === "/employee-induction" ||
     pathname.startsWith("/employee-induction") ||
-    pathname === "/standards-training" || 
+    pathname === "/standards-training" ||
     pathname.startsWith("/standards-training") ||
     pathname === "/blended-learning" ||
     pathname.startsWith("/blended-learning") ||
@@ -94,7 +96,12 @@ function ExpertLauncher() {
       const observer = new MutationObserver(() => {
         if (placeAnchor()) observer.disconnect();
       });
-      observer.observe(document.body, { childList: true, subtree: true });
+
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true,
+      });
+
       return () => {
         observer.disconnect();
         anchor.remove();
@@ -122,11 +129,17 @@ function ExpertLauncher() {
       aria-expanded={isOpen}
       title="Talk to our Expert"
     >
-      <span className={styles["talk-to-expert-fab-icon-ring"]} aria-hidden="true">
+      <span
+        className={styles["talk-to-expert-fab-icon-ring"]}
+        aria-hidden="true"
+      >
         <span className={styles["talk-to-expert-fab-icon-circle"]}>
-          <HeadphonesIcon className={styles["talk-to-expert-fab-icon"]} />
+          <HeadphonesIcon
+            className={styles["talk-to-expert-fab-icon"]}
+          />
         </span>
       </span>
+
       <span className={styles["talk-to-expert-fab-label"]}>
         Talk to Our Expert
       </span>
@@ -135,11 +148,14 @@ function ExpertLauncher() {
 
   return (
     <>
-      {pageAnchor ? createPortal(launcherButton, pageAnchor) : (
+      {pageAnchor ? (
+        createPortal(launcherButton, pageAnchor)
+      ) : (
         <div className={styles["talk-to-expert-page-anchor"]}>
           {launcherButton}
         </div>
       )}
+
       <TalkToOurExpert isOpen={isOpen} onClose={closeExpert} />
     </>
   );
@@ -148,5 +164,6 @@ function ExpertLauncher() {
 /** Retain this export so existing page imports continue to work. */
 export default function TalkToExpertButton() {
   const hasGlobalExpert = useContext(GlobalExpertContext);
+
   return hasGlobalExpert ? null : <ExpertLauncher />;
 }
